@@ -1,0 +1,1866 @@
+{
+ "model": "jev-latest",
+ "state": {
+  "task": "Advisory review of complete six-number Jamaica Lotto candidate tickets (6 of 1-38) for draw #2340, using only pre-draw evidence through draw #2339.",
+  "statistical_context": {
+   "validated_edge": false,
+   "gate_rule": "Holm-adj full-sample one-sided p<0.05 AND development p<0.05 AND confirmation p<0.05",
+   "randomness_tests_min_holm_p": 0.762809297675581,
+   "best_single_ticket_method_mean": 1.0852713178294573,
+   "best_of_22_random_strategies_median": 1.0852713178294573,
+   "random_ticket_expected_matches": 0.9473684210526315,
+   "P_3plus_random": 0.038698060369886995,
+   "walkforward_targets": 129,
+   "ewma_decay_sensitivity_pool8_mean": {
+    "0.8": 1.434108527131783,
+    "0.85": 1.4883720930232558,
+    "0.9": 1.4883720930232558,
+    "0.95": 1.3565891472868217
+   },
+   "pool8_random_expectation": 1.263157894736842,
+   "note_2339": "Prior ticket 01-04-13-14-24-38 hit 3/6; P(>=3 | random ticket)=0.0387; one observation, not evidence of skill."
+  },
+  "candidates": [
+   {
+    "numbers": [
+     1,
+     6,
+     13,
+     18,
+     25,
+     33
+    ],
+    "generating_methods": [
+     "pair_opt_top10:ensemble"
+    ],
+    "walkforward_backtest_vs_random_0947": {
+     "pair_opt_top10:ensemble": {
+      "mean": 0.984,
+      "p_one_sided": 0.322,
+      "p_holm": 1.0,
+      "dev_mean": 0.984,
+      "conf_mean": 0.985
+     }
+    },
+    "models_count_of_ticket_numbers_in_their_top10": {
+     "freq_all": 5,
+     "freq_w10": 3,
+     "freq_w20": 3,
+     "freq_w40": 3,
+     "ewma_0.9": 4,
+     "cold_all": 0,
+     "overdue_gap": 0,
+     "recent_hot": 4,
+     "trend_20v20": 3,
+     "pair_last": 5,
+     "repeat_last": 3,
+     "ensemble_eq": 6
+    },
+    "mean_rank": {
+     "freq_all": 8.7,
+     "ewma_0.9": 11.7,
+     "freq_w10": 12.3,
+     "trend_20v20": 15.2,
+     "overdue_gap": 28.7,
+     "pair_last": 6.7
+    },
+    "recent_last10_appearances": [
+     4,
+     2,
+     5,
+     3,
+     1,
+     1
+    ],
+    "long_term_appearances_169": [
+     31,
+     27,
+     31,
+     35,
+     32,
+     30
+    ],
+    "current_gaps": [
+     1,
+     1,
+     1,
+     2,
+     3,
+     9
+    ],
+    "repeats_from_2339": 3,
+    "internal_pair_log_lift": 3.322,
+    "structure": {
+     "sum": 96,
+     "sum_z": -0.78,
+     "odd": 4,
+     "low_1_19": 4,
+     "range": 32,
+     "consecutive_pairs": 0
+    },
+    "expected_matches_under_uniform": 0.9474,
+    "id": "C01"
+   },
+   {
+    "numbers": [
+     1,
+     2,
+     4,
+     7,
+     13,
+     18
+    ],
+    "generating_methods": [
+     "top6:freq_w10"
+    ],
+    "walkforward_backtest_vs_random_0947": {
+     "top6:freq_w10": {
+      "mean": 1.008,
+      "p_one_sided": 0.219,
+      "p_holm": 1.0,
+      "dev_mean": 1.094,
+      "conf_mean": 0.923
+     }
+    },
+    "models_count_of_ticket_numbers_in_their_top10": {
+     "freq_all": 4,
+     "freq_w10": 6,
+     "freq_w20": 5,
+     "freq_w40": 2,
+     "ewma_0.9": 6,
+     "cold_all": 0,
+     "overdue_gap": 0,
+     "recent_hot": 4,
+     "trend_20v20": 5,
+     "pair_last": 3,
+     "repeat_last": 4,
+     "ensemble_eq": 5
+    },
+    "mean_rank": {
+     "freq_all": 10.2,
+     "ewma_0.9": 4.2,
+     "freq_w10": 3.5,
+     "trend_20v20": 7.5,
+     "overdue_gap": 31.8,
+     "pair_last": 17.7
+    },
+    "recent_last10_appearances": [
+     4,
+     3,
+     4,
+     4,
+     5,
+     3
+    ],
+    "long_term_appearances_169": [
+     31,
+     29,
+     32,
+     25,
+     31,
+     35
+    ],
+    "current_gaps": [
+     1,
+     3,
+     1,
+     3,
+     1,
+     2
+    ],
+    "repeats_from_2339": 3,
+    "internal_pair_log_lift": 2.265,
+    "structure": {
+     "sum": 45,
+     "sum_z": -2.73,
+     "odd": 3,
+     "low_1_19": 6,
+     "range": 17,
+     "consecutive_pairs": 1
+    },
+    "expected_matches_under_uniform": 0.9474,
+    "id": "C02"
+   },
+   {
+    "numbers": [
+     1,
+     2,
+     4,
+     13,
+     18,
+     24
+    ],
+    "generating_methods": [
+     "consensus_votes"
+    ],
+    "walkforward_backtest_vs_random_0947": {
+     "consensus_votes": {
+      "mean": 0.992,
+      "p_one_sided": 0.285,
+      "p_holm": 1.0,
+      "dev_mean": 0.969,
+      "conf_mean": 1.015
+     }
+    },
+    "models_count_of_ticket_numbers_in_their_top10": {
+     "freq_all": 5,
+     "freq_w10": 6,
+     "freq_w20": 5,
+     "freq_w40": 3,
+     "ewma_0.9": 6,
+     "cold_all": 0,
+     "overdue_gap": 0,
+     "recent_hot": 4,
+     "trend_20v20": 5,
+     "pair_last": 3,
+     "repeat_last": 4,
+     "ensemble_eq": 6
+    },
+    "mean_rank": {
+     "freq_all": 7.0,
+     "ewma_0.9": 4.0,
+     "freq_w10": 4.0,
+     "trend_20v20": 7.7,
+     "overdue_gap": 30.7,
+     "pair_last": 18.5
+    },
+    "recent_last10_appearances": [
+     4,
+     3,
+     4,
+     5,
+     3,
+     3
+    ],
+    "long_term_appearances_169": [
+     31,
+     29,
+     32,
+     31,
+     35,
+     32
+    ],
+    "current_gaps": [
+     1,
+     3,
+     1,
+     1,
+     2,
+     4
+    ],
+    "repeats_from_2339": 3,
+    "internal_pair_log_lift": 1.155,
+    "structure": {
+     "sum": 62,
+     "sum_z": -2.08,
+     "odd": 2,
+     "low_1_19": 5,
+     "range": 23,
+     "consecutive_pairs": 1
+    },
+    "expected_matches_under_uniform": 0.9474,
+    "id": "C03"
+   },
+   {
+    "numbers": [
+     2,
+     4,
+     7,
+     12,
+     13,
+     24
+    ],
+    "generating_methods": [
+     "top6:trend_20v20"
+    ],
+    "walkforward_backtest_vs_random_0947": {
+     "top6:trend_20v20": {
+      "mean": 0.922,
+      "p_one_sided": 0.65,
+      "p_holm": 1.0,
+      "dev_mean": 0.859,
+      "conf_mean": 0.985
+     }
+    },
+    "models_count_of_ticket_numbers_in_their_top10": {
+     "freq_all": 3,
+     "freq_w10": 5,
+     "freq_w20": 5,
+     "freq_w40": 2,
+     "ewma_0.9": 5,
+     "cold_all": 0,
+     "overdue_gap": 0,
+     "recent_hot": 2,
+     "trend_20v20": 6,
+     "pair_last": 1,
+     "repeat_last": 3,
+     "ensemble_eq": 4
+    },
+    "mean_rank": {
+     "freq_all": 11.8,
+     "ewma_0.9": 5.8,
+     "freq_w10": 7.3,
+     "trend_20v20": 3.5,
+     "overdue_gap": 26.7,
+     "pair_last": 27.8
+    },
+    "recent_last10_appearances": [
+     3,
+     4,
+     4,
+     1,
+     5,
+     3
+    ],
+    "long_term_appearances_169": [
+     29,
+     32,
+     25,
+     28,
+     31,
+     32
+    ],
+    "current_gaps": [
+     3,
+     1,
+     3,
+     7,
+     1,
+     4
+    ],
+    "repeats_from_2339": 2,
+    "internal_pair_log_lift": 0.921,
+    "structure": {
+     "sum": 62,
+     "sum_z": -2.08,
+     "odd": 2,
+     "low_1_19": 5,
+     "range": 22,
+     "consecutive_pairs": 1
+    },
+    "expected_matches_under_uniform": 0.9474,
+    "id": "C04"
+   },
+   {
+    "numbers": [
+     4,
+     13,
+     18,
+     25,
+     29,
+     33
+    ],
+    "generating_methods": [
+     "diversity_bands:ensemble"
+    ],
+    "walkforward_backtest_vs_random_0947": {
+     "diversity_bands:ensemble": {
+      "mean": 1.023,
+      "p_one_sided": 0.162,
+      "p_holm": 1.0,
+      "dev_mean": 1.016,
+      "conf_mean": 1.031
+     }
+    },
+    "models_count_of_ticket_numbers_in_their_top10": {
+     "freq_all": 5,
+     "freq_w10": 3,
+     "freq_w20": 2,
+     "freq_w40": 1,
+     "ewma_0.9": 3,
+     "cold_all": 1,
+     "overdue_gap": 0,
+     "recent_hot": 4,
+     "trend_20v20": 3,
+     "pair_last": 5,
+     "repeat_last": 2,
+     "ensemble_eq": 5
+    },
+    "mean_rank": {
+     "freq_all": 11.3,
+     "ewma_0.9": 11.8,
+     "freq_w10": 12.8,
+     "trend_20v20": 14.0,
+     "overdue_gap": 27.8,
+     "pair_last": 8.5
+    },
+    "recent_last10_appearances": [
+     4,
+     5,
+     3,
+     1,
+     2,
+     1
+    ],
+    "long_term_appearances_169": [
+     32,
+     31,
+     35,
+     32,
+     19,
+     30
+    ],
+    "current_gaps": [
+     1,
+     1,
+     2,
+     3,
+     2,
+     9
+    ],
+    "repeats_from_2339": 2,
+    "internal_pair_log_lift": 2.803,
+    "structure": {
+     "sum": 122,
+     "sum_z": 0.21,
+     "odd": 4,
+     "low_1_19": 3,
+     "range": 29,
+     "consecutive_pairs": 0
+    },
+    "expected_matches_under_uniform": 0.9474,
+    "id": "C05"
+   },
+   {
+    "numbers": [
+     4,
+     8,
+     18,
+     24,
+     35,
+     38
+    ],
+    "generating_methods": [
+     "top6:freq_all"
+    ],
+    "walkforward_backtest_vs_random_0947": {
+     "top6:freq_all": {
+      "mean": 1.0,
+      "p_one_sided": 0.251,
+      "p_holm": 1.0,
+      "dev_mean": 1.047,
+      "conf_mean": 0.954
+     }
+    },
+    "models_count_of_ticket_numbers_in_their_top10": {
+     "freq_all": 6,
+     "freq_w10": 4,
+     "freq_w20": 2,
+     "freq_w40": 2,
+     "ewma_0.9": 3,
+     "cold_all": 0,
+     "overdue_gap": 1,
+     "recent_hot": 2,
+     "trend_20v20": 2,
+     "pair_last": 2,
+     "repeat_last": 2,
+     "ensemble_eq": 3
+    },
+    "mean_rank": {
+     "freq_all": 3.5,
+     "ewma_0.9": 11.8,
+     "freq_w10": 13.7,
+     "trend_20v20": 18.2,
+     "overdue_gap": 21.0,
+     "pair_last": 17.5
+    },
+    "recent_last10_appearances": [
+     4,
+     2,
+     3,
+     3,
+     1,
+     0
+    ],
+    "long_term_appearances_169": [
+     32,
+     36,
+     35,
+     32,
+     32,
+     33
+    ],
+    "current_gaps": [
+     1,
+     4,
+     2,
+     4,
+     7,
+     14
+    ],
+    "repeats_from_2339": 1,
+    "internal_pair_log_lift": -0.603,
+    "structure": {
+     "sum": 127,
+     "sum_z": 0.4,
+     "odd": 1,
+     "low_1_19": 3,
+     "range": 34,
+     "consecutive_pairs": 0
+    },
+    "expected_matches_under_uniform": 0.9474,
+    "id": "C06"
+   },
+   {
+    "numbers": [
+     1,
+     5,
+     6,
+     18,
+     25,
+     33
+    ],
+    "generating_methods": [
+     "top6:pair_last"
+    ],
+    "walkforward_backtest_vs_random_0947": {
+     "top6:pair_last": {
+      "mean": 0.977,
+      "p_one_sided": 0.361,
+      "p_holm": 1.0,
+      "dev_mean": 0.906,
+      "conf_mean": 1.046
+     }
+    },
+    "models_count_of_ticket_numbers_in_their_top10": {
+     "freq_all": 4,
+     "freq_w10": 2,
+     "freq_w20": 2,
+     "freq_w40": 2,
+     "ewma_0.9": 3,
+     "cold_all": 1,
+     "overdue_gap": 1,
+     "recent_hot": 3,
+     "trend_20v20": 2,
+     "pair_last": 6,
+     "repeat_last": 2,
+     "ensemble_eq": 5
+    },
+    "mean_rank": {
+     "freq_all": 13.7,
+     "ewma_0.9": 17.7,
+     "freq_w10": 17.5,
+     "trend_20v20": 17.5,
+     "overdue_gap": 24.0,
+     "pair_last": 3.5
+    },
+    "recent_last10_appearances": [
+     4,
+     0,
+     2,
+     3,
+     1,
+     1
+    ],
+    "long_term_appearances_169": [
+     31,
+     17,
+     27,
+     35,
+     32,
+     30
+    ],
+    "current_gaps": [
+     1,
+     12,
+     1,
+     2,
+     3,
+     9
+    ],
+    "repeats_from_2339": 2,
+    "internal_pair_log_lift": 2.803,
+    "structure": {
+     "sum": 88,
+     "sum_z": -1.09,
+     "odd": 4,
+     "low_1_19": 4,
+     "range": 32,
+     "consecutive_pairs": 1
+    },
+    "expected_matches_under_uniform": 0.9474,
+    "id": "C07"
+   },
+   {
+    "numbers": [
+     1,
+     4,
+     6,
+     13,
+     18,
+     25
+    ],
+    "generating_methods": [
+     "top6:ensemble_eq"
+    ],
+    "walkforward_backtest_vs_random_0947": {
+     "top6:ensemble_eq": {
+      "mean": 1.008,
+      "p_one_sided": 0.219,
+      "p_holm": 1.0,
+      "dev_mean": 0.938,
+      "conf_mean": 1.077
+     }
+    },
+    "models_count_of_ticket_numbers_in_their_top10": {
+     "freq_all": 5,
+     "freq_w10": 4,
+     "freq_w20": 4,
+     "freq_w40": 3,
+     "ewma_0.9": 5,
+     "cold_all": 0,
+     "overdue_gap": 0,
+     "recent_hot": 5,
+     "trend_20v20": 3,
+     "pair_last": 5,
+     "repeat_last": 4,
+     "ensemble_eq": 6
+    },
+    "mean_rank": {
+     "freq_all": 7.7,
+     "ewma_0.9": 7.0,
+     "freq_w10": 8.2,
+     "trend_20v20": 13.8,
+     "overdue_gap": 32.5,
+     "pair_last": 7.8
+    },
+    "recent_last10_appearances": [
+     4,
+     4,
+     2,
+     5,
+     3,
+     1
+    ],
+    "long_term_appearances_169": [
+     31,
+     32,
+     27,
+     31,
+     35,
+     32
+    ],
+    "current_gaps": [
+     1,
+     1,
+     1,
+     1,
+     2,
+     3
+    ],
+    "repeats_from_2339": 4,
+    "internal_pair_log_lift": 2.938,
+    "structure": {
+     "sum": 67,
+     "sum_z": -1.89,
+     "odd": 3,
+     "low_1_19": 5,
+     "range": 24,
+     "consecutive_pairs": 0
+    },
+    "expected_matches_under_uniform": 0.9474,
+    "id": "C08"
+   },
+   {
+    "numbers": [
+     1,
+     6,
+     13,
+     15,
+     18,
+     33
+    ],
+    "generating_methods": [
+     "pair_opt_top12:ensemble"
+    ],
+    "walkforward_backtest_vs_random_0947": {
+     "pair_opt_top12:ensemble": {
+      "mean": 1.0,
+      "p_one_sided": 0.251,
+      "p_holm": 1.0,
+      "dev_mean": 1.047,
+      "conf_mean": 0.954
+     }
+    },
+    "models_count_of_ticket_numbers_in_their_top10": {
+     "freq_all": 4,
+     "freq_w10": 4,
+     "freq_w20": 4,
+     "freq_w40": 3,
+     "ewma_0.9": 4,
+     "cold_all": 0,
+     "overdue_gap": 0,
+     "recent_hot": 4,
+     "trend_20v20": 3,
+     "pair_last": 4,
+     "repeat_last": 3,
+     "ensemble_eq": 5
+    },
+    "mean_rank": {
+     "freq_all": 9.8,
+     "ewma_0.9": 11.2,
+     "freq_w10": 9.5,
+     "trend_20v20": 13.5,
+     "overdue_gap": 27.5,
+     "pair_last": 9.2
+    },
+    "recent_last10_appearances": [
+     4,
+     2,
+     5,
+     2,
+     3,
+     1
+    ],
+    "long_term_appearances_169": [
+     31,
+     27,
+     31,
+     29,
+     35,
+     30
+    ],
+    "current_gaps": [
+     1,
+     1,
+     1,
+     5,
+     2,
+     9
+    ],
+    "repeats_from_2339": 3,
+    "internal_pair_log_lift": 3.791,
+    "structure": {
+     "sum": 86,
+     "sum_z": -1.16,
+     "odd": 4,
+     "low_1_19": 5,
+     "range": 32,
+     "consecutive_pairs": 0
+    },
+    "expected_matches_under_uniform": 0.9474,
+    "id": "C09"
+   },
+   {
+    "numbers": [
+     10,
+     11,
+     19,
+     21,
+     25,
+     29
+    ],
+    "generating_methods": [
+     "random_ticket"
+    ],
+    "walkforward_backtest_vs_random_0947": {
+     "random_ticket": {
+      "mean": 0.984,
+      "p_one_sided": 0.322,
+      "p_holm": 1.0,
+      "dev_mean": 0.953,
+      "conf_mean": 1.015
+     }
+    },
+    "models_count_of_ticket_numbers_in_their_top10": {
+     "freq_all": 1,
+     "freq_w10": 0,
+     "freq_w20": 1,
+     "freq_w40": 1,
+     "ewma_0.9": 1,
+     "cold_all": 3,
+     "overdue_gap": 1,
+     "recent_hot": 2,
+     "trend_20v20": 0,
+     "pair_last": 2,
+     "repeat_last": 0,
+     "ensemble_eq": 2
+    },
+    "mean_rank": {
+     "freq_all": 23.7,
+     "ewma_0.9": 21.3,
+     "freq_w10": 22.5,
+     "trend_20v20": 19.7,
+     "overdue_gap": 20.2,
+     "pair_last": 18.2
+    },
+    "recent_last10_appearances": [
+     2,
+     0,
+     1,
+     1,
+     1,
+     2
+    ],
+    "long_term_appearances_169": [
+     30,
+     25,
+     23,
+     22,
+     32,
+     19
+    ],
+    "current_gaps": [
+     2,
+     18,
+     6,
+     7,
+     3,
+     2
+    ],
+    "repeats_from_2339": 0,
+    "internal_pair_log_lift": -1.576,
+    "structure": {
+     "sum": 115,
+     "sum_z": -0.06,
+     "odd": 5,
+     "low_1_19": 3,
+     "range": 19,
+     "consecutive_pairs": 1
+    },
+    "expected_matches_under_uniform": 0.9474,
+    "id": "C10"
+   },
+   {
+    "numbers": [
+     4,
+     13,
+     18,
+     24,
+     25,
+     33
+    ],
+    "generating_methods": [
+     "struct_opt_top8:ensemble",
+     "struct_opt_top10:ensemble",
+     "struct_opt_top12:ensemble",
+     "struct_opt_top15:ensemble"
+    ],
+    "walkforward_backtest_vs_random_0947": {
+     "struct_opt_top8:ensemble": {
+      "mean": 0.984,
+      "p_one_sided": 0.322,
+      "p_holm": 1.0,
+      "dev_mean": 1.016,
+      "conf_mean": 0.954
+     },
+     "struct_opt_top10:ensemble": {
+      "mean": 0.984,
+      "p_one_sided": 0.322,
+      "p_holm": 1.0,
+      "dev_mean": 1.062,
+      "conf_mean": 0.908
+     },
+     "struct_opt_top12:ensemble": {
+      "mean": 1.0,
+      "p_one_sided": 0.251,
+      "p_holm": 1.0,
+      "dev_mean": 1.031,
+      "conf_mean": 0.969
+     },
+     "struct_opt_top15:ensemble": {
+      "mean": 0.938,
+      "p_one_sided": 0.569,
+      "p_holm": 1.0,
+      "dev_mean": 1.0,
+      "conf_mean": 0.877
+     }
+    },
+    "models_count_of_ticket_numbers_in_their_top10": {
+     "freq_all": 6,
+     "freq_w10": 4,
+     "freq_w20": 3,
+     "freq_w40": 2,
+     "ewma_0.9": 4,
+     "cold_all": 0,
+     "overdue_gap": 0,
+     "recent_hot": 3,
+     "trend_20v20": 4,
+     "pair_last": 4,
+     "repeat_last": 2,
+     "ensemble_eq": 6
+    },
+    "mean_rank": {
+     "freq_all": 6.2,
+     "ewma_0.9": 10.5,
+     "freq_w10": 11.8,
+     "trend_20v20": 11.5,
+     "overdue_gap": 26.0,
+     "pair_last": 13.5
+    },
+    "recent_last10_appearances": [
+     4,
+     5,
+     3,
+     3,
+     1,
+     1
+    ],
+    "long_term_appearances_169": [
+     32,
+     31,
+     35,
+     32,
+     32,
+     30
+    ],
+    "current_gaps": [
+     1,
+     1,
+     2,
+     4,
+     3,
+     9
+    ],
+    "repeats_from_2339": 2,
+    "internal_pair_log_lift": 1.609,
+    "structure": {
+     "sum": 117,
+     "sum_z": 0.02,
+     "odd": 3,
+     "low_1_19": 3,
+     "range": 29,
+     "consecutive_pairs": 1
+    },
+    "expected_matches_under_uniform": 0.9474,
+    "id": "C11"
+   },
+   {
+    "numbers": [
+     1,
+     2,
+     4,
+     7,
+     13,
+     24
+    ],
+    "generating_methods": [
+     "top6:freq_w20",
+     "top6:ewma_0.9"
+    ],
+    "walkforward_backtest_vs_random_0947": {
+     "top6:freq_w20": {
+      "mean": 0.992,
+      "p_one_sided": 0.285,
+      "p_holm": 1.0,
+      "dev_mean": 0.938,
+      "conf_mean": 1.046
+     },
+     "top6:ewma_0.9": {
+      "mean": 1.085,
+      "p_one_sided": 0.035,
+      "p_holm": 0.767,
+      "dev_mean": 1.094,
+      "conf_mean": 1.077
+     }
+    },
+    "models_count_of_ticket_numbers_in_their_top10": {
+     "freq_all": 4,
+     "freq_w10": 6,
+     "freq_w20": 6,
+     "freq_w40": 3,
+     "ewma_0.9": 6,
+     "cold_all": 0,
+     "overdue_gap": 0,
+     "recent_hot": 3,
+     "trend_20v20": 6,
+     "pair_last": 2,
+     "repeat_last": 4,
+     "ensemble_eq": 5
+    },
+    "mean_rank": {
+     "freq_all": 10.8,
+     "ewma_0.9": 3.5,
+     "freq_w10": 3.8,
+     "trend_20v20": 3.7,
+     "overdue_gap": 30.5,
+     "pair_last": 23.7
+    },
+    "recent_last10_appearances": [
+     4,
+     3,
+     4,
+     4,
+     5,
+     3
+    ],
+    "long_term_appearances_169": [
+     31,
+     29,
+     32,
+     25,
+     31,
+     32
+    ],
+    "current_gaps": [
+     1,
+     3,
+     1,
+     3,
+     1,
+     4
+    ],
+    "repeats_from_2339": 3,
+    "internal_pair_log_lift": 0.691,
+    "structure": {
+     "sum": 51,
+     "sum_z": -2.5,
+     "odd": 3,
+     "low_1_19": 5,
+     "range": 23,
+     "consecutive_pairs": 1
+    },
+    "expected_matches_under_uniform": 0.9474,
+    "id": "C12"
+   },
+   {
+    "numbers": [
+     11,
+     14,
+     16,
+     27,
+     34,
+     38
+    ],
+    "generating_methods": [
+     "top6:overdue_gap"
+    ],
+    "walkforward_backtest_vs_random_0947": {
+     "top6:overdue_gap": {
+      "mean": 0.938,
+      "p_one_sided": 0.569,
+      "p_holm": 1.0,
+      "dev_mean": 0.938,
+      "conf_mean": 0.938
+     }
+    },
+    "models_count_of_ticket_numbers_in_their_top10": {
+     "freq_all": 1,
+     "freq_w10": 0,
+     "freq_w20": 0,
+     "freq_w40": 2,
+     "ewma_0.9": 0,
+     "cold_all": 2,
+     "overdue_gap": 6,
+     "recent_hot": 0,
+     "trend_20v20": 0,
+     "pair_last": 2,
+     "repeat_last": 0,
+     "ensemble_eq": 0
+    },
+    "mean_rank": {
+     "freq_all": 22.8,
+     "ewma_0.9": 32.5,
+     "freq_w10": 34.8,
+     "trend_20v20": 31.2,
+     "overdue_gap": 3.5,
+     "pair_last": 17.5
+    },
+    "recent_last10_appearances": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "long_term_appearances_169": [
+     25,
+     27,
+     20,
+     23,
+     24,
+     33
+    ],
+    "current_gaps": [
+     18,
+     13,
+     22,
+     13,
+     17,
+     14
+    ],
+    "repeats_from_2339": 0,
+    "internal_pair_log_lift": -0.888,
+    "structure": {
+     "sum": 140,
+     "sum_z": 0.9,
+     "odd": 2,
+     "low_1_19": 3,
+     "range": 27,
+     "consecutive_pairs": 0
+    },
+    "expected_matches_under_uniform": 0.9474,
+    "id": "C13"
+   },
+   {
+    "numbers": [
+     1,
+     9,
+     10,
+     13,
+     24,
+     38
+    ],
+    "generating_methods": [
+     "top6:freq_w40"
+    ],
+    "walkforward_backtest_vs_random_0947": {
+     "top6:freq_w40": {
+      "mean": 1.008,
+      "p_one_sided": 0.219,
+      "p_holm": 1.0,
+      "dev_mean": 0.984,
+      "conf_mean": 1.031
+     }
+    },
+    "models_count_of_ticket_numbers_in_their_top10": {
+     "freq_all": 4,
+     "freq_w10": 4,
+     "freq_w20": 4,
+     "freq_w40": 6,
+     "ewma_0.9": 5,
+     "cold_all": 1,
+     "overdue_gap": 1,
+     "recent_hot": 3,
+     "trend_20v20": 3,
+     "pair_last": 1,
+     "repeat_last": 2,
+     "ensemble_eq": 4
+    },
+    "mean_rank": {
+     "freq_all": 11.5,
+     "ewma_0.9": 8.2,
+     "freq_w10": 11.0,
+     "trend_20v20": 14.5,
+     "overdue_gap": 25.5,
+     "pair_last": 21.3
+    },
+    "recent_last10_appearances": [
+     4,
+     3,
+     2,
+     5,
+     3,
+     0
+    ],
+    "long_term_appearances_169": [
+     31,
+     23,
+     30,
+     31,
+     32,
+     33
+    ],
+    "current_gaps": [
+     1,
+     4,
+     2,
+     1,
+     4,
+     14
+    ],
+    "repeats_from_2339": 2,
+    "internal_pair_log_lift": 0.122,
+    "structure": {
+     "sum": 95,
+     "sum_z": -0.82,
+     "odd": 3,
+     "low_1_19": 4,
+     "range": 37,
+     "consecutive_pairs": 1
+    },
+    "expected_matches_under_uniform": 0.9474,
+    "id": "C14"
+   },
+   {
+    "numbers": [
+     5,
+     16,
+     21,
+     23,
+     28,
+     29
+    ],
+    "generating_methods": [
+     "top6:cold_all"
+    ],
+    "walkforward_backtest_vs_random_0947": {
+     "top6:cold_all": {
+      "mean": 0.884,
+      "p_one_sided": 0.822,
+      "p_holm": 1.0,
+      "dev_mean": 0.906,
+      "conf_mean": 0.862
+     }
+    },
+    "models_count_of_ticket_numbers_in_their_top10": {
+     "freq_all": 0,
+     "freq_w10": 0,
+     "freq_w20": 0,
+     "freq_w40": 1,
+     "ewma_0.9": 0,
+     "cold_all": 6,
+     "overdue_gap": 2,
+     "recent_hot": 3,
+     "trend_20v20": 1,
+     "pair_last": 2,
+     "repeat_last": 2,
+     "ensemble_eq": 0
+    },
+    "mean_rank": {
+     "freq_all": 35.5,
+     "ewma_0.9": 25.0,
+     "freq_w10": 21.8,
+     "trend_20v20": 23.2,
+     "overdue_gap": 21.2,
+     "pair_last": 18.0
+    },
+    "recent_last10_appearances": [
+     0,
+     0,
+     1,
+     2,
+     1,
+     2
+    ],
+    "long_term_appearances_169": [
+     17,
+     20,
+     22,
+     21,
+     19,
+     19
+    ],
+    "current_gaps": [
+     12,
+     22,
+     7,
+     1,
+     1,
+     2
+    ],
+    "repeats_from_2339": 2,
+    "internal_pair_log_lift": 0.312,
+    "structure": {
+     "sum": 122,
+     "sum_z": 0.21,
+     "odd": 4,
+     "low_1_19": 2,
+     "range": 24,
+     "consecutive_pairs": 1
+    },
+    "expected_matches_under_uniform": 0.9474,
+    "id": "C15"
+   },
+   {
+    "numbers": [
+     1,
+     4,
+     6,
+     13,
+     23,
+     28
+    ],
+    "generating_methods": [
+     "top6:recent_hot",
+     "top6:repeat_last"
+    ],
+    "walkforward_backtest_vs_random_0947": {
+     "top6:recent_hot": {
+      "mean": 0.93,
+      "p_one_sided": 0.61,
+      "p_holm": 1.0,
+      "dev_mean": 0.844,
+      "conf_mean": 1.015
+     },
+     "top6:repeat_last": {
+      "mean": 0.93,
+      "p_one_sided": 0.61,
+      "p_holm": 1.0,
+      "dev_mean": 0.844,
+      "conf_mean": 1.015
+     }
+    },
+    "models_count_of_ticket_numbers_in_their_top10": {
+     "freq_all": 3,
+     "freq_w10": 3,
+     "freq_w20": 4,
+     "freq_w40": 4,
+     "ewma_0.9": 4,
+     "cold_all": 2,
+     "overdue_gap": 0,
+     "recent_hot": 6,
+     "trend_20v20": 4,
+     "pair_last": 3,
+     "repeat_last": 6,
+     "ensemble_eq": 4
+    },
+    "mean_rank": {
+     "freq_all": 17.8,
+     "ewma_0.9": 8.2,
+     "freq_w10": 8.5,
+     "trend_20v20": 11.8,
+     "overdue_gap": 35.5,
+     "pair_last": 12.0
+    },
+    "recent_last10_appearances": [
+     4,
+     4,
+     2,
+     5,
+     2,
+     1
+    ],
+    "long_term_appearances_169": [
+     31,
+     32,
+     27,
+     31,
+     21,
+     19
+    ],
+    "current_gaps": [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    "repeats_from_2339": 6,
+    "internal_pair_log_lift": 0.992,
+    "structure": {
+     "sum": 75,
+     "sum_z": -1.58,
+     "odd": 3,
+     "low_1_19": 4,
+     "range": 27,
+     "consecutive_pairs": 0
+    },
+    "expected_matches_under_uniform": 0.9474,
+    "id": "C16"
+   }
+  ]
+ },
+ "questions": {
+  "choice_strongest_case": {
+   "type": "choice",
+   "instructions": "Given only the supplied pre-draw empirical evidence in `statistical_context` and `candidates`, which complete candidate ticket has the strongest overall case among these alternatives?",
+   "criteria": {
+    "C01": "Ticket 01-06-13-18-25-33",
+    "C02": "Ticket 01-02-04-07-13-18",
+    "C03": "Ticket 01-02-04-13-18-24",
+    "C04": "Ticket 02-04-07-12-13-24",
+    "C05": "Ticket 04-13-18-25-29-33",
+    "C06": "Ticket 04-08-18-24-35-38",
+    "C07": "Ticket 01-05-06-18-25-33",
+    "C08": "Ticket 01-04-06-13-18-25",
+    "C09": "Ticket 01-06-13-15-18-33",
+    "C10": "Ticket 10-11-19-21-25-29",
+    "C11": "Ticket 04-13-18-24-25-33",
+    "C12": "Ticket 01-02-04-07-13-24",
+    "C13": "Ticket 11-14-16-27-34-38",
+    "C14": "Ticket 01-09-10-13-24-38",
+    "C15": "Ticket 05-16-21-23-28-29",
+    "C16": "Ticket 01-04-06-13-23-28"
+   }
+  },
+  "robustness_C01": {
+   "type": "score",
+   "instructions": "How robust is the walk-forward backtest support for candidate C01 (01-06-13-18-25-33) across development and confirmation periods, relative to the random expectation of 0.947 matches?",
+   "criteria": [
+    "Below or at random expectation, or inconsistent between periods",
+    "Slightly above random in one period only",
+    "Modestly above random in both periods but not statistically significant",
+    "Clearly and significantly above random in both periods"
+   ]
+  },
+  "agreement_C01": {
+   "type": "score",
+   "instructions": "How much do independent ranking models agree on the numbers in candidate C01 (01-06-13-18-25-33), per `models_count_of_ticket_numbers_in_their_top10`?",
+   "criteria": [
+    "Little agreement: most models place few of its numbers in their top 10",
+    "Mixed agreement",
+    "Broad agreement across most models"
+   ]
+  },
+  "overfit_C01": {
+   "type": "noul",
+   "instructions": "Is any apparent merit of candidate C01 (01-06-13-18-25-33) likely attributable to chance or overfitting rather than real predictive signal?"
+  },
+  "one_model_C01": {
+   "type": "noul",
+   "instructions": "Does the case for candidate C01 (01-06-13-18-25-33) depend mainly on a single model?"
+  },
+  "stronger_than_random_C01": {
+   "type": "noul",
+   "instructions": "Is the evidence for candidate C01 (01-06-13-18-25-33) materially stronger than for a randomly chosen valid ticket?"
+  },
+  "robustness_C02": {
+   "type": "score",
+   "instructions": "How robust is the walk-forward backtest support for candidate C02 (01-02-04-07-13-18) across development and confirmation periods, relative to the random expectation of 0.947 matches?",
+   "criteria": [
+    "Below or at random expectation, or inconsistent between periods",
+    "Slightly above random in one period only",
+    "Modestly above random in both periods but not statistically significant",
+    "Clearly and significantly above random in both periods"
+   ]
+  },
+  "agreement_C02": {
+   "type": "score",
+   "instructions": "How much do independent ranking models agree on the numbers in candidate C02 (01-02-04-07-13-18), per `models_count_of_ticket_numbers_in_their_top10`?",
+   "criteria": [
+    "Little agreement: most models place few of its numbers in their top 10",
+    "Mixed agreement",
+    "Broad agreement across most models"
+   ]
+  },
+  "overfit_C02": {
+   "type": "noul",
+   "instructions": "Is any apparent merit of candidate C02 (01-02-04-07-13-18) likely attributable to chance or overfitting rather than real predictive signal?"
+  },
+  "one_model_C02": {
+   "type": "noul",
+   "instructions": "Does the case for candidate C02 (01-02-04-07-13-18) depend mainly on a single model?"
+  },
+  "stronger_than_random_C02": {
+   "type": "noul",
+   "instructions": "Is the evidence for candidate C02 (01-02-04-07-13-18) materially stronger than for a randomly chosen valid ticket?"
+  },
+  "robustness_C03": {
+   "type": "score",
+   "instructions": "How robust is the walk-forward backtest support for candidate C03 (01-02-04-13-18-24) across development and confirmation periods, relative to the random expectation of 0.947 matches?",
+   "criteria": [
+    "Below or at random expectation, or inconsistent between periods",
+    "Slightly above random in one period only",
+    "Modestly above random in both periods but not statistically significant",
+    "Clearly and significantly above random in both periods"
+   ]
+  },
+  "agreement_C03": {
+   "type": "score",
+   "instructions": "How much do independent ranking models agree on the numbers in candidate C03 (01-02-04-13-18-24), per `models_count_of_ticket_numbers_in_their_top10`?",
+   "criteria": [
+    "Little agreement: most models place few of its numbers in their top 10",
+    "Mixed agreement",
+    "Broad agreement across most models"
+   ]
+  },
+  "overfit_C03": {
+   "type": "noul",
+   "instructions": "Is any apparent merit of candidate C03 (01-02-04-13-18-24) likely attributable to chance or overfitting rather than real predictive signal?"
+  },
+  "one_model_C03": {
+   "type": "noul",
+   "instructions": "Does the case for candidate C03 (01-02-04-13-18-24) depend mainly on a single model?"
+  },
+  "stronger_than_random_C03": {
+   "type": "noul",
+   "instructions": "Is the evidence for candidate C03 (01-02-04-13-18-24) materially stronger than for a randomly chosen valid ticket?"
+  },
+  "robustness_C04": {
+   "type": "score",
+   "instructions": "How robust is the walk-forward backtest support for candidate C04 (02-04-07-12-13-24) across development and confirmation periods, relative to the random expectation of 0.947 matches?",
+   "criteria": [
+    "Below or at random expectation, or inconsistent between periods",
+    "Slightly above random in one period only",
+    "Modestly above random in both periods but not statistically significant",
+    "Clearly and significantly above random in both periods"
+   ]
+  },
+  "agreement_C04": {
+   "type": "score",
+   "instructions": "How much do independent ranking models agree on the numbers in candidate C04 (02-04-07-12-13-24), per `models_count_of_ticket_numbers_in_their_top10`?",
+   "criteria": [
+    "Little agreement: most models place few of its numbers in their top 10",
+    "Mixed agreement",
+    "Broad agreement across most models"
+   ]
+  },
+  "overfit_C04": {
+   "type": "noul",
+   "instructions": "Is any apparent merit of candidate C04 (02-04-07-12-13-24) likely attributable to chance or overfitting rather than real predictive signal?"
+  },
+  "one_model_C04": {
+   "type": "noul",
+   "instructions": "Does the case for candidate C04 (02-04-07-12-13-24) depend mainly on a single model?"
+  },
+  "stronger_than_random_C04": {
+   "type": "noul",
+   "instructions": "Is the evidence for candidate C04 (02-04-07-12-13-24) materially stronger than for a randomly chosen valid ticket?"
+  },
+  "robustness_C05": {
+   "type": "score",
+   "instructions": "How robust is the walk-forward backtest support for candidate C05 (04-13-18-25-29-33) across development and confirmation periods, relative to the random expectation of 0.947 matches?",
+   "criteria": [
+    "Below or at random expectation, or inconsistent between periods",
+    "Slightly above random in one period only",
+    "Modestly above random in both periods but not statistically significant",
+    "Clearly and significantly above random in both periods"
+   ]
+  },
+  "agreement_C05": {
+   "type": "score",
+   "instructions": "How much do independent ranking models agree on the numbers in candidate C05 (04-13-18-25-29-33), per `models_count_of_ticket_numbers_in_their_top10`?",
+   "criteria": [
+    "Little agreement: most models place few of its numbers in their top 10",
+    "Mixed agreement",
+    "Broad agreement across most models"
+   ]
+  },
+  "overfit_C05": {
+   "type": "noul",
+   "instructions": "Is any apparent merit of candidate C05 (04-13-18-25-29-33) likely attributable to chance or overfitting rather than real predictive signal?"
+  },
+  "one_model_C05": {
+   "type": "noul",
+   "instructions": "Does the case for candidate C05 (04-13-18-25-29-33) depend mainly on a single model?"
+  },
+  "stronger_than_random_C05": {
+   "type": "noul",
+   "instructions": "Is the evidence for candidate C05 (04-13-18-25-29-33) materially stronger than for a randomly chosen valid ticket?"
+  },
+  "robustness_C06": {
+   "type": "score",
+   "instructions": "How robust is the walk-forward backtest support for candidate C06 (04-08-18-24-35-38) across development and confirmation periods, relative to the random expectation of 0.947 matches?",
+   "criteria": [
+    "Below or at random expectation, or inconsistent between periods",
+    "Slightly above random in one period only",
+    "Modestly above random in both periods but not statistically significant",
+    "Clearly and significantly above random in both periods"
+   ]
+  },
+  "agreement_C06": {
+   "type": "score",
+   "instructions": "How much do independent ranking models agree on the numbers in candidate C06 (04-08-18-24-35-38), per `models_count_of_ticket_numbers_in_their_top10`?",
+   "criteria": [
+    "Little agreement: most models place few of its numbers in their top 10",
+    "Mixed agreement",
+    "Broad agreement across most models"
+   ]
+  },
+  "overfit_C06": {
+   "type": "noul",
+   "instructions": "Is any apparent merit of candidate C06 (04-08-18-24-35-38) likely attributable to chance or overfitting rather than real predictive signal?"
+  },
+  "one_model_C06": {
+   "type": "noul",
+   "instructions": "Does the case for candidate C06 (04-08-18-24-35-38) depend mainly on a single model?"
+  },
+  "stronger_than_random_C06": {
+   "type": "noul",
+   "instructions": "Is the evidence for candidate C06 (04-08-18-24-35-38) materially stronger than for a randomly chosen valid ticket?"
+  },
+  "robustness_C07": {
+   "type": "score",
+   "instructions": "How robust is the walk-forward backtest support for candidate C07 (01-05-06-18-25-33) across development and confirmation periods, relative to the random expectation of 0.947 matches?",
+   "criteria": [
+    "Below or at random expectation, or inconsistent between periods",
+    "Slightly above random in one period only",
+    "Modestly above random in both periods but not statistically significant",
+    "Clearly and significantly above random in both periods"
+   ]
+  },
+  "agreement_C07": {
+   "type": "score",
+   "instructions": "How much do independent ranking models agree on the numbers in candidate C07 (01-05-06-18-25-33), per `models_count_of_ticket_numbers_in_their_top10`?",
+   "criteria": [
+    "Little agreement: most models place few of its numbers in their top 10",
+    "Mixed agreement",
+    "Broad agreement across most models"
+   ]
+  },
+  "overfit_C07": {
+   "type": "noul",
+   "instructions": "Is any apparent merit of candidate C07 (01-05-06-18-25-33) likely attributable to chance or overfitting rather than real predictive signal?"
+  },
+  "one_model_C07": {
+   "type": "noul",
+   "instructions": "Does the case for candidate C07 (01-05-06-18-25-33) depend mainly on a single model?"
+  },
+  "stronger_than_random_C07": {
+   "type": "noul",
+   "instructions": "Is the evidence for candidate C07 (01-05-06-18-25-33) materially stronger than for a randomly chosen valid ticket?"
+  },
+  "robustness_C08": {
+   "type": "score",
+   "instructions": "How robust is the walk-forward backtest support for candidate C08 (01-04-06-13-18-25) across development and confirmation periods, relative to the random expectation of 0.947 matches?",
+   "criteria": [
+    "Below or at random expectation, or inconsistent between periods",
+    "Slightly above random in one period only",
+    "Modestly above random in both periods but not statistically significant",
+    "Clearly and significantly above random in both periods"
+   ]
+  },
+  "agreement_C08": {
+   "type": "score",
+   "instructions": "How much do independent ranking models agree on the numbers in candidate C08 (01-04-06-13-18-25), per `models_count_of_ticket_numbers_in_their_top10`?",
+   "criteria": [
+    "Little agreement: most models place few of its numbers in their top 10",
+    "Mixed agreement",
+    "Broad agreement across most models"
+   ]
+  },
+  "overfit_C08": {
+   "type": "noul",
+   "instructions": "Is any apparent merit of candidate C08 (01-04-06-13-18-25) likely attributable to chance or overfitting rather than real predictive signal?"
+  },
+  "one_model_C08": {
+   "type": "noul",
+   "instructions": "Does the case for candidate C08 (01-04-06-13-18-25) depend mainly on a single model?"
+  },
+  "stronger_than_random_C08": {
+   "type": "noul",
+   "instructions": "Is the evidence for candidate C08 (01-04-06-13-18-25) materially stronger than for a randomly chosen valid ticket?"
+  },
+  "robustness_C09": {
+   "type": "score",
+   "instructions": "How robust is the walk-forward backtest support for candidate C09 (01-06-13-15-18-33) across development and confirmation periods, relative to the random expectation of 0.947 matches?",
+   "criteria": [
+    "Below or at random expectation, or inconsistent between periods",
+    "Slightly above random in one period only",
+    "Modestly above random in both periods but not statistically significant",
+    "Clearly and significantly above random in both periods"
+   ]
+  },
+  "agreement_C09": {
+   "type": "score",
+   "instructions": "How much do independent ranking models agree on the numbers in candidate C09 (01-06-13-15-18-33), per `models_count_of_ticket_numbers_in_their_top10`?",
+   "criteria": [
+    "Little agreement: most models place few of its numbers in their top 10",
+    "Mixed agreement",
+    "Broad agreement across most models"
+   ]
+  },
+  "overfit_C09": {
+   "type": "noul",
+   "instructions": "Is any apparent merit of candidate C09 (01-06-13-15-18-33) likely attributable to chance or overfitting rather than real predictive signal?"
+  },
+  "one_model_C09": {
+   "type": "noul",
+   "instructions": "Does the case for candidate C09 (01-06-13-15-18-33) depend mainly on a single model?"
+  },
+  "stronger_than_random_C09": {
+   "type": "noul",
+   "instructions": "Is the evidence for candidate C09 (01-06-13-15-18-33) materially stronger than for a randomly chosen valid ticket?"
+  },
+  "robustness_C10": {
+   "type": "score",
+   "instructions": "How robust is the walk-forward backtest support for candidate C10 (10-11-19-21-25-29) across development and confirmation periods, relative to the random expectation of 0.947 matches?",
+   "criteria": [
+    "Below or at random expectation, or inconsistent between periods",
+    "Slightly above random in one period only",
+    "Modestly above random in both periods but not statistically significant",
+    "Clearly and significantly above random in both periods"
+   ]
+  },
+  "agreement_C10": {
+   "type": "score",
+   "instructions": "How much do independent ranking models agree on the numbers in candidate C10 (10-11-19-21-25-29), per `models_count_of_ticket_numbers_in_their_top10`?",
+   "criteria": [
+    "Little agreement: most models place few of its numbers in their top 10",
+    "Mixed agreement",
+    "Broad agreement across most models"
+   ]
+  },
+  "overfit_C10": {
+   "type": "noul",
+   "instructions": "Is any apparent merit of candidate C10 (10-11-19-21-25-29) likely attributable to chance or overfitting rather than real predictive signal?"
+  },
+  "one_model_C10": {
+   "type": "noul",
+   "instructions": "Does the case for candidate C10 (10-11-19-21-25-29) depend mainly on a single model?"
+  },
+  "stronger_than_random_C10": {
+   "type": "noul",
+   "instructions": "Is the evidence for candidate C10 (10-11-19-21-25-29) materially stronger than for a randomly chosen valid ticket?"
+  },
+  "robustness_C11": {
+   "type": "score",
+   "instructions": "How robust is the walk-forward backtest support for candidate C11 (04-13-18-24-25-33) across development and confirmation periods, relative to the random expectation of 0.947 matches?",
+   "criteria": [
+    "Below or at random expectation, or inconsistent between periods",
+    "Slightly above random in one period only",
+    "Modestly above random in both periods but not statistically significant",
+    "Clearly and significantly above random in both periods"
+   ]
+  },
+  "agreement_C11": {
+   "type": "score",
+   "instructions": "How much do independent ranking models agree on the numbers in candidate C11 (04-13-18-24-25-33), per `models_count_of_ticket_numbers_in_their_top10`?",
+   "criteria": [
+    "Little agreement: most models place few of its numbers in their top 10",
+    "Mixed agreement",
+    "Broad agreement across most models"
+   ]
+  },
+  "overfit_C11": {
+   "type": "noul",
+   "instructions": "Is any apparent merit of candidate C11 (04-13-18-24-25-33) likely attributable to chance or overfitting rather than real predictive signal?"
+  },
+  "one_model_C11": {
+   "type": "noul",
+   "instructions": "Does the case for candidate C11 (04-13-18-24-25-33) depend mainly on a single model?"
+  },
+  "stronger_than_random_C11": {
+   "type": "noul",
+   "instructions": "Is the evidence for candidate C11 (04-13-18-24-25-33) materially stronger than for a randomly chosen valid ticket?"
+  },
+  "robustness_C12": {
+   "type": "score",
+   "instructions": "How robust is the walk-forward backtest support for candidate C12 (01-02-04-07-13-24) across development and confirmation periods, relative to the random expectation of 0.947 matches?",
+   "criteria": [
+    "Below or at random expectation, or inconsistent between periods",
+    "Slightly above random in one period only",
+    "Modestly above random in both periods but not statistically significant",
+    "Clearly and significantly above random in both periods"
+   ]
+  },
+  "agreement_C12": {
+   "type": "score",
+   "instructions": "How much do independent ranking models agree on the numbers in candidate C12 (01-02-04-07-13-24), per `models_count_of_ticket_numbers_in_their_top10`?",
+   "criteria": [
+    "Little agreement: most models place few of its numbers in their top 10",
+    "Mixed agreement",
+    "Broad agreement across most models"
+   ]
+  },
+  "overfit_C12": {
+   "type": "noul",
+   "instructions": "Is any apparent merit of candidate C12 (01-02-04-07-13-24) likely attributable to chance or overfitting rather than real predictive signal?"
+  },
+  "one_model_C12": {
+   "type": "noul",
+   "instructions": "Does the case for candidate C12 (01-02-04-07-13-24) depend mainly on a single model?"
+  },
+  "stronger_than_random_C12": {
+   "type": "noul",
+   "instructions": "Is the evidence for candidate C12 (01-02-04-07-13-24) materially stronger than for a randomly chosen valid ticket?"
+  },
+  "robustness_C13": {
+   "type": "score",
+   "instructions": "How robust is the walk-forward backtest support for candidate C13 (11-14-16-27-34-38) across development and confirmation periods, relative to the random expectation of 0.947 matches?",
+   "criteria": [
+    "Below or at random expectation, or inconsistent between periods",
+    "Slightly above random in one period only",
+    "Modestly above random in both periods but not statistically significant",
+    "Clearly and significantly above random in both periods"
+   ]
+  },
+  "agreement_C13": {
+   "type": "score",
+   "instructions": "How much do independent ranking models agree on the numbers in candidate C13 (11-14-16-27-34-38), per `models_count_of_ticket_numbers_in_their_top10`?",
+   "criteria": [
+    "Little agreement: most models place few of its numbers in their top 10",
+    "Mixed agreement",
+    "Broad agreement across most models"
+   ]
+  },
+  "overfit_C13": {
+   "type": "noul",
+   "instructions": "Is any apparent merit of candidate C13 (11-14-16-27-34-38) likely attributable to chance or overfitting rather than real predictive signal?"
+  },
+  "one_model_C13": {
+   "type": "noul",
+   "instructions": "Does the case for candidate C13 (11-14-16-27-34-38) depend mainly on a single model?"
+  },
+  "stronger_than_random_C13": {
+   "type": "noul",
+   "instructions": "Is the evidence for candidate C13 (11-14-16-27-34-38) materially stronger than for a randomly chosen valid ticket?"
+  },
+  "robustness_C14": {
+   "type": "score",
+   "instructions": "How robust is the walk-forward backtest support for candidate C14 (01-09-10-13-24-38) across development and confirmation periods, relative to the random expectation of 0.947 matches?",
+   "criteria": [
+    "Below or at random expectation, or inconsistent between periods",
+    "Slightly above random in one period only",
+    "Modestly above random in both periods but not statistically significant",
+    "Clearly and significantly above random in both periods"
+   ]
+  },
+  "agreement_C14": {
+   "type": "score",
+   "instructions": "How much do independent ranking models agree on the numbers in candidate C14 (01-09-10-13-24-38), per `models_count_of_ticket_numbers_in_their_top10`?",
+   "criteria": [
+    "Little agreement: most models place few of its numbers in their top 10",
+    "Mixed agreement",
+    "Broad agreement across most models"
+   ]
+  },
+  "overfit_C14": {
+   "type": "noul",
+   "instructions": "Is any apparent merit of candidate C14 (01-09-10-13-24-38) likely attributable to chance or overfitting rather than real predictive signal?"
+  },
+  "one_model_C14": {
+   "type": "noul",
+   "instructions": "Does the case for candidate C14 (01-09-10-13-24-38) depend mainly on a single model?"
+  },
+  "stronger_than_random_C14": {
+   "type": "noul",
+   "instructions": "Is the evidence for candidate C14 (01-09-10-13-24-38) materially stronger than for a randomly chosen valid ticket?"
+  },
+  "robustness_C15": {
+   "type": "score",
+   "instructions": "How robust is the walk-forward backtest support for candidate C15 (05-16-21-23-28-29) across development and confirmation periods, relative to the random expectation of 0.947 matches?",
+   "criteria": [
+    "Below or at random expectation, or inconsistent between periods",
+    "Slightly above random in one period only",
+    "Modestly above random in both periods but not statistically significant",
+    "Clearly and significantly above random in both periods"
+   ]
+  },
+  "agreement_C15": {
+   "type": "score",
+   "instructions": "How much do independent ranking models agree on the numbers in candidate C15 (05-16-21-23-28-29), per `models_count_of_ticket_numbers_in_their_top10`?",
+   "criteria": [
+    "Little agreement: most models place few of its numbers in their top 10",
+    "Mixed agreement",
+    "Broad agreement across most models"
+   ]
+  },
+  "overfit_C15": {
+   "type": "noul",
+   "instructions": "Is any apparent merit of candidate C15 (05-16-21-23-28-29) likely attributable to chance or overfitting rather than real predictive signal?"
+  },
+  "one_model_C15": {
+   "type": "noul",
+   "instructions": "Does the case for candidate C15 (05-16-21-23-28-29) depend mainly on a single model?"
+  },
+  "stronger_than_random_C15": {
+   "type": "noul",
+   "instructions": "Is the evidence for candidate C15 (05-16-21-23-28-29) materially stronger than for a randomly chosen valid ticket?"
+  },
+  "robustness_C16": {
+   "type": "score",
+   "instructions": "How robust is the walk-forward backtest support for candidate C16 (01-04-06-13-23-28) across development and confirmation periods, relative to the random expectation of 0.947 matches?",
+   "criteria": [
+    "Below or at random expectation, or inconsistent between periods",
+    "Slightly above random in one period only",
+    "Modestly above random in both periods but not statistically significant",
+    "Clearly and significantly above random in both periods"
+   ]
+  },
+  "agreement_C16": {
+   "type": "score",
+   "instructions": "How much do independent ranking models agree on the numbers in candidate C16 (01-04-06-13-23-28), per `models_count_of_ticket_numbers_in_their_top10`?",
+   "criteria": [
+    "Little agreement: most models place few of its numbers in their top 10",
+    "Mixed agreement",
+    "Broad agreement across most models"
+   ]
+  },
+  "overfit_C16": {
+   "type": "noul",
+   "instructions": "Is any apparent merit of candidate C16 (01-04-06-13-23-28) likely attributable to chance or overfitting rather than real predictive signal?"
+  },
+  "one_model_C16": {
+   "type": "noul",
+   "instructions": "Does the case for candidate C16 (01-04-06-13-23-28) depend mainly on a single model?"
+  },
+  "stronger_than_random_C16": {
+   "type": "noul",
+   "instructions": "Is the evidence for candidate C16 (01-04-06-13-23-28) materially stronger than for a randomly chosen valid ticket?"
+  }
+ }
+}
