@@ -1,0 +1,164 @@
+{
+  "workbook": {
+    "workbook_path": "data/original/Lotto-Draw-Dataset.xlsx",
+    "workbook_sha256": "5d55e059df0ca5cece2838a48a5ac9608625ad9941feadf35a3b481a0875641d",
+    "sheets": [
+      "Lotto Draws"
+    ],
+    "sheet_dimensions": "A1:J172",
+    "title_rows": [
+      "Jamaica Lotto draw dataset",
+      "167 draws from 1 Jan 2025 to 12 Sep 2026. Newest first.",
+      "Missing draw IDs: 2252\u20132261. Results after 12 Sep 2026 are not included."
+    ],
+    "hidden_rows": [],
+    "hidden_columns": [],
+    "merged_ranges": []
+  },
+  "header_claims_vs_data": {
+    "claims_167_draws": true,
+    "actual_rows": 167,
+    "claims_newest_first": true,
+    "actual_newest_first": true,
+    "claims_missing_2252_2261": true,
+    "actual_missing": [
+      2252,
+      2253,
+      2254,
+      2255,
+      2256,
+      2257,
+      2258,
+      2259,
+      2260,
+      2261
+    ],
+    "claims_last_date_2026-09-12": true,
+    "actual_last_date": "2026-09-12",
+    "claims_first_date_2025-01-01": true,
+    "actual_first_date": "2025-01-01"
+  },
+  "source_column_counts": {
+    "User result screenshot IMG_3198.jpeg": 1,
+    "User result screenshot IMG_3149.jpeg": 1,
+    "lotto_draw_history.xlsx": 165
+  },
+  "rows_in_workbook": 167,
+  "draw_id_range_workbook": [
+    2161,
+    2337
+  ],
+  "workbook_order_newest_first": true,
+  "missing_ids_in_workbook": [
+    2252,
+    2253,
+    2254,
+    2255,
+    2256,
+    2257,
+    2258,
+    2259,
+    2260,
+    2261
+  ],
+  "missing_ids_expected_dates": {
+    "2252": "2025-11-19",
+    "2253": "2025-11-22",
+    "2254": "2025-11-26",
+    "2255": "2025-11-29",
+    "2256": "2025-12-03",
+    "2257": "2025-12-06",
+    "2258": "2025-12-10",
+    "2259": "2025-12-13",
+    "2260": "2025-12-17",
+    "2261": "2025-12-20"
+  },
+  "duplicate_ids": [],
+  "duplicate_records": [],
+  "duplicate_main_combinations": [],
+  "duplicate_dates": [],
+  "chronology_dates_strictly_increasing": true,
+  "schedule_spacing_anomalies": [
+    {
+      "from": 2246,
+      "to": 2247,
+      "from_date": "2025-10-25",
+      "to_date": "2025-11-01",
+      "wed_sat_slots": 2,
+      "id_step": 1
+    }
+  ],
+  "recent_additions": [
+    {
+      "draw_id": 2338,
+      "draw_date": "2026-09-16",
+      "weekday": "Wednesday",
+      "mains": [
+        1,
+        3,
+        10,
+        13,
+        18,
+        29
+      ],
+      "bonus": 17,
+      "source": "Supplied by the user in the clean-room session prompt (2026-09-23)",
+      "layer": "original_workbook"
+    },
+    {
+      "draw_id": 2339,
+      "draw_date": "2026-09-19",
+      "weekday": "Saturday",
+      "mains": [
+        1,
+        4,
+        6,
+        13,
+        23,
+        28
+      ],
+      "bonus": 20,
+      "source": "Supplied by the user in the clean-room session prompt (2026-09-23)",
+      "layer": "original_workbook"
+    }
+  ],
+  "recent_additions_conflicts_with_workbook": [],
+  "recent_additions_schedule_continuity": [
+    {
+      "draw_id": 2338,
+      "id_step": 1,
+      "wed_sat_slots": 1
+    },
+    {
+      "draw_id": 2339,
+      "id_step": 1,
+      "wed_sat_slots": 1
+    }
+  ],
+  "external_recovery": {
+    "rows_recovered": 0,
+    "note": "Official Supreme Ventures pages (supremeventures.com) were not reachable from this environment: the network egress proxy denied the connection for both shell and fetch tools. Third-party aggregators are not an official source, so no rows were recovered and draws 2252-2261 remain a documented gap. No values were guessed."
+  },
+  "final_dataset": {
+    "rows": 169,
+    "first_id": 2161,
+    "last_id": 2339,
+    "first_date": "2025-01-01",
+    "last_date": "2026-09-19",
+    "missing_ids": [
+      2252,
+      2253,
+      2254,
+      2255,
+      2256,
+      2257,
+      2258,
+      2259,
+      2260,
+      2261
+    ],
+    "sha256": "119ecee581c453c48e0ae9d05dddae1a24052f6c3fbdc7a9c8a0f4abfa3893fd"
+  },
+  "issues": [],
+  "issue_count": 0
+}

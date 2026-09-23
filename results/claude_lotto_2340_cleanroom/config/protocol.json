@@ -1,0 +1,68 @@
+{
+  "experiment": "Claude + TypeSafe Jev clean-room prospective test, Jamaica Lotto #2340",
+  "written_before": "any walk-forward, number-discovery or ticket-construction result was computed",
+  "target": {"draw_id": 2340, "date": "2026-09-23", "information_cutoff_draw_id": 2339},
+  "game": {"main_numbers": 6, "range": [1, 38], "bonus_used_for_prediction": false},
+  "dataset": "data/04_normalized_analysis_dataset.csv (169 draws: 2161-2339, missing 2252-2261 left as a documented gap)",
+  "gap_handling": {
+    "sequence": "Analyses use the observed draw sequence in chronological order.",
+    "lag_features": "Features that use the previous draw (repeat, transition) are only formed across consecutive draw IDs; a pair spanning the 2252-2261 gap contributes nothing.",
+    "gap_features": "Appearance gaps are counted in observed draws; missing draws are not imputed."
+  },
+  "walk_forward": {
+    "burn_in_draws": 29,
+    "targets": "every draw at chronological index 29..168 (140 targets)",
+    "development_period": "first 70 targets",
+    "confirmation_period": "last 70 targets",
+    "causality": "For target t every feature, ranking, normalization, pair statistic, parameter choice, ensemble weight and ticket is computed from draws strictly before t, then frozen, then scored against draw t.",
+    "rolling_windows_when_short": "windows use all available prior draws when fewer than the window length exist"
+  },
+  "number_rankers": {
+    "H_random": "uniform random ranking, seed MASTER_SEED + target index (mandatory control)",
+    "A_freq_all": "count over all prior draws",
+    "A_inv_cold": "negative of A (tests the 'cold numbers' hypothesis rather than assuming it)",
+    "B_roll_W": "count over last W draws, W in {10, 20, 30, 50, 100}",
+    "B_ew_h": "exponentially weighted count with half-life h draws, h in {10, 20, 40}",
+    "C_overdue": "current gap (larger gap ranks higher)",
+    "C_recent": "negative current gap (more recent ranks higher)",
+    "C_hazard": "pooled empirical re-appearance hazard at each number's current gap, estimated from prior draws with Beta(6,32) smoothing",
+    "C_own_gap_pct": "current gap percentile within that number's own prior gap distribution (higher ranks higher)",
+    "D_trend_20v40": "rate in last 20 draws minus rate in the 40 draws before them",
+    "D_slope_50": "least-squares slope of the appearance indicator over the last 50 draws",
+    "E_transition": "mean smoothed lift P(i at s | j at s-1)/P(i) over j in the previous draw, estimated from prior consecutive draw pairs",
+    "E_pair_centrality": "sum of positive smoothed co-occurrence z-lifts to all other numbers (pair network strength)",
+    "G_ensemble_equal": "equal-weight average of percentile ranks of A_freq_all, B_ew_20, C_hazard, D_trend_20v40, E_transition",
+    "G_ensemble_adaptive": "weights over the same five components proportional to max(0, trailing excess top-12 capture) over all earlier walk-forward targets; equal weights until 10 earlier targets exist"
+  },
+  "ticket_constructors": {
+    "top6": "the ranker's top six",
+    "opt_top8/10/12/15": "best 6-subset inside the ranker's top m by J = mean score z + lambda_pair * mean pair z-lift + lambda_struct * standardized log null-probability of the ticket's structure class; default lambda_pair=0.5, lambda_struct=0.5",
+    "pair_top12": "6-subset of top 12 maximizing mean pair z-lift (score as tie-break)",
+    "struct_top12": "6-subset of top 12 maximizing structure-class null probability (score as tie-break)",
+    "diversity_top15": "greedy by score from top 15 with at most two numbers per band 1-10/11-20/21-30/31-38",
+    "consensus": "six numbers with the highest count of appearances in the top-12 of the component rankers (A_freq_all, B_ew_20, C_hazard, D_trend_20v40, E_transition), ties by G_ensemble_equal",
+    "random_ticket": "uniform random ticket (control)",
+    "structure_class": "(sum decile under the exact null, odd count, low(1-19) count, consecutive-pair count capped at 2)"
+  },
+  "sensitivity": "lambda grid {0, 0.25, 0.5, 1.0} x {0, 0.25, 0.5, 1.0} for opt_top12, window and half-life grids for B, reported on both periods",
+  "endpoints": {
+    "primary": "mean matches of the 6-number ticket per target",
+    "secondary": ["top-k winner coverage for k in {6,8,10,12,15,20}", "3+/4+/5+/6 rates"],
+    "null": "Under an independent uniform draw process any causal ticket's matches at each target are exactly Hypergeometric(38,6,6), independent across targets; exact p-values use the convolution of those pmfs."
+  },
+  "validated_edge_definition": {
+    "step_1": "Using development-period results only, select the single non-control ticket method with the highest development mean matches (ties: earlier in the method list).",
+    "step_2": "Test that one method on the confirmation period with the exact one-sided test (alternative: more matches than random). Required: p < 0.05.",
+    "step_3": "The same method family must also beat baseline on the confirmation period in at least two thirds of its sensitivity variants.",
+    "step_4": "No global randomness test contradicts the mechanism (reported, not required).",
+    "validated": "VALIDATED EDGE only if steps 2 and 3 both hold.",
+    "suggestive": "Confirmation p in [0.05, 0.10), or any method with raw p < 0.05 that does not survive Holm correction across the method family.",
+    "number_discovery": "The same dev-select / confirm procedure is applied to rankers for top-12 coverage, reported as secondary evidence."
+  },
+  "randomness_tests": {
+    "family": ["frequency chi-square (Monte Carlo null)", "max/min number count", "gap distribution vs geometric", "previous-draw repeat count (exact convolution)", "lag 1-5 overlap", "pair co-occurrence dispersion and max pair count", "38x38 transition dependence (permutation)", "sum/odd/low/consecutive/range structure vs exact enumeration", "serial autocorrelation of draw sum (permutation)", "bonus uniformity"],
+    "correction": "Holm across the global family; Benjamini-Hochberg for per-number and per-pair tests",
+    "classification": ["validated evidence (Holm p < 0.05)", "suggestive but insufficient (raw p < 0.05, not surviving correction)", "consistent with randomness"]
+  },
+  "seeds": {"MASTER_SEED": 23402026, "monte_carlo_simulations": 20000}
+}
