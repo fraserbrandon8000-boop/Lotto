@@ -1,0 +1,2 @@
+target_draw,target_date,system,numbers,candidate_id,decision_branch,jev_model,jev_choice_probability,jev_confidence,jev_calls,jev_response_sha256,frozen_utc,actual_draw,matches
+2340,2026-09-23,Claude + Jev,01-02-04-07-13-24,C12,no_edge_branch,jev-1.13.0,0.9,0.89,1,6bcbdc001b579a2b9b8fe3396e577a18a4c0f3a4f8880e822e30dd7a4c1014fc,2026-09-23T17:19:06.222651+00:00,,

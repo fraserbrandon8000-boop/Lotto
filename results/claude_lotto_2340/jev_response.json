@@ -1,0 +1,738 @@
+{
+ "model": "jev-1.13.0",
+ "usage": {
+  "input_tokens": 15573,
+  "output_tokens": 1720
+ },
+ "answers": {
+  "choice_strongest_case": {
+   "type": "choice",
+   "choice": "C12",
+   "confidence": 0.89,
+   "probabilities": {
+    "C10": 0.0,
+    "C12": 0.9,
+    "C13": 0.0,
+    "C16": 0.01,
+    "C07": 0.0,
+    "C11": 0.01,
+    "C08": 0.05,
+    "C06": 0.0,
+    "C04": 0.0,
+    "C01": 0.01,
+    "C05": 0.01,
+    "C02": 0.0,
+    "C15": 0.0,
+    "C03": 0.01,
+    "C14": 0.0,
+    "C09": 0.0
+   }
+  },
+  "robustness_C01": {
+   "type": "score",
+   "score": 1.41,
+   "confidence": 0.41,
+   "legend": {
+    "0": "Below or at random expectation, or inconsistent between periods",
+    "1": "Slightly above random in one period only",
+    "2": "Modestly above random in both periods but not statistically significant",
+    "3": "Clearly and significantly above random in both periods"
+   },
+   "probabilities": {
+    "0": 0.24,
+    "1": 0.11,
+    "2": 0.65,
+    "3": 0.0
+   }
+  },
+  "agreement_C01": {
+   "type": "score",
+   "score": 1.59,
+   "confidence": 0.38,
+   "legend": {
+    "0": "Little agreement: most models place few of its numbers in their top 10",
+    "1": "Mixed agreement",
+    "2": "Broad agreement across most models"
+   },
+   "probabilities": {
+    "0": 0.01,
+    "1": 0.39,
+    "2": 0.6
+   }
+  },
+  "overfit_C01": {
+   "type": "noul",
+   "noul": 0.91
+  },
+  "one_model_C01": {
+   "type": "noul",
+   "noul": 0.36
+  },
+  "stronger_than_random_C01": {
+   "type": "noul",
+   "noul": 0.06
+  },
+  "robustness_C02": {
+   "type": "score",
+   "score": 0.32,
+   "confidence": 0.68,
+   "legend": {
+    "0": "Below or at random expectation, or inconsistent between periods",
+    "1": "Slightly above random in one period only",
+    "2": "Modestly above random in both periods but not statistically significant",
+    "3": "Clearly and significantly above random in both periods"
+   },
+   "probabilities": {
+    "0": 0.72,
+    "1": 0.25,
+    "2": 0.03,
+    "3": 0.0
+   }
+  },
+  "agreement_C02": {
+   "type": "score",
+   "score": 1.88,
+   "confidence": 0.82,
+   "legend": {
+    "0": "Little agreement: most models place few of its numbers in their top 10",
+    "1": "Mixed agreement",
+    "2": "Broad agreement across most models"
+   },
+   "probabilities": {
+    "0": 0.0,
+    "1": 0.12,
+    "2": 0.88
+   }
+  },
+  "overfit_C02": {
+   "type": "noul",
+   "noul": 0.88
+  },
+  "one_model_C02": {
+   "type": "noul",
+   "noul": 0.38
+  },
+  "stronger_than_random_C02": {
+   "type": "noul",
+   "noul": 0.09
+  },
+  "robustness_C03": {
+   "type": "score",
+   "score": 0.26,
+   "confidence": 0.74,
+   "legend": {
+    "0": "Below or at random expectation, or inconsistent between periods",
+    "1": "Slightly above random in one period only",
+    "2": "Modestly above random in both periods but not statistically significant",
+    "3": "Clearly and significantly above random in both periods"
+   },
+   "probabilities": {
+    "0": 0.79,
+    "1": 0.17,
+    "2": 0.04,
+    "3": 0.0
+   }
+  },
+  "agreement_C03": {
+   "type": "score",
+   "score": 1.94,
+   "confidence": 0.91,
+   "legend": {
+    "0": "Little agreement: most models place few of its numbers in their top 10",
+    "1": "Mixed agreement",
+    "2": "Broad agreement across most models"
+   },
+   "probabilities": {
+    "0": 0.0,
+    "1": 0.05,
+    "2": 0.95
+   }
+  },
+  "overfit_C03": {
+   "type": "noul",
+   "noul": 0.9
+  },
+  "one_model_C03": {
+   "type": "noul",
+   "noul": 0.16
+  },
+  "stronger_than_random_C03": {
+   "type": "noul",
+   "noul": 0.09
+  },
+  "robustness_C04": {
+   "type": "score",
+   "score": 0.01,
+   "confidence": 0.99,
+   "legend": {
+    "0": "Below or at random expectation, or inconsistent between periods",
+    "1": "Slightly above random in one period only",
+    "2": "Modestly above random in both periods but not statistically significant",
+    "3": "Clearly and significantly above random in both periods"
+   },
+   "probabilities": {
+    "0": 0.99,
+    "1": 0.01,
+    "2": 0.0,
+    "3": 0.0
+   }
+  },
+  "agreement_C04": {
+   "type": "score",
+   "score": 1.54,
+   "confidence": 0.31,
+   "legend": {
+    "0": "Little agreement: most models place few of its numbers in their top 10",
+    "1": "Mixed agreement",
+    "2": "Broad agreement across most models"
+   },
+   "probabilities": {
+    "0": 0.01,
+    "1": 0.44,
+    "2": 0.55
+   }
+  },
+  "overfit_C04": {
+   "type": "noul",
+   "noul": 0.9
+  },
+  "one_model_C04": {
+   "type": "noul",
+   "noul": 0.71
+  },
+  "stronger_than_random_C04": {
+   "type": "noul",
+   "noul": 0.05
+  },
+  "robustness_C05": {
+   "type": "score",
+   "score": 1.94,
+   "confidence": 0.94,
+   "legend": {
+    "0": "Below or at random expectation, or inconsistent between periods",
+    "1": "Slightly above random in one period only",
+    "2": "Modestly above random in both periods but not statistically significant",
+    "3": "Clearly and significantly above random in both periods"
+   },
+   "probabilities": {
+    "0": 0.02,
+    "1": 0.02,
+    "2": 0.96,
+    "3": 0.0
+   }
+  },
+  "agreement_C05": {
+   "type": "score",
+   "score": 1.24,
+   "confidence": 0.52,
+   "legend": {
+    "0": "Little agreement: most models place few of its numbers in their top 10",
+    "1": "Mixed agreement",
+    "2": "Broad agreement across most models"
+   },
+   "probabilities": {
+    "0": 0.04,
+    "1": 0.68,
+    "2": 0.28
+   }
+  },
+  "overfit_C05": {
+   "type": "noul",
+   "noul": 0.89
+  },
+  "one_model_C05": {
+   "type": "noul",
+   "noul": 0.2
+  },
+  "stronger_than_random_C05": {
+   "type": "noul",
+   "noul": 0.09
+  },
+  "robustness_C06": {
+   "type": "score",
+   "score": 0.27,
+   "confidence": 0.73,
+   "legend": {
+    "0": "Below or at random expectation, or inconsistent between periods",
+    "1": "Slightly above random in one period only",
+    "2": "Modestly above random in both periods but not statistically significant",
+    "3": "Clearly and significantly above random in both periods"
+   },
+   "probabilities": {
+    "0": 0.78,
+    "1": 0.17,
+    "2": 0.05,
+    "3": 0.0
+   }
+  },
+  "agreement_C06": {
+   "type": "score",
+   "score": 0.8,
+   "confidence": 0.64,
+   "legend": {
+    "0": "Little agreement: most models place few of its numbers in their top 10",
+    "1": "Mixed agreement",
+    "2": "Broad agreement across most models"
+   },
+   "probabilities": {
+    "0": 0.22,
+    "1": 0.76,
+    "2": 0.02
+   }
+  },
+  "overfit_C06": {
+   "type": "noul",
+   "noul": 0.9
+  },
+  "one_model_C06": {
+   "type": "noul",
+   "noul": 0.81
+  },
+  "stronger_than_random_C06": {
+   "type": "noul",
+   "noul": 0.06
+  },
+  "robustness_C07": {
+   "type": "score",
+   "score": 0.11,
+   "confidence": 0.89,
+   "legend": {
+    "0": "Below or at random expectation, or inconsistent between periods",
+    "1": "Slightly above random in one period only",
+    "2": "Modestly above random in both periods but not statistically significant",
+    "3": "Clearly and significantly above random in both periods"
+   },
+   "probabilities": {
+    "0": 0.91,
+    "1": 0.08,
+    "2": 0.01,
+    "3": 0.0
+   }
+  },
+  "agreement_C07": {
+   "type": "score",
+   "score": 0.99,
+   "confidence": 0.52,
+   "legend": {
+    "0": "Little agreement: most models place few of its numbers in their top 10",
+    "1": "Mixed agreement",
+    "2": "Broad agreement across most models"
+   },
+   "probabilities": {
+    "0": 0.17,
+    "1": 0.67,
+    "2": 0.16
+   }
+  },
+  "overfit_C07": {
+   "type": "noul",
+   "noul": 0.9
+  },
+  "one_model_C07": {
+   "type": "noul",
+   "noul": 0.7
+  },
+  "stronger_than_random_C07": {
+   "type": "noul",
+   "noul": 0.07
+  },
+  "robustness_C08": {
+   "type": "score",
+   "score": 0.55,
+   "confidence": 0.45,
+   "legend": {
+    "0": "Below or at random expectation, or inconsistent between periods",
+    "1": "Slightly above random in one period only",
+    "2": "Modestly above random in both periods but not statistically significant",
+    "3": "Clearly and significantly above random in both periods"
+   },
+   "probabilities": {
+    "0": 0.64,
+    "1": 0.17,
+    "2": 0.19,
+    "3": 0.0
+   }
+  },
+  "agreement_C08": {
+   "type": "score",
+   "score": 1.92,
+   "confidence": 0.88,
+   "legend": {
+    "0": "Little agreement: most models place few of its numbers in their top 10",
+    "1": "Mixed agreement",
+    "2": "Broad agreement across most models"
+   },
+   "probabilities": {
+    "0": 0.0,
+    "1": 0.08,
+    "2": 0.92
+   }
+  },
+  "overfit_C08": {
+   "type": "noul",
+   "noul": 0.88
+  },
+  "one_model_C08": {
+   "type": "noul",
+   "noul": 0.18
+  },
+  "stronger_than_random_C08": {
+   "type": "noul",
+   "noul": 0.11
+  },
+  "robustness_C09": {
+   "type": "score",
+   "score": 0.56,
+   "confidence": 0.44,
+   "legend": {
+    "0": "Below or at random expectation, or inconsistent between periods",
+    "1": "Slightly above random in one period only",
+    "2": "Modestly above random in both periods but not statistically significant",
+    "3": "Clearly and significantly above random in both periods"
+   },
+   "probabilities": {
+    "0": 0.58,
+    "1": 0.27,
+    "2": 0.15,
+    "3": 0.0
+   }
+  },
+  "agreement_C09": {
+   "type": "score",
+   "score": 1.77,
+   "confidence": 0.65,
+   "legend": {
+    "0": "Little agreement: most models place few of its numbers in their top 10",
+    "1": "Mixed agreement",
+    "2": "Broad agreement across most models"
+   },
+   "probabilities": {
+    "0": 0.0,
+    "1": 0.22,
+    "2": 0.78
+   }
+  },
+  "overfit_C09": {
+   "type": "noul",
+   "noul": 0.9
+  },
+  "one_model_C09": {
+   "type": "noul",
+   "noul": 0.31
+  },
+  "stronger_than_random_C09": {
+   "type": "noul",
+   "noul": 0.08
+  },
+  "robustness_C10": {
+   "type": "score",
+   "score": 0.61,
+   "confidence": 0.39,
+   "legend": {
+    "0": "Below or at random expectation, or inconsistent between periods",
+    "1": "Slightly above random in one period only",
+    "2": "Modestly above random in both periods but not statistically significant",
+    "3": "Clearly and significantly above random in both periods"
+   },
+   "probabilities": {
+    "0": 0.56,
+    "1": 0.27,
+    "2": 0.17,
+    "3": 0.0
+   }
+  },
+  "agreement_C10": {
+   "type": "score",
+   "score": 0.01,
+   "confidence": 0.99,
+   "legend": {
+    "0": "Little agreement: most models place few of its numbers in their top 10",
+    "1": "Mixed agreement",
+    "2": "Broad agreement across most models"
+   },
+   "probabilities": {
+    "0": 0.99,
+    "1": 0.01,
+    "2": 0.0
+   }
+  },
+  "overfit_C10": {
+   "type": "noul",
+   "noul": 0.94
+  },
+  "one_model_C10": {
+   "type": "noul",
+   "noul": 0.2
+  },
+  "stronger_than_random_C10": {
+   "type": "noul",
+   "noul": 0.04
+  },
+  "robustness_C11": {
+   "type": "score",
+   "score": 0.25,
+   "confidence": 0.75,
+   "legend": {
+    "0": "Below or at random expectation, or inconsistent between periods",
+    "1": "Slightly above random in one period only",
+    "2": "Modestly above random in both periods but not statistically significant",
+    "3": "Clearly and significantly above random in both periods"
+   },
+   "probabilities": {
+    "0": 0.84,
+    "1": 0.07,
+    "2": 0.09,
+    "3": 0.0
+   }
+  },
+  "agreement_C11": {
+   "type": "score",
+   "score": 1.69,
+   "confidence": 0.54,
+   "legend": {
+    "0": "Little agreement: most models place few of its numbers in their top 10",
+    "1": "Mixed agreement",
+    "2": "Broad agreement across most models"
+   },
+   "probabilities": {
+    "0": 0.0,
+    "1": 0.3,
+    "2": 0.7
+   }
+  },
+  "overfit_C11": {
+   "type": "noul",
+   "noul": 0.89
+  },
+  "one_model_C11": {
+   "type": "noul",
+   "noul": 0.13
+  },
+  "stronger_than_random_C11": {
+   "type": "noul",
+   "noul": 0.08
+  },
+  "robustness_C12": {
+   "type": "score",
+   "score": 2.03,
+   "confidence": 0.03,
+   "legend": {
+    "0": "Below or at random expectation, or inconsistent between periods",
+    "1": "Slightly above random in one period only",
+    "2": "Modestly above random in both periods but not statistically significant",
+    "3": "Clearly and significantly above random in both periods"
+   },
+   "probabilities": {
+    "0": 0.15,
+    "1": 0.09,
+    "2": 0.32,
+    "3": 0.44
+   }
+  },
+  "agreement_C12": {
+   "type": "score",
+   "score": 1.93,
+   "confidence": 0.9,
+   "legend": {
+    "0": "Little agreement: most models place few of its numbers in their top 10",
+    "1": "Mixed agreement",
+    "2": "Broad agreement across most models"
+   },
+   "probabilities": {
+    "0": 0.0,
+    "1": 0.07,
+    "2": 0.93
+   }
+  },
+  "overfit_C12": {
+   "type": "noul",
+   "noul": 0.85
+  },
+  "one_model_C12": {
+   "type": "noul",
+   "noul": 0.62
+  },
+  "stronger_than_random_C12": {
+   "type": "noul",
+   "noul": 0.28
+  },
+  "robustness_C13": {
+   "type": "score",
+   "score": 0.01,
+   "confidence": 0.99,
+   "legend": {
+    "0": "Below or at random expectation, or inconsistent between periods",
+    "1": "Slightly above random in one period only",
+    "2": "Modestly above random in both periods but not statistically significant",
+    "3": "Clearly and significantly above random in both periods"
+   },
+   "probabilities": {
+    "0": 1.0,
+    "1": 0.0,
+    "2": 0.0,
+    "3": 0.0
+   }
+  },
+  "agreement_C13": {
+   "type": "score",
+   "score": 0.01,
+   "confidence": 0.99,
+   "legend": {
+    "0": "Little agreement: most models place few of its numbers in their top 10",
+    "1": "Mixed agreement",
+    "2": "Broad agreement across most models"
+   },
+   "probabilities": {
+    "0": 1.0,
+    "1": 0.0,
+    "2": 0.0
+   }
+  },
+  "overfit_C13": {
+   "type": "noul",
+   "noul": 0.93
+  },
+  "one_model_C13": {
+   "type": "noul",
+   "noul": 0.92
+  },
+  "stronger_than_random_C13": {
+   "type": "noul",
+   "noul": 0.03
+  },
+  "robustness_C14": {
+   "type": "score",
+   "score": 1.08,
+   "confidence": 0.07,
+   "legend": {
+    "0": "Below or at random expectation, or inconsistent between periods",
+    "1": "Slightly above random in one period only",
+    "2": "Modestly above random in both periods but not statistically significant",
+    "3": "Clearly and significantly above random in both periods"
+   },
+   "probabilities": {
+    "0": 0.37,
+    "1": 0.18,
+    "2": 0.45,
+    "3": 0.0
+   }
+  },
+  "agreement_C14": {
+   "type": "score",
+   "score": 1.55,
+   "confidence": 0.32,
+   "legend": {
+    "0": "Little agreement: most models place few of its numbers in their top 10",
+    "1": "Mixed agreement",
+    "2": "Broad agreement across most models"
+   },
+   "probabilities": {
+    "0": 0.01,
+    "1": 0.43,
+    "2": 0.56
+   }
+  },
+  "overfit_C14": {
+   "type": "noul",
+   "noul": 0.89
+  },
+  "one_model_C14": {
+   "type": "noul",
+   "noul": 0.71
+  },
+  "stronger_than_random_C14": {
+   "type": "noul",
+   "noul": 0.08
+  },
+  "robustness_C15": {
+   "type": "score",
+   "score": 0.01,
+   "confidence": 0.99,
+   "legend": {
+    "0": "Below or at random expectation, or inconsistent between periods",
+    "1": "Slightly above random in one period only",
+    "2": "Modestly above random in both periods but not statistically significant",
+    "3": "Clearly and significantly above random in both periods"
+   },
+   "probabilities": {
+    "0": 0.99,
+    "1": 0.01,
+    "2": 0.0,
+    "3": 0.0
+   }
+  },
+  "agreement_C15": {
+   "type": "score",
+   "score": 0.01,
+   "confidence": 0.98,
+   "legend": {
+    "0": "Little agreement: most models place few of its numbers in their top 10",
+    "1": "Mixed agreement",
+    "2": "Broad agreement across most models"
+   },
+   "probabilities": {
+    "0": 0.99,
+    "1": 0.01,
+    "2": 0.0
+   }
+  },
+  "overfit_C15": {
+   "type": "noul",
+   "noul": 0.92
+  },
+  "one_model_C15": {
+   "type": "noul",
+   "noul": 0.91
+  },
+  "stronger_than_random_C15": {
+   "type": "noul",
+   "noul": 0.04
+  },
+  "robustness_C16": {
+   "type": "score",
+   "score": 0.07,
+   "confidence": 0.93,
+   "legend": {
+    "0": "Below or at random expectation, or inconsistent between periods",
+    "1": "Slightly above random in one period only",
+    "2": "Modestly above random in both periods but not statistically significant",
+    "3": "Clearly and significantly above random in both periods"
+   },
+   "probabilities": {
+    "0": 0.94,
+    "1": 0.06,
+    "2": 0.0,
+    "3": 0.0
+   }
+  },
+  "agreement_C16": {
+   "type": "score",
+   "score": 1.24,
+   "confidence": 0.55,
+   "legend": {
+    "0": "Little agreement: most models place few of its numbers in their top 10",
+    "1": "Mixed agreement",
+    "2": "Broad agreement across most models"
+   },
+   "probabilities": {
+    "0": 0.03,
+    "1": 0.7,
+    "2": 0.27
+   }
+  },
+  "overfit_C16": {
+   "type": "noul",
+   "noul": 0.88
+  },
+  "one_model_C16": {
+   "type": "noul",
+   "noul": 0.2
+  },
+  "stronger_than_random_C16": {
+   "type": "noul",
+   "noul": 0.08
+  }
+ },
+ "_received_utc": "2026-09-23T17:18:18.269060+00:00",
+ "_sent_utc": "2026-09-23T17:18:17.373814+00:00"
+}

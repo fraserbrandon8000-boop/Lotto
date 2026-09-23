@@ -1,0 +1,90 @@
+{
+ "system": "Claude + Jev",
+ "target_draw": 2340,
+ "target_date": "2026-09-23",
+ "information_cutoff_draw": 2339,
+ "numbers": [
+  1,
+  2,
+  4,
+  7,
+  13,
+  24
+ ],
+ "ticket": "01 \u00b7 02 \u00b7 04 \u00b7 07 \u00b7 13 \u00b7 24",
+ "candidate_id": "C12",
+ "decision_branch": "no_edge_branch",
+ "decision_rule": "If no method passed the gate (all candidates have equal expected value 36/38 under the validated evidence): final ticket = the candidate with the highest probability in the Jev Choice distribution from the FIRST valid completed Jev response. Score/Noul answers are recorded as advisory diagnostics only and do not change the choice. Ties broken by lower candidate ID.",
+ "gate_validated_edge": false,
+ "jev": {
+  "model": "jev-1.13.0",
+  "requested_model": "jev-latest",
+  "choice": "C12",
+  "choice_probability": 0.9,
+  "confidence": 0.89,
+  "sent_utc": "2026-09-23T17:18:17.373814+00:00",
+  "received_utc": "2026-09-23T17:18:18.269060+00:00",
+  "first_valid_response": true,
+  "calls": 1
+ },
+ "advisory_diagnostics_for_chosen_not_used_in_decision": {
+  "robustness": {
+   "type": "score",
+   "score": 2.03,
+   "confidence": 0.03,
+   "legend": {
+    "0": "Below or at random expectation, or inconsistent between periods",
+    "1": "Slightly above random in one period only",
+    "2": "Modestly above random in both periods but not statistically significant",
+    "3": "Clearly and significantly above random in both periods"
+   },
+   "probabilities": {
+    "0": 0.15,
+    "1": 0.09,
+    "2": 0.32,
+    "3": 0.44
+   }
+  },
+  "agreement": {
+   "type": "score",
+   "score": 1.93,
+   "confidence": 0.9,
+   "legend": {
+    "0": "Little agreement: most models place few of its numbers in their top 10",
+    "1": "Mixed agreement",
+    "2": "Broad agreement across most models"
+   },
+   "probabilities": {
+    "0": 0.0,
+    "1": 0.07,
+    "2": 0.93
+   }
+  },
+  "overfit": {
+   "type": "noul",
+   "noul": 0.85
+  },
+  "one_model": {
+   "type": "noul",
+   "noul": 0.62
+  },
+  "stronger_than_random": {
+   "type": "noul",
+   "noul": 0.28
+  }
+ },
+ "generating_methods": [
+  "top6:freq_w20",
+  "top6:ewma_0.9"
+ ],
+ "expected_matches_under_uniform": 0.9474,
+ "hashes": {
+  "config.json": "7ac7947eda39ffbcdbbfbd0e704ff294a486b76d8b0aa5bdd0f769295b1cf04b",
+  "candidate_evidence.json": "d41c89bb95c31c99f85f0f71eb9535a3a749ed1d1e34d8ae30501df4c234e2fc",
+  "analysis_results.json": "796d06961892c975991905d083ea6e50f749ce7548a0748a54b4986292e1edf2",
+  "rankings_2340.csv": "cea69c15806b81605356ba21bda3264cb7f8aab1809bee7eec1f17b1e867c6a9",
+  "jev_request.json": "050ce03201107d874f8ae986b0bfb3299ec09964380474729353cefb5844cf8f",
+  "jev_response.json": "6bcbdc001b579a2b9b8fe3396e577a18a4c0f3a4f8880e822e30dd7a4c1014fc"
+ },
+ "frozen_utc": "2026-09-23T17:19:06.222651+00:00"
+}
