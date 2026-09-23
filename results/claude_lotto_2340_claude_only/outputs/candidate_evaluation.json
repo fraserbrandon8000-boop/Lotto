@@ -1,0 +1,3152 @@
+{
+ "rubric_id": "claude-only-lotto-2340-selection-rubric-v1",
+ "rubric_sha256": "298d99a61a59d98338bd7f7dd6798826c24166fe17eca46f37970f1edd3f9a9c",
+ "scorer_sha256": "7170dba461e0704530b3d71a1971675cbc0e082ebda2cb6730a8313bb2c6d0d5",
+ "real_run": true,
+ "run_started_utc": "2026-09-23T18:01:55Z",
+ "run_finished_utc": "2026-09-23T18:01:55Z",
+ "input_sha256": {
+  "results/claude_lotto_2340_cleanroom/config/protocol.json": "c2e6bf999c8c898f7225f887505694b63839340487e0ac3212583ba54818b4be",
+  "results/claude_lotto_2340_cleanroom/outputs/07_candidates_2340.json": "99e6eba1acdaeb16d29efdfb3e1a2aea9bdc0bf2e206deac0d9e9a7d8741300f",
+  "results/claude_lotto_2340_cleanroom/outputs/05_ticket_method_performance.json": "746e2642daa1c0320d0ed4df0be75617c7916482e9f7e326f8b332c1f715bef1",
+  "results/claude_lotto_2340_cleanroom/outputs/05_sensitivity_lambda_grid.json": "f99c66ab0458263cfa98caa880873ec78eef7f47bbcfe3cdd411e1eb50f4c38b",
+  "results/claude_lotto_2340_cleanroom/outputs/05_number_discovery_coverage.json": "2705fb8210f204c6d3b66476301996bf9f2874df07e28514d12c7de306f4abe3",
+  "results/claude_lotto_2340_cleanroom/outputs/06_validation_decision.json": "805b906b0085ac00a3e496eaaf2d6a2576529d54bf9deebd8f7cb558b7113617",
+  "results/claude_lotto_2340_cleanroom/outputs/07_rankings_2340.json": "afb12a4b5ad2d5b5d3375f515ccc5eea651d2b1e56e33c7726cd29d241586d4d",
+  "results/claude_lotto_2340_cleanroom/outputs/02_exact_baseline.json": "805e1acf1a166da44df446f48faecabb1239d02197a87cdb739b2210d9c83b67",
+  "results/claude_lotto_2340_cleanroom/outputs/03_randomness_tests.json": "bcb97fd8841f9ba649a62cb01722d7990a0ce19d2180b5e4f40fcd54b624a83a",
+  "results/claude_lotto_2340_cleanroom/outputs/04b_leakage_test.json": "aea6d1b139db30fd60eac9e3f8e2f09f7df8b0d52ab42f88650ad05d4167aa2e"
+ },
+ "constants": {
+  "E0": 0.9473684210526315,
+  "sd0": 0.8306475148060157,
+  "n_dev": 70,
+  "n_conf": 70,
+  "weights": {
+   "R1": 8,
+   "R2": 7,
+   "R3": 6,
+   "R4": 5,
+   "R5": 4,
+   "R6": 3,
+   "R7": 2,
+   "R8": 1
+  }
+ },
+ "validity_checks": {
+  "n": 173,
+  "n_failed": 24,
+  "failed": [
+   {
+    "check": "C01 D_slope_50|opt_top12 dev/conf means match 05_ticket_method_performance",
+    "passed": false,
+    "detail": ""
+   },
+   {
+    "check": "C02 A_inv_cold|opt_top12 dev/conf means match 05_ticket_method_performance",
+    "passed": false,
+    "detail": ""
+   },
+   {
+    "check": "C03 C_hazard|opt_top12 dev/conf means match 05_ticket_method_performance",
+    "passed": false,
+    "detail": ""
+   },
+   {
+    "check": "C04 random_ticket dev/conf means match 05_ticket_method_performance",
+    "passed": false,
+    "detail": ""
+   },
+   {
+    "check": "C05 B_roll_100|opt_top12 dev/conf means match 05_ticket_method_performance",
+    "passed": false,
+    "detail": ""
+   },
+   {
+    "check": "C06 G_ensemble_equal|opt_top12 dev/conf means match 05_ticket_method_performance",
+    "passed": false,
+    "detail": ""
+   },
+   {
+    "check": "C07 E_transition|opt_top12 dev/conf means match 05_ticket_method_performance",
+    "passed": false,
+    "detail": ""
+   },
+   {
+    "check": "C08 B_ew_10|opt_top12 dev/conf means match 05_ticket_method_performance",
+    "passed": false,
+    "detail": ""
+   },
+   {
+    "check": "C09 consensus dev/conf means match 05_ticket_method_performance",
+    "passed": false,
+    "detail": ""
+   },
+   {
+    "check": "C10 E_pair_centrality|opt_top12 dev/conf means match 05_ticket_method_performance",
+    "passed": false,
+    "detail": ""
+   },
+   {
+    "check": "C11 B_ew_40|opt_top12 dev/conf means match 05_ticket_method_performance",
+    "passed": false,
+    "detail": ""
+   },
+   {
+    "check": "C12 A_freq_all|opt_top12 dev/conf means match 05_ticket_method_performance",
+    "passed": false,
+    "detail": ""
+   },
+   {
+    "check": "C13 H_random|top6 dev/conf means match 05_ticket_method_performance",
+    "passed": false,
+    "detail": ""
+   },
+   {
+    "check": "C14 C_overdue|opt_top12 dev/conf means match 05_ticket_method_performance",
+    "passed": false,
+    "detail": ""
+   },
+   {
+    "check": "C15 C_recent|opt_top12 dev/conf means match 05_ticket_method_performance",
+    "passed": false,
+    "detail": ""
+   },
+   {
+    "check": "C16 B_roll_50|opt_top12 dev/conf means match 05_ticket_method_performance",
+    "passed": false,
+    "detail": ""
+   },
+   {
+    "check": "C17 B_roll_10|pair_top12 dev/conf means match 05_ticket_method_performance",
+    "passed": false,
+    "detail": ""
+   },
+   {
+    "check": "C18 B_ew_20|opt_top12 dev/conf means match 05_ticket_method_performance",
+    "passed": false,
+    "detail": ""
+   },
+   {
+    "check": "C18 G_ensemble_adaptive|opt_top12 dev/conf means match 05_ticket_method_performance",
+    "passed": false,
+    "detail": ""
+   },
+   {
+    "check": "C19 B_roll_30|opt_top12 dev/conf means match 05_ticket_method_performance",
+    "passed": false,
+    "detail": ""
+   },
+   {
+    "check": "C20 B_roll_10|opt_top12 dev/conf means match 05_ticket_method_performance",
+    "passed": false,
+    "detail": ""
+   },
+   {
+    "check": "C20 B_roll_20|opt_top12 dev/conf means match 05_ticket_method_performance",
+    "passed": false,
+    "detail": ""
+   },
+   {
+    "check": "C20 D_trend_20v40|opt_top12 dev/conf means match 05_ticket_method_performance",
+    "passed": false,
+    "detail": ""
+   },
+   {
+    "check": "C21 C_own_gap_pct|opt_top12 dev/conf means match 05_ticket_method_performance",
+    "passed": false,
+    "detail": ""
+   }
+  ],
+  "all": [
+   {
+    "check": "C01 six distinct numbers in 1..38",
+    "passed": true,
+    "detail": ""
+   },
+   {
+    "check": "C02 six distinct numbers in 1..38",
+    "passed": true,
+    "detail": ""
+   },
+   {
+    "check": "C03 six distinct numbers in 1..38",
+    "passed": true,
+    "detail": ""
+   },
+   {
+    "check": "C04 six distinct numbers in 1..38",
+    "passed": true,
+    "detail": ""
+   },
+   {
+    "check": "C05 six distinct numbers in 1..38",
+    "passed": true,
+    "detail": ""
+   },
+   {
+    "check": "C06 six distinct numbers in 1..38",
+    "passed": true,
+    "detail": ""
+   },
+   {
+    "check": "C07 six distinct numbers in 1..38",
+    "passed": true,
+    "detail": ""
+   },
+   {
+    "check": "C08 six distinct numbers in 1..38",
+    "passed": true,
+    "detail": ""
+   },
+   {
+    "check": "C09 six distinct numbers in 1..38",
+    "passed": true,
+    "detail": ""
+   },
+   {
+    "check": "C10 six distinct numbers in 1..38",
+    "passed": true,
+    "detail": ""
+   },
+   {
+    "check": "C11 six distinct numbers in 1..38",
+    "passed": true,
+    "detail": ""
+   },
+   {
+    "check": "C12 six distinct numbers in 1..38",
+    "passed": true,
+    "detail": ""
+   },
+   {
+    "check": "C13 six distinct numbers in 1..38",
+    "passed": true,
+    "detail": ""
+   },
+   {
+    "check": "C14 six distinct numbers in 1..38",
+    "passed": true,
+    "detail": ""
+   },
+   {
+    "check": "C15 six distinct numbers in 1..38",
+    "passed": true,
+    "detail": ""
+   },
+   {
+    "check": "C16 six distinct numbers in 1..38",
+    "passed": true,
+    "detail": ""
+   },
+   {
+    "check": "C17 six distinct numbers in 1..38",
+    "passed": true,
+    "detail": ""
+   },
+   {
+    "check": "C18 six distinct numbers in 1..38",
+    "passed": true,
+    "detail": ""
+   },
+   {
+    "check": "C19 six distinct numbers in 1..38",
+    "passed": true,
+    "detail": ""
+   },
+   {
+    "check": "C20 six distinct numbers in 1..38",
+    "passed": true,
+    "detail": ""
+   },
+   {
+    "check": "C21 six distinct numbers in 1..38",
+    "passed": true,
+    "detail": ""
+   },
+   {
+    "check": "sd0 matches frozen power.sd_per_ticket_under_null",
+    "passed": true,
+    "detail": "code=0.830647515 frozen=0.8306475148060158"
+   },
+   {
+    "check": "per-number ranks match 07_rankings_2340.json positions",
+    "passed": true,
+    "detail": "0 mismatches"
+   },
+   {
+    "check": "C01 n3 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=2 frozen=2"
+   },
+   {
+    "check": "C01 n4 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=4 frozen=4"
+   },
+   {
+    "check": "C01 n13 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=4 frozen=4"
+   },
+   {
+    "check": "C01 n18 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=3 frozen=3"
+   },
+   {
+    "check": "C01 n24 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=5 frozen=5"
+   },
+   {
+    "check": "C01 n29 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=1 frozen=1"
+   },
+   {
+    "check": "C01 D_slope_50|opt_top12 dev/conf means match 05_ticket_method_performance",
+    "passed": false,
+    "detail": ""
+   },
+   {
+    "check": "C02 n5 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=0 frozen=0"
+   },
+   {
+    "check": "C02 n16 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=1 frozen=1"
+   },
+   {
+    "check": "C02 n23 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=0 frozen=0"
+   },
+   {
+    "check": "C02 n28 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=1 frozen=1"
+   },
+   {
+    "check": "C02 n29 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=1 frozen=1"
+   },
+   {
+    "check": "C02 n32 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=1 frozen=1"
+   },
+   {
+    "check": "C02 A_inv_cold|opt_top12 dev/conf means match 05_ticket_method_performance",
+    "passed": false,
+    "detail": ""
+   },
+   {
+    "check": "C03 n3 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=2 frozen=2"
+   },
+   {
+    "check": "C03 n9 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=2 frozen=2"
+   },
+   {
+    "check": "C03 n16 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=1 frozen=1"
+   },
+   {
+    "check": "C03 n17 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=1 frozen=1"
+   },
+   {
+    "check": "C03 n24 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=5 frozen=5"
+   },
+   {
+    "check": "C03 n26 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=1 frozen=1"
+   },
+   {
+    "check": "C03 C_hazard|opt_top12 dev/conf means match 05_ticket_method_performance",
+    "passed": false,
+    "detail": ""
+   },
+   {
+    "check": "C04 n2 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=3 frozen=3"
+   },
+   {
+    "check": "C04 n16 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=1 frozen=1"
+   },
+   {
+    "check": "C04 n17 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=1 frozen=1"
+   },
+   {
+    "check": "C04 n25 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=2 frozen=2"
+   },
+   {
+    "check": "C04 n33 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=2 frozen=2"
+   },
+   {
+    "check": "C04 n37 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=2 frozen=2"
+   },
+   {
+    "check": "C04 random_ticket dev/conf means match 05_ticket_method_performance",
+    "passed": false,
+    "detail": ""
+   },
+   {
+    "check": "C05 n1 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=4 frozen=4"
+   },
+   {
+    "check": "C05 n6 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=2 frozen=2"
+   },
+   {
+    "check": "C05 n8 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=3 frozen=3"
+   },
+   {
+    "check": "C05 n13 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=4 frozen=4"
+   },
+   {
+    "check": "C05 n35 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=3 frozen=3"
+   },
+   {
+    "check": "C05 n38 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=3 frozen=3"
+   },
+   {
+    "check": "C05 B_roll_100|opt_top12 dev/conf means match 05_ticket_method_performance",
+    "passed": false,
+    "detail": ""
+   },
+   {
+    "check": "C06 n1 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=4 frozen=4"
+   },
+   {
+    "check": "C06 n4 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=4 frozen=4"
+   },
+   {
+    "check": "C06 n13 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=4 frozen=4"
+   },
+   {
+    "check": "C06 n18 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=3 frozen=3"
+   },
+   {
+    "check": "C06 n24 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=5 frozen=5"
+   },
+   {
+    "check": "C06 n25 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=2 frozen=2"
+   },
+   {
+    "check": "C06 G_ensemble_equal|opt_top12 dev/conf means match 05_ticket_method_performance",
+    "passed": false,
+    "detail": ""
+   },
+   {
+    "check": "C07 n1 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=4 frozen=4"
+   },
+   {
+    "check": "C07 n2 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=3 frozen=3"
+   },
+   {
+    "check": "C07 n6 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=2 frozen=2"
+   },
+   {
+    "check": "C07 n18 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=3 frozen=3"
+   },
+   {
+    "check": "C07 n25 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=2 frozen=2"
+   },
+   {
+    "check": "C07 n35 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=3 frozen=3"
+   },
+   {
+    "check": "C07 E_transition|opt_top12 dev/conf means match 05_ticket_method_performance",
+    "passed": false,
+    "detail": ""
+   },
+   {
+    "check": "C08 n1 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=4 frozen=4"
+   },
+   {
+    "check": "C08 n4 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=4 frozen=4"
+   },
+   {
+    "check": "C08 n9 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=2 frozen=2"
+   },
+   {
+    "check": "C08 n10 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=3 frozen=3"
+   },
+   {
+    "check": "C08 n13 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=4 frozen=4"
+   },
+   {
+    "check": "C08 n24 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=5 frozen=5"
+   },
+   {
+    "check": "C08 B_ew_10|opt_top12 dev/conf means match 05_ticket_method_performance",
+    "passed": false,
+    "detail": ""
+   },
+   {
+    "check": "C09 n1 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=4 frozen=4"
+   },
+   {
+    "check": "C09 n4 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=4 frozen=4"
+   },
+   {
+    "check": "C09 n10 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=3 frozen=3"
+   },
+   {
+    "check": "C09 n13 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=4 frozen=4"
+   },
+   {
+    "check": "C09 n18 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=3 frozen=3"
+   },
+   {
+    "check": "C09 n24 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=5 frozen=5"
+   },
+   {
+    "check": "C09 consensus dev/conf means match 05_ticket_method_performance",
+    "passed": false,
+    "detail": ""
+   },
+   {
+    "check": "C10 n11 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=1 frozen=1"
+   },
+   {
+    "check": "C10 n14 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=0 frozen=0"
+   },
+   {
+    "check": "C10 n18 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=3 frozen=3"
+   },
+   {
+    "check": "C10 n21 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=0 frozen=0"
+   },
+   {
+    "check": "C10 n25 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=2 frozen=2"
+   },
+   {
+    "check": "C10 n34 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=0 frozen=0"
+   },
+   {
+    "check": "C10 E_pair_centrality|opt_top12 dev/conf means match 05_ticket_method_performance",
+    "passed": false,
+    "detail": ""
+   },
+   {
+    "check": "C11 n4 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=4 frozen=4"
+   },
+   {
+    "check": "C11 n8 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=3 frozen=3"
+   },
+   {
+    "check": "C11 n9 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=2 frozen=2"
+   },
+   {
+    "check": "C11 n13 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=4 frozen=4"
+   },
+   {
+    "check": "C11 n24 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=5 frozen=5"
+   },
+   {
+    "check": "C11 n35 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=3 frozen=3"
+   },
+   {
+    "check": "C11 B_ew_40|opt_top12 dev/conf means match 05_ticket_method_performance",
+    "passed": false,
+    "detail": ""
+   },
+   {
+    "check": "C12 n1 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=4 frozen=4"
+   },
+   {
+    "check": "C12 n8 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=3 frozen=3"
+   },
+   {
+    "check": "C12 n13 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=4 frozen=4"
+   },
+   {
+    "check": "C12 n18 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=3 frozen=3"
+   },
+   {
+    "check": "C12 n24 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=5 frozen=5"
+   },
+   {
+    "check": "C12 n25 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=2 frozen=2"
+   },
+   {
+    "check": "C12 A_freq_all|opt_top12 dev/conf means match 05_ticket_method_performance",
+    "passed": false,
+    "detail": ""
+   },
+   {
+    "check": "C13 n1 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=4 frozen=4"
+   },
+   {
+    "check": "C13 n21 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=0 frozen=0"
+   },
+   {
+    "check": "C13 n26 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=1 frozen=1"
+   },
+   {
+    "check": "C13 n31 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=1 frozen=1"
+   },
+   {
+    "check": "C13 n34 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=0 frozen=0"
+   },
+   {
+    "check": "C13 n36 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=1 frozen=1"
+   },
+   {
+    "check": "C13 H_random|top6 dev/conf means match 05_ticket_method_performance",
+    "passed": false,
+    "detail": ""
+   },
+   {
+    "check": "C14 n5 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=0 frozen=0"
+   },
+   {
+    "check": "C14 n11 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=1 frozen=1"
+   },
+   {
+    "check": "C14 n16 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=1 frozen=1"
+   },
+   {
+    "check": "C14 n31 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=1 frozen=1"
+   },
+   {
+    "check": "C14 n32 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=1 frozen=1"
+   },
+   {
+    "check": "C14 n34 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=0 frozen=0"
+   },
+   {
+    "check": "C14 C_overdue|opt_top12 dev/conf means match 05_ticket_method_performance",
+    "passed": false,
+    "detail": ""
+   },
+   {
+    "check": "C15 n1 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=4 frozen=4"
+   },
+   {
+    "check": "C15 n4 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=4 frozen=4"
+   },
+   {
+    "check": "C15 n13 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=4 frozen=4"
+   },
+   {
+    "check": "C15 n18 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=3 frozen=3"
+   },
+   {
+    "check": "C15 n28 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=1 frozen=1"
+   },
+   {
+    "check": "C15 n29 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=1 frozen=1"
+   },
+   {
+    "check": "C15 C_recent|opt_top12 dev/conf means match 05_ticket_method_performance",
+    "passed": false,
+    "detail": ""
+   },
+   {
+    "check": "C16 n6 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=2 frozen=2"
+   },
+   {
+    "check": "C16 n9 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=2 frozen=2"
+   },
+   {
+    "check": "C16 n10 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=3 frozen=3"
+   },
+   {
+    "check": "C16 n31 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=1 frozen=1"
+   },
+   {
+    "check": "C16 n35 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=3 frozen=3"
+   },
+   {
+    "check": "C16 n38 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=3 frozen=3"
+   },
+   {
+    "check": "C16 B_roll_50|opt_top12 dev/conf means match 05_ticket_method_performance",
+    "passed": false,
+    "detail": ""
+   },
+   {
+    "check": "C17 n1 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=4 frozen=4"
+   },
+   {
+    "check": "C17 n4 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=4 frozen=4"
+   },
+   {
+    "check": "C17 n6 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=2 frozen=2"
+   },
+   {
+    "check": "C17 n13 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=4 frozen=4"
+   },
+   {
+    "check": "C17 n18 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=3 frozen=3"
+   },
+   {
+    "check": "C17 n29 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=1 frozen=1"
+   },
+   {
+    "check": "C17 B_roll_10|pair_top12 dev/conf means match 05_ticket_method_performance",
+    "passed": false,
+    "detail": ""
+   },
+   {
+    "check": "C18 n4 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=4 frozen=4"
+   },
+   {
+    "check": "C18 n9 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=2 frozen=2"
+   },
+   {
+    "check": "C18 n10 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=3 frozen=3"
+   },
+   {
+    "check": "C18 n13 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=4 frozen=4"
+   },
+   {
+    "check": "C18 n24 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=5 frozen=5"
+   },
+   {
+    "check": "C18 n35 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=3 frozen=3"
+   },
+   {
+    "check": "C18 B_ew_20|opt_top12 dev/conf means match 05_ticket_method_performance",
+    "passed": false,
+    "detail": ""
+   },
+   {
+    "check": "C18 G_ensemble_adaptive|opt_top12 dev/conf means match 05_ticket_method_performance",
+    "passed": false,
+    "detail": ""
+   },
+   {
+    "check": "C19 n8 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=3 frozen=3"
+   },
+   {
+    "check": "C19 n9 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=2 frozen=2"
+   },
+   {
+    "check": "C19 n13 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=4 frozen=4"
+   },
+   {
+    "check": "C19 n15 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=1 frozen=1"
+   },
+   {
+    "check": "C19 n22 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=1 frozen=1"
+   },
+   {
+    "check": "C19 n24 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=5 frozen=5"
+   },
+   {
+    "check": "C19 B_roll_30|opt_top12 dev/conf means match 05_ticket_method_performance",
+    "passed": false,
+    "detail": ""
+   },
+   {
+    "check": "C20 n1 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=4 frozen=4"
+   },
+   {
+    "check": "C20 n2 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=3 frozen=3"
+   },
+   {
+    "check": "C20 n4 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=4 frozen=4"
+   },
+   {
+    "check": "C20 n7 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=1 frozen=1"
+   },
+   {
+    "check": "C20 n13 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=4 frozen=4"
+   },
+   {
+    "check": "C20 n24 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=5 frozen=5"
+   },
+   {
+    "check": "C20 B_roll_10|opt_top12 dev/conf means match 05_ticket_method_performance",
+    "passed": false,
+    "detail": ""
+   },
+   {
+    "check": "C20 B_roll_20|opt_top12 dev/conf means match 05_ticket_method_performance",
+    "passed": false,
+    "detail": ""
+   },
+   {
+    "check": "C20 D_trend_20v40|opt_top12 dev/conf means match 05_ticket_method_performance",
+    "passed": false,
+    "detail": ""
+   },
+   {
+    "check": "C21 n16 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=1 frozen=1"
+   },
+   {
+    "check": "C21 n27 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=0 frozen=0"
+   },
+   {
+    "check": "C21 n31 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=1 frozen=1"
+   },
+   {
+    "check": "C21 n34 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=0 frozen=0"
+   },
+   {
+    "check": "C21 n35 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=3 frozen=3"
+   },
+   {
+    "check": "C21 n38 family top-12 count == components_ranking_it_top12",
+    "passed": true,
+    "detail": "recomputed=3 frozen=3"
+   },
+   {
+    "check": "C21 C_own_gap_pct|opt_top12 dev/conf means match 05_ticket_method_performance",
+    "passed": false,
+    "detail": ""
+   }
+  ]
+ },
+ "composite_order_all_candidates": [
+  "C06",
+  "C09",
+  "C11",
+  "C07",
+  "C08",
+  "C18",
+  "C12",
+  "C20",
+  "C16",
+  "C19",
+  "C17",
+  "C13",
+  "C15",
+  "C05",
+  "C01",
+  "C03",
+  "C21",
+  "C04",
+  "C14",
+  "C02",
+  "C10"
+ ],
+ "candidates": {
+  "C01": {
+   "composite_S": 0.3902777777777777,
+   "overall_position": 15,
+   "eligible": true,
+   "raw": {
+    "R1": 0.6333333333333333,
+    "R2": -1.0512387549562061,
+    "R3": 0.3603603603603603,
+    "R4": 0.25,
+    "R5": 0.8275862068965517,
+    "R6": -2.0369636793070156,
+    "R7": 0.325,
+    "R8": 0.3125
+   },
+   "u": {
+    "R1": 0.625,
+    "R2": 0.1,
+    "R3": 0.45,
+    "R4": 0.2,
+    "R5": 0.9,
+    "R6": 0.05,
+    "R7": 0.35,
+    "R8": 0.2
+   },
+   "numbers": [
+    3,
+    4,
+    13,
+    18,
+    24,
+    29
+   ],
+   "generating_methods": [
+    "D_slope_50|opt_top12"
+   ],
+   "is_random_control": false,
+   "family_top12_counts": {
+    "3": 2,
+    "4": 4,
+    "13": 4,
+    "18": 3,
+    "24": 5,
+    "29": 1
+   },
+   "method_stats": {
+    "D_slope_50|opt_top12": {
+     "dev_mean": 1.129,
+     "confirmation_mean": 0.843,
+     "source": "candidate",
+     "z_conf": -1.0512387549562061,
+     "z_decay": 2.0369636793070156,
+     "mean": 0.9857142857142858,
+     "p_upper_exact": 0.3079560725596929,
+     "p_upper_holm_family": 1.0,
+     "dev_p_upper": 0.04170594537077022,
+     "conf_p_upper": 0.870414275925947
+    }
+   },
+   "core_ranker_ticket_percentile": {
+    "A_freq_all": 0.6576576576576577,
+    "B_ew_20": 0.7072072072072072,
+    "B_roll_10": 0.8108108108108109,
+    "C_hazard": 0.6351351351351352,
+    "D_trend_20v40": 0.8153153153153153,
+    "E_transition": 0.5990990990990992,
+    "E_pair_centrality": 0.3603603603603603,
+    "G_ensemble_equal": 0.7657657657657658
+   },
+   "sensitivity_raw": {
+    "lambda_grid_variants_keeping_4plus_numbers": "8/16",
+    "sibling_rankers_keeping_4plus_numbers": "0/1"
+   },
+   "sensitivity_parsed": {
+    "lambda_grid_variants_keeping_4plus_numbers": 0.5,
+    "sibling_rankers_keeping_4plus_numbers": 0.0
+   },
+   "core_ranker_top12_votes": {
+    "A_freq_all": 4,
+    "B_ew_20": 3,
+    "B_roll_10": 5,
+    "C_hazard": 4,
+    "D_trend_20v40": 4,
+    "E_transition": 4,
+    "E_pair_centrality": 1,
+    "G_ensemble_equal": 4
+   },
+   "ensemble_equal_ticket_percentile": 0.7657657657657658,
+   "n_counterevidence": 5,
+   "counterevidence": [
+    "All 20 global randomness tests are consistent with an independent uniform draw (min Holm p = 1.0).",
+    "No ticket method survives Holm correction; the pre-registered dev-selected method fell below baseline in confirmation.",
+    "Every ticket, including this one, has exactly the same random probabilities: P(3+) = 3.87%, expected matches 0.947.",
+    "Its generating method(s) did not beat the random expectation in the confirmation period.",
+    "Development-period performance of its method(s) fell in the confirmation period (regression toward random)."
+   ],
+   "lambda_grid_fraction_conf_above_E0": {
+    "D_slope_50|opt_top12": 0.3125
+   }
+  },
+  "C02": {
+   "composite_S": 0.1861111111111111,
+   "overall_position": 20,
+   "eligible": true,
+   "raw": {
+    "R1": 0.13333333333333333,
+    "R2": -0.7692120188812176,
+    "R3": 0.08108108108108109,
+    "R4": 0.5,
+    "R5": 0.4,
+    "R6": -0.3062567769587473,
+    "R7": 0.2375,
+    "R8": 0.328125
+   },
+   "u": {
+    "R1": 0.025,
+    "R2": 0.2,
+    "R3": 0.0,
+    "R4": 0.625,
+    "R5": 0.0,
+    "R6": 0.475,
+    "R7": 0.15,
+    "R8": 0.25
+   },
+   "numbers": [
+    5,
+    16,
+    23,
+    28,
+    29,
+    32
+   ],
+   "generating_methods": [
+    "A_inv_cold|opt_top12"
+   ],
+   "is_random_control": false,
+   "family_top12_counts": {
+    "5": 0,
+    "16": 1,
+    "23": 0,
+    "28": 1,
+    "29": 1,
+    "32": 1
+   },
+   "method_stats": {
+    "A_inv_cold|opt_top12": {
+     "dev_mean": 0.914,
+     "confirmation_mean": 0.871,
+     "source": "candidate",
+     "z_conf": -0.7692120188812176,
+     "z_decay": 0.3062567769587473,
+     "mean": 0.8928571428571429,
+     "p_upper_exact": 0.7952511903507709,
+     "p_upper_holm_family": 1.0,
+     "dev_p_upper": 0.6536441926037558,
+     "conf_p_upper": 0.7976952289166394
+    }
+   },
+   "core_ranker_ticket_percentile": {
+    "A_freq_all": 0.08108108108108109,
+    "B_ew_20": 0.2612612612612613,
+    "B_roll_10": 0.40090090090090097,
+    "C_hazard": 0.6756756756756758,
+    "D_trend_20v40": 0.36936936936936937,
+    "E_transition": 0.2117117117117117,
+    "E_pair_centrality": 0.23873873873873874,
+    "G_ensemble_equal": 0.18468468468468469
+   },
+   "sensitivity_raw": {
+    "lambda_grid_variants_keeping_4plus_numbers": "16/16",
+    "sibling_rankers_keeping_4plus_numbers": "0/1"
+   },
+   "sensitivity_parsed": {
+    "lambda_grid_variants_keeping_4plus_numbers": 1.0,
+    "sibling_rankers_keeping_4plus_numbers": 0.0
+   },
+   "core_ranker_top12_votes": {
+    "A_freq_all": 0,
+    "B_ew_20": 0,
+    "B_roll_10": 1,
+    "C_hazard": 3,
+    "D_trend_20v40": 1,
+    "E_transition": 0,
+    "E_pair_centrality": 0,
+    "G_ensemble_equal": 0
+   },
+   "ensemble_equal_ticket_percentile": 0.18468468468468469,
+   "n_counterevidence": 4,
+   "counterevidence": [
+    "All 20 global randomness tests are consistent with an independent uniform draw (min Holm p = 1.0).",
+    "No ticket method survives Holm correction; the pre-registered dev-selected method fell below baseline in confirmation.",
+    "Every ticket, including this one, has exactly the same random probabilities: P(3+) = 3.87%, expected matches 0.947.",
+    "Its generating method(s) did not beat the random expectation in the confirmation period."
+   ],
+   "lambda_grid_fraction_conf_above_E0": {
+    "A_inv_cold|opt_top12": 0.328125
+   }
+  },
+  "C03": {
+   "composite_S": 0.29166666666666663,
+   "overall_position": 16,
+   "eligible": true,
+   "raw": {
+    "R1": 0.4,
+    "R2": -0.3360995313374852,
+    "R3": 0.35135135135135137,
+    "R4": 0.28125,
+    "R5": 0.6470588235294117,
+    "R6": -0.30625677695874653,
+    "R7": 0.2,
+    "R8": 0.390625
+   },
+   "u": {
+    "R1": 0.3,
+    "R2": 0.35,
+    "R3": 0.325,
+    "R4": 0.25,
+    "R5": 0.15,
+    "R6": 0.475,
+    "R7": 0.05,
+    "R8": 0.325
+   },
+   "numbers": [
+    3,
+    9,
+    16,
+    17,
+    24,
+    26
+   ],
+   "generating_methods": [
+    "C_hazard|opt_top12"
+   ],
+   "is_random_control": false,
+   "family_top12_counts": {
+    "3": 2,
+    "9": 2,
+    "16": 1,
+    "17": 1,
+    "24": 5,
+    "26": 1
+   },
+   "method_stats": {
+    "C_hazard|opt_top12": {
+     "dev_mean": 0.957,
+     "confirmation_mean": 0.914,
+     "source": "candidate",
+     "z_conf": -0.3360995313374852,
+     "z_decay": 0.30625677695874653,
+     "mean": 0.9357142857142857,
+     "p_upper_exact": 0.5827226168195793,
+     "p_upper_holm_family": 1.0,
+     "dev_p_upper": 0.4846989737069556,
+     "conf_p_upper": 0.6536441926037558
+    }
+   },
+   "core_ranker_ticket_percentile": {
+    "A_freq_all": 0.36486486486486486,
+    "B_ew_20": 0.481981981981982,
+    "B_roll_10": 0.5315315315315315,
+    "C_hazard": 0.8783783783783784,
+    "D_trend_20v40": 0.45495495495495497,
+    "E_transition": 0.35135135135135137,
+    "E_pair_centrality": 0.4189189189189189,
+    "G_ensemble_equal": 0.4684684684684685
+   },
+   "sensitivity_raw": {
+    "lambda_grid_variants_keeping_4plus_numbers": "9/16",
+    "sibling_rankers_keeping_4plus_numbers": "0/3"
+   },
+   "sensitivity_parsed": {
+    "lambda_grid_variants_keeping_4plus_numbers": 0.5625,
+    "sibling_rankers_keeping_4plus_numbers": 0.0
+   },
+   "core_ranker_top12_votes": {
+    "A_freq_all": 1,
+    "B_ew_20": 2,
+    "B_roll_10": 3,
+    "C_hazard": 6,
+    "D_trend_20v40": 2,
+    "E_transition": 1,
+    "E_pair_centrality": 1,
+    "G_ensemble_equal": 1
+   },
+   "ensemble_equal_ticket_percentile": 0.4684684684684685,
+   "n_counterevidence": 5,
+   "counterevidence": [
+    "All 20 global randomness tests are consistent with an independent uniform draw (min Holm p = 1.0).",
+    "No ticket method survives Holm correction; the pre-registered dev-selected method fell below baseline in confirmation.",
+    "Every ticket, including this one, has exactly the same random probabilities: P(3+) = 3.87%, expected matches 0.947.",
+    "Its generating method(s) did not beat the random expectation in the confirmation period.",
+    "Development-period performance of its method(s) fell in the confirmation period (regression toward random)."
+   ],
+   "lambda_grid_fraction_conf_above_E0": {
+    "C_hazard|opt_top12": 0.390625
+   }
+  },
+  "C04": {
+   "composite_S": 0.2826388888888889,
+   "overall_position": 18,
+   "eligible": false,
+   "raw": {
+    "R1": 0.36666666666666664,
+    "R2": -1.3433378744624442,
+    "R3": 0.40090090090090086,
+    "R4": 0.0,
+    "R5": 0.75,
+    "R6": -0.40596828573601385,
+    "R7": 0.22499999999999998,
+    "R8": 0.96875
+   },
+   "u": {
+    "R1": 0.25,
+    "R2": 0.05,
+    "R3": 0.7,
+    "R4": 0.075,
+    "R5": 0.25,
+    "R6": 0.4,
+    "R7": 0.1,
+    "R8": 0.85
+   },
+   "numbers": [
+    2,
+    16,
+    17,
+    25,
+    33,
+    37
+   ],
+   "generating_methods": [
+    "random_ticket"
+   ],
+   "is_random_control": true,
+   "family_top12_counts": {
+    "2": 3,
+    "16": 1,
+    "17": 1,
+    "25": 2,
+    "33": 2,
+    "37": 2
+   },
+   "method_stats": {
+    "random_ticket": {
+     "dev_mean": 0.871,
+     "confirmation_mean": 0.814,
+     "source": "candidate",
+     "z_conf": -1.3433378744624442,
+     "z_decay": 0.40596828573601385,
+     "mean": 0.8428571428571429,
+     "p_upper_exact": 0.9396721524631902,
+     "dev_p_upper": 0.7976952289166394,
+     "conf_p_upper": 0.9230127968019917
+    }
+   },
+   "core_ranker_ticket_percentile": {
+    "A_freq_all": 0.5720720720720721,
+    "B_ew_20": 0.40090090090090086,
+    "B_roll_10": 0.46396396396396394,
+    "C_hazard": 0.5630630630630631,
+    "D_trend_20v40": 0.42792792792792794,
+    "E_transition": 0.6936936936936937,
+    "E_pair_centrality": 0.4594594594594595,
+    "G_ensemble_equal": 0.581081081081081
+   },
+   "sensitivity_raw": {
+    "lambda_grid_variants_keeping_4plus_numbers": "n/a",
+    "sibling_rankers_keeping_4plus_numbers": "n/a"
+   },
+   "sensitivity_parsed": {
+    "lambda_grid_variants_keeping_4plus_numbers": null,
+    "sibling_rankers_keeping_4plus_numbers": null
+   },
+   "core_ranker_top12_votes": {
+    "A_freq_all": 3,
+    "B_ew_20": 1,
+    "B_roll_10": 2,
+    "C_hazard": 2,
+    "D_trend_20v40": 1,
+    "E_transition": 4,
+    "E_pair_centrality": 1,
+    "G_ensemble_equal": 2
+   },
+   "ensemble_equal_ticket_percentile": 0.581081081081081,
+   "n_counterevidence": 5,
+   "counterevidence": [
+    "This ticket is a uniform random control, not derived from any feature.",
+    "All 20 global randomness tests are consistent with an independent uniform draw (min Holm p = 1.0).",
+    "No ticket method survives Holm correction; the pre-registered dev-selected method fell below baseline in confirmation.",
+    "Every ticket, including this one, has exactly the same random probabilities: P(3+) = 3.87%, expected matches 0.947.",
+    "Its generating method(s) did not beat the random expectation in the confirmation period."
+   ],
+   "lambda_grid_fraction_conf_above_E0": {
+    "random_ticket": 0.96875
+   }
+  },
+  "C05": {
+   "composite_S": 0.41250000000000003,
+   "overall_position": 14,
+   "eligible": true,
+   "raw": {
+    "R1": 0.6333333333333333,
+    "R2": -1.4843512424999374,
+    "R3": 0.3738738738738739,
+    "R4": 0.5,
+    "R5": 0.7931034482758621,
+    "R6": -1.6309953935710007,
+    "R7": 0.375,
+    "R8": 0.0
+   },
+   "u": {
+    "R1": 0.625,
+    "R2": 0.0,
+    "R3": 0.6,
+    "R4": 0.625,
+    "R5": 0.475,
+    "R6": 0.1,
+    "R7": 0.45,
+    "R8": 0.025
+   },
+   "numbers": [
+    1,
+    6,
+    8,
+    13,
+    35,
+    38
+   ],
+   "generating_methods": [
+    "B_roll_100|opt_top12"
+   ],
+   "is_random_control": false,
+   "family_top12_counts": {
+    "1": 4,
+    "6": 2,
+    "8": 3,
+    "13": 4,
+    "35": 3,
+    "38": 3
+   },
+   "method_stats": {
+    "B_roll_100|opt_top12": {
+     "dev_mean": 1.029,
+     "confirmation_mean": 0.8,
+     "source": "candidate",
+     "z_conf": -1.4843512424999374,
+     "z_decay": 1.6309953935710007,
+     "mean": 0.9142857142857143,
+     "p_upper_exact": 0.6970709288664257,
+     "p_upper_holm_family": 1.0,
+     "dev_p_upper": 0.22623447220099305,
+     "conf_p_upper": 0.9423936526968577
+    }
+   },
+   "core_ranker_ticket_percentile": {
+    "A_freq_all": 0.8378378378378378,
+    "B_ew_20": 0.8378378378378378,
+    "B_roll_10": 0.6486486486486487,
+    "C_hazard": 0.3738738738738739,
+    "D_trend_20v40": 0.5225225225225225,
+    "E_transition": 0.8153153153153153,
+    "E_pair_centrality": 0.48648648648648657,
+    "G_ensemble_equal": 0.7972972972972974
+   },
+   "sensitivity_raw": {
+    "lambda_grid_variants_keeping_4plus_numbers": "16/16",
+    "sibling_rankers_keeping_4plus_numbers": "0/7"
+   },
+   "sensitivity_parsed": {
+    "lambda_grid_variants_keeping_4plus_numbers": 1.0,
+    "sibling_rankers_keeping_4plus_numbers": 0.0
+   },
+   "core_ranker_top12_votes": {
+    "A_freq_all": 5,
+    "B_ew_20": 6,
+    "B_roll_10": 3,
+    "C_hazard": 1,
+    "D_trend_20v40": 2,
+    "E_transition": 5,
+    "E_pair_centrality": 2,
+    "G_ensemble_equal": 5
+   },
+   "ensemble_equal_ticket_percentile": 0.7972972972972974,
+   "n_counterevidence": 5,
+   "counterevidence": [
+    "All 20 global randomness tests are consistent with an independent uniform draw (min Holm p = 1.0).",
+    "No ticket method survives Holm correction; the pre-registered dev-selected method fell below baseline in confirmation.",
+    "Every ticket, including this one, has exactly the same random probabilities: P(3+) = 3.87%, expected matches 0.947.",
+    "Its generating method(s) did not beat the random expectation in the confirmation period.",
+    "Development-period performance of its method(s) fell in the confirmation period (regression toward random)."
+   ],
+   "lambda_grid_fraction_conf_above_E0": {
+    "B_roll_100|opt_top12": 0.0
+   }
+  },
+  "C06": {
+   "composite_S": 0.8208333333333332,
+   "overall_position": 1,
+   "eligible": true,
+   "raw": {
+    "R1": 0.7333333333333333,
+    "R2": 0.6711388117874728,
+    "R3": 0.481981981981982,
+    "R4": 0.5,
+    "R5": 0.8285714285714285,
+    "R6": -0.0,
+    "R7": 0.8875,
+    "R8": 0.921875
+   },
+   "u": {
+    "R1": 0.925,
+    "R2": 0.675,
+    "R3": 0.9,
+    "R4": 0.625,
+    "R5": 0.975,
+    "R6": 0.8,
+    "R7": 0.95,
+    "R8": 0.7
+   },
+   "numbers": [
+    1,
+    4,
+    13,
+    18,
+    24,
+    25
+   ],
+   "generating_methods": [
+    "G_ensemble_equal|opt_top12"
+   ],
+   "is_random_control": false,
+   "family_top12_counts": {
+    "1": 4,
+    "4": 4,
+    "13": 4,
+    "18": 3,
+    "24": 5,
+    "25": 2
+   },
+   "method_stats": {
+    "G_ensemble_equal|opt_top12": {
+     "dev_mean": 0.9,
+     "confirmation_mean": 1.014,
+     "source": "candidate",
+     "z_conf": 0.6711388117874728,
+     "z_decay": 0.0,
+     "mean": 0.9571428571428572,
+     "p_upper_exact": 0.4614942456770789,
+     "p_upper_holm_family": 1.0,
+     "dev_p_upper": 0.7056495991190086,
+     "conf_p_upper": 0.27105280319164277
+    }
+   },
+   "core_ranker_ticket_percentile": {
+    "A_freq_all": 0.8603603603603603,
+    "B_ew_20": 0.8198198198198199,
+    "B_roll_10": 0.8108108108108109,
+    "C_hazard": 0.5495495495495496,
+    "D_trend_20v40": 0.8063063063063064,
+    "E_transition": 0.846846846846847,
+    "E_pair_centrality": 0.481981981981982,
+    "G_ensemble_equal": 0.9234234234234234
+   },
+   "sensitivity_raw": {
+    "lambda_grid_variants_keeping_4plus_numbers": "16/16",
+    "sibling_rankers_keeping_4plus_numbers": "0/1"
+   },
+   "sensitivity_parsed": {
+    "lambda_grid_variants_keeping_4plus_numbers": 1.0,
+    "sibling_rankers_keeping_4plus_numbers": 0.0
+   },
+   "core_ranker_top12_votes": {
+    "A_freq_all": 6,
+    "B_ew_20": 4,
+    "B_roll_10": 5,
+    "C_hazard": 2,
+    "D_trend_20v40": 4,
+    "E_transition": 6,
+    "E_pair_centrality": 2,
+    "G_ensemble_equal": 6
+   },
+   "ensemble_equal_ticket_percentile": 0.9234234234234234,
+   "n_counterevidence": 3,
+   "counterevidence": [
+    "All 20 global randomness tests are consistent with an independent uniform draw (min Holm p = 1.0).",
+    "No ticket method survives Holm correction; the pre-registered dev-selected method fell below baseline in confirmation.",
+    "Every ticket, including this one, has exactly the same random probabilities: P(3+) = 3.87%, expected matches 0.947."
+   ],
+   "lambda_grid_fraction_conf_above_E0": {
+    "G_ensemble_equal|opt_top12": 0.921875
+   }
+  },
+  "C07": {
+   "composite_S": 0.7034722222222223,
+   "overall_position": 4,
+   "eligible": true,
+   "raw": {
+    "R1": 0.5666666666666667,
+    "R2": 1.1042512993312041,
+    "R3": 0.45495495495495497,
+    "R4": 0.5,
+    "R5": 0.7931034482758621,
+    "R6": -0.0,
+    "R7": 0.7375,
+    "R8": 0.984375
+   },
+   "u": {
+    "R1": 0.475,
+    "R2": 0.975,
+    "R3": 0.8,
+    "R4": 0.625,
+    "R5": 0.475,
+    "R6": 0.8,
+    "R7": 0.75,
+    "R8": 0.975
+   },
+   "numbers": [
+    1,
+    2,
+    6,
+    18,
+    25,
+    35
+   ],
+   "generating_methods": [
+    "E_transition|opt_top12"
+   ],
+   "is_random_control": false,
+   "family_top12_counts": {
+    "1": 4,
+    "2": 3,
+    "6": 2,
+    "18": 3,
+    "25": 2,
+    "35": 3
+   },
+   "method_stats": {
+    "E_transition|opt_top12": {
+     "dev_mean": 0.9,
+     "confirmation_mean": 1.057,
+     "source": "candidate",
+     "z_conf": 1.1042512993312041,
+     "z_decay": 0.0,
+     "mean": 0.9785714285714285,
+     "p_upper_exact": 0.3443360289342414,
+     "p_upper_holm_family": 1.0,
+     "dev_p_upper": 0.7056495991190086,
+     "conf_p_upper": 0.15072120060280342
+    }
+   },
+   "core_ranker_ticket_percentile": {
+    "A_freq_all": 0.7972972972972974,
+    "B_ew_20": 0.7162162162162162,
+    "B_roll_10": 0.6936936936936937,
+    "C_hazard": 0.45495495495495497,
+    "D_trend_20v40": 0.6261261261261262,
+    "E_transition": 0.8963963963963965,
+    "E_pair_centrality": 0.6306306306306306,
+    "G_ensemble_equal": 0.8063063063063063
+   },
+   "sensitivity_raw": {
+    "lambda_grid_variants_keeping_4plus_numbers": "16/16",
+    "sibling_rankers_keeping_4plus_numbers": "0/1"
+   },
+   "sensitivity_parsed": {
+    "lambda_grid_variants_keeping_4plus_numbers": 1.0,
+    "sibling_rankers_keeping_4plus_numbers": 0.0
+   },
+   "core_ranker_top12_votes": {
+    "A_freq_all": 4,
+    "B_ew_20": 4,
+    "B_roll_10": 4,
+    "C_hazard": 1,
+    "D_trend_20v40": 2,
+    "E_transition": 6,
+    "E_pair_centrality": 3,
+    "G_ensemble_equal": 5
+   },
+   "ensemble_equal_ticket_percentile": 0.8063063063063063,
+   "n_counterevidence": 3,
+   "counterevidence": [
+    "All 20 global randomness tests are consistent with an independent uniform draw (min Holm p = 1.0).",
+    "No ticket method survives Holm correction; the pre-registered dev-selected method fell below baseline in confirmation.",
+    "Every ticket, including this one, has exactly the same random probabilities: P(3+) = 3.87%, expected matches 0.947."
+   ],
+   "lambda_grid_fraction_conf_above_E0": {
+    "E_transition|opt_top12": 0.984375
+   }
+  },
+  "C08": {
+   "composite_S": 0.6993055555555556,
+   "overall_position": 5,
+   "eligible": true,
+   "raw": {
+    "R1": 0.7333333333333333,
+    "R2": 0.6711388117874728,
+    "R3": 0.35585585585585583,
+    "R4": 0.7544642857142857,
+    "R5": 0.8125,
+    "R6": -0.7122250626947612,
+    "R7": 0.6375,
+    "R8": 0.96875
+   },
+   "u": {
+    "R1": 0.925,
+    "R2": 0.675,
+    "R3": 0.4,
+    "R4": 1.0,
+    "R5": 0.7,
+    "R6": 0.25,
+    "R7": 0.625,
+    "R8": 0.85
+   },
+   "numbers": [
+    1,
+    4,
+    9,
+    10,
+    13,
+    24
+   ],
+   "generating_methods": [
+    "B_ew_10|opt_top12"
+   ],
+   "is_random_control": false,
+   "family_top12_counts": {
+    "1": 4,
+    "4": 4,
+    "9": 2,
+    "10": 3,
+    "13": 4,
+    "24": 5
+   },
+   "method_stats": {
+    "B_ew_10|opt_top12": {
+     "dev_mean": 1.114,
+     "confirmation_mean": 1.014,
+     "source": "candidate",
+     "z_conf": 0.6711388117874728,
+     "z_decay": 0.7122250626947612,
+     "mean": 1.0642857142857143,
+     "p_upper_exact": 0.05456583584657408,
+     "p_upper_holm_family": 1.0,
+     "dev_p_upper": 0.055642877308474704,
+     "conf_p_upper": 0.27105280319164277
+    }
+   },
+   "core_ranker_ticket_percentile": {
+    "A_freq_all": 0.7117117117117117,
+    "B_ew_20": 0.9324324324324325,
+    "B_roll_10": 0.8648648648648649,
+    "C_hazard": 0.5855855855855856,
+    "D_trend_20v40": 0.846846846846847,
+    "E_transition": 0.6936936936936937,
+    "E_pair_centrality": 0.35585585585585583,
+    "G_ensemble_equal": 0.8603603603603603
+   },
+   "sensitivity_raw": {
+    "lambda_grid_variants_keeping_4plus_numbers": "15/16",
+    "sibling_rankers_keeping_4plus_numbers": "4/7"
+   },
+   "sensitivity_parsed": {
+    "lambda_grid_variants_keeping_4plus_numbers": 0.9375,
+    "sibling_rankers_keeping_4plus_numbers": 0.5714285714285714
+   },
+   "core_ranker_top12_votes": {
+    "A_freq_all": 5,
+    "B_ew_20": 6,
+    "B_roll_10": 5,
+    "C_hazard": 2,
+    "D_trend_20v40": 5,
+    "E_transition": 4,
+    "E_pair_centrality": 0,
+    "G_ensemble_equal": 5
+   },
+   "ensemble_equal_ticket_percentile": 0.8603603603603603,
+   "n_counterevidence": 4,
+   "counterevidence": [
+    "All 20 global randomness tests are consistent with an independent uniform draw (min Holm p = 1.0).",
+    "No ticket method survives Holm correction; the pre-registered dev-selected method fell below baseline in confirmation.",
+    "Every ticket, including this one, has exactly the same random probabilities: P(3+) = 3.87%, expected matches 0.947.",
+    "Development-period performance of its method(s) fell in the confirmation period (regression toward random)."
+   ],
+   "lambda_grid_fraction_conf_above_E0": {
+    "B_ew_10|opt_top12": 0.96875
+   }
+  },
+  "C09": {
+   "composite_S": 0.7749999999999999,
+   "overall_position": 2,
+   "eligible": true,
+   "raw": {
+    "R1": 0.7666666666666667,
+    "R2": 0.9632379312937098,
+    "R3": 0.4189189189189189,
+    "R4": 0.0,
+    "R5": 0.8285714285714285,
+    "R6": -0.0,
+    "R7": 0.9125,
+    "R8": 0.753125
+   },
+   "u": {
+    "R1": 1.0,
+    "R2": 0.875,
+    "R3": 0.75,
+    "R4": 0.075,
+    "R5": 0.975,
+    "R6": 0.8,
+    "R7": 1.0,
+    "R8": 0.6
+   },
+   "numbers": [
+    1,
+    4,
+    10,
+    13,
+    18,
+    24
+   ],
+   "generating_methods": [
+    "consensus"
+   ],
+   "is_random_control": false,
+   "family_top12_counts": {
+    "1": 4,
+    "4": 4,
+    "10": 3,
+    "13": 4,
+    "18": 3,
+    "24": 5
+   },
+   "method_stats": {
+    "consensus": {
+     "dev_mean": 1.014,
+     "confirmation_mean": 1.043,
+     "source": "candidate",
+     "z_conf": 0.9632379312937098,
+     "z_decay": 0.0,
+     "mean": 1.0285714285714285,
+     "p_upper_exact": 0.13474764881083645,
+     "p_upper_holm_family": 1.0,
+     "dev_p_upper": 0.27105280319164277,
+     "conf_p_upper": 0.18605177711258805
+    }
+   },
+   "core_ranker_ticket_percentile": {
+    "A_freq_all": 0.8333333333333334,
+    "B_ew_20": 0.8873873873873874,
+    "B_roll_10": 0.8603603603603603,
+    "C_hazard": 0.5540540540540541,
+    "D_trend_20v40": 0.8648648648648649,
+    "E_transition": 0.8018018018018017,
+    "E_pair_centrality": 0.4189189189189189,
+    "G_ensemble_equal": 0.9324324324324325
+   },
+   "sensitivity_raw": {
+    "lambda_grid_variants_keeping_4plus_numbers": "n/a",
+    "sibling_rankers_keeping_4plus_numbers": "n/a"
+   },
+   "sensitivity_parsed": {
+    "lambda_grid_variants_keeping_4plus_numbers": null,
+    "sibling_rankers_keeping_4plus_numbers": null
+   },
+   "core_ranker_top12_votes": {
+    "A_freq_all": 6,
+    "B_ew_20": 5,
+    "B_roll_10": 5,
+    "C_hazard": 2,
+    "D_trend_20v40": 5,
+    "E_transition": 5,
+    "E_pair_centrality": 1,
+    "G_ensemble_equal": 6
+   },
+   "ensemble_equal_ticket_percentile": 0.9324324324324325,
+   "n_counterevidence": 3,
+   "counterevidence": [
+    "All 20 global randomness tests are consistent with an independent uniform draw (min Holm p = 1.0).",
+    "No ticket method survives Holm correction; the pre-registered dev-selected method fell below baseline in confirmation.",
+    "Every ticket, including this one, has exactly the same random probabilities: P(3+) = 3.87%, expected matches 0.947."
+   ],
+   "lambda_grid_fraction_conf_above_E0": {
+    "consensus": 0.753125
+   }
+  },
+  "C10": {
+   "composite_S": 0.18472222222222223,
+   "overall_position": 21,
+   "eligible": true,
+   "raw": {
+    "R1": 0.2,
+    "R2": -0.7692120188812176,
+    "R3": 0.2882882882882883,
+    "R4": 0.46875,
+    "R5": 0.6,
+    "R6": -1.4244501253895208,
+    "R7": 0.175,
+    "R8": 0.015625
+   },
+   "u": {
+    "R1": 0.1,
+    "R2": 0.2,
+    "R3": 0.25,
+    "R4": 0.4,
+    "R5": 0.1,
+    "R6": 0.15,
+    "R7": 0.0,
+    "R8": 0.1
+   },
+   "numbers": [
+    11,
+    14,
+    18,
+    21,
+    25,
+    34
+   ],
+   "generating_methods": [
+    "E_pair_centrality|opt_top12"
+   ],
+   "is_random_control": false,
+   "family_top12_counts": {
+    "11": 1,
+    "14": 0,
+    "18": 3,
+    "21": 0,
+    "25": 2,
+    "34": 0
+   },
+   "method_stats": {
+    "E_pair_centrality|opt_top12": {
+     "dev_mean": 1.071,
+     "confirmation_mean": 0.871,
+     "source": "candidate",
+     "z_conf": -0.7692120188812176,
+     "z_decay": 1.4244501253895208,
+     "mean": 0.9714285714285714,
+     "p_upper_exact": 0.3822803614131002,
+     "p_upper_holm_family": 1.0,
+     "dev_p_upper": 0.12025170720652198,
+     "conf_p_upper": 0.7976952289166394
+    }
+   },
+   "core_ranker_ticket_percentile": {
+    "A_freq_all": 0.5360360360360361,
+    "B_ew_20": 0.2882882882882883,
+    "B_roll_10": 0.3108108108108109,
+    "C_hazard": 0.4189189189189189,
+    "D_trend_20v40": 0.3873873873873874,
+    "E_transition": 0.545045045045045,
+    "E_pair_centrality": 0.8873873873873874,
+    "G_ensemble_equal": 0.40540540540540543
+   },
+   "sensitivity_raw": {
+    "lambda_grid_variants_keeping_4plus_numbers": "15/16",
+    "sibling_rankers_keeping_4plus_numbers": "0/1"
+   },
+   "sensitivity_parsed": {
+    "lambda_grid_variants_keeping_4plus_numbers": 0.9375,
+    "sibling_rankers_keeping_4plus_numbers": 0.0
+   },
+   "core_ranker_top12_votes": {
+    "A_freq_all": 2,
+    "B_ew_20": 0,
+    "B_roll_10": 1,
+    "C_hazard": 2,
+    "D_trend_20v40": 0,
+    "E_transition": 2,
+    "E_pair_centrality": 6,
+    "G_ensemble_equal": 2
+   },
+   "ensemble_equal_ticket_percentile": 0.40540540540540543,
+   "n_counterevidence": 5,
+   "counterevidence": [
+    "All 20 global randomness tests are consistent with an independent uniform draw (min Holm p = 1.0).",
+    "No ticket method survives Holm correction; the pre-registered dev-selected method fell below baseline in confirmation.",
+    "Every ticket, including this one, has exactly the same random probabilities: P(3+) = 3.87%, expected matches 0.947.",
+    "Its generating method(s) did not beat the random expectation in the confirmation period.",
+    "Development-period performance of its method(s) fell in the confirmation period (regression toward random)."
+   ],
+   "lambda_grid_fraction_conf_above_E0": {
+    "E_pair_centrality|opt_top12": 0.015625
+   }
+  },
+  "C11": {
+   "composite_S": 0.7256944444444444,
+   "overall_position": 3,
+   "eligible": true,
+   "raw": {
+    "R1": 0.7,
+    "R2": 1.1042512993312041,
+    "R3": 0.26126126126126126,
+    "R4": 0.7142857142857143,
+    "R5": 0.8,
+    "R6": -0.0,
+    "R7": 0.7625,
+    "R8": 0.953125
+   },
+   "u": {
+    "R1": 0.775,
+    "R2": 0.975,
+    "R3": 0.2,
+    "R4": 0.95,
+    "R5": 0.6,
+    "R6": 0.8,
+    "R7": 0.8,
+    "R8": 0.75
+   },
+   "numbers": [
+    4,
+    8,
+    9,
+    13,
+    24,
+    35
+   ],
+   "generating_methods": [
+    "B_ew_40|opt_top12"
+   ],
+   "is_random_control": false,
+   "family_top12_counts": {
+    "4": 4,
+    "8": 3,
+    "9": 2,
+    "13": 4,
+    "24": 5,
+    "35": 3
+   },
+   "method_stats": {
+    "B_ew_40|opt_top12": {
+     "dev_mean": 0.971,
+     "confirmation_mean": 1.057,
+     "source": "candidate",
+     "z_conf": 1.1042512993312041,
+     "z_decay": 0.0,
+     "mean": 1.0142857142857142,
+     "p_upper_exact": 0.18299695092031315,
+     "p_upper_holm_family": 1.0,
+     "dev_p_upper": 0.4278358595858722,
+     "conf_p_upper": 0.15072120060280342
+    }
+   },
+   "core_ranker_ticket_percentile": {
+    "A_freq_all": 0.7792792792792794,
+    "B_ew_20": 0.9054054054054054,
+    "B_roll_10": 0.8063063063063063,
+    "C_hazard": 0.5675675675675677,
+    "D_trend_20v40": 0.6216216216216216,
+    "E_transition": 0.6981981981981983,
+    "E_pair_centrality": 0.26126126126126126,
+    "G_ensemble_equal": 0.8153153153153153
+   },
+   "sensitivity_raw": {
+    "lambda_grid_variants_keeping_4plus_numbers": "16/16",
+    "sibling_rankers_keeping_4plus_numbers": "3/7"
+   },
+   "sensitivity_parsed": {
+    "lambda_grid_variants_keeping_4plus_numbers": 1.0,
+    "sibling_rankers_keeping_4plus_numbers": 0.42857142857142855
+   },
+   "core_ranker_top12_votes": {
+    "A_freq_all": 5,
+    "B_ew_20": 6,
+    "B_roll_10": 4,
+    "C_hazard": 3,
+    "D_trend_20v40": 3,
+    "E_transition": 4,
+    "E_pair_centrality": 0,
+    "G_ensemble_equal": 5
+   },
+   "ensemble_equal_ticket_percentile": 0.8153153153153153,
+   "n_counterevidence": 3,
+   "counterevidence": [
+    "All 20 global randomness tests are consistent with an independent uniform draw (min Holm p = 1.0).",
+    "No ticket method survives Holm correction; the pre-registered dev-selected method fell below baseline in confirmation.",
+    "Every ticket, including this one, has exactly the same random probabilities: P(3+) = 3.87%, expected matches 0.947."
+   ],
+   "lambda_grid_fraction_conf_above_E0": {
+    "B_ew_40|opt_top12": 0.953125
+   }
+  },
+  "C12": {
+   "composite_S": 0.6597222222222221,
+   "overall_position": 7,
+   "eligible": true,
+   "raw": {
+    "R1": 0.7,
+    "R2": 0.2380263242437404,
+    "R3": 0.48648648648648646,
+    "R4": 0.46875,
+    "R5": 0.8181818181818181,
+    "R6": -0.41309053636296067,
+    "R7": 0.675,
+    "R8": 0.578125
+   },
+   "u": {
+    "R1": 0.775,
+    "R2": 0.5,
+    "R3": 0.975,
+    "R4": 0.4,
+    "R5": 0.825,
+    "R6": 0.35,
+    "R7": 0.7,
+    "R8": 0.45
+   },
+   "numbers": [
+    1,
+    8,
+    13,
+    18,
+    24,
+    25
+   ],
+   "generating_methods": [
+    "A_freq_all|opt_top12"
+   ],
+   "is_random_control": false,
+   "family_top12_counts": {
+    "1": 4,
+    "8": 3,
+    "13": 4,
+    "18": 3,
+    "24": 5,
+    "25": 2
+   },
+   "method_stats": {
+    "A_freq_all|opt_top12": {
+     "dev_mean": 1.029,
+     "confirmation_mean": 0.971,
+     "source": "candidate",
+     "z_conf": 0.2380263242437404,
+     "z_decay": 0.41309053636296067,
+     "mean": 1.0,
+     "p_upper_exact": 0.2409812828409156,
+     "p_upper_holm_family": 1.0,
+     "dev_p_upper": 0.22623447220099305,
+     "conf_p_upper": 0.4278358595858722
+    }
+   },
+   "core_ranker_ticket_percentile": {
+    "A_freq_all": 0.8828828828828829,
+    "B_ew_20": 0.8018018018018019,
+    "B_roll_10": 0.7522522522522522,
+    "C_hazard": 0.6306306306306307,
+    "D_trend_20v40": 0.6666666666666666,
+    "E_transition": 0.8153153153153153,
+    "E_pair_centrality": 0.48648648648648646,
+    "G_ensemble_equal": 0.8963963963963963
+   },
+   "sensitivity_raw": {
+    "lambda_grid_variants_keeping_4plus_numbers": "15/16",
+    "sibling_rankers_keeping_4plus_numbers": "0/1"
+   },
+   "sensitivity_parsed": {
+    "lambda_grid_variants_keeping_4plus_numbers": 0.9375,
+    "sibling_rankers_keeping_4plus_numbers": 0.0
+   },
+   "core_ranker_top12_votes": {
+    "A_freq_all": 6,
+    "B_ew_20": 4,
+    "B_roll_10": 4,
+    "C_hazard": 3,
+    "D_trend_20v40": 3,
+    "E_transition": 5,
+    "E_pair_centrality": 2,
+    "G_ensemble_equal": 6
+   },
+   "ensemble_equal_ticket_percentile": 0.8963963963963963,
+   "n_counterevidence": 4,
+   "counterevidence": [
+    "All 20 global randomness tests are consistent with an independent uniform draw (min Holm p = 1.0).",
+    "No ticket method survives Holm correction; the pre-registered dev-selected method fell below baseline in confirmation.",
+    "Every ticket, including this one, has exactly the same random probabilities: P(3+) = 3.87%, expected matches 0.947.",
+    "Development-period performance of its method(s) fell in the confirmation period (regression toward random)."
+   ],
+   "lambda_grid_fraction_conf_above_E0": {
+    "A_freq_all|opt_top12": 0.578125
+   }
+  },
+  "C13": {
+   "composite_S": 0.4486111111111112,
+   "overall_position": 12,
+   "eligible": false,
+   "raw": {
+    "R1": 0.23333333333333334,
+    "R2": 0.9632379312937098,
+    "R3": 0.38738738738738737,
+    "R4": 0.0,
+    "R5": 0.6923076923076923,
+    "R6": -0.0,
+    "R7": 0.2875,
+    "R8": 0.96875
+   },
+   "u": {
+    "R1": 0.15,
+    "R2": 0.875,
+    "R3": 0.65,
+    "R4": 0.075,
+    "R5": 0.2,
+    "R6": 0.8,
+    "R7": 0.25,
+    "R8": 0.85
+   },
+   "numbers": [
+    1,
+    21,
+    26,
+    31,
+    34,
+    36
+   ],
+   "generating_methods": [
+    "H_random|top6"
+   ],
+   "is_random_control": true,
+   "family_top12_counts": {
+    "1": 4,
+    "21": 0,
+    "26": 1,
+    "31": 1,
+    "34": 0,
+    "36": 1
+   },
+   "method_stats": {
+    "H_random|top6": {
+     "dev_mean": 0.971,
+     "confirmation_mean": 1.043,
+     "source": "candidate",
+     "z_conf": 0.9632379312937098,
+     "z_decay": 0.0,
+     "mean": 1.0071428571428571,
+     "p_upper_exact": 0.21079788554054982,
+     "dev_p_upper": 0.4278358595858722,
+     "conf_p_upper": 0.18605177711258805
+    }
+   },
+   "core_ranker_ticket_percentile": {
+    "A_freq_all": 0.40540540540540543,
+    "B_ew_20": 0.38738738738738737,
+    "B_roll_10": 0.3963963963963964,
+    "C_hazard": 0.5045045045045046,
+    "D_trend_20v40": 0.41891891891891886,
+    "E_transition": 0.40090090090090097,
+    "E_pair_centrality": 0.7207207207207208,
+    "G_ensemble_equal": 0.3873873873873874
+   },
+   "sensitivity_raw": {
+    "lambda_grid_variants_keeping_4plus_numbers": "n/a",
+    "sibling_rankers_keeping_4plus_numbers": "n/a"
+   },
+   "sensitivity_parsed": {
+    "lambda_grid_variants_keeping_4plus_numbers": null,
+    "sibling_rankers_keeping_4plus_numbers": null
+   },
+   "core_ranker_top12_votes": {
+    "A_freq_all": 1,
+    "B_ew_20": 1,
+    "B_roll_10": 1,
+    "C_hazard": 2,
+    "D_trend_20v40": 2,
+    "E_transition": 1,
+    "E_pair_centrality": 4,
+    "G_ensemble_equal": 1
+   },
+   "ensemble_equal_ticket_percentile": 0.3873873873873874,
+   "n_counterevidence": 4,
+   "counterevidence": [
+    "This ticket is a uniform random control, not derived from any feature.",
+    "All 20 global randomness tests are consistent with an independent uniform draw (min Holm p = 1.0).",
+    "No ticket method survives Holm correction; the pre-registered dev-selected method fell below baseline in confirmation.",
+    "Every ticket, including this one, has exactly the same random probabilities: P(3+) = 3.87%, expected matches 0.947."
+   ],
+   "lambda_grid_fraction_conf_above_E0": {
+    "H_random|top6": 0.96875
+   }
+  },
+  "C14": {
+   "composite_S": 0.26875,
+   "overall_position": 19,
+   "eligible": true,
+   "raw": {
+    "R1": 0.13333333333333333,
+    "R2": 0.09701295620624613,
+    "R3": 0.17567567567567566,
+    "R4": 0.46875,
+    "R5": 0.5714285714285714,
+    "R6": -0.0,
+    "R7": 0.4375,
+    "R8": 0.390625
+   },
+   "u": {
+    "R1": 0.025,
+    "R2": 0.45,
+    "R3": 0.05,
+    "R4": 0.4,
+    "R5": 0.05,
+    "R6": 0.8,
+    "R7": 0.55,
+    "R8": 0.325
+   },
+   "numbers": [
+    5,
+    11,
+    16,
+    31,
+    32,
+    34
+   ],
+   "generating_methods": [
+    "C_overdue|opt_top12"
+   ],
+   "is_random_control": false,
+   "family_top12_counts": {
+    "5": 0,
+    "11": 1,
+    "16": 1,
+    "31": 1,
+    "32": 1,
+    "34": 0
+   },
+   "method_stats": {
+    "C_overdue|opt_top12": {
+     "dev_mean": 0.929,
+     "confirmation_mean": 0.957,
+     "source": "candidate",
+     "z_conf": 0.09701295620624613,
+     "z_decay": 0.0,
+     "mean": 0.9428571428571428,
+     "p_upper_exact": 0.5425436880076221,
+     "p_upper_holm_family": 1.0,
+     "dev_p_upper": 0.5987673361602339,
+     "conf_p_upper": 0.4846989737069556
+    }
+   },
+   "core_ranker_ticket_percentile": {
+    "A_freq_all": 0.24324324324324328,
+    "B_ew_20": 0.18918918918918917,
+    "B_roll_10": 0.17567567567567566,
+    "C_hazard": 0.6846846846846847,
+    "D_trend_20v40": 0.2927927927927928,
+    "E_transition": 0.3333333333333333,
+    "E_pair_centrality": 0.5495495495495496,
+    "G_ensemble_equal": 0.2567567567567568
+   },
+   "sensitivity_raw": {
+    "lambda_grid_variants_keeping_4plus_numbers": "15/16",
+    "sibling_rankers_keeping_4plus_numbers": "0/3"
+   },
+   "sensitivity_parsed": {
+    "lambda_grid_variants_keeping_4plus_numbers": 0.9375,
+    "sibling_rankers_keeping_4plus_numbers": 0.0
+   },
+   "core_ranker_top12_votes": {
+    "A_freq_all": 0,
+    "B_ew_20": 0,
+    "B_roll_10": 0,
+    "C_hazard": 3,
+    "D_trend_20v40": 1,
+    "E_transition": 0,
+    "E_pair_centrality": 3,
+    "G_ensemble_equal": 0
+   },
+   "ensemble_equal_ticket_percentile": 0.2567567567567568,
+   "n_counterevidence": 3,
+   "counterevidence": [
+    "All 20 global randomness tests are consistent with an independent uniform draw (min Holm p = 1.0).",
+    "No ticket method survives Holm correction; the pre-registered dev-selected method fell below baseline in confirmation.",
+    "Every ticket, including this one, has exactly the same random probabilities: P(3+) = 3.87%, expected matches 0.947."
+   ],
+   "lambda_grid_fraction_conf_above_E0": {
+    "C_overdue|opt_top12": 0.390625
+   }
+  },
+  "C15": {
+   "composite_S": 0.44097222222222227,
+   "overall_position": 13,
+   "eligible": true,
+   "raw": {
+    "R1": 0.5666666666666667,
+    "R2": -0.7692120188812176,
+    "R3": 0.3648648648648649,
+    "R4": 0.5,
+    "R5": 0.8148148148148149,
+    "R6": -1.125315599057721,
+    "R7": 0.275,
+    "R8": 0.53125
+   },
+   "u": {
+    "R1": 0.475,
+    "R2": 0.2,
+    "R3": 0.525,
+    "R4": 0.625,
+    "R5": 0.75,
+    "R6": 0.2,
+    "R7": 0.2,
+    "R8": 0.4
+   },
+   "numbers": [
+    1,
+    4,
+    13,
+    18,
+    28,
+    29
+   ],
+   "generating_methods": [
+    "C_recent|opt_top12"
+   ],
+   "is_random_control": false,
+   "family_top12_counts": {
+    "1": 4,
+    "4": 4,
+    "13": 4,
+    "18": 3,
+    "28": 1,
+    "29": 1
+   },
+   "method_stats": {
+    "C_recent|opt_top12": {
+     "dev_mean": 1.029,
+     "confirmation_mean": 0.871,
+     "source": "candidate",
+     "z_conf": -0.7692120188812176,
+     "z_decay": 1.125315599057721,
+     "mean": 0.95,
+     "p_upper_exact": 0.5019948169339842,
+     "p_upper_holm_family": 1.0,
+     "dev_p_upper": 0.22623447220099305,
+     "conf_p_upper": 0.7976952289166394
+    }
+   },
+   "core_ranker_ticket_percentile": {
+    "A_freq_all": 0.5855855855855856,
+    "B_ew_20": 0.6576576576576577,
+    "B_roll_10": 0.8198198198198199,
+    "C_hazard": 0.5,
+    "D_trend_20v40": 0.8063063063063063,
+    "E_transition": 0.6531531531531531,
+    "E_pair_centrality": 0.3648648648648649,
+    "G_ensemble_equal": 0.6936936936936936
+   },
+   "sensitivity_raw": {
+    "lambda_grid_variants_keeping_4plus_numbers": "16/16",
+    "sibling_rankers_keeping_4plus_numbers": "0/3"
+   },
+   "sensitivity_parsed": {
+    "lambda_grid_variants_keeping_4plus_numbers": 1.0,
+    "sibling_rankers_keeping_4plus_numbers": 0.0
+   },
+   "core_ranker_top12_votes": {
+    "A_freq_all": 4,
+    "B_ew_20": 3,
+    "B_roll_10": 5,
+    "C_hazard": 2,
+    "D_trend_20v40": 4,
+    "E_transition": 4,
+    "E_pair_centrality": 1,
+    "G_ensemble_equal": 4
+   },
+   "ensemble_equal_ticket_percentile": 0.6936936936936936,
+   "n_counterevidence": 5,
+   "counterevidence": [
+    "All 20 global randomness tests are consistent with an independent uniform draw (min Holm p = 1.0).",
+    "No ticket method survives Holm correction; the pre-registered dev-selected method fell below baseline in confirmation.",
+    "Every ticket, including this one, has exactly the same random probabilities: P(3+) = 3.87%, expected matches 0.947.",
+    "Its generating method(s) did not beat the random expectation in the confirmation period.",
+    "Development-period performance of its method(s) fell in the confirmation period (regression toward random)."
+   ],
+   "lambda_grid_fraction_conf_above_E0": {
+    "C_recent|opt_top12": 0.53125
+   }
+  },
+  "C16": {
+   "composite_S": 0.6013888888888889,
+   "overall_position": 9,
+   "eligible": true,
+   "raw": {
+    "R1": 0.4666666666666667,
+    "R2": 0.8222245632562156,
+    "R3": 0.45945945945945943,
+    "R4": 0.5,
+    "R5": 0.7727272727272727,
+    "R6": -0.2991345263317997,
+    "R7": 0.4125,
+    "R8": 0.984375
+   },
+   "u": {
+    "R1": 0.35,
+    "R2": 0.8,
+    "R3": 0.85,
+    "R4": 0.625,
+    "R5": 0.35,
+    "R6": 0.55,
+    "R7": 0.5,
+    "R8": 0.975
+   },
+   "numbers": [
+    6,
+    9,
+    10,
+    31,
+    35,
+    38
+   ],
+   "generating_methods": [
+    "B_roll_50|opt_top12"
+   ],
+   "is_random_control": false,
+   "family_top12_counts": {
+    "6": 2,
+    "9": 2,
+    "10": 3,
+    "31": 1,
+    "35": 3,
+    "38": 3
+   },
+   "method_stats": {
+    "B_roll_50|opt_top12": {
+     "dev_mean": 1.071,
+     "confirmation_mean": 1.029,
+     "source": "candidate",
+     "z_conf": 0.8222245632562156,
+     "z_decay": 0.2991345263317997,
+     "mean": 1.05,
+     "p_upper_exact": 0.08024793404778151,
+     "p_upper_holm_family": 1.0,
+     "dev_p_upper": 0.12025170720652198,
+     "conf_p_upper": 0.22623447220099305
+    }
+   },
+   "core_ranker_ticket_percentile": {
+    "A_freq_all": 0.6486486486486486,
+    "B_ew_20": 0.7657657657657658,
+    "B_roll_10": 0.5045045045045046,
+    "C_hazard": 0.45945945945945943,
+    "D_trend_20v40": 0.5315315315315315,
+    "E_transition": 0.6621621621621622,
+    "E_pair_centrality": 0.6846846846846847,
+    "G_ensemble_equal": 0.6891891891891891
+   },
+   "sensitivity_raw": {
+    "lambda_grid_variants_keeping_4plus_numbers": "16/16",
+    "sibling_rankers_keeping_4plus_numbers": "0/7"
+   },
+   "sensitivity_parsed": {
+    "lambda_grid_variants_keeping_4plus_numbers": 1.0,
+    "sibling_rankers_keeping_4plus_numbers": 0.0
+   },
+   "core_ranker_top12_votes": {
+    "A_freq_all": 3,
+    "B_ew_20": 5,
+    "B_roll_10": 2,
+    "C_hazard": 1,
+    "D_trend_20v40": 2,
+    "E_transition": 3,
+    "E_pair_centrality": 3,
+    "G_ensemble_equal": 3
+   },
+   "ensemble_equal_ticket_percentile": 0.6891891891891891,
+   "n_counterevidence": 4,
+   "counterevidence": [
+    "All 20 global randomness tests are consistent with an independent uniform draw (min Holm p = 1.0).",
+    "No ticket method survives Holm correction; the pre-registered dev-selected method fell below baseline in confirmation.",
+    "Every ticket, including this one, has exactly the same random probabilities: P(3+) = 3.87%, expected matches 0.947.",
+    "Development-period performance of its method(s) fell in the confirmation period (regression toward random)."
+   ],
+   "lambda_grid_fraction_conf_above_E0": {
+    "B_roll_50|opt_top12": 0.984375
+   }
+  },
+  "C17": {
+   "composite_S": 0.4527777777777777,
+   "overall_position": 11,
+   "eligible": true,
+   "raw": {
+    "R1": 0.6,
+    "R2": -0.3360995313374852,
+    "R3": 0.48648648648648646,
+    "R4": 0.0,
+    "R5": 0.8,
+    "R6": -2.3432204562657626,
+    "R7": 0.35000000000000003,
+    "R8": 0.0
+   },
+   "u": {
+    "R1": 0.55,
+    "R2": 0.35,
+    "R3": 0.975,
+    "R4": 0.075,
+    "R5": 0.6,
+    "R6": 0.0,
+    "R7": 0.4,
+    "R8": 0.025
+   },
+   "numbers": [
+    1,
+    4,
+    6,
+    13,
+    18,
+    29
+   ],
+   "generating_methods": [
+    "B_roll_10|pair_top12"
+   ],
+   "is_random_control": false,
+   "family_top12_counts": {
+    "1": 4,
+    "4": 4,
+    "6": 2,
+    "13": 4,
+    "18": 3,
+    "29": 1
+   },
+   "method_stats": {
+    "B_roll_10|pair_top12": {
+     "dev_mean": 1.243,
+     "confirmation_mean": 0.914,
+     "source": "candidate",
+     "z_conf": -0.3360995313374852,
+     "z_decay": 2.3432204562657626,
+     "mean": 1.0785714285714285,
+     "p_upper_exact": 0.03591263274741395,
+     "p_upper_holm_family": 1.0,
+     "dev_p_upper": 0.0023392974459489056,
+     "conf_p_upper": 0.6536441926037558
+    }
+   },
+   "core_ranker_ticket_percentile": {
+    "A_freq_all": 0.6756756756756758,
+    "B_ew_20": 0.7612612612612613,
+    "B_roll_10": 0.8693693693693695,
+    "C_hazard": 0.49549549549549554,
+    "D_trend_20v40": 0.7792792792792794,
+    "E_transition": 0.7162162162162161,
+    "E_pair_centrality": 0.48648648648648646,
+    "G_ensemble_equal": 0.7837837837837838
+   },
+   "sensitivity_raw": {
+    "lambda_grid_variants_keeping_4plus_numbers": "n/a",
+    "sibling_rankers_keeping_4plus_numbers": "n/a"
+   },
+   "sensitivity_parsed": {
+    "lambda_grid_variants_keeping_4plus_numbers": null,
+    "sibling_rankers_keeping_4plus_numbers": null
+   },
+   "core_ranker_top12_votes": {
+    "A_freq_all": 4,
+    "B_ew_20": 4,
+    "B_roll_10": 6,
+    "C_hazard": 2,
+    "D_trend_20v40": 3,
+    "E_transition": 5,
+    "E_pair_centrality": 2,
+    "G_ensemble_equal": 4
+   },
+   "ensemble_equal_ticket_percentile": 0.7837837837837838,
+   "n_counterevidence": 5,
+   "counterevidence": [
+    "All 20 global randomness tests are consistent with an independent uniform draw (min Holm p = 1.0).",
+    "No ticket method survives Holm correction; the pre-registered dev-selected method fell below baseline in confirmation.",
+    "Every ticket, including this one, has exactly the same random probabilities: P(3+) = 3.87%, expected matches 0.947.",
+    "Its generating method(s) did not beat the random expectation in the confirmation period.",
+    "Development-period performance of its method(s) fell in the confirmation period (regression toward random)."
+   ],
+   "lambda_grid_fraction_conf_above_E0": {
+    "B_roll_10|pair_top12": 0.0
+   }
+  },
+  "C18": {
+   "composite_S": 0.6888888888888887,
+   "overall_position": 6,
+   "eligible": true,
+   "raw": {
+    "R1": 0.7,
+    "R2": 0.7466816875218443,
+    "R3": 0.3513513513513513,
+    "R4": 0.59375,
+    "R5": 0.8,
+    "R6": -0.0,
+    "R7": 0.7875,
+    "R8": 0.8828125
+   },
+   "u": {
+    "R1": 0.775,
+    "R2": 0.75,
+    "R3": 0.325,
+    "R4": 0.85,
+    "R5": 0.6,
+    "R6": 0.8,
+    "R7": 0.85,
+    "R8": 0.65
+   },
+   "numbers": [
+    4,
+    9,
+    10,
+    13,
+    24,
+    35
+   ],
+   "generating_methods": [
+    "B_ew_20|opt_top12",
+    "G_ensemble_adaptive|opt_top12"
+   ],
+   "is_random_control": false,
+   "family_top12_counts": {
+    "4": 4,
+    "9": 2,
+    "10": 3,
+    "13": 4,
+    "24": 5,
+    "35": 3
+   },
+   "method_stats": {
+    "B_ew_20|opt_top12": {
+     "dev_mean": 0.943,
+     "confirmation_mean": 1.043,
+     "source": "candidate",
+     "z_conf": 0.9632379312937098,
+     "z_decay": 0.0,
+     "mean": 0.9928571428571429,
+     "p_upper_exact": 0.2734265863901294,
+     "p_upper_holm_family": 1.0,
+     "dev_p_upper": 0.5420690924338074,
+     "conf_p_upper": 0.18605177711258805
+    },
+    "G_ensemble_adaptive|opt_top12": {
+     "dev_mean": 0.886,
+     "confirmation_mean": 1.0,
+     "source": "candidate",
+     "z_conf": 0.5301254437499786,
+     "z_decay": 0.0,
+     "mean": 0.9428571428571428,
+     "p_upper_exact": 0.5425436880076221,
+     "p_upper_holm_family": 1.0,
+     "dev_p_upper": 0.7538941246862229,
+     "conf_p_upper": 0.32006720411257245
+    }
+   },
+   "core_ranker_ticket_percentile": {
+    "A_freq_all": 0.7342342342342342,
+    "B_ew_20": 0.9144144144144143,
+    "B_roll_10": 0.8018018018018017,
+    "C_hazard": 0.5405405405405406,
+    "D_trend_20v40": 0.7342342342342342,
+    "E_transition": 0.7027027027027026,
+    "E_pair_centrality": 0.3513513513513513,
+    "G_ensemble_equal": 0.8288288288288288
+   },
+   "sensitivity_raw": {
+    "lambda_grid_variants_keeping_4plus_numbers": "30/32",
+    "sibling_rankers_keeping_4plus_numbers": "2/8"
+   },
+   "sensitivity_parsed": {
+    "lambda_grid_variants_keeping_4plus_numbers": 0.9375,
+    "sibling_rankers_keeping_4plus_numbers": 0.25
+   },
+   "core_ranker_top12_votes": {
+    "A_freq_all": 5,
+    "B_ew_20": 6,
+    "B_roll_10": 4,
+    "C_hazard": 2,
+    "D_trend_20v40": 4,
+    "E_transition": 4,
+    "E_pair_centrality": 0,
+    "G_ensemble_equal": 5
+   },
+   "ensemble_equal_ticket_percentile": 0.8288288288288288,
+   "n_counterevidence": 3,
+   "counterevidence": [
+    "All 20 global randomness tests are consistent with an independent uniform draw (min Holm p = 1.0).",
+    "No ticket method survives Holm correction; the pre-registered dev-selected method fell below baseline in confirmation.",
+    "Every ticket, including this one, has exactly the same random probabilities: P(3+) = 3.87%, expected matches 0.947."
+   ],
+   "lambda_grid_fraction_conf_above_E0": {
+    "B_ew_20|opt_top12": 0.953125,
+    "G_ensemble_adaptive|opt_top12": 0.8125
+   }
+  },
+  "C19": {
+   "composite_S": 0.5541666666666667,
+   "overall_position": 10,
+   "eligible": true,
+   "raw": {
+    "R1": 0.5333333333333333,
+    "R2": 0.3891120757124843,
+    "R3": 0.3648648648648649,
+    "R4": 0.5714285714285714,
+    "R5": 0.7916666666666666,
+    "R6": -0.0,
+    "R7": 0.6375,
+    "R8": 0.609375
+   },
+   "u": {
+    "R1": 0.4,
+    "R2": 0.55,
+    "R3": 0.525,
+    "R4": 0.8,
+    "R5": 0.4,
+    "R6": 0.8,
+    "R7": 0.625,
+    "R8": 0.5
+   },
+   "numbers": [
+    8,
+    9,
+    13,
+    15,
+    22,
+    24
+   ],
+   "generating_methods": [
+    "B_roll_30|opt_top12"
+   ],
+   "is_random_control": false,
+   "family_top12_counts": {
+    "8": 3,
+    "9": 2,
+    "13": 4,
+    "15": 1,
+    "22": 1,
+    "24": 5
+   },
+   "method_stats": {
+    "B_roll_30|opt_top12": {
+     "dev_mean": 0.871,
+     "confirmation_mean": 0.986,
+     "source": "candidate",
+     "z_conf": 0.3891120757124843,
+     "z_decay": 0.0,
+     "mean": 0.9285714285714286,
+     "p_upper_exact": 0.6221226571637261,
+     "p_upper_holm_family": 1.0,
+     "dev_p_upper": 0.7976952289166394,
+     "conf_p_upper": 0.3726161287506743
+    }
+   },
+   "core_ranker_ticket_percentile": {
+    "A_freq_all": 0.6666666666666666,
+    "B_ew_20": 0.8378378378378378,
+    "B_roll_10": 0.7927927927927928,
+    "C_hazard": 0.5810810810810811,
+    "D_trend_20v40": 0.6126126126126126,
+    "E_transition": 0.5765765765765766,
+    "E_pair_centrality": 0.3648648648648649,
+    "G_ensemble_equal": 0.7207207207207208
+   },
+   "sensitivity_raw": {
+    "lambda_grid_variants_keeping_4plus_numbers": "16/16",
+    "sibling_rankers_keeping_4plus_numbers": "1/7"
+   },
+   "sensitivity_parsed": {
+    "lambda_grid_variants_keeping_4plus_numbers": 1.0,
+    "sibling_rankers_keeping_4plus_numbers": 0.14285714285714285
+   },
+   "core_ranker_top12_votes": {
+    "A_freq_all": 3,
+    "B_ew_20": 5,
+    "B_roll_10": 4,
+    "C_hazard": 3,
+    "D_trend_20v40": 3,
+    "E_transition": 2,
+    "E_pair_centrality": 1,
+    "G_ensemble_equal": 3
+   },
+   "ensemble_equal_ticket_percentile": 0.7207207207207208,
+   "n_counterevidence": 3,
+   "counterevidence": [
+    "All 20 global randomness tests are consistent with an independent uniform draw (min Holm p = 1.0).",
+    "No ticket method survives Holm correction; the pre-registered dev-selected method fell below baseline in confirmation.",
+    "Every ticket, including this one, has exactly the same random probabilities: P(3+) = 3.87%, expected matches 0.947."
+   ],
+   "lambda_grid_fraction_conf_above_E0": {
+    "B_roll_30|opt_top12": 0.609375
+   }
+  },
+  "C20": {
+   "composite_S": 0.6208333333333333,
+   "overall_position": 8,
+   "eligible": true,
+   "raw": {
+    "R1": 0.7,
+    "R2": 0.48312098773748047,
+    "R3": 0.24774774774774777,
+    "R4": 0.6333333333333333,
+    "R5": 0.8181818181818181,
+    "R6": -0.6101394703751785,
+    "R7": 0.85,
+    "R8": 0.6197916666666666
+   },
+   "u": {
+    "R1": 0.775,
+    "R2": 0.6,
+    "R3": 0.15,
+    "R4": 0.9,
+    "R5": 0.825,
+    "R6": 0.3,
+    "R7": 0.9,
+    "R8": 0.55
+   },
+   "numbers": [
+    1,
+    2,
+    4,
+    7,
+    13,
+    24
+   ],
+   "generating_methods": [
+    "B_roll_10|opt_top12",
+    "B_roll_20|opt_top12",
+    "D_trend_20v40|opt_top12"
+   ],
+   "is_random_control": false,
+   "family_top12_counts": {
+    "1": 4,
+    "2": 3,
+    "4": 4,
+    "7": 1,
+    "13": 4,
+    "24": 5
+   },
+   "method_stats": {
+    "B_roll_10|opt_top12": {
+     "dev_mean": 1.1,
+     "confirmation_mean": 0.843,
+     "source": "candidate",
+     "z_conf": -1.0512387549562061,
+     "z_decay": 1.8304184111255355,
+     "mean": 0.9714285714285714,
+     "p_upper_exact": 0.3822803614131002,
+     "p_upper_holm_family": 1.0,
+     "dev_p_upper": 0.07307453678602456,
+     "conf_p_upper": 0.870414275925947
+    },
+    "B_roll_20|opt_top12": {
+     "dev_mean": 0.957,
+     "confirmation_mean": 1.086,
+     "source": "candidate",
+     "z_conf": 1.3963504188374434,
+     "z_decay": 0.0,
+     "mean": 1.0214285714285714,
+     "p_upper_exact": 0.15764299111152727,
+     "p_upper_holm_family": 1.0,
+     "dev_p_upper": 0.4846989737069556,
+     "conf_p_upper": 0.09447336781705112
+    },
+    "D_trend_20v40|opt_top12": {
+     "dev_mean": 1.043,
+     "confirmation_mean": 1.057,
+     "source": "candidate",
+     "z_conf": 1.1042512993312041,
+     "z_decay": 0.0,
+     "mean": 1.05,
+     "p_upper_exact": 0.08024793404778151,
+     "p_upper_holm_family": 1.0,
+     "dev_p_upper": 0.18605177711258805,
+     "conf_p_upper": 0.15072120060280342
+    }
+   },
+   "core_ranker_ticket_percentile": {
+    "A_freq_all": 0.7117117117117119,
+    "B_ew_20": 0.8828828828828829,
+    "B_roll_10": 0.9144144144144143,
+    "C_hazard": 0.5270270270270271,
+    "D_trend_20v40": 0.9324324324324325,
+    "E_transition": 0.7342342342342342,
+    "E_pair_centrality": 0.24774774774774777,
+    "G_ensemble_equal": 0.8963963963963965
+   },
+   "sensitivity_raw": {
+    "lambda_grid_variants_keeping_4plus_numbers": "48/48",
+    "sibling_rankers_keeping_4plus_numbers": "4/15"
+   },
+   "sensitivity_parsed": {
+    "lambda_grid_variants_keeping_4plus_numbers": 1.0,
+    "sibling_rankers_keeping_4plus_numbers": 0.26666666666666666
+   },
+   "core_ranker_top12_votes": {
+    "A_freq_all": 4,
+    "B_ew_20": 5,
+    "B_roll_10": 6,
+    "C_hazard": 1,
+    "D_trend_20v40": 6,
+    "E_transition": 5,
+    "E_pair_centrality": 0,
+    "G_ensemble_equal": 6
+   },
+   "ensemble_equal_ticket_percentile": 0.8963963963963965,
+   "n_counterevidence": 3,
+   "counterevidence": [
+    "All 20 global randomness tests are consistent with an independent uniform draw (min Holm p = 1.0).",
+    "No ticket method survives Holm correction; the pre-registered dev-selected method fell below baseline in confirmation.",
+    "Every ticket, including this one, has exactly the same random probabilities: P(3+) = 3.87%, expected matches 0.947."
+   ],
+   "lambda_grid_fraction_conf_above_E0": {
+    "B_roll_10|opt_top12": 0.0,
+    "B_roll_20|opt_top12": 1.0,
+    "D_trend_20v40|opt_top12": 0.859375
+   }
+  },
+  "C21": {
+   "composite_S": 0.2916666666666667,
+   "overall_position": 17,
+   "eligible": true,
+   "raw": {
+    "R1": 0.26666666666666666,
+    "R2": -0.3360995313374852,
+    "R3": 0.18918918918918923,
+    "R4": 0.4375,
+    "R5": 0.7692307692307692,
+    "R6": -0.0,
+    "R7": 0.3125,
+    "R8": 0.0625
+   },
+   "u": {
+    "R1": 0.2,
+    "R2": 0.35,
+    "R3": 0.1,
+    "R4": 0.3,
+    "R5": 0.3,
+    "R6": 0.8,
+    "R7": 0.3,
+    "R8": 0.15
+   },
+   "numbers": [
+    16,
+    27,
+    31,
+    34,
+    35,
+    38
+   ],
+   "generating_methods": [
+    "C_own_gap_pct|opt_top12"
+   ],
+   "is_random_control": false,
+   "family_top12_counts": {
+    "16": 1,
+    "27": 0,
+    "31": 1,
+    "34": 0,
+    "35": 3,
+    "38": 3
+   },
+   "method_stats": {
+    "C_own_gap_pct|opt_top12": {
+     "dev_mean": 0.786,
+     "confirmation_mean": 0.914,
+     "source": "candidate",
+     "z_conf": -0.3360995313374852,
+     "z_decay": 0.0,
+     "mean": 0.85,
+     "p_upper_exact": 0.9261264236911089,
+     "p_upper_holm_family": 1.0,
+     "dev_p_upper": 0.9577703155712463,
+     "conf_p_upper": 0.6536441926037558
+    }
+   },
+   "core_ranker_ticket_percentile": {
+    "A_freq_all": 0.481981981981982,
+    "B_ew_20": 0.42792792792792794,
+    "B_roll_10": 0.18918918918918923,
+    "C_hazard": 0.3603603603603604,
+    "D_trend_20v40": 0.27027027027027023,
+    "E_transition": 0.5495495495495496,
+    "E_pair_centrality": 0.5315315315315315,
+    "G_ensemble_equal": 0.39189189189189194
+   },
+   "sensitivity_raw": {
+    "lambda_grid_variants_keeping_4plus_numbers": "14/16",
+    "sibling_rankers_keeping_4plus_numbers": "0/3"
+   },
+   "sensitivity_parsed": {
+    "lambda_grid_variants_keeping_4plus_numbers": 0.875,
+    "sibling_rankers_keeping_4plus_numbers": 0.0
+   },
+   "core_ranker_top12_votes": {
+    "A_freq_all": 2,
+    "B_ew_20": 2,
+    "B_roll_10": 0,
+    "C_hazard": 1,
+    "D_trend_20v40": 1,
+    "E_transition": 2,
+    "E_pair_centrality": 3,
+    "G_ensemble_equal": 2
+   },
+   "ensemble_equal_ticket_percentile": 0.39189189189189194,
+   "n_counterevidence": 4,
+   "counterevidence": [
+    "All 20 global randomness tests are consistent with an independent uniform draw (min Holm p = 1.0).",
+    "No ticket method survives Holm correction; the pre-registered dev-selected method fell below baseline in confirmation.",
+    "Every ticket, including this one, has exactly the same random probabilities: P(3+) = 3.87%, expected matches 0.947.",
+    "Its generating method(s) did not beat the random expectation in the confirmation period."
+   ],
+   "lambda_grid_fraction_conf_above_E0": {
+    "C_own_gap_pct|opt_top12": 0.0625
+   }
+  }
+ },
+ "selected_candidate": "C06"
+}
