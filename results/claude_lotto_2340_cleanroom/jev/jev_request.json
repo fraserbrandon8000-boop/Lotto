@@ -1,0 +1,2980 @@
+{
+ "model": "jev-latest",
+ "state": {
+  "decision_context": {
+   "game": "Jamaica Lotto: 6 distinct main numbers drawn from 1-38.",
+   "target": "Draw #2340 on 2026-09-23 (not yet drawn).",
+   "information_used": "169 observed historical draws #2161-#2339 (2025-01-01 to 2026-09-19); draws #2252-#2261 were unavailable and left as a gap. All evidence below was computed by code from these draws only.",
+   "interpretation": "Under a fair uniform draw every 6-number ticket has exactly the same chance. A preference among tickets is a judgment about which ticket's supporting evidence is strongest, not a winning probability."
+  },
+  "exact_random_baseline_per_ticket": {
+   "P_matches": {
+    "0": 0.328249,
+    "1": 0.437666,
+    "2": 0.195387,
+    "3": 0.035933,
+    "4": 0.002695,
+    "5": 7e-05,
+    "6": 0.0
+   },
+   "expected_matches": 0.9474,
+   "P_3_or_more": 0.0387,
+   "P_4_or_more": 0.00276,
+   "jackpot_one_in": 2760681
+  },
+  "randomness_tests": {
+   "global_tests_run": 20,
+   "validated_departures_holm_p_below_0.05": 0,
+   "raw_p_below_0.05": 0,
+   "smallest_raw_p": {
+    "test": "structure_consecutive_pairs",
+    "p": 0.117
+   },
+   "tests_covered": "number frequency, max/min counts, re-appearance gaps, repeats and lag-1..5 overlaps, pair co-occurrence, 38x38 transitions, draw-sum autocorrelation, sum/odd/low/consecutive/range structure, bonus uniformity",
+   "per_number_binomial": {
+    "raw_p_below_0.05": 1,
+    "of": 38,
+    "min_bh_q": 0.85
+   },
+   "pairs": {
+    "raw_p_below_0.05": 21,
+    "expected_by_chance": 35.1,
+    "min_bh_q": 0.78
+   },
+   "conclusion": "consistent with an independent uniform draw process"
+  },
+  "walk_forward_results": {
+   "design": "Strict causal walk-forward: for each of 140 historical targets (#2190-#2339) all features, rankings and tickets used only earlier draws; development = first 70 targets, confirmation = last 70. Selection on development only, one pre-registered test on confirmation.",
+   "ticket_methods_tested": 162,
+   "random_expectation_matches_per_ticket": 0.947,
+   "pre_registered_dev_selected_method": {
+    "method": "B_roll_10|pair_top12",
+    "development_mean": 1.243,
+    "development_p": 0.0023,
+    "confirmation_mean": 0.914,
+    "confirmation_p": 0.654,
+    "sensitivity_variants_above_random_in_confirmation": 0.375
+   },
+   "validated_edge": false,
+   "methods_with_raw_p_below_0.05_full_period": 7,
+   "expected_by_chance_at_0.05": 8.1,
+   "methods_surviving_holm_correction": 0,
+   "uniform_random_controls_mean_matches": {
+    "H_random|top6": 1.007,
+    "H_random|opt_top8": 1.021,
+    "H_random|opt_top10": 0.993,
+    "H_random|opt_top12": 0.993,
+    "H_random|opt_top15": 0.957,
+    "H_random|pair_top12": 0.971,
+    "H_random|struct_top12": 1.036,
+    "H_random|diversity_top15": 1.021,
+    "random_ticket": 0.843
+   },
+   "number_discovery_top12": {
+    "random_expectation": 1.895,
+    "dev_selected_ranker": "B_roll_10",
+    "dev_mean": 2.171,
+    "confirmation_mean": 1.9,
+    "confirmation_p": 0.504,
+    "random_ranker_top12_mean": 1.979
+   },
+   "power": "With 70 confirmation targets only a mean improvement of about 0.25 matches per ticket (26% over random) was detectable at 80% power."
+  },
+  "glossary": {
+   "A_freq_all": "count over all prior draws",
+   "A_inv_cold": "least frequent numbers ranked first",
+   "B_roll_W": "count in the last W draws",
+   "B_ew_h": "exponentially weighted count, half-life h draws",
+   "C_hazard": "pooled empirical re-appearance rate at each number's current gap",
+   "C_overdue": "longest current gap first",
+   "C_recent": "shortest current gap first",
+   "C_own_gap_pct": "current gap percentile within the number's own gap history",
+   "D_trend_20v40": "rate in last 20 draws minus rate in the 40 before",
+   "D_slope_50": "linear trend over last 50 draws",
+   "E_transition": "smoothed lift of appearing after the numbers of the preceding draw, estimated from all prior consecutive pairs",
+   "E_pair_centrality": "strength of frequency-adjusted positive pair co-occurrence",
+   "G_ensemble_equal": "equal-weight average of percentile ranks of A_freq_all, B_ew_20, C_hazard, D_trend_20v40, E_transition",
+   "G_ensemble_adaptive": "same components weighted by their past walk-forward excess coverage",
+   "opt_top12": "best 6-subset of the ranker's top 12 by score + pair lift + structural typicality",
+   "pair_top12": "6-subset of the ranker's top 12 with the strongest pair co-occurrence",
+   "consensus": "numbers most often in the top 12 of the five component rankers",
+   "H_random / random_ticket": "uniform random control",
+   "ranks_among_38": "1 = ranked best by that ranker for #2340"
+  },
+  "candidate_evidence_legend": {
+   "number_evidence": "per number: [rank under A_freq_all, rank under B_ew_20, rank under B_roll_10, rank under C_hazard, rank under D_trend_20v40, rank under E_transition, rank under E_pair_centrality, rank under G_ensemble_equal, full-history count z-score, count in last 20 draws (expected 3.16), how many of the 5 ensemble components rank it top 12]",
+   "walk_forward": "out-of-sample record of each generating method over 140 targets: mean matches per ticket (random 0.947), development mean, confirmation mean, one-sided exact p (full period), Holm-adjusted p across 162 methods, % of targets with 3+ matches (random 3.87%)",
+   "sensitivity": "at the #2340 state: construction-weight variants and sibling rankers that keep at least 4 of the 6 numbers",
+   "structure": "sum, odd count, count in 1-19, consecutive pairs, range, exact null probability of the ticket's structure class, typicality z (0 = average)"
+  },
+  "counterevidence_common_to_all_candidates": [
+   "All 20 global randomness tests are consistent with an independent uniform draw (min Holm p = 1.0).",
+   "No ticket method survives Holm correction; the pre-registered dev-selected method fell below the random baseline in confirmation.",
+   "Every ticket has exactly the same random odds: expected matches 0.947, P(3+) = 3.87%.",
+   "No pair co-occurrence survives correction; C_hazard's walk-forward top-12 coverage (1.893) equals random (1.895)."
+  ],
+  "candidates": {
+   "C01": {
+    "numbers": [
+     3,
+     4,
+     13,
+     18,
+     24,
+     29
+    ],
+    "generating_methods": [
+     "D_slope_50|opt_top12"
+    ],
+    "random_control": false,
+    "walk_forward": {
+     "D_slope_50|opt_top12": [
+      0.986,
+      1.129,
+      0.843,
+      0.308,
+      1.0,
+      4.3
+     ]
+    },
+    "number_evidence": {
+     "03": [
+      23,
+      26,
+      21,
+      10,
+      7,
+      27,
+      26,
+      21,
+      -0.36,
+      3,
+      2
+     ],
+     "04": [
+      6,
+      3,
+      2,
+      25,
+      2,
+      8,
+      36,
+      3,
+      1.12,
+      7,
+      4
+     ],
+     "13": [
+      8,
+      1,
+      1,
+      21,
+      1,
+      12,
+      27,
+      2,
+      0.91,
+      7,
+      4
+     ],
+     "18": [
+      2,
+      16,
+      6,
+      12,
+      15,
+      2,
+      3,
+      4,
+      1.75,
+      3,
+      3
+     ],
+     "24": [
+      7,
+      2,
+      8,
+      8,
+      6,
+      11,
+      33,
+      1,
+      1.12,
+      6,
+      5
+     ],
+     "29": [
+      36,
+      23,
+      10,
+      11,
+      16,
+      35,
+      23,
+      27,
+      -1.62,
+      3,
+      1
+     ]
+    },
+    "summary": {
+     "mean_ensemble_percentile": 0.766,
+     "consensus_index_0_to_1": 0.633,
+     "mean_full_history_z": 0.49,
+     "last20_total_vs_expected_18.95": 29,
+     "mean_trend_percentile": 0.815,
+     "mean_hazard_percentile": 0.635,
+     "mean_pair_z": 0.527,
+     "pairs_z_above_2": 0
+    },
+    "structure": [
+     91,
+     3,
+     4,
+     1,
+     26,
+     0.0113,
+     1.31
+    ],
+    "sensitivity": [
+     "8/16",
+     "0/1"
+    ],
+    "specific_counterevidence": [
+     "Its generating method(s) did not beat the random expectation in the confirmation period.",
+     "Development-period performance of its method(s) fell in the confirmation period (regression toward random)."
+    ]
+   },
+   "C02": {
+    "numbers": [
+     5,
+     16,
+     23,
+     28,
+     29,
+     32
+    ],
+    "generating_methods": [
+     "A_inv_cold|opt_top12"
+    ],
+    "random_control": false,
+    "walk_forward": {
+     "A_inv_cold|opt_top12": [
+      0.893,
+      0.914,
+      0.871,
+      0.795,
+      1.0,
+      4.3
+     ]
+    },
+    "number_evidence": {
+     "05": [
+      38,
+      38,
+      38,
+      18,
+      24,
+      38,
+      20,
+      37,
+      -2.04,
+      1,
+      0
+     ],
+     "16": [
+      35,
+      31,
+      35,
+      1,
+      38,
+      36,
+      34,
+      35,
+      -1.41,
+      0,
+      1
+     ],
+     "23": [
+      34,
+      14,
+      13,
+      24,
+      22,
+      33,
+      29,
+      32,
+      -1.2,
+      3,
+      0
+     ],
+     "28": [
+      37,
+      35,
+      23,
+      22,
+      11,
+      23,
+      37,
+      33,
+      -1.62,
+      2,
+      1
+     ],
+     "29": [
+      36,
+      23,
+      10,
+      11,
+      16,
+      35,
+      23,
+      27,
+      -1.62,
+      3,
+      1
+     ],
+     "32": [
+      30,
+      29,
+      20,
+      2,
+      35,
+      16,
+      32,
+      23,
+      -0.78,
+      1,
+      1
+     ]
+    },
+    "summary": {
+     "mean_ensemble_percentile": 0.185,
+     "consensus_index_0_to_1": 0.133,
+     "mean_full_history_z": -1.45,
+     "last20_total_vs_expected_18.95": 10,
+     "mean_trend_percentile": 0.369,
+     "mean_hazard_percentile": 0.676,
+     "mean_pair_z": 0.163,
+     "pairs_z_above_2": 0
+    },
+    "structure": [
+     133,
+     3,
+     2,
+     1,
+     27,
+     0.0087,
+     1.03
+    ],
+    "sensitivity": [
+     "16/16",
+     "0/1"
+    ],
+    "specific_counterevidence": [
+     "Its generating method(s) did not beat the random expectation in the confirmation period."
+    ]
+   },
+   "C03": {
+    "numbers": [
+     3,
+     9,
+     16,
+     17,
+     24,
+     26
+    ],
+    "generating_methods": [
+     "C_hazard|opt_top12"
+    ],
+    "random_control": false,
+    "walk_forward": {
+     "C_hazard|opt_top12": [
+      0.936,
+      0.957,
+      0.914,
+      0.583,
+      1.0,
+      4.3
+     ]
+    },
+    "number_evidence": {
+     "03": [
+      23,
+      26,
+      21,
+      10,
+      7,
+      27,
+      26,
+      21,
+      -0.36,
+      3,
+      2
+     ],
+     "09": [
+      29,
+      6,
+      5,
+      5,
+      19,
+      26,
+      17,
+      20,
+      -0.78,
+      4,
+      2
+     ],
+     "16": [
+      35,
+      31,
+      35,
+      1,
+      38,
+      36,
+      34,
+      35,
+      -1.41,
+      0,
+      1
+     ],
+     "17": [
+      25,
+      24,
+      11,
+      6,
+      32,
+      13,
+      13,
+      18,
+      -0.36,
+      2,
+      1
+     ],
+     "24": [
+      7,
+      2,
+      8,
+      8,
+      6,
+      11,
+      33,
+      1,
+      1.12,
+      6,
+      5
+     ],
+     "26": [
+      28,
+      32,
+      30,
+      3,
+      25,
+      37,
+      12,
+      29,
+      -0.57,
+      2,
+      1
+     ]
+    },
+    "summary": {
+     "mean_ensemble_percentile": 0.468,
+     "consensus_index_0_to_1": 0.4,
+     "mean_full_history_z": -0.39,
+     "last20_total_vs_expected_18.95": 17,
+     "mean_trend_percentile": 0.455,
+     "mean_hazard_percentile": 0.878,
+     "mean_pair_z": 0.281,
+     "pairs_z_above_2": 0
+    },
+    "structure": [
+     95,
+     3,
+     4,
+     1,
+     23,
+     0.0113,
+     1.31
+    ],
+    "sensitivity": [
+     "9/16",
+     "0/3"
+    ],
+    "specific_counterevidence": [
+     "Its generating method(s) did not beat the random expectation in the confirmation period.",
+     "Development-period performance of its method(s) fell in the confirmation period (regression toward random)."
+    ]
+   },
+   "C04": {
+    "numbers": [
+     2,
+     16,
+     17,
+     25,
+     33,
+     37
+    ],
+    "generating_methods": [
+     "random_ticket"
+    ],
+    "random_control": true,
+    "walk_forward": {
+     "random_ticket": [
+      0.843,
+      0.871,
+      0.814,
+      0.94,
+      null,
+      2.9
+     ]
+    },
+    "number_evidence": {
+     "02": [
+      14,
+      9,
+      7,
+      16,
+      3,
+      10,
+      31,
+      7,
+      0.49,
+      6,
+      3
+     ],
+     "16": [
+      35,
+      31,
+      35,
+      1,
+      38,
+      36,
+      34,
+      35,
+      -1.41,
+      0,
+      1
+     ],
+     "17": [
+      25,
+      24,
+      11,
+      6,
+      32,
+      13,
+      13,
+      18,
+      -0.36,
+      2,
+      1
+     ],
+     "25": [
+      5,
+      20,
+      27,
+      14,
+      21,
+      4,
+      1,
+      8,
+      1.12,
+      3,
+      2
+     ],
+     "33": [
+      10,
+      30,
+      28,
+      35,
+      13,
+      5,
+      28,
+      16,
+      0.7,
+      3,
+      2
+     ],
+     "37": [
+      12,
+      25,
+      17,
+      31,
+      26,
+      6,
+      19,
+      15,
+      0.7,
+      2,
+      2
+     ]
+    },
+    "summary": {
+     "mean_ensemble_percentile": 0.581,
+     "consensus_index_0_to_1": 0.367,
+     "mean_full_history_z": 0.21,
+     "last20_total_vs_expected_18.95": 16,
+     "mean_trend_percentile": 0.428,
+     "mean_hazard_percentile": 0.563,
+     "mean_pair_z": 0.08,
+     "pairs_z_above_2": 0
+    },
+    "structure": [
+     130,
+     4,
+     3,
+     1,
+     35,
+     0.0043,
+     0.27
+    ],
+    "sensitivity": [
+     "n/a",
+     "n/a"
+    ],
+    "specific_counterevidence": [
+     "This ticket is a uniform random control, not derived from any feature.",
+     "Its generating method(s) did not beat the random expectation in the confirmation period."
+    ]
+   },
+   "C05": {
+    "numbers": [
+     1,
+     6,
+     8,
+     13,
+     35,
+     38
+    ],
+    "generating_methods": [
+     "B_roll_100|opt_top12"
+    ],
+    "random_control": false,
+    "walk_forward": {
+     "B_roll_100|opt_top12": [
+      0.914,
+      1.029,
+      0.8,
+      0.697,
+      1.0,
+      1.4
+     ]
+    },
+    "number_evidence": {
+     "01": [
+      9,
+      4,
+      4,
+      26,
+      4,
+      3,
+      21,
+      5,
+      0.91,
+      6,
+      4
+     ],
+     "06": [
+      17,
+      12,
+      12,
+      23,
+      17,
+      9,
+      10,
+      13,
+      0.07,
+      4,
+      2
+     ],
+     "08": [
+      1,
+      7,
+      15,
+      7,
+      33,
+      15,
+      35,
+      9,
+      1.97,
+      3,
+      3
+     ],
+     "13": [
+      8,
+      1,
+      1,
+      21,
+      1,
+      12,
+      27,
+      2,
+      0.91,
+      7,
+      4
+     ],
+     "35": [
+      4,
+      8,
+      18,
+      36,
+      29,
+      1,
+      22,
+      12,
+      1.12,
+      4,
+      3
+     ],
+     "38": [
+      3,
+      10,
+      34,
+      32,
+      28,
+      7,
+      5,
+      10,
+      1.33,
+      4,
+      3
+     ]
+    },
+    "summary": {
+     "mean_ensemble_percentile": 0.797,
+     "consensus_index_0_to_1": 0.633,
+     "mean_full_history_z": 1.05,
+     "last20_total_vs_expected_18.95": 28,
+     "mean_trend_percentile": 0.523,
+     "mean_hazard_percentile": 0.374,
+     "mean_pair_z": 0.274,
+     "pairs_z_above_2": 0
+    },
+    "structure": [
+     101,
+     3,
+     4,
+     0,
+     37,
+     0.0077,
+     0.9
+    ],
+    "sensitivity": [
+     "16/16",
+     "0/7"
+    ],
+    "specific_counterevidence": [
+     "Its generating method(s) did not beat the random expectation in the confirmation period.",
+     "Development-period performance of its method(s) fell in the confirmation period (regression toward random)."
+    ]
+   },
+   "C06": {
+    "numbers": [
+     1,
+     4,
+     13,
+     18,
+     24,
+     25
+    ],
+    "generating_methods": [
+     "G_ensemble_equal|opt_top12"
+    ],
+    "random_control": false,
+    "walk_forward": {
+     "G_ensemble_equal|opt_top12": [
+      0.957,
+      0.9,
+      1.014,
+      0.461,
+      1.0,
+      5.7
+     ]
+    },
+    "number_evidence": {
+     "01": [
+      9,
+      4,
+      4,
+      26,
+      4,
+      3,
+      21,
+      5,
+      0.91,
+      6,
+      4
+     ],
+     "04": [
+      6,
+      3,
+      2,
+      25,
+      2,
+      8,
+      36,
+      3,
+      1.12,
+      7,
+      4
+     ],
+     "13": [
+      8,
+      1,
+      1,
+      21,
+      1,
+      12,
+      27,
+      2,
+      0.91,
+      7,
+      4
+     ],
+     "18": [
+      2,
+      16,
+      6,
+      12,
+      15,
+      2,
+      3,
+      4,
+      1.75,
+      3,
+      3
+     ],
+     "24": [
+      7,
+      2,
+      8,
+      8,
+      6,
+      11,
+      33,
+      1,
+      1.12,
+      6,
+      5
+     ],
+     "25": [
+      5,
+      20,
+      27,
+      14,
+      21,
+      4,
+      1,
+      8,
+      1.12,
+      3,
+      2
+     ]
+    },
+    "summary": {
+     "mean_ensemble_percentile": 0.923,
+     "consensus_index_0_to_1": 0.733,
+     "mean_full_history_z": 1.16,
+     "last20_total_vs_expected_18.95": 32,
+     "mean_trend_percentile": 0.806,
+     "mean_hazard_percentile": 0.55,
+     "mean_pair_z": 0.381,
+     "pairs_z_above_2": 0
+    },
+    "structure": [
+     85,
+     3,
+     4,
+     1,
+     24,
+     0.0113,
+     1.31
+    ],
+    "sensitivity": [
+     "16/16",
+     "0/1"
+    ],
+    "specific_counterevidence": []
+   },
+   "C07": {
+    "numbers": [
+     1,
+     2,
+     6,
+     18,
+     25,
+     35
+    ],
+    "generating_methods": [
+     "E_transition|opt_top12"
+    ],
+    "random_control": false,
+    "walk_forward": {
+     "E_transition|opt_top12": [
+      0.979,
+      0.9,
+      1.057,
+      0.344,
+      1.0,
+      6.4
+     ]
+    },
+    "number_evidence": {
+     "01": [
+      9,
+      4,
+      4,
+      26,
+      4,
+      3,
+      21,
+      5,
+      0.91,
+      6,
+      4
+     ],
+     "02": [
+      14,
+      9,
+      7,
+      16,
+      3,
+      10,
+      31,
+      7,
+      0.49,
+      6,
+      3
+     ],
+     "06": [
+      17,
+      12,
+      12,
+      23,
+      17,
+      9,
+      10,
+      13,
+      0.07,
+      4,
+      2
+     ],
+     "18": [
+      2,
+      16,
+      6,
+      12,
+      15,
+      2,
+      3,
+      4,
+      1.75,
+      3,
+      3
+     ],
+     "25": [
+      5,
+      20,
+      27,
+      14,
+      21,
+      4,
+      1,
+      8,
+      1.12,
+      3,
+      2
+     ],
+     "35": [
+      4,
+      8,
+      18,
+      36,
+      29,
+      1,
+      22,
+      12,
+      1.12,
+      4,
+      3
+     ]
+    },
+    "summary": {
+     "mean_ensemble_percentile": 0.806,
+     "consensus_index_0_to_1": 0.567,
+     "mean_full_history_z": 0.91,
+     "last20_total_vs_expected_18.95": 26,
+     "mean_trend_percentile": 0.626,
+     "mean_hazard_percentile": 0.455,
+     "mean_pair_z": 0.381,
+     "pairs_z_above_2": 0
+    },
+    "structure": [
+     87,
+     3,
+     4,
+     1,
+     34,
+     0.0113,
+     1.31
+    ],
+    "sensitivity": [
+     "16/16",
+     "0/1"
+    ],
+    "specific_counterevidence": []
+   },
+   "C08": {
+    "numbers": [
+     1,
+     4,
+     9,
+     10,
+     13,
+     24
+    ],
+    "generating_methods": [
+     "B_ew_10|opt_top12"
+    ],
+    "random_control": false,
+    "walk_forward": {
+     "B_ew_10|opt_top12": [
+      1.064,
+      1.114,
+      1.014,
+      0.055,
+      1.0,
+      5.0
+     ]
+    },
+    "number_evidence": {
+     "01": [
+      9,
+      4,
+      4,
+      26,
+      4,
+      3,
+      21,
+      5,
+      0.91,
+      6,
+      4
+     ],
+     "04": [
+      6,
+      3,
+      2,
+      25,
+      2,
+      8,
+      36,
+      3,
+      1.12,
+      7,
+      4
+     ],
+     "09": [
+      29,
+      6,
+      5,
+      5,
+      19,
+      26,
+      17,
+      20,
+      -0.78,
+      4,
+      2
+     ],
+     "10": [
+      11,
+      5,
+      16,
+      13,
+      8,
+      14,
+      15,
+      6,
+      0.7,
+      5,
+      3
+     ],
+     "13": [
+      8,
+      1,
+      1,
+      21,
+      1,
+      12,
+      27,
+      2,
+      0.91,
+      7,
+      4
+     ],
+     "24": [
+      7,
+      2,
+      8,
+      8,
+      6,
+      11,
+      33,
+      1,
+      1.12,
+      6,
+      5
+     ]
+    },
+    "summary": {
+     "mean_ensemble_percentile": 0.86,
+     "consensus_index_0_to_1": 0.733,
+     "mean_full_history_z": 0.66,
+     "last20_total_vs_expected_18.95": 35,
+     "mean_trend_percentile": 0.847,
+     "mean_hazard_percentile": 0.586,
+     "mean_pair_z": 0.077,
+     "pairs_z_above_2": 0
+    },
+    "structure": [
+     61,
+     3,
+     5,
+     1,
+     23,
+     0.0085,
+     1.01
+    ],
+    "sensitivity": [
+     "15/16",
+     "4/7"
+    ],
+    "specific_counterevidence": [
+     "Development-period performance of its method(s) fell in the confirmation period (regression toward random)."
+    ]
+   },
+   "C09": {
+    "numbers": [
+     1,
+     4,
+     10,
+     13,
+     18,
+     24
+    ],
+    "generating_methods": [
+     "consensus"
+    ],
+    "random_control": false,
+    "walk_forward": {
+     "consensus": [
+      1.029,
+      1.014,
+      1.043,
+      0.135,
+      1.0,
+      4.3
+     ]
+    },
+    "number_evidence": {
+     "01": [
+      9,
+      4,
+      4,
+      26,
+      4,
+      3,
+      21,
+      5,
+      0.91,
+      6,
+      4
+     ],
+     "04": [
+      6,
+      3,
+      2,
+      25,
+      2,
+      8,
+      36,
+      3,
+      1.12,
+      7,
+      4
+     ],
+     "10": [
+      11,
+      5,
+      16,
+      13,
+      8,
+      14,
+      15,
+      6,
+      0.7,
+      5,
+      3
+     ],
+     "13": [
+      8,
+      1,
+      1,
+      21,
+      1,
+      12,
+      27,
+      2,
+      0.91,
+      7,
+      4
+     ],
+     "18": [
+      2,
+      16,
+      6,
+      12,
+      15,
+      2,
+      3,
+      4,
+      1.75,
+      3,
+      3
+     ],
+     "24": [
+      7,
+      2,
+      8,
+      8,
+      6,
+      11,
+      33,
+      1,
+      1.12,
+      6,
+      5
+     ]
+    },
+    "summary": {
+     "mean_ensemble_percentile": 0.932,
+     "consensus_index_0_to_1": 0.767,
+     "mean_full_history_z": 1.09,
+     "last20_total_vs_expected_18.95": 34,
+     "mean_trend_percentile": 0.865,
+     "mean_hazard_percentile": 0.554,
+     "mean_pair_z": 0.265,
+     "pairs_z_above_2": 0
+    },
+    "structure": [
+     70,
+     2,
+     5,
+     0,
+     23,
+     0.0029,
+     -0.16
+    ],
+    "sensitivity": [
+     "n/a",
+     "n/a"
+    ],
+    "specific_counterevidence": []
+   },
+   "C10": {
+    "numbers": [
+     11,
+     14,
+     18,
+     21,
+     25,
+     34
+    ],
+    "generating_methods": [
+     "E_pair_centrality|opt_top12"
+    ],
+    "random_control": false,
+    "walk_forward": {
+     "E_pair_centrality|opt_top12": [
+      0.971,
+      1.071,
+      0.871,
+      0.382,
+      1.0,
+      7.1
+     ]
+    },
+    "number_evidence": {
+     "11": [
+      24,
+      37,
+      33,
+      9,
+      27,
+      22,
+      9,
+      28,
+      -0.36,
+      1,
+      1
+     ],
+     "14": [
+      18,
+      21,
+      37,
+      34,
+      18,
+      29,
+      8,
+      26,
+      0.07,
+      3,
+      0
+     ],
+     "18": [
+      2,
+      16,
+      6,
+      12,
+      15,
+      2,
+      3,
+      4,
+      1.75,
+      3,
+      3
+     ],
+     "21": [
+      33,
+      36,
+      24,
+      37,
+      31,
+      32,
+      6,
+      38,
+      -0.99,
+      1,
+      0
+     ],
+     "25": [
+      5,
+      20,
+      27,
+      14,
+      21,
+      4,
+      1,
+      8,
+      1.12,
+      3,
+      2
+     ],
+     "34": [
+      27,
+      34,
+      32,
+      29,
+      30,
+      18,
+      4,
+      34,
+      -0.57,
+      1,
+      0
+     ]
+    },
+    "summary": {
+     "mean_ensemble_percentile": 0.405,
+     "consensus_index_0_to_1": 0.2,
+     "mean_full_history_z": 0.17,
+     "last20_total_vs_expected_18.95": 12,
+     "mean_trend_percentile": 0.387,
+     "mean_hazard_percentile": 0.419,
+     "mean_pair_z": 0.648,
+     "pairs_z_above_2": 1
+    },
+    "structure": [
+     123,
+     3,
+     3,
+     0,
+     23,
+     0.0097,
+     1.15
+    ],
+    "sensitivity": [
+     "15/16",
+     "0/1"
+    ],
+    "specific_counterevidence": [
+     "Its generating method(s) did not beat the random expectation in the confirmation period.",
+     "Development-period performance of its method(s) fell in the confirmation period (regression toward random)."
+    ]
+   },
+   "C11": {
+    "numbers": [
+     4,
+     8,
+     9,
+     13,
+     24,
+     35
+    ],
+    "generating_methods": [
+     "B_ew_40|opt_top12"
+    ],
+    "random_control": false,
+    "walk_forward": {
+     "B_ew_40|opt_top12": [
+      1.014,
+      0.971,
+      1.057,
+      0.183,
+      1.0,
+      3.6
+     ]
+    },
+    "number_evidence": {
+     "04": [
+      6,
+      3,
+      2,
+      25,
+      2,
+      8,
+      36,
+      3,
+      1.12,
+      7,
+      4
+     ],
+     "08": [
+      1,
+      7,
+      15,
+      7,
+      33,
+      15,
+      35,
+      9,
+      1.97,
+      3,
+      3
+     ],
+     "09": [
+      29,
+      6,
+      5,
+      5,
+      19,
+      26,
+      17,
+      20,
+      -0.78,
+      4,
+      2
+     ],
+     "13": [
+      8,
+      1,
+      1,
+      21,
+      1,
+      12,
+      27,
+      2,
+      0.91,
+      7,
+      4
+     ],
+     "24": [
+      7,
+      2,
+      8,
+      8,
+      6,
+      11,
+      33,
+      1,
+      1.12,
+      6,
+      5
+     ],
+     "35": [
+      4,
+      8,
+      18,
+      36,
+      29,
+      1,
+      22,
+      12,
+      1.12,
+      4,
+      3
+     ]
+    },
+    "summary": {
+     "mean_ensemble_percentile": 0.815,
+     "consensus_index_0_to_1": 0.7,
+     "mean_full_history_z": 0.91,
+     "last20_total_vs_expected_18.95": 31,
+     "mean_trend_percentile": 0.622,
+     "mean_hazard_percentile": 0.568,
+     "mean_pair_z": 0.124,
+     "pairs_z_above_2": 0
+    },
+    "structure": [
+     93,
+     3,
+     4,
+     1,
+     31,
+     0.0113,
+     1.31
+    ],
+    "sensitivity": [
+     "16/16",
+     "3/7"
+    ],
+    "specific_counterevidence": []
+   },
+   "C12": {
+    "numbers": [
+     1,
+     8,
+     13,
+     18,
+     24,
+     25
+    ],
+    "generating_methods": [
+     "A_freq_all|opt_top12"
+    ],
+    "random_control": false,
+    "walk_forward": {
+     "A_freq_all|opt_top12": [
+      1.0,
+      1.029,
+      0.971,
+      0.241,
+      1.0,
+      1.4
+     ]
+    },
+    "number_evidence": {
+     "01": [
+      9,
+      4,
+      4,
+      26,
+      4,
+      3,
+      21,
+      5,
+      0.91,
+      6,
+      4
+     ],
+     "08": [
+      1,
+      7,
+      15,
+      7,
+      33,
+      15,
+      35,
+      9,
+      1.97,
+      3,
+      3
+     ],
+     "13": [
+      8,
+      1,
+      1,
+      21,
+      1,
+      12,
+      27,
+      2,
+      0.91,
+      7,
+      4
+     ],
+     "18": [
+      2,
+      16,
+      6,
+      12,
+      15,
+      2,
+      3,
+      4,
+      1.75,
+      3,
+      3
+     ],
+     "24": [
+      7,
+      2,
+      8,
+      8,
+      6,
+      11,
+      33,
+      1,
+      1.12,
+      6,
+      5
+     ],
+     "25": [
+      5,
+      20,
+      27,
+      14,
+      21,
+      4,
+      1,
+      8,
+      1.12,
+      3,
+      2
+     ]
+    },
+    "summary": {
+     "mean_ensemble_percentile": 0.896,
+     "consensus_index_0_to_1": 0.7,
+     "mean_full_history_z": 1.3,
+     "last20_total_vs_expected_18.95": 28,
+     "mean_trend_percentile": 0.667,
+     "mean_hazard_percentile": 0.631,
+     "mean_pair_z": 0.37,
+     "pairs_z_above_2": 0
+    },
+    "structure": [
+     89,
+     3,
+     4,
+     1,
+     24,
+     0.0113,
+     1.31
+    ],
+    "sensitivity": [
+     "15/16",
+     "0/1"
+    ],
+    "specific_counterevidence": [
+     "Development-period performance of its method(s) fell in the confirmation period (regression toward random)."
+    ]
+   },
+   "C13": {
+    "numbers": [
+     1,
+     21,
+     26,
+     31,
+     34,
+     36
+    ],
+    "generating_methods": [
+     "H_random|top6"
+    ],
+    "random_control": true,
+    "walk_forward": {
+     "H_random|top6": [
+      1.007,
+      0.971,
+      1.043,
+      0.211,
+      null,
+      6.4
+     ]
+    },
+    "number_evidence": {
+     "01": [
+      9,
+      4,
+      4,
+      26,
+      4,
+      3,
+      21,
+      5,
+      0.91,
+      6,
+      4
+     ],
+     "21": [
+      33,
+      36,
+      24,
+      37,
+      31,
+      32,
+      6,
+      38,
+      -0.99,
+      1,
+      0
+     ],
+     "26": [
+      28,
+      32,
+      30,
+      3,
+      25,
+      37,
+      12,
+      29,
+      -0.57,
+      2,
+      1
+     ],
+     "31": [
+      20,
+      17,
+      31,
+      17,
+      9,
+      24,
+      7,
+      14,
+      -0.14,
+      4,
+      1
+     ],
+     "34": [
+      27,
+      34,
+      32,
+      29,
+      30,
+      18,
+      4,
+      34,
+      -0.57,
+      1,
+      0
+     ],
+     "36": [
+      21,
+      19,
+      19,
+      4,
+      36,
+      25,
+      18,
+      22,
+      -0.14,
+      2,
+      1
+     ]
+    },
+    "summary": {
+     "mean_ensemble_percentile": 0.387,
+     "consensus_index_0_to_1": 0.233,
+     "mean_full_history_z": -0.25,
+     "last20_total_vs_expected_18.95": 16,
+     "mean_trend_percentile": 0.419,
+     "mean_hazard_percentile": 0.505,
+     "mean_pair_z": -0.166,
+     "pairs_z_above_2": 0
+    },
+    "structure": [
+     149,
+     3,
+     1,
+     0,
+     35,
+     0.004,
+     0.2
+    ],
+    "sensitivity": [
+     "n/a",
+     "n/a"
+    ],
+    "specific_counterevidence": [
+     "This ticket is a uniform random control, not derived from any feature."
+    ]
+   },
+   "C14": {
+    "numbers": [
+     5,
+     11,
+     16,
+     31,
+     32,
+     34
+    ],
+    "generating_methods": [
+     "C_overdue|opt_top12"
+    ],
+    "random_control": false,
+    "walk_forward": {
+     "C_overdue|opt_top12": [
+      0.943,
+      0.929,
+      0.957,
+      0.543,
+      1.0,
+      2.9
+     ]
+    },
+    "number_evidence": {
+     "05": [
+      38,
+      38,
+      38,
+      18,
+      24,
+      38,
+      20,
+      37,
+      -2.04,
+      1,
+      0
+     ],
+     "11": [
+      24,
+      37,
+      33,
+      9,
+      27,
+      22,
+      9,
+      28,
+      -0.36,
+      1,
+      1
+     ],
+     "16": [
+      35,
+      31,
+      35,
+      1,
+      38,
+      36,
+      34,
+      35,
+      -1.41,
+      0,
+      1
+     ],
+     "31": [
+      20,
+      17,
+      31,
+      17,
+      9,
+      24,
+      7,
+      14,
+      -0.14,
+      4,
+      1
+     ],
+     "32": [
+      30,
+      29,
+      20,
+      2,
+      35,
+      16,
+      32,
+      23,
+      -0.78,
+      1,
+      1
+     ],
+     "34": [
+      27,
+      34,
+      32,
+      29,
+      30,
+      18,
+      4,
+      34,
+      -0.57,
+      1,
+      0
+     ]
+    },
+    "summary": {
+     "mean_ensemble_percentile": 0.257,
+     "consensus_index_0_to_1": 0.133,
+     "mean_full_history_z": -0.88,
+     "last20_total_vs_expected_18.95": 8,
+     "mean_trend_percentile": 0.293,
+     "mean_hazard_percentile": 0.685,
+     "mean_pair_z": 0.399,
+     "pairs_z_above_2": 1
+    },
+    "structure": [
+     129,
+     3,
+     3,
+     1,
+     29,
+     0.0091,
+     1.08
+    ],
+    "sensitivity": [
+     "15/16",
+     "0/3"
+    ],
+    "specific_counterevidence": []
+   },
+   "C15": {
+    "numbers": [
+     1,
+     4,
+     13,
+     18,
+     28,
+     29
+    ],
+    "generating_methods": [
+     "C_recent|opt_top12"
+    ],
+    "random_control": false,
+    "walk_forward": {
+     "C_recent|opt_top12": [
+      0.95,
+      1.029,
+      0.871,
+      0.502,
+      1.0,
+      2.1
+     ]
+    },
+    "number_evidence": {
+     "01": [
+      9,
+      4,
+      4,
+      26,
+      4,
+      3,
+      21,
+      5,
+      0.91,
+      6,
+      4
+     ],
+     "04": [
+      6,
+      3,
+      2,
+      25,
+      2,
+      8,
+      36,
+      3,
+      1.12,
+      7,
+      4
+     ],
+     "13": [
+      8,
+      1,
+      1,
+      21,
+      1,
+      12,
+      27,
+      2,
+      0.91,
+      7,
+      4
+     ],
+     "18": [
+      2,
+      16,
+      6,
+      12,
+      15,
+      2,
+      3,
+      4,
+      1.75,
+      3,
+      3
+     ],
+     "28": [
+      37,
+      35,
+      23,
+      22,
+      11,
+      23,
+      37,
+      33,
+      -1.62,
+      2,
+      1
+     ],
+     "29": [
+      36,
+      23,
+      10,
+      11,
+      16,
+      35,
+      23,
+      27,
+      -1.62,
+      3,
+      1
+     ]
+    },
+    "summary": {
+     "mean_ensemble_percentile": 0.694,
+     "consensus_index_0_to_1": 0.567,
+     "mean_full_history_z": 0.24,
+     "last20_total_vs_expected_18.95": 28,
+     "mean_trend_percentile": 0.806,
+     "mean_hazard_percentile": 0.5,
+     "mean_pair_z": 0.408,
+     "pairs_z_above_2": 0
+    },
+    "structure": [
+     93,
+     3,
+     4,
+     1,
+     28,
+     0.0113,
+     1.31
+    ],
+    "sensitivity": [
+     "16/16",
+     "0/3"
+    ],
+    "specific_counterevidence": [
+     "Its generating method(s) did not beat the random expectation in the confirmation period.",
+     "Development-period performance of its method(s) fell in the confirmation period (regression toward random)."
+    ]
+   },
+   "C16": {
+    "numbers": [
+     6,
+     9,
+     10,
+     31,
+     35,
+     38
+    ],
+    "generating_methods": [
+     "B_roll_50|opt_top12"
+    ],
+    "random_control": false,
+    "walk_forward": {
+     "B_roll_50|opt_top12": [
+      1.05,
+      1.071,
+      1.029,
+      0.08,
+      1.0,
+      4.3
+     ]
+    },
+    "number_evidence": {
+     "06": [
+      17,
+      12,
+      12,
+      23,
+      17,
+      9,
+      10,
+      13,
+      0.07,
+      4,
+      2
+     ],
+     "09": [
+      29,
+      6,
+      5,
+      5,
+      19,
+      26,
+      17,
+      20,
+      -0.78,
+      4,
+      2
+     ],
+     "10": [
+      11,
+      5,
+      16,
+      13,
+      8,
+      14,
+      15,
+      6,
+      0.7,
+      5,
+      3
+     ],
+     "31": [
+      20,
+      17,
+      31,
+      17,
+      9,
+      24,
+      7,
+      14,
+      -0.14,
+      4,
+      1
+     ],
+     "35": [
+      4,
+      8,
+      18,
+      36,
+      29,
+      1,
+      22,
+      12,
+      1.12,
+      4,
+      3
+     ],
+     "38": [
+      3,
+      10,
+      34,
+      32,
+      28,
+      7,
+      5,
+      10,
+      1.33,
+      4,
+      3
+     ]
+    },
+    "summary": {
+     "mean_ensemble_percentile": 0.689,
+     "consensus_index_0_to_1": 0.467,
+     "mean_full_history_z": 0.38,
+     "last20_total_vs_expected_18.95": 25,
+     "mean_trend_percentile": 0.532,
+     "mean_hazard_percentile": 0.459,
+     "mean_pair_z": 0.567,
+     "pairs_z_above_2": 0
+    },
+    "structure": [
+     129,
+     3,
+     3,
+     1,
+     32,
+     0.0091,
+     1.08
+    ],
+    "sensitivity": [
+     "16/16",
+     "0/7"
+    ],
+    "specific_counterevidence": [
+     "Development-period performance of its method(s) fell in the confirmation period (regression toward random)."
+    ]
+   },
+   "C17": {
+    "numbers": [
+     1,
+     4,
+     6,
+     13,
+     18,
+     29
+    ],
+    "generating_methods": [
+     "B_roll_10|pair_top12"
+    ],
+    "random_control": false,
+    "walk_forward": {
+     "B_roll_10|pair_top12": [
+      1.079,
+      1.243,
+      0.914,
+      0.036,
+      1.0,
+      4.3
+     ]
+    },
+    "number_evidence": {
+     "01": [
+      9,
+      4,
+      4,
+      26,
+      4,
+      3,
+      21,
+      5,
+      0.91,
+      6,
+      4
+     ],
+     "04": [
+      6,
+      3,
+      2,
+      25,
+      2,
+      8,
+      36,
+      3,
+      1.12,
+      7,
+      4
+     ],
+     "06": [
+      17,
+      12,
+      12,
+      23,
+      17,
+      9,
+      10,
+      13,
+      0.07,
+      4,
+      2
+     ],
+     "13": [
+      8,
+      1,
+      1,
+      21,
+      1,
+      12,
+      27,
+      2,
+      0.91,
+      7,
+      4
+     ],
+     "18": [
+      2,
+      16,
+      6,
+      12,
+      15,
+      2,
+      3,
+      4,
+      1.75,
+      3,
+      3
+     ],
+     "29": [
+      36,
+      23,
+      10,
+      11,
+      16,
+      35,
+      23,
+      27,
+      -1.62,
+      3,
+      1
+     ]
+    },
+    "summary": {
+     "mean_ensemble_percentile": 0.784,
+     "consensus_index_0_to_1": 0.6,
+     "mean_full_history_z": 0.52,
+     "last20_total_vs_expected_18.95": 30,
+     "mean_trend_percentile": 0.779,
+     "mean_hazard_percentile": 0.495,
+     "mean_pair_z": 0.568,
+     "pairs_z_above_2": 0
+    },
+    "structure": [
+     71,
+     3,
+     5,
+     0,
+     28,
+     0.0037,
+     0.1
+    ],
+    "sensitivity": [
+     "n/a",
+     "n/a"
+    ],
+    "specific_counterevidence": [
+     "Its generating method(s) did not beat the random expectation in the confirmation period.",
+     "Development-period performance of its method(s) fell in the confirmation period (regression toward random)."
+    ]
+   },
+   "C18": {
+    "numbers": [
+     4,
+     9,
+     10,
+     13,
+     24,
+     35
+    ],
+    "generating_methods": [
+     "B_ew_20|opt_top12",
+     "G_ensemble_adaptive|opt_top12"
+    ],
+    "random_control": false,
+    "walk_forward": {
+     "B_ew_20|opt_top12": [
+      0.993,
+      0.943,
+      1.043,
+      0.273,
+      1.0,
+      2.9
+     ],
+     "G_ensemble_adaptive|opt_top12": [
+      0.943,
+      0.886,
+      1.0,
+      0.543,
+      1.0,
+      2.1
+     ]
+    },
+    "number_evidence": {
+     "04": [
+      6,
+      3,
+      2,
+      25,
+      2,
+      8,
+      36,
+      3,
+      1.12,
+      7,
+      4
+     ],
+     "09": [
+      29,
+      6,
+      5,
+      5,
+      19,
+      26,
+      17,
+      20,
+      -0.78,
+      4,
+      2
+     ],
+     "10": [
+      11,
+      5,
+      16,
+      13,
+      8,
+      14,
+      15,
+      6,
+      0.7,
+      5,
+      3
+     ],
+     "13": [
+      8,
+      1,
+      1,
+      21,
+      1,
+      12,
+      27,
+      2,
+      0.91,
+      7,
+      4
+     ],
+     "24": [
+      7,
+      2,
+      8,
+      8,
+      6,
+      11,
+      33,
+      1,
+      1.12,
+      6,
+      5
+     ],
+     "35": [
+      4,
+      8,
+      18,
+      36,
+      29,
+      1,
+      22,
+      12,
+      1.12,
+      4,
+      3
+     ]
+    },
+    "summary": {
+     "mean_ensemble_percentile": 0.829,
+     "consensus_index_0_to_1": 0.7,
+     "mean_full_history_z": 0.7,
+     "last20_total_vs_expected_18.95": 33,
+     "mean_trend_percentile": 0.734,
+     "mean_hazard_percentile": 0.541,
+     "mean_pair_z": 0.127,
+     "pairs_z_above_2": 0
+    },
+    "structure": [
+     95,
+     3,
+     4,
+     1,
+     31,
+     0.0113,
+     1.31
+    ],
+    "sensitivity": [
+     "30/32",
+     "2/8"
+    ],
+    "specific_counterevidence": []
+   },
+   "C19": {
+    "numbers": [
+     8,
+     9,
+     13,
+     15,
+     22,
+     24
+    ],
+    "generating_methods": [
+     "B_roll_30|opt_top12"
+    ],
+    "random_control": false,
+    "walk_forward": {
+     "B_roll_30|opt_top12": [
+      0.929,
+      0.871,
+      0.986,
+      0.622,
+      1.0,
+      0.7
+     ]
+    },
+    "number_evidence": {
+     "08": [
+      1,
+      7,
+      15,
+      7,
+      33,
+      15,
+      35,
+      9,
+      1.97,
+      3,
+      3
+     ],
+     "09": [
+      29,
+      6,
+      5,
+      5,
+      19,
+      26,
+      17,
+      20,
+      -0.78,
+      4,
+      2
+     ],
+     "13": [
+      8,
+      1,
+      1,
+      21,
+      1,
+      12,
+      27,
+      2,
+      0.91,
+      7,
+      4
+     ],
+     "15": [
+      13,
+      11,
+      14,
+      28,
+      23,
+      19,
+      24,
+      19,
+      0.49,
+      4,
+      1
+     ],
+     "22": [
+      22,
+      15,
+      9,
+      30,
+      10,
+      17,
+      11,
+      17,
+      -0.14,
+      4,
+      1
+     ],
+     "24": [
+      7,
+      2,
+      8,
+      8,
+      6,
+      11,
+      33,
+      1,
+      1.12,
+      6,
+      5
+     ]
+    },
+    "summary": {
+     "mean_ensemble_percentile": 0.721,
+     "consensus_index_0_to_1": 0.533,
+     "mean_full_history_z": 0.59,
+     "last20_total_vs_expected_18.95": 28,
+     "mean_trend_percentile": 0.613,
+     "mean_hazard_percentile": 0.581,
+     "mean_pair_z": 0.66,
+     "pairs_z_above_2": 0
+    },
+    "structure": [
+     91,
+     3,
+     4,
+     1,
+     16,
+     0.0113,
+     1.31
+    ],
+    "sensitivity": [
+     "16/16",
+     "1/7"
+    ],
+    "specific_counterevidence": []
+   },
+   "C20": {
+    "numbers": [
+     1,
+     2,
+     4,
+     7,
+     13,
+     24
+    ],
+    "generating_methods": [
+     "B_roll_10|opt_top12",
+     "B_roll_20|opt_top12",
+     "D_trend_20v40|opt_top12"
+    ],
+    "random_control": false,
+    "walk_forward": {
+     "B_roll_10|opt_top12": [
+      0.971,
+      1.1,
+      0.843,
+      0.382,
+      1.0,
+      2.9
+     ],
+     "B_roll_20|opt_top12": [
+      1.021,
+      0.957,
+      1.086,
+      0.158,
+      1.0,
+      5.0
+     ],
+     "D_trend_20v40|opt_top12": [
+      1.05,
+      1.043,
+      1.057,
+      0.08,
+      1.0,
+      5.0
+     ]
+    },
+    "number_evidence": {
+     "01": [
+      9,
+      4,
+      4,
+      26,
+      4,
+      3,
+      21,
+      5,
+      0.91,
+      6,
+      4
+     ],
+     "02": [
+      14,
+      9,
+      7,
+      16,
+      3,
+      10,
+      31,
+      7,
+      0.49,
+      6,
+      3
+     ],
+     "04": [
+      6,
+      3,
+      2,
+      25,
+      2,
+      8,
+      36,
+      3,
+      1.12,
+      7,
+      4
+     ],
+     "07": [
+      26,
+      13,
+      3,
+      15,
+      5,
+      21,
+      25,
+      11,
+      -0.36,
+      5,
+      1
+     ],
+     "13": [
+      8,
+      1,
+      1,
+      21,
+      1,
+      12,
+      27,
+      2,
+      0.91,
+      7,
+      4
+     ],
+     "24": [
+      7,
+      2,
+      8,
+      8,
+      6,
+      11,
+      33,
+      1,
+      1.12,
+      6,
+      5
+     ]
+    },
+    "summary": {
+     "mean_ensemble_percentile": 0.896,
+     "consensus_index_0_to_1": 0.7,
+     "mean_full_history_z": 0.7,
+     "last20_total_vs_expected_18.95": 37,
+     "mean_trend_percentile": 0.932,
+     "mean_hazard_percentile": 0.527,
+     "mean_pair_z": 0.138,
+     "pairs_z_above_2": 0
+    },
+    "structure": [
+     51,
+     3,
+     5,
+     1,
+     23,
+     0.0085,
+     1.01
+    ],
+    "sensitivity": [
+     "48/48",
+     "4/15"
+    ],
+    "specific_counterevidence": []
+   },
+   "C21": {
+    "numbers": [
+     16,
+     27,
+     31,
+     34,
+     35,
+     38
+    ],
+    "generating_methods": [
+     "C_own_gap_pct|opt_top12"
+    ],
+    "random_control": false,
+    "walk_forward": {
+     "C_own_gap_pct|opt_top12": [
+      0.85,
+      0.786,
+      0.914,
+      0.926,
+      1.0,
+      0.7
+     ]
+    },
+    "number_evidence": {
+     "16": [
+      35,
+      31,
+      35,
+      1,
+      38,
+      36,
+      34,
+      35,
+      -1.41,
+      0,
+      1
+     ],
+     "27": [
+      32,
+      33,
+      36,
+      33,
+      34,
+      20,
+      38,
+      36,
+      -0.78,
+      1,
+      0
+     ],
+     "31": [
+      20,
+      17,
+      31,
+      17,
+      9,
+      24,
+      7,
+      14,
+      -0.14,
+      4,
+      1
+     ],
+     "34": [
+      27,
+      34,
+      32,
+      29,
+      30,
+      18,
+      4,
+      34,
+      -0.57,
+      1,
+      0
+     ],
+     "35": [
+      4,
+      8,
+      18,
+      36,
+      29,
+      1,
+      22,
+      12,
+      1.12,
+      4,
+      3
+     ],
+     "38": [
+      3,
+      10,
+      34,
+      32,
+      28,
+      7,
+      5,
+      10,
+      1.33,
+      4,
+      3
+     ]
+    },
+    "summary": {
+     "mean_ensemble_percentile": 0.392,
+     "consensus_index_0_to_1": 0.267,
+     "mean_full_history_z": -0.07,
+     "last20_total_vs_expected_18.95": 14,
+     "mean_trend_percentile": 0.27,
+     "mean_hazard_percentile": 0.36,
+     "mean_pair_z": 0.195,
+     "pairs_z_above_2": 0
+    },
+    "structure": [
+     181,
+     3,
+     1,
+     1,
+     22,
+     0.0093,
+     1.1
+    ],
+    "sensitivity": [
+     "14/16",
+     "0/3"
+    ],
+    "specific_counterevidence": [
+     "Its generating method(s) did not beat the random expectation in the confirmation period."
+    ]
+   }
+  }
+ },
+ "questions": {
+  "strongest_case": {
+   "type": "choice",
+   "instructions": {
+    "question": "Given only the supplied pre-draw empirical evidence, which complete candidate ticket has the strongest overall case among these alternatives?",
+    "how_to_judge": [
+     "Judge each candidate as a complete six-number ticket using its evidence profile in `candidates`.",
+     "Give most weight to out-of-sample (walk-forward) performance of the generating methods, especially confirmation-period results, then to independent model consensus, sensitivity/stability, and the listed counterevidence.",
+     "Do not prefer a ticket for its visual pattern.",
+     "Every ticket has identical exact random odds; decide which ticket's supporting evidence is strongest, not which is certain to win."
+    ]
+   },
+   "criteria": {
+    "C01": "Ticket 03 \u00b7 04 \u00b7 13 \u00b7 18 \u00b7 24 \u00b7 29 (evidence in `candidates.C01`)",
+    "C02": "Ticket 05 \u00b7 16 \u00b7 23 \u00b7 28 \u00b7 29 \u00b7 32 (evidence in `candidates.C02`)",
+    "C03": "Ticket 03 \u00b7 09 \u00b7 16 \u00b7 17 \u00b7 24 \u00b7 26 (evidence in `candidates.C03`)",
+    "C04": "Ticket 02 \u00b7 16 \u00b7 17 \u00b7 25 \u00b7 33 \u00b7 37 (evidence in `candidates.C04`)",
+    "C05": "Ticket 01 \u00b7 06 \u00b7 08 \u00b7 13 \u00b7 35 \u00b7 38 (evidence in `candidates.C05`)",
+    "C06": "Ticket 01 \u00b7 04 \u00b7 13 \u00b7 18 \u00b7 24 \u00b7 25 (evidence in `candidates.C06`)",
+    "C07": "Ticket 01 \u00b7 02 \u00b7 06 \u00b7 18 \u00b7 25 \u00b7 35 (evidence in `candidates.C07`)",
+    "C08": "Ticket 01 \u00b7 04 \u00b7 09 \u00b7 10 \u00b7 13 \u00b7 24 (evidence in `candidates.C08`)",
+    "C09": "Ticket 01 \u00b7 04 \u00b7 10 \u00b7 13 \u00b7 18 \u00b7 24 (evidence in `candidates.C09`)",
+    "C10": "Ticket 11 \u00b7 14 \u00b7 18 \u00b7 21 \u00b7 25 \u00b7 34 (evidence in `candidates.C10`)",
+    "C11": "Ticket 04 \u00b7 08 \u00b7 09 \u00b7 13 \u00b7 24 \u00b7 35 (evidence in `candidates.C11`)",
+    "C12": "Ticket 01 \u00b7 08 \u00b7 13 \u00b7 18 \u00b7 24 \u00b7 25 (evidence in `candidates.C12`)",
+    "C13": "Ticket 01 \u00b7 21 \u00b7 26 \u00b7 31 \u00b7 34 \u00b7 36 (evidence in `candidates.C13`)",
+    "C14": "Ticket 05 \u00b7 11 \u00b7 16 \u00b7 31 \u00b7 32 \u00b7 34 (evidence in `candidates.C14`)",
+    "C15": "Ticket 01 \u00b7 04 \u00b7 13 \u00b7 18 \u00b7 28 \u00b7 29 (evidence in `candidates.C15`)",
+    "C16": "Ticket 06 \u00b7 09 \u00b7 10 \u00b7 31 \u00b7 35 \u00b7 38 (evidence in `candidates.C16`)",
+    "C17": "Ticket 01 \u00b7 04 \u00b7 06 \u00b7 13 \u00b7 18 \u00b7 29 (evidence in `candidates.C17`)",
+    "C18": "Ticket 04 \u00b7 09 \u00b7 10 \u00b7 13 \u00b7 24 \u00b7 35 (evidence in `candidates.C18`)",
+    "C19": "Ticket 08 \u00b7 09 \u00b7 13 \u00b7 15 \u00b7 22 \u00b7 24 (evidence in `candidates.C19`)",
+    "C20": "Ticket 01 \u00b7 02 \u00b7 04 \u00b7 07 \u00b7 13 \u00b7 24 (evidence in `candidates.C20`)",
+    "C21": "Ticket 16 \u00b7 27 \u00b7 31 \u00b7 34 \u00b7 35 \u00b7 38 (evidence in `candidates.C21`)"
+   }
+  },
+  "empirical_robustness": {
+   "type": "score",
+   "instructions": "Using `walk_forward_results` and `randomness_tests`, rate how robust the out-of-sample empirical support is for preferring any evidence-based candidate ticket over a uniformly random ticket for draw #2340.",
+   "criteria": [
+    "No support: confirmation-period results are at or below the random baseline and no result survives multiple-testing correction.",
+    "Weak: isolated raw-significant results occur at about the rate expected by chance and do not replicate in the confirmation period.",
+    "Mixed: some confirmation-period improvement over random, but not statistically significant or not robust across variants.",
+    "Moderate: a pre-registered method beats random in the confirmation period with p < 0.05, but robustness across variants is limited.",
+    "Strong: a pre-registered method beats random in confirmation with p < 0.05, survives multiple-testing correction, and holds across variants."
+   ]
+  },
+  "evidence_quality": {
+   "type": "score",
+   "instructions": "Rate the quality of the evidence base for judging lottery prediction methods here: sample size, data completeness, causal testing design, controls, and statistical power, as described in the state.",
+   "criteria": [
+    "Very poor: tiny or unreliable data, no out-of-sample testing, no controls.",
+    "Poor: small data and weak design, with leakage or selection problems likely.",
+    "Adequate: causal walk-forward testing with random controls, but small sample and low power for realistic effects.",
+    "Good: causal design, random controls, complete data and power adequate for modest effects.",
+    "Excellent: large complete sample, high power, fully causal design, results replicated."
+   ]
+  },
+  "model_consensus": {
+   "type": "score",
+   "instructions": "Rate how strongly independent model families (frequency, recency, gap, trend, pair/transition) agree on the same numbers and tickets for draw #2340, using the candidates' per-number ranks, consensus indices and generating methods.",
+   "criteria": [
+    "No agreement: model families point to largely different numbers.",
+    "Slight agreement: a few numbers recur, mostly among closely related frequency-type rankers.",
+    "Partial agreement: several numbers recur across two or three families.",
+    "Substantial agreement: most families rank a common core of numbers highly.",
+    "Strong agreement: nearly all independent families converge on the same ticket."
+   ]
+  },
+  "stability": {
+   "type": "score",
+   "instructions": "Rate how stable the evidence-based candidate preferences are under reasonable changes: construction weights (lambda grid), window and half-life variants, sibling rankers, and development versus confirmation periods.",
+   "criteria": [
+    "Highly unstable: small changes replace most numbers and method rankings reverse between periods.",
+    "Unstable: rankings of methods change between periods and variants often replace several numbers.",
+    "Moderately stable: tickets persist under construction weights but method performance does not persist across periods.",
+    "Stable: tickets and method performance persist across most variants and both periods.",
+    "Highly stable: tickets and performance are essentially unchanged under all reasonable variants and periods."
+   ]
+  },
+  "likely_chance_or_overfitting": {
+   "type": "noul",
+   "instructions": "The apparent historical advantages of the best-performing methods in `walk_forward_results` are most likely explained by chance or overfitting.",
+   "criteria": {
+    "true": "Chance and selection effects plausibly explain the observed advantages.",
+    "false": "The advantages are too large or consistent to be explained by chance or overfitting."
+   }
+  },
+  "depends_on_one_model": {
+   "type": "noul",
+   "instructions": "The case for the strongest-looking candidate tickets depends mainly on a single model or ranker rather than on several independent model families.",
+   "criteria": {
+    "true": "One model or ranker drives the case.",
+    "false": "Several independent model families support it."
+   }
+  },
+  "unstable_under_reasonable_assumptions": {
+   "type": "noul",
+   "instructions": "The preferred candidate tickets would change materially under reasonable alternative assumptions (parameters, windows, evaluation periods).",
+   "criteria": {
+    "true": "Reasonable alternative assumptions would materially change which tickets look best.",
+    "false": "The preferred tickets are robust to reasonable alternative assumptions."
+   }
+  },
+  "materially_stronger_than_random": {
+   "type": "noul",
+   "instructions": "The supplied evidence shows predictive strength materially stronger than the exact random baseline.",
+   "criteria": {
+    "true": "Evidence demonstrates a material, validated advantage over random.",
+    "false": "Evidence does not demonstrate a material advantage over random."
+   }
+  }
+ }
+}

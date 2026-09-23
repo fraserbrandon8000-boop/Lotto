@@ -1,0 +1,627 @@
+{
+  "draws_analyzed": 169,
+  "consecutive_pairs_used": 167,
+  "global_tests": [
+    {
+      "test": "freq_chisq",
+      "description": "Chi-square of the 38 number counts vs uniform expectation",
+      "observed": 29.388561248779297,
+      "null_mean": 32.019107818603516,
+      "null_sd": 7.412531852722168,
+      "p_value": 0.6141692915354232,
+      "method": "Monte Carlo (20000 sims)",
+      "p_holm": 1.0,
+      "classification": "consistent with randomness"
+    },
+    {
+      "test": "freq_max",
+      "description": "Largest single-number count",
+      "observed": 36.0,
+      "null_mean": 37.3849983215332,
+      "null_sd": 2.4201600551605225,
+      "p_value": 0.7769111544422779,
+      "method": "Monte Carlo (20000 sims)",
+      "p_holm": 1.0,
+      "classification": "consistent with randomness"
+    },
+    {
+      "test": "freq_min",
+      "description": "Smallest single-number count (negated)",
+      "observed": -17.0,
+      "null_mean": -16.91254997253418,
+      "null_sd": 1.9275380373001099,
+      "p_value": 0.5851707414629268,
+      "method": "Monte Carlo (20000 sims)",
+      "p_holm": 1.0,
+      "classification": "consistent with randomness"
+    },
+    {
+      "test": "gap_chisq",
+      "description": "Pooled re-appearance gap histogram vs geometric(6/38), bins 1..15,16+",
+      "observed": 10.555259702989446,
+      "null_mean": 15.171067748038459,
+      "null_sd": 5.275565664515248,
+      "p_value": 0.807709614519274,
+      "method": "Monte Carlo (20000 sims)",
+      "p_holm": 1.0,
+      "classification": "consistent with randomness"
+    },
+    {
+      "test": "gap_mean",
+      "description": "Mean re-appearance gap (two-sided)",
+      "observed": 6.104508196721311,
+      "null_mean": 6.049286065573771,
+      "null_sd": 0.05544894870106386,
+      "p_value": 0.32893355332233387,
+      "method": "Monte Carlo (20000 sims)",
+      "p_holm": 1.0,
+      "classification": "consistent with randomness"
+    },
+    {
+      "test": "pair_chisq",
+      "description": "Dispersion of the 703 pair co-occurrence counts",
+      "observed": 673.2868041992188,
+      "null_mean": 688.110595703125,
+      "null_sd": 47.355709075927734,
+      "p_value": 0.6093695315234239,
+      "method": "Monte Carlo (20000 sims)",
+      "p_holm": 1.0,
+      "classification": "consistent with randomness"
+    },
+    {
+      "test": "pair_max",
+      "description": "Largest pair co-occurrence count",
+      "observed": 11.0,
+      "null_mean": 10.71399974822998,
+      "null_sd": 1.0574043989181519,
+      "p_value": 0.5329733513324334,
+      "method": "Monte Carlo (20000 sims)",
+      "p_holm": 1.0,
+      "classification": "consistent with randomness"
+    },
+    {
+      "test": "transition_chisq",
+      "description": "38x38 previous-draw -> next-draw transition matrix vs independence",
+      "observed": 1391.5023286759815,
+      "null_mean": 1408.807751164338,
+      "null_sd": 96.37435596414728,
+      "p_value": 0.5485225738713064,
+      "method": "Monte Carlo (20000 sims)",
+      "p_holm": 1.0,
+      "classification": "consistent with randomness"
+    },
+    {
+      "test": "sum_lag1_autocorr",
+      "description": "Lag-1 autocorrelation of the draw sum (two-sided)",
+      "observed": -0.018000001087784767,
+      "null_mean": -0.005838447716087103,
+      "null_sd": 0.07746013253927231,
+      "p_value": 0.8740562971851408,
+      "method": "Monte Carlo (20000 sims)",
+      "p_holm": 1.0,
+      "classification": "consistent with randomness"
+    },
+    {
+      "test": "lag1_overlap",
+      "description": "Numbers shared with the draw 1 earlier (lag 1); lag 1 = repeat behaviour",
+      "observed": 156,
+      "pairs": 167,
+      "null_mean": 158.21052631578948,
+      "observed_per_draw": 0.9341317365269461,
+      "p_value": 0.8793036484109571,
+      "method": "exact convolution, two-sided",
+      "p_holm": 1.0,
+      "classification": "consistent with randomness"
+    },
+    {
+      "test": "lag2_overlap",
+      "description": "Numbers shared with the draw 2 earlier (lag 2); lag 1 = repeat behaviour",
+      "observed": 164,
+      "pairs": 165,
+      "null_mean": 156.31578947368422,
+      "observed_per_draw": 0.9939393939393939,
+      "p_value": 0.4980559196534282,
+      "method": "exact convolution, two-sided",
+      "p_holm": 1.0,
+      "classification": "consistent with randomness"
+    },
+    {
+      "test": "lag3_overlap",
+      "description": "Numbers shared with the draw 3 earlier (lag 3); lag 1 = repeat behaviour",
+      "observed": 151,
+      "pairs": 163,
+      "null_mean": 154.42105263157896,
+      "observed_per_draw": 0.9263803680981595,
+      "p_value": 0.7885190126246342,
+      "method": "exact convolution, two-sided",
+      "p_holm": 1.0,
+      "classification": "consistent with randomness"
+    },
+    {
+      "test": "lag4_overlap",
+      "description": "Numbers shared with the draw 4 earlier (lag 4); lag 1 = repeat behaviour",
+      "observed": 168,
+      "pairs": 161,
+      "null_mean": 152.52631578947367,
+      "observed_per_draw": 1.0434782608695652,
+      "p_value": 0.15756462185598075,
+      "method": "exact convolution, two-sided",
+      "p_holm": 1.0,
+      "classification": "consistent with randomness"
+    },
+    {
+      "test": "lag5_overlap",
+      "description": "Numbers shared with the draw 5 earlier (lag 5); lag 1 = repeat behaviour",
+      "observed": 164,
+      "pairs": 159,
+      "null_mean": 150.6315789473684,
+      "observed_per_draw": 1.0314465408805031,
+      "p_value": 0.22059618355784955,
+      "method": "exact convolution, two-sided",
+      "p_holm": 1.0,
+      "classification": "consistent with randomness"
+    },
+    {
+      "test": "structure_sum",
+      "description": "Distribution of draw sum vs exact enumeration of all tickets",
+      "observed_chisq": 8.006621642799496,
+      "bins": 10,
+      "p_value": 0.5337733113344333,
+      "method": "exact null categories, multinomial MC (20000)",
+      "p_holm": 1.0,
+      "classification": "consistent with randomness"
+    },
+    {
+      "test": "structure_odd_count",
+      "description": "Distribution of draw odd_count vs exact enumeration of all tickets",
+      "observed_chisq": 3.2276524395053343,
+      "bins": 5,
+      "p_value": 0.519574021298935,
+      "method": "exact null categories, multinomial MC (20000)",
+      "p_holm": 1.0,
+      "classification": "consistent with randomness"
+    },
+    {
+      "test": "structure_low_count_1_19",
+      "description": "Distribution of draw low_count_1_19 vs exact enumeration of all tickets",
+      "observed_chisq": 4.374062324439274,
+      "bins": 5,
+      "p_value": 0.36033198340082995,
+      "method": "exact null categories, multinomial MC (20000)",
+      "p_holm": 1.0,
+      "classification": "consistent with randomness"
+    },
+    {
+      "test": "structure_consecutive_pairs",
+      "description": "Distribution of draw consecutive_pairs vs exact enumeration of all tickets",
+      "observed_chisq": 4.2918958078174505,
+      "bins": 3,
+      "p_value": 0.11719414029298535,
+      "method": "exact null categories, multinomial MC (20000)",
+      "p_holm": 1.0,
+      "classification": "consistent with randomness"
+    },
+    {
+      "test": "structure_range",
+      "description": "Distribution of draw range vs exact enumeration of all tickets",
+      "observed_chisq": 5.770769128455511,
+      "bins": 10,
+      "p_value": 0.7692115394230289,
+      "method": "exact null categories, multinomial MC (20000)",
+      "p_holm": 1.0,
+      "classification": "consistent with randomness"
+    },
+    {
+      "test": "bonus_uniformity",
+      "description": "Bonus counts vs uniform over the 32 non-main numbers",
+      "observed": 39.58114661702051,
+      "p_value": 0.34293285335733215,
+      "method": "Monte Carlo (20000)",
+      "p_holm": 1.0,
+      "classification": "consistent with randomness"
+    }
+  ],
+  "n_validated": 0,
+  "n_suggestive": 0,
+  "per_number": [
+    {
+      "number": 1,
+      "count": 31,
+      "expected": 26.684210526315788,
+      "p": 0.34364105750651397,
+      "q_bh": 0.9090656087679357
+    },
+    {
+      "number": 2,
+      "count": 29,
+      "expected": 26.684210526315788,
+      "p": 0.5985181783319495,
+      "q_bh": 0.9476537823589201
+    },
+    {
+      "number": 3,
+      "count": 25,
+      "expected": 26.684210526315788,
+      "p": 0.8328018185163012,
+      "q_bh": 0.9946333052186325
+    },
+    {
+      "number": 4,
+      "count": 32,
+      "expected": 26.684210526315788,
+      "p": 0.24743142584182495,
+      "q_bh": 0.8547631074535772
+    },
+    {
+      "number": 5,
+      "count": 17,
+      "expected": 26.684210526315788,
+      "p": 0.04429278684069522,
+      "q_bh": 0.8547631074535772
+    },
+    {
+      "number": 6,
+      "count": 27,
+      "expected": 26.684210526315788,
+      "p": 0.9161096232276877,
+      "q_bh": 0.9946333052186325
+    },
+    {
+      "number": 7,
+      "count": 25,
+      "expected": 26.684210526315788,
+      "p": 0.8328018185163012,
+      "q_bh": 0.9946333052186325
+    },
+    {
+      "number": 8,
+      "count": 36,
+      "expected": 26.684210526315788,
+      "p": 0.05695099410439768,
+      "q_bh": 0.8547631074535772
+    },
+    {
+      "number": 9,
+      "count": 23,
+      "expected": 26.684210526315788,
+      "p": 0.5263011419182786,
+      "q_bh": 0.9090656087679357
+    },
+    {
+      "number": 10,
+      "count": 30,
+      "expected": 26.684210526315788,
+      "p": 0.46117586589916576,
+      "q_bh": 0.9090656087679357
+    },
+    {
+      "number": 11,
+      "count": 25,
+      "expected": 26.684210526315788,
+      "p": 0.8328018185163012,
+      "q_bh": 0.9946333052186325
+    },
+    {
+      "number": 12,
+      "count": 28,
+      "expected": 26.684210526315788,
+      "p": 0.7520184927355618,
+      "q_bh": 0.9946333052186325
+    },
+    {
+      "number": 13,
+      "count": 31,
+      "expected": 26.684210526315788,
+      "p": 0.34364105750651397,
+      "q_bh": 0.9090656087679357
+    },
+    {
+      "number": 14,
+      "count": 27,
+      "expected": 26.684210526315788,
+      "p": 0.9161096232276877,
+      "q_bh": 0.9946333052186325
+    },
+    {
+      "number": 15,
+      "count": 29,
+      "expected": 26.684210526315788,
+      "p": 0.5985181783319495,
+      "q_bh": 0.9476537823589201
+    },
+    {
+      "number": 16,
+      "count": 20,
+      "expected": 26.684210526315788,
+      "p": 0.17103656509412624,
+      "q_bh": 0.8547631074535772
+    },
+    {
+      "number": 17,
+      "count": 25,
+      "expected": 26.684210526315788,
+      "p": 0.8328018185163012,
+      "q_bh": 0.9946333052186325
+    },
+    {
+      "number": 18,
+      "count": 35,
+      "expected": 26.684210526315788,
+      "p": 0.09054291660490113,
+      "q_bh": 0.8547631074535772
+    },
+    {
+      "number": 19,
+      "count": 23,
+      "expected": 26.684210526315788,
+      "p": 0.5263011419182786,
+      "q_bh": 0.9090656087679357
+    },
+    {
+      "number": 20,
+      "count": 27,
+      "expected": 26.684210526315788,
+      "p": 0.9161096232276877,
+      "q_bh": 0.9946333052186325
+    },
+    {
+      "number": 21,
+      "count": 22,
+      "expected": 26.684210526315788,
+      "p": 0.39798595903720224,
+      "q_bh": 0.9090656087679357
+    },
+    {
+      "number": 22,
+      "count": 26,
+      "expected": 26.684210526315788,
+      "p": 1.0,
+      "q_bh": 1.0
+    },
+    {
+      "number": 23,
+      "count": 21,
+      "expected": 26.684210526315788,
+      "p": 0.29051567210038864,
+      "q_bh": 0.9090656087679357
+    },
+    {
+      "number": 24,
+      "count": 32,
+      "expected": 26.684210526315788,
+      "p": 0.24743142584182495,
+      "q_bh": 0.8547631074535772
+    },
+    {
+      "number": 25,
+      "count": 32,
+      "expected": 26.684210526315788,
+      "p": 0.24743142584182495,
+      "q_bh": 0.8547631074535772
+    },
+    {
+      "number": 26,
+      "count": 24,
+      "expected": 26.684210526315788,
+      "p": 0.6728016962912502,
+      "q_bh": 0.983325556117981
+    },
+    {
+      "number": 27,
+      "count": 23,
+      "expected": 26.684210526315788,
+      "p": 0.5263011419182786,
+      "q_bh": 0.9090656087679357
+    },
+    {
+      "number": 28,
+      "count": 19,
+      "expected": 26.684210526315788,
+      "p": 0.11357258678994098,
+      "q_bh": 0.8547631074535772
+    },
+    {
+      "number": 29,
+      "count": 19,
+      "expected": 26.684210526315788,
+      "p": 0.11357258678994098,
+      "q_bh": 0.8547631074535772
+    },
+    {
+      "number": 30,
+      "count": 27,
+      "expected": 26.684210526315788,
+      "p": 0.9161096232276877,
+      "q_bh": 0.9946333052186325
+    },
+    {
+      "number": 31,
+      "count": 26,
+      "expected": 26.684210526315788,
+      "p": 1.0,
+      "q_bh": 1.0
+    },
+    {
+      "number": 32,
+      "count": 23,
+      "expected": 26.684210526315788,
+      "p": 0.5263011419182786,
+      "q_bh": 0.9090656087679357
+    },
+    {
+      "number": 33,
+      "count": 30,
+      "expected": 26.684210526315788,
+      "p": 0.46117586589916576,
+      "q_bh": 0.9090656087679357
+    },
+    {
+      "number": 34,
+      "count": 24,
+      "expected": 26.684210526315788,
+      "p": 0.6728016962912502,
+      "q_bh": 0.983325556117981
+    },
+    {
+      "number": 35,
+      "count": 32,
+      "expected": 26.684210526315788,
+      "p": 0.24743142584182495,
+      "q_bh": 0.8547631074535772
+    },
+    {
+      "number": 36,
+      "count": 26,
+      "expected": 26.684210526315788,
+      "p": 1.0,
+      "q_bh": 1.0
+    },
+    {
+      "number": 37,
+      "count": 30,
+      "expected": 26.684210526315788,
+      "p": 0.46117586589916576,
+      "q_bh": 0.9090656087679357
+    },
+    {
+      "number": 38,
+      "count": 33,
+      "expected": 26.684210526315788,
+      "p": 0.20447457123609036,
+      "q_bh": 0.8547631074535772
+    }
+  ],
+  "per_number_min_q": 0.8547631074535772,
+  "per_number_raw_p_below_0.05": [
+    5
+  ],
+  "pairs_expected_count": 3.6059743954480794,
+  "pairs_min_q": 0.7772389181959797,
+  "pairs_raw_p_below_0.05": 21,
+  "pairs_raw_p_below_0.05_expected_by_chance": 35.15,
+  "top_pairs_by_p": [
+    {
+      "pair": [
+        25,
+        34
+      ],
+      "count": 11,
+      "p": 0.0011056030130810522,
+      "q_bh": 0.7772389181959797
+    },
+    {
+      "pair": [
+        1,
+        18
+      ],
+      "count": 9,
+      "p": 0.010891369737067436,
+      "q_bh": 0.9498539966196023
+    },
+    {
+      "pair": [
+        4,
+        12
+      ],
+      "count": 9,
+      "p": 0.010891369737067436,
+      "q_bh": 0.9498539966196023
+    },
+    {
+      "pair": [
+        8,
+        13
+      ],
+      "count": 9,
+      "p": 0.010891369737067436,
+      "q_bh": 0.9498539966196023
+    },
+    {
+      "pair": [
+        18,
+        25
+      ],
+      "count": 9,
+      "p": 0.010891369737067436,
+      "q_bh": 0.9498539966196023
+    },
+    {
+      "pair": [
+        24,
+        37
+      ],
+      "count": 9,
+      "p": 0.010891369737067436,
+      "q_bh": 0.9498539966196023
+    },
+    {
+      "pair": [
+        2,
+        15
+      ],
+      "count": 8,
+      "p": 0.029492919711092636,
+      "q_bh": 0.9498539966196023
+    },
+    {
+      "pair": [
+        8,
+        15
+      ],
+      "count": 8,
+      "p": 0.029492919711092636,
+      "q_bh": 0.9498539966196023
+    },
+    {
+      "pair": [
+        8,
+        24
+      ],
+      "count": 8,
+      "p": 0.029492919711092636,
+      "q_bh": 0.9498539966196023
+    },
+    {
+      "pair": [
+        8,
+        33
+      ],
+      "count": 8,
+      "p": 0.029492919711092636,
+      "q_bh": 0.9498539966196023
+    }
+  ],
+  "structure_summary": {
+    "sum": {
+      "observed_mean": 116.44378698224853,
+      "null_mean": 117.0,
+      "observed_sd": 26.15200400484476,
+      "null_sd": 24.979991993593593
+    },
+    "odd_count": {
+      "observed_mean": 2.893491124260355,
+      "null_mean": 3.0,
+      "observed_sd": 1.0379851905679487,
+      "null_sd": 1.138989594902999
+    },
+    "low_count_1_19": {
+      "observed_mean": 3.06508875739645,
+      "null_mean": 3.0,
+      "observed_sd": 1.1673163063137728,
+      "null_sd": 1.138989594902999
+    },
+    "consecutive_pairs": {
+      "observed_mean": 0.6982248520710059,
+      "null_mean": 0.7894736842105263,
+      "observed_sd": 0.7979614094553744,
+      "null_sd": 0.7700308553267683
+    },
+    "range": {
+      "observed_mean": 28.207100591715978,
+      "null_mean": 27.857142857142858,
+      "observed_sd": 5.76243265079689,
+      "null_sd": 5.642405045180428
+    }
+  },
+  "overall_classification": "consistent with an independent uniform draw process"
+}

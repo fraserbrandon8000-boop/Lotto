@@ -1,0 +1,4242 @@
+{
+  "target_draw": 2340,
+  "information_cutoff": 2339,
+  "draws_used": 169,
+  "adaptive_weights": {
+    "A_freq_all": 0.0,
+    "B_ew_20": 0.06240601503759402,
+    "C_hazard": 0.0,
+    "D_trend_20v40": 0.0,
+    "E_transition": 0.0
+  },
+  "generation_rule": "(mechanical, fixed before any Jev interaction):\n  1. the pre-registered dev-selected ticket method\n  2. every non-control ranker with the protocol-default constructor opt_top12 (lambda_pair=0.5, lambda_struct=0.5)\n  3. the consensus constructor\n  4. two uniform random control tickets (H_random|top6 and random_ticket)\n  Duplicate tickets are merged (all generating methods listed). Order is shuffled with a fixed seed and\n  IDs C01.. are assigned after shuffling.",
+  "n_candidates": 21,
+  "candidates": {
+    "C01": {
+      "numbers": [
+        3,
+        4,
+        13,
+        18,
+        24,
+        29
+      ],
+      "generating_methods": [
+        "D_slope_50|opt_top12"
+      ],
+      "is_random_control": false,
+      "out_of_sample_performance_of_generating_methods": {
+        "D_slope_50|opt_top12": {
+          "walk_forward_targets": 140,
+          "mean_matches": 0.986,
+          "random_expectation": 0.947,
+          "dev_mean": 1.129,
+          "confirmation_mean": 0.843,
+          "exact_p_one_sided_full": 0.308,
+          "holm_p_family": 1.0,
+          "pct_3plus": 4.3,
+          "baseline_pct_3plus": 3.9,
+          "ci95_mean": [
+            0.843,
+            1.136
+          ]
+        }
+      },
+      "per_number_evidence": [
+        {
+          "number": 3,
+          "ranks_among_38": {
+            "A_freq_all": 23,
+            "B_ew_20": 26,
+            "B_roll_10": 21,
+            "C_hazard": 10,
+            "D_trend_20v40": 7,
+            "E_transition": 27,
+            "E_pair_centrality": 26,
+            "G_ensemble_equal": 21
+          },
+          "full_history_count": 25,
+          "full_history_z": -0.36,
+          "last20_count": 3,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 2
+        },
+        {
+          "number": 4,
+          "ranks_among_38": {
+            "A_freq_all": 6,
+            "B_ew_20": 3,
+            "B_roll_10": 2,
+            "C_hazard": 25,
+            "D_trend_20v40": 2,
+            "E_transition": 8,
+            "E_pair_centrality": 36,
+            "G_ensemble_equal": 3
+          },
+          "full_history_count": 32,
+          "full_history_z": 1.12,
+          "last20_count": 7,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 4
+        },
+        {
+          "number": 13,
+          "ranks_among_38": {
+            "A_freq_all": 8,
+            "B_ew_20": 1,
+            "B_roll_10": 1,
+            "C_hazard": 21,
+            "D_trend_20v40": 1,
+            "E_transition": 12,
+            "E_pair_centrality": 27,
+            "G_ensemble_equal": 2
+          },
+          "full_history_count": 31,
+          "full_history_z": 0.91,
+          "last20_count": 7,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 4
+        },
+        {
+          "number": 18,
+          "ranks_among_38": {
+            "A_freq_all": 2,
+            "B_ew_20": 16,
+            "B_roll_10": 6,
+            "C_hazard": 12,
+            "D_trend_20v40": 15,
+            "E_transition": 2,
+            "E_pair_centrality": 3,
+            "G_ensemble_equal": 4
+          },
+          "full_history_count": 35,
+          "full_history_z": 1.75,
+          "last20_count": 3,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 3
+        },
+        {
+          "number": 24,
+          "ranks_among_38": {
+            "A_freq_all": 7,
+            "B_ew_20": 2,
+            "B_roll_10": 8,
+            "C_hazard": 8,
+            "D_trend_20v40": 6,
+            "E_transition": 11,
+            "E_pair_centrality": 33,
+            "G_ensemble_equal": 1
+          },
+          "full_history_count": 32,
+          "full_history_z": 1.12,
+          "last20_count": 6,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 5
+        },
+        {
+          "number": 29,
+          "ranks_among_38": {
+            "A_freq_all": 36,
+            "B_ew_20": 23,
+            "B_roll_10": 10,
+            "C_hazard": 11,
+            "D_trend_20v40": 16,
+            "E_transition": 35,
+            "E_pair_centrality": 23,
+            "G_ensemble_equal": 27
+          },
+          "full_history_count": 19,
+          "full_history_z": -1.62,
+          "last20_count": 3,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 1
+        }
+      ],
+      "mean_percentile_under_core_rankers": {
+        "A_freq_all": 0.658,
+        "B_ew_20": 0.707,
+        "B_roll_10": 0.811,
+        "C_hazard": 0.635,
+        "D_trend_20v40": 0.815,
+        "E_transition": 0.599,
+        "E_pair_centrality": 0.36,
+        "G_ensemble_equal": 0.766
+      },
+      "long_term_evidence": {
+        "mean_full_history_z": 0.49
+      },
+      "recent_frequency_evidence": {
+        "last20_total": 29,
+        "last20_total_expected": 18.95,
+        "mean_ew20_percentile": 0.707
+      },
+      "trend_evidence": {
+        "mean_trend_percentile": 0.815
+      },
+      "gap_evidence": {
+        "mean_hazard_percentile": 0.635,
+        "note": "C_hazard (pooled re-appearance hazard) had top-12 walk-forward coverage 1.893 vs 1.895 random"
+      },
+      "pair_evidence": {
+        "mean_pair_z": 0.527,
+        "pairs_with_z_above_2": 0,
+        "note": "no pair co-occurrence survives BH correction (min q = 0.78)"
+      },
+      "structure_evidence": {
+        "sum": 91,
+        "odd": 3,
+        "low_1_19": 4,
+        "consecutive_pairs": 1,
+        "range": 26,
+        "structure_class_null_probability": 0.0113,
+        "structure_typicality_z": 1.31
+      },
+      "ensemble_evidence": {
+        "mean_ensemble_percentile": 0.766,
+        "consensus_index_0_to_1": 0.633
+      },
+      "sensitivity": {
+        "lambda_grid_variants_keeping_4plus_numbers": "8/16",
+        "sibling_rankers_keeping_4plus_numbers": "0/1"
+      },
+      "uncertainty": {
+        "expected_matches_under_exact_random": 0.947,
+        "P_3plus_random": 0.0387,
+        "note": "Walk-forward CIs of every method include the random expectation."
+      },
+      "counterevidence": [
+        "All 20 global randomness tests are consistent with an independent uniform draw (min Holm p = 1.0).",
+        "No ticket method survives Holm correction; the pre-registered dev-selected method fell below baseline in confirmation.",
+        "Every ticket, including this one, has exactly the same random probabilities: P(3+) = 3.87%, expected matches 0.947.",
+        "Its generating method(s) did not beat the random expectation in the confirmation period.",
+        "Development-period performance of its method(s) fell in the confirmation period (regression toward random)."
+      ]
+    },
+    "C02": {
+      "numbers": [
+        5,
+        16,
+        23,
+        28,
+        29,
+        32
+      ],
+      "generating_methods": [
+        "A_inv_cold|opt_top12"
+      ],
+      "is_random_control": false,
+      "out_of_sample_performance_of_generating_methods": {
+        "A_inv_cold|opt_top12": {
+          "walk_forward_targets": 140,
+          "mean_matches": 0.893,
+          "random_expectation": 0.947,
+          "dev_mean": 0.914,
+          "confirmation_mean": 0.871,
+          "exact_p_one_sided_full": 0.795,
+          "holm_p_family": 1.0,
+          "pct_3plus": 4.3,
+          "baseline_pct_3plus": 3.9,
+          "ci95_mean": [
+            0.757,
+            1.036
+          ]
+        }
+      },
+      "per_number_evidence": [
+        {
+          "number": 5,
+          "ranks_among_38": {
+            "A_freq_all": 38,
+            "B_ew_20": 38,
+            "B_roll_10": 38,
+            "C_hazard": 18,
+            "D_trend_20v40": 24,
+            "E_transition": 38,
+            "E_pair_centrality": 20,
+            "G_ensemble_equal": 37
+          },
+          "full_history_count": 17,
+          "full_history_z": -2.04,
+          "last20_count": 1,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 0
+        },
+        {
+          "number": 16,
+          "ranks_among_38": {
+            "A_freq_all": 35,
+            "B_ew_20": 31,
+            "B_roll_10": 35,
+            "C_hazard": 1,
+            "D_trend_20v40": 38,
+            "E_transition": 36,
+            "E_pair_centrality": 34,
+            "G_ensemble_equal": 35
+          },
+          "full_history_count": 20,
+          "full_history_z": -1.41,
+          "last20_count": 0,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 1
+        },
+        {
+          "number": 23,
+          "ranks_among_38": {
+            "A_freq_all": 34,
+            "B_ew_20": 14,
+            "B_roll_10": 13,
+            "C_hazard": 24,
+            "D_trend_20v40": 22,
+            "E_transition": 33,
+            "E_pair_centrality": 29,
+            "G_ensemble_equal": 32
+          },
+          "full_history_count": 21,
+          "full_history_z": -1.2,
+          "last20_count": 3,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 0
+        },
+        {
+          "number": 28,
+          "ranks_among_38": {
+            "A_freq_all": 37,
+            "B_ew_20": 35,
+            "B_roll_10": 23,
+            "C_hazard": 22,
+            "D_trend_20v40": 11,
+            "E_transition": 23,
+            "E_pair_centrality": 37,
+            "G_ensemble_equal": 33
+          },
+          "full_history_count": 19,
+          "full_history_z": -1.62,
+          "last20_count": 2,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 1
+        },
+        {
+          "number": 29,
+          "ranks_among_38": {
+            "A_freq_all": 36,
+            "B_ew_20": 23,
+            "B_roll_10": 10,
+            "C_hazard": 11,
+            "D_trend_20v40": 16,
+            "E_transition": 35,
+            "E_pair_centrality": 23,
+            "G_ensemble_equal": 27
+          },
+          "full_history_count": 19,
+          "full_history_z": -1.62,
+          "last20_count": 3,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 1
+        },
+        {
+          "number": 32,
+          "ranks_among_38": {
+            "A_freq_all": 30,
+            "B_ew_20": 29,
+            "B_roll_10": 20,
+            "C_hazard": 2,
+            "D_trend_20v40": 35,
+            "E_transition": 16,
+            "E_pair_centrality": 32,
+            "G_ensemble_equal": 23
+          },
+          "full_history_count": 23,
+          "full_history_z": -0.78,
+          "last20_count": 1,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 1
+        }
+      ],
+      "mean_percentile_under_core_rankers": {
+        "A_freq_all": 0.081,
+        "B_ew_20": 0.261,
+        "B_roll_10": 0.401,
+        "C_hazard": 0.676,
+        "D_trend_20v40": 0.369,
+        "E_transition": 0.212,
+        "E_pair_centrality": 0.239,
+        "G_ensemble_equal": 0.185
+      },
+      "long_term_evidence": {
+        "mean_full_history_z": -1.45
+      },
+      "recent_frequency_evidence": {
+        "last20_total": 10,
+        "last20_total_expected": 18.95,
+        "mean_ew20_percentile": 0.261
+      },
+      "trend_evidence": {
+        "mean_trend_percentile": 0.369
+      },
+      "gap_evidence": {
+        "mean_hazard_percentile": 0.676,
+        "note": "C_hazard (pooled re-appearance hazard) had top-12 walk-forward coverage 1.893 vs 1.895 random"
+      },
+      "pair_evidence": {
+        "mean_pair_z": 0.163,
+        "pairs_with_z_above_2": 0,
+        "note": "no pair co-occurrence survives BH correction (min q = 0.78)"
+      },
+      "structure_evidence": {
+        "sum": 133,
+        "odd": 3,
+        "low_1_19": 2,
+        "consecutive_pairs": 1,
+        "range": 27,
+        "structure_class_null_probability": 0.0087,
+        "structure_typicality_z": 1.03
+      },
+      "ensemble_evidence": {
+        "mean_ensemble_percentile": 0.185,
+        "consensus_index_0_to_1": 0.133
+      },
+      "sensitivity": {
+        "lambda_grid_variants_keeping_4plus_numbers": "16/16",
+        "sibling_rankers_keeping_4plus_numbers": "0/1"
+      },
+      "uncertainty": {
+        "expected_matches_under_exact_random": 0.947,
+        "P_3plus_random": 0.0387,
+        "note": "Walk-forward CIs of every method include the random expectation."
+      },
+      "counterevidence": [
+        "All 20 global randomness tests are consistent with an independent uniform draw (min Holm p = 1.0).",
+        "No ticket method survives Holm correction; the pre-registered dev-selected method fell below baseline in confirmation.",
+        "Every ticket, including this one, has exactly the same random probabilities: P(3+) = 3.87%, expected matches 0.947.",
+        "Its generating method(s) did not beat the random expectation in the confirmation period."
+      ]
+    },
+    "C03": {
+      "numbers": [
+        3,
+        9,
+        16,
+        17,
+        24,
+        26
+      ],
+      "generating_methods": [
+        "C_hazard|opt_top12"
+      ],
+      "is_random_control": false,
+      "out_of_sample_performance_of_generating_methods": {
+        "C_hazard|opt_top12": {
+          "walk_forward_targets": 140,
+          "mean_matches": 0.936,
+          "random_expectation": 0.947,
+          "dev_mean": 0.957,
+          "confirmation_mean": 0.914,
+          "exact_p_one_sided_full": 0.583,
+          "holm_p_family": 1.0,
+          "pct_3plus": 4.3,
+          "baseline_pct_3plus": 3.9,
+          "ci95_mean": [
+            0.793,
+            1.086
+          ]
+        }
+      },
+      "per_number_evidence": [
+        {
+          "number": 3,
+          "ranks_among_38": {
+            "A_freq_all": 23,
+            "B_ew_20": 26,
+            "B_roll_10": 21,
+            "C_hazard": 10,
+            "D_trend_20v40": 7,
+            "E_transition": 27,
+            "E_pair_centrality": 26,
+            "G_ensemble_equal": 21
+          },
+          "full_history_count": 25,
+          "full_history_z": -0.36,
+          "last20_count": 3,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 2
+        },
+        {
+          "number": 9,
+          "ranks_among_38": {
+            "A_freq_all": 29,
+            "B_ew_20": 6,
+            "B_roll_10": 5,
+            "C_hazard": 5,
+            "D_trend_20v40": 19,
+            "E_transition": 26,
+            "E_pair_centrality": 17,
+            "G_ensemble_equal": 20
+          },
+          "full_history_count": 23,
+          "full_history_z": -0.78,
+          "last20_count": 4,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 2
+        },
+        {
+          "number": 16,
+          "ranks_among_38": {
+            "A_freq_all": 35,
+            "B_ew_20": 31,
+            "B_roll_10": 35,
+            "C_hazard": 1,
+            "D_trend_20v40": 38,
+            "E_transition": 36,
+            "E_pair_centrality": 34,
+            "G_ensemble_equal": 35
+          },
+          "full_history_count": 20,
+          "full_history_z": -1.41,
+          "last20_count": 0,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 1
+        },
+        {
+          "number": 17,
+          "ranks_among_38": {
+            "A_freq_all": 25,
+            "B_ew_20": 24,
+            "B_roll_10": 11,
+            "C_hazard": 6,
+            "D_trend_20v40": 32,
+            "E_transition": 13,
+            "E_pair_centrality": 13,
+            "G_ensemble_equal": 18
+          },
+          "full_history_count": 25,
+          "full_history_z": -0.36,
+          "last20_count": 2,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 1
+        },
+        {
+          "number": 24,
+          "ranks_among_38": {
+            "A_freq_all": 7,
+            "B_ew_20": 2,
+            "B_roll_10": 8,
+            "C_hazard": 8,
+            "D_trend_20v40": 6,
+            "E_transition": 11,
+            "E_pair_centrality": 33,
+            "G_ensemble_equal": 1
+          },
+          "full_history_count": 32,
+          "full_history_z": 1.12,
+          "last20_count": 6,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 5
+        },
+        {
+          "number": 26,
+          "ranks_among_38": {
+            "A_freq_all": 28,
+            "B_ew_20": 32,
+            "B_roll_10": 30,
+            "C_hazard": 3,
+            "D_trend_20v40": 25,
+            "E_transition": 37,
+            "E_pair_centrality": 12,
+            "G_ensemble_equal": 29
+          },
+          "full_history_count": 24,
+          "full_history_z": -0.57,
+          "last20_count": 2,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 1
+        }
+      ],
+      "mean_percentile_under_core_rankers": {
+        "A_freq_all": 0.365,
+        "B_ew_20": 0.482,
+        "B_roll_10": 0.532,
+        "C_hazard": 0.878,
+        "D_trend_20v40": 0.455,
+        "E_transition": 0.351,
+        "E_pair_centrality": 0.419,
+        "G_ensemble_equal": 0.468
+      },
+      "long_term_evidence": {
+        "mean_full_history_z": -0.39
+      },
+      "recent_frequency_evidence": {
+        "last20_total": 17,
+        "last20_total_expected": 18.95,
+        "mean_ew20_percentile": 0.482
+      },
+      "trend_evidence": {
+        "mean_trend_percentile": 0.455
+      },
+      "gap_evidence": {
+        "mean_hazard_percentile": 0.878,
+        "note": "C_hazard (pooled re-appearance hazard) had top-12 walk-forward coverage 1.893 vs 1.895 random"
+      },
+      "pair_evidence": {
+        "mean_pair_z": 0.281,
+        "pairs_with_z_above_2": 0,
+        "note": "no pair co-occurrence survives BH correction (min q = 0.78)"
+      },
+      "structure_evidence": {
+        "sum": 95,
+        "odd": 3,
+        "low_1_19": 4,
+        "consecutive_pairs": 1,
+        "range": 23,
+        "structure_class_null_probability": 0.0113,
+        "structure_typicality_z": 1.31
+      },
+      "ensemble_evidence": {
+        "mean_ensemble_percentile": 0.468,
+        "consensus_index_0_to_1": 0.4
+      },
+      "sensitivity": {
+        "lambda_grid_variants_keeping_4plus_numbers": "9/16",
+        "sibling_rankers_keeping_4plus_numbers": "0/3"
+      },
+      "uncertainty": {
+        "expected_matches_under_exact_random": 0.947,
+        "P_3plus_random": 0.0387,
+        "note": "Walk-forward CIs of every method include the random expectation."
+      },
+      "counterevidence": [
+        "All 20 global randomness tests are consistent with an independent uniform draw (min Holm p = 1.0).",
+        "No ticket method survives Holm correction; the pre-registered dev-selected method fell below baseline in confirmation.",
+        "Every ticket, including this one, has exactly the same random probabilities: P(3+) = 3.87%, expected matches 0.947.",
+        "Its generating method(s) did not beat the random expectation in the confirmation period.",
+        "Development-period performance of its method(s) fell in the confirmation period (regression toward random)."
+      ]
+    },
+    "C04": {
+      "numbers": [
+        2,
+        16,
+        17,
+        25,
+        33,
+        37
+      ],
+      "generating_methods": [
+        "random_ticket"
+      ],
+      "is_random_control": true,
+      "out_of_sample_performance_of_generating_methods": {
+        "random_ticket": {
+          "walk_forward_targets": 140,
+          "mean_matches": 0.843,
+          "random_expectation": 0.947,
+          "dev_mean": 0.871,
+          "confirmation_mean": 0.814,
+          "exact_p_one_sided_full": 0.94,
+          "holm_p_family": null,
+          "pct_3plus": 2.9,
+          "baseline_pct_3plus": 3.9,
+          "ci95_mean": [
+            0.714,
+            0.979
+          ]
+        }
+      },
+      "per_number_evidence": [
+        {
+          "number": 2,
+          "ranks_among_38": {
+            "A_freq_all": 14,
+            "B_ew_20": 9,
+            "B_roll_10": 7,
+            "C_hazard": 16,
+            "D_trend_20v40": 3,
+            "E_transition": 10,
+            "E_pair_centrality": 31,
+            "G_ensemble_equal": 7
+          },
+          "full_history_count": 29,
+          "full_history_z": 0.49,
+          "last20_count": 6,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 3
+        },
+        {
+          "number": 16,
+          "ranks_among_38": {
+            "A_freq_all": 35,
+            "B_ew_20": 31,
+            "B_roll_10": 35,
+            "C_hazard": 1,
+            "D_trend_20v40": 38,
+            "E_transition": 36,
+            "E_pair_centrality": 34,
+            "G_ensemble_equal": 35
+          },
+          "full_history_count": 20,
+          "full_history_z": -1.41,
+          "last20_count": 0,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 1
+        },
+        {
+          "number": 17,
+          "ranks_among_38": {
+            "A_freq_all": 25,
+            "B_ew_20": 24,
+            "B_roll_10": 11,
+            "C_hazard": 6,
+            "D_trend_20v40": 32,
+            "E_transition": 13,
+            "E_pair_centrality": 13,
+            "G_ensemble_equal": 18
+          },
+          "full_history_count": 25,
+          "full_history_z": -0.36,
+          "last20_count": 2,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 1
+        },
+        {
+          "number": 25,
+          "ranks_among_38": {
+            "A_freq_all": 5,
+            "B_ew_20": 20,
+            "B_roll_10": 27,
+            "C_hazard": 14,
+            "D_trend_20v40": 21,
+            "E_transition": 4,
+            "E_pair_centrality": 1,
+            "G_ensemble_equal": 8
+          },
+          "full_history_count": 32,
+          "full_history_z": 1.12,
+          "last20_count": 3,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 2
+        },
+        {
+          "number": 33,
+          "ranks_among_38": {
+            "A_freq_all": 10,
+            "B_ew_20": 30,
+            "B_roll_10": 28,
+            "C_hazard": 35,
+            "D_trend_20v40": 13,
+            "E_transition": 5,
+            "E_pair_centrality": 28,
+            "G_ensemble_equal": 16
+          },
+          "full_history_count": 30,
+          "full_history_z": 0.7,
+          "last20_count": 3,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 2
+        },
+        {
+          "number": 37,
+          "ranks_among_38": {
+            "A_freq_all": 12,
+            "B_ew_20": 25,
+            "B_roll_10": 17,
+            "C_hazard": 31,
+            "D_trend_20v40": 26,
+            "E_transition": 6,
+            "E_pair_centrality": 19,
+            "G_ensemble_equal": 15
+          },
+          "full_history_count": 30,
+          "full_history_z": 0.7,
+          "last20_count": 2,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 2
+        }
+      ],
+      "mean_percentile_under_core_rankers": {
+        "A_freq_all": 0.572,
+        "B_ew_20": 0.401,
+        "B_roll_10": 0.464,
+        "C_hazard": 0.563,
+        "D_trend_20v40": 0.428,
+        "E_transition": 0.694,
+        "E_pair_centrality": 0.459,
+        "G_ensemble_equal": 0.581
+      },
+      "long_term_evidence": {
+        "mean_full_history_z": 0.21
+      },
+      "recent_frequency_evidence": {
+        "last20_total": 16,
+        "last20_total_expected": 18.95,
+        "mean_ew20_percentile": 0.401
+      },
+      "trend_evidence": {
+        "mean_trend_percentile": 0.428
+      },
+      "gap_evidence": {
+        "mean_hazard_percentile": 0.563,
+        "note": "C_hazard (pooled re-appearance hazard) had top-12 walk-forward coverage 1.893 vs 1.895 random"
+      },
+      "pair_evidence": {
+        "mean_pair_z": 0.08,
+        "pairs_with_z_above_2": 0,
+        "note": "no pair co-occurrence survives BH correction (min q = 0.78)"
+      },
+      "structure_evidence": {
+        "sum": 130,
+        "odd": 4,
+        "low_1_19": 3,
+        "consecutive_pairs": 1,
+        "range": 35,
+        "structure_class_null_probability": 0.0043,
+        "structure_typicality_z": 0.27
+      },
+      "ensemble_evidence": {
+        "mean_ensemble_percentile": 0.581,
+        "consensus_index_0_to_1": 0.367
+      },
+      "sensitivity": {
+        "lambda_grid_variants_keeping_4plus_numbers": "n/a",
+        "sibling_rankers_keeping_4plus_numbers": "n/a"
+      },
+      "uncertainty": {
+        "expected_matches_under_exact_random": 0.947,
+        "P_3plus_random": 0.0387,
+        "note": "Walk-forward CIs of every method include the random expectation."
+      },
+      "counterevidence": [
+        "This ticket is a uniform random control, not derived from any feature.",
+        "All 20 global randomness tests are consistent with an independent uniform draw (min Holm p = 1.0).",
+        "No ticket method survives Holm correction; the pre-registered dev-selected method fell below baseline in confirmation.",
+        "Every ticket, including this one, has exactly the same random probabilities: P(3+) = 3.87%, expected matches 0.947.",
+        "Its generating method(s) did not beat the random expectation in the confirmation period."
+      ]
+    },
+    "C05": {
+      "numbers": [
+        1,
+        6,
+        8,
+        13,
+        35,
+        38
+      ],
+      "generating_methods": [
+        "B_roll_100|opt_top12"
+      ],
+      "is_random_control": false,
+      "out_of_sample_performance_of_generating_methods": {
+        "B_roll_100|opt_top12": {
+          "walk_forward_targets": 140,
+          "mean_matches": 0.914,
+          "random_expectation": 0.947,
+          "dev_mean": 1.029,
+          "confirmation_mean": 0.8,
+          "exact_p_one_sided_full": 0.697,
+          "holm_p_family": 1.0,
+          "pct_3plus": 1.4,
+          "baseline_pct_3plus": 3.9,
+          "ci95_mean": [
+            0.793,
+            1.036
+          ]
+        }
+      },
+      "per_number_evidence": [
+        {
+          "number": 1,
+          "ranks_among_38": {
+            "A_freq_all": 9,
+            "B_ew_20": 4,
+            "B_roll_10": 4,
+            "C_hazard": 26,
+            "D_trend_20v40": 4,
+            "E_transition": 3,
+            "E_pair_centrality": 21,
+            "G_ensemble_equal": 5
+          },
+          "full_history_count": 31,
+          "full_history_z": 0.91,
+          "last20_count": 6,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 4
+        },
+        {
+          "number": 6,
+          "ranks_among_38": {
+            "A_freq_all": 17,
+            "B_ew_20": 12,
+            "B_roll_10": 12,
+            "C_hazard": 23,
+            "D_trend_20v40": 17,
+            "E_transition": 9,
+            "E_pair_centrality": 10,
+            "G_ensemble_equal": 13
+          },
+          "full_history_count": 27,
+          "full_history_z": 0.07,
+          "last20_count": 4,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 2
+        },
+        {
+          "number": 8,
+          "ranks_among_38": {
+            "A_freq_all": 1,
+            "B_ew_20": 7,
+            "B_roll_10": 15,
+            "C_hazard": 7,
+            "D_trend_20v40": 33,
+            "E_transition": 15,
+            "E_pair_centrality": 35,
+            "G_ensemble_equal": 9
+          },
+          "full_history_count": 36,
+          "full_history_z": 1.97,
+          "last20_count": 3,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 3
+        },
+        {
+          "number": 13,
+          "ranks_among_38": {
+            "A_freq_all": 8,
+            "B_ew_20": 1,
+            "B_roll_10": 1,
+            "C_hazard": 21,
+            "D_trend_20v40": 1,
+            "E_transition": 12,
+            "E_pair_centrality": 27,
+            "G_ensemble_equal": 2
+          },
+          "full_history_count": 31,
+          "full_history_z": 0.91,
+          "last20_count": 7,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 4
+        },
+        {
+          "number": 35,
+          "ranks_among_38": {
+            "A_freq_all": 4,
+            "B_ew_20": 8,
+            "B_roll_10": 18,
+            "C_hazard": 36,
+            "D_trend_20v40": 29,
+            "E_transition": 1,
+            "E_pair_centrality": 22,
+            "G_ensemble_equal": 12
+          },
+          "full_history_count": 32,
+          "full_history_z": 1.12,
+          "last20_count": 4,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 3
+        },
+        {
+          "number": 38,
+          "ranks_among_38": {
+            "A_freq_all": 3,
+            "B_ew_20": 10,
+            "B_roll_10": 34,
+            "C_hazard": 32,
+            "D_trend_20v40": 28,
+            "E_transition": 7,
+            "E_pair_centrality": 5,
+            "G_ensemble_equal": 10
+          },
+          "full_history_count": 33,
+          "full_history_z": 1.33,
+          "last20_count": 4,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 3
+        }
+      ],
+      "mean_percentile_under_core_rankers": {
+        "A_freq_all": 0.838,
+        "B_ew_20": 0.838,
+        "B_roll_10": 0.649,
+        "C_hazard": 0.374,
+        "D_trend_20v40": 0.523,
+        "E_transition": 0.815,
+        "E_pair_centrality": 0.486,
+        "G_ensemble_equal": 0.797
+      },
+      "long_term_evidence": {
+        "mean_full_history_z": 1.05
+      },
+      "recent_frequency_evidence": {
+        "last20_total": 28,
+        "last20_total_expected": 18.95,
+        "mean_ew20_percentile": 0.838
+      },
+      "trend_evidence": {
+        "mean_trend_percentile": 0.523
+      },
+      "gap_evidence": {
+        "mean_hazard_percentile": 0.374,
+        "note": "C_hazard (pooled re-appearance hazard) had top-12 walk-forward coverage 1.893 vs 1.895 random"
+      },
+      "pair_evidence": {
+        "mean_pair_z": 0.274,
+        "pairs_with_z_above_2": 0,
+        "note": "no pair co-occurrence survives BH correction (min q = 0.78)"
+      },
+      "structure_evidence": {
+        "sum": 101,
+        "odd": 3,
+        "low_1_19": 4,
+        "consecutive_pairs": 0,
+        "range": 37,
+        "structure_class_null_probability": 0.0077,
+        "structure_typicality_z": 0.9
+      },
+      "ensemble_evidence": {
+        "mean_ensemble_percentile": 0.797,
+        "consensus_index_0_to_1": 0.633
+      },
+      "sensitivity": {
+        "lambda_grid_variants_keeping_4plus_numbers": "16/16",
+        "sibling_rankers_keeping_4plus_numbers": "0/7"
+      },
+      "uncertainty": {
+        "expected_matches_under_exact_random": 0.947,
+        "P_3plus_random": 0.0387,
+        "note": "Walk-forward CIs of every method include the random expectation."
+      },
+      "counterevidence": [
+        "All 20 global randomness tests are consistent with an independent uniform draw (min Holm p = 1.0).",
+        "No ticket method survives Holm correction; the pre-registered dev-selected method fell below baseline in confirmation.",
+        "Every ticket, including this one, has exactly the same random probabilities: P(3+) = 3.87%, expected matches 0.947.",
+        "Its generating method(s) did not beat the random expectation in the confirmation period.",
+        "Development-period performance of its method(s) fell in the confirmation period (regression toward random)."
+      ]
+    },
+    "C06": {
+      "numbers": [
+        1,
+        4,
+        13,
+        18,
+        24,
+        25
+      ],
+      "generating_methods": [
+        "G_ensemble_equal|opt_top12"
+      ],
+      "is_random_control": false,
+      "out_of_sample_performance_of_generating_methods": {
+        "G_ensemble_equal|opt_top12": {
+          "walk_forward_targets": 140,
+          "mean_matches": 0.957,
+          "random_expectation": 0.947,
+          "dev_mean": 0.9,
+          "confirmation_mean": 1.014,
+          "exact_p_one_sided_full": 0.461,
+          "holm_p_family": 1.0,
+          "pct_3plus": 5.7,
+          "baseline_pct_3plus": 3.9,
+          "ci95_mean": [
+            0.814,
+            1.107
+          ]
+        }
+      },
+      "per_number_evidence": [
+        {
+          "number": 1,
+          "ranks_among_38": {
+            "A_freq_all": 9,
+            "B_ew_20": 4,
+            "B_roll_10": 4,
+            "C_hazard": 26,
+            "D_trend_20v40": 4,
+            "E_transition": 3,
+            "E_pair_centrality": 21,
+            "G_ensemble_equal": 5
+          },
+          "full_history_count": 31,
+          "full_history_z": 0.91,
+          "last20_count": 6,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 4
+        },
+        {
+          "number": 4,
+          "ranks_among_38": {
+            "A_freq_all": 6,
+            "B_ew_20": 3,
+            "B_roll_10": 2,
+            "C_hazard": 25,
+            "D_trend_20v40": 2,
+            "E_transition": 8,
+            "E_pair_centrality": 36,
+            "G_ensemble_equal": 3
+          },
+          "full_history_count": 32,
+          "full_history_z": 1.12,
+          "last20_count": 7,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 4
+        },
+        {
+          "number": 13,
+          "ranks_among_38": {
+            "A_freq_all": 8,
+            "B_ew_20": 1,
+            "B_roll_10": 1,
+            "C_hazard": 21,
+            "D_trend_20v40": 1,
+            "E_transition": 12,
+            "E_pair_centrality": 27,
+            "G_ensemble_equal": 2
+          },
+          "full_history_count": 31,
+          "full_history_z": 0.91,
+          "last20_count": 7,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 4
+        },
+        {
+          "number": 18,
+          "ranks_among_38": {
+            "A_freq_all": 2,
+            "B_ew_20": 16,
+            "B_roll_10": 6,
+            "C_hazard": 12,
+            "D_trend_20v40": 15,
+            "E_transition": 2,
+            "E_pair_centrality": 3,
+            "G_ensemble_equal": 4
+          },
+          "full_history_count": 35,
+          "full_history_z": 1.75,
+          "last20_count": 3,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 3
+        },
+        {
+          "number": 24,
+          "ranks_among_38": {
+            "A_freq_all": 7,
+            "B_ew_20": 2,
+            "B_roll_10": 8,
+            "C_hazard": 8,
+            "D_trend_20v40": 6,
+            "E_transition": 11,
+            "E_pair_centrality": 33,
+            "G_ensemble_equal": 1
+          },
+          "full_history_count": 32,
+          "full_history_z": 1.12,
+          "last20_count": 6,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 5
+        },
+        {
+          "number": 25,
+          "ranks_among_38": {
+            "A_freq_all": 5,
+            "B_ew_20": 20,
+            "B_roll_10": 27,
+            "C_hazard": 14,
+            "D_trend_20v40": 21,
+            "E_transition": 4,
+            "E_pair_centrality": 1,
+            "G_ensemble_equal": 8
+          },
+          "full_history_count": 32,
+          "full_history_z": 1.12,
+          "last20_count": 3,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 2
+        }
+      ],
+      "mean_percentile_under_core_rankers": {
+        "A_freq_all": 0.86,
+        "B_ew_20": 0.82,
+        "B_roll_10": 0.811,
+        "C_hazard": 0.55,
+        "D_trend_20v40": 0.806,
+        "E_transition": 0.847,
+        "E_pair_centrality": 0.482,
+        "G_ensemble_equal": 0.923
+      },
+      "long_term_evidence": {
+        "mean_full_history_z": 1.16
+      },
+      "recent_frequency_evidence": {
+        "last20_total": 32,
+        "last20_total_expected": 18.95,
+        "mean_ew20_percentile": 0.82
+      },
+      "trend_evidence": {
+        "mean_trend_percentile": 0.806
+      },
+      "gap_evidence": {
+        "mean_hazard_percentile": 0.55,
+        "note": "C_hazard (pooled re-appearance hazard) had top-12 walk-forward coverage 1.893 vs 1.895 random"
+      },
+      "pair_evidence": {
+        "mean_pair_z": 0.381,
+        "pairs_with_z_above_2": 0,
+        "note": "no pair co-occurrence survives BH correction (min q = 0.78)"
+      },
+      "structure_evidence": {
+        "sum": 85,
+        "odd": 3,
+        "low_1_19": 4,
+        "consecutive_pairs": 1,
+        "range": 24,
+        "structure_class_null_probability": 0.0113,
+        "structure_typicality_z": 1.31
+      },
+      "ensemble_evidence": {
+        "mean_ensemble_percentile": 0.923,
+        "consensus_index_0_to_1": 0.733
+      },
+      "sensitivity": {
+        "lambda_grid_variants_keeping_4plus_numbers": "16/16",
+        "sibling_rankers_keeping_4plus_numbers": "0/1"
+      },
+      "uncertainty": {
+        "expected_matches_under_exact_random": 0.947,
+        "P_3plus_random": 0.0387,
+        "note": "Walk-forward CIs of every method include the random expectation."
+      },
+      "counterevidence": [
+        "All 20 global randomness tests are consistent with an independent uniform draw (min Holm p = 1.0).",
+        "No ticket method survives Holm correction; the pre-registered dev-selected method fell below baseline in confirmation.",
+        "Every ticket, including this one, has exactly the same random probabilities: P(3+) = 3.87%, expected matches 0.947."
+      ]
+    },
+    "C07": {
+      "numbers": [
+        1,
+        2,
+        6,
+        18,
+        25,
+        35
+      ],
+      "generating_methods": [
+        "E_transition|opt_top12"
+      ],
+      "is_random_control": false,
+      "out_of_sample_performance_of_generating_methods": {
+        "E_transition|opt_top12": {
+          "walk_forward_targets": 140,
+          "mean_matches": 0.979,
+          "random_expectation": 0.947,
+          "dev_mean": 0.9,
+          "confirmation_mean": 1.057,
+          "exact_p_one_sided_full": 0.344,
+          "holm_p_family": 1.0,
+          "pct_3plus": 6.4,
+          "baseline_pct_3plus": 3.9,
+          "ci95_mean": [
+            0.843,
+            1.129
+          ]
+        }
+      },
+      "per_number_evidence": [
+        {
+          "number": 1,
+          "ranks_among_38": {
+            "A_freq_all": 9,
+            "B_ew_20": 4,
+            "B_roll_10": 4,
+            "C_hazard": 26,
+            "D_trend_20v40": 4,
+            "E_transition": 3,
+            "E_pair_centrality": 21,
+            "G_ensemble_equal": 5
+          },
+          "full_history_count": 31,
+          "full_history_z": 0.91,
+          "last20_count": 6,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 4
+        },
+        {
+          "number": 2,
+          "ranks_among_38": {
+            "A_freq_all": 14,
+            "B_ew_20": 9,
+            "B_roll_10": 7,
+            "C_hazard": 16,
+            "D_trend_20v40": 3,
+            "E_transition": 10,
+            "E_pair_centrality": 31,
+            "G_ensemble_equal": 7
+          },
+          "full_history_count": 29,
+          "full_history_z": 0.49,
+          "last20_count": 6,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 3
+        },
+        {
+          "number": 6,
+          "ranks_among_38": {
+            "A_freq_all": 17,
+            "B_ew_20": 12,
+            "B_roll_10": 12,
+            "C_hazard": 23,
+            "D_trend_20v40": 17,
+            "E_transition": 9,
+            "E_pair_centrality": 10,
+            "G_ensemble_equal": 13
+          },
+          "full_history_count": 27,
+          "full_history_z": 0.07,
+          "last20_count": 4,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 2
+        },
+        {
+          "number": 18,
+          "ranks_among_38": {
+            "A_freq_all": 2,
+            "B_ew_20": 16,
+            "B_roll_10": 6,
+            "C_hazard": 12,
+            "D_trend_20v40": 15,
+            "E_transition": 2,
+            "E_pair_centrality": 3,
+            "G_ensemble_equal": 4
+          },
+          "full_history_count": 35,
+          "full_history_z": 1.75,
+          "last20_count": 3,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 3
+        },
+        {
+          "number": 25,
+          "ranks_among_38": {
+            "A_freq_all": 5,
+            "B_ew_20": 20,
+            "B_roll_10": 27,
+            "C_hazard": 14,
+            "D_trend_20v40": 21,
+            "E_transition": 4,
+            "E_pair_centrality": 1,
+            "G_ensemble_equal": 8
+          },
+          "full_history_count": 32,
+          "full_history_z": 1.12,
+          "last20_count": 3,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 2
+        },
+        {
+          "number": 35,
+          "ranks_among_38": {
+            "A_freq_all": 4,
+            "B_ew_20": 8,
+            "B_roll_10": 18,
+            "C_hazard": 36,
+            "D_trend_20v40": 29,
+            "E_transition": 1,
+            "E_pair_centrality": 22,
+            "G_ensemble_equal": 12
+          },
+          "full_history_count": 32,
+          "full_history_z": 1.12,
+          "last20_count": 4,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 3
+        }
+      ],
+      "mean_percentile_under_core_rankers": {
+        "A_freq_all": 0.797,
+        "B_ew_20": 0.716,
+        "B_roll_10": 0.694,
+        "C_hazard": 0.455,
+        "D_trend_20v40": 0.626,
+        "E_transition": 0.896,
+        "E_pair_centrality": 0.631,
+        "G_ensemble_equal": 0.806
+      },
+      "long_term_evidence": {
+        "mean_full_history_z": 0.91
+      },
+      "recent_frequency_evidence": {
+        "last20_total": 26,
+        "last20_total_expected": 18.95,
+        "mean_ew20_percentile": 0.716
+      },
+      "trend_evidence": {
+        "mean_trend_percentile": 0.626
+      },
+      "gap_evidence": {
+        "mean_hazard_percentile": 0.455,
+        "note": "C_hazard (pooled re-appearance hazard) had top-12 walk-forward coverage 1.893 vs 1.895 random"
+      },
+      "pair_evidence": {
+        "mean_pair_z": 0.381,
+        "pairs_with_z_above_2": 0,
+        "note": "no pair co-occurrence survives BH correction (min q = 0.78)"
+      },
+      "structure_evidence": {
+        "sum": 87,
+        "odd": 3,
+        "low_1_19": 4,
+        "consecutive_pairs": 1,
+        "range": 34,
+        "structure_class_null_probability": 0.0113,
+        "structure_typicality_z": 1.31
+      },
+      "ensemble_evidence": {
+        "mean_ensemble_percentile": 0.806,
+        "consensus_index_0_to_1": 0.567
+      },
+      "sensitivity": {
+        "lambda_grid_variants_keeping_4plus_numbers": "16/16",
+        "sibling_rankers_keeping_4plus_numbers": "0/1"
+      },
+      "uncertainty": {
+        "expected_matches_under_exact_random": 0.947,
+        "P_3plus_random": 0.0387,
+        "note": "Walk-forward CIs of every method include the random expectation."
+      },
+      "counterevidence": [
+        "All 20 global randomness tests are consistent with an independent uniform draw (min Holm p = 1.0).",
+        "No ticket method survives Holm correction; the pre-registered dev-selected method fell below baseline in confirmation.",
+        "Every ticket, including this one, has exactly the same random probabilities: P(3+) = 3.87%, expected matches 0.947."
+      ]
+    },
+    "C08": {
+      "numbers": [
+        1,
+        4,
+        9,
+        10,
+        13,
+        24
+      ],
+      "generating_methods": [
+        "B_ew_10|opt_top12"
+      ],
+      "is_random_control": false,
+      "out_of_sample_performance_of_generating_methods": {
+        "B_ew_10|opt_top12": {
+          "walk_forward_targets": 140,
+          "mean_matches": 1.064,
+          "random_expectation": 0.947,
+          "dev_mean": 1.114,
+          "confirmation_mean": 1.014,
+          "exact_p_one_sided_full": 0.055,
+          "holm_p_family": 1.0,
+          "pct_3plus": 5.0,
+          "baseline_pct_3plus": 3.9,
+          "ci95_mean": [
+            0.921,
+            1.207
+          ]
+        }
+      },
+      "per_number_evidence": [
+        {
+          "number": 1,
+          "ranks_among_38": {
+            "A_freq_all": 9,
+            "B_ew_20": 4,
+            "B_roll_10": 4,
+            "C_hazard": 26,
+            "D_trend_20v40": 4,
+            "E_transition": 3,
+            "E_pair_centrality": 21,
+            "G_ensemble_equal": 5
+          },
+          "full_history_count": 31,
+          "full_history_z": 0.91,
+          "last20_count": 6,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 4
+        },
+        {
+          "number": 4,
+          "ranks_among_38": {
+            "A_freq_all": 6,
+            "B_ew_20": 3,
+            "B_roll_10": 2,
+            "C_hazard": 25,
+            "D_trend_20v40": 2,
+            "E_transition": 8,
+            "E_pair_centrality": 36,
+            "G_ensemble_equal": 3
+          },
+          "full_history_count": 32,
+          "full_history_z": 1.12,
+          "last20_count": 7,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 4
+        },
+        {
+          "number": 9,
+          "ranks_among_38": {
+            "A_freq_all": 29,
+            "B_ew_20": 6,
+            "B_roll_10": 5,
+            "C_hazard": 5,
+            "D_trend_20v40": 19,
+            "E_transition": 26,
+            "E_pair_centrality": 17,
+            "G_ensemble_equal": 20
+          },
+          "full_history_count": 23,
+          "full_history_z": -0.78,
+          "last20_count": 4,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 2
+        },
+        {
+          "number": 10,
+          "ranks_among_38": {
+            "A_freq_all": 11,
+            "B_ew_20": 5,
+            "B_roll_10": 16,
+            "C_hazard": 13,
+            "D_trend_20v40": 8,
+            "E_transition": 14,
+            "E_pair_centrality": 15,
+            "G_ensemble_equal": 6
+          },
+          "full_history_count": 30,
+          "full_history_z": 0.7,
+          "last20_count": 5,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 3
+        },
+        {
+          "number": 13,
+          "ranks_among_38": {
+            "A_freq_all": 8,
+            "B_ew_20": 1,
+            "B_roll_10": 1,
+            "C_hazard": 21,
+            "D_trend_20v40": 1,
+            "E_transition": 12,
+            "E_pair_centrality": 27,
+            "G_ensemble_equal": 2
+          },
+          "full_history_count": 31,
+          "full_history_z": 0.91,
+          "last20_count": 7,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 4
+        },
+        {
+          "number": 24,
+          "ranks_among_38": {
+            "A_freq_all": 7,
+            "B_ew_20": 2,
+            "B_roll_10": 8,
+            "C_hazard": 8,
+            "D_trend_20v40": 6,
+            "E_transition": 11,
+            "E_pair_centrality": 33,
+            "G_ensemble_equal": 1
+          },
+          "full_history_count": 32,
+          "full_history_z": 1.12,
+          "last20_count": 6,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 5
+        }
+      ],
+      "mean_percentile_under_core_rankers": {
+        "A_freq_all": 0.712,
+        "B_ew_20": 0.932,
+        "B_roll_10": 0.865,
+        "C_hazard": 0.586,
+        "D_trend_20v40": 0.847,
+        "E_transition": 0.694,
+        "E_pair_centrality": 0.356,
+        "G_ensemble_equal": 0.86
+      },
+      "long_term_evidence": {
+        "mean_full_history_z": 0.66
+      },
+      "recent_frequency_evidence": {
+        "last20_total": 35,
+        "last20_total_expected": 18.95,
+        "mean_ew20_percentile": 0.932
+      },
+      "trend_evidence": {
+        "mean_trend_percentile": 0.847
+      },
+      "gap_evidence": {
+        "mean_hazard_percentile": 0.586,
+        "note": "C_hazard (pooled re-appearance hazard) had top-12 walk-forward coverage 1.893 vs 1.895 random"
+      },
+      "pair_evidence": {
+        "mean_pair_z": 0.077,
+        "pairs_with_z_above_2": 0,
+        "note": "no pair co-occurrence survives BH correction (min q = 0.78)"
+      },
+      "structure_evidence": {
+        "sum": 61,
+        "odd": 3,
+        "low_1_19": 5,
+        "consecutive_pairs": 1,
+        "range": 23,
+        "structure_class_null_probability": 0.0085,
+        "structure_typicality_z": 1.01
+      },
+      "ensemble_evidence": {
+        "mean_ensemble_percentile": 0.86,
+        "consensus_index_0_to_1": 0.733
+      },
+      "sensitivity": {
+        "lambda_grid_variants_keeping_4plus_numbers": "15/16",
+        "sibling_rankers_keeping_4plus_numbers": "4/7"
+      },
+      "uncertainty": {
+        "expected_matches_under_exact_random": 0.947,
+        "P_3plus_random": 0.0387,
+        "note": "Walk-forward CIs of every method include the random expectation."
+      },
+      "counterevidence": [
+        "All 20 global randomness tests are consistent with an independent uniform draw (min Holm p = 1.0).",
+        "No ticket method survives Holm correction; the pre-registered dev-selected method fell below baseline in confirmation.",
+        "Every ticket, including this one, has exactly the same random probabilities: P(3+) = 3.87%, expected matches 0.947.",
+        "Development-period performance of its method(s) fell in the confirmation period (regression toward random)."
+      ]
+    },
+    "C09": {
+      "numbers": [
+        1,
+        4,
+        10,
+        13,
+        18,
+        24
+      ],
+      "generating_methods": [
+        "consensus"
+      ],
+      "is_random_control": false,
+      "out_of_sample_performance_of_generating_methods": {
+        "consensus": {
+          "walk_forward_targets": 140,
+          "mean_matches": 1.029,
+          "random_expectation": 0.947,
+          "dev_mean": 1.014,
+          "confirmation_mean": 1.043,
+          "exact_p_one_sided_full": 0.135,
+          "holm_p_family": 1.0,
+          "pct_3plus": 4.3,
+          "baseline_pct_3plus": 3.9,
+          "ci95_mean": [
+            0.893,
+            1.179
+          ]
+        }
+      },
+      "per_number_evidence": [
+        {
+          "number": 1,
+          "ranks_among_38": {
+            "A_freq_all": 9,
+            "B_ew_20": 4,
+            "B_roll_10": 4,
+            "C_hazard": 26,
+            "D_trend_20v40": 4,
+            "E_transition": 3,
+            "E_pair_centrality": 21,
+            "G_ensemble_equal": 5
+          },
+          "full_history_count": 31,
+          "full_history_z": 0.91,
+          "last20_count": 6,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 4
+        },
+        {
+          "number": 4,
+          "ranks_among_38": {
+            "A_freq_all": 6,
+            "B_ew_20": 3,
+            "B_roll_10": 2,
+            "C_hazard": 25,
+            "D_trend_20v40": 2,
+            "E_transition": 8,
+            "E_pair_centrality": 36,
+            "G_ensemble_equal": 3
+          },
+          "full_history_count": 32,
+          "full_history_z": 1.12,
+          "last20_count": 7,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 4
+        },
+        {
+          "number": 10,
+          "ranks_among_38": {
+            "A_freq_all": 11,
+            "B_ew_20": 5,
+            "B_roll_10": 16,
+            "C_hazard": 13,
+            "D_trend_20v40": 8,
+            "E_transition": 14,
+            "E_pair_centrality": 15,
+            "G_ensemble_equal": 6
+          },
+          "full_history_count": 30,
+          "full_history_z": 0.7,
+          "last20_count": 5,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 3
+        },
+        {
+          "number": 13,
+          "ranks_among_38": {
+            "A_freq_all": 8,
+            "B_ew_20": 1,
+            "B_roll_10": 1,
+            "C_hazard": 21,
+            "D_trend_20v40": 1,
+            "E_transition": 12,
+            "E_pair_centrality": 27,
+            "G_ensemble_equal": 2
+          },
+          "full_history_count": 31,
+          "full_history_z": 0.91,
+          "last20_count": 7,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 4
+        },
+        {
+          "number": 18,
+          "ranks_among_38": {
+            "A_freq_all": 2,
+            "B_ew_20": 16,
+            "B_roll_10": 6,
+            "C_hazard": 12,
+            "D_trend_20v40": 15,
+            "E_transition": 2,
+            "E_pair_centrality": 3,
+            "G_ensemble_equal": 4
+          },
+          "full_history_count": 35,
+          "full_history_z": 1.75,
+          "last20_count": 3,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 3
+        },
+        {
+          "number": 24,
+          "ranks_among_38": {
+            "A_freq_all": 7,
+            "B_ew_20": 2,
+            "B_roll_10": 8,
+            "C_hazard": 8,
+            "D_trend_20v40": 6,
+            "E_transition": 11,
+            "E_pair_centrality": 33,
+            "G_ensemble_equal": 1
+          },
+          "full_history_count": 32,
+          "full_history_z": 1.12,
+          "last20_count": 6,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 5
+        }
+      ],
+      "mean_percentile_under_core_rankers": {
+        "A_freq_all": 0.833,
+        "B_ew_20": 0.887,
+        "B_roll_10": 0.86,
+        "C_hazard": 0.554,
+        "D_trend_20v40": 0.865,
+        "E_transition": 0.802,
+        "E_pair_centrality": 0.419,
+        "G_ensemble_equal": 0.932
+      },
+      "long_term_evidence": {
+        "mean_full_history_z": 1.09
+      },
+      "recent_frequency_evidence": {
+        "last20_total": 34,
+        "last20_total_expected": 18.95,
+        "mean_ew20_percentile": 0.887
+      },
+      "trend_evidence": {
+        "mean_trend_percentile": 0.865
+      },
+      "gap_evidence": {
+        "mean_hazard_percentile": 0.554,
+        "note": "C_hazard (pooled re-appearance hazard) had top-12 walk-forward coverage 1.893 vs 1.895 random"
+      },
+      "pair_evidence": {
+        "mean_pair_z": 0.265,
+        "pairs_with_z_above_2": 0,
+        "note": "no pair co-occurrence survives BH correction (min q = 0.78)"
+      },
+      "structure_evidence": {
+        "sum": 70,
+        "odd": 2,
+        "low_1_19": 5,
+        "consecutive_pairs": 0,
+        "range": 23,
+        "structure_class_null_probability": 0.0029,
+        "structure_typicality_z": -0.16
+      },
+      "ensemble_evidence": {
+        "mean_ensemble_percentile": 0.932,
+        "consensus_index_0_to_1": 0.767
+      },
+      "sensitivity": {
+        "lambda_grid_variants_keeping_4plus_numbers": "n/a",
+        "sibling_rankers_keeping_4plus_numbers": "n/a"
+      },
+      "uncertainty": {
+        "expected_matches_under_exact_random": 0.947,
+        "P_3plus_random": 0.0387,
+        "note": "Walk-forward CIs of every method include the random expectation."
+      },
+      "counterevidence": [
+        "All 20 global randomness tests are consistent with an independent uniform draw (min Holm p = 1.0).",
+        "No ticket method survives Holm correction; the pre-registered dev-selected method fell below baseline in confirmation.",
+        "Every ticket, including this one, has exactly the same random probabilities: P(3+) = 3.87%, expected matches 0.947."
+      ]
+    },
+    "C10": {
+      "numbers": [
+        11,
+        14,
+        18,
+        21,
+        25,
+        34
+      ],
+      "generating_methods": [
+        "E_pair_centrality|opt_top12"
+      ],
+      "is_random_control": false,
+      "out_of_sample_performance_of_generating_methods": {
+        "E_pair_centrality|opt_top12": {
+          "walk_forward_targets": 140,
+          "mean_matches": 0.971,
+          "random_expectation": 0.947,
+          "dev_mean": 1.071,
+          "confirmation_mean": 0.871,
+          "exact_p_one_sided_full": 0.382,
+          "holm_p_family": 1.0,
+          "pct_3plus": 7.1,
+          "baseline_pct_3plus": 3.9,
+          "ci95_mean": [
+            0.821,
+            1.129
+          ]
+        }
+      },
+      "per_number_evidence": [
+        {
+          "number": 11,
+          "ranks_among_38": {
+            "A_freq_all": 24,
+            "B_ew_20": 37,
+            "B_roll_10": 33,
+            "C_hazard": 9,
+            "D_trend_20v40": 27,
+            "E_transition": 22,
+            "E_pair_centrality": 9,
+            "G_ensemble_equal": 28
+          },
+          "full_history_count": 25,
+          "full_history_z": -0.36,
+          "last20_count": 1,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 1
+        },
+        {
+          "number": 14,
+          "ranks_among_38": {
+            "A_freq_all": 18,
+            "B_ew_20": 21,
+            "B_roll_10": 37,
+            "C_hazard": 34,
+            "D_trend_20v40": 18,
+            "E_transition": 29,
+            "E_pair_centrality": 8,
+            "G_ensemble_equal": 26
+          },
+          "full_history_count": 27,
+          "full_history_z": 0.07,
+          "last20_count": 3,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 0
+        },
+        {
+          "number": 18,
+          "ranks_among_38": {
+            "A_freq_all": 2,
+            "B_ew_20": 16,
+            "B_roll_10": 6,
+            "C_hazard": 12,
+            "D_trend_20v40": 15,
+            "E_transition": 2,
+            "E_pair_centrality": 3,
+            "G_ensemble_equal": 4
+          },
+          "full_history_count": 35,
+          "full_history_z": 1.75,
+          "last20_count": 3,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 3
+        },
+        {
+          "number": 21,
+          "ranks_among_38": {
+            "A_freq_all": 33,
+            "B_ew_20": 36,
+            "B_roll_10": 24,
+            "C_hazard": 37,
+            "D_trend_20v40": 31,
+            "E_transition": 32,
+            "E_pair_centrality": 6,
+            "G_ensemble_equal": 38
+          },
+          "full_history_count": 22,
+          "full_history_z": -0.99,
+          "last20_count": 1,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 0
+        },
+        {
+          "number": 25,
+          "ranks_among_38": {
+            "A_freq_all": 5,
+            "B_ew_20": 20,
+            "B_roll_10": 27,
+            "C_hazard": 14,
+            "D_trend_20v40": 21,
+            "E_transition": 4,
+            "E_pair_centrality": 1,
+            "G_ensemble_equal": 8
+          },
+          "full_history_count": 32,
+          "full_history_z": 1.12,
+          "last20_count": 3,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 2
+        },
+        {
+          "number": 34,
+          "ranks_among_38": {
+            "A_freq_all": 27,
+            "B_ew_20": 34,
+            "B_roll_10": 32,
+            "C_hazard": 29,
+            "D_trend_20v40": 30,
+            "E_transition": 18,
+            "E_pair_centrality": 4,
+            "G_ensemble_equal": 34
+          },
+          "full_history_count": 24,
+          "full_history_z": -0.57,
+          "last20_count": 1,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 0
+        }
+      ],
+      "mean_percentile_under_core_rankers": {
+        "A_freq_all": 0.536,
+        "B_ew_20": 0.288,
+        "B_roll_10": 0.311,
+        "C_hazard": 0.419,
+        "D_trend_20v40": 0.387,
+        "E_transition": 0.545,
+        "E_pair_centrality": 0.887,
+        "G_ensemble_equal": 0.405
+      },
+      "long_term_evidence": {
+        "mean_full_history_z": 0.17
+      },
+      "recent_frequency_evidence": {
+        "last20_total": 12,
+        "last20_total_expected": 18.95,
+        "mean_ew20_percentile": 0.288
+      },
+      "trend_evidence": {
+        "mean_trend_percentile": 0.387
+      },
+      "gap_evidence": {
+        "mean_hazard_percentile": 0.419,
+        "note": "C_hazard (pooled re-appearance hazard) had top-12 walk-forward coverage 1.893 vs 1.895 random"
+      },
+      "pair_evidence": {
+        "mean_pair_z": 0.648,
+        "pairs_with_z_above_2": 1,
+        "note": "no pair co-occurrence survives BH correction (min q = 0.78)"
+      },
+      "structure_evidence": {
+        "sum": 123,
+        "odd": 3,
+        "low_1_19": 3,
+        "consecutive_pairs": 0,
+        "range": 23,
+        "structure_class_null_probability": 0.0097,
+        "structure_typicality_z": 1.15
+      },
+      "ensemble_evidence": {
+        "mean_ensemble_percentile": 0.405,
+        "consensus_index_0_to_1": 0.2
+      },
+      "sensitivity": {
+        "lambda_grid_variants_keeping_4plus_numbers": "15/16",
+        "sibling_rankers_keeping_4plus_numbers": "0/1"
+      },
+      "uncertainty": {
+        "expected_matches_under_exact_random": 0.947,
+        "P_3plus_random": 0.0387,
+        "note": "Walk-forward CIs of every method include the random expectation."
+      },
+      "counterevidence": [
+        "All 20 global randomness tests are consistent with an independent uniform draw (min Holm p = 1.0).",
+        "No ticket method survives Holm correction; the pre-registered dev-selected method fell below baseline in confirmation.",
+        "Every ticket, including this one, has exactly the same random probabilities: P(3+) = 3.87%, expected matches 0.947.",
+        "Its generating method(s) did not beat the random expectation in the confirmation period.",
+        "Development-period performance of its method(s) fell in the confirmation period (regression toward random)."
+      ]
+    },
+    "C11": {
+      "numbers": [
+        4,
+        8,
+        9,
+        13,
+        24,
+        35
+      ],
+      "generating_methods": [
+        "B_ew_40|opt_top12"
+      ],
+      "is_random_control": false,
+      "out_of_sample_performance_of_generating_methods": {
+        "B_ew_40|opt_top12": {
+          "walk_forward_targets": 140,
+          "mean_matches": 1.014,
+          "random_expectation": 0.947,
+          "dev_mean": 0.971,
+          "confirmation_mean": 1.057,
+          "exact_p_one_sided_full": 0.183,
+          "holm_p_family": 1.0,
+          "pct_3plus": 3.6,
+          "baseline_pct_3plus": 3.9,
+          "ci95_mean": [
+            0.871,
+            1.164
+          ]
+        }
+      },
+      "per_number_evidence": [
+        {
+          "number": 4,
+          "ranks_among_38": {
+            "A_freq_all": 6,
+            "B_ew_20": 3,
+            "B_roll_10": 2,
+            "C_hazard": 25,
+            "D_trend_20v40": 2,
+            "E_transition": 8,
+            "E_pair_centrality": 36,
+            "G_ensemble_equal": 3
+          },
+          "full_history_count": 32,
+          "full_history_z": 1.12,
+          "last20_count": 7,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 4
+        },
+        {
+          "number": 8,
+          "ranks_among_38": {
+            "A_freq_all": 1,
+            "B_ew_20": 7,
+            "B_roll_10": 15,
+            "C_hazard": 7,
+            "D_trend_20v40": 33,
+            "E_transition": 15,
+            "E_pair_centrality": 35,
+            "G_ensemble_equal": 9
+          },
+          "full_history_count": 36,
+          "full_history_z": 1.97,
+          "last20_count": 3,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 3
+        },
+        {
+          "number": 9,
+          "ranks_among_38": {
+            "A_freq_all": 29,
+            "B_ew_20": 6,
+            "B_roll_10": 5,
+            "C_hazard": 5,
+            "D_trend_20v40": 19,
+            "E_transition": 26,
+            "E_pair_centrality": 17,
+            "G_ensemble_equal": 20
+          },
+          "full_history_count": 23,
+          "full_history_z": -0.78,
+          "last20_count": 4,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 2
+        },
+        {
+          "number": 13,
+          "ranks_among_38": {
+            "A_freq_all": 8,
+            "B_ew_20": 1,
+            "B_roll_10": 1,
+            "C_hazard": 21,
+            "D_trend_20v40": 1,
+            "E_transition": 12,
+            "E_pair_centrality": 27,
+            "G_ensemble_equal": 2
+          },
+          "full_history_count": 31,
+          "full_history_z": 0.91,
+          "last20_count": 7,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 4
+        },
+        {
+          "number": 24,
+          "ranks_among_38": {
+            "A_freq_all": 7,
+            "B_ew_20": 2,
+            "B_roll_10": 8,
+            "C_hazard": 8,
+            "D_trend_20v40": 6,
+            "E_transition": 11,
+            "E_pair_centrality": 33,
+            "G_ensemble_equal": 1
+          },
+          "full_history_count": 32,
+          "full_history_z": 1.12,
+          "last20_count": 6,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 5
+        },
+        {
+          "number": 35,
+          "ranks_among_38": {
+            "A_freq_all": 4,
+            "B_ew_20": 8,
+            "B_roll_10": 18,
+            "C_hazard": 36,
+            "D_trend_20v40": 29,
+            "E_transition": 1,
+            "E_pair_centrality": 22,
+            "G_ensemble_equal": 12
+          },
+          "full_history_count": 32,
+          "full_history_z": 1.12,
+          "last20_count": 4,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 3
+        }
+      ],
+      "mean_percentile_under_core_rankers": {
+        "A_freq_all": 0.779,
+        "B_ew_20": 0.905,
+        "B_roll_10": 0.806,
+        "C_hazard": 0.568,
+        "D_trend_20v40": 0.622,
+        "E_transition": 0.698,
+        "E_pair_centrality": 0.261,
+        "G_ensemble_equal": 0.815
+      },
+      "long_term_evidence": {
+        "mean_full_history_z": 0.91
+      },
+      "recent_frequency_evidence": {
+        "last20_total": 31,
+        "last20_total_expected": 18.95,
+        "mean_ew20_percentile": 0.905
+      },
+      "trend_evidence": {
+        "mean_trend_percentile": 0.622
+      },
+      "gap_evidence": {
+        "mean_hazard_percentile": 0.568,
+        "note": "C_hazard (pooled re-appearance hazard) had top-12 walk-forward coverage 1.893 vs 1.895 random"
+      },
+      "pair_evidence": {
+        "mean_pair_z": 0.124,
+        "pairs_with_z_above_2": 0,
+        "note": "no pair co-occurrence survives BH correction (min q = 0.78)"
+      },
+      "structure_evidence": {
+        "sum": 93,
+        "odd": 3,
+        "low_1_19": 4,
+        "consecutive_pairs": 1,
+        "range": 31,
+        "structure_class_null_probability": 0.0113,
+        "structure_typicality_z": 1.31
+      },
+      "ensemble_evidence": {
+        "mean_ensemble_percentile": 0.815,
+        "consensus_index_0_to_1": 0.7
+      },
+      "sensitivity": {
+        "lambda_grid_variants_keeping_4plus_numbers": "16/16",
+        "sibling_rankers_keeping_4plus_numbers": "3/7"
+      },
+      "uncertainty": {
+        "expected_matches_under_exact_random": 0.947,
+        "P_3plus_random": 0.0387,
+        "note": "Walk-forward CIs of every method include the random expectation."
+      },
+      "counterevidence": [
+        "All 20 global randomness tests are consistent with an independent uniform draw (min Holm p = 1.0).",
+        "No ticket method survives Holm correction; the pre-registered dev-selected method fell below baseline in confirmation.",
+        "Every ticket, including this one, has exactly the same random probabilities: P(3+) = 3.87%, expected matches 0.947."
+      ]
+    },
+    "C12": {
+      "numbers": [
+        1,
+        8,
+        13,
+        18,
+        24,
+        25
+      ],
+      "generating_methods": [
+        "A_freq_all|opt_top12"
+      ],
+      "is_random_control": false,
+      "out_of_sample_performance_of_generating_methods": {
+        "A_freq_all|opt_top12": {
+          "walk_forward_targets": 140,
+          "mean_matches": 1.0,
+          "random_expectation": 0.947,
+          "dev_mean": 1.029,
+          "confirmation_mean": 0.971,
+          "exact_p_one_sided_full": 0.241,
+          "holm_p_family": 1.0,
+          "pct_3plus": 1.4,
+          "baseline_pct_3plus": 3.9,
+          "ci95_mean": [
+            0.871,
+            1.129
+          ]
+        }
+      },
+      "per_number_evidence": [
+        {
+          "number": 1,
+          "ranks_among_38": {
+            "A_freq_all": 9,
+            "B_ew_20": 4,
+            "B_roll_10": 4,
+            "C_hazard": 26,
+            "D_trend_20v40": 4,
+            "E_transition": 3,
+            "E_pair_centrality": 21,
+            "G_ensemble_equal": 5
+          },
+          "full_history_count": 31,
+          "full_history_z": 0.91,
+          "last20_count": 6,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 4
+        },
+        {
+          "number": 8,
+          "ranks_among_38": {
+            "A_freq_all": 1,
+            "B_ew_20": 7,
+            "B_roll_10": 15,
+            "C_hazard": 7,
+            "D_trend_20v40": 33,
+            "E_transition": 15,
+            "E_pair_centrality": 35,
+            "G_ensemble_equal": 9
+          },
+          "full_history_count": 36,
+          "full_history_z": 1.97,
+          "last20_count": 3,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 3
+        },
+        {
+          "number": 13,
+          "ranks_among_38": {
+            "A_freq_all": 8,
+            "B_ew_20": 1,
+            "B_roll_10": 1,
+            "C_hazard": 21,
+            "D_trend_20v40": 1,
+            "E_transition": 12,
+            "E_pair_centrality": 27,
+            "G_ensemble_equal": 2
+          },
+          "full_history_count": 31,
+          "full_history_z": 0.91,
+          "last20_count": 7,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 4
+        },
+        {
+          "number": 18,
+          "ranks_among_38": {
+            "A_freq_all": 2,
+            "B_ew_20": 16,
+            "B_roll_10": 6,
+            "C_hazard": 12,
+            "D_trend_20v40": 15,
+            "E_transition": 2,
+            "E_pair_centrality": 3,
+            "G_ensemble_equal": 4
+          },
+          "full_history_count": 35,
+          "full_history_z": 1.75,
+          "last20_count": 3,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 3
+        },
+        {
+          "number": 24,
+          "ranks_among_38": {
+            "A_freq_all": 7,
+            "B_ew_20": 2,
+            "B_roll_10": 8,
+            "C_hazard": 8,
+            "D_trend_20v40": 6,
+            "E_transition": 11,
+            "E_pair_centrality": 33,
+            "G_ensemble_equal": 1
+          },
+          "full_history_count": 32,
+          "full_history_z": 1.12,
+          "last20_count": 6,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 5
+        },
+        {
+          "number": 25,
+          "ranks_among_38": {
+            "A_freq_all": 5,
+            "B_ew_20": 20,
+            "B_roll_10": 27,
+            "C_hazard": 14,
+            "D_trend_20v40": 21,
+            "E_transition": 4,
+            "E_pair_centrality": 1,
+            "G_ensemble_equal": 8
+          },
+          "full_history_count": 32,
+          "full_history_z": 1.12,
+          "last20_count": 3,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 2
+        }
+      ],
+      "mean_percentile_under_core_rankers": {
+        "A_freq_all": 0.883,
+        "B_ew_20": 0.802,
+        "B_roll_10": 0.752,
+        "C_hazard": 0.631,
+        "D_trend_20v40": 0.667,
+        "E_transition": 0.815,
+        "E_pair_centrality": 0.486,
+        "G_ensemble_equal": 0.896
+      },
+      "long_term_evidence": {
+        "mean_full_history_z": 1.3
+      },
+      "recent_frequency_evidence": {
+        "last20_total": 28,
+        "last20_total_expected": 18.95,
+        "mean_ew20_percentile": 0.802
+      },
+      "trend_evidence": {
+        "mean_trend_percentile": 0.667
+      },
+      "gap_evidence": {
+        "mean_hazard_percentile": 0.631,
+        "note": "C_hazard (pooled re-appearance hazard) had top-12 walk-forward coverage 1.893 vs 1.895 random"
+      },
+      "pair_evidence": {
+        "mean_pair_z": 0.37,
+        "pairs_with_z_above_2": 0,
+        "note": "no pair co-occurrence survives BH correction (min q = 0.78)"
+      },
+      "structure_evidence": {
+        "sum": 89,
+        "odd": 3,
+        "low_1_19": 4,
+        "consecutive_pairs": 1,
+        "range": 24,
+        "structure_class_null_probability": 0.0113,
+        "structure_typicality_z": 1.31
+      },
+      "ensemble_evidence": {
+        "mean_ensemble_percentile": 0.896,
+        "consensus_index_0_to_1": 0.7
+      },
+      "sensitivity": {
+        "lambda_grid_variants_keeping_4plus_numbers": "15/16",
+        "sibling_rankers_keeping_4plus_numbers": "0/1"
+      },
+      "uncertainty": {
+        "expected_matches_under_exact_random": 0.947,
+        "P_3plus_random": 0.0387,
+        "note": "Walk-forward CIs of every method include the random expectation."
+      },
+      "counterevidence": [
+        "All 20 global randomness tests are consistent with an independent uniform draw (min Holm p = 1.0).",
+        "No ticket method survives Holm correction; the pre-registered dev-selected method fell below baseline in confirmation.",
+        "Every ticket, including this one, has exactly the same random probabilities: P(3+) = 3.87%, expected matches 0.947.",
+        "Development-period performance of its method(s) fell in the confirmation period (regression toward random)."
+      ]
+    },
+    "C13": {
+      "numbers": [
+        1,
+        21,
+        26,
+        31,
+        34,
+        36
+      ],
+      "generating_methods": [
+        "H_random|top6"
+      ],
+      "is_random_control": true,
+      "out_of_sample_performance_of_generating_methods": {
+        "H_random|top6": {
+          "walk_forward_targets": 140,
+          "mean_matches": 1.007,
+          "random_expectation": 0.947,
+          "dev_mean": 0.971,
+          "confirmation_mean": 1.043,
+          "exact_p_one_sided_full": 0.211,
+          "holm_p_family": null,
+          "pct_3plus": 6.4,
+          "baseline_pct_3plus": 3.9,
+          "ci95_mean": [
+            0.864,
+            1.157
+          ]
+        }
+      },
+      "per_number_evidence": [
+        {
+          "number": 1,
+          "ranks_among_38": {
+            "A_freq_all": 9,
+            "B_ew_20": 4,
+            "B_roll_10": 4,
+            "C_hazard": 26,
+            "D_trend_20v40": 4,
+            "E_transition": 3,
+            "E_pair_centrality": 21,
+            "G_ensemble_equal": 5
+          },
+          "full_history_count": 31,
+          "full_history_z": 0.91,
+          "last20_count": 6,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 4
+        },
+        {
+          "number": 21,
+          "ranks_among_38": {
+            "A_freq_all": 33,
+            "B_ew_20": 36,
+            "B_roll_10": 24,
+            "C_hazard": 37,
+            "D_trend_20v40": 31,
+            "E_transition": 32,
+            "E_pair_centrality": 6,
+            "G_ensemble_equal": 38
+          },
+          "full_history_count": 22,
+          "full_history_z": -0.99,
+          "last20_count": 1,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 0
+        },
+        {
+          "number": 26,
+          "ranks_among_38": {
+            "A_freq_all": 28,
+            "B_ew_20": 32,
+            "B_roll_10": 30,
+            "C_hazard": 3,
+            "D_trend_20v40": 25,
+            "E_transition": 37,
+            "E_pair_centrality": 12,
+            "G_ensemble_equal": 29
+          },
+          "full_history_count": 24,
+          "full_history_z": -0.57,
+          "last20_count": 2,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 1
+        },
+        {
+          "number": 31,
+          "ranks_among_38": {
+            "A_freq_all": 20,
+            "B_ew_20": 17,
+            "B_roll_10": 31,
+            "C_hazard": 17,
+            "D_trend_20v40": 9,
+            "E_transition": 24,
+            "E_pair_centrality": 7,
+            "G_ensemble_equal": 14
+          },
+          "full_history_count": 26,
+          "full_history_z": -0.14,
+          "last20_count": 4,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 1
+        },
+        {
+          "number": 34,
+          "ranks_among_38": {
+            "A_freq_all": 27,
+            "B_ew_20": 34,
+            "B_roll_10": 32,
+            "C_hazard": 29,
+            "D_trend_20v40": 30,
+            "E_transition": 18,
+            "E_pair_centrality": 4,
+            "G_ensemble_equal": 34
+          },
+          "full_history_count": 24,
+          "full_history_z": -0.57,
+          "last20_count": 1,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 0
+        },
+        {
+          "number": 36,
+          "ranks_among_38": {
+            "A_freq_all": 21,
+            "B_ew_20": 19,
+            "B_roll_10": 19,
+            "C_hazard": 4,
+            "D_trend_20v40": 36,
+            "E_transition": 25,
+            "E_pair_centrality": 18,
+            "G_ensemble_equal": 22
+          },
+          "full_history_count": 26,
+          "full_history_z": -0.14,
+          "last20_count": 2,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 1
+        }
+      ],
+      "mean_percentile_under_core_rankers": {
+        "A_freq_all": 0.405,
+        "B_ew_20": 0.387,
+        "B_roll_10": 0.396,
+        "C_hazard": 0.505,
+        "D_trend_20v40": 0.419,
+        "E_transition": 0.401,
+        "E_pair_centrality": 0.721,
+        "G_ensemble_equal": 0.387
+      },
+      "long_term_evidence": {
+        "mean_full_history_z": -0.25
+      },
+      "recent_frequency_evidence": {
+        "last20_total": 16,
+        "last20_total_expected": 18.95,
+        "mean_ew20_percentile": 0.387
+      },
+      "trend_evidence": {
+        "mean_trend_percentile": 0.419
+      },
+      "gap_evidence": {
+        "mean_hazard_percentile": 0.505,
+        "note": "C_hazard (pooled re-appearance hazard) had top-12 walk-forward coverage 1.893 vs 1.895 random"
+      },
+      "pair_evidence": {
+        "mean_pair_z": -0.166,
+        "pairs_with_z_above_2": 0,
+        "note": "no pair co-occurrence survives BH correction (min q = 0.78)"
+      },
+      "structure_evidence": {
+        "sum": 149,
+        "odd": 3,
+        "low_1_19": 1,
+        "consecutive_pairs": 0,
+        "range": 35,
+        "structure_class_null_probability": 0.004,
+        "structure_typicality_z": 0.2
+      },
+      "ensemble_evidence": {
+        "mean_ensemble_percentile": 0.387,
+        "consensus_index_0_to_1": 0.233
+      },
+      "sensitivity": {
+        "lambda_grid_variants_keeping_4plus_numbers": "n/a",
+        "sibling_rankers_keeping_4plus_numbers": "n/a"
+      },
+      "uncertainty": {
+        "expected_matches_under_exact_random": 0.947,
+        "P_3plus_random": 0.0387,
+        "note": "Walk-forward CIs of every method include the random expectation."
+      },
+      "counterevidence": [
+        "This ticket is a uniform random control, not derived from any feature.",
+        "All 20 global randomness tests are consistent with an independent uniform draw (min Holm p = 1.0).",
+        "No ticket method survives Holm correction; the pre-registered dev-selected method fell below baseline in confirmation.",
+        "Every ticket, including this one, has exactly the same random probabilities: P(3+) = 3.87%, expected matches 0.947."
+      ]
+    },
+    "C14": {
+      "numbers": [
+        5,
+        11,
+        16,
+        31,
+        32,
+        34
+      ],
+      "generating_methods": [
+        "C_overdue|opt_top12"
+      ],
+      "is_random_control": false,
+      "out_of_sample_performance_of_generating_methods": {
+        "C_overdue|opt_top12": {
+          "walk_forward_targets": 140,
+          "mean_matches": 0.943,
+          "random_expectation": 0.947,
+          "dev_mean": 0.929,
+          "confirmation_mean": 0.957,
+          "exact_p_one_sided_full": 0.543,
+          "holm_p_family": 1.0,
+          "pct_3plus": 2.9,
+          "baseline_pct_3plus": 3.9,
+          "ci95_mean": [
+            0.807,
+            1.086
+          ]
+        }
+      },
+      "per_number_evidence": [
+        {
+          "number": 5,
+          "ranks_among_38": {
+            "A_freq_all": 38,
+            "B_ew_20": 38,
+            "B_roll_10": 38,
+            "C_hazard": 18,
+            "D_trend_20v40": 24,
+            "E_transition": 38,
+            "E_pair_centrality": 20,
+            "G_ensemble_equal": 37
+          },
+          "full_history_count": 17,
+          "full_history_z": -2.04,
+          "last20_count": 1,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 0
+        },
+        {
+          "number": 11,
+          "ranks_among_38": {
+            "A_freq_all": 24,
+            "B_ew_20": 37,
+            "B_roll_10": 33,
+            "C_hazard": 9,
+            "D_trend_20v40": 27,
+            "E_transition": 22,
+            "E_pair_centrality": 9,
+            "G_ensemble_equal": 28
+          },
+          "full_history_count": 25,
+          "full_history_z": -0.36,
+          "last20_count": 1,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 1
+        },
+        {
+          "number": 16,
+          "ranks_among_38": {
+            "A_freq_all": 35,
+            "B_ew_20": 31,
+            "B_roll_10": 35,
+            "C_hazard": 1,
+            "D_trend_20v40": 38,
+            "E_transition": 36,
+            "E_pair_centrality": 34,
+            "G_ensemble_equal": 35
+          },
+          "full_history_count": 20,
+          "full_history_z": -1.41,
+          "last20_count": 0,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 1
+        },
+        {
+          "number": 31,
+          "ranks_among_38": {
+            "A_freq_all": 20,
+            "B_ew_20": 17,
+            "B_roll_10": 31,
+            "C_hazard": 17,
+            "D_trend_20v40": 9,
+            "E_transition": 24,
+            "E_pair_centrality": 7,
+            "G_ensemble_equal": 14
+          },
+          "full_history_count": 26,
+          "full_history_z": -0.14,
+          "last20_count": 4,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 1
+        },
+        {
+          "number": 32,
+          "ranks_among_38": {
+            "A_freq_all": 30,
+            "B_ew_20": 29,
+            "B_roll_10": 20,
+            "C_hazard": 2,
+            "D_trend_20v40": 35,
+            "E_transition": 16,
+            "E_pair_centrality": 32,
+            "G_ensemble_equal": 23
+          },
+          "full_history_count": 23,
+          "full_history_z": -0.78,
+          "last20_count": 1,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 1
+        },
+        {
+          "number": 34,
+          "ranks_among_38": {
+            "A_freq_all": 27,
+            "B_ew_20": 34,
+            "B_roll_10": 32,
+            "C_hazard": 29,
+            "D_trend_20v40": 30,
+            "E_transition": 18,
+            "E_pair_centrality": 4,
+            "G_ensemble_equal": 34
+          },
+          "full_history_count": 24,
+          "full_history_z": -0.57,
+          "last20_count": 1,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 0
+        }
+      ],
+      "mean_percentile_under_core_rankers": {
+        "A_freq_all": 0.243,
+        "B_ew_20": 0.189,
+        "B_roll_10": 0.176,
+        "C_hazard": 0.685,
+        "D_trend_20v40": 0.293,
+        "E_transition": 0.333,
+        "E_pair_centrality": 0.55,
+        "G_ensemble_equal": 0.257
+      },
+      "long_term_evidence": {
+        "mean_full_history_z": -0.88
+      },
+      "recent_frequency_evidence": {
+        "last20_total": 8,
+        "last20_total_expected": 18.95,
+        "mean_ew20_percentile": 0.189
+      },
+      "trend_evidence": {
+        "mean_trend_percentile": 0.293
+      },
+      "gap_evidence": {
+        "mean_hazard_percentile": 0.685,
+        "note": "C_hazard (pooled re-appearance hazard) had top-12 walk-forward coverage 1.893 vs 1.895 random"
+      },
+      "pair_evidence": {
+        "mean_pair_z": 0.399,
+        "pairs_with_z_above_2": 1,
+        "note": "no pair co-occurrence survives BH correction (min q = 0.78)"
+      },
+      "structure_evidence": {
+        "sum": 129,
+        "odd": 3,
+        "low_1_19": 3,
+        "consecutive_pairs": 1,
+        "range": 29,
+        "structure_class_null_probability": 0.0091,
+        "structure_typicality_z": 1.08
+      },
+      "ensemble_evidence": {
+        "mean_ensemble_percentile": 0.257,
+        "consensus_index_0_to_1": 0.133
+      },
+      "sensitivity": {
+        "lambda_grid_variants_keeping_4plus_numbers": "15/16",
+        "sibling_rankers_keeping_4plus_numbers": "0/3"
+      },
+      "uncertainty": {
+        "expected_matches_under_exact_random": 0.947,
+        "P_3plus_random": 0.0387,
+        "note": "Walk-forward CIs of every method include the random expectation."
+      },
+      "counterevidence": [
+        "All 20 global randomness tests are consistent with an independent uniform draw (min Holm p = 1.0).",
+        "No ticket method survives Holm correction; the pre-registered dev-selected method fell below baseline in confirmation.",
+        "Every ticket, including this one, has exactly the same random probabilities: P(3+) = 3.87%, expected matches 0.947."
+      ]
+    },
+    "C15": {
+      "numbers": [
+        1,
+        4,
+        13,
+        18,
+        28,
+        29
+      ],
+      "generating_methods": [
+        "C_recent|opt_top12"
+      ],
+      "is_random_control": false,
+      "out_of_sample_performance_of_generating_methods": {
+        "C_recent|opt_top12": {
+          "walk_forward_targets": 140,
+          "mean_matches": 0.95,
+          "random_expectation": 0.947,
+          "dev_mean": 1.029,
+          "confirmation_mean": 0.871,
+          "exact_p_one_sided_full": 0.502,
+          "holm_p_family": 1.0,
+          "pct_3plus": 2.1,
+          "baseline_pct_3plus": 3.9,
+          "ci95_mean": [
+            0.821,
+            1.079
+          ]
+        }
+      },
+      "per_number_evidence": [
+        {
+          "number": 1,
+          "ranks_among_38": {
+            "A_freq_all": 9,
+            "B_ew_20": 4,
+            "B_roll_10": 4,
+            "C_hazard": 26,
+            "D_trend_20v40": 4,
+            "E_transition": 3,
+            "E_pair_centrality": 21,
+            "G_ensemble_equal": 5
+          },
+          "full_history_count": 31,
+          "full_history_z": 0.91,
+          "last20_count": 6,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 4
+        },
+        {
+          "number": 4,
+          "ranks_among_38": {
+            "A_freq_all": 6,
+            "B_ew_20": 3,
+            "B_roll_10": 2,
+            "C_hazard": 25,
+            "D_trend_20v40": 2,
+            "E_transition": 8,
+            "E_pair_centrality": 36,
+            "G_ensemble_equal": 3
+          },
+          "full_history_count": 32,
+          "full_history_z": 1.12,
+          "last20_count": 7,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 4
+        },
+        {
+          "number": 13,
+          "ranks_among_38": {
+            "A_freq_all": 8,
+            "B_ew_20": 1,
+            "B_roll_10": 1,
+            "C_hazard": 21,
+            "D_trend_20v40": 1,
+            "E_transition": 12,
+            "E_pair_centrality": 27,
+            "G_ensemble_equal": 2
+          },
+          "full_history_count": 31,
+          "full_history_z": 0.91,
+          "last20_count": 7,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 4
+        },
+        {
+          "number": 18,
+          "ranks_among_38": {
+            "A_freq_all": 2,
+            "B_ew_20": 16,
+            "B_roll_10": 6,
+            "C_hazard": 12,
+            "D_trend_20v40": 15,
+            "E_transition": 2,
+            "E_pair_centrality": 3,
+            "G_ensemble_equal": 4
+          },
+          "full_history_count": 35,
+          "full_history_z": 1.75,
+          "last20_count": 3,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 3
+        },
+        {
+          "number": 28,
+          "ranks_among_38": {
+            "A_freq_all": 37,
+            "B_ew_20": 35,
+            "B_roll_10": 23,
+            "C_hazard": 22,
+            "D_trend_20v40": 11,
+            "E_transition": 23,
+            "E_pair_centrality": 37,
+            "G_ensemble_equal": 33
+          },
+          "full_history_count": 19,
+          "full_history_z": -1.62,
+          "last20_count": 2,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 1
+        },
+        {
+          "number": 29,
+          "ranks_among_38": {
+            "A_freq_all": 36,
+            "B_ew_20": 23,
+            "B_roll_10": 10,
+            "C_hazard": 11,
+            "D_trend_20v40": 16,
+            "E_transition": 35,
+            "E_pair_centrality": 23,
+            "G_ensemble_equal": 27
+          },
+          "full_history_count": 19,
+          "full_history_z": -1.62,
+          "last20_count": 3,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 1
+        }
+      ],
+      "mean_percentile_under_core_rankers": {
+        "A_freq_all": 0.586,
+        "B_ew_20": 0.658,
+        "B_roll_10": 0.82,
+        "C_hazard": 0.5,
+        "D_trend_20v40": 0.806,
+        "E_transition": 0.653,
+        "E_pair_centrality": 0.365,
+        "G_ensemble_equal": 0.694
+      },
+      "long_term_evidence": {
+        "mean_full_history_z": 0.24
+      },
+      "recent_frequency_evidence": {
+        "last20_total": 28,
+        "last20_total_expected": 18.95,
+        "mean_ew20_percentile": 0.658
+      },
+      "trend_evidence": {
+        "mean_trend_percentile": 0.806
+      },
+      "gap_evidence": {
+        "mean_hazard_percentile": 0.5,
+        "note": "C_hazard (pooled re-appearance hazard) had top-12 walk-forward coverage 1.893 vs 1.895 random"
+      },
+      "pair_evidence": {
+        "mean_pair_z": 0.408,
+        "pairs_with_z_above_2": 0,
+        "note": "no pair co-occurrence survives BH correction (min q = 0.78)"
+      },
+      "structure_evidence": {
+        "sum": 93,
+        "odd": 3,
+        "low_1_19": 4,
+        "consecutive_pairs": 1,
+        "range": 28,
+        "structure_class_null_probability": 0.0113,
+        "structure_typicality_z": 1.31
+      },
+      "ensemble_evidence": {
+        "mean_ensemble_percentile": 0.694,
+        "consensus_index_0_to_1": 0.567
+      },
+      "sensitivity": {
+        "lambda_grid_variants_keeping_4plus_numbers": "16/16",
+        "sibling_rankers_keeping_4plus_numbers": "0/3"
+      },
+      "uncertainty": {
+        "expected_matches_under_exact_random": 0.947,
+        "P_3plus_random": 0.0387,
+        "note": "Walk-forward CIs of every method include the random expectation."
+      },
+      "counterevidence": [
+        "All 20 global randomness tests are consistent with an independent uniform draw (min Holm p = 1.0).",
+        "No ticket method survives Holm correction; the pre-registered dev-selected method fell below baseline in confirmation.",
+        "Every ticket, including this one, has exactly the same random probabilities: P(3+) = 3.87%, expected matches 0.947.",
+        "Its generating method(s) did not beat the random expectation in the confirmation period.",
+        "Development-period performance of its method(s) fell in the confirmation period (regression toward random)."
+      ]
+    },
+    "C16": {
+      "numbers": [
+        6,
+        9,
+        10,
+        31,
+        35,
+        38
+      ],
+      "generating_methods": [
+        "B_roll_50|opt_top12"
+      ],
+      "is_random_control": false,
+      "out_of_sample_performance_of_generating_methods": {
+        "B_roll_50|opt_top12": {
+          "walk_forward_targets": 140,
+          "mean_matches": 1.05,
+          "random_expectation": 0.947,
+          "dev_mean": 1.071,
+          "confirmation_mean": 1.029,
+          "exact_p_one_sided_full": 0.08,
+          "holm_p_family": 1.0,
+          "pct_3plus": 4.3,
+          "baseline_pct_3plus": 3.9,
+          "ci95_mean": [
+            0.921,
+            1.186
+          ]
+        }
+      },
+      "per_number_evidence": [
+        {
+          "number": 6,
+          "ranks_among_38": {
+            "A_freq_all": 17,
+            "B_ew_20": 12,
+            "B_roll_10": 12,
+            "C_hazard": 23,
+            "D_trend_20v40": 17,
+            "E_transition": 9,
+            "E_pair_centrality": 10,
+            "G_ensemble_equal": 13
+          },
+          "full_history_count": 27,
+          "full_history_z": 0.07,
+          "last20_count": 4,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 2
+        },
+        {
+          "number": 9,
+          "ranks_among_38": {
+            "A_freq_all": 29,
+            "B_ew_20": 6,
+            "B_roll_10": 5,
+            "C_hazard": 5,
+            "D_trend_20v40": 19,
+            "E_transition": 26,
+            "E_pair_centrality": 17,
+            "G_ensemble_equal": 20
+          },
+          "full_history_count": 23,
+          "full_history_z": -0.78,
+          "last20_count": 4,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 2
+        },
+        {
+          "number": 10,
+          "ranks_among_38": {
+            "A_freq_all": 11,
+            "B_ew_20": 5,
+            "B_roll_10": 16,
+            "C_hazard": 13,
+            "D_trend_20v40": 8,
+            "E_transition": 14,
+            "E_pair_centrality": 15,
+            "G_ensemble_equal": 6
+          },
+          "full_history_count": 30,
+          "full_history_z": 0.7,
+          "last20_count": 5,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 3
+        },
+        {
+          "number": 31,
+          "ranks_among_38": {
+            "A_freq_all": 20,
+            "B_ew_20": 17,
+            "B_roll_10": 31,
+            "C_hazard": 17,
+            "D_trend_20v40": 9,
+            "E_transition": 24,
+            "E_pair_centrality": 7,
+            "G_ensemble_equal": 14
+          },
+          "full_history_count": 26,
+          "full_history_z": -0.14,
+          "last20_count": 4,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 1
+        },
+        {
+          "number": 35,
+          "ranks_among_38": {
+            "A_freq_all": 4,
+            "B_ew_20": 8,
+            "B_roll_10": 18,
+            "C_hazard": 36,
+            "D_trend_20v40": 29,
+            "E_transition": 1,
+            "E_pair_centrality": 22,
+            "G_ensemble_equal": 12
+          },
+          "full_history_count": 32,
+          "full_history_z": 1.12,
+          "last20_count": 4,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 3
+        },
+        {
+          "number": 38,
+          "ranks_among_38": {
+            "A_freq_all": 3,
+            "B_ew_20": 10,
+            "B_roll_10": 34,
+            "C_hazard": 32,
+            "D_trend_20v40": 28,
+            "E_transition": 7,
+            "E_pair_centrality": 5,
+            "G_ensemble_equal": 10
+          },
+          "full_history_count": 33,
+          "full_history_z": 1.33,
+          "last20_count": 4,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 3
+        }
+      ],
+      "mean_percentile_under_core_rankers": {
+        "A_freq_all": 0.649,
+        "B_ew_20": 0.766,
+        "B_roll_10": 0.505,
+        "C_hazard": 0.459,
+        "D_trend_20v40": 0.532,
+        "E_transition": 0.662,
+        "E_pair_centrality": 0.685,
+        "G_ensemble_equal": 0.689
+      },
+      "long_term_evidence": {
+        "mean_full_history_z": 0.38
+      },
+      "recent_frequency_evidence": {
+        "last20_total": 25,
+        "last20_total_expected": 18.95,
+        "mean_ew20_percentile": 0.766
+      },
+      "trend_evidence": {
+        "mean_trend_percentile": 0.532
+      },
+      "gap_evidence": {
+        "mean_hazard_percentile": 0.459,
+        "note": "C_hazard (pooled re-appearance hazard) had top-12 walk-forward coverage 1.893 vs 1.895 random"
+      },
+      "pair_evidence": {
+        "mean_pair_z": 0.567,
+        "pairs_with_z_above_2": 0,
+        "note": "no pair co-occurrence survives BH correction (min q = 0.78)"
+      },
+      "structure_evidence": {
+        "sum": 129,
+        "odd": 3,
+        "low_1_19": 3,
+        "consecutive_pairs": 1,
+        "range": 32,
+        "structure_class_null_probability": 0.0091,
+        "structure_typicality_z": 1.08
+      },
+      "ensemble_evidence": {
+        "mean_ensemble_percentile": 0.689,
+        "consensus_index_0_to_1": 0.467
+      },
+      "sensitivity": {
+        "lambda_grid_variants_keeping_4plus_numbers": "16/16",
+        "sibling_rankers_keeping_4plus_numbers": "0/7"
+      },
+      "uncertainty": {
+        "expected_matches_under_exact_random": 0.947,
+        "P_3plus_random": 0.0387,
+        "note": "Walk-forward CIs of every method include the random expectation."
+      },
+      "counterevidence": [
+        "All 20 global randomness tests are consistent with an independent uniform draw (min Holm p = 1.0).",
+        "No ticket method survives Holm correction; the pre-registered dev-selected method fell below baseline in confirmation.",
+        "Every ticket, including this one, has exactly the same random probabilities: P(3+) = 3.87%, expected matches 0.947.",
+        "Development-period performance of its method(s) fell in the confirmation period (regression toward random)."
+      ]
+    },
+    "C17": {
+      "numbers": [
+        1,
+        4,
+        6,
+        13,
+        18,
+        29
+      ],
+      "generating_methods": [
+        "B_roll_10|pair_top12"
+      ],
+      "is_random_control": false,
+      "out_of_sample_performance_of_generating_methods": {
+        "B_roll_10|pair_top12": {
+          "walk_forward_targets": 140,
+          "mean_matches": 1.079,
+          "random_expectation": 0.947,
+          "dev_mean": 1.243,
+          "confirmation_mean": 0.914,
+          "exact_p_one_sided_full": 0.036,
+          "holm_p_family": 1.0,
+          "pct_3plus": 4.3,
+          "baseline_pct_3plus": 3.9,
+          "ci95_mean": [
+            0.943,
+            1.214
+          ]
+        }
+      },
+      "per_number_evidence": [
+        {
+          "number": 1,
+          "ranks_among_38": {
+            "A_freq_all": 9,
+            "B_ew_20": 4,
+            "B_roll_10": 4,
+            "C_hazard": 26,
+            "D_trend_20v40": 4,
+            "E_transition": 3,
+            "E_pair_centrality": 21,
+            "G_ensemble_equal": 5
+          },
+          "full_history_count": 31,
+          "full_history_z": 0.91,
+          "last20_count": 6,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 4
+        },
+        {
+          "number": 4,
+          "ranks_among_38": {
+            "A_freq_all": 6,
+            "B_ew_20": 3,
+            "B_roll_10": 2,
+            "C_hazard": 25,
+            "D_trend_20v40": 2,
+            "E_transition": 8,
+            "E_pair_centrality": 36,
+            "G_ensemble_equal": 3
+          },
+          "full_history_count": 32,
+          "full_history_z": 1.12,
+          "last20_count": 7,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 4
+        },
+        {
+          "number": 6,
+          "ranks_among_38": {
+            "A_freq_all": 17,
+            "B_ew_20": 12,
+            "B_roll_10": 12,
+            "C_hazard": 23,
+            "D_trend_20v40": 17,
+            "E_transition": 9,
+            "E_pair_centrality": 10,
+            "G_ensemble_equal": 13
+          },
+          "full_history_count": 27,
+          "full_history_z": 0.07,
+          "last20_count": 4,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 2
+        },
+        {
+          "number": 13,
+          "ranks_among_38": {
+            "A_freq_all": 8,
+            "B_ew_20": 1,
+            "B_roll_10": 1,
+            "C_hazard": 21,
+            "D_trend_20v40": 1,
+            "E_transition": 12,
+            "E_pair_centrality": 27,
+            "G_ensemble_equal": 2
+          },
+          "full_history_count": 31,
+          "full_history_z": 0.91,
+          "last20_count": 7,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 4
+        },
+        {
+          "number": 18,
+          "ranks_among_38": {
+            "A_freq_all": 2,
+            "B_ew_20": 16,
+            "B_roll_10": 6,
+            "C_hazard": 12,
+            "D_trend_20v40": 15,
+            "E_transition": 2,
+            "E_pair_centrality": 3,
+            "G_ensemble_equal": 4
+          },
+          "full_history_count": 35,
+          "full_history_z": 1.75,
+          "last20_count": 3,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 3
+        },
+        {
+          "number": 29,
+          "ranks_among_38": {
+            "A_freq_all": 36,
+            "B_ew_20": 23,
+            "B_roll_10": 10,
+            "C_hazard": 11,
+            "D_trend_20v40": 16,
+            "E_transition": 35,
+            "E_pair_centrality": 23,
+            "G_ensemble_equal": 27
+          },
+          "full_history_count": 19,
+          "full_history_z": -1.62,
+          "last20_count": 3,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 1
+        }
+      ],
+      "mean_percentile_under_core_rankers": {
+        "A_freq_all": 0.676,
+        "B_ew_20": 0.761,
+        "B_roll_10": 0.869,
+        "C_hazard": 0.495,
+        "D_trend_20v40": 0.779,
+        "E_transition": 0.716,
+        "E_pair_centrality": 0.486,
+        "G_ensemble_equal": 0.784
+      },
+      "long_term_evidence": {
+        "mean_full_history_z": 0.52
+      },
+      "recent_frequency_evidence": {
+        "last20_total": 30,
+        "last20_total_expected": 18.95,
+        "mean_ew20_percentile": 0.761
+      },
+      "trend_evidence": {
+        "mean_trend_percentile": 0.779
+      },
+      "gap_evidence": {
+        "mean_hazard_percentile": 0.495,
+        "note": "C_hazard (pooled re-appearance hazard) had top-12 walk-forward coverage 1.893 vs 1.895 random"
+      },
+      "pair_evidence": {
+        "mean_pair_z": 0.568,
+        "pairs_with_z_above_2": 0,
+        "note": "no pair co-occurrence survives BH correction (min q = 0.78)"
+      },
+      "structure_evidence": {
+        "sum": 71,
+        "odd": 3,
+        "low_1_19": 5,
+        "consecutive_pairs": 0,
+        "range": 28,
+        "structure_class_null_probability": 0.0037,
+        "structure_typicality_z": 0.1
+      },
+      "ensemble_evidence": {
+        "mean_ensemble_percentile": 0.784,
+        "consensus_index_0_to_1": 0.6
+      },
+      "sensitivity": {
+        "lambda_grid_variants_keeping_4plus_numbers": "n/a",
+        "sibling_rankers_keeping_4plus_numbers": "n/a"
+      },
+      "uncertainty": {
+        "expected_matches_under_exact_random": 0.947,
+        "P_3plus_random": 0.0387,
+        "note": "Walk-forward CIs of every method include the random expectation."
+      },
+      "counterevidence": [
+        "All 20 global randomness tests are consistent with an independent uniform draw (min Holm p = 1.0).",
+        "No ticket method survives Holm correction; the pre-registered dev-selected method fell below baseline in confirmation.",
+        "Every ticket, including this one, has exactly the same random probabilities: P(3+) = 3.87%, expected matches 0.947.",
+        "Its generating method(s) did not beat the random expectation in the confirmation period.",
+        "Development-period performance of its method(s) fell in the confirmation period (regression toward random)."
+      ]
+    },
+    "C18": {
+      "numbers": [
+        4,
+        9,
+        10,
+        13,
+        24,
+        35
+      ],
+      "generating_methods": [
+        "B_ew_20|opt_top12",
+        "G_ensemble_adaptive|opt_top12"
+      ],
+      "is_random_control": false,
+      "out_of_sample_performance_of_generating_methods": {
+        "B_ew_20|opt_top12": {
+          "walk_forward_targets": 140,
+          "mean_matches": 0.993,
+          "random_expectation": 0.947,
+          "dev_mean": 0.943,
+          "confirmation_mean": 1.043,
+          "exact_p_one_sided_full": 0.273,
+          "holm_p_family": 1.0,
+          "pct_3plus": 2.9,
+          "baseline_pct_3plus": 3.9,
+          "ci95_mean": [
+            0.857,
+            1.136
+          ]
+        },
+        "G_ensemble_adaptive|opt_top12": {
+          "walk_forward_targets": 140,
+          "mean_matches": 0.943,
+          "random_expectation": 0.947,
+          "dev_mean": 0.886,
+          "confirmation_mean": 1.0,
+          "exact_p_one_sided_full": 0.543,
+          "holm_p_family": 1.0,
+          "pct_3plus": 2.1,
+          "baseline_pct_3plus": 3.9,
+          "ci95_mean": [
+            0.8,
+            1.086
+          ]
+        }
+      },
+      "per_number_evidence": [
+        {
+          "number": 4,
+          "ranks_among_38": {
+            "A_freq_all": 6,
+            "B_ew_20": 3,
+            "B_roll_10": 2,
+            "C_hazard": 25,
+            "D_trend_20v40": 2,
+            "E_transition": 8,
+            "E_pair_centrality": 36,
+            "G_ensemble_equal": 3
+          },
+          "full_history_count": 32,
+          "full_history_z": 1.12,
+          "last20_count": 7,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 4
+        },
+        {
+          "number": 9,
+          "ranks_among_38": {
+            "A_freq_all": 29,
+            "B_ew_20": 6,
+            "B_roll_10": 5,
+            "C_hazard": 5,
+            "D_trend_20v40": 19,
+            "E_transition": 26,
+            "E_pair_centrality": 17,
+            "G_ensemble_equal": 20
+          },
+          "full_history_count": 23,
+          "full_history_z": -0.78,
+          "last20_count": 4,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 2
+        },
+        {
+          "number": 10,
+          "ranks_among_38": {
+            "A_freq_all": 11,
+            "B_ew_20": 5,
+            "B_roll_10": 16,
+            "C_hazard": 13,
+            "D_trend_20v40": 8,
+            "E_transition": 14,
+            "E_pair_centrality": 15,
+            "G_ensemble_equal": 6
+          },
+          "full_history_count": 30,
+          "full_history_z": 0.7,
+          "last20_count": 5,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 3
+        },
+        {
+          "number": 13,
+          "ranks_among_38": {
+            "A_freq_all": 8,
+            "B_ew_20": 1,
+            "B_roll_10": 1,
+            "C_hazard": 21,
+            "D_trend_20v40": 1,
+            "E_transition": 12,
+            "E_pair_centrality": 27,
+            "G_ensemble_equal": 2
+          },
+          "full_history_count": 31,
+          "full_history_z": 0.91,
+          "last20_count": 7,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 4
+        },
+        {
+          "number": 24,
+          "ranks_among_38": {
+            "A_freq_all": 7,
+            "B_ew_20": 2,
+            "B_roll_10": 8,
+            "C_hazard": 8,
+            "D_trend_20v40": 6,
+            "E_transition": 11,
+            "E_pair_centrality": 33,
+            "G_ensemble_equal": 1
+          },
+          "full_history_count": 32,
+          "full_history_z": 1.12,
+          "last20_count": 6,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 5
+        },
+        {
+          "number": 35,
+          "ranks_among_38": {
+            "A_freq_all": 4,
+            "B_ew_20": 8,
+            "B_roll_10": 18,
+            "C_hazard": 36,
+            "D_trend_20v40": 29,
+            "E_transition": 1,
+            "E_pair_centrality": 22,
+            "G_ensemble_equal": 12
+          },
+          "full_history_count": 32,
+          "full_history_z": 1.12,
+          "last20_count": 4,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 3
+        }
+      ],
+      "mean_percentile_under_core_rankers": {
+        "A_freq_all": 0.734,
+        "B_ew_20": 0.914,
+        "B_roll_10": 0.802,
+        "C_hazard": 0.541,
+        "D_trend_20v40": 0.734,
+        "E_transition": 0.703,
+        "E_pair_centrality": 0.351,
+        "G_ensemble_equal": 0.829
+      },
+      "long_term_evidence": {
+        "mean_full_history_z": 0.7
+      },
+      "recent_frequency_evidence": {
+        "last20_total": 33,
+        "last20_total_expected": 18.95,
+        "mean_ew20_percentile": 0.914
+      },
+      "trend_evidence": {
+        "mean_trend_percentile": 0.734
+      },
+      "gap_evidence": {
+        "mean_hazard_percentile": 0.541,
+        "note": "C_hazard (pooled re-appearance hazard) had top-12 walk-forward coverage 1.893 vs 1.895 random"
+      },
+      "pair_evidence": {
+        "mean_pair_z": 0.127,
+        "pairs_with_z_above_2": 0,
+        "note": "no pair co-occurrence survives BH correction (min q = 0.78)"
+      },
+      "structure_evidence": {
+        "sum": 95,
+        "odd": 3,
+        "low_1_19": 4,
+        "consecutive_pairs": 1,
+        "range": 31,
+        "structure_class_null_probability": 0.0113,
+        "structure_typicality_z": 1.31
+      },
+      "ensemble_evidence": {
+        "mean_ensemble_percentile": 0.829,
+        "consensus_index_0_to_1": 0.7
+      },
+      "sensitivity": {
+        "lambda_grid_variants_keeping_4plus_numbers": "30/32",
+        "sibling_rankers_keeping_4plus_numbers": "2/8"
+      },
+      "uncertainty": {
+        "expected_matches_under_exact_random": 0.947,
+        "P_3plus_random": 0.0387,
+        "note": "Walk-forward CIs of every method include the random expectation."
+      },
+      "counterevidence": [
+        "All 20 global randomness tests are consistent with an independent uniform draw (min Holm p = 1.0).",
+        "No ticket method survives Holm correction; the pre-registered dev-selected method fell below baseline in confirmation.",
+        "Every ticket, including this one, has exactly the same random probabilities: P(3+) = 3.87%, expected matches 0.947."
+      ]
+    },
+    "C19": {
+      "numbers": [
+        8,
+        9,
+        13,
+        15,
+        22,
+        24
+      ],
+      "generating_methods": [
+        "B_roll_30|opt_top12"
+      ],
+      "is_random_control": false,
+      "out_of_sample_performance_of_generating_methods": {
+        "B_roll_30|opt_top12": {
+          "walk_forward_targets": 140,
+          "mean_matches": 0.929,
+          "random_expectation": 0.947,
+          "dev_mean": 0.871,
+          "confirmation_mean": 0.986,
+          "exact_p_one_sided_full": 0.622,
+          "holm_p_family": 1.0,
+          "pct_3plus": 0.7,
+          "baseline_pct_3plus": 3.9,
+          "ci95_mean": [
+            0.8,
+            1.064
+          ]
+        }
+      },
+      "per_number_evidence": [
+        {
+          "number": 8,
+          "ranks_among_38": {
+            "A_freq_all": 1,
+            "B_ew_20": 7,
+            "B_roll_10": 15,
+            "C_hazard": 7,
+            "D_trend_20v40": 33,
+            "E_transition": 15,
+            "E_pair_centrality": 35,
+            "G_ensemble_equal": 9
+          },
+          "full_history_count": 36,
+          "full_history_z": 1.97,
+          "last20_count": 3,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 3
+        },
+        {
+          "number": 9,
+          "ranks_among_38": {
+            "A_freq_all": 29,
+            "B_ew_20": 6,
+            "B_roll_10": 5,
+            "C_hazard": 5,
+            "D_trend_20v40": 19,
+            "E_transition": 26,
+            "E_pair_centrality": 17,
+            "G_ensemble_equal": 20
+          },
+          "full_history_count": 23,
+          "full_history_z": -0.78,
+          "last20_count": 4,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 2
+        },
+        {
+          "number": 13,
+          "ranks_among_38": {
+            "A_freq_all": 8,
+            "B_ew_20": 1,
+            "B_roll_10": 1,
+            "C_hazard": 21,
+            "D_trend_20v40": 1,
+            "E_transition": 12,
+            "E_pair_centrality": 27,
+            "G_ensemble_equal": 2
+          },
+          "full_history_count": 31,
+          "full_history_z": 0.91,
+          "last20_count": 7,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 4
+        },
+        {
+          "number": 15,
+          "ranks_among_38": {
+            "A_freq_all": 13,
+            "B_ew_20": 11,
+            "B_roll_10": 14,
+            "C_hazard": 28,
+            "D_trend_20v40": 23,
+            "E_transition": 19,
+            "E_pair_centrality": 24,
+            "G_ensemble_equal": 19
+          },
+          "full_history_count": 29,
+          "full_history_z": 0.49,
+          "last20_count": 4,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 1
+        },
+        {
+          "number": 22,
+          "ranks_among_38": {
+            "A_freq_all": 22,
+            "B_ew_20": 15,
+            "B_roll_10": 9,
+            "C_hazard": 30,
+            "D_trend_20v40": 10,
+            "E_transition": 17,
+            "E_pair_centrality": 11,
+            "G_ensemble_equal": 17
+          },
+          "full_history_count": 26,
+          "full_history_z": -0.14,
+          "last20_count": 4,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 1
+        },
+        {
+          "number": 24,
+          "ranks_among_38": {
+            "A_freq_all": 7,
+            "B_ew_20": 2,
+            "B_roll_10": 8,
+            "C_hazard": 8,
+            "D_trend_20v40": 6,
+            "E_transition": 11,
+            "E_pair_centrality": 33,
+            "G_ensemble_equal": 1
+          },
+          "full_history_count": 32,
+          "full_history_z": 1.12,
+          "last20_count": 6,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 5
+        }
+      ],
+      "mean_percentile_under_core_rankers": {
+        "A_freq_all": 0.667,
+        "B_ew_20": 0.838,
+        "B_roll_10": 0.793,
+        "C_hazard": 0.581,
+        "D_trend_20v40": 0.613,
+        "E_transition": 0.577,
+        "E_pair_centrality": 0.365,
+        "G_ensemble_equal": 0.721
+      },
+      "long_term_evidence": {
+        "mean_full_history_z": 0.59
+      },
+      "recent_frequency_evidence": {
+        "last20_total": 28,
+        "last20_total_expected": 18.95,
+        "mean_ew20_percentile": 0.838
+      },
+      "trend_evidence": {
+        "mean_trend_percentile": 0.613
+      },
+      "gap_evidence": {
+        "mean_hazard_percentile": 0.581,
+        "note": "C_hazard (pooled re-appearance hazard) had top-12 walk-forward coverage 1.893 vs 1.895 random"
+      },
+      "pair_evidence": {
+        "mean_pair_z": 0.66,
+        "pairs_with_z_above_2": 0,
+        "note": "no pair co-occurrence survives BH correction (min q = 0.78)"
+      },
+      "structure_evidence": {
+        "sum": 91,
+        "odd": 3,
+        "low_1_19": 4,
+        "consecutive_pairs": 1,
+        "range": 16,
+        "structure_class_null_probability": 0.0113,
+        "structure_typicality_z": 1.31
+      },
+      "ensemble_evidence": {
+        "mean_ensemble_percentile": 0.721,
+        "consensus_index_0_to_1": 0.533
+      },
+      "sensitivity": {
+        "lambda_grid_variants_keeping_4plus_numbers": "16/16",
+        "sibling_rankers_keeping_4plus_numbers": "1/7"
+      },
+      "uncertainty": {
+        "expected_matches_under_exact_random": 0.947,
+        "P_3plus_random": 0.0387,
+        "note": "Walk-forward CIs of every method include the random expectation."
+      },
+      "counterevidence": [
+        "All 20 global randomness tests are consistent with an independent uniform draw (min Holm p = 1.0).",
+        "No ticket method survives Holm correction; the pre-registered dev-selected method fell below baseline in confirmation.",
+        "Every ticket, including this one, has exactly the same random probabilities: P(3+) = 3.87%, expected matches 0.947."
+      ]
+    },
+    "C20": {
+      "numbers": [
+        1,
+        2,
+        4,
+        7,
+        13,
+        24
+      ],
+      "generating_methods": [
+        "B_roll_10|opt_top12",
+        "B_roll_20|opt_top12",
+        "D_trend_20v40|opt_top12"
+      ],
+      "is_random_control": false,
+      "out_of_sample_performance_of_generating_methods": {
+        "B_roll_10|opt_top12": {
+          "walk_forward_targets": 140,
+          "mean_matches": 0.971,
+          "random_expectation": 0.947,
+          "dev_mean": 1.1,
+          "confirmation_mean": 0.843,
+          "exact_p_one_sided_full": 0.382,
+          "holm_p_family": 1.0,
+          "pct_3plus": 2.9,
+          "baseline_pct_3plus": 3.9,
+          "ci95_mean": [
+            0.836,
+            1.1
+          ]
+        },
+        "B_roll_20|opt_top12": {
+          "walk_forward_targets": 140,
+          "mean_matches": 1.021,
+          "random_expectation": 0.947,
+          "dev_mean": 0.957,
+          "confirmation_mean": 1.086,
+          "exact_p_one_sided_full": 0.158,
+          "holm_p_family": 1.0,
+          "pct_3plus": 5.0,
+          "baseline_pct_3plus": 3.9,
+          "ci95_mean": [
+            0.878,
+            1.171
+          ]
+        },
+        "D_trend_20v40|opt_top12": {
+          "walk_forward_targets": 140,
+          "mean_matches": 1.05,
+          "random_expectation": 0.947,
+          "dev_mean": 1.043,
+          "confirmation_mean": 1.057,
+          "exact_p_one_sided_full": 0.08,
+          "holm_p_family": 1.0,
+          "pct_3plus": 5.0,
+          "baseline_pct_3plus": 3.9,
+          "ci95_mean": [
+            0.9,
+            1.207
+          ]
+        }
+      },
+      "per_number_evidence": [
+        {
+          "number": 1,
+          "ranks_among_38": {
+            "A_freq_all": 9,
+            "B_ew_20": 4,
+            "B_roll_10": 4,
+            "C_hazard": 26,
+            "D_trend_20v40": 4,
+            "E_transition": 3,
+            "E_pair_centrality": 21,
+            "G_ensemble_equal": 5
+          },
+          "full_history_count": 31,
+          "full_history_z": 0.91,
+          "last20_count": 6,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 4
+        },
+        {
+          "number": 2,
+          "ranks_among_38": {
+            "A_freq_all": 14,
+            "B_ew_20": 9,
+            "B_roll_10": 7,
+            "C_hazard": 16,
+            "D_trend_20v40": 3,
+            "E_transition": 10,
+            "E_pair_centrality": 31,
+            "G_ensemble_equal": 7
+          },
+          "full_history_count": 29,
+          "full_history_z": 0.49,
+          "last20_count": 6,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 3
+        },
+        {
+          "number": 4,
+          "ranks_among_38": {
+            "A_freq_all": 6,
+            "B_ew_20": 3,
+            "B_roll_10": 2,
+            "C_hazard": 25,
+            "D_trend_20v40": 2,
+            "E_transition": 8,
+            "E_pair_centrality": 36,
+            "G_ensemble_equal": 3
+          },
+          "full_history_count": 32,
+          "full_history_z": 1.12,
+          "last20_count": 7,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 4
+        },
+        {
+          "number": 7,
+          "ranks_among_38": {
+            "A_freq_all": 26,
+            "B_ew_20": 13,
+            "B_roll_10": 3,
+            "C_hazard": 15,
+            "D_trend_20v40": 5,
+            "E_transition": 21,
+            "E_pair_centrality": 25,
+            "G_ensemble_equal": 11
+          },
+          "full_history_count": 25,
+          "full_history_z": -0.36,
+          "last20_count": 5,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 1
+        },
+        {
+          "number": 13,
+          "ranks_among_38": {
+            "A_freq_all": 8,
+            "B_ew_20": 1,
+            "B_roll_10": 1,
+            "C_hazard": 21,
+            "D_trend_20v40": 1,
+            "E_transition": 12,
+            "E_pair_centrality": 27,
+            "G_ensemble_equal": 2
+          },
+          "full_history_count": 31,
+          "full_history_z": 0.91,
+          "last20_count": 7,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 4
+        },
+        {
+          "number": 24,
+          "ranks_among_38": {
+            "A_freq_all": 7,
+            "B_ew_20": 2,
+            "B_roll_10": 8,
+            "C_hazard": 8,
+            "D_trend_20v40": 6,
+            "E_transition": 11,
+            "E_pair_centrality": 33,
+            "G_ensemble_equal": 1
+          },
+          "full_history_count": 32,
+          "full_history_z": 1.12,
+          "last20_count": 6,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 5
+        }
+      ],
+      "mean_percentile_under_core_rankers": {
+        "A_freq_all": 0.712,
+        "B_ew_20": 0.883,
+        "B_roll_10": 0.914,
+        "C_hazard": 0.527,
+        "D_trend_20v40": 0.932,
+        "E_transition": 0.734,
+        "E_pair_centrality": 0.248,
+        "G_ensemble_equal": 0.896
+      },
+      "long_term_evidence": {
+        "mean_full_history_z": 0.7
+      },
+      "recent_frequency_evidence": {
+        "last20_total": 37,
+        "last20_total_expected": 18.95,
+        "mean_ew20_percentile": 0.883
+      },
+      "trend_evidence": {
+        "mean_trend_percentile": 0.932
+      },
+      "gap_evidence": {
+        "mean_hazard_percentile": 0.527,
+        "note": "C_hazard (pooled re-appearance hazard) had top-12 walk-forward coverage 1.893 vs 1.895 random"
+      },
+      "pair_evidence": {
+        "mean_pair_z": 0.138,
+        "pairs_with_z_above_2": 0,
+        "note": "no pair co-occurrence survives BH correction (min q = 0.78)"
+      },
+      "structure_evidence": {
+        "sum": 51,
+        "odd": 3,
+        "low_1_19": 5,
+        "consecutive_pairs": 1,
+        "range": 23,
+        "structure_class_null_probability": 0.0085,
+        "structure_typicality_z": 1.01
+      },
+      "ensemble_evidence": {
+        "mean_ensemble_percentile": 0.896,
+        "consensus_index_0_to_1": 0.7
+      },
+      "sensitivity": {
+        "lambda_grid_variants_keeping_4plus_numbers": "48/48",
+        "sibling_rankers_keeping_4plus_numbers": "4/15"
+      },
+      "uncertainty": {
+        "expected_matches_under_exact_random": 0.947,
+        "P_3plus_random": 0.0387,
+        "note": "Walk-forward CIs of every method include the random expectation."
+      },
+      "counterevidence": [
+        "All 20 global randomness tests are consistent with an independent uniform draw (min Holm p = 1.0).",
+        "No ticket method survives Holm correction; the pre-registered dev-selected method fell below baseline in confirmation.",
+        "Every ticket, including this one, has exactly the same random probabilities: P(3+) = 3.87%, expected matches 0.947."
+      ]
+    },
+    "C21": {
+      "numbers": [
+        16,
+        27,
+        31,
+        34,
+        35,
+        38
+      ],
+      "generating_methods": [
+        "C_own_gap_pct|opt_top12"
+      ],
+      "is_random_control": false,
+      "out_of_sample_performance_of_generating_methods": {
+        "C_own_gap_pct|opt_top12": {
+          "walk_forward_targets": 140,
+          "mean_matches": 0.85,
+          "random_expectation": 0.947,
+          "dev_mean": 0.786,
+          "confirmation_mean": 0.914,
+          "exact_p_one_sided_full": 0.926,
+          "holm_p_family": 1.0,
+          "pct_3plus": 0.7,
+          "baseline_pct_3plus": 3.9,
+          "ci95_mean": [
+            0.729,
+            0.979
+          ]
+        }
+      },
+      "per_number_evidence": [
+        {
+          "number": 16,
+          "ranks_among_38": {
+            "A_freq_all": 35,
+            "B_ew_20": 31,
+            "B_roll_10": 35,
+            "C_hazard": 1,
+            "D_trend_20v40": 38,
+            "E_transition": 36,
+            "E_pair_centrality": 34,
+            "G_ensemble_equal": 35
+          },
+          "full_history_count": 20,
+          "full_history_z": -1.41,
+          "last20_count": 0,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 1
+        },
+        {
+          "number": 27,
+          "ranks_among_38": {
+            "A_freq_all": 32,
+            "B_ew_20": 33,
+            "B_roll_10": 36,
+            "C_hazard": 33,
+            "D_trend_20v40": 34,
+            "E_transition": 20,
+            "E_pair_centrality": 38,
+            "G_ensemble_equal": 36
+          },
+          "full_history_count": 23,
+          "full_history_z": -0.78,
+          "last20_count": 1,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 0
+        },
+        {
+          "number": 31,
+          "ranks_among_38": {
+            "A_freq_all": 20,
+            "B_ew_20": 17,
+            "B_roll_10": 31,
+            "C_hazard": 17,
+            "D_trend_20v40": 9,
+            "E_transition": 24,
+            "E_pair_centrality": 7,
+            "G_ensemble_equal": 14
+          },
+          "full_history_count": 26,
+          "full_history_z": -0.14,
+          "last20_count": 4,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 1
+        },
+        {
+          "number": 34,
+          "ranks_among_38": {
+            "A_freq_all": 27,
+            "B_ew_20": 34,
+            "B_roll_10": 32,
+            "C_hazard": 29,
+            "D_trend_20v40": 30,
+            "E_transition": 18,
+            "E_pair_centrality": 4,
+            "G_ensemble_equal": 34
+          },
+          "full_history_count": 24,
+          "full_history_z": -0.57,
+          "last20_count": 1,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 0
+        },
+        {
+          "number": 35,
+          "ranks_among_38": {
+            "A_freq_all": 4,
+            "B_ew_20": 8,
+            "B_roll_10": 18,
+            "C_hazard": 36,
+            "D_trend_20v40": 29,
+            "E_transition": 1,
+            "E_pair_centrality": 22,
+            "G_ensemble_equal": 12
+          },
+          "full_history_count": 32,
+          "full_history_z": 1.12,
+          "last20_count": 4,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 3
+        },
+        {
+          "number": 38,
+          "ranks_among_38": {
+            "A_freq_all": 3,
+            "B_ew_20": 10,
+            "B_roll_10": 34,
+            "C_hazard": 32,
+            "D_trend_20v40": 28,
+            "E_transition": 7,
+            "E_pair_centrality": 5,
+            "G_ensemble_equal": 10
+          },
+          "full_history_count": 33,
+          "full_history_z": 1.33,
+          "last20_count": 4,
+          "last20_expected": 3.16,
+          "components_ranking_it_top12": 3
+        }
+      ],
+      "mean_percentile_under_core_rankers": {
+        "A_freq_all": 0.482,
+        "B_ew_20": 0.428,
+        "B_roll_10": 0.189,
+        "C_hazard": 0.36,
+        "D_trend_20v40": 0.27,
+        "E_transition": 0.55,
+        "E_pair_centrality": 0.532,
+        "G_ensemble_equal": 0.392
+      },
+      "long_term_evidence": {
+        "mean_full_history_z": -0.07
+      },
+      "recent_frequency_evidence": {
+        "last20_total": 14,
+        "last20_total_expected": 18.95,
+        "mean_ew20_percentile": 0.428
+      },
+      "trend_evidence": {
+        "mean_trend_percentile": 0.27
+      },
+      "gap_evidence": {
+        "mean_hazard_percentile": 0.36,
+        "note": "C_hazard (pooled re-appearance hazard) had top-12 walk-forward coverage 1.893 vs 1.895 random"
+      },
+      "pair_evidence": {
+        "mean_pair_z": 0.195,
+        "pairs_with_z_above_2": 0,
+        "note": "no pair co-occurrence survives BH correction (min q = 0.78)"
+      },
+      "structure_evidence": {
+        "sum": 181,
+        "odd": 3,
+        "low_1_19": 1,
+        "consecutive_pairs": 1,
+        "range": 22,
+        "structure_class_null_probability": 0.0093,
+        "structure_typicality_z": 1.1
+      },
+      "ensemble_evidence": {
+        "mean_ensemble_percentile": 0.392,
+        "consensus_index_0_to_1": 0.267
+      },
+      "sensitivity": {
+        "lambda_grid_variants_keeping_4plus_numbers": "14/16",
+        "sibling_rankers_keeping_4plus_numbers": "0/3"
+      },
+      "uncertainty": {
+        "expected_matches_under_exact_random": 0.947,
+        "P_3plus_random": 0.0387,
+        "note": "Walk-forward CIs of every method include the random expectation."
+      },
+      "counterevidence": [
+        "All 20 global randomness tests are consistent with an independent uniform draw (min Holm p = 1.0).",
+        "No ticket method survives Holm correction; the pre-registered dev-selected method fell below baseline in confirmation.",
+        "Every ticket, including this one, has exactly the same random probabilities: P(3+) = 3.87%, expected matches 0.947.",
+        "Its generating method(s) did not beat the random expectation in the confirmation period."
+      ]
+    }
+  }
+}

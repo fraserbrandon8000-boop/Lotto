@@ -1,0 +1,65 @@
+{
+  "rule_id": "claude-jev-cleanroom-lotto-2340-final-selection-v1",
+  "status": "FROZEN BEFORE ANY JEV CALL",
+  "frozen_at_utc": "2026-09-23T17:45:16+00:00",
+  "target": {
+    "draw_id": 2340,
+    "date": "2026-09-23",
+    "information_cutoff_draw_id": 2339
+  },
+  "frozen_inputs": {
+    "jev_request": {
+      "path": "jev/jev_request.json",
+      "sha256": "64b130428508ae87c768302c10bdcfb497a93a41e7c34e8f39b6f1cb188c304f"
+    },
+    "candidate_pool": {
+      "path": "outputs/07_candidates_2340.json",
+      "sha256": "99e6eba1acdaeb16d29efdfb3e1a2aea9bdc0bf2e206deac0d9e9a7d8741300f"
+    },
+    "validation_decision": {
+      "path": "outputs/06_validation_decision.json",
+      "sha256": "805b906b0085ac00a3e496eaaf2d6a2576529d54bf9deebd8f7cb558b7113617"
+    },
+    "protocol": {
+      "path": "config/protocol.json",
+      "sha256": "c2e6bf999c8c898f7225f887505694b63839340487e0ac3212583ba54818b4be"
+    },
+    "normalized_dataset": {
+      "path": "data/04_normalized_analysis_dataset.csv",
+      "sha256": "119ecee581c453c48e0ae9d05dddae1a24052f6c3fbdc7a9c8a0f4abfa3893fd"
+    }
+  },
+  "jev": {
+    "model": "jev-latest",
+    "endpoint": "POST https://api.typesafe.ai/v1/systemone",
+    "decision_question": "strongest_case (Choice over all candidate IDs)",
+    "calls_allowed": "exactly one request carrying the frozen request bytes"
+  },
+  "edge_status_input": "outputs/06_validation_decision.json field VALIDATED_EDGE (computed before this rule was written; value at freeze = False)",
+  "branch_A_validated_predictive_evidence": {
+    "applies_if": "VALIDATED_EDGE is true",
+    "rule": "Eligible set = candidates whose generating_methods include the validated pre-registered method (dev_selected_ticket_method). Final ticket = the eligible candidate with the highest Jev strongest_case probability. If the eligible set is empty, the final ticket is the validated method's own ticket at the #2340 state."
+  },
+  "branch_B_no_validated_predictive_edge": {
+    "applies_if": "VALIDATED_EDGE is false",
+    "rule": "Final ticket = the candidate with the highest Jev strongest_case probability over the ENTIRE candidate pool (random controls included, because without a validated edge no candidate has a demonstrated advantage over them). The ticket is reported as a Jev relative-evidence preference with no demonstrated advantage over random: expected matches 0.947, P(3+) 3.87%."
+  },
+  "tie_break": "If two or more eligible candidates share the maximum probability (equal to 6 decimal places), choose the lowest candidate ID (C01 < C02 < ...).",
+  "choice_field_consistency": "Selection uses the argmax of the probabilities map. The response's `choice` field is recorded; if it disagrees with the argmax, the argmax still governs and the disagreement is reported.",
+  "scores_and_nouls": "Recorded and reported in full. They do not change the selected ticket under either branch.",
+  "validity_of_a_jev_result": "A valid completed result is an HTTP 200 response whose body parses as JSON and contains a choice answer for strongest_case with a probabilities map covering the candidate IDs. The FIRST valid completed result is final.",
+  "failed_request_handling": "If the single request fails without a valid completed result (transport error, timeout, non-200), the failure is logged. Only then may the identical frozen request bytes be resent, and every attempt is disclosed. Nothing in the request, candidates or rule may change.",
+  "prohibited_after_freeze": [
+    "rerunning Jev after a valid completed result for any reason (ticket appearance, consecutive numbers, low/high balance, overlap or non-overlap with any past draw, low confidence, second thoughts)",
+    "manually replacing or editing any number",
+    "regenerating, reordering or editing the candidate pool or the request",
+    "changing this rule",
+    "comparing the result with any other prediction before it is frozen in the ledger"
+  ],
+  "reporting": {
+    "jev_choice_probability": "answers.strongest_case.probabilities[selected candidate ID]",
+    "jev_confidence": "answers.strongest_case.confidence",
+    "jev_model_version": "response field `model`",
+    "disclaimer": "Jev Choice probabilities are relative decision preferences among evidence cases, not probabilities of winning."
+  }
+}

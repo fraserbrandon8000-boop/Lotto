@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "target_index": 29,
+      "draw_id": 2190,
+      "identical": true
+    },
+    {
+      "target_index": 60,
+      "draw_id": 2221,
+      "identical": true
+    },
+    {
+      "target_index": 95,
+      "draw_id": 2266,
+      "identical": true
+    },
+    {
+      "target_index": 130,
+      "draw_id": 2301,
+      "identical": true
+    },
+    {
+      "target_index": 168,
+      "draw_id": 2339,
+      "identical": true
+    }
+  ]
+}
