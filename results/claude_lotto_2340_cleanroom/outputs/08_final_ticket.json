@@ -1,0 +1,476 @@
+{
+  "target_draw": 2340,
+  "target_date": "2026-09-23",
+  "information_cutoff_draw": 2339,
+  "final_ticket": [
+    1,
+    4,
+    10,
+    13,
+    18,
+    24
+  ],
+  "final_ticket_display": "01 \u00b7 04 \u00b7 10 \u00b7 13 \u00b7 18 \u00b7 24",
+  "selected_candidate": "C09",
+  "selected_generating_methods": [
+    "consensus"
+  ],
+  "selected_is_random_control": false,
+  "decision_rule_branch": "B",
+  "selection_basis": "Branch B of the frozen rule: no validated predictive edge; highest Jev Choice probability over the full candidate pool",
+  "validated_edge": false,
+  "jev_choice_probability": 0.42,
+  "jev_confidence": 0.38,
+  "jev_choice_field": "C09",
+  "jev_choice_field_matches_argmax": true,
+  "jev_model_version": "jev-1.13.0",
+  "jev_usage": {
+    "input_tokens": 16095,
+    "output_tokens": 367
+  },
+  "jev_choice_distribution_ranked": [
+    {
+      "candidate": "C09",
+      "numbers": [
+        1,
+        4,
+        10,
+        13,
+        18,
+        24
+      ],
+      "probability": 0.42,
+      "methods": [
+        "consensus"
+      ],
+      "random_control": false
+    },
+    {
+      "candidate": "C20",
+      "numbers": [
+        1,
+        2,
+        4,
+        7,
+        13,
+        24
+      ],
+      "probability": 0.2,
+      "methods": [
+        "B_roll_10|opt_top12",
+        "B_roll_20|opt_top12",
+        "D_trend_20v40|opt_top12"
+      ],
+      "random_control": false
+    },
+    {
+      "candidate": "C06",
+      "numbers": [
+        1,
+        4,
+        13,
+        18,
+        24,
+        25
+      ],
+      "probability": 0.14,
+      "methods": [
+        "G_ensemble_equal|opt_top12"
+      ],
+      "random_control": false
+    },
+    {
+      "candidate": "C07",
+      "numbers": [
+        1,
+        2,
+        6,
+        18,
+        25,
+        35
+      ],
+      "probability": 0.14,
+      "methods": [
+        "E_transition|opt_top12"
+      ],
+      "random_control": false
+    },
+    {
+      "candidate": "C18",
+      "numbers": [
+        4,
+        9,
+        10,
+        13,
+        24,
+        35
+      ],
+      "probability": 0.03,
+      "methods": [
+        "B_ew_20|opt_top12",
+        "G_ensemble_adaptive|opt_top12"
+      ],
+      "random_control": false
+    },
+    {
+      "candidate": "C08",
+      "numbers": [
+        1,
+        4,
+        9,
+        10,
+        13,
+        24
+      ],
+      "probability": 0.02,
+      "methods": [
+        "B_ew_10|opt_top12"
+      ],
+      "random_control": false
+    },
+    {
+      "candidate": "C04",
+      "numbers": [
+        2,
+        16,
+        17,
+        25,
+        33,
+        37
+      ],
+      "probability": 0.01,
+      "methods": [
+        "random_ticket"
+      ],
+      "random_control": true
+    },
+    {
+      "candidate": "C11",
+      "numbers": [
+        4,
+        8,
+        9,
+        13,
+        24,
+        35
+      ],
+      "probability": 0.01,
+      "methods": [
+        "B_ew_40|opt_top12"
+      ],
+      "random_control": false
+    },
+    {
+      "candidate": "C12",
+      "numbers": [
+        1,
+        8,
+        13,
+        18,
+        24,
+        25
+      ],
+      "probability": 0.01,
+      "methods": [
+        "A_freq_all|opt_top12"
+      ],
+      "random_control": false
+    },
+    {
+      "candidate": "C13",
+      "numbers": [
+        1,
+        21,
+        26,
+        31,
+        34,
+        36
+      ],
+      "probability": 0.01,
+      "methods": [
+        "H_random|top6"
+      ],
+      "random_control": true
+    },
+    {
+      "candidate": "C19",
+      "numbers": [
+        8,
+        9,
+        13,
+        15,
+        22,
+        24
+      ],
+      "probability": 0.01,
+      "methods": [
+        "B_roll_30|opt_top12"
+      ],
+      "random_control": false
+    },
+    {
+      "candidate": "C01",
+      "numbers": [
+        3,
+        4,
+        13,
+        18,
+        24,
+        29
+      ],
+      "probability": 0.0,
+      "methods": [
+        "D_slope_50|opt_top12"
+      ],
+      "random_control": false
+    },
+    {
+      "candidate": "C02",
+      "numbers": [
+        5,
+        16,
+        23,
+        28,
+        29,
+        32
+      ],
+      "probability": 0.0,
+      "methods": [
+        "A_inv_cold|opt_top12"
+      ],
+      "random_control": false
+    },
+    {
+      "candidate": "C03",
+      "numbers": [
+        3,
+        9,
+        16,
+        17,
+        24,
+        26
+      ],
+      "probability": 0.0,
+      "methods": [
+        "C_hazard|opt_top12"
+      ],
+      "random_control": false
+    },
+    {
+      "candidate": "C05",
+      "numbers": [
+        1,
+        6,
+        8,
+        13,
+        35,
+        38
+      ],
+      "probability": 0.0,
+      "methods": [
+        "B_roll_100|opt_top12"
+      ],
+      "random_control": false
+    },
+    {
+      "candidate": "C10",
+      "numbers": [
+        11,
+        14,
+        18,
+        21,
+        25,
+        34
+      ],
+      "probability": 0.0,
+      "methods": [
+        "E_pair_centrality|opt_top12"
+      ],
+      "random_control": false
+    },
+    {
+      "candidate": "C14",
+      "numbers": [
+        5,
+        11,
+        16,
+        31,
+        32,
+        34
+      ],
+      "probability": 0.0,
+      "methods": [
+        "C_overdue|opt_top12"
+      ],
+      "random_control": false
+    },
+    {
+      "candidate": "C15",
+      "numbers": [
+        1,
+        4,
+        13,
+        18,
+        28,
+        29
+      ],
+      "probability": 0.0,
+      "methods": [
+        "C_recent|opt_top12"
+      ],
+      "random_control": false
+    },
+    {
+      "candidate": "C16",
+      "numbers": [
+        6,
+        9,
+        10,
+        31,
+        35,
+        38
+      ],
+      "probability": 0.0,
+      "methods": [
+        "B_roll_50|opt_top12"
+      ],
+      "random_control": false
+    },
+    {
+      "candidate": "C17",
+      "numbers": [
+        1,
+        4,
+        6,
+        13,
+        18,
+        29
+      ],
+      "probability": 0.0,
+      "methods": [
+        "B_roll_10|pair_top12"
+      ],
+      "random_control": false
+    },
+    {
+      "candidate": "C21",
+      "numbers": [
+        16,
+        27,
+        31,
+        34,
+        35,
+        38
+      ],
+      "probability": 0.0,
+      "methods": [
+        "C_own_gap_pct|opt_top12"
+      ],
+      "random_control": false
+    }
+  ],
+  "jev_scores": {
+    "empirical_robustness": {
+      "type": "score",
+      "score": 0.22,
+      "confidence": 0.82,
+      "legend": {
+        "0": "No support: confirmation-period results are at or below the random baseline and no result survives multiple-testing correction.",
+        "1": "Weak: isolated raw-significant results occur at about the rate expected by chance and do not replicate in the confirmation period.",
+        "2": "Mixed: some confirmation-period improvement over random, but not statistically significant or not robust across variants.",
+        "3": "Moderate: a pre-registered method beats random in the confirmation period with p < 0.05, but robustness across variants is limited.",
+        "4": "Strong: a pre-registered method beats random in confirmation with p < 0.05, survives multiple-testing correction, and holds across variants."
+      },
+      "probabilities": {
+        "0": 0.81,
+        "1": 0.16,
+        "2": 0.03,
+        "3": 0.0,
+        "4": 0.0
+      }
+    },
+    "evidence_quality": {
+      "type": "score",
+      "score": 2.02,
+      "confidence": 0.98,
+      "legend": {
+        "0": "Very poor: tiny or unreliable data, no out-of-sample testing, no controls.",
+        "1": "Poor: small data and weak design, with leakage or selection problems likely.",
+        "2": "Adequate: causal walk-forward testing with random controls, but small sample and low power for realistic effects.",
+        "3": "Good: causal design, random controls, complete data and power adequate for modest effects.",
+        "4": "Excellent: large complete sample, high power, fully causal design, results replicated."
+      },
+      "probabilities": {
+        "0": 0.0,
+        "1": 0.0,
+        "2": 0.98,
+        "3": 0.02,
+        "4": 0.0
+      }
+    },
+    "model_consensus": {
+      "type": "score",
+      "score": 2.57,
+      "confidence": 0.64,
+      "legend": {
+        "0": "No agreement: model families point to largely different numbers.",
+        "1": "Slight agreement: a few numbers recur, mostly among closely related frequency-type rankers.",
+        "2": "Partial agreement: several numbers recur across two or three families.",
+        "3": "Substantial agreement: most families rank a common core of numbers highly.",
+        "4": "Strong agreement: nearly all independent families converge on the same ticket."
+      },
+      "probabilities": {
+        "0": 0.0,
+        "1": 0.05,
+        "2": 0.32,
+        "3": 0.63,
+        "4": 0.0
+      }
+    },
+    "stability": {
+      "type": "score",
+      "score": 1.56,
+      "confidence": 0.63,
+      "legend": {
+        "0": "Highly unstable: small changes replace most numbers and method rankings reverse between periods.",
+        "1": "Unstable: rankings of methods change between periods and variants often replace several numbers.",
+        "2": "Moderately stable: tickets persist under construction weights but method performance does not persist across periods.",
+        "3": "Stable: tickets and method performance persist across most variants and both periods.",
+        "4": "Highly stable: tickets and performance are essentially unchanged under all reasonable variants and periods."
+      },
+      "probabilities": {
+        "0": 0.11,
+        "1": 0.22,
+        "2": 0.67,
+        "3": 0.0,
+        "4": 0.0
+      }
+    }
+  },
+  "jev_nouls": {
+    "likely_chance_or_overfitting": {
+      "type": "noul",
+      "noul": 0.96
+    },
+    "depends_on_one_model": {
+      "type": "noul",
+      "noul": 0.4
+    },
+    "unstable_under_reasonable_assumptions": {
+      "type": "noul",
+      "noul": 0.83
+    },
+    "materially_stronger_than_random": {
+      "type": "noul",
+      "noul": 0.03
+    }
+  },
+  "exact_random_expectation": {
+    "expected_matches": 0.9473684210526315,
+    "P_3plus": 0.038698,
+    "P_4plus": 0.002765,
+    "jackpot": "1 in 2,760,681"
+  },
+  "disclaimer": "Jev Choice probabilities are relative decision preferences among evidence cases, not probabilities of winning.",
+  "jev_calls_made": 1
+}
