@@ -1,0 +1,153 @@
+{
+  "rubric_id": "claude-only-lotto-2340-selection-rubric-v1",
+  "experiment": "Claude-only final ticket selection for Jamaica Lotto #2340 from the frozen clean-room evidence (no TypeSafe / Jev)",
+  "source_commit": "91eae5d6aed8cdc45227e992949748c66c2bd52b",
+  "written_before": "any candidate number, candidate evidence value, method performance value, ranking value or validation value in the frozen outputs was viewed. Only the protocol text and the key/field names of the outputs were inspected.",
+  "target": {"draw_id": 2340, "date": "2026-09-23", "information_cutoff_draw_id": 2339},
+
+  "statistical_stance": "The clean-room analysis is taken as having found NO validated predictive edge (to be confirmed from 06_validation_decision.json at evaluation time and reported, never overridden). Every candidate, including the selected one, has the same exact-random winning probability. This rubric is a disciplined, pre-declared way to choose ONE ticket among statistically indistinguishable candidates; its score is NOT a probability and NOT a claim of higher winning chance.",
+
+  "inputs_allowed": [
+    "results/claude_lotto_2340_cleanroom/config/protocol.json",
+    "results/claude_lotto_2340_cleanroom/outputs/07_candidates_2340.json",
+    "results/claude_lotto_2340_cleanroom/outputs/05_ticket_method_performance.json",
+    "results/claude_lotto_2340_cleanroom/outputs/05_sensitivity_lambda_grid.json",
+    "results/claude_lotto_2340_cleanroom/outputs/05_number_discovery_coverage.json",
+    "results/claude_lotto_2340_cleanroom/outputs/06_validation_decision.json",
+    "results/claude_lotto_2340_cleanroom/outputs/07_rankings_2340.json",
+    "results/claude_lotto_2340_cleanroom/outputs/02_exact_baseline.json",
+    "results/claude_lotto_2340_cleanroom/outputs/03_randomness_tests.json",
+    "results/claude_lotto_2340_cleanroom/outputs/04b_leakage_test.json"
+  ],
+  "inputs_excluded": {
+    "results/claude_lotto_2340_cleanroom/jev/": "TypeSafe/Jev request payload and API spec: Jev-specific, never opened",
+    "results/claude_lotto_2340_cleanroom/code/06_build_jev_request.py": "Jev request builder: never opened",
+    "results/claude_lotto_2340_cleanroom/code/07_call_jev_once.py": "Jev caller: never opened, never run",
+    "results/claude_lotto_2340_cleanroom/config/decision_rule.json": "Jev-coupled final-selection rule (key names only were seen, to classify it); values never read and not used",
+    "any commit after 91eae5d": "never checked out, logged, diffed or shown"
+  },
+  "no_recomputation": "No dataset rebuild, no walk-forward rerun, no model or ranker rerun, no new candidates, no new random baselines, no new sensitivity analysis. The scorer only reads frozen JSON fields and performs arithmetic and ranking on them.",
+
+  "search_space": {
+    "pool": "exactly the candidates in 07_candidates_2340.json (IDs C01..), no additions, no edits, no recombination of numbers",
+    "evaluated": "every candidate, including random controls",
+    "eligible_for_selection": "candidates with is_random_control == false",
+    "random_controls": "scored identically on every criterion as a within-pool calibration reference, but ineligible because they are the protocol's mandatory null controls and carry no model evidence by construction"
+  },
+
+  "definitions": {
+    "rank_percentile": "pct(rank) = (38 - rank) / 37 using per_number_evidence[*].ranks_among_38 (rank 1 = best -> 1.0, rank 38 -> 0.0)",
+    "independent_families": {
+      "A_long_term_frequency": "A_freq_all",
+      "B_recent_frequency": "B_ew_20",
+      "C_gap_hazard": "C_hazard",
+      "D_trend": "D_trend_20v40",
+      "E_transition": "E_transition",
+      "note": "one pre-registered representative per family = the five components named in the protocol's ensemble/consensus definitions. G_ensemble_* are derived from these and are NOT counted as an independent family."
+    },
+    "core_rankers_8": ["A_freq_all", "B_ew_20", "B_roll_10", "C_hazard", "D_trend_20v40", "E_transition", "E_pair_centrality", "G_ensemble_equal"],
+    "top12": "ranks_among_38 <= 12",
+    "E0": "exact random expectation of matches for one 6-number ticket = 36/38",
+    "sd0": "exact null SD of matches per ticket = sqrt(6*(6/38)*(32/38)*(32/37)); cross-checked against 06_validation_decision.json power.sd_per_ticket_under_null",
+    "n_dev": 70,
+    "n_conf": 70,
+    "generating_methods": "candidate.generating_methods; their dev_mean / confirmation_mean are taken from candidate.out_of_sample_performance_of_generating_methods and cross-checked against 05_ticket_method_performance.json (dev_mean / conf_mean)"
+  },
+
+  "criteria_in_priority_order": [
+    {
+      "id": "R1",
+      "priority": 1,
+      "name": "multi-family support",
+      "weight": 8,
+      "raw": "mean over the ticket's 6 numbers of (number of the 5 independent families whose representative ranker ranks that number top-12) / 5",
+      "higher_is_better": true,
+      "cross_check": "per-number count must equal per_number_evidence[*].components_ranking_it_top12"
+    },
+    {
+      "id": "R2",
+      "priority": 2,
+      "name": "confirmation-period evidence",
+      "weight": 7,
+      "raw": "mean over generating methods of z_conf = (confirmation_mean - E0) / (sd0 / sqrt(n_conf))",
+      "higher_is_better": true,
+      "note": "Development-only performance is deliberately NOT rewarded here. Because comparing many methods on the confirmation period is itself a selection, R6 penalizes dev->confirmation decay and the report states the Holm-corrected status."
+    },
+    {
+      "id": "R3",
+      "priority": 3,
+      "name": "ranking consistency",
+      "weight": 6,
+      "raw": "min over the 8 core rankers r of P_r, where P_r = mean over the 6 numbers of pct(rank under r). The ticket's support under its LEAST favourable core ranker.",
+      "higher_is_better": true
+    },
+    {
+      "id": "R4",
+      "priority": 4,
+      "name": "sensitivity / stability of the ticket",
+      "weight": 5,
+      "raw": "mean of the parseable fractions in candidate.sensitivity (lambda_grid_variants_keeping_4plus_numbers, sibling_rankers_keeping_4plus_numbers). Parsing: a string beginning with 'n/a' or 'not applicable' is unparseable; otherwise the first two numbers a, b in the string -> a/b, valid only if b > 0 and 0 <= a <= b; a single number with '%' -> value/100; a single number in [0, 1] without '%' -> that value; anything else is unparseable and left out of the mean. If neither field parses, raw = 0.",
+      "higher_is_better": true
+    },
+    {
+      "id": "R5",
+      "priority": 5,
+      "name": "low dependence on one fragile model",
+      "weight": 4,
+      "raw": "1 - max_share, where V_r = number of the ticket's 6 numbers in ranker r's top-12 for each of the 8 core rankers, V = sum_r V_r, max_share = max_r V_r / V (max_share = 1 if V = 0)",
+      "higher_is_better": true
+    },
+    {
+      "id": "R6",
+      "priority": 6,
+      "name": "low evidence of overfitting",
+      "weight": 3,
+      "raw": "- mean over generating methods of max(0, dev_mean - confirmation_mean) / (sd0 * sqrt(1/n_dev + 1/n_conf))  (negative standardized dev->confirmation decay; 0 = no decay)",
+      "higher_is_better": true
+    },
+    {
+      "id": "R7",
+      "priority": 7,
+      "name": "candidate-level support in the frozen evidence",
+      "weight": 2,
+      "raw": "average of two within-pool normalized ranks: (a) ticket mean pct(rank under G_ensemble_equal), higher better; (b) number of items in candidate.counterevidence, fewer better",
+      "higher_is_better": true
+    },
+    {
+      "id": "R8",
+      "priority": 8,
+      "name": "robustness across modelling assumptions (method level)",
+      "weight": 1,
+      "raw": "mean over generating methods of f(method): for a ranker-based method 'X|constructor', f = fraction of the 05_sensitivity_lambda_grid.json entries whose key starts with 'X|' that have conf_mean > E0; for 'consensus', f = mean of f over its five component rankers (A_freq_all, B_ew_20, C_hazard, D_trend_20v40, E_transition); for 'random_ticket', f uses the H_random entries",
+      "higher_is_better": true
+    }
+  ],
+
+  "normalization": "For each criterion, the raw values of ALL candidates in the pool (controls included) are converted to u = (ascending average rank - 1) / (N - 1), so the best candidate on that criterion gets 1 and the worst 0; exact ties share the average rank.",
+  "composite": "S = sum_k weight_k * u_k / sum_k weight_k  (weights 8,7,6,5,4,3,2,1 = linearly decreasing with priority; sum 36)",
+  "selection": "The eligible (non-control) candidate with the highest S is selected.",
+  "tie_break": "If S ties exactly, compare raw R1, then raw R2, ..., then raw R8 (higher wins); if still tied, the lowest candidate ID wins (IDs were assigned by a fixed-seed shuffle before this experiment).",
+
+  "explicitly_not_used": [
+    "structure_evidence (sum, odd/even count, low/high count, consecutive pairs, range, structure class probability, structure typicality) - aesthetic / 'looks random' criteria are prohibited",
+    "whether numbers were recent winners or not, repeated numbers, consecutive numbers, high/low balance",
+    "pair_evidence.mean_pair_z and pairs_with_z_above_2 used directly (in-sample co-occurrence fit); pair information enters only through the E_pair_centrality ranker in R3/R5",
+    "any TypeSafe / Jev output, probability, score, Noul or Choice, and any guess of what Jev would choose",
+    "any other system's #2340 prediction"
+  ],
+
+  "validity_checks_before_scoring": [
+    "SHA-256 of every input file is recorded",
+    "every candidate has 6 distinct integers in 1..38",
+    "recomputed per-number family top-12 counts equal components_ranking_it_top12",
+    "candidate-level dev/confirmation means equal 05_ticket_method_performance.json values for the same method (tolerance 1e-9)",
+    "sd0 matches 06_validation_decision.json power.sd_per_ticket_under_null (tolerance 1e-6) when that field exists",
+    "a failed check is reported; it never triggers regeneration or editing of the pool"
+  ],
+
+  "one_decision_rules": [
+    "The scorer is run once. Its first complete, valid output is the experiment of record.",
+    "A run that crashes before writing the selection is not a result; only a code bug fix (no rubric change) is allowed before re-running, and it is logged.",
+    "No alternative tickets, no reranking after seeing the result, no manual number changes, no regeneration because the result looks strange, no comparison with any other system before freezing."
+  ]
+}

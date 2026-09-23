@@ -1,0 +1,27 @@
+{
+ "event": "rubric and scorer frozen before any candidate value was viewed",
+ "frozen_at_utc": "2026-09-23T18:01:25Z",
+ "source_commit": "91eae5d6aed8cdc45227e992949748c66c2bd52b",
+ "config/selection_rubric.json": "298d99a61a59d98338bd7f7dd6798826c24166fe17eca46f37970f1edd3f9a9c",
+ "code/select_claude_only.py": "7170dba461e0704530b3d71a1971675cbc0e082ebda2cb6730a8313bb2c6d0d5",
+ "viewed_before_freeze": [
+  "config/protocol.json (full text)",
+  "key/field names and types of outputs/*.json (values masked)",
+  "config/decision_rule.json key names only (to classify it as Jev-coupled and exclude it)",
+  "data/RECOVERY_NOTES.md",
+  "file list and sizes at 91eae5d"
+ ],
+ "not_viewed_before_freeze": [
+  "any candidate number",
+  "any candidate evidence value",
+  "any method performance / validation / sensitivity / ranking value"
+ ],
+ "dry_run": "scorer executed once on a purely synthetic fixture generated from the schema (random fake values, no real data) to catch crashes; fixture output discarded",
+ "incidental_exposure_via_schema_dumps": [
+  "C01's generating-method key name appeared as a dict key in the masked schema (D_slope_50|opt_top12)",
+  "list lengths: counterevidence items for C01..C04 (5,4,5,5); each of C01..C04 has 1 generating method",
+  "06_validation_decision.json list lengths: methods_surviving_holm = 0, methods_raw_p_below_0.05_full_period = 7; sensitivity_variants_conf_mean keys are B_roll_*/B_ew_*|pair_top12 (implies the dev-selected method is a B-family pair_top12 method)",
+  "07_candidates_2340.json generation_rule text, n_candidates = 21, draws_used = 169",
+  "no candidate numbers and no numeric metric values were displayed"
+ ]
+}
