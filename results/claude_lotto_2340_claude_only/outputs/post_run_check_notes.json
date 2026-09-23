@@ -1,0 +1,15 @@
+{
+ "note": "Diagnosis of failed validity checks in the one real run. Read-only; no rescoring was done (no-rerank rule).",
+ "checks_run": 173,
+ "checks_failed": 24,
+ "failed_check_type": "candidate-level dev_mean / confirmation_mean vs 05_ticket_method_performance.json at tolerance 1e-9 (all 24 method entries)",
+ "cause": "07_candidates_2340.json stores these means rounded to 3 decimals (e.g. 1.0142857 -> 1.014); max absolute difference over all 24 = 0.00043, inside the 0.0005 rounding bound. The two files agree to stored precision.",
+ "effect": "Per the frozen rubric, R2 and R6 used the candidate-file (3-decimal) values. The selection was not recomputed at full precision because the rubric forbids reranking after the result.",
+ "all_other_checks_passed": [
+  "six distinct numbers in 1..38 for all 21 candidates",
+  "sd0 = 0.830648 matches frozen power.sd_per_ticket_under_null",
+  "all per-number ranks match 07_rankings_2340.json",
+  "recomputed family top-12 counts equal components_ranking_it_top12 for all 126 candidate numbers"
+ ],
+ "R4_na_rule": "C09 (consensus), C17 (dev-selected B_roll_10|pair_top12) and both random controls carry 'n/a' in both sensitivity fields in the frozen file, so R4 raw = 0 by the pre-declared rule. This is non-applicability, not measured instability, and it contributes to C06's margin over C09."
+}

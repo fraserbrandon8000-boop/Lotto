@@ -1,0 +1,15 @@
+{
+ "source_commit": "91eae5d6aed8cdc45227e992949748c66c2bd52b",
+ "branch": "claude/lotto-2340-claude-only",
+ "rubric_frozen_utc": "2026-09-23T18:01:25Z",
+ "rubric_freeze_commit": "9ca90af3006271385db33cbfccf6d56fb79eb550 (pushed before evaluation)",
+ "selection_run_utc": "2026-09-23T18:01:55Z",
+ "selection_freeze_commit": "541759245e551d75f1c33626f047d61fd1347d19 (pushed 2026-09-23T18:03Z)",
+ "selection_run_local_jamaica": "2026-09-23 13:01 (UTC-5)",
+ "target_draw": {
+  "draw_id": 2340,
+  "date": "2026-09-23",
+  "note": "evening draw on 2026-09-23 Jamaica time; the selection was frozen and pushed about 7.5 hours before an 8:30 PM draw"
+ },
+ "draw_result_known_at_freeze": false
+}
