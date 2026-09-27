@@ -1,0 +1,48 @@
+{
+  "status": "PRE-DRAW / FIRST VALID SELECTION FROZEN",
+  "created_utc": "2026-09-27T01:15:46.055596+00:00",
+  "target_draw": 2341,
+  "target_date": "2026-09-26",
+  "cutoff_draw": 2340,
+  "numbers": [
+    1,
+    4,
+    13,
+    14,
+    24,
+    38
+  ],
+  "candidate_id": "C04",
+  "generator": "B_recent",
+  "pipeline": "V1 unchanged functions and parameters; refreshed data; additional-ticket diversification",
+  "rule": "no-edge: original seeded uniform candidate rule, subject to <=2 overlap constraint",
+  "overlap": [
+    24
+  ],
+  "seed": 20260919,
+  "jev_model": "jev-1.13.0",
+  "jev_choice_probability": 0.92,
+  "jev_choice_confidence": 0.9,
+  "jev_preferred_candidate": "C04",
+  "eligible_candidate_count": 16,
+  "v1_unchanged": true,
+  "hashes": {
+    "results/lotto/draw2341/PROTOCOL.txt": "d8d9d5c2c8dd81e22d21348fa9dd4a72fa2ced2291abdfe8755ebe424e870961",
+    "results/lotto/draw2341/draws.json": "ce4895bf6d8d9d8f764cf2b734031381fa2a1b9e2bce3a7f285818a73a6a2c95",
+    "results/lotto/draw2341/metadata.json": "1c1125e620526e0bb426111714b8009020a9b3e474eff705e43e12b7d0b98b87",
+    "results/lotto/draw2341/candidates.json": "1bbb51dd39a351266841fb784df4213a9c6790da9ceb6c3125da653bfa4adf87",
+    "results/lotto/draw2341/refreshed_rankings.json": "289018fba27bc10796bbce25c4052d38bd8adb6843c5fd678642817a55148b54",
+    "results/lotto/draw2341/model_performance.json": "b611257caa1b4ea0c4cd0752bb0ab012693b03a4b302c58d2a219a68ac68ef7a",
+    "results/lotto/draw2341/candidate_sensitivity.json": "67ca94953ef1152749d4cd03aa3133177dcfeef7e4c80c6b347ceb8e25725459",
+    "results/lotto/draw2341/jev_state.json": "ba1318afdb02a97500ea848a00f71ba076907fc0ff6d2ece6f59294309a73ab9",
+    "results/lotto/draw2341/jev_request.json": "c154e79b83d90935cb7e927db15ecd86e3f17cb020cdae2cd7645f3603863c5d",
+    "results/lotto/draw2341/jev_response.json": "bbf4763b94927e330e76bf1dc097d7a6d69e8fd535ec8cff1b9e23d4d67401ce",
+    "results/lotto/draw2341/jev_receipt.json": "6e4e128a79e25356e08968e2ee0523f27f2eee2ddf69da1e8b8fef9cb6f83287",
+    "results/lotto/draw2341/pool_frozen_pre_jev.json": "13ef6af5b74decf233e2996ac876d54225ceb1cf87d8f85f08c49a3d937d4689",
+    "scripts/analyze.py": "86bdb1312a0b07fd9db97eb8186604fdcb67598764378740b7e417a23d11eca5",
+    "scripts/jev.mjs": "82bb1e4bbcabcd523b75a8ccbb700cb3b06312ff742d90cb4ba39aa8bfd2e948",
+    "scripts/research/lotto_prospective.py": "0aecf0891e47b163d68475a217d60f4460fd165c26776511569bae16ac8f43e9",
+    "scripts/research/lotto_prospective_jev.mjs": "3d3e9ba65a870598e1a5f76d7b5e7835eb3aa3996ff1cfef3d1599856dafc240",
+    "scripts/research/freeze_prospective.py": "05a2db40edcc776e518685be1943fd53409f3d49358b5ce9f24c07e18cbeb3e5"
+  }
+}
