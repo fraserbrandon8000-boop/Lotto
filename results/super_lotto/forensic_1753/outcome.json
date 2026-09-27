@@ -1,0 +1,33 @@
+{
+  "event": "outcome_recorded",
+  "recorded_utc": "2026-09-26T00:51:44.631305+00:00",
+  "target_draw_id": 1753,
+  "date": "2026-09-22",
+  "winning_main": [
+    1,
+    5,
+    8,
+    14,
+    18
+  ],
+  "super_ball": 3,
+  "source": "Official result supplied by user in attached request, 2026-09-25",
+  "prediction_path": "results\\super_lotto\\prospective\\prediction_1753.json",
+  "prediction_sha256": "902d875951c679d1e8b4738b80542ec4a7eca7e5e30e524b3e8d00d4c4395203",
+  "frozen_selection": {
+    "candidate_id": "SL10",
+    "main": [
+      1,
+      22,
+      32,
+      34,
+      35
+    ],
+    "super_ball": 2
+  },
+  "main_matches": 1,
+  "matched_main": [
+    1
+  ],
+  "super_ball_match": 0
+}

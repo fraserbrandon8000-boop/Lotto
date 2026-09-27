@@ -1,0 +1,12 @@
+{
+  "v1_files_unchanged": true,
+  "prediction_sha256": "902d875951c679d1e8b4738b80542ec4a7eca7e5e30e524b3e8d00d4c4395203",
+  "prediction_matches_original_ledger_hash": true,
+  "all_freeze_hashes_match": true,
+  "ledger_prior_bytes_preserved": true,
+  "no_1753_fitting": true,
+  "historical_origins": 126,
+  "saved_main_coverage_reconciled": true,
+  "SB_replay_argmax_reconciled": true,
+  "no_next_ticket_generated": true
+}

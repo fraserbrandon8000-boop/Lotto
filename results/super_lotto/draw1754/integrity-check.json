@@ -1,0 +1,9 @@
+{
+  "target": 1754,
+  "scheduled_draw_utc": "2026-09-26T01:30:00Z",
+  "source_page": "https://supremeventures.com/past-results/",
+  "api_url": "https://test-results.supremeventures.com/public/game/9/from/2026-09-22/to/2026-09-25",
+  "checked_utc": "2026-09-26T00:58:57.6521432Z",
+  "technical_note": "Initial preflight had a PowerShell local/UTC DateTime comparison error. Corrected by DateTimeOffset UTC normalization before any modelling or selection.",
+  "published": false
+}

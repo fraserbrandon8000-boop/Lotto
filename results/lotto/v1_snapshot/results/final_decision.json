@@ -1,0 +1,64 @@
+{
+  "created_utc": "2026-09-19T23:49:58.879752+00:00",
+  "seed": 20260919,
+  "cutoff_draw": 2338,
+  "cutoff_date": "2026-09-16",
+  "target_draw": 2339,
+  "primary": {
+    "id": "C05",
+    "numbers": [
+      1,
+      4,
+      13,
+      14,
+      24,
+      38
+    ],
+    "generator": "B_recent"
+  },
+  "secondary": {
+    "id": "C03",
+    "numbers": [
+      2,
+      6,
+      8,
+      12,
+      18,
+      25
+    ],
+    "generator": "A_long"
+  },
+  "overlap": 0,
+  "rule": "No methodology passed the corrected confirmation edge gate. Seeded uniform selection among the candidates, then minimum-overlap diversification. No predictive superiority claimed.",
+  "jev_choice": {
+    "type": "choice",
+    "choice": "C02",
+    "confidence": 0.89,
+    "probabilities": {
+      "C07": 0,
+      "C15": 0,
+      "C04": 0,
+      "C09": 0,
+      "C06": 0,
+      "C01": 0.02,
+      "C20": 0,
+      "C12": 0,
+      "C02": 0.9,
+      "C08": 0,
+      "C10": 0,
+      "C05": 0,
+      "C11": 0.05,
+      "C19": 0,
+      "C18": 0,
+      "C17": 0,
+      "C03": 0,
+      "C16": 0,
+      "C13": 0.03,
+      "C14": 0
+    }
+  },
+  "conclusion": "No detectable edge in this dataset",
+  "individual_ticket_jackpot_probability": 3.6222946439664705e-07,
+  "two_distinct_ticket_jackpot_probability": 7.244589287932941e-07,
+  "note": "Combined jackpot probability is 2/C(38,6) for any two distinct tickets; low overlap changes coverage/dependence, not this jackpot probability."
+}

@@ -1,0 +1,9 @@
+{
+  "n": 16,
+  "spearman": 0.2662127898338564,
+  "whole_draw_null_replicates": 20000,
+  "two_sided_mc_p": 0.3463826808659567,
+  "choice_weighted_matches": 1.04,
+  "unweighted_matches": 1.1875,
+  "interpretation": "One overlapping candidate set, one draw; descriptive only. Omitted options are not assigned zero probabilities."
+}

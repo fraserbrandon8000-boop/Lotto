@@ -1,0 +1,50 @@
+[
+  {
+    "model": "A_long",
+    "informative": true,
+    "top_for3": 14,
+    "top_for4": 15,
+    "top_for5": 22,
+    "top_for6": 24
+  },
+  {
+    "model": "B_recent",
+    "informative": true,
+    "top_for3": 17,
+    "top_for4": 18,
+    "top_for5": 19,
+    "top_for6": 21
+  },
+  {
+    "model": "C_gap",
+    "informative": true,
+    "top_for3": 14,
+    "top_for4": 24,
+    "top_for5": 31,
+    "top_for6": 36
+  },
+  {
+    "model": "D_trend",
+    "informative": true,
+    "top_for3": 15,
+    "top_for4": 17,
+    "top_for5": 18,
+    "top_for6": 33
+  },
+  {
+    "model": "E_pairs",
+    "informative": false,
+    "top_for3": 15,
+    "top_for4": 25,
+    "top_for5": 27,
+    "top_for6": 29
+  },
+  {
+    "model": "G_marginal_proxy",
+    "informative": true,
+    "top_for3": 15,
+    "top_for4": 18,
+    "top_for5": 19,
+    "top_for6": 20
+  }
+]

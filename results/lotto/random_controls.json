@@ -1,0 +1,9 @@
+{
+  "replicates": 20000,
+  "confirmation_mean_95": [
+    0.7,
+    1.2
+  ],
+  "single_ticket_exact3": 0.035933162868147385,
+  "single_ticket_atleast3": 0.038698060369886995
+}

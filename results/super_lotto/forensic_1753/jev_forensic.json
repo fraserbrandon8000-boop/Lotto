@@ -1,0 +1,63 @@
+{
+  "spearman_choice_vs_main_matches": 0.12101911292079993,
+  "null_whole_draw_replicates": 20000,
+  "two_sided_mc_p": 0.6367681615919204,
+  "weighted_main_matches": 0.8300000000000002,
+  "unweighted_main_matches": 0.7,
+  "best_main_matches": 2,
+  "best_ids": [
+    "SL06",
+    "SL11"
+  ],
+  "main_match_counts": {
+    "0": 8,
+    "1": 10,
+    "2": 2,
+    "3": 0,
+    "4": 0,
+    "5": 0
+  },
+  "candidate_SB_values": [
+    2,
+    4,
+    5,
+    6
+  ],
+  "candidate_main_union": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    28,
+    29,
+    30,
+    32,
+    33,
+    34,
+    35
+  ],
+  "winner_missing_from_all_candidates": [
+    14
+  ],
+  "no_candidate_correct_SB": true,
+  "interpretation": "One correlated candidate set and one draw: descriptive, not evidence validating or invalidating Jev predictive skill."
+}

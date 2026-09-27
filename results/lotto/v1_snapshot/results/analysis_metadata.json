@@ -1,0 +1,51 @@
+{
+  "seed": 20260919,
+  "n": 178,
+  "first": {
+    "draw_id": 2161,
+    "date": "2025-01-01",
+    "numbers": [
+      1,
+      14,
+      18,
+      21,
+      24,
+      36
+    ],
+    "bonus": 32,
+    "source": "lotto_draw_history.xlsx",
+    "origin": "workbook",
+    "sheet": "Lotto Draws",
+    "row": 172
+  },
+  "last": {
+    "draw_id": 2338,
+    "date": "2026-09-16",
+    "numbers": [
+      1,
+      3,
+      10,
+      13,
+      18,
+      29
+    ],
+    "bonus": 17,
+    "source": "https://supremeventures.com/past-results/",
+    "api_source": "https://test-results.supremeventures.com/public/game/5/",
+    "raw_file": "data\\official-2026-09-12.json",
+    "origin": "official_archive"
+  },
+  "next_draw_id": 2339,
+  "confirmation_draws": 40,
+  "minimum_training": 50,
+  "qualifying_models": [],
+  "protocol_sha256": "6baff3e6e3b3a1c8f845e510f149e1735c909b24b7bf63d99d58ece0e3957945",
+  "data_sha256": "d1345d51ae3d37542a4ad676d0d85de11f75170030ea4b0b80212de2f1841626",
+  "conclusion": "No detectable edge in this dataset",
+  "limitations": [
+    "Retrospective data and multiple tested approaches; no prospective replication.",
+    "Only 40 confirmation draws; low power for small advantages.",
+    "Final candidates and Jev layer are not historically validated.",
+    "Absence of evidence does not prove the physical lottery is perfectly random."
+  ]
+}

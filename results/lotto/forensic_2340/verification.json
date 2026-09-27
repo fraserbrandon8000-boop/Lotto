@@ -1,0 +1,11 @@
+{
+  "all_frozen_files_unchanged": true,
+  "ledger_append_only": true,
+  "bonus_not_scored": true,
+  "source_replay_matches_all20": true,
+  "historical_cutoff": 2339,
+  "origins": 129,
+  "fresh_Jev_calls": 0,
+  "other_systems_inspected": false,
+  "no_2341_generated": true
+}

@@ -1,0 +1,15 @@
+{
+  "frozen_utc": "2026-09-26T01:02:08.254649+00:00",
+  "target": 1754,
+  "cutoff": 1753,
+  "seed": 2026092109,
+  "candidate_count": 20,
+  "hashes": {
+    "candidates.json": "90ac084f3b63e5bc8eda4692182bfa740ab91dd734003a0a2e1b8f4d2e2f539a",
+    "jev_state.json": "0f902c17ce9e68f602c8a5230f9ad6bf99215e8649f5b1023b64b6d254738883",
+    "complete_rankings.json": "23463f4470583cfbd0f63cf7a7ea303835bc8cafb0fb6f30d08eb948f80220bd",
+    "predraw_rankings_and_fit.json": "38ea167cb3b1ee6dc4d655fe9a4877e22ae92f55232575cea09e5eef5bec6438",
+    "metadata.json": "190f870d8b23c5790382f0621997d9b068a77b773db530b993a9fb738922a060",
+    "PROTOCOL.md": "14c5a02cb58c40d05cd069429d36c0f4135b1eed6616a36963cf2b9a5a093b6c"
+  }
+}

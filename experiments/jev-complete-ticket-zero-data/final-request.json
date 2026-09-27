@@ -1,0 +1,21 @@
+{
+  "model": "jev-latest",
+  "state": {
+    "game": "Jamaica Lotto",
+    "rules": "Each ticket contains exactly six distinct integers from 1 through 38.",
+    "historical_data": "None supplied.",
+    "selection_criteria": "No additional preference criteria are supplied."
+  },
+  "questions": {
+    "ticket": {
+      "type": "choice",
+      "instructions": "With no historical Lotto data available and considering only these valid candidate combinations as alternative actions, which single ticket do you choose for the next Jamaica Lotto draw?",
+      "criteria": {
+        "T_f94f46ad": "Ticket: 5, 10, 15, 20, 25, 27",
+        "T_dae0bfa3": "Ticket: 11, 13, 17, 25, 30, 34",
+        "T_5738607e": "Ticket: 1, 2, 4, 6, 11, 13",
+        "T_22420f85": "Ticket: 1, 7, 13, 17, 19, 26"
+      }
+    }
+  }
+}

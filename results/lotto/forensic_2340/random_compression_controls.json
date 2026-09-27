@@ -1,0 +1,79 @@
+[
+  {
+    "pool": 6,
+    "replicates": 20000,
+    "origins": 40,
+    "mean_loss": 0.0,
+    "theoretical_loss": 0.0,
+    "mean_loss95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "pool": 8,
+    "replicates": 20000,
+    "origins": 40,
+    "mean_loss": 0.31526,
+    "theoretical_loss": 0.3157894736842105,
+    "mean_loss95": [
+      0.175,
+      0.475
+    ]
+  },
+  {
+    "pool": 10,
+    "replicates": 20000,
+    "origins": 40,
+    "mean_loss": 0.63201,
+    "theoretical_loss": 0.631578947368421,
+    "mean_loss95": [
+      0.425,
+      0.85
+    ]
+  },
+  {
+    "pool": 12,
+    "replicates": 20000,
+    "origins": 40,
+    "mean_loss": 0.94581625,
+    "theoretical_loss": 0.9473684210526315,
+    "mean_loss95": [
+      0.7,
+      1.2
+    ]
+  },
+  {
+    "pool": 15,
+    "replicates": 20000,
+    "origins": 40,
+    "mean_loss": 1.42056125,
+    "theoretical_loss": 1.4210526315789473,
+    "mean_loss95": [
+      1.125,
+      1.725
+    ]
+  },
+  {
+    "pool": 20,
+    "replicates": 20000,
+    "origins": 40,
+    "mean_loss": 2.2116325,
+    "theoretical_loss": 2.210526315789474,
+    "mean_loss95": [
+      1.875,
+      2.55
+    ]
+  },
+  {
+    "pool": 25,
+    "replicates": 20000,
+    "origins": 40,
+    "mean_loss": 3.00268,
+    "theoretical_loss": 3.0,
+    "mean_loss95": [
+      2.65,
+      3.35
+    ]
+  }
+]

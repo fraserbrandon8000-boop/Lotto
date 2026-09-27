@@ -1,0 +1,575 @@
+[
+  {
+    "group": "hit",
+    "number": "1",
+    "frequency": "32",
+    "expected": "28.105263157894736",
+    "deviation": "3.8947368421052637",
+    "appearance_rate": "0.1797752808988764",
+    "ew_rate": "0.20069331026348416",
+    "current_gap": "0",
+    "mean_completed_gap": "4.709677419354839",
+    "median_completed_gap": "3.0",
+    "gap_sd": "4.87984663957859",
+    "current_gap_percentile": "0.25806451612903225",
+    "longest_completed_gap": "17",
+    "longest_observed_absence": "17",
+    "gap_complete_intervals": "31",
+    "trend_20_vs_previous40": "0.1",
+    "short_long_ratio": "1.390625",
+    "block10_rate_volatility": "0.11048023512348792",
+    "frequency_p_two_sided": "0.4113033439382138",
+    "frequency_holm_p": "1.0",
+    "last_100_count": "18",
+    "last_50_count": "9",
+    "last_30_count": "6",
+    "last_20_count": "5",
+    "last_10_count": "3",
+    "stored_candidate_occurrences": 5,
+    "candidate_memberships": [
+      "C01",
+      "C04",
+      "C05",
+      "C06",
+      "C13"
+    ],
+    "rankings": {
+      "A_long": [
+        6,
+        10
+      ],
+      "B_recent": [
+        10,
+        10
+      ],
+      "C_gap": [
+        33,
+        38
+      ],
+      "D_trend": [
+        8,
+        9
+      ],
+      "E_pairs": [
+        null,
+        null
+      ],
+      "G_marginal_proxy": [
+        6,
+        6
+      ]
+    },
+    "pair_network_score": 0.0,
+    "ensemble_marginal_score": 0.7617937353954032,
+    "sensitivity": "Stored at ticket level only; no pre-draw number-level sensitivity was persisted."
+  },
+  {
+    "group": "hit",
+    "number": "4",
+    "frequency": "31",
+    "expected": "28.105263157894736",
+    "deviation": "2.8947368421052637",
+    "appearance_rate": "0.17415730337078653",
+    "ew_rate": "0.20117081671440992",
+    "current_gap": "1",
+    "mean_completed_gap": "4.633333333333334",
+    "median_completed_gap": "2.0",
+    "gap_sd": "6.682366570946684",
+    "current_gap_percentile": "0.4666666666666667",
+    "longest_completed_gap": "32",
+    "longest_observed_absence": "32",
+    "gap_complete_intervals": "30",
+    "trend_20_vs_previous40": "0.175",
+    "short_long_ratio": "1.7225806451612902",
+    "block10_rate_volatility": "0.1411611511296054",
+    "frequency_p_two_sided": "0.5376642908296296",
+    "frequency_holm_p": "1.0",
+    "last_100_count": "15",
+    "last_50_count": "7",
+    "last_30_count": "6",
+    "last_20_count": "6",
+    "last_10_count": "4",
+    "stored_candidate_occurrences": 6,
+    "candidate_memberships": [
+      "C05",
+      "C06",
+      "C10",
+      "C11",
+      "C12",
+      "C17"
+    ],
+    "rankings": {
+      "A_long": [
+        11,
+        13
+      ],
+      "B_recent": [
+        9,
+        9
+      ],
+      "C_gap": [
+        29,
+        32
+      ],
+      "D_trend": [
+        3,
+        4
+      ],
+      "E_pairs": [
+        null,
+        null
+      ],
+      "G_marginal_proxy": [
+        5,
+        5
+      ]
+    },
+    "pair_network_score": 0.0,
+    "ensemble_marginal_score": 0.9445432447002345,
+    "sensitivity": "Stored at ticket level only; no pre-draw number-level sensitivity was persisted."
+  },
+  {
+    "group": "missed_winner",
+    "number": "6",
+    "frequency": "29",
+    "expected": "28.105263157894736",
+    "deviation": "0.8947368421052637",
+    "appearance_rate": "0.16292134831460675",
+    "ew_rate": "0.16023147172987895",
+    "current_gap": "3",
+    "mean_completed_gap": "5.071428571428571",
+    "median_completed_gap": "3.0",
+    "gap_sd": "5.255886093166273",
+    "current_gap_percentile": "0.6071428571428571",
+    "longest_completed_gap": "20",
+    "longest_observed_absence": "20",
+    "gap_complete_intervals": "28",
+    "trend_20_vs_previous40": "-0.07500000000000001",
+    "short_long_ratio": "0.9206896551724137",
+    "block10_rate_volatility": "0.11694644324747673",
+    "frequency_p_two_sided": "0.8371867275756606",
+    "frequency_holm_p": "1.0",
+    "last_100_count": "20",
+    "last_50_count": "10",
+    "last_30_count": "3",
+    "last_20_count": "3",
+    "last_10_count": "1",
+    "stored_candidate_occurrences": 3,
+    "candidate_memberships": [
+      "C03",
+      "C15",
+      "C16"
+    ],
+    "rankings": {
+      "A_long": [
+        16,
+        16
+      ],
+      "B_recent": [
+        26,
+        26
+      ],
+      "C_gap": [
+        21,
+        23
+      ],
+      "D_trend": [
+        27,
+        32
+      ],
+      "E_pairs": [
+        null,
+        null
+      ],
+      "G_marginal_proxy": [
+        23,
+        23
+      ]
+    },
+    "pair_network_score": 0.0,
+    "ensemble_marginal_score": -0.3438927783621141,
+    "sensitivity": "Stored at ticket level only; no pre-draw number-level sensitivity was persisted."
+  },
+  {
+    "group": "hit",
+    "number": "13",
+    "frequency": "31",
+    "expected": "28.105263157894736",
+    "deviation": "2.8947368421052637",
+    "appearance_rate": "0.17415730337078653",
+    "ew_rate": "0.2365852858356249",
+    "current_gap": "0",
+    "mean_completed_gap": "4.566666666666666",
+    "median_completed_gap": "3.0",
+    "gap_sd": "4.553765651545477",
+    "current_gap_percentile": "0.1",
+    "longest_completed_gap": "21",
+    "longest_observed_absence": "21",
+    "gap_complete_intervals": "30",
+    "trend_20_vs_previous40": "0.19999999999999998",
+    "short_long_ratio": "1.7225806451612902",
+    "block10_rate_volatility": "0.1121317502394603",
+    "frequency_p_two_sided": "0.5376642908296296",
+    "frequency_holm_p": "1.0",
+    "last_100_count": "19",
+    "last_50_count": "9",
+    "last_30_count": "7",
+    "last_20_count": "6",
+    "last_10_count": "5",
+    "stored_candidate_occurrences": 6,
+    "candidate_memberships": [
+      "C02",
+      "C05",
+      "C06",
+      "C10",
+      "C16",
+      "C19"
+    ],
+    "rankings": {
+      "A_long": [
+        11,
+        13
+      ],
+      "B_recent": [
+        4,
+        4
+      ],
+      "C_gap": [
+        33,
+        38
+      ],
+      "D_trend": [
+        1,
+        2
+      ],
+      "E_pairs": [
+        null,
+        null
+      ],
+      "G_marginal_proxy": [
+        2,
+        2
+      ]
+    },
+    "pair_network_score": 0.0,
+    "ensemble_marginal_score": 1.216963373170753,
+    "sensitivity": "Stored at ticket level only; no pre-draw number-level sensitivity was persisted."
+  },
+  {
+    "group": "selected_miss",
+    "number": "14",
+    "frequency": "27",
+    "expected": "28.105263157894736",
+    "deviation": "-1.1052631578947363",
+    "appearance_rate": "0.15168539325842698",
+    "ew_rate": "0.15613219170003279",
+    "current_gap": "11",
+    "mean_completed_gap": "5.384615384615385",
+    "median_completed_gap": "2.0",
+    "gap_sd": "6.945945136995673",
+    "current_gap_percentile": "0.8461538461538461",
+    "longest_completed_gap": "27",
+    "longest_observed_absence": "27",
+    "gap_complete_intervals": "26",
+    "trend_20_vs_previous40": "-0.024999999999999994",
+    "short_long_ratio": "0.9888888888888888",
+    "block10_rate_volatility": "0.14602578338007538",
+    "frequency_p_two_sided": "0.9181416066501373",
+    "frequency_holm_p": "1.0",
+    "last_100_count": "14",
+    "last_50_count": "8",
+    "last_30_count": "7",
+    "last_20_count": "3",
+    "last_10_count": "0",
+    "stored_candidate_occurrences": 3,
+    "candidate_memberships": [
+      "C05",
+      "C09",
+      "C20"
+    ],
+    "rankings": {
+      "A_long": [
+        20,
+        22
+      ],
+      "B_recent": [
+        12,
+        12
+      ],
+      "C_gap": [
+        6,
+        7
+      ],
+      "D_trend": [
+        18,
+        24
+      ],
+      "E_pairs": [
+        null,
+        null
+      ],
+      "G_marginal_proxy": [
+        19,
+        19
+      ]
+    },
+    "pair_network_score": 0.0,
+    "ensemble_marginal_score": 0.07042248319151392,
+    "sensitivity": "Stored at ticket level only; no pre-draw number-level sensitivity was persisted."
+  },
+  {
+    "group": "missed_winner",
+    "number": "23",
+    "frequency": "21",
+    "expected": "28.105263157894736",
+    "deviation": "-7.105263157894736",
+    "appearance_rate": "0.11797752808988764",
+    "ew_rate": "0.14708377558859323",
+    "current_gap": "7",
+    "mean_completed_gap": "6.95",
+    "median_completed_gap": "4.5",
+    "gap_sd": "6.597248230173421",
+    "current_gap_percentile": "0.65",
+    "longest_completed_gap": "20",
+    "longest_observed_absence": "20",
+    "gap_complete_intervals": "20",
+    "trend_20_vs_previous40": "-0.07499999999999998",
+    "short_long_ratio": "0.8476190476190477",
+    "block10_rate_volatility": "0.08828430011649196",
+    "frequency_p_two_sided": "0.18042635456396822",
+    "frequency_holm_p": "1.0",
+    "last_100_count": "16",
+    "last_50_count": "9",
+    "last_30_count": "5",
+    "last_20_count": "2",
+    "last_10_count": "1",
+    "stored_candidate_occurrences": 3,
+    "candidate_memberships": [
+      "C07",
+      "C09",
+      "C18"
+    ],
+    "rankings": {
+      "A_long": [
+        36,
+        37
+      ],
+      "B_recent": [
+        20,
+        20
+      ],
+      "C_gap": [
+        12,
+        13
+      ],
+      "D_trend": [
+        27,
+        32
+      ],
+      "E_pairs": [
+        null,
+        null
+      ],
+      "G_marginal_proxy": [
+        30,
+        30
+      ]
+    },
+    "pair_network_score": 0.0,
+    "ensemble_marginal_score": -0.6216053468669234,
+    "sensitivity": "Stored at ticket level only; no pre-draw number-level sensitivity was persisted."
+  },
+  {
+    "group": "selected_miss",
+    "number": "24",
+    "frequency": "34",
+    "expected": "28.105263157894736",
+    "deviation": "5.894736842105264",
+    "appearance_rate": "0.19101123595505617",
+    "ew_rate": "0.24106578497173367",
+    "current_gap": "2",
+    "mean_completed_gap": "4.303030303030303",
+    "median_completed_gap": "3.0",
+    "gap_sd": "3.8688245023912664",
+    "current_gap_percentile": "0.42424242424242425",
+    "longest_completed_gap": "16",
+    "longest_observed_absence": "16",
+    "gap_complete_intervals": "33",
+    "trend_20_vs_previous40": "0.19999999999999998",
+    "short_long_ratio": "1.8323529411764705",
+    "block10_rate_volatility": "0.10744355563298723",
+    "frequency_p_two_sided": "0.21823790648581484",
+    "frequency_holm_p": "1.0",
+    "last_100_count": "18",
+    "last_50_count": "12",
+    "last_30_count": "9",
+    "last_20_count": "7",
+    "last_10_count": "3",
+    "stored_candidate_occurrences": 10,
+    "candidate_memberships": [
+      "C01",
+      "C02",
+      "C04",
+      "C05",
+      "C08",
+      "C10",
+      "C11",
+      "C14",
+      "C16",
+      "C19"
+    ],
+    "rankings": {
+      "A_long": [
+        4,
+        5
+      ],
+      "B_recent": [
+        1,
+        1
+      ],
+      "C_gap": [
+        24,
+        28
+      ],
+      "D_trend": [
+        1,
+        2
+      ],
+      "E_pairs": [
+        null,
+        null
+      ],
+      "G_marginal_proxy": [
+        1,
+        1
+      ]
+    },
+    "pair_network_score": 0.0,
+    "ensemble_marginal_score": 1.5786252220302908,
+    "sensitivity": "Stored at ticket level only; no pre-draw number-level sensitivity was persisted."
+  },
+  {
+    "group": "missed_winner",
+    "number": "28",
+    "frequency": "21",
+    "expected": "28.105263157894736",
+    "deviation": "-7.105263157894736",
+    "appearance_rate": "0.11797752808988764",
+    "ew_rate": "0.05927850854285441",
+    "current_gap": "15",
+    "mean_completed_gap": "6.8",
+    "median_completed_gap": "4.5",
+    "gap_sd": "7.783924054370682",
+    "current_gap_percentile": "0.85",
+    "longest_completed_gap": "25",
+    "longest_observed_absence": "25",
+    "gap_complete_intervals": "20",
+    "trend_20_vs_previous40": "0.0",
+    "short_long_ratio": "0.42380952380952386",
+    "block10_rate_volatility": "0.10914103126634983",
+    "frequency_p_two_sided": "0.18042635456396822",
+    "frequency_holm_p": "1.0",
+    "last_100_count": "10",
+    "last_50_count": "3",
+    "last_30_count": "1",
+    "last_20_count": "1",
+    "last_10_count": "0",
+    "stored_candidate_occurrences": 1,
+    "candidate_memberships": [
+      "C07"
+    ],
+    "rankings": {
+      "A_long": [
+        36,
+        37
+      ],
+      "B_recent": [
+        38,
+        38
+      ],
+      "C_gap": [
+        3,
+        4
+      ],
+      "D_trend": [
+        16,
+        17
+      ],
+      "E_pairs": [
+        null,
+        null
+      ],
+      "G_marginal_proxy": [
+        35,
+        35
+      ]
+    },
+    "pair_network_score": 0.0,
+    "ensemble_marginal_score": -1.0109130866162142,
+    "sensitivity": "Stored at ticket level only; no pre-draw number-level sensitivity was persisted."
+  },
+  {
+    "group": "selected_miss",
+    "number": "38",
+    "frequency": "35",
+    "expected": "28.105263157894736",
+    "deviation": "6.894736842105264",
+    "appearance_rate": "0.19662921348314608",
+    "ew_rate": "0.20598106777897768",
+    "current_gap": "12",
+    "mean_completed_gap": "3.6176470588235294",
+    "median_completed_gap": "2.5",
+    "gap_sd": "5.099106908625975",
+    "current_gap_percentile": "0.9705882352941176",
+    "longest_completed_gap": "27",
+    "longest_observed_absence": "27",
+    "gap_complete_intervals": "34",
+    "trend_20_vs_previous40": "-0.04999999999999999",
+    "short_long_ratio": "1.0171428571428571",
+    "block10_rate_volatility": "0.12485285456935956",
+    "frequency_p_two_sided": "0.15122099302434044",
+    "frequency_holm_p": "1.0",
+    "last_100_count": "24",
+    "last_50_count": "11",
+    "last_30_count": "7",
+    "last_20_count": "4",
+    "last_10_count": "0",
+    "stored_candidate_occurrences": 5,
+    "candidate_memberships": [
+      "C04",
+      "C05",
+      "C07",
+      "C15",
+      "C20"
+    ],
+    "rankings": {
+      "A_long": [
+        3,
+        3
+      ],
+      "B_recent": [
+        6,
+        6
+      ],
+      "C_gap": [
+        5,
+        5
+      ],
+      "D_trend": [
+        25,
+        26
+      ],
+      "E_pairs": [
+        null,
+        null
+      ],
+      "G_marginal_proxy": [
+        11,
+        11
+      ]
+    },
+    "pair_network_score": 0.0,
+    "ensemble_marginal_score": 0.5616250744103259,
+    "sensitivity": "Stored at ticket level only; no pre-draw number-level sensitivity was persisted."
+  }
+]

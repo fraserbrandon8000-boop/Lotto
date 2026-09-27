@@ -1,0 +1,406 @@
+Super Lotto simulations 2500
+Super Lotto simulations 5000
+Super Lotto simulations 7500
+Super Lotto simulations 10000
+Super Lotto sensitivity window20
+Super Lotto sensitivity window40
+Super Lotto sensitivity half10
+Super Lotto sensitivity half40
+Super Lotto sensitivity trend10
+Super Lotto sensitivity trend30
+Super Lotto sensitivity history100
+Super Lotto sensitivity pair001
+Super Lotto sensitivity pair010
+Super Lotto sensitivity equal
+Super Lotto sensitivity seed
+{
+  "audit": {
+    "workbook": "C:\\Data_Unbackupped\\FRASEB01\\Downloads\\super_lotto_draw_history.xlsx",
+    "sha256": "e7c654a8e7c4ce56738b4bb9ea7032209f52a609e3341e448a3f260f9036a07f",
+    "original_records": 176,
+    "id_range": [
+      1577,
+      1752
+    ],
+    "date_range": [
+      "2025-01-03",
+      "2026-09-18"
+    ],
+    "order": "descending",
+    "dates_descending": true,
+    "missing_ids": [],
+    "duplicate_ids": [],
+    "duplicate_records": [],
+    "invalid_or_missing": [],
+    "derived_column_discrepancies": [],
+    "frequency_discrepancies": [],
+    "summary_rounding": "Expected main frequency 176*5/35=25.142857, workbook rounds to 25.1; all models recompute raw rows.",
+    "new_official_draws": [],
+    "cutoff": {
+      "draw_id": 1752,
+      "date": "2026-09-18",
+      "numbers": [
+        9,
+        11,
+        18,
+        29,
+        35
+      ],
+      "super_ball": 5,
+      "source": "C:\\Data_Unbackupped\\FRASEB01\\Downloads\\super_lotto_draw_history.xlsx",
+      "sheet": "Draws",
+      "row": 2
+    },
+    "provenance_limit": "Workbook states screenshot transcription; only latest overlapping draw independently checked against official feed."
+  },
+  "qualifiers": [],
+  "confirmation": [
+    {
+      "domain": "main",
+      "model": "A_long",
+      "period": "confirmation",
+      "n": 40,
+      "mean": 0.675,
+      "total": 27,
+      "rates": [
+        0.5,
+        0.325,
+        0.175,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "p": 0.6663279427273494,
+      "ci": [
+        0.5,
+        0.85
+      ],
+      "older": 0.6,
+      "recent": 0.75,
+      "holm_p": 1.0,
+      "qualifies": false
+    },
+    {
+      "domain": "main",
+      "model": "B_recent",
+      "period": "confirmation",
+      "n": 40,
+      "mean": 0.75,
+      "total": 30,
+      "rates": [
+        0.425,
+        0.4,
+        0.175,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "p": 0.4135806208313115,
+      "ci": [
+        0.55,
+        0.975
+      ],
+      "older": 0.75,
+      "recent": 0.75,
+      "holm_p": 1.0,
+      "qualifies": false
+    },
+    {
+      "domain": "main",
+      "model": "C_gap",
+      "period": "confirmation",
+      "n": 40,
+      "mean": 0.7,
+      "total": 28,
+      "rates": [
+        0.425,
+        0.45,
+        0.125,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "p": 0.5839042097985041,
+      "ci": [
+        0.525,
+        0.875
+      ],
+      "older": 0.65,
+      "recent": 0.75,
+      "holm_p": 1.0,
+      "qualifies": false
+    },
+    {
+      "domain": "main",
+      "model": "D_trend",
+      "period": "confirmation",
+      "n": 40,
+      "mean": 0.625,
+      "total": 25,
+      "rates": [
+        0.5,
+        0.375,
+        0.125,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "p": 0.808308903143885,
+      "ci": [
+        0.4,
+        0.9
+      ],
+      "older": 0.8,
+      "recent": 0.45,
+      "holm_p": 1.0,
+      "qualifies": false
+    },
+    {
+      "domain": "main",
+      "model": "E_pairs",
+      "period": "confirmation",
+      "n": 40,
+      "mean": 0.625,
+      "total": 25,
+      "rates": [
+        0.475,
+        0.425,
+        0.1,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "p": 0.808308903143885,
+      "ci": [
+        0.475,
+        0.775
+      ],
+      "older": 0.75,
+      "recent": 0.5,
+      "holm_p": 1.0,
+      "qualifies": false
+    },
+    {
+      "domain": "main",
+      "model": "F_structure",
+      "period": "confirmation",
+      "n": 40,
+      "mean": 0.625,
+      "total": 25,
+      "rates": [
+        0.475,
+        0.425,
+        0.1,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "p": 0.808308903143885,
+      "ci": [
+        0.425,
+        0.85
+      ],
+      "older": 0.85,
+      "recent": 0.4,
+      "holm_p": 1.0,
+      "qualifies": false
+    },
+    {
+      "domain": "main",
+      "model": "G_ensemble",
+      "period": "confirmation",
+      "n": 40,
+      "mean": 0.625,
+      "total": 25,
+      "rates": [
+        0.475,
+        0.425,
+        0.1,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "p": 0.808308903143885,
+      "ci": [
+        0.475,
+        0.775
+      ],
+      "older": 0.75,
+      "recent": 0.5,
+      "holm_p": 1.0,
+      "qualifies": false
+    },
+    {
+      "domain": "main",
+      "model": "H_random",
+      "period": "confirmation",
+      "n": 40,
+      "mean": 0.625,
+      "total": 25,
+      "rates": [
+        0.475,
+        0.425,
+        0.1,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "p": 0.808308903143885,
+      "ci": [
+        0.45,
+        0.775
+      ],
+      "older": 0.65,
+      "recent": 0.6,
+      "holm_p": 1.0,
+      "qualifies": false
+    },
+    {
+      "domain": "SB",
+      "model": "S_long",
+      "period": "confirmation",
+      "n": 40,
+      "mean": 0.05,
+      "total": 2,
+      "rates": [
+        0.95,
+        0.05
+      ],
+      "p": 0.919526303985524,
+      "ci": [
+        0.0,
+        0.15
+      ],
+      "older": 0.1,
+      "recent": 0.0,
+      "holm_p": 1.0,
+      "qualifies": false
+    },
+    {
+      "domain": "SB",
+      "model": "S_recent",
+      "period": "confirmation",
+      "n": 40,
+      "mean": 0.125,
+      "total": 5,
+      "rates": [
+        0.875,
+        0.125
+      ],
+      "p": 0.3709823034657994,
+      "ci": [
+        0.05,
+        0.2
+      ],
+      "older": 0.1,
+      "recent": 0.15,
+      "holm_p": 1.0,
+      "qualifies": false
+    },
+    {
+      "domain": "SB",
+      "model": "S_gap",
+      "period": "confirmation",
+      "n": 40,
+      "mean": 0.05,
+      "total": 2,
+      "rates": [
+        0.95,
+        0.05
+      ],
+      "p": 0.919526303985524,
+      "ci": [
+        0.0,
+        0.1
+      ],
+      "older": 0.05,
+      "recent": 0.05,
+      "holm_p": 1.0,
+      "qualifies": false
+    },
+    {
+      "domain": "SB",
+      "model": "S_trend",
+      "period": "confirmation",
+      "n": 40,
+      "mean": 0.15,
+      "total": 6,
+      "rates": [
+        0.85,
+        0.15
+      ],
+      "p": 0.20627266871283986,
+      "ci": [
+        0.05,
+        0.25
+      ],
+      "older": 0.2,
+      "recent": 0.1,
+      "holm_p": 1.0,
+      "qualifies": false
+    },
+    {
+      "domain": "SB",
+      "model": "S_transition",
+      "period": "confirmation",
+      "n": 40,
+      "mean": 0.05,
+      "total": 2,
+      "rates": [
+        0.95,
+        0.05
+      ],
+      "p": 0.919526303985524,
+      "ci": [
+        0.0,
+        0.125
+      ],
+      "older": 0.05,
+      "recent": 0.05,
+      "holm_p": 1.0,
+      "qualifies": false
+    },
+    {
+      "domain": "SB",
+      "model": "S_ensemble",
+      "period": "confirmation",
+      "n": 40,
+      "mean": 0.05,
+      "total": 2,
+      "rates": [
+        0.95,
+        0.05
+      ],
+      "p": 0.919526303985524,
+      "ci": [
+        0.0,
+        0.1
+      ],
+      "older": 0.05,
+      "recent": 0.05,
+      "holm_p": 1.0,
+      "qualifies": false
+    },
+    {
+      "domain": "SB",
+      "model": "S_random",
+      "period": "confirmation",
+      "n": 40,
+      "mean": 0.1,
+      "total": 4,
+      "rates": [
+        0.9,
+        0.1
+      ],
+      "p": 0.5768693469069989,
+      "ci": [
+        0.025,
+        0.175
+      ],
+      "older": 0.1,
+      "recent": 0.1,
+      "holm_p": 1.0,
+      "qualifies": false
+    }
+  ]
+}

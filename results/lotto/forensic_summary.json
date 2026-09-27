@@ -1,0 +1,1067 @@
+{
+  "tracks": [
+    {
+      "track": "V1_primary",
+      "numbers": [
+        1,
+        4,
+        13,
+        14,
+        24,
+        38
+      ],
+      "matches": 3,
+      "matched": [
+        1,
+        4,
+        13
+      ],
+      "status": "frozen_pre_draw",
+      "source": "results/final_decision.json"
+    },
+    {
+      "track": "V1_secondary",
+      "numbers": [
+        2,
+        6,
+        8,
+        12,
+        18,
+        25
+      ],
+      "matches": 1,
+      "matched": [
+        6
+      ],
+      "status": "frozen_pre_draw",
+      "source": "results/final_decision.json"
+    },
+    {
+      "track": "Jev_evidence_preference",
+      "numbers": [
+        2,
+        10,
+        13,
+        18,
+        24,
+        33
+      ],
+      "matches": 1,
+      "matched": [
+        13
+      ],
+      "status": "pre_draw_analysis_not_primary",
+      "source": "results/jev_response.json"
+    },
+    {
+      "track": "candidate_C01",
+      "numbers": [
+        1,
+        8,
+        15,
+        18,
+        24,
+        25
+      ],
+      "matches": 1,
+      "matched": [
+        1
+      ],
+      "status": "pre_draw_candidate_not_separate_prospective_track",
+      "source": "results/candidates.json"
+    },
+    {
+      "track": "candidate_C02",
+      "numbers": [
+        2,
+        10,
+        13,
+        18,
+        24,
+        33
+      ],
+      "matches": 1,
+      "matched": [
+        13
+      ],
+      "status": "pre_draw_candidate_not_separate_prospective_track",
+      "source": "results/candidates.json"
+    },
+    {
+      "track": "candidate_C03",
+      "numbers": [
+        2,
+        6,
+        8,
+        12,
+        18,
+        25
+      ],
+      "matches": 1,
+      "matched": [
+        6
+      ],
+      "status": "pre_draw_candidate_not_separate_prospective_track",
+      "source": "results/candidates.json"
+    },
+    {
+      "track": "candidate_C04",
+      "numbers": [
+        1,
+        2,
+        9,
+        22,
+        24,
+        38
+      ],
+      "matches": 1,
+      "matched": [
+        1
+      ],
+      "status": "pre_draw_candidate_not_separate_prospective_track",
+      "source": "results/candidates.json"
+    },
+    {
+      "track": "candidate_C05",
+      "numbers": [
+        1,
+        4,
+        13,
+        14,
+        24,
+        38
+      ],
+      "matches": 3,
+      "matched": [
+        1,
+        4,
+        13
+      ],
+      "status": "pre_draw_candidate_not_separate_prospective_track",
+      "source": "results/candidates.json"
+    },
+    {
+      "track": "candidate_C06",
+      "numbers": [
+        1,
+        2,
+        4,
+        10,
+        13,
+        35
+      ],
+      "matches": 3,
+      "matched": [
+        1,
+        4,
+        13
+      ],
+      "status": "pre_draw_candidate_not_separate_prospective_track",
+      "source": "results/candidates.json"
+    },
+    {
+      "track": "candidate_C07",
+      "numbers": [
+        16,
+        23,
+        28,
+        33,
+        34,
+        38
+      ],
+      "matches": 2,
+      "matched": [
+        23,
+        28
+      ],
+      "status": "pre_draw_candidate_not_separate_prospective_track",
+      "source": "results/candidates.json"
+    },
+    {
+      "track": "candidate_C08",
+      "numbers": [
+        5,
+        11,
+        16,
+        24,
+        27,
+        34
+      ],
+      "matches": 0,
+      "matched": [],
+      "status": "pre_draw_candidate_not_separate_prospective_track",
+      "source": "results/candidates.json"
+    },
+    {
+      "track": "candidate_C09",
+      "numbers": [
+        5,
+        11,
+        14,
+        16,
+        23,
+        32
+      ],
+      "matches": 1,
+      "matched": [
+        23
+      ],
+      "status": "pre_draw_candidate_not_separate_prospective_track",
+      "source": "results/candidates.json"
+    },
+    {
+      "track": "candidate_C10",
+      "numbers": [
+        4,
+        7,
+        12,
+        13,
+        19,
+        24
+      ],
+      "matches": 2,
+      "matched": [
+        4,
+        13
+      ],
+      "status": "pre_draw_candidate_not_separate_prospective_track",
+      "source": "results/candidates.json"
+    },
+    {
+      "track": "candidate_C11",
+      "numbers": [
+        4,
+        7,
+        10,
+        22,
+        24,
+        31
+      ],
+      "matches": 1,
+      "matched": [
+        4
+      ],
+      "status": "pre_draw_candidate_not_separate_prospective_track",
+      "source": "results/candidates.json"
+    },
+    {
+      "track": "candidate_C12",
+      "numbers": [
+        2,
+        3,
+        4,
+        7,
+        10,
+        15
+      ],
+      "matches": 1,
+      "matched": [
+        4
+      ],
+      "status": "pre_draw_candidate_not_separate_prospective_track",
+      "source": "results/candidates.json"
+    },
+    {
+      "track": "candidate_C13",
+      "numbers": [
+        1,
+        5,
+        8,
+        12,
+        26,
+        34
+      ],
+      "matches": 1,
+      "matched": [
+        1
+      ],
+      "status": "pre_draw_candidate_not_separate_prospective_track",
+      "source": "results/candidates.json"
+    },
+    {
+      "track": "candidate_C14",
+      "numbers": [
+        8,
+        10,
+        11,
+        15,
+        21,
+        24
+      ],
+      "matches": 0,
+      "matched": [],
+      "status": "pre_draw_candidate_not_separate_prospective_track",
+      "source": "results/candidates.json"
+    },
+    {
+      "track": "candidate_C15",
+      "numbers": [
+        6,
+        8,
+        15,
+        17,
+        19,
+        38
+      ],
+      "matches": 1,
+      "matched": [
+        6
+      ],
+      "status": "pre_draw_candidate_not_separate_prospective_track",
+      "source": "results/candidates.json"
+    },
+    {
+      "track": "candidate_C16",
+      "numbers": [
+        6,
+        7,
+        13,
+        24,
+        32,
+        35
+      ],
+      "matches": 2,
+      "matched": [
+        6,
+        13
+      ],
+      "status": "pre_draw_candidate_not_separate_prospective_track",
+      "source": "results/candidates.json"
+    },
+    {
+      "track": "candidate_C17",
+      "numbers": [
+        4,
+        16,
+        17,
+        21,
+        26,
+        33
+      ],
+      "matches": 1,
+      "matched": [
+        4
+      ],
+      "status": "pre_draw_candidate_not_separate_prospective_track",
+      "source": "results/candidates.json"
+    },
+    {
+      "track": "candidate_C18",
+      "numbers": [
+        7,
+        8,
+        12,
+        23,
+        29,
+        34
+      ],
+      "matches": 1,
+      "matched": [
+        23
+      ],
+      "status": "pre_draw_candidate_not_separate_prospective_track",
+      "source": "results/candidates.json"
+    },
+    {
+      "track": "candidate_C19",
+      "numbers": [
+        12,
+        13,
+        15,
+        18,
+        22,
+        24
+      ],
+      "matches": 1,
+      "matched": [
+        13
+      ],
+      "status": "pre_draw_candidate_not_separate_prospective_track",
+      "source": "results/candidates.json"
+    },
+    {
+      "track": "candidate_C20",
+      "numbers": [
+        5,
+        7,
+        14,
+        21,
+        33,
+        38
+      ],
+      "matches": 0,
+      "matched": [],
+      "status": "pre_draw_candidate_not_separate_prospective_track",
+      "source": "results/candidates.json"
+    },
+    {
+      "track": "sequential_invalidated",
+      "numbers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "matches": 3,
+      "matched": [
+        1,
+        4,
+        6
+      ],
+      "status": "invalidated_before_draw",
+      "source": "experiments/jev-only-zero-data/frozen-result.json"
+    },
+    {
+      "track": "Jev_Challenger",
+      "numbers": [
+        1,
+        7,
+        13,
+        17,
+        19,
+        26
+      ],
+      "matches": 2,
+      "matched": [
+        1,
+        13
+      ],
+      "status": "frozen_pre_draw",
+      "source": "experiments/jev-complete-ticket-zero-data/frozen-result.json"
+    }
+  ],
+  "winning_ranks": [
+    {
+      "model": "A_long",
+      "number": 1,
+      "score": 0.8722801073807417,
+      "rank_min": 6,
+      "rank_max": 10,
+      "provenance": "reconstructed_from_frozen_pre_draw_inputs"
+    },
+    {
+      "model": "A_long",
+      "number": 4,
+      "score": 0.6483162960262268,
+      "rank_min": 11,
+      "rank_max": 13,
+      "provenance": "reconstructed_from_frozen_pre_draw_inputs"
+    },
+    {
+      "model": "A_long",
+      "number": 6,
+      "score": 0.20038867331719692,
+      "rank_min": 16,
+      "rank_max": 16,
+      "provenance": "reconstructed_from_frozen_pre_draw_inputs"
+    },
+    {
+      "model": "A_long",
+      "number": 13,
+      "score": 0.6483162960262268,
+      "rank_min": 11,
+      "rank_max": 13,
+      "provenance": "reconstructed_from_frozen_pre_draw_inputs"
+    },
+    {
+      "model": "A_long",
+      "number": 23,
+      "score": -1.5913218175189199,
+      "rank_min": 36,
+      "rank_max": 37,
+      "provenance": "reconstructed_from_frozen_pre_draw_inputs"
+    },
+    {
+      "model": "A_long",
+      "number": 28,
+      "score": -1.5913218175189199,
+      "rank_min": 36,
+      "rank_max": 37,
+      "provenance": "reconstructed_from_frozen_pre_draw_inputs"
+    },
+    {
+      "model": "B_recent",
+      "number": 1,
+      "score": 0.7656443046892922,
+      "rank_min": 10,
+      "rank_max": 10,
+      "provenance": "reconstructed_from_frozen_pre_draw_inputs"
+    },
+    {
+      "model": "B_recent",
+      "number": 4,
+      "score": 0.7699503538542473,
+      "rank_min": 9,
+      "rank_max": 9,
+      "provenance": "reconstructed_from_frozen_pre_draw_inputs"
+    },
+    {
+      "model": "B_recent",
+      "number": 6,
+      "score": -0.5010099600921275,
+      "rank_min": 26,
+      "rank_max": 26,
+      "provenance": "reconstructed_from_frozen_pre_draw_inputs"
+    },
+    {
+      "model": "B_recent",
+      "number": 13,
+      "score": 1.3899030618815638,
+      "rank_min": 4,
+      "rank_max": 4,
+      "provenance": "reconstructed_from_frozen_pre_draw_inputs"
+    },
+    {
+      "model": "B_recent",
+      "number": 23,
+      "score": -0.018387541288559597,
+      "rank_min": 20,
+      "rank_max": 20,
+      "provenance": "reconstructed_from_frozen_pre_draw_inputs"
+    },
+    {
+      "model": "B_recent",
+      "number": 28,
+      "score": -2.0125672715427014,
+      "rank_min": 38,
+      "rank_max": 38,
+      "provenance": "reconstructed_from_frozen_pre_draw_inputs"
+    },
+    {
+      "model": "C_gap",
+      "number": 1,
+      "score": -1.0619988237110678,
+      "rank_min": 33,
+      "rank_max": 38,
+      "provenance": "reconstructed_from_frozen_pre_draw_inputs"
+    },
+    {
+      "model": "C_gap",
+      "number": 4,
+      "score": -0.8679798078407766,
+      "rank_min": 29,
+      "rank_max": 32,
+      "provenance": "reconstructed_from_frozen_pre_draw_inputs"
+    },
+    {
+      "model": "C_gap",
+      "number": 6,
+      "score": -0.4799417761001941,
+      "rank_min": 21,
+      "rank_max": 23,
+      "provenance": "reconstructed_from_frozen_pre_draw_inputs"
+    },
+    {
+      "model": "C_gap",
+      "number": 13,
+      "score": -1.0619988237110678,
+      "rank_min": 33,
+      "rank_max": 38,
+      "provenance": "reconstructed_from_frozen_pre_draw_inputs"
+    },
+    {
+      "model": "C_gap",
+      "number": 23,
+      "score": 0.2961342873809708,
+      "rank_min": 12,
+      "rank_max": 13,
+      "provenance": "reconstructed_from_frozen_pre_draw_inputs"
+    },
+    {
+      "model": "C_gap",
+      "number": 28,
+      "score": 1.8482864143433009,
+      "rank_min": 3,
+      "rank_max": 4,
+      "provenance": "reconstructed_from_frozen_pre_draw_inputs"
+    },
+    {
+      "model": "D_trend",
+      "number": 1,
+      "score": 0.928003125901919,
+      "rank_min": 8,
+      "rank_max": 9,
+      "provenance": "reconstructed_from_frozen_pre_draw_inputs"
+    },
+    {
+      "model": "D_trend",
+      "number": 4,
+      "score": 1.6240054703283582,
+      "rank_min": 3,
+      "rank_max": 4,
+      "provenance": "reconstructed_from_frozen_pre_draw_inputs"
+    },
+    {
+      "model": "D_trend",
+      "number": 6,
+      "score": -0.6960023444264394,
+      "rank_min": 27,
+      "rank_max": 32,
+      "provenance": "reconstructed_from_frozen_pre_draw_inputs"
+    },
+    {
+      "model": "D_trend",
+      "number": 13,
+      "score": 1.8560062518038378,
+      "rank_min": 1,
+      "rank_max": 2,
+      "provenance": "reconstructed_from_frozen_pre_draw_inputs"
+    },
+    {
+      "model": "D_trend",
+      "number": 23,
+      "score": -0.696002344426439,
+      "rank_min": 27,
+      "rank_max": 32,
+      "provenance": "reconstructed_from_frozen_pre_draw_inputs"
+    },
+    {
+      "model": "D_trend",
+      "number": 28,
+      "score": 2.7112906244748114e-17,
+      "rank_min": 16,
+      "rank_max": 17,
+      "provenance": "reconstructed_from_frozen_pre_draw_inputs"
+    },
+    {
+      "model": "E_pairs",
+      "number": 1,
+      "score": 0.0,
+      "rank_min": null,
+      "rank_max": null,
+      "provenance": "flat_unranked"
+    },
+    {
+      "model": "E_pairs",
+      "number": 4,
+      "score": 0.0,
+      "rank_min": null,
+      "rank_max": null,
+      "provenance": "flat_unranked"
+    },
+    {
+      "model": "E_pairs",
+      "number": 6,
+      "score": 0.0,
+      "rank_min": null,
+      "rank_max": null,
+      "provenance": "flat_unranked"
+    },
+    {
+      "model": "E_pairs",
+      "number": 13,
+      "score": 0.0,
+      "rank_min": null,
+      "rank_max": null,
+      "provenance": "flat_unranked"
+    },
+    {
+      "model": "E_pairs",
+      "number": 23,
+      "score": 0.0,
+      "rank_min": null,
+      "rank_max": null,
+      "provenance": "flat_unranked"
+    },
+    {
+      "model": "E_pairs",
+      "number": 28,
+      "score": 0.0,
+      "rank_min": null,
+      "rank_max": null,
+      "provenance": "flat_unranked"
+    },
+    {
+      "model": "G_marginal_proxy",
+      "number": 1,
+      "score": 0.7617937353954032,
+      "rank_min": 6,
+      "rank_max": 6,
+      "provenance": "reconstructed_from_frozen_pre_draw_inputs"
+    },
+    {
+      "model": "G_marginal_proxy",
+      "number": 4,
+      "score": 0.9445432447002345,
+      "rank_min": 5,
+      "rank_max": 5,
+      "provenance": "reconstructed_from_frozen_pre_draw_inputs"
+    },
+    {
+      "model": "G_marginal_proxy",
+      "number": 6,
+      "score": -0.3438927783621141,
+      "rank_min": 23,
+      "rank_max": 23,
+      "provenance": "reconstructed_from_frozen_pre_draw_inputs"
+    },
+    {
+      "model": "G_marginal_proxy",
+      "number": 13,
+      "score": 1.216963373170753,
+      "rank_min": 2,
+      "rank_max": 2,
+      "provenance": "reconstructed_from_frozen_pre_draw_inputs"
+    },
+    {
+      "model": "G_marginal_proxy",
+      "number": 23,
+      "score": -0.6216053468669234,
+      "rank_min": 30,
+      "rank_max": 30,
+      "provenance": "reconstructed_from_frozen_pre_draw_inputs"
+    },
+    {
+      "model": "G_marginal_proxy",
+      "number": 28,
+      "score": -1.0109130866162142,
+      "rank_min": 35,
+      "rank_max": 35,
+      "provenance": "reconstructed_from_frozen_pre_draw_inputs"
+    }
+  ],
+  "coverage": [
+    {
+      "model": "A_long",
+      "pool": 5,
+      "minimum_winners": 0,
+      "maximum_winners": 0,
+      "tie_averaged_winners": 0.0,
+      "applicable": true
+    },
+    {
+      "model": "A_long",
+      "pool": 6,
+      "minimum_winners": 0,
+      "maximum_winners": 1,
+      "tie_averaged_winners": 0.2,
+      "applicable": true
+    },
+    {
+      "model": "A_long",
+      "pool": 8,
+      "minimum_winners": 0,
+      "maximum_winners": 1,
+      "tie_averaged_winners": 0.6,
+      "applicable": true
+    },
+    {
+      "model": "A_long",
+      "pool": 10,
+      "minimum_winners": 1,
+      "maximum_winners": 1,
+      "tie_averaged_winners": 1.0,
+      "applicable": true
+    },
+    {
+      "model": "A_long",
+      "pool": 12,
+      "minimum_winners": 2,
+      "maximum_winners": 3,
+      "tie_averaged_winners": 2.333333333333333,
+      "applicable": true
+    },
+    {
+      "model": "A_long",
+      "pool": 15,
+      "minimum_winners": 3,
+      "maximum_winners": 3,
+      "tie_averaged_winners": 3.0,
+      "applicable": true
+    },
+    {
+      "model": "A_long",
+      "pool": 20,
+      "minimum_winners": 4,
+      "maximum_winners": 4,
+      "tie_averaged_winners": 4.0,
+      "applicable": true
+    },
+    {
+      "model": "B_recent",
+      "pool": 5,
+      "minimum_winners": 1,
+      "maximum_winners": 1,
+      "tie_averaged_winners": 1.0,
+      "applicable": true
+    },
+    {
+      "model": "B_recent",
+      "pool": 6,
+      "minimum_winners": 1,
+      "maximum_winners": 1,
+      "tie_averaged_winners": 1.0,
+      "applicable": true
+    },
+    {
+      "model": "B_recent",
+      "pool": 8,
+      "minimum_winners": 1,
+      "maximum_winners": 1,
+      "tie_averaged_winners": 1.0,
+      "applicable": true
+    },
+    {
+      "model": "B_recent",
+      "pool": 10,
+      "minimum_winners": 3,
+      "maximum_winners": 3,
+      "tie_averaged_winners": 3.0,
+      "applicable": true
+    },
+    {
+      "model": "B_recent",
+      "pool": 12,
+      "minimum_winners": 3,
+      "maximum_winners": 3,
+      "tie_averaged_winners": 3.0,
+      "applicable": true
+    },
+    {
+      "model": "B_recent",
+      "pool": 15,
+      "minimum_winners": 3,
+      "maximum_winners": 3,
+      "tie_averaged_winners": 3.0,
+      "applicable": true
+    },
+    {
+      "model": "B_recent",
+      "pool": 20,
+      "minimum_winners": 4,
+      "maximum_winners": 4,
+      "tie_averaged_winners": 4.0,
+      "applicable": true
+    },
+    {
+      "model": "C_gap",
+      "pool": 5,
+      "minimum_winners": 1,
+      "maximum_winners": 1,
+      "tie_averaged_winners": 1.0,
+      "applicable": true
+    },
+    {
+      "model": "C_gap",
+      "pool": 6,
+      "minimum_winners": 1,
+      "maximum_winners": 1,
+      "tie_averaged_winners": 1.0,
+      "applicable": true
+    },
+    {
+      "model": "C_gap",
+      "pool": 8,
+      "minimum_winners": 1,
+      "maximum_winners": 1,
+      "tie_averaged_winners": 1.0,
+      "applicable": true
+    },
+    {
+      "model": "C_gap",
+      "pool": 10,
+      "minimum_winners": 1,
+      "maximum_winners": 1,
+      "tie_averaged_winners": 1.0,
+      "applicable": true
+    },
+    {
+      "model": "C_gap",
+      "pool": 12,
+      "minimum_winners": 1,
+      "maximum_winners": 2,
+      "tie_averaged_winners": 1.5,
+      "applicable": true
+    },
+    {
+      "model": "C_gap",
+      "pool": 15,
+      "minimum_winners": 2,
+      "maximum_winners": 2,
+      "tie_averaged_winners": 2.0,
+      "applicable": true
+    },
+    {
+      "model": "C_gap",
+      "pool": 20,
+      "minimum_winners": 2,
+      "maximum_winners": 2,
+      "tie_averaged_winners": 2.0,
+      "applicable": true
+    },
+    {
+      "model": "D_trend",
+      "pool": 5,
+      "minimum_winners": 2,
+      "maximum_winners": 2,
+      "tie_averaged_winners": 2.0,
+      "applicable": true
+    },
+    {
+      "model": "D_trend",
+      "pool": 6,
+      "minimum_winners": 2,
+      "maximum_winners": 2,
+      "tie_averaged_winners": 2.0,
+      "applicable": true
+    },
+    {
+      "model": "D_trend",
+      "pool": 8,
+      "minimum_winners": 2,
+      "maximum_winners": 3,
+      "tie_averaged_winners": 2.5,
+      "applicable": true
+    },
+    {
+      "model": "D_trend",
+      "pool": 10,
+      "minimum_winners": 3,
+      "maximum_winners": 3,
+      "tie_averaged_winners": 3.0,
+      "applicable": true
+    },
+    {
+      "model": "D_trend",
+      "pool": 12,
+      "minimum_winners": 3,
+      "maximum_winners": 3,
+      "tie_averaged_winners": 3.0,
+      "applicable": true
+    },
+    {
+      "model": "D_trend",
+      "pool": 15,
+      "minimum_winners": 3,
+      "maximum_winners": 3,
+      "tie_averaged_winners": 3.0,
+      "applicable": true
+    },
+    {
+      "model": "D_trend",
+      "pool": 20,
+      "minimum_winners": 4,
+      "maximum_winners": 4,
+      "tie_averaged_winners": 4.0,
+      "applicable": true
+    },
+    {
+      "model": "E_pairs",
+      "pool": 5,
+      "minimum_winners": 0,
+      "maximum_winners": 5,
+      "tie_averaged_winners": 0.7894736842105263,
+      "applicable": false
+    },
+    {
+      "model": "E_pairs",
+      "pool": 6,
+      "minimum_winners": 0,
+      "maximum_winners": 6,
+      "tie_averaged_winners": 0.9473684210526315,
+      "applicable": false
+    },
+    {
+      "model": "E_pairs",
+      "pool": 8,
+      "minimum_winners": 0,
+      "maximum_winners": 6,
+      "tie_averaged_winners": 1.263157894736842,
+      "applicable": false
+    },
+    {
+      "model": "E_pairs",
+      "pool": 10,
+      "minimum_winners": 0,
+      "maximum_winners": 6,
+      "tie_averaged_winners": 1.5789473684210527,
+      "applicable": false
+    },
+    {
+      "model": "E_pairs",
+      "pool": 12,
+      "minimum_winners": 0,
+      "maximum_winners": 6,
+      "tie_averaged_winners": 1.894736842105263,
+      "applicable": false
+    },
+    {
+      "model": "E_pairs",
+      "pool": 15,
+      "minimum_winners": 0,
+      "maximum_winners": 6,
+      "tie_averaged_winners": 2.3684210526315788,
+      "applicable": false
+    },
+    {
+      "model": "E_pairs",
+      "pool": 20,
+      "minimum_winners": 0,
+      "maximum_winners": 6,
+      "tie_averaged_winners": 3.1578947368421053,
+      "applicable": false
+    },
+    {
+      "model": "G_marginal_proxy",
+      "pool": 5,
+      "minimum_winners": 2,
+      "maximum_winners": 2,
+      "tie_averaged_winners": 2.0,
+      "applicable": true
+    },
+    {
+      "model": "G_marginal_proxy",
+      "pool": 6,
+      "minimum_winners": 3,
+      "maximum_winners": 3,
+      "tie_averaged_winners": 3.0,
+      "applicable": true
+    },
+    {
+      "model": "G_marginal_proxy",
+      "pool": 8,
+      "minimum_winners": 3,
+      "maximum_winners": 3,
+      "tie_averaged_winners": 3.0,
+      "applicable": true
+    },
+    {
+      "model": "G_marginal_proxy",
+      "pool": 10,
+      "minimum_winners": 3,
+      "maximum_winners": 3,
+      "tie_averaged_winners": 3.0,
+      "applicable": true
+    },
+    {
+      "model": "G_marginal_proxy",
+      "pool": 12,
+      "minimum_winners": 3,
+      "maximum_winners": 3,
+      "tie_averaged_winners": 3.0,
+      "applicable": true
+    },
+    {
+      "model": "G_marginal_proxy",
+      "pool": 15,
+      "minimum_winners": 3,
+      "maximum_winners": 3,
+      "tie_averaged_winners": 3.0,
+      "applicable": true
+    },
+    {
+      "model": "G_marginal_proxy",
+      "pool": 20,
+      "minimum_winners": 3,
+      "maximum_winners": 3,
+      "tie_averaged_winners": 3.0,
+      "applicable": true
+    }
+  ],
+  "qualifying_refinements": 0,
+  "score_reconstruction_matches_stored": true,
+  "v1_files_unchanged": true,
+  "ranking_limit": "Full final ranks and tie-break order were not persisted. Scores reconstructed from frozen data/code and reconciled; tied intervals reported. F_structure and final no-edge selection have no number ranking."
+}

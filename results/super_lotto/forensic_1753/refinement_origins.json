@@ -1,0 +1,4034 @@
+[
+  {
+    "draw_id": 1627,
+    "training_cutoff": 1626,
+    "period": "development",
+    "main_ticket": [
+      6,
+      10,
+      21,
+      26,
+      29
+    ],
+    "super_ball": 4,
+    "main_hits": 1,
+    "SB_hits": 0,
+    "baseline_main_hits": 1,
+    "baseline_SB_hits": 0,
+    "active_main_weights": [
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.0,
+      0.2
+    ],
+    "active_SB_weights": [
+      0.25,
+      0.25,
+      0.25,
+      0.25,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1628,
+    "training_cutoff": 1627,
+    "period": "development",
+    "main_ticket": [
+      6,
+      12,
+      15,
+      25,
+      26
+    ],
+    "super_ball": 4,
+    "main_hits": 0,
+    "SB_hits": 1,
+    "baseline_main_hits": 0,
+    "baseline_SB_hits": 1,
+    "active_main_weights": [
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.0,
+      0.2
+    ],
+    "active_SB_weights": [
+      0.25,
+      0.25,
+      0.25,
+      0.25,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1629,
+    "training_cutoff": 1628,
+    "period": "development",
+    "main_ticket": [
+      6,
+      11,
+      12,
+      26,
+      34
+    ],
+    "super_ball": 4,
+    "main_hits": 0,
+    "SB_hits": 0,
+    "baseline_main_hits": 0,
+    "baseline_SB_hits": 0,
+    "active_main_weights": [
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.0,
+      0.2
+    ],
+    "active_SB_weights": [
+      0.25,
+      0.25,
+      0.25,
+      0.25,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1630,
+    "training_cutoff": 1629,
+    "period": "development",
+    "main_ticket": [
+      1,
+      6,
+      15,
+      21,
+      30
+    ],
+    "super_ball": 4,
+    "main_hits": 0,
+    "SB_hits": 1,
+    "baseline_main_hits": 0,
+    "baseline_SB_hits": 1,
+    "active_main_weights": [
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.0,
+      0.2
+    ],
+    "active_SB_weights": [
+      0.25,
+      0.25,
+      0.25,
+      0.25,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1631,
+    "training_cutoff": 1630,
+    "period": "development",
+    "main_ticket": [
+      9,
+      10,
+      21,
+      24,
+      26
+    ],
+    "super_ball": 4,
+    "main_hits": 0,
+    "SB_hits": 0,
+    "baseline_main_hits": 0,
+    "baseline_SB_hits": 0,
+    "active_main_weights": [
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.0,
+      0.2
+    ],
+    "active_SB_weights": [
+      0.25,
+      0.25,
+      0.25,
+      0.25,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1632,
+    "training_cutoff": 1631,
+    "period": "development",
+    "main_ticket": [
+      6,
+      9,
+      10,
+      21,
+      26
+    ],
+    "super_ball": 4,
+    "main_hits": 1,
+    "SB_hits": 0,
+    "baseline_main_hits": 1,
+    "baseline_SB_hits": 0,
+    "active_main_weights": [
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.0,
+      0.2
+    ],
+    "active_SB_weights": [
+      0.25,
+      0.25,
+      0.25,
+      0.25,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1633,
+    "training_cutoff": 1632,
+    "period": "development",
+    "main_ticket": [
+      6,
+      12,
+      19,
+      22,
+      26
+    ],
+    "super_ball": 4,
+    "main_hits": 2,
+    "SB_hits": 0,
+    "baseline_main_hits": 2,
+    "baseline_SB_hits": 0,
+    "active_main_weights": [
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.0,
+      0.2
+    ],
+    "active_SB_weights": [
+      0.25,
+      0.25,
+      0.25,
+      0.25,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1634,
+    "training_cutoff": 1633,
+    "period": "development",
+    "main_ticket": [
+      6,
+      7,
+      15,
+      21,
+      34
+    ],
+    "super_ball": 4,
+    "main_hits": 0,
+    "SB_hits": 0,
+    "baseline_main_hits": 0,
+    "baseline_SB_hits": 0,
+    "active_main_weights": [
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.0,
+      0.2
+    ],
+    "active_SB_weights": [
+      0.25,
+      0.25,
+      0.25,
+      0.25,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1635,
+    "training_cutoff": 1634,
+    "period": "development",
+    "main_ticket": [
+      6,
+      9,
+      15,
+      21,
+      22
+    ],
+    "super_ball": 4,
+    "main_hits": 1,
+    "SB_hits": 0,
+    "baseline_main_hits": 1,
+    "baseline_SB_hits": 0,
+    "active_main_weights": [
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.0,
+      0.2
+    ],
+    "active_SB_weights": [
+      0.25,
+      0.25,
+      0.25,
+      0.25,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1636,
+    "training_cutoff": 1635,
+    "period": "development",
+    "main_ticket": [
+      6,
+      9,
+      12,
+      21,
+      34
+    ],
+    "super_ball": 4,
+    "main_hits": 1,
+    "SB_hits": 0,
+    "baseline_main_hits": 1,
+    "baseline_SB_hits": 0,
+    "active_main_weights": [
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.0,
+      0.2
+    ],
+    "active_SB_weights": [
+      0.25,
+      0.25,
+      0.25,
+      0.25,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1637,
+    "training_cutoff": 1636,
+    "period": "development",
+    "main_ticket": [
+      6,
+      11,
+      18,
+      28,
+      32
+    ],
+    "super_ball": 4,
+    "main_hits": 0,
+    "SB_hits": 0,
+    "baseline_main_hits": 0,
+    "baseline_SB_hits": 0,
+    "active_main_weights": [
+      0.15789473684210487,
+      0.15789473684210487,
+      0.34210526315789513,
+      0.0,
+      0.0,
+      0.34210526315789513
+    ],
+    "active_SB_weights": [
+      0.3333333333333333,
+      0.3333333333333333,
+      0.0,
+      0.3333333333333333,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1638,
+    "training_cutoff": 1637,
+    "period": "development",
+    "main_ticket": [
+      11,
+      13,
+      18,
+      20,
+      33
+    ],
+    "super_ball": 4,
+    "main_hits": 1,
+    "SB_hits": 0,
+    "baseline_main_hits": 1,
+    "baseline_SB_hits": 0,
+    "active_main_weights": [
+      0.021276595744680788,
+      0.1702127659574468,
+      0.31914893617021284,
+      0.1702127659574468,
+      0.0,
+      0.31914893617021284
+    ],
+    "active_SB_weights": [
+      0.3333333333333333,
+      0.3333333333333333,
+      0.0,
+      0.3333333333333333,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1639,
+    "training_cutoff": 1638,
+    "period": "development",
+    "main_ticket": [
+      9,
+      18,
+      23,
+      25,
+      30
+    ],
+    "super_ball": 4,
+    "main_hits": 0,
+    "SB_hits": 0,
+    "baseline_main_hits": 0,
+    "baseline_SB_hits": 0,
+    "active_main_weights": [
+      0.0,
+      0.09090909090909069,
+      0.5151515151515155,
+      0.09090909090909069,
+      0.0,
+      0.3030303030303031
+    ],
+    "active_SB_weights": [
+      0.3333333333333333,
+      0.3333333333333333,
+      0.0,
+      0.3333333333333333,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1640,
+    "training_cutoff": 1639,
+    "period": "development",
+    "main_ticket": [
+      7,
+      14,
+      15,
+      18,
+      30
+    ],
+    "super_ball": 4,
+    "main_hits": 1,
+    "SB_hits": 0,
+    "baseline_main_hits": 1,
+    "baseline_SB_hits": 0,
+    "active_main_weights": [
+      0.0,
+      0.0,
+      0.7058823529411767,
+      0.0,
+      0.0,
+      0.29411764705882326
+    ],
+    "active_SB_weights": [
+      0.33333333333333337,
+      0.33333333333333337,
+      0.0,
+      0.33333333333333337,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1641,
+    "training_cutoff": 1640,
+    "period": "development",
+    "main_ticket": [
+      1,
+      18,
+      19,
+      23,
+      25
+    ],
+    "super_ball": 4,
+    "main_hits": 2,
+    "SB_hits": 0,
+    "baseline_main_hits": 2,
+    "baseline_SB_hits": 0,
+    "active_main_weights": [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "active_SB_weights": [
+      0.3333333333333333,
+      0.3333333333333333,
+      0.0,
+      0.3333333333333333,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1642,
+    "training_cutoff": 1641,
+    "period": "development",
+    "main_ticket": [
+      9,
+      14,
+      18,
+      19,
+      31
+    ],
+    "super_ball": 7,
+    "main_hits": 1,
+    "SB_hits": 0,
+    "baseline_main_hits": 1,
+    "baseline_SB_hits": 0,
+    "active_main_weights": [
+      0.0,
+      0.09999999999999985,
+      0.8000000000000003,
+      0.09999999999999985,
+      0.0,
+      0.0
+    ],
+    "active_SB_weights": [
+      0.3333333333333333,
+      0.3333333333333333,
+      0.0,
+      0.3333333333333333,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1643,
+    "training_cutoff": 1642,
+    "period": "development",
+    "main_ticket": [
+      9,
+      14,
+      15,
+      22,
+      34
+    ],
+    "super_ball": 1,
+    "main_hits": 2,
+    "SB_hits": 0,
+    "baseline_main_hits": 2,
+    "baseline_SB_hits": 0,
+    "active_main_weights": [
+      0.0,
+      0.10810810810810786,
+      0.4864864864864869,
+      0.29729729729729737,
+      0.0,
+      0.10810810810810786
+    ],
+    "active_SB_weights": [
+      0.3333333333333333,
+      0.3333333333333333,
+      0.0,
+      0.3333333333333333,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1644,
+    "training_cutoff": 1643,
+    "period": "development",
+    "main_ticket": [
+      7,
+      9,
+      13,
+      32,
+      33
+    ],
+    "super_ball": 6,
+    "main_hits": 1,
+    "SB_hits": 0,
+    "baseline_main_hits": 1,
+    "baseline_SB_hits": 0,
+    "active_main_weights": [
+      0.0,
+      0.0,
+      0.6060606060606059,
+      0.39393939393939414,
+      0.0,
+      0.0
+    ],
+    "active_SB_weights": [
+      0.3333333333333333,
+      0.3333333333333333,
+      0.0,
+      0.3333333333333333,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1645,
+    "training_cutoff": 1644,
+    "period": "development",
+    "main_ticket": [
+      7,
+      8,
+      13,
+      20,
+      22
+    ],
+    "super_ball": 6,
+    "main_hits": 2,
+    "SB_hits": 1,
+    "baseline_main_hits": 2,
+    "baseline_SB_hits": 1,
+    "active_main_weights": [
+      0.0,
+      0.03225806451612836,
+      0.48387096774193583,
+      0.48387096774193583,
+      0.0,
+      0.0
+    ],
+    "active_SB_weights": [
+      0.33333333333333337,
+      0.33333333333333337,
+      0.0,
+      0.33333333333333337,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1646,
+    "training_cutoff": 1645,
+    "period": "development",
+    "main_ticket": [
+      9,
+      13,
+      19,
+      20,
+      32
+    ],
+    "super_ball": 6,
+    "main_hits": 0,
+    "SB_hits": 0,
+    "baseline_main_hits": 0,
+    "baseline_SB_hits": 0,
+    "active_main_weights": [
+      0.0,
+      0.0,
+      0.6296296296296298,
+      0.37037037037037024,
+      0.0,
+      0.0
+    ],
+    "active_SB_weights": [
+      0.07692307692307673,
+      0.07692307692307673,
+      0.0,
+      0.8461538461538466,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1647,
+    "training_cutoff": 1646,
+    "period": "development",
+    "main_ticket": [
+      9,
+      16,
+      19,
+      29,
+      32
+    ],
+    "super_ball": 6,
+    "main_hits": 0,
+    "SB_hits": 0,
+    "baseline_main_hits": 0,
+    "baseline_SB_hits": 0,
+    "active_main_weights": [
+      0.0,
+      0.0,
+      0.705882352941177,
+      0.294117647058823,
+      0.0,
+      0.0
+    ],
+    "active_SB_weights": [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1648,
+    "training_cutoff": 1647,
+    "period": "development",
+    "main_ticket": [
+      4,
+      9,
+      13,
+      16,
+      24
+    ],
+    "super_ball": 6,
+    "main_hits": 1,
+    "SB_hits": 0,
+    "baseline_main_hits": 1,
+    "baseline_SB_hits": 0,
+    "active_main_weights": [
+      0.0,
+      0.0,
+      0.5,
+      0.5,
+      0.0,
+      0.0
+    ],
+    "active_SB_weights": [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1649,
+    "training_cutoff": 1648,
+    "period": "development",
+    "main_ticket": [
+      9,
+      19,
+      25,
+      27,
+      33
+    ],
+    "super_ball": 6,
+    "main_hits": 0,
+    "SB_hits": 0,
+    "baseline_main_hits": 0,
+    "baseline_SB_hits": 0,
+    "active_main_weights": [
+      0.0,
+      0.0,
+      0.8888888888888886,
+      0.11111111111111131,
+      0.0,
+      0.0
+    ],
+    "active_SB_weights": [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1650,
+    "training_cutoff": 1649,
+    "period": "development",
+    "main_ticket": [
+      19,
+      24,
+      25,
+      30,
+      31
+    ],
+    "super_ball": 6,
+    "main_hits": 0,
+    "SB_hits": 0,
+    "baseline_main_hits": 0,
+    "baseline_SB_hits": 0,
+    "active_main_weights": [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "active_SB_weights": [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1651,
+    "training_cutoff": 1650,
+    "period": "development",
+    "main_ticket": [
+      9,
+      16,
+      18,
+      19,
+      25
+    ],
+    "super_ball": 6,
+    "main_hits": 0,
+    "SB_hits": 0,
+    "baseline_main_hits": 0,
+    "baseline_SB_hits": 0,
+    "active_main_weights": [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "active_SB_weights": [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1652,
+    "training_cutoff": 1651,
+    "period": "development",
+    "main_ticket": [
+      2,
+      5,
+      9,
+      19,
+      25
+    ],
+    "super_ball": 6,
+    "main_hits": 2,
+    "SB_hits": 0,
+    "baseline_main_hits": 2,
+    "baseline_SB_hits": 0,
+    "active_main_weights": [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "active_SB_weights": [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1653,
+    "training_cutoff": 1652,
+    "period": "development",
+    "main_ticket": [
+      13,
+      19,
+      25,
+      28,
+      35
+    ],
+    "super_ball": 6,
+    "main_hits": 1,
+    "SB_hits": 0,
+    "baseline_main_hits": 1,
+    "baseline_SB_hits": 0,
+    "active_main_weights": [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "active_SB_weights": [
+      0.5,
+      0.0,
+      0.0,
+      0.5,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1654,
+    "training_cutoff": 1653,
+    "period": "development",
+    "main_ticket": [
+      7,
+      9,
+      19,
+      24,
+      25
+    ],
+    "super_ball": 6,
+    "main_hits": 0,
+    "SB_hits": 0,
+    "baseline_main_hits": 0,
+    "baseline_SB_hits": 0,
+    "active_main_weights": [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "active_SB_weights": [
+      0.5,
+      0.0,
+      0.0,
+      0.5,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1655,
+    "training_cutoff": 1654,
+    "period": "development",
+    "main_ticket": [
+      9,
+      12,
+      19,
+      21,
+      25
+    ],
+    "super_ball": 6,
+    "main_hits": 0,
+    "SB_hits": 0,
+    "baseline_main_hits": 0,
+    "baseline_SB_hits": 0,
+    "active_main_weights": [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "active_SB_weights": [
+      0.5,
+      0.0,
+      0.0,
+      0.5,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1656,
+    "training_cutoff": 1655,
+    "period": "development",
+    "main_ticket": [
+      13,
+      19,
+      21,
+      25,
+      32
+    ],
+    "super_ball": 6,
+    "main_hits": 0,
+    "SB_hits": 0,
+    "baseline_main_hits": 0,
+    "baseline_SB_hits": 0,
+    "active_main_weights": [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "active_SB_weights": [
+      0.5,
+      0.0,
+      0.0,
+      0.5,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1657,
+    "training_cutoff": 1656,
+    "period": "development",
+    "main_ticket": [
+      4,
+      15,
+      17,
+      26,
+      28
+    ],
+    "super_ball": 6,
+    "main_hits": 0,
+    "SB_hits": 0,
+    "baseline_main_hits": 1,
+    "baseline_SB_hits": 0,
+    "active_main_weights": [
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.0,
+      0.2
+    ],
+    "active_SB_weights": [
+      0.25,
+      0.25,
+      0.25,
+      0.25,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1658,
+    "training_cutoff": 1657,
+    "period": "development",
+    "main_ticket": [
+      11,
+      15,
+      17,
+      26,
+      33
+    ],
+    "super_ball": 4,
+    "main_hits": 0,
+    "SB_hits": 0,
+    "baseline_main_hits": 0,
+    "baseline_SB_hits": 0,
+    "active_main_weights": [
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.0,
+      0.2
+    ],
+    "active_SB_weights": [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1659,
+    "training_cutoff": 1658,
+    "period": "development",
+    "main_ticket": [
+      4,
+      9,
+      16,
+      26,
+      31
+    ],
+    "super_ball": 6,
+    "main_hits": 0,
+    "SB_hits": 0,
+    "baseline_main_hits": 0,
+    "baseline_SB_hits": 0,
+    "active_main_weights": [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "active_SB_weights": [
+      0.5,
+      0.0,
+      0.5,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1660,
+    "training_cutoff": 1659,
+    "period": "development",
+    "main_ticket": [
+      3,
+      15,
+      17,
+      22,
+      33
+    ],
+    "super_ball": 6,
+    "main_hits": 2,
+    "SB_hits": 0,
+    "baseline_main_hits": 0,
+    "baseline_SB_hits": 0,
+    "active_main_weights": [
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.0,
+      0.2
+    ],
+    "active_SB_weights": [
+      0.33333333333333337,
+      0.0,
+      0.33333333333333337,
+      0.33333333333333337,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1661,
+    "training_cutoff": 1660,
+    "period": "development",
+    "main_ticket": [
+      5,
+      14,
+      18,
+      22,
+      26
+    ],
+    "super_ball": 6,
+    "main_hits": 1,
+    "SB_hits": 0,
+    "baseline_main_hits": 1,
+    "baseline_SB_hits": 0,
+    "active_main_weights": [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "active_SB_weights": [
+      0.3333333333333333,
+      0.0,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1662,
+    "training_cutoff": 1661,
+    "period": "development",
+    "main_ticket": [
+      3,
+      5,
+      9,
+      18,
+      24
+    ],
+    "super_ball": 6,
+    "main_hits": 1,
+    "SB_hits": 1,
+    "baseline_main_hits": 1,
+    "baseline_SB_hits": 1,
+    "active_main_weights": [
+      0.0,
+      0.0,
+      0.5,
+      0.5,
+      0.0,
+      0.0
+    ],
+    "active_SB_weights": [
+      0.3333333333333333,
+      0.0,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1663,
+    "training_cutoff": 1662,
+    "period": "development",
+    "main_ticket": [
+      13,
+      27,
+      29,
+      31,
+      33
+    ],
+    "super_ball": 9,
+    "main_hits": 0,
+    "SB_hits": 0,
+    "baseline_main_hits": 0,
+    "baseline_SB_hits": 0,
+    "active_main_weights": [
+      0.0,
+      0.0,
+      0.6399999999999997,
+      0.3600000000000004,
+      0.0,
+      0.0
+    ],
+    "active_SB_weights": [
+      0.3333333333333333,
+      0.0,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1664,
+    "training_cutoff": 1663,
+    "period": "development",
+    "main_ticket": [
+      3,
+      13,
+      14,
+      18,
+      31
+    ],
+    "super_ball": 2,
+    "main_hits": 0,
+    "SB_hits": 0,
+    "baseline_main_hits": 0,
+    "baseline_SB_hits": 0,
+    "active_main_weights": [
+      0.0,
+      0.0,
+      0.6206896551724143,
+      0.37931034482758574,
+      0.0,
+      0.0
+    ],
+    "active_SB_weights": [
+      0.33333333333333337,
+      0.0,
+      0.33333333333333337,
+      0.33333333333333337,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1665,
+    "training_cutoff": 1664,
+    "period": "development",
+    "main_ticket": [
+      13,
+      14,
+      16,
+      25,
+      31
+    ],
+    "super_ball": 4,
+    "main_hits": 1,
+    "SB_hits": 0,
+    "baseline_main_hits": 1,
+    "baseline_SB_hits": 0,
+    "active_main_weights": [
+      0.0,
+      0.0,
+      0.6842105263157898,
+      0.3157894736842102,
+      0.0,
+      0.0
+    ],
+    "active_SB_weights": [
+      0.7500000000000002,
+      0.0,
+      0.1249999999999998,
+      0.1249999999999998,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1666,
+    "training_cutoff": 1665,
+    "period": "development",
+    "main_ticket": [
+      12,
+      13,
+      18,
+      26,
+      31
+    ],
+    "super_ball": 4,
+    "main_hits": 0,
+    "SB_hits": 0,
+    "baseline_main_hits": 0,
+    "baseline_SB_hits": 0,
+    "active_main_weights": [
+      0.0,
+      0.0,
+      0.652173913043478,
+      0.34782608695652195,
+      0.0,
+      0.0
+    ],
+    "active_SB_weights": [
+      0.7857142857142857,
+      0.07142857142857148,
+      0.07142857142857148,
+      0.07142857142857148,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1667,
+    "training_cutoff": 1666,
+    "period": "development",
+    "main_ticket": [
+      2,
+      13,
+      18,
+      29,
+      31
+    ],
+    "super_ball": 6,
+    "main_hits": 0,
+    "SB_hits": 0,
+    "baseline_main_hits": 0,
+    "baseline_SB_hits": 0,
+    "active_main_weights": [
+      0.0,
+      0.0,
+      0.8500000000000003,
+      0.14999999999999966,
+      0.0,
+      0.0
+    ],
+    "active_SB_weights": [
+      0.5,
+      0.5,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1668,
+    "training_cutoff": 1667,
+    "period": "development",
+    "main_ticket": [
+      14,
+      18,
+      22,
+      25,
+      33
+    ],
+    "super_ball": 6,
+    "main_hits": 1,
+    "SB_hits": 0,
+    "baseline_main_hits": 1,
+    "baseline_SB_hits": 0,
+    "active_main_weights": [
+      0.0,
+      0.0,
+      0.5,
+      0.5,
+      0.0,
+      0.0
+    ],
+    "active_SB_weights": [
+      0.5,
+      0.5,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1669,
+    "training_cutoff": 1668,
+    "period": "development",
+    "main_ticket": [
+      13,
+      14,
+      18,
+      22,
+      27
+    ],
+    "super_ball": 6,
+    "main_hits": 1,
+    "SB_hits": 0,
+    "baseline_main_hits": 1,
+    "baseline_SB_hits": 0,
+    "active_main_weights": [
+      0.0,
+      0.0,
+      0.5,
+      0.5,
+      0.0,
+      0.0
+    ],
+    "active_SB_weights": [
+      0.5,
+      0.5,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1670,
+    "training_cutoff": 1669,
+    "period": "development",
+    "main_ticket": [
+      5,
+      17,
+      18,
+      19,
+      22
+    ],
+    "super_ball": 6,
+    "main_hits": 1,
+    "SB_hits": 0,
+    "baseline_main_hits": 1,
+    "baseline_SB_hits": 0,
+    "active_main_weights": [
+      0.0,
+      0.0,
+      0.2812500000000001,
+      0.7187499999999999,
+      0.0,
+      0.0
+    ],
+    "active_SB_weights": [
+      0.5,
+      0.5,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1671,
+    "training_cutoff": 1670,
+    "period": "development",
+    "main_ticket": [
+      7,
+      17,
+      18,
+      19,
+      25
+    ],
+    "super_ball": 6,
+    "main_hits": 1,
+    "SB_hits": 1,
+    "baseline_main_hits": 1,
+    "baseline_SB_hits": 1,
+    "active_main_weights": [
+      0.0,
+      0.0,
+      0.13793103448275826,
+      0.8620689655172418,
+      0.0,
+      0.0
+    ],
+    "active_SB_weights": [
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1672,
+    "training_cutoff": 1671,
+    "period": "development",
+    "main_ticket": [
+      4,
+      5,
+      6,
+      7,
+      11
+    ],
+    "super_ball": 6,
+    "main_hits": 0,
+    "SB_hits": 0,
+    "baseline_main_hits": 0,
+    "baseline_SB_hits": 0,
+    "active_main_weights": [
+      0.325,
+      0.0,
+      0.0,
+      0.6749999999999999,
+      0.0,
+      0.0
+    ],
+    "active_SB_weights": [
+      0.2,
+      0.6,
+      0.2,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1673,
+    "training_cutoff": 1672,
+    "period": "development",
+    "main_ticket": [
+      5,
+      11,
+      17,
+      25,
+      27
+    ],
+    "super_ball": 6,
+    "main_hits": 2,
+    "SB_hits": 0,
+    "baseline_main_hits": 2,
+    "baseline_SB_hits": 0,
+    "active_main_weights": [
+      0.39473684210526316,
+      0.0,
+      0.02631578947368403,
+      0.5789473684210527,
+      0.0,
+      0.0
+    ],
+    "active_SB_weights": [
+      0.18181818181818177,
+      0.6363636363636365,
+      0.18181818181818177,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1674,
+    "training_cutoff": 1673,
+    "period": "development",
+    "main_ticket": [
+      5,
+      6,
+      11,
+      17,
+      34
+    ],
+    "super_ball": 6,
+    "main_hits": 1,
+    "SB_hits": 0,
+    "baseline_main_hits": 1,
+    "baseline_SB_hits": 0,
+    "active_main_weights": [
+      0.24390243902439007,
+      0.0,
+      0.0,
+      0.7560975609756099,
+      0.0,
+      0.0
+    ],
+    "active_SB_weights": [
+      0.1578947368421051,
+      0.6842105263157898,
+      0.1578947368421051,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1675,
+    "training_cutoff": 1674,
+    "period": "development",
+    "main_ticket": [
+      4,
+      7,
+      11,
+      22,
+      25
+    ],
+    "super_ball": 6,
+    "main_hits": 1,
+    "SB_hits": 0,
+    "baseline_main_hits": 1,
+    "baseline_SB_hits": 0,
+    "active_main_weights": [
+      0.4222222222222224,
+      0.0,
+      0.0,
+      0.5777777777777776,
+      0.0,
+      0.0
+    ],
+    "active_SB_weights": [
+      0.12499999999999971,
+      0.7500000000000007,
+      0.12499999999999971,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1676,
+    "training_cutoff": 1675,
+    "period": "development",
+    "main_ticket": [
+      7,
+      10,
+      17,
+      25,
+      31
+    ],
+    "super_ball": 6,
+    "main_hits": 0,
+    "SB_hits": 0,
+    "baseline_main_hits": 0,
+    "baseline_SB_hits": 0,
+    "active_main_weights": [
+      0.4285714285714287,
+      0.0,
+      0.0,
+      0.5714285714285713,
+      0.0,
+      0.0
+    ],
+    "active_SB_weights": [
+      0.04347826086956525,
+      0.4782608695652174,
+      0.4782608695652174,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1677,
+    "training_cutoff": 1676,
+    "period": "development",
+    "main_ticket": [
+      3,
+      4,
+      7,
+      22,
+      25
+    ],
+    "super_ball": 6,
+    "main_hits": 1,
+    "SB_hits": 1,
+    "baseline_main_hits": 1,
+    "baseline_SB_hits": 1,
+    "active_main_weights": [
+      0.4102564102564098,
+      0.0,
+      0.0,
+      0.5897435897435901,
+      0.0,
+      0.0
+    ],
+    "active_SB_weights": [
+      0.0,
+      0.5,
+      0.5,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1678,
+    "training_cutoff": 1677,
+    "period": "development",
+    "main_ticket": [
+      7,
+      10,
+      17,
+      25,
+      28
+    ],
+    "super_ball": 6,
+    "main_hits": 1,
+    "SB_hits": 0,
+    "baseline_main_hits": 1,
+    "baseline_SB_hits": 0,
+    "active_main_weights": [
+      0.30555555555555486,
+      0.0,
+      0.0,
+      0.6944444444444452,
+      0.0,
+      0.0
+    ],
+    "active_SB_weights": [
+      0.0,
+      0.6785714285714285,
+      0.32142857142857145,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1679,
+    "training_cutoff": 1678,
+    "period": "development",
+    "main_ticket": [
+      4,
+      7,
+      17,
+      19,
+      25
+    ],
+    "super_ball": 6,
+    "main_hits": 1,
+    "SB_hits": 0,
+    "baseline_main_hits": 1,
+    "baseline_SB_hits": 0,
+    "active_main_weights": [
+      0.3250000000000005,
+      0.0,
+      0.0,
+      0.6749999999999996,
+      0.0,
+      0.0
+    ],
+    "active_SB_weights": [
+      0.0,
+      0.6923076923076925,
+      0.3076923076923075,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1680,
+    "training_cutoff": 1679,
+    "period": "development",
+    "main_ticket": [
+      6,
+      7,
+      17,
+      22,
+      33
+    ],
+    "super_ball": 6,
+    "main_hits": 1,
+    "SB_hits": 0,
+    "baseline_main_hits": 1,
+    "baseline_SB_hits": 0,
+    "active_main_weights": [
+      0.2162162162162164,
+      0.0,
+      0.0,
+      0.7837837837837837,
+      0.0,
+      0.0
+    ],
+    "active_SB_weights": [
+      0.0,
+      0.7083333333333335,
+      0.2916666666666665,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1681,
+    "training_cutoff": 1680,
+    "period": "development",
+    "main_ticket": [
+      4,
+      7,
+      8,
+      16,
+      17
+    ],
+    "super_ball": 6,
+    "main_hits": 1,
+    "SB_hits": 0,
+    "baseline_main_hits": 1,
+    "baseline_SB_hits": 0,
+    "active_main_weights": [
+      0.2083333333333331,
+      0.0,
+      0.0,
+      0.791666666666667,
+      0.0,
+      0.0
+    ],
+    "active_SB_weights": [
+      0.0,
+      0.7272727272727272,
+      0.2727272727272727,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1682,
+    "training_cutoff": 1681,
+    "period": "development",
+    "main_ticket": [
+      9,
+      17,
+      19,
+      22,
+      27
+    ],
+    "super_ball": 6,
+    "main_hits": 0,
+    "SB_hits": 0,
+    "baseline_main_hits": 0,
+    "baseline_SB_hits": 0,
+    "active_main_weights": [
+      0.11111111111111083,
+      0.0,
+      0.0,
+      0.8888888888888892,
+      0.0,
+      0.0
+    ],
+    "active_SB_weights": [
+      0.0,
+      0.7499999999999999,
+      0.2500000000000001,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1683,
+    "training_cutoff": 1682,
+    "period": "development",
+    "main_ticket": [
+      7,
+      9,
+      13,
+      17,
+      27
+    ],
+    "super_ball": 6,
+    "main_hits": 2,
+    "SB_hits": 0,
+    "baseline_main_hits": 2,
+    "baseline_SB_hits": 0,
+    "active_main_weights": [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "active_SB_weights": [
+      0.0,
+      0.7777777777777781,
+      0.222222222222222,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1684,
+    "training_cutoff": 1683,
+    "period": "development",
+    "main_ticket": [
+      7,
+      12,
+      17,
+      19,
+      31
+    ],
+    "super_ball": 6,
+    "main_hits": 1,
+    "SB_hits": 1,
+    "baseline_main_hits": 1,
+    "baseline_SB_hits": 1,
+    "active_main_weights": [
+      0.04347826086956471,
+      0.0,
+      0.0,
+      0.9565217391304353,
+      0.0,
+      0.0
+    ],
+    "active_SB_weights": [
+      0.0,
+      0.8124999999999998,
+      0.1875000000000001,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1685,
+    "training_cutoff": 1684,
+    "period": "development",
+    "main_ticket": [
+      1,
+      6,
+      7,
+      17,
+      27
+    ],
+    "super_ball": 6,
+    "main_hits": 1,
+    "SB_hits": 0,
+    "baseline_main_hits": 1,
+    "baseline_SB_hits": 0,
+    "active_main_weights": [
+      0.07999999999999981,
+      0.0,
+      0.0,
+      0.9200000000000002,
+      0.0,
+      0.0
+    ],
+    "active_SB_weights": [
+      0.07692307692307673,
+      0.8461538461538465,
+      0.07692307692307673,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1686,
+    "training_cutoff": 1685,
+    "period": "development",
+    "main_ticket": [
+      6,
+      7,
+      17,
+      21,
+      31
+    ],
+    "super_ball": 6,
+    "main_hits": 0,
+    "SB_hits": 0,
+    "baseline_main_hits": 0,
+    "baseline_SB_hits": 0,
+    "active_main_weights": [
+      0.11111111111111137,
+      0.0,
+      0.0,
+      0.8888888888888886,
+      0.0,
+      0.0
+    ],
+    "active_SB_weights": [
+      0.04347826086956499,
+      0.91304347826087,
+      0.04347826086956499,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1687,
+    "training_cutoff": 1686,
+    "period": "development",
+    "main_ticket": [
+      7,
+      17,
+      19,
+      27,
+      29
+    ],
+    "super_ball": 6,
+    "main_hits": 1,
+    "SB_hits": 0,
+    "baseline_main_hits": 1,
+    "baseline_SB_hits": 0,
+    "active_main_weights": [
+      0.022727272727272662,
+      0.0,
+      0.0,
+      0.9772727272727273,
+      0.0,
+      0.0
+    ],
+    "active_SB_weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1688,
+    "training_cutoff": 1687,
+    "period": "development",
+    "main_ticket": [
+      12,
+      13,
+      17,
+      23,
+      27
+    ],
+    "super_ball": 6,
+    "main_hits": 1,
+    "SB_hits": 0,
+    "baseline_main_hits": 1,
+    "baseline_SB_hits": 0,
+    "active_main_weights": [
+      0.06249999999999934,
+      0.0,
+      0.0,
+      0.9375000000000007,
+      0.0,
+      0.0
+    ],
+    "active_SB_weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1689,
+    "training_cutoff": 1688,
+    "period": "development",
+    "main_ticket": [
+      7,
+      12,
+      17,
+      19,
+      21
+    ],
+    "super_ball": 6,
+    "main_hits": 1,
+    "SB_hits": 0,
+    "baseline_main_hits": 1,
+    "baseline_SB_hits": 0,
+    "active_main_weights": [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "active_SB_weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1690,
+    "training_cutoff": 1689,
+    "period": "development",
+    "main_ticket": [
+      3,
+      7,
+      17,
+      27,
+      29
+    ],
+    "super_ball": 6,
+    "main_hits": 1,
+    "SB_hits": 0,
+    "baseline_main_hits": 1,
+    "baseline_SB_hits": 0,
+    "active_main_weights": [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "active_SB_weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1691,
+    "training_cutoff": 1690,
+    "period": "development",
+    "main_ticket": [
+      6,
+      7,
+      16,
+      17,
+      19
+    ],
+    "super_ball": 1,
+    "main_hits": 0,
+    "SB_hits": 0,
+    "baseline_main_hits": 0,
+    "baseline_SB_hits": 0,
+    "active_main_weights": [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "active_SB_weights": [
+      0.0,
+      0.7272727272727275,
+      0.0,
+      0.27272727272727254,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1692,
+    "training_cutoff": 1691,
+    "period": "development",
+    "main_ticket": [
+      7,
+      9,
+      12,
+      13,
+      19
+    ],
+    "super_ball": 1,
+    "main_hits": 0,
+    "SB_hits": 0,
+    "baseline_main_hits": 0,
+    "baseline_SB_hits": 0,
+    "active_main_weights": [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "active_SB_weights": [
+      0.0,
+      0.7500000000000001,
+      0.0,
+      0.24999999999999983,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1693,
+    "training_cutoff": 1692,
+    "period": "development",
+    "main_ticket": [
+      13,
+      16,
+      21,
+      23,
+      32
+    ],
+    "super_ball": 1,
+    "main_hits": 0,
+    "SB_hits": 0,
+    "baseline_main_hits": 0,
+    "baseline_SB_hits": 0,
+    "active_main_weights": [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "active_SB_weights": [
+      0.0,
+      0.7777777777777777,
+      0.0,
+      0.22222222222222232,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1694,
+    "training_cutoff": 1693,
+    "period": "development",
+    "main_ticket": [
+      12,
+      16,
+      19,
+      23,
+      32
+    ],
+    "super_ball": 1,
+    "main_hits": 0,
+    "SB_hits": 0,
+    "baseline_main_hits": 0,
+    "baseline_SB_hits": 0,
+    "active_main_weights": [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "active_SB_weights": [
+      0.0,
+      0.6842105263157898,
+      0.15789473684210512,
+      0.15789473684210512,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1695,
+    "training_cutoff": 1694,
+    "period": "development",
+    "main_ticket": [
+      3,
+      13,
+      16,
+      17,
+      19
+    ],
+    "super_ball": 1,
+    "main_hits": 0,
+    "SB_hits": 0,
+    "baseline_main_hits": 0,
+    "baseline_SB_hits": 0,
+    "active_main_weights": [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "active_SB_weights": [
+      0.0,
+      0.7499999999999999,
+      0.1250000000000001,
+      0.1250000000000001,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1696,
+    "training_cutoff": 1695,
+    "period": "development",
+    "main_ticket": [
+      3,
+      7,
+      13,
+      19,
+      29
+    ],
+    "super_ball": 7,
+    "main_hits": 1,
+    "SB_hits": 0,
+    "baseline_main_hits": 1,
+    "baseline_SB_hits": 0,
+    "active_main_weights": [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "active_SB_weights": [
+      0.0,
+      0.8461538461538469,
+      0.07692307692307648,
+      0.07692307692307648,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1697,
+    "training_cutoff": 1696,
+    "period": "development",
+    "main_ticket": [
+      11,
+      13,
+      16,
+      20,
+      24
+    ],
+    "super_ball": 1,
+    "main_hits": 1,
+    "SB_hits": 0,
+    "baseline_main_hits": 1,
+    "baseline_SB_hits": 0,
+    "active_main_weights": [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "active_SB_weights": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1698,
+    "training_cutoff": 1697,
+    "period": "development",
+    "main_ticket": [
+      5,
+      9,
+      13,
+      16,
+      20
+    ],
+    "super_ball": 5,
+    "main_hits": 0,
+    "SB_hits": 0,
+    "baseline_main_hits": 0,
+    "baseline_SB_hits": 0,
+    "active_main_weights": [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "active_SB_weights": [
+      0.0,
+      0.5,
+      0.5,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1699,
+    "training_cutoff": 1698,
+    "period": "development",
+    "main_ticket": [
+      9,
+      13,
+      26,
+      30,
+      31
+    ],
+    "super_ball": 6,
+    "main_hits": 1,
+    "SB_hits": 1,
+    "baseline_main_hits": 1,
+    "baseline_SB_hits": 1,
+    "active_main_weights": [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "active_SB_weights": [
+      0.0,
+      0.5,
+      0.5,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1700,
+    "training_cutoff": 1699,
+    "period": "development",
+    "main_ticket": [
+      9,
+      11,
+      20,
+      23,
+      31
+    ],
+    "super_ball": 5,
+    "main_hits": 1,
+    "SB_hits": 0,
+    "baseline_main_hits": 1,
+    "baseline_SB_hits": 0,
+    "active_main_weights": [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "active_SB_weights": [
+      0.0,
+      0.5,
+      0.5,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1701,
+    "training_cutoff": 1700,
+    "period": "development",
+    "main_ticket": [
+      9,
+      16,
+      20,
+      30,
+      31
+    ],
+    "super_ball": 5,
+    "main_hits": 0,
+    "SB_hits": 0,
+    "baseline_main_hits": 0,
+    "baseline_SB_hits": 0,
+    "active_main_weights": [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "active_SB_weights": [
+      0.0,
+      0.5,
+      0.5,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1702,
+    "training_cutoff": 1701,
+    "period": "development",
+    "main_ticket": [
+      8,
+      9,
+      12,
+      16,
+      17
+    ],
+    "super_ball": 1,
+    "main_hits": 0,
+    "SB_hits": 0,
+    "baseline_main_hits": 0,
+    "baseline_SB_hits": 0,
+    "active_main_weights": [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "active_SB_weights": [
+      0.0,
+      0.5,
+      0.5,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1703,
+    "training_cutoff": 1702,
+    "period": "development",
+    "main_ticket": [
+      9,
+      16,
+      20,
+      26,
+      30
+    ],
+    "super_ball": 5,
+    "main_hits": 1,
+    "SB_hits": 0,
+    "baseline_main_hits": 1,
+    "baseline_SB_hits": 0,
+    "active_main_weights": [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "active_SB_weights": [
+      0.0,
+      0.5,
+      0.5,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1704,
+    "training_cutoff": 1703,
+    "period": "development",
+    "main_ticket": [
+      9,
+      11,
+      16,
+      20,
+      35
+    ],
+    "super_ball": 5,
+    "main_hits": 0,
+    "SB_hits": 0,
+    "baseline_main_hits": 0,
+    "baseline_SB_hits": 0,
+    "active_main_weights": [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "active_SB_weights": [
+      0.0,
+      0.18749999999999953,
+      0.8125000000000004,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1705,
+    "training_cutoff": 1704,
+    "period": "development",
+    "main_ticket": [
+      8,
+      9,
+      13,
+      21,
+      26
+    ],
+    "super_ball": 5,
+    "main_hits": 0,
+    "SB_hits": 1,
+    "baseline_main_hits": 0,
+    "baseline_SB_hits": 1,
+    "active_main_weights": [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "active_SB_weights": [
+      0.0,
+      0.1428571428571427,
+      0.8571428571428573,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1706,
+    "training_cutoff": 1705,
+    "period": "development",
+    "main_ticket": [
+      3,
+      9,
+      13,
+      23,
+      26
+    ],
+    "super_ball": 4,
+    "main_hits": 1,
+    "SB_hits": 0,
+    "baseline_main_hits": 1,
+    "baseline_SB_hits": 0,
+    "active_main_weights": [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "active_SB_weights": [
+      0.0,
+      0.045454545454545144,
+      0.9545454545454549,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1707,
+    "training_cutoff": 1706,
+    "period": "development",
+    "main_ticket": [
+      8,
+      9,
+      18,
+      20,
+      31
+    ],
+    "super_ball": 4,
+    "main_hits": 1,
+    "SB_hits": 0,
+    "baseline_main_hits": 1,
+    "baseline_SB_hits": 0,
+    "active_main_weights": [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "active_SB_weights": [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1708,
+    "training_cutoff": 1707,
+    "period": "development",
+    "main_ticket": [
+      5,
+      8,
+      13,
+      14,
+      23
+    ],
+    "super_ball": 4,
+    "main_hits": 0,
+    "SB_hits": 0,
+    "baseline_main_hits": 0,
+    "baseline_SB_hits": 0,
+    "active_main_weights": [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "active_SB_weights": [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1709,
+    "training_cutoff": 1708,
+    "period": "development",
+    "main_ticket": [
+      9,
+      14,
+      18,
+      20,
+      23
+    ],
+    "super_ball": 4,
+    "main_hits": 0,
+    "SB_hits": 1,
+    "baseline_main_hits": 0,
+    "baseline_SB_hits": 1,
+    "active_main_weights": [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "active_SB_weights": [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1710,
+    "training_cutoff": 1709,
+    "period": "development",
+    "main_ticket": [
+      1,
+      9,
+      11,
+      22,
+      29
+    ],
+    "super_ball": 8,
+    "main_hits": 0,
+    "SB_hits": 0,
+    "baseline_main_hits": 0,
+    "baseline_SB_hits": 0,
+    "active_main_weights": [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "active_SB_weights": [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1711,
+    "training_cutoff": 1710,
+    "period": "development",
+    "main_ticket": [
+      11,
+      17,
+      20,
+      22,
+      26
+    ],
+    "super_ball": 8,
+    "main_hits": 0,
+    "SB_hits": 0,
+    "baseline_main_hits": 0,
+    "baseline_SB_hits": 0,
+    "active_main_weights": [
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.0,
+      0.2
+    ],
+    "active_SB_weights": [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1712,
+    "training_cutoff": 1711,
+    "period": "development",
+    "main_ticket": [
+      3,
+      9,
+      11,
+      22,
+      26
+    ],
+    "super_ball": 8,
+    "main_hits": 1,
+    "SB_hits": 0,
+    "baseline_main_hits": 1,
+    "baseline_SB_hits": 0,
+    "active_main_weights": [
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.0,
+      0.2
+    ],
+    "active_SB_weights": [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1713,
+    "training_cutoff": 1712,
+    "period": "confirmation",
+    "main_ticket": [
+      5,
+      8,
+      14,
+      17,
+      29
+    ],
+    "super_ball": 8,
+    "main_hits": 1,
+    "SB_hits": 0,
+    "baseline_main_hits": 1,
+    "baseline_SB_hits": 0,
+    "active_main_weights": [
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.0,
+      0.2
+    ],
+    "active_SB_weights": [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1714,
+    "training_cutoff": 1713,
+    "period": "confirmation",
+    "main_ticket": [
+      2,
+      3,
+      17,
+      24,
+      29
+    ],
+    "super_ball": 8,
+    "main_hits": 0,
+    "SB_hits": 0,
+    "baseline_main_hits": 0,
+    "baseline_SB_hits": 0,
+    "active_main_weights": [
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.0,
+      0.2
+    ],
+    "active_SB_weights": [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1715,
+    "training_cutoff": 1714,
+    "period": "confirmation",
+    "main_ticket": [
+      9,
+      17,
+      23,
+      27,
+      29
+    ],
+    "super_ball": 8,
+    "main_hits": 1,
+    "SB_hits": 0,
+    "baseline_main_hits": 0,
+    "baseline_SB_hits": 0,
+    "active_main_weights": [
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.0,
+      0.2
+    ],
+    "active_SB_weights": [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1716,
+    "training_cutoff": 1715,
+    "period": "confirmation",
+    "main_ticket": [
+      3,
+      5,
+      13,
+      17,
+      23
+    ],
+    "super_ball": 8,
+    "main_hits": 0,
+    "SB_hits": 0,
+    "baseline_main_hits": 0,
+    "baseline_SB_hits": 0,
+    "active_main_weights": [
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.0,
+      0.2
+    ],
+    "active_SB_weights": [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1717,
+    "training_cutoff": 1716,
+    "period": "confirmation",
+    "main_ticket": [
+      3,
+      8,
+      22,
+      23,
+      27
+    ],
+    "super_ball": 8,
+    "main_hits": 0,
+    "SB_hits": 0,
+    "baseline_main_hits": 1,
+    "baseline_SB_hits": 0,
+    "active_main_weights": [
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.0,
+      0.2
+    ],
+    "active_SB_weights": [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1718,
+    "training_cutoff": 1717,
+    "period": "confirmation",
+    "main_ticket": [
+      13,
+      14,
+      20,
+      24,
+      27
+    ],
+    "super_ball": 8,
+    "main_hits": 0,
+    "SB_hits": 0,
+    "baseline_main_hits": 1,
+    "baseline_SB_hits": 0,
+    "active_main_weights": [
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.0,
+      0.2
+    ],
+    "active_SB_weights": [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1719,
+    "training_cutoff": 1718,
+    "period": "confirmation",
+    "main_ticket": [
+      8,
+      13,
+      17,
+      24,
+      26
+    ],
+    "super_ball": 8,
+    "main_hits": 0,
+    "SB_hits": 0,
+    "baseline_main_hits": 1,
+    "baseline_SB_hits": 0,
+    "active_main_weights": [
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.0,
+      0.2
+    ],
+    "active_SB_weights": [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1720,
+    "training_cutoff": 1719,
+    "period": "confirmation",
+    "main_ticket": [
+      3,
+      11,
+      23,
+      24,
+      29
+    ],
+    "super_ball": 8,
+    "main_hits": 1,
+    "SB_hits": 0,
+    "baseline_main_hits": 1,
+    "baseline_SB_hits": 0,
+    "active_main_weights": [
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.0,
+      0.2
+    ],
+    "active_SB_weights": [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1721,
+    "training_cutoff": 1720,
+    "period": "confirmation",
+    "main_ticket": [
+      3,
+      11,
+      13,
+      24,
+      26
+    ],
+    "super_ball": 8,
+    "main_hits": 2,
+    "SB_hits": 0,
+    "baseline_main_hits": 0,
+    "baseline_SB_hits": 0,
+    "active_main_weights": [
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.0,
+      0.2
+    ],
+    "active_SB_weights": [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1722,
+    "training_cutoff": 1721,
+    "period": "confirmation",
+    "main_ticket": [
+      3,
+      5,
+      18,
+      24,
+      27
+    ],
+    "super_ball": 8,
+    "main_hits": 1,
+    "SB_hits": 0,
+    "baseline_main_hits": 2,
+    "baseline_SB_hits": 0,
+    "active_main_weights": [
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.0,
+      0.2
+    ],
+    "active_SB_weights": [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1723,
+    "training_cutoff": 1722,
+    "period": "confirmation",
+    "main_ticket": [
+      5,
+      7,
+      15,
+      24,
+      27
+    ],
+    "super_ball": 8,
+    "main_hits": 0,
+    "SB_hits": 0,
+    "baseline_main_hits": 0,
+    "baseline_SB_hits": 0,
+    "active_main_weights": [
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.0,
+      0.2
+    ],
+    "active_SB_weights": [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1724,
+    "training_cutoff": 1723,
+    "period": "confirmation",
+    "main_ticket": [
+      3,
+      5,
+      24,
+      26,
+      27
+    ],
+    "super_ball": 8,
+    "main_hits": 2,
+    "SB_hits": 0,
+    "baseline_main_hits": 2,
+    "baseline_SB_hits": 0,
+    "active_main_weights": [
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.0,
+      0.2
+    ],
+    "active_SB_weights": [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1725,
+    "training_cutoff": 1724,
+    "period": "confirmation",
+    "main_ticket": [
+      5,
+      18,
+      23,
+      24,
+      26
+    ],
+    "super_ball": 8,
+    "main_hits": 1,
+    "SB_hits": 0,
+    "baseline_main_hits": 1,
+    "baseline_SB_hits": 0,
+    "active_main_weights": [
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.0,
+      0.2
+    ],
+    "active_SB_weights": [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1726,
+    "training_cutoff": 1725,
+    "period": "confirmation",
+    "main_ticket": [
+      3,
+      15,
+      23,
+      24,
+      26
+    ],
+    "super_ball": 8,
+    "main_hits": 1,
+    "SB_hits": 1,
+    "baseline_main_hits": 0,
+    "baseline_SB_hits": 1,
+    "active_main_weights": [
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.0,
+      0.2
+    ],
+    "active_SB_weights": [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1727,
+    "training_cutoff": 1726,
+    "period": "confirmation",
+    "main_ticket": [
+      3,
+      12,
+      15,
+      24,
+      29
+    ],
+    "super_ball": 10,
+    "main_hits": 1,
+    "SB_hits": 0,
+    "baseline_main_hits": 1,
+    "baseline_SB_hits": 0,
+    "active_main_weights": [
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.0,
+      0.2
+    ],
+    "active_SB_weights": [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1728,
+    "training_cutoff": 1727,
+    "period": "confirmation",
+    "main_ticket": [
+      5,
+      6,
+      17,
+      24,
+      26
+    ],
+    "super_ball": 10,
+    "main_hits": 1,
+    "SB_hits": 0,
+    "baseline_main_hits": 0,
+    "baseline_SB_hits": 0,
+    "active_main_weights": [
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.0,
+      0.2
+    ],
+    "active_SB_weights": [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1729,
+    "training_cutoff": 1728,
+    "period": "confirmation",
+    "main_ticket": [
+      4,
+      9,
+      15,
+      24,
+      26
+    ],
+    "super_ball": 10,
+    "main_hits": 0,
+    "SB_hits": 0,
+    "baseline_main_hits": 1,
+    "baseline_SB_hits": 0,
+    "active_main_weights": [
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.0,
+      0.2
+    ],
+    "active_SB_weights": [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1730,
+    "training_cutoff": 1729,
+    "period": "confirmation",
+    "main_ticket": [
+      4,
+      5,
+      15,
+      24,
+      26
+    ],
+    "super_ball": 10,
+    "main_hits": 0,
+    "SB_hits": 0,
+    "baseline_main_hits": 2,
+    "baseline_SB_hits": 0,
+    "active_main_weights": [
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.0,
+      0.2
+    ],
+    "active_SB_weights": [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1731,
+    "training_cutoff": 1730,
+    "period": "confirmation",
+    "main_ticket": [
+      3,
+      4,
+      12,
+      17,
+      24
+    ],
+    "super_ball": 10,
+    "main_hits": 2,
+    "SB_hits": 0,
+    "baseline_main_hits": 0,
+    "baseline_SB_hits": 0,
+    "active_main_weights": [
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.0,
+      0.2
+    ],
+    "active_SB_weights": [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1732,
+    "training_cutoff": 1731,
+    "period": "confirmation",
+    "main_ticket": [
+      2,
+      12,
+      15,
+      23,
+      24
+    ],
+    "super_ball": 10,
+    "main_hits": 1,
+    "SB_hits": 0,
+    "baseline_main_hits": 1,
+    "baseline_SB_hits": 0,
+    "active_main_weights": [
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.0,
+      0.2
+    ],
+    "active_SB_weights": [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1733,
+    "training_cutoff": 1732,
+    "period": "confirmation",
+    "main_ticket": [
+      5,
+      11,
+      12,
+      22,
+      24
+    ],
+    "super_ball": 10,
+    "main_hits": 1,
+    "SB_hits": 0,
+    "baseline_main_hits": 0,
+    "baseline_SB_hits": 0,
+    "active_main_weights": [
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.0,
+      0.2
+    ],
+    "active_SB_weights": [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1734,
+    "training_cutoff": 1733,
+    "period": "confirmation",
+    "main_ticket": [
+      5,
+      12,
+      15,
+      20,
+      24
+    ],
+    "super_ball": 10,
+    "main_hits": 0,
+    "SB_hits": 0,
+    "baseline_main_hits": 1,
+    "baseline_SB_hits": 0,
+    "active_main_weights": [
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.0,
+      0.2
+    ],
+    "active_SB_weights": [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1735,
+    "training_cutoff": 1734,
+    "period": "confirmation",
+    "main_ticket": [
+      2,
+      4,
+      12,
+      24,
+      26
+    ],
+    "super_ball": 10,
+    "main_hits": 0,
+    "SB_hits": 0,
+    "baseline_main_hits": 0,
+    "baseline_SB_hits": 0,
+    "active_main_weights": [
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.0,
+      0.2
+    ],
+    "active_SB_weights": [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1736,
+    "training_cutoff": 1735,
+    "period": "confirmation",
+    "main_ticket": [
+      4,
+      5,
+      12,
+      24,
+      30
+    ],
+    "super_ball": 10,
+    "main_hits": 2,
+    "SB_hits": 0,
+    "baseline_main_hits": 0,
+    "baseline_SB_hits": 0,
+    "active_main_weights": [
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.0,
+      0.2
+    ],
+    "active_SB_weights": [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1737,
+    "training_cutoff": 1736,
+    "period": "confirmation",
+    "main_ticket": [
+      2,
+      4,
+      12,
+      24,
+      29
+    ],
+    "super_ball": 10,
+    "main_hits": 2,
+    "SB_hits": 0,
+    "baseline_main_hits": 0,
+    "baseline_SB_hits": 0,
+    "active_main_weights": [
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.0,
+      0.2
+    ],
+    "active_SB_weights": [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1738,
+    "training_cutoff": 1737,
+    "period": "confirmation",
+    "main_ticket": [
+      2,
+      4,
+      18,
+      24,
+      26
+    ],
+    "super_ball": 10,
+    "main_hits": 3,
+    "SB_hits": 0,
+    "baseline_main_hits": 2,
+    "baseline_SB_hits": 0,
+    "active_main_weights": [
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.0,
+      0.2
+    ],
+    "active_SB_weights": [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1739,
+    "training_cutoff": 1738,
+    "period": "confirmation",
+    "main_ticket": [
+      4,
+      9,
+      12,
+      24,
+      29
+    ],
+    "super_ball": 10,
+    "main_hits": 2,
+    "SB_hits": 0,
+    "baseline_main_hits": 1,
+    "baseline_SB_hits": 0,
+    "active_main_weights": [
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.0,
+      0.2
+    ],
+    "active_SB_weights": [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1740,
+    "training_cutoff": 1739,
+    "period": "confirmation",
+    "main_ticket": [
+      4,
+      12,
+      24,
+      29,
+      33
+    ],
+    "super_ball": 10,
+    "main_hits": 1,
+    "SB_hits": 0,
+    "baseline_main_hits": 0,
+    "baseline_SB_hits": 0,
+    "active_main_weights": [
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.0,
+      0.2
+    ],
+    "active_SB_weights": [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1741,
+    "training_cutoff": 1740,
+    "period": "confirmation",
+    "main_ticket": [
+      5,
+      6,
+      12,
+      24,
+      33
+    ],
+    "super_ball": 10,
+    "main_hits": 0,
+    "SB_hits": 1,
+    "baseline_main_hits": 0,
+    "baseline_SB_hits": 1,
+    "active_main_weights": [
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.0,
+      0.2
+    ],
+    "active_SB_weights": [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1742,
+    "training_cutoff": 1741,
+    "period": "confirmation",
+    "main_ticket": [
+      4,
+      6,
+      11,
+      24,
+      28
+    ],
+    "super_ball": 2,
+    "main_hits": 2,
+    "SB_hits": 0,
+    "baseline_main_hits": 1,
+    "baseline_SB_hits": 0,
+    "active_main_weights": [
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.0,
+      0.2
+    ],
+    "active_SB_weights": [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1743,
+    "training_cutoff": 1742,
+    "period": "confirmation",
+    "main_ticket": [
+      6,
+      12,
+      17,
+      23,
+      24
+    ],
+    "super_ball": 2,
+    "main_hits": 2,
+    "SB_hits": 0,
+    "baseline_main_hits": 0,
+    "baseline_SB_hits": 0,
+    "active_main_weights": [
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.0,
+      0.2
+    ],
+    "active_SB_weights": [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1744,
+    "training_cutoff": 1743,
+    "period": "confirmation",
+    "main_ticket": [
+      4,
+      6,
+      12,
+      24,
+      31
+    ],
+    "super_ball": 2,
+    "main_hits": 0,
+    "SB_hits": 0,
+    "baseline_main_hits": 0,
+    "baseline_SB_hits": 0,
+    "active_main_weights": [
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.0,
+      0.2
+    ],
+    "active_SB_weights": [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1745,
+    "training_cutoff": 1744,
+    "period": "confirmation",
+    "main_ticket": [
+      6,
+      15,
+      18,
+      24,
+      30
+    ],
+    "super_ball": 2,
+    "main_hits": 0,
+    "SB_hits": 0,
+    "baseline_main_hits": 0,
+    "baseline_SB_hits": 0,
+    "active_main_weights": [
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.0,
+      0.2
+    ],
+    "active_SB_weights": [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1746,
+    "training_cutoff": 1745,
+    "period": "confirmation",
+    "main_ticket": [
+      3,
+      4,
+      12,
+      18,
+      27
+    ],
+    "super_ball": 2,
+    "main_hits": 1,
+    "SB_hits": 0,
+    "baseline_main_hits": 1,
+    "baseline_SB_hits": 0,
+    "active_main_weights": [
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.0,
+      0.2
+    ],
+    "active_SB_weights": [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1747,
+    "training_cutoff": 1746,
+    "period": "confirmation",
+    "main_ticket": [
+      4,
+      6,
+      17,
+      24,
+      29
+    ],
+    "super_ball": 2,
+    "main_hits": 1,
+    "SB_hits": 0,
+    "baseline_main_hits": 1,
+    "baseline_SB_hits": 0,
+    "active_main_weights": [
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.0,
+      0.2
+    ],
+    "active_SB_weights": [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1748,
+    "training_cutoff": 1747,
+    "period": "confirmation",
+    "main_ticket": [
+      6,
+      7,
+      18,
+      24,
+      25
+    ],
+    "super_ball": 2,
+    "main_hits": 0,
+    "SB_hits": 0,
+    "baseline_main_hits": 0,
+    "baseline_SB_hits": 0,
+    "active_main_weights": [
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.0,
+      0.2
+    ],
+    "active_SB_weights": [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1749,
+    "training_cutoff": 1748,
+    "period": "confirmation",
+    "main_ticket": [
+      6,
+      11,
+      12,
+      24,
+      27
+    ],
+    "super_ball": 2,
+    "main_hits": 1,
+    "SB_hits": 0,
+    "baseline_main_hits": 1,
+    "baseline_SB_hits": 0,
+    "active_main_weights": [
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.0,
+      0.2
+    ],
+    "active_SB_weights": [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1750,
+    "training_cutoff": 1749,
+    "period": "confirmation",
+    "main_ticket": [
+      4,
+      6,
+      17,
+      23,
+      24
+    ],
+    "super_ball": 2,
+    "main_hits": 0,
+    "SB_hits": 0,
+    "baseline_main_hits": 1,
+    "baseline_SB_hits": 0,
+    "active_main_weights": [
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.0,
+      0.2
+    ],
+    "active_SB_weights": [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1751,
+    "training_cutoff": 1750,
+    "period": "confirmation",
+    "main_ticket": [
+      1,
+      4,
+      17,
+      18,
+      24
+    ],
+    "super_ball": 2,
+    "main_hits": 1,
+    "SB_hits": 0,
+    "baseline_main_hits": 0,
+    "baseline_SB_hits": 0,
+    "active_main_weights": [
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.0,
+      0.2
+    ],
+    "active_SB_weights": [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "draw_id": 1752,
+    "training_cutoff": 1751,
+    "period": "confirmation",
+    "main_ticket": [
+      1,
+      6,
+      18,
+      24,
+      34
+    ],
+    "super_ball": 2,
+    "main_hits": 1,
+    "SB_hits": 0,
+    "baseline_main_hits": 1,
+    "baseline_SB_hits": 0,
+    "active_main_weights": [
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.0,
+      0.2
+    ],
+    "active_SB_weights": [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ]
+  }
+]

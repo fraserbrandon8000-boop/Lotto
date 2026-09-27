@@ -1,0 +1,173 @@
+{
+  "simulations": 10000,
+  "tests": [
+    {
+      "test": "marginal_dispersion",
+      "observed": 26.955056179775283,
+      "null_mean": 31.9503127340824,
+      "null_95": [
+        19.127340823970037,
+        47.94756554307116
+      ],
+      "p_mc": 0.7404259574042595,
+      "holm_p": 1.0,
+      "classification": "consistent with randomness"
+    },
+    {
+      "test": "max_number_deviation",
+      "observed": 9.894736842105264,
+      "null_mean": 11.692905263157895,
+      "null_95": [
+        8.105263157894736,
+        16.894736842105264
+      ],
+      "p_mc": 0.8582141785821418,
+      "holm_p": 1.0,
+      "classification": "consistent with randomness"
+    },
+    {
+      "test": "pair_dispersion",
+      "observed": 661.2194756554308,
+      "null_mean": 688.4337378277155,
+      "null_95": [
+        600.6614232209738,
+        787.6014981273408
+      ],
+      "p_mc": 0.7048295170482952,
+      "holm_p": 1.0,
+      "classification": "consistent with randomness"
+    },
+    {
+      "test": "max_pair_count",
+      "observed": 11.0,
+      "null_mean": 11.0623,
+      "null_95": [
+        9.0,
+        13.0
+      ],
+      "p_mc": 0.684931506849315,
+      "holm_p": 1.0,
+      "classification": "consistent with randomness"
+    },
+    {
+      "test": "max_abs_serial_lags1_3",
+      "observed": 0.2459753787878797,
+      "null_mean": 0.22006173099755164,
+      "null_95": [
+        0.1630952380952383,
+        0.31119791666666763
+      ],
+      "p_mc": 0.21537846215378462,
+      "holm_p": 1.0,
+      "classification": "consistent with randomness"
+    },
+    {
+      "test": "complete_gap_CDF_distance",
+      "observed": 0.028124065274818366,
+      "null_mean": 0.023828644665861806,
+      "null_95": [
+        0.013467737671949087,
+        0.039238361616867834
+      ],
+      "p_mc": 0.24317568243175683,
+      "holm_p": 1.0,
+      "classification": "consistent with randomness"
+    },
+    {
+      "test": "repeat_distribution",
+      "observed": 0.9521181131629818,
+      "null_mean": 6.7171527915430085,
+      "null_95": [
+        0.726473262167213,
+        15.298418944811264
+      ],
+      "p_mc": 0.9403059694030597,
+      "holm_p": 1.0,
+      "classification": "consistent with randomness"
+    },
+    {
+      "test": "mean_repeats",
+      "observed": 0.9378531073446328,
+      "null_mean": 0.9473412429378532,
+      "null_95": [
+        0.8305084745762712,
+        1.0677966101694916
+      ],
+      "p_mc": 0.922107789221078,
+      "holm_p": 1.0,
+      "classification": "consistent with randomness"
+    },
+    {
+      "test": "mean_sum",
+      "observed": 116.32584269662921,
+      "null_mean": 116.97936797752809,
+      "null_95": [
+        113.30856741573034,
+        120.66306179775282
+      ],
+      "p_mc": 0.7401259874012599,
+      "holm_p": 1.0,
+      "classification": "consistent with randomness"
+    },
+    {
+      "test": "sum_sd",
+      "observed": 26.0199902758011,
+      "null_mean": 24.887724617729727,
+      "null_95": [
+        22.46145402622155,
+        27.332650469824163
+      ],
+      "p_mc": 0.35896410358964104,
+      "holm_p": 1.0,
+      "classification": "consistent with randomness"
+    },
+    {
+      "test": "mean_odd",
+      "observed": 2.8876404494382024,
+      "null_mean": 3.001761235955056,
+      "null_95": [
+        2.831460674157303,
+        3.168539325842697
+      ],
+      "p_mc": 0.19198080191980801,
+      "holm_p": 1.0,
+      "classification": "consistent with randomness"
+    },
+    {
+      "test": "mean_adjacent_pairs",
+      "observed": 0.6853932584269663,
+      "null_mean": 0.7894764044943821,
+      "null_95": [
+        0.6797752808988764,
+        0.9044943820224719
+      ],
+      "p_mc": 0.07839216078392161,
+      "holm_p": 1.0,
+      "classification": "consistent with randomness"
+    },
+    {
+      "test": "mean_range",
+      "observed": 28.089887640449437,
+      "null_mean": 27.855747752808988,
+      "null_95": [
+        27.028089887640448,
+        28.685533707865165
+      ],
+      "p_mc": 0.5789421057894211,
+      "holm_p": 1.0,
+      "classification": "consistent with randomness"
+    },
+    {
+      "test": "mean_clustering",
+      "observed": 1.3707865168539326,
+      "null_mean": 1.472108988764045,
+      "null_95": [
+        1.3370786516853932,
+        1.6067415730337078
+      ],
+      "p_mc": 0.144985501449855,
+      "holm_p": 1.0,
+      "classification": "consistent with randomness"
+    }
+  ]
+}

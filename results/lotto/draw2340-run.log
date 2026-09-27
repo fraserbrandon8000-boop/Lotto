@@ -1,0 +1,15 @@
+Sensitivity: window20
+Sensitivity: window40
+Sensitivity: decay10
+Sensitivity: decay40
+Sensitivity: trend10
+Sensitivity: trend30
+Sensitivity: pair001
+Sensitivity: pair010
+Sensitivity: warmup40
+Sensitivity: warmup60
+Sensitivity: history100
+Sensitivity: equal_weights
+Sensitivity: shrunk_weights
+Sensitivity: pool_seed
+{"qualifiers": [], "candidate_count": 20, "diversified_candidates": 16, "v1_unchanged": true}

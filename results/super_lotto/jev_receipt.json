@@ -1,0 +1,11 @@
+{
+  "created_utc": "2026-09-21T15:54:11.116Z",
+  "model": "jev-1.13.0",
+  "questions": 161,
+  "state_file_sha256": "0767b99064ad8af386e5535948f12a051308d13ff3f9718e11f9fe85e73d915a",
+  "request_sha256": "6c81827e0b544429eeb9a8c0745960562beeb26399ec8c197ada392b978d8404",
+  "usage": {
+    "input_tokens": 39261,
+    "output_tokens": 3260
+  }
+}

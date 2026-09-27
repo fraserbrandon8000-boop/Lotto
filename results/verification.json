@@ -1,0 +1,10 @@
+{
+  "original_workbook_unchanged": true,
+  "no_future_outcome_leakage_test": true,
+  "holdout_ensemble_weights_frozen": true,
+  "prediction_match_reconciliation": true,
+  "uniform_generator_check": true,
+  "null_pmf_normalized": true,
+  "all_prediction_tickets_valid": true,
+  "tested_draws": 128
+}

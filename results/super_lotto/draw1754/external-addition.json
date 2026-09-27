@@ -1,0 +1,15 @@
+{
+  "draw_id": 1753,
+  "date": "2026-09-22",
+  "numbers": [
+    1,
+    5,
+    8,
+    14,
+    18
+  ],
+  "super_ball": 3,
+  "source": "https://supremeventures.com/past-results/",
+  "api_source": "https://test-results.supremeventures.com/public/game/9/from/2026-09-22/to/2026-09-25",
+  "raw_file": "results/super_lotto/draw1754/official-cutoff.json"
+}

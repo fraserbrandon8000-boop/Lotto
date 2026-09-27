@@ -1,0 +1,39 @@
+{
+  "workbook": "C:\\Data_Unbackupped\\FRASEB01\\Downloads\\super_lotto_draw_history.xlsx",
+  "sha256": "e7c654a8e7c4ce56738b4bb9ea7032209f52a609e3341e448a3f260f9036a07f",
+  "original_records": 176,
+  "id_range": [
+    1577,
+    1752
+  ],
+  "date_range": [
+    "2025-01-03",
+    "2026-09-18"
+  ],
+  "order": "descending",
+  "dates_descending": true,
+  "missing_ids": [],
+  "duplicate_ids": [],
+  "duplicate_records": [],
+  "invalid_or_missing": [],
+  "derived_column_discrepancies": [],
+  "frequency_discrepancies": [],
+  "summary_rounding": "Expected main frequency 176*5/35=25.142857, workbook rounds to 25.1; all models recompute raw rows.",
+  "new_official_draws": [],
+  "cutoff": {
+    "draw_id": 1752,
+    "date": "2026-09-18",
+    "numbers": [
+      9,
+      11,
+      18,
+      29,
+      35
+    ],
+    "super_ball": 5,
+    "source": "C:\\Data_Unbackupped\\FRASEB01\\Downloads\\super_lotto_draw_history.xlsx",
+    "sheet": "Draws",
+    "row": 2
+  },
+  "provenance_limit": "Workbook states screenshot transcription; only latest overlapping draw independently checked against official feed."
+}

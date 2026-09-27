@@ -1,0 +1,3112 @@
+{
+  "game": "Super Lotto only",
+  "rules": "Five distinct main numbers 1\u201335 plus one independent Super Ball 1\u201310.",
+  "baseline": {
+    "main_probabilities": [
+      0.4389770570984992,
+      0.42209332413317235,
+      0.12506468863205106,
+      0.013399788067719756,
+      0.00046206165750757784,
+      3.0804110500505186e-06
+    ],
+    "expected_main": 0.7142857142857143,
+    "SB_probability": 0.1,
+    "main_plus_SB_probabilities": [
+      0.043897705709849924,
+      0.04220933241331724,
+      0.012506468863205106,
+      0.0013399788067719757,
+      4.620616575075779e-05,
+      3.080411050050519e-07
+    ],
+    "main_without_SB_probabilities": [
+      0.3950793513886493,
+      0.37988399171985515,
+      0.11255821976884596,
+      0.01205980926094778,
+      0.0004158554917568201,
+      2.7723699450454667e-06
+    ],
+    "jackpot_probability": 3.080411050050519e-07,
+    "jackpot_denominator": 3246320
+  },
+  "metadata": {
+    "game": "Super Lotto",
+    "seed": 2026092109,
+    "cutoff": {
+      "draw_id": 1752,
+      "date": "2026-09-18",
+      "numbers": [
+        9,
+        11,
+        18,
+        29,
+        35
+      ],
+      "super_ball": 5,
+      "source": "C:\\Data_Unbackupped\\FRASEB01\\Downloads\\super_lotto_draw_history.xlsx",
+      "sheet": "Draws",
+      "row": 2
+    },
+    "origins": 126,
+    "qualifying_models": [],
+    "conclusion": "No detectable edge in this dataset",
+    "configuration": {
+      "warmup": 50,
+      "confirmation": 40,
+      "search_pool": 512,
+      "window": 30,
+      "half_life": 20,
+      "trend": 20,
+      "pair_alpha": 0.05
+    },
+    "source_sha256": "e7c654a8e7c4ce56738b4bb9ea7032209f52a609e3341e448a3f260f9036a07f",
+    "protocol_sha256": "14c5a02cb58c40d05cd069429d36c0f4135b1eed6616a36963cf2b9a5a093b6c"
+  },
+  "randomness": [
+    {
+      "test": "main_dispersion",
+      "observed": 28.727272727272727,
+      "null_mean": 29.943101136363634,
+      "null95": [
+        17.59090909090909,
+        45.51136363636364
+      ],
+      "p": 0.9391060893910609,
+      "holm_p": 1.0,
+      "classification": "consistent with randomness"
+    },
+    {
+      "test": "pair_dispersion",
+      "observed": 553.7386363636364,
+      "null_mean": 584.6889136363636,
+      "null95": [
+        509.1136363636364,
+        668.6818181818181
+      ],
+      "p": 0.46535346465353467,
+      "holm_p": 1.0,
+      "classification": "consistent with randomness"
+    },
+    {
+      "test": "max_pair",
+      "observed": 10.0,
+      "null_mean": 9.3974,
+      "null95": [
+        8.0,
+        12.0
+      ],
+      "p": 0.40375962403759624,
+      "holm_p": 1.0,
+      "classification": "consistent with randomness"
+    },
+    {
+      "test": "serial_max_lag1_3",
+      "observed": 0.22736030828516318,
+      "null_mean": 0.2215029926472214,
+      "null95": [
+        0.15999999999999986,
+        0.320881226053639
+      ],
+      "p": 0.3641635836416358,
+      "holm_p": 1.0,
+      "classification": "consistent with randomness"
+    },
+    {
+      "test": "gap_CDF",
+      "observed": 0.01787123175189509,
+      "null_mean": 0.027136438189611204,
+      "null95": [
+        0.015327087931451655,
+        0.04393879276139889
+      ],
+      "p": 0.917008299170083,
+      "holm_p": 1.0,
+      "classification": "consistent with randomness"
+    },
+    {
+      "test": "repeat_mean",
+      "observed": 0.6342857142857142,
+      "null_mean": 0.7137205714285714,
+      "null95": [
+        0.6114285714285714,
+        0.8228571428571428
+      ],
+      "p": 0.1685831416858314,
+      "holm_p": 1.0,
+      "classification": "consistent with randomness"
+    },
+    {
+      "test": "sum_mean",
+      "observed": 87.11363636363636,
+      "null_mean": 89.99561136363636,
+      "null95": [
+        86.90894886363637,
+        93.07954545454545
+      ],
+      "p": 0.071992800719928,
+      "holm_p": 0.71992800719928,
+      "classification": "consistent with randomness"
+    },
+    {
+      "test": "odd_mean",
+      "observed": 2.5454545454545454,
+      "null_mean": 2.5715568181818185,
+      "null95": [
+        2.414772727272727,
+        2.727272727272727
+      ],
+      "p": 0.7639236076392361,
+      "holm_p": 1.0,
+      "classification": "consistent with randomness"
+    },
+    {
+      "test": "SB_dispersion",
+      "observed": 9.34090909090909,
+      "null_mean": 8.975420454545453,
+      "null95": [
+        2.7499999999999996,
+        19.11363636363636
+      ],
+      "p": 0.8183181681831817,
+      "holm_p": 1.0,
+      "classification": "consistent with randomness"
+    },
+    {
+      "test": "SB_repeat_rate",
+      "observed": 0.12,
+      "null_mean": 0.09981371428571428,
+      "null95": [
+        0.05714285714285714,
+        0.14285714285714285
+      ],
+      "p": 0.43755624437556245,
+      "holm_p": 1.0,
+      "classification": "consistent with randomness"
+    }
+  ],
+  "candidates": [
+    {
+      "id": "SL01",
+      "main": [
+        9,
+        11,
+        12,
+        17,
+        24
+      ],
+      "super_ball": 5,
+      "main_generator": "A_long",
+      "SB_generator": "S_long",
+      "main_ranks": {
+        "A_long": [
+          16,
+          5,
+          3,
+          1,
+          2
+        ],
+        "B_recent": [
+          6,
+          4,
+          3,
+          25,
+          2
+        ],
+        "C_gap": [
+          33,
+          31,
+          25,
+          8,
+          20
+        ],
+        "D_trend": [
+          21,
+          10,
+          19,
+          24,
+          34
+        ],
+        "G_ensemble": [
+          25,
+          18,
+          22,
+          17,
+          14
+        ],
+        "H_random": [
+          3,
+          12,
+          2,
+          18,
+          21
+        ]
+      },
+      "long_mean": 0.17954545454545454,
+      "recent30_mean": 0.19333333333333333,
+      "gap_mean": 2.8,
+      "trend_mean": -0.029999999999999992,
+      "pair_evidence": 0.0,
+      "structure": {
+        "sum": 73.0,
+        "median": 12.0,
+        "min": 9.0,
+        "max": 24.0,
+        "range": 15.0,
+        "odd": 3.0,
+        "low_1_18": 4.0,
+        "adjacent": 1.0,
+        "largest_spacing": 7.0,
+        "clustering_le2": 2.0
+      },
+      "ensemble_score": 0.0,
+      "sensitivity_rank_range": [
+        1,
+        1
+      ],
+      "sensitivity_top5_fraction": 1.0,
+      "model_agreement_count": 2,
+      "main_support": {
+        "domain": "main",
+        "model": "A_long",
+        "period": "confirmation",
+        "n": 40,
+        "mean": 0.675,
+        "total": 27,
+        "rates": [
+          0.5,
+          0.325,
+          0.175,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "p": 0.6663279427273494,
+        "ci": [
+          0.5,
+          0.85
+        ],
+        "older": 0.6,
+        "recent": 0.75,
+        "holm_p": 1.0,
+        "qualifies": false
+      },
+      "SB_support": {
+        "domain": "SB",
+        "model": "S_long",
+        "period": "confirmation",
+        "n": 40,
+        "mean": 0.05,
+        "total": 2,
+        "rates": [
+          0.95,
+          0.05
+        ],
+        "p": 0.919526303985524,
+        "ci": [
+          0.0,
+          0.15
+        ],
+        "older": 0.1,
+        "recent": 0.0,
+        "holm_p": 1.0,
+        "qualifies": false
+      },
+      "SB_evidence": {
+        "full_count": 23,
+        "recent30_count": 6,
+        "gap": 0,
+        "scores": [
+          1.3318117838430628,
+          1.9672158721621793,
+          -0.9565814670501227,
+          1.2649110640513517,
+          0.0
+        ]
+      },
+      "qualified_models": [],
+      "counterevidence": [
+        "Candidate itself and final Jev policy are not walk-forward validated.",
+        "Main and SB evidence are separate; no unsupported cross-game or joint dependence.",
+        "Agreement among same-data models is not independent replication.",
+        "Flat pair/random objectives do not prove stability."
+      ]
+    },
+    {
+      "id": "SL02",
+      "main": [
+        3,
+        6,
+        12,
+        17,
+        24
+      ],
+      "super_ball": 5,
+      "main_generator": "A_long",
+      "SB_generator": "S_recent",
+      "main_ranks": {
+        "A_long": [
+          17,
+          4,
+          3,
+          1,
+          2
+        ],
+        "B_recent": [
+          31,
+          8,
+          3,
+          25,
+          2
+        ],
+        "C_gap": [
+          22,
+          15,
+          25,
+          8,
+          20
+        ],
+        "D_trend": [
+          33,
+          5,
+          19,
+          24,
+          34
+        ],
+        "G_ensemble": [
+          28,
+          9,
+          22,
+          17,
+          14
+        ],
+        "H_random": [
+          8,
+          23,
+          2,
+          18,
+          21
+        ]
+      },
+      "long_mean": 0.17954545454545454,
+      "recent30_mean": 0.16666666666666666,
+      "gap_mean": 4.4,
+      "trend_mean": -0.045,
+      "pair_evidence": 0.0,
+      "structure": {
+        "sum": 62.0,
+        "median": 12.0,
+        "min": 3.0,
+        "max": 24.0,
+        "range": 21.0,
+        "odd": 2.0,
+        "low_1_18": 4.0,
+        "adjacent": 0.0,
+        "largest_spacing": 7.0,
+        "clustering_le2": 0.0
+      },
+      "ensemble_score": 0.0,
+      "sensitivity_rank_range": [
+        2,
+        5
+      ],
+      "sensitivity_top5_fraction": 1.0,
+      "model_agreement_count": 1,
+      "main_support": {
+        "domain": "main",
+        "model": "A_long",
+        "period": "confirmation",
+        "n": 40,
+        "mean": 0.675,
+        "total": 27,
+        "rates": [
+          0.5,
+          0.325,
+          0.175,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "p": 0.6663279427273494,
+        "ci": [
+          0.5,
+          0.85
+        ],
+        "older": 0.6,
+        "recent": 0.75,
+        "holm_p": 1.0,
+        "qualifies": false
+      },
+      "SB_support": {
+        "domain": "SB",
+        "model": "S_recent",
+        "period": "confirmation",
+        "n": 40,
+        "mean": 0.125,
+        "total": 5,
+        "rates": [
+          0.875,
+          0.125
+        ],
+        "p": 0.3709823034657994,
+        "ci": [
+          0.05,
+          0.2
+        ],
+        "older": 0.1,
+        "recent": 0.15,
+        "holm_p": 1.0,
+        "qualifies": false
+      },
+      "SB_evidence": {
+        "full_count": 23,
+        "recent30_count": 6,
+        "gap": 0,
+        "scores": [
+          1.3318117838430628,
+          1.9672158721621793,
+          -0.9565814670501227,
+          1.2649110640513517,
+          0.0
+        ]
+      },
+      "qualified_models": [],
+      "counterevidence": [
+        "Candidate itself and final Jev policy are not walk-forward validated.",
+        "Main and SB evidence are separate; no unsupported cross-game or joint dependence.",
+        "Agreement among same-data models is not independent replication.",
+        "Flat pair/random objectives do not prove stability."
+      ]
+    },
+    {
+      "id": "SL03",
+      "main": [
+        12,
+        17,
+        22,
+        23,
+        24
+      ],
+      "super_ball": 2,
+      "main_generator": "A_long",
+      "SB_generator": "S_gap",
+      "main_ranks": {
+        "A_long": [
+          3,
+          1,
+          6,
+          10,
+          2
+        ],
+        "B_recent": [
+          3,
+          25,
+          13,
+          10,
+          2
+        ],
+        "C_gap": [
+          25,
+          8,
+          17,
+          21,
+          20
+        ],
+        "D_trend": [
+          19,
+          24,
+          1,
+          12,
+          34
+        ],
+        "G_ensemble": [
+          22,
+          17,
+          13,
+          23,
+          14
+        ],
+        "H_random": [
+          2,
+          18,
+          16,
+          7,
+          21
+        ]
+      },
+      "long_mean": 0.17954545454545454,
+      "recent30_mean": 0.18,
+      "gap_mean": 4.2,
+      "trend_mean": 0.0050000000000000044,
+      "pair_evidence": 0.0,
+      "structure": {
+        "sum": 98.0,
+        "median": 22.0,
+        "min": 12.0,
+        "max": 24.0,
+        "range": 12.0,
+        "odd": 2.0,
+        "low_1_18": 2.0,
+        "adjacent": 2.0,
+        "largest_spacing": 5.0,
+        "clustering_le2": 2.0
+      },
+      "ensemble_score": 0.0,
+      "sensitivity_rank_range": [
+        3,
+        3
+      ],
+      "sensitivity_top5_fraction": 1.0,
+      "model_agreement_count": 1,
+      "main_support": {
+        "domain": "main",
+        "model": "A_long",
+        "period": "confirmation",
+        "n": 40,
+        "mean": 0.675,
+        "total": 27,
+        "rates": [
+          0.5,
+          0.325,
+          0.175,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "p": 0.6663279427273494,
+        "ci": [
+          0.5,
+          0.85
+        ],
+        "older": 0.6,
+        "recent": 0.75,
+        "holm_p": 1.0,
+        "qualifies": false
+      },
+      "SB_support": {
+        "domain": "SB",
+        "model": "S_gap",
+        "period": "confirmation",
+        "n": 40,
+        "mean": 0.05,
+        "total": 2,
+        "rates": [
+          0.95,
+          0.05
+        ],
+        "p": 0.919526303985524,
+        "ci": [
+          0.0,
+          0.1
+        ],
+        "older": 0.05,
+        "recent": 0.05,
+        "holm_p": 1.0,
+        "qualifies": false
+      },
+      "SB_evidence": {
+        "full_count": 15,
+        "recent30_count": 1,
+        "gap": 27,
+        "scores": [
+          -0.6412427107392532,
+          -1.250339198053844,
+          2.681122703422175,
+          -2.5298221281027033,
+          0.0
+        ]
+      },
+      "qualified_models": [],
+      "counterevidence": [
+        "Candidate itself and final Jev policy are not walk-forward validated.",
+        "Main and SB evidence are separate; no unsupported cross-game or joint dependence.",
+        "Agreement among same-data models is not independent replication.",
+        "Flat pair/random objectives do not prove stability."
+      ]
+    },
+    {
+      "id": "SL04",
+      "main": [
+        9,
+        11,
+        18,
+        24,
+        25
+      ],
+      "super_ball": 5,
+      "main_generator": "B_recent",
+      "SB_generator": "S_trend",
+      "main_ranks": {
+        "A_long": [
+          16,
+          5,
+          18,
+          2,
+          15
+        ],
+        "B_recent": [
+          6,
+          4,
+          1,
+          2,
+          7
+        ],
+        "C_gap": [
+          33,
+          31,
+          35,
+          20,
+          24
+        ],
+        "D_trend": [
+          21,
+          10,
+          7,
+          34,
+          11
+        ],
+        "G_ensemble": [
+          25,
+          18,
+          34,
+          14,
+          21
+        ],
+        "H_random": [
+          3,
+          12,
+          34,
+          21,
+          6
+        ]
+      },
+      "long_mean": 0.16136363636363638,
+      "recent30_mean": 0.22666666666666666,
+      "gap_mean": 1.0,
+      "trend_mean": 0.010000000000000004,
+      "pair_evidence": 0.0,
+      "structure": {
+        "sum": 87.0,
+        "median": 18.0,
+        "min": 9.0,
+        "max": 25.0,
+        "range": 16.0,
+        "odd": 3.0,
+        "low_1_18": 3.0,
+        "adjacent": 1.0,
+        "largest_spacing": 7.0,
+        "clustering_le2": 2.0
+      },
+      "ensemble_score": 0.0,
+      "sensitivity_rank_range": [
+        1,
+        3
+      ],
+      "sensitivity_top5_fraction": 1.0,
+      "model_agreement_count": 1,
+      "main_support": {
+        "domain": "main",
+        "model": "B_recent",
+        "period": "confirmation",
+        "n": 40,
+        "mean": 0.75,
+        "total": 30,
+        "rates": [
+          0.425,
+          0.4,
+          0.175,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "p": 0.4135806208313115,
+        "ci": [
+          0.55,
+          0.975
+        ],
+        "older": 0.75,
+        "recent": 0.75,
+        "holm_p": 1.0,
+        "qualifies": false
+      },
+      "SB_support": {
+        "domain": "SB",
+        "model": "S_trend",
+        "period": "confirmation",
+        "n": 40,
+        "mean": 0.15,
+        "total": 6,
+        "rates": [
+          0.85,
+          0.15
+        ],
+        "p": 0.20627266871283986,
+        "ci": [
+          0.05,
+          0.25
+        ],
+        "older": 0.2,
+        "recent": 0.1,
+        "holm_p": 1.0,
+        "qualifies": false
+      },
+      "SB_evidence": {
+        "full_count": 23,
+        "recent30_count": 6,
+        "gap": 0,
+        "scores": [
+          1.3318117838430628,
+          1.9672158721621793,
+          -0.9565814670501227,
+          1.2649110640513517,
+          0.0
+        ]
+      },
+      "qualified_models": [],
+      "counterevidence": [
+        "Candidate itself and final Jev policy are not walk-forward validated.",
+        "Main and SB evidence are separate; no unsupported cross-game or joint dependence.",
+        "Agreement among same-data models is not independent replication.",
+        "Flat pair/random objectives do not prove stability."
+      ]
+    },
+    {
+      "id": "SL05",
+      "main": [
+        6,
+        9,
+        18,
+        24,
+        29
+      ],
+      "super_ball": 6,
+      "main_generator": "B_recent",
+      "SB_generator": "S_transition",
+      "main_ranks": {
+        "A_long": [
+          4,
+          16,
+          18,
+          2,
+          11
+        ],
+        "B_recent": [
+          8,
+          6,
+          1,
+          2,
+          9
+        ],
+        "C_gap": [
+          15,
+          33,
+          35,
+          20,
+          32
+        ],
+        "D_trend": [
+          5,
+          21,
+          7,
+          34,
+          20
+        ],
+        "G_ensemble": [
+          9,
+          25,
+          34,
+          14,
+          24
+        ],
+        "H_random": [
+          23,
+          3,
+          34,
+          21,
+          24
+        ]
+      },
+      "long_mean": 0.1625,
+      "recent30_mean": 0.22,
+      "gap_mean": 1.6,
+      "trend_mean": 0.009999999999999998,
+      "pair_evidence": 0.0,
+      "structure": {
+        "sum": 86.0,
+        "median": 18.0,
+        "min": 6.0,
+        "max": 29.0,
+        "range": 23.0,
+        "odd": 2.0,
+        "low_1_18": 3.0,
+        "adjacent": 0.0,
+        "largest_spacing": 9.0,
+        "clustering_le2": 0.0
+      },
+      "ensemble_score": 0.0,
+      "sensitivity_rank_range": [
+        2,
+        4
+      ],
+      "sensitivity_top5_fraction": 1.0,
+      "model_agreement_count": 1,
+      "main_support": {
+        "domain": "main",
+        "model": "B_recent",
+        "period": "confirmation",
+        "n": 40,
+        "mean": 0.75,
+        "total": 30,
+        "rates": [
+          0.425,
+          0.4,
+          0.175,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "p": 0.4135806208313115,
+        "ci": [
+          0.55,
+          0.975
+        ],
+        "older": 0.75,
+        "recent": 0.75,
+        "holm_p": 1.0,
+        "qualifies": false
+      },
+      "SB_support": {
+        "domain": "SB",
+        "model": "S_transition",
+        "period": "confirmation",
+        "n": 40,
+        "mean": 0.05,
+        "total": 2,
+        "rates": [
+          0.95,
+          0.05
+        ],
+        "p": 0.919526303985524,
+        "ci": [
+          0.0,
+          0.125
+        ],
+        "older": 0.05,
+        "recent": 0.05,
+        "holm_p": 1.0,
+        "qualifies": false
+      },
+      "SB_evidence": {
+        "full_count": 22,
+        "recent30_count": 2,
+        "gap": 5,
+        "scores": [
+          1.0851799720202735,
+          -0.43583683504849274,
+          -0.2829325465922898,
+          4.388541835665365e-17,
+          0.0
+        ]
+      },
+      "qualified_models": [],
+      "counterevidence": [
+        "Candidate itself and final Jev policy are not walk-forward validated.",
+        "Main and SB evidence are separate; no unsupported cross-game or joint dependence.",
+        "Agreement among same-data models is not independent replication.",
+        "Flat pair/random objectives do not prove stability."
+      ]
+    },
+    {
+      "id": "SL06",
+      "main": [
+        1,
+        12,
+        18,
+        23,
+        25
+      ],
+      "super_ball": 2,
+      "main_generator": "B_recent",
+      "SB_generator": "S_ensemble",
+      "main_ranks": {
+        "A_long": [
+          13,
+          3,
+          18,
+          10,
+          15
+        ],
+        "B_recent": [
+          5,
+          3,
+          1,
+          10,
+          7
+        ],
+        "C_gap": [
+          18,
+          25,
+          35,
+          21,
+          24
+        ],
+        "D_trend": [
+          2,
+          19,
+          7,
+          12,
+          11
+        ],
+        "G_ensemble": [
+          32,
+          22,
+          34,
+          23,
+          21
+        ],
+        "H_random": [
+          4,
+          2,
+          34,
+          7,
+          6
+        ]
+      },
+      "long_mean": 0.15795454545454546,
+      "recent30_mean": 0.22,
+      "gap_mean": 2.2,
+      "trend_mean": 0.06500000000000002,
+      "pair_evidence": 0.0,
+      "structure": {
+        "sum": 79.0,
+        "median": 18.0,
+        "min": 1.0,
+        "max": 25.0,
+        "range": 24.0,
+        "odd": 3.0,
+        "low_1_18": 3.0,
+        "adjacent": 0.0,
+        "largest_spacing": 11.0,
+        "clustering_le2": 1.0
+      },
+      "ensemble_score": 0.0,
+      "sensitivity_rank_range": [
+        2,
+        3
+      ],
+      "sensitivity_top5_fraction": 1.0,
+      "model_agreement_count": 3,
+      "main_support": {
+        "domain": "main",
+        "model": "B_recent",
+        "period": "confirmation",
+        "n": 40,
+        "mean": 0.75,
+        "total": 30,
+        "rates": [
+          0.425,
+          0.4,
+          0.175,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "p": 0.4135806208313115,
+        "ci": [
+          0.55,
+          0.975
+        ],
+        "older": 0.75,
+        "recent": 0.75,
+        "holm_p": 1.0,
+        "qualifies": false
+      },
+      "SB_support": {
+        "domain": "SB",
+        "model": "S_ensemble",
+        "period": "confirmation",
+        "n": 40,
+        "mean": 0.05,
+        "total": 2,
+        "rates": [
+          0.95,
+          0.05
+        ],
+        "p": 0.919526303985524,
+        "ci": [
+          0.0,
+          0.1
+        ],
+        "older": 0.05,
+        "recent": 0.05,
+        "holm_p": 1.0,
+        "qualifies": false
+      },
+      "SB_evidence": {
+        "full_count": 15,
+        "recent30_count": 1,
+        "gap": 27,
+        "scores": [
+          -0.6412427107392532,
+          -1.250339198053844,
+          2.681122703422175,
+          -2.5298221281027033,
+          0.0
+        ]
+      },
+      "qualified_models": [],
+      "counterevidence": [
+        "Candidate itself and final Jev policy are not walk-forward validated.",
+        "Main and SB evidence are separate; no unsupported cross-game or joint dependence.",
+        "Agreement among same-data models is not independent replication.",
+        "Flat pair/random objectives do not prove stability."
+      ]
+    },
+    {
+      "id": "SL07",
+      "main": [
+        4,
+        7,
+        13,
+        33,
+        34
+      ],
+      "super_ball": 4,
+      "main_generator": "C_gap",
+      "SB_generator": "S_random",
+      "main_ranks": {
+        "A_long": [
+          8,
+          19,
+          24,
+          26,
+          27
+        ],
+        "B_recent": [
+          20,
+          26,
+          30,
+          34,
+          22
+        ],
+        "C_gap": [
+          3,
+          2,
+          7,
+          1,
+          4
+        ],
+        "D_trend": [
+          14,
+          17,
+          27,
+          35,
+          9
+        ],
+        "G_ensemble": [
+          15,
+          10,
+          5,
+          7,
+          26
+        ],
+        "H_random": [
+          27,
+          32,
+          19,
+          14,
+          11
+        ]
+      },
+      "long_mean": 0.13636363636363635,
+      "recent30_mean": 0.1,
+      "gap_mean": 14.4,
+      "trend_mean": -0.029999999999999992,
+      "pair_evidence": 0.0,
+      "structure": {
+        "sum": 91.0,
+        "median": 13.0,
+        "min": 4.0,
+        "max": 34.0,
+        "range": 30.0,
+        "odd": 3.0,
+        "low_1_18": 3.0,
+        "adjacent": 1.0,
+        "largest_spacing": 20.0,
+        "clustering_le2": 1.0
+      },
+      "ensemble_score": 0.0,
+      "sensitivity_rank_range": [
+        1,
+        1
+      ],
+      "sensitivity_top5_fraction": 1.0,
+      "model_agreement_count": 1,
+      "main_support": {
+        "domain": "main",
+        "model": "C_gap",
+        "period": "confirmation",
+        "n": 40,
+        "mean": 0.7,
+        "total": 28,
+        "rates": [
+          0.425,
+          0.45,
+          0.125,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "p": 0.5839042097985041,
+        "ci": [
+          0.525,
+          0.875
+        ],
+        "older": 0.65,
+        "recent": 0.75,
+        "holm_p": 1.0,
+        "qualifies": false
+      },
+      "SB_support": {
+        "domain": "SB",
+        "model": "S_random",
+        "period": "confirmation",
+        "n": 40,
+        "mean": 0.1,
+        "total": 4,
+        "rates": [
+          0.9,
+          0.1
+        ],
+        "p": 0.5768693469069989,
+        "ci": [
+          0.025,
+          0.175
+        ],
+        "older": 0.1,
+        "recent": 0.1,
+        "holm_p": 1.0,
+        "qualifies": false
+      },
+      "SB_evidence": {
+        "full_count": 22,
+        "recent30_count": 4,
+        "gap": 6,
+        "scores": [
+          1.0851799720202735,
+          0.5735404340291748,
+          -0.1482027625007232,
+          4.388541835665365e-17,
+          0.0
+        ]
+      },
+      "qualified_models": [],
+      "counterevidence": [
+        "Candidate itself and final Jev policy are not walk-forward validated.",
+        "Main and SB evidence are separate; no unsupported cross-game or joint dependence.",
+        "Agreement among same-data models is not independent replication.",
+        "Flat pair/random objectives do not prove stability."
+      ]
+    },
+    {
+      "id": "SL08",
+      "main": [
+        4,
+        6,
+        7,
+        17,
+        33
+      ],
+      "super_ball": 5,
+      "main_generator": "C_gap",
+      "SB_generator": "S_long",
+      "main_ranks": {
+        "A_long": [
+          8,
+          4,
+          19,
+          1,
+          26
+        ],
+        "B_recent": [
+          20,
+          8,
+          26,
+          25,
+          34
+        ],
+        "C_gap": [
+          3,
+          15,
+          2,
+          8,
+          1
+        ],
+        "D_trend": [
+          14,
+          5,
+          17,
+          24,
+          35
+        ],
+        "G_ensemble": [
+          15,
+          9,
+          10,
+          17,
+          7
+        ],
+        "H_random": [
+          27,
+          23,
+          32,
+          18,
+          14
+        ]
+      },
+      "long_mean": 0.16022727272727272,
+      "recent30_mean": 0.12,
+      "gap_mean": 13.0,
+      "trend_mean": -0.019999999999999997,
+      "pair_evidence": 0.0,
+      "structure": {
+        "sum": 67.0,
+        "median": 7.0,
+        "min": 4.0,
+        "max": 33.0,
+        "range": 29.0,
+        "odd": 3.0,
+        "low_1_18": 4.0,
+        "adjacent": 1.0,
+        "largest_spacing": 16.0,
+        "clustering_le2": 2.0
+      },
+      "ensemble_score": 0.0,
+      "sensitivity_rank_range": [
+        2,
+        2
+      ],
+      "sensitivity_top5_fraction": 1.0,
+      "model_agreement_count": 1,
+      "main_support": {
+        "domain": "main",
+        "model": "C_gap",
+        "period": "confirmation",
+        "n": 40,
+        "mean": 0.7,
+        "total": 28,
+        "rates": [
+          0.425,
+          0.45,
+          0.125,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "p": 0.5839042097985041,
+        "ci": [
+          0.525,
+          0.875
+        ],
+        "older": 0.65,
+        "recent": 0.75,
+        "holm_p": 1.0,
+        "qualifies": false
+      },
+      "SB_support": {
+        "domain": "SB",
+        "model": "S_long",
+        "period": "confirmation",
+        "n": 40,
+        "mean": 0.05,
+        "total": 2,
+        "rates": [
+          0.95,
+          0.05
+        ],
+        "p": 0.919526303985524,
+        "ci": [
+          0.0,
+          0.15
+        ],
+        "older": 0.1,
+        "recent": 0.0,
+        "holm_p": 1.0,
+        "qualifies": false
+      },
+      "SB_evidence": {
+        "full_count": 23,
+        "recent30_count": 6,
+        "gap": 0,
+        "scores": [
+          1.3318117838430628,
+          1.9672158721621793,
+          -0.9565814670501227,
+          1.2649110640513517,
+          0.0
+        ]
+      },
+      "qualified_models": [],
+      "counterevidence": [
+        "Candidate itself and final Jev policy are not walk-forward validated.",
+        "Main and SB evidence are separate; no unsupported cross-game or joint dependence.",
+        "Agreement among same-data models is not independent replication.",
+        "Flat pair/random objectives do not prove stability."
+      ]
+    },
+    {
+      "id": "SL09",
+      "main": [
+        4,
+        10,
+        16,
+        17,
+        33
+      ],
+      "super_ball": 5,
+      "main_generator": "C_gap",
+      "SB_generator": "S_recent",
+      "main_ranks": {
+        "A_long": [
+          8,
+          21,
+          32,
+          1,
+          26
+        ],
+        "B_recent": [
+          20,
+          35,
+          11,
+          25,
+          34
+        ],
+        "C_gap": [
+          3,
+          5,
+          9,
+          8,
+          1
+        ],
+        "D_trend": [
+          14,
+          28,
+          22,
+          24,
+          35
+        ],
+        "G_ensemble": [
+          15,
+          16,
+          29,
+          17,
+          7
+        ],
+        "H_random": [
+          27,
+          25,
+          20,
+          18,
+          14
+        ]
+      },
+      "long_mean": 0.14659090909090908,
+      "recent30_mean": 0.11333333333333333,
+      "gap_mean": 12.8,
+      "trend_mean": -0.06,
+      "pair_evidence": 0.0,
+      "structure": {
+        "sum": 80.0,
+        "median": 16.0,
+        "min": 4.0,
+        "max": 33.0,
+        "range": 29.0,
+        "odd": 2.0,
+        "low_1_18": 4.0,
+        "adjacent": 1.0,
+        "largest_spacing": 16.0,
+        "clustering_le2": 1.0
+      },
+      "ensemble_score": 0.0,
+      "sensitivity_rank_range": [
+        3,
+        3
+      ],
+      "sensitivity_top5_fraction": 1.0,
+      "model_agreement_count": 1,
+      "main_support": {
+        "domain": "main",
+        "model": "C_gap",
+        "period": "confirmation",
+        "n": 40,
+        "mean": 0.7,
+        "total": 28,
+        "rates": [
+          0.425,
+          0.45,
+          0.125,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "p": 0.5839042097985041,
+        "ci": [
+          0.525,
+          0.875
+        ],
+        "older": 0.65,
+        "recent": 0.75,
+        "holm_p": 1.0,
+        "qualifies": false
+      },
+      "SB_support": {
+        "domain": "SB",
+        "model": "S_recent",
+        "period": "confirmation",
+        "n": 40,
+        "mean": 0.125,
+        "total": 5,
+        "rates": [
+          0.875,
+          0.125
+        ],
+        "p": 0.3709823034657994,
+        "ci": [
+          0.05,
+          0.2
+        ],
+        "older": 0.1,
+        "recent": 0.15,
+        "holm_p": 1.0,
+        "qualifies": false
+      },
+      "SB_evidence": {
+        "full_count": 23,
+        "recent30_count": 6,
+        "gap": 0,
+        "scores": [
+          1.3318117838430628,
+          1.9672158721621793,
+          -0.9565814670501227,
+          1.2649110640513517,
+          0.0
+        ]
+      },
+      "qualified_models": [],
+      "counterevidence": [
+        "Candidate itself and final Jev policy are not walk-forward validated.",
+        "Main and SB evidence are separate; no unsupported cross-game or joint dependence.",
+        "Agreement among same-data models is not independent replication.",
+        "Flat pair/random objectives do not prove stability."
+      ]
+    },
+    {
+      "id": "SL10",
+      "main": [
+        1,
+        22,
+        32,
+        34,
+        35
+      ],
+      "super_ball": 2,
+      "main_generator": "D_trend",
+      "SB_generator": "S_gap",
+      "main_ranks": {
+        "A_long": [
+          13,
+          6,
+          23,
+          27,
+          33
+        ],
+        "B_recent": [
+          5,
+          13,
+          18,
+          22,
+          21
+        ],
+        "C_gap": [
+          18,
+          17,
+          13,
+          4,
+          34
+        ],
+        "D_trend": [
+          2,
+          1,
+          3,
+          9,
+          6
+        ],
+        "G_ensemble": [
+          32,
+          13,
+          1,
+          26,
+          33
+        ],
+        "H_random": [
+          4,
+          16,
+          10,
+          11,
+          28
+        ]
+      },
+      "long_mean": 0.1375,
+      "recent30_mean": 0.15333333333333332,
+      "gap_mean": 5.2,
+      "trend_mean": 0.11500000000000002,
+      "pair_evidence": 0.0,
+      "structure": {
+        "sum": 124.0,
+        "median": 32.0,
+        "min": 1.0,
+        "max": 35.0,
+        "range": 34.0,
+        "odd": 2.0,
+        "low_1_18": 1.0,
+        "adjacent": 1.0,
+        "largest_spacing": 21.0,
+        "clustering_le2": 2.0
+      },
+      "ensemble_score": 0.0,
+      "sensitivity_rank_range": [
+        1,
+        8
+      ],
+      "sensitivity_top5_fraction": 0.9090909090909091,
+      "model_agreement_count": 1,
+      "main_support": {
+        "domain": "main",
+        "model": "D_trend",
+        "period": "confirmation",
+        "n": 40,
+        "mean": 0.625,
+        "total": 25,
+        "rates": [
+          0.5,
+          0.375,
+          0.125,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "p": 0.808308903143885,
+        "ci": [
+          0.4,
+          0.9
+        ],
+        "older": 0.8,
+        "recent": 0.45,
+        "holm_p": 1.0,
+        "qualifies": false
+      },
+      "SB_support": {
+        "domain": "SB",
+        "model": "S_gap",
+        "period": "confirmation",
+        "n": 40,
+        "mean": 0.05,
+        "total": 2,
+        "rates": [
+          0.95,
+          0.05
+        ],
+        "p": 0.919526303985524,
+        "ci": [
+          0.0,
+          0.1
+        ],
+        "older": 0.05,
+        "recent": 0.05,
+        "holm_p": 1.0,
+        "qualifies": false
+      },
+      "SB_evidence": {
+        "full_count": 15,
+        "recent30_count": 1,
+        "gap": 27,
+        "scores": [
+          -0.6412427107392532,
+          -1.250339198053844,
+          2.681122703422175,
+          -2.5298221281027033,
+          0.0
+        ]
+      },
+      "qualified_models": [],
+      "counterevidence": [
+        "Candidate itself and final Jev policy are not walk-forward validated.",
+        "Main and SB evidence are separate; no unsupported cross-game or joint dependence.",
+        "Agreement among same-data models is not independent replication.",
+        "Flat pair/random objectives do not prove stability."
+      ]
+    },
+    {
+      "id": "SL11",
+      "main": [
+        1,
+        6,
+        11,
+        18,
+        22
+      ],
+      "super_ball": 5,
+      "main_generator": "D_trend",
+      "SB_generator": "S_trend",
+      "main_ranks": {
+        "A_long": [
+          13,
+          4,
+          5,
+          18,
+          6
+        ],
+        "B_recent": [
+          5,
+          8,
+          4,
+          1,
+          13
+        ],
+        "C_gap": [
+          18,
+          15,
+          31,
+          35,
+          17
+        ],
+        "D_trend": [
+          2,
+          5,
+          10,
+          7,
+          1
+        ],
+        "G_ensemble": [
+          32,
+          9,
+          18,
+          34,
+          13
+        ],
+        "H_random": [
+          4,
+          23,
+          12,
+          34,
+          16
+        ]
+      },
+      "long_mean": 0.16477272727272727,
+      "recent30_mean": 0.21333333333333335,
+      "gap_mean": 2.6,
+      "trend_mean": 0.11000000000000001,
+      "pair_evidence": 0.0,
+      "structure": {
+        "sum": 58.0,
+        "median": 11.0,
+        "min": 1.0,
+        "max": 22.0,
+        "range": 21.0,
+        "odd": 2.0,
+        "low_1_18": 4.0,
+        "adjacent": 0.0,
+        "largest_spacing": 7.0,
+        "clustering_le2": 0.0
+      },
+      "ensemble_score": 0.0,
+      "sensitivity_rank_range": [
+        1,
+        4
+      ],
+      "sensitivity_top5_fraction": 1.0,
+      "model_agreement_count": 2,
+      "main_support": {
+        "domain": "main",
+        "model": "D_trend",
+        "period": "confirmation",
+        "n": 40,
+        "mean": 0.625,
+        "total": 25,
+        "rates": [
+          0.5,
+          0.375,
+          0.125,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "p": 0.808308903143885,
+        "ci": [
+          0.4,
+          0.9
+        ],
+        "older": 0.8,
+        "recent": 0.45,
+        "holm_p": 1.0,
+        "qualifies": false
+      },
+      "SB_support": {
+        "domain": "SB",
+        "model": "S_trend",
+        "period": "confirmation",
+        "n": 40,
+        "mean": 0.15,
+        "total": 6,
+        "rates": [
+          0.85,
+          0.15
+        ],
+        "p": 0.20627266871283986,
+        "ci": [
+          0.05,
+          0.25
+        ],
+        "older": 0.2,
+        "recent": 0.1,
+        "holm_p": 1.0,
+        "qualifies": false
+      },
+      "SB_evidence": {
+        "full_count": 23,
+        "recent30_count": 6,
+        "gap": 0,
+        "scores": [
+          1.3318117838430628,
+          1.9672158721621793,
+          -0.9565814670501227,
+          1.2649110640513517,
+          0.0
+        ]
+      },
+      "qualified_models": [],
+      "counterevidence": [
+        "Candidate itself and final Jev policy are not walk-forward validated.",
+        "Main and SB evidence are separate; no unsupported cross-game or joint dependence.",
+        "Agreement among same-data models is not independent replication.",
+        "Flat pair/random objectives do not prove stability."
+      ]
+    },
+    {
+      "id": "SL12",
+      "main": [
+        2,
+        19,
+        22,
+        32,
+        35
+      ],
+      "super_ball": 6,
+      "main_generator": "D_trend",
+      "SB_generator": "S_transition",
+      "main_ranks": {
+        "A_long": [
+          7,
+          35,
+          6,
+          23,
+          33
+        ],
+        "B_recent": [
+          16,
+          32,
+          13,
+          18,
+          21
+        ],
+        "C_gap": [
+          19,
+          6,
+          17,
+          13,
+          34
+        ],
+        "D_trend": [
+          4,
+          8,
+          1,
+          3,
+          6
+        ],
+        "G_ensemble": [
+          3,
+          2,
+          13,
+          1,
+          33
+        ],
+        "H_random": [
+          9,
+          35,
+          16,
+          10,
+          28
+        ]
+      },
+      "long_mean": 0.13068181818181818,
+      "recent30_mean": 0.13333333333333333,
+      "gap_mean": 4.6,
+      "trend_mean": 0.10999999999999999,
+      "pair_evidence": 0.0,
+      "structure": {
+        "sum": 110.0,
+        "median": 22.0,
+        "min": 2.0,
+        "max": 35.0,
+        "range": 33.0,
+        "odd": 2.0,
+        "low_1_18": 1.0,
+        "adjacent": 0.0,
+        "largest_spacing": 17.0,
+        "clustering_le2": 0.0
+      },
+      "ensemble_score": 0.0,
+      "sensitivity_rank_range": [
+        3,
+        11
+      ],
+      "sensitivity_top5_fraction": 0.9090909090909091,
+      "model_agreement_count": 1,
+      "main_support": {
+        "domain": "main",
+        "model": "D_trend",
+        "period": "confirmation",
+        "n": 40,
+        "mean": 0.625,
+        "total": 25,
+        "rates": [
+          0.5,
+          0.375,
+          0.125,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "p": 0.808308903143885,
+        "ci": [
+          0.4,
+          0.9
+        ],
+        "older": 0.8,
+        "recent": 0.45,
+        "holm_p": 1.0,
+        "qualifies": false
+      },
+      "SB_support": {
+        "domain": "SB",
+        "model": "S_transition",
+        "period": "confirmation",
+        "n": 40,
+        "mean": 0.05,
+        "total": 2,
+        "rates": [
+          0.95,
+          0.05
+        ],
+        "p": 0.919526303985524,
+        "ci": [
+          0.0,
+          0.125
+        ],
+        "older": 0.05,
+        "recent": 0.05,
+        "holm_p": 1.0,
+        "qualifies": false
+      },
+      "SB_evidence": {
+        "full_count": 22,
+        "recent30_count": 2,
+        "gap": 5,
+        "scores": [
+          1.0851799720202735,
+          -0.43583683504849274,
+          -0.2829325465922898,
+          4.388541835665365e-17,
+          0.0
+        ]
+      },
+      "qualified_models": [],
+      "counterevidence": [
+        "Candidate itself and final Jev policy are not walk-forward validated.",
+        "Main and SB evidence are separate; no unsupported cross-game or joint dependence.",
+        "Agreement among same-data models is not independent replication.",
+        "Flat pair/random objectives do not prove stability."
+      ]
+    },
+    {
+      "id": "SL13",
+      "main": [
+        18,
+        22,
+        23,
+        24,
+        30
+      ],
+      "super_ball": 2,
+      "main_generator": "E_pairs",
+      "SB_generator": "S_ensemble",
+      "main_ranks": {
+        "A_long": [
+          18,
+          6,
+          10,
+          2,
+          28
+        ],
+        "B_recent": [
+          1,
+          13,
+          10,
+          2,
+          14
+        ],
+        "C_gap": [
+          35,
+          17,
+          21,
+          20,
+          10
+        ],
+        "D_trend": [
+          7,
+          1,
+          12,
+          34,
+          16
+        ],
+        "G_ensemble": [
+          34,
+          13,
+          23,
+          14,
+          30
+        ],
+        "H_random": [
+          34,
+          16,
+          7,
+          21,
+          26
+        ]
+      },
+      "long_mean": 0.15681818181818183,
+      "recent30_mean": 0.20666666666666667,
+      "gap_mean": 3.6,
+      "trend_mean": 0.039999999999999994,
+      "pair_evidence": 0.0,
+      "structure": {
+        "sum": 117.0,
+        "median": 23.0,
+        "min": 18.0,
+        "max": 30.0,
+        "range": 12.0,
+        "odd": 1.0,
+        "low_1_18": 1.0,
+        "adjacent": 2.0,
+        "largest_spacing": 6.0,
+        "clustering_le2": 2.0
+      },
+      "ensemble_score": 0.0,
+      "sensitivity_rank_range": [
+        13,
+        13
+      ],
+      "sensitivity_top5_fraction": 0.0,
+      "model_agreement_count": 0,
+      "main_support": {
+        "domain": "main",
+        "model": "E_pairs",
+        "period": "confirmation",
+        "n": 40,
+        "mean": 0.625,
+        "total": 25,
+        "rates": [
+          0.475,
+          0.425,
+          0.1,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "p": 0.808308903143885,
+        "ci": [
+          0.475,
+          0.775
+        ],
+        "older": 0.75,
+        "recent": 0.5,
+        "holm_p": 1.0,
+        "qualifies": false
+      },
+      "SB_support": {
+        "domain": "SB",
+        "model": "S_ensemble",
+        "period": "confirmation",
+        "n": 40,
+        "mean": 0.05,
+        "total": 2,
+        "rates": [
+          0.95,
+          0.05
+        ],
+        "p": 0.919526303985524,
+        "ci": [
+          0.0,
+          0.1
+        ],
+        "older": 0.05,
+        "recent": 0.05,
+        "holm_p": 1.0,
+        "qualifies": false
+      },
+      "SB_evidence": {
+        "full_count": 15,
+        "recent30_count": 1,
+        "gap": 27,
+        "scores": [
+          -0.6412427107392532,
+          -1.250339198053844,
+          2.681122703422175,
+          -2.5298221281027033,
+          0.0
+        ]
+      },
+      "qualified_models": [],
+      "counterevidence": [
+        "Candidate itself and final Jev policy are not walk-forward validated.",
+        "Main and SB evidence are separate; no unsupported cross-game or joint dependence.",
+        "Agreement among same-data models is not independent replication.",
+        "Flat pair/random objectives do not prove stability."
+      ]
+    },
+    {
+      "id": "SL14",
+      "main": [
+        5,
+        10,
+        20,
+        22,
+        32
+      ],
+      "super_ball": 4,
+      "main_generator": "E_pairs",
+      "SB_generator": "S_random",
+      "main_ranks": {
+        "A_long": [
+          14,
+          21,
+          22,
+          6,
+          23
+        ],
+        "B_recent": [
+          17,
+          35,
+          23,
+          13,
+          18
+        ],
+        "C_gap": [
+          27,
+          5,
+          30,
+          17,
+          13
+        ],
+        "D_trend": [
+          32,
+          28,
+          30,
+          1,
+          3
+        ],
+        "G_ensemble": [
+          8,
+          16,
+          35,
+          13,
+          1
+        ],
+        "H_random": [
+          30,
+          25,
+          31,
+          16,
+          10
+        ]
+      },
+      "long_mean": 0.14659090909090908,
+      "recent30_mean": 0.12,
+      "gap_mean": 4.6,
+      "trend_mean": -5.551115123125783e-18,
+      "pair_evidence": 0.0,
+      "structure": {
+        "sum": 89.0,
+        "median": 20.0,
+        "min": 5.0,
+        "max": 32.0,
+        "range": 27.0,
+        "odd": 1.0,
+        "low_1_18": 2.0,
+        "adjacent": 0.0,
+        "largest_spacing": 10.0,
+        "clustering_le2": 1.0
+      },
+      "ensemble_score": 0.0,
+      "sensitivity_rank_range": [
+        14,
+        14
+      ],
+      "sensitivity_top5_fraction": 0.0,
+      "model_agreement_count": 0,
+      "main_support": {
+        "domain": "main",
+        "model": "E_pairs",
+        "period": "confirmation",
+        "n": 40,
+        "mean": 0.625,
+        "total": 25,
+        "rates": [
+          0.475,
+          0.425,
+          0.1,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "p": 0.808308903143885,
+        "ci": [
+          0.475,
+          0.775
+        ],
+        "older": 0.75,
+        "recent": 0.5,
+        "holm_p": 1.0,
+        "qualifies": false
+      },
+      "SB_support": {
+        "domain": "SB",
+        "model": "S_random",
+        "period": "confirmation",
+        "n": 40,
+        "mean": 0.1,
+        "total": 4,
+        "rates": [
+          0.9,
+          0.1
+        ],
+        "p": 0.5768693469069989,
+        "ci": [
+          0.025,
+          0.175
+        ],
+        "older": 0.1,
+        "recent": 0.1,
+        "holm_p": 1.0,
+        "qualifies": false
+      },
+      "SB_evidence": {
+        "full_count": 22,
+        "recent30_count": 4,
+        "gap": 6,
+        "scores": [
+          1.0851799720202735,
+          0.5735404340291748,
+          -0.1482027625007232,
+          4.388541835665365e-17,
+          0.0
+        ]
+      },
+      "qualified_models": [],
+      "counterevidence": [
+        "Candidate itself and final Jev policy are not walk-forward validated.",
+        "Main and SB evidence are separate; no unsupported cross-game or joint dependence.",
+        "Agreement among same-data models is not independent replication.",
+        "Flat pair/random objectives do not prove stability."
+      ]
+    },
+    {
+      "id": "SL15",
+      "main": [
+        3,
+        8,
+        12,
+        20,
+        32
+      ],
+      "super_ball": 5,
+      "main_generator": "E_pairs",
+      "SB_generator": "S_long",
+      "main_ranks": {
+        "A_long": [
+          17,
+          25,
+          3,
+          22,
+          23
+        ],
+        "B_recent": [
+          31,
+          33,
+          3,
+          23,
+          18
+        ],
+        "C_gap": [
+          22,
+          11,
+          25,
+          30,
+          13
+        ],
+        "D_trend": [
+          33,
+          31,
+          19,
+          30,
+          3
+        ],
+        "G_ensemble": [
+          28,
+          6,
+          22,
+          35,
+          1
+        ],
+        "H_random": [
+          8,
+          1,
+          2,
+          31,
+          10
+        ]
+      },
+      "long_mean": 0.14772727272727273,
+      "recent30_mean": 0.12,
+      "gap_mean": 3.8,
+      "trend_mean": -0.03999999999999999,
+      "pair_evidence": 0.0,
+      "structure": {
+        "sum": 75.0,
+        "median": 12.0,
+        "min": 3.0,
+        "max": 32.0,
+        "range": 29.0,
+        "odd": 1.0,
+        "low_1_18": 3.0,
+        "adjacent": 0.0,
+        "largest_spacing": 12.0,
+        "clustering_le2": 0.0
+      },
+      "ensemble_score": 0.0,
+      "sensitivity_rank_range": [
+        15,
+        15
+      ],
+      "sensitivity_top5_fraction": 0.0,
+      "model_agreement_count": 1,
+      "main_support": {
+        "domain": "main",
+        "model": "E_pairs",
+        "period": "confirmation",
+        "n": 40,
+        "mean": 0.625,
+        "total": 25,
+        "rates": [
+          0.475,
+          0.425,
+          0.1,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "p": 0.808308903143885,
+        "ci": [
+          0.475,
+          0.775
+        ],
+        "older": 0.75,
+        "recent": 0.5,
+        "holm_p": 1.0,
+        "qualifies": false
+      },
+      "SB_support": {
+        "domain": "SB",
+        "model": "S_long",
+        "period": "confirmation",
+        "n": 40,
+        "mean": 0.05,
+        "total": 2,
+        "rates": [
+          0.95,
+          0.05
+        ],
+        "p": 0.919526303985524,
+        "ci": [
+          0.0,
+          0.15
+        ],
+        "older": 0.1,
+        "recent": 0.0,
+        "holm_p": 1.0,
+        "qualifies": false
+      },
+      "SB_evidence": {
+        "full_count": 23,
+        "recent30_count": 6,
+        "gap": 0,
+        "scores": [
+          1.3318117838430628,
+          1.9672158721621793,
+          -0.9565814670501227,
+          1.2649110640513517,
+          0.0
+        ]
+      },
+      "qualified_models": [],
+      "counterevidence": [
+        "Candidate itself and final Jev policy are not walk-forward validated.",
+        "Main and SB evidence are separate; no unsupported cross-game or joint dependence.",
+        "Agreement among same-data models is not independent replication.",
+        "Flat pair/random objectives do not prove stability."
+      ]
+    },
+    {
+      "id": "SL16",
+      "main": [
+        6,
+        7,
+        18,
+        22,
+        29
+      ],
+      "super_ball": 5,
+      "main_generator": "F_structure",
+      "SB_generator": "S_recent",
+      "main_ranks": {
+        "A_long": [
+          4,
+          19,
+          18,
+          6,
+          11
+        ],
+        "B_recent": [
+          8,
+          26,
+          1,
+          13,
+          9
+        ],
+        "C_gap": [
+          15,
+          2,
+          35,
+          17,
+          32
+        ],
+        "D_trend": [
+          5,
+          17,
+          7,
+          1,
+          20
+        ],
+        "G_ensemble": [
+          9,
+          10,
+          34,
+          13,
+          24
+        ],
+        "H_random": [
+          23,
+          32,
+          34,
+          16,
+          24
+        ]
+      },
+      "long_mean": 0.15795454545454546,
+      "recent30_mean": 0.18666666666666668,
+      "gap_mean": 5.0,
+      "trend_mean": 0.075,
+      "pair_evidence": 0.0,
+      "structure": {
+        "sum": 82.0,
+        "median": 18.0,
+        "min": 6.0,
+        "max": 29.0,
+        "range": 23.0,
+        "odd": 2.0,
+        "low_1_18": 3.0,
+        "adjacent": 1.0,
+        "largest_spacing": 11.0,
+        "clustering_le2": 1.0
+      },
+      "ensemble_score": 0.0,
+      "sensitivity_rank_range": [
+        1,
+        1
+      ],
+      "sensitivity_top5_fraction": 1.0,
+      "model_agreement_count": 0,
+      "main_support": {
+        "domain": "main",
+        "model": "F_structure",
+        "period": "confirmation",
+        "n": 40,
+        "mean": 0.625,
+        "total": 25,
+        "rates": [
+          0.475,
+          0.425,
+          0.1,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "p": 0.808308903143885,
+        "ci": [
+          0.425,
+          0.85
+        ],
+        "older": 0.85,
+        "recent": 0.4,
+        "holm_p": 1.0,
+        "qualifies": false
+      },
+      "SB_support": {
+        "domain": "SB",
+        "model": "S_recent",
+        "period": "confirmation",
+        "n": 40,
+        "mean": 0.125,
+        "total": 5,
+        "rates": [
+          0.875,
+          0.125
+        ],
+        "p": 0.3709823034657994,
+        "ci": [
+          0.05,
+          0.2
+        ],
+        "older": 0.1,
+        "recent": 0.15,
+        "holm_p": 1.0,
+        "qualifies": false
+      },
+      "SB_evidence": {
+        "full_count": 23,
+        "recent30_count": 6,
+        "gap": 0,
+        "scores": [
+          1.3318117838430628,
+          1.9672158721621793,
+          -0.9565814670501227,
+          1.2649110640513517,
+          0.0
+        ]
+      },
+      "qualified_models": [],
+      "counterevidence": [
+        "Candidate itself and final Jev policy are not walk-forward validated.",
+        "Main and SB evidence are separate; no unsupported cross-game or joint dependence.",
+        "Agreement among same-data models is not independent replication.",
+        "Flat pair/random objectives do not prove stability."
+      ]
+    },
+    {
+      "id": "SL17",
+      "main": [
+        6,
+        7,
+        18,
+        25,
+        28
+      ],
+      "super_ball": 2,
+      "main_generator": "F_structure",
+      "SB_generator": "S_gap",
+      "main_ranks": {
+        "A_long": [
+          4,
+          19,
+          18,
+          15,
+          30
+        ],
+        "B_recent": [
+          8,
+          26,
+          1,
+          7,
+          24
+        ],
+        "C_gap": [
+          15,
+          2,
+          35,
+          24,
+          28
+        ],
+        "D_trend": [
+          5,
+          17,
+          7,
+          11,
+          23
+        ],
+        "G_ensemble": [
+          9,
+          10,
+          34,
+          21,
+          12
+        ],
+        "H_random": [
+          23,
+          32,
+          34,
+          6,
+          33
+        ]
+      },
+      "long_mean": 0.14545454545454545,
+      "recent30_mean": 0.18666666666666668,
+      "gap_mean": 4.8,
+      "trend_mean": 0.04,
+      "pair_evidence": 0.0,
+      "structure": {
+        "sum": 84.0,
+        "median": 18.0,
+        "min": 6.0,
+        "max": 28.0,
+        "range": 22.0,
+        "odd": 2.0,
+        "low_1_18": 3.0,
+        "adjacent": 1.0,
+        "largest_spacing": 11.0,
+        "clustering_le2": 1.0
+      },
+      "ensemble_score": 0.0,
+      "sensitivity_rank_range": [
+        2,
+        2
+      ],
+      "sensitivity_top5_fraction": 1.0,
+      "model_agreement_count": 0,
+      "main_support": {
+        "domain": "main",
+        "model": "F_structure",
+        "period": "confirmation",
+        "n": 40,
+        "mean": 0.625,
+        "total": 25,
+        "rates": [
+          0.475,
+          0.425,
+          0.1,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "p": 0.808308903143885,
+        "ci": [
+          0.425,
+          0.85
+        ],
+        "older": 0.85,
+        "recent": 0.4,
+        "holm_p": 1.0,
+        "qualifies": false
+      },
+      "SB_support": {
+        "domain": "SB",
+        "model": "S_gap",
+        "period": "confirmation",
+        "n": 40,
+        "mean": 0.05,
+        "total": 2,
+        "rates": [
+          0.95,
+          0.05
+        ],
+        "p": 0.919526303985524,
+        "ci": [
+          0.0,
+          0.1
+        ],
+        "older": 0.05,
+        "recent": 0.05,
+        "holm_p": 1.0,
+        "qualifies": false
+      },
+      "SB_evidence": {
+        "full_count": 15,
+        "recent30_count": 1,
+        "gap": 27,
+        "scores": [
+          -0.6412427107392532,
+          -1.250339198053844,
+          2.681122703422175,
+          -2.5298221281027033,
+          0.0
+        ]
+      },
+      "qualified_models": [],
+      "counterevidence": [
+        "Candidate itself and final Jev policy are not walk-forward validated.",
+        "Main and SB evidence are separate; no unsupported cross-game or joint dependence.",
+        "Agreement among same-data models is not independent replication.",
+        "Flat pair/random objectives do not prove stability."
+      ]
+    },
+    {
+      "id": "SL18",
+      "main": [
+        6,
+        12,
+        18,
+        19,
+        29
+      ],
+      "super_ball": 5,
+      "main_generator": "F_structure",
+      "SB_generator": "S_trend",
+      "main_ranks": {
+        "A_long": [
+          4,
+          3,
+          18,
+          35,
+          11
+        ],
+        "B_recent": [
+          8,
+          3,
+          1,
+          32,
+          9
+        ],
+        "C_gap": [
+          15,
+          25,
+          35,
+          6,
+          32
+        ],
+        "D_trend": [
+          5,
+          19,
+          7,
+          8,
+          20
+        ],
+        "G_ensemble": [
+          9,
+          22,
+          34,
+          2,
+          24
+        ],
+        "H_random": [
+          23,
+          2,
+          34,
+          35,
+          24
+        ]
+      },
+      "long_mean": 0.15,
+      "recent30_mean": 0.2,
+      "gap_mean": 3.4,
+      "trend_mean": 0.05500000000000001,
+      "pair_evidence": 0.0,
+      "structure": {
+        "sum": 84.0,
+        "median": 18.0,
+        "min": 6.0,
+        "max": 29.0,
+        "range": 23.0,
+        "odd": 2.0,
+        "low_1_18": 3.0,
+        "adjacent": 1.0,
+        "largest_spacing": 10.0,
+        "clustering_le2": 1.0
+      },
+      "ensemble_score": 0.0,
+      "sensitivity_rank_range": [
+        3,
+        3
+      ],
+      "sensitivity_top5_fraction": 1.0,
+      "model_agreement_count": 1,
+      "main_support": {
+        "domain": "main",
+        "model": "F_structure",
+        "period": "confirmation",
+        "n": 40,
+        "mean": 0.625,
+        "total": 25,
+        "rates": [
+          0.475,
+          0.425,
+          0.1,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "p": 0.808308903143885,
+        "ci": [
+          0.425,
+          0.85
+        ],
+        "older": 0.85,
+        "recent": 0.4,
+        "holm_p": 1.0,
+        "qualifies": false
+      },
+      "SB_support": {
+        "domain": "SB",
+        "model": "S_trend",
+        "period": "confirmation",
+        "n": 40,
+        "mean": 0.15,
+        "total": 6,
+        "rates": [
+          0.85,
+          0.15
+        ],
+        "p": 0.20627266871283986,
+        "ci": [
+          0.05,
+          0.25
+        ],
+        "older": 0.2,
+        "recent": 0.1,
+        "holm_p": 1.0,
+        "qualifies": false
+      },
+      "SB_evidence": {
+        "full_count": 23,
+        "recent30_count": 6,
+        "gap": 0,
+        "scores": [
+          1.3318117838430628,
+          1.9672158721621793,
+          -0.9565814670501227,
+          1.2649110640513517,
+          0.0
+        ]
+      },
+      "qualified_models": [],
+      "counterevidence": [
+        "Candidate itself and final Jev policy are not walk-forward validated.",
+        "Main and SB evidence are separate; no unsupported cross-game or joint dependence.",
+        "Agreement among same-data models is not independent replication.",
+        "Flat pair/random objectives do not prove stability."
+      ]
+    },
+    {
+      "id": "SL19",
+      "main": [
+        10,
+        11,
+        16,
+        21,
+        22
+      ],
+      "super_ball": 6,
+      "main_generator": "G_ensemble",
+      "SB_generator": "S_transition",
+      "main_ranks": {
+        "A_long": [
+          21,
+          5,
+          32,
+          29,
+          6
+        ],
+        "B_recent": [
+          35,
+          4,
+          11,
+          29,
+          13
+        ],
+        "C_gap": [
+          5,
+          31,
+          9,
+          16,
+          17
+        ],
+        "D_trend": [
+          28,
+          10,
+          22,
+          13,
+          1
+        ],
+        "G_ensemble": [
+          16,
+          18,
+          29,
+          4,
+          13
+        ],
+        "H_random": [
+          25,
+          12,
+          20,
+          22,
+          16
+        ]
+      },
+      "long_mean": 0.14204545454545456,
+      "recent30_mean": 0.14666666666666667,
+      "gap_mean": 5.6,
+      "trend_mean": 0.030000000000000006,
+      "pair_evidence": 0.0,
+      "structure": {
+        "sum": 80.0,
+        "median": 16.0,
+        "min": 10.0,
+        "max": 22.0,
+        "range": 12.0,
+        "odd": 2.0,
+        "low_1_18": 3.0,
+        "adjacent": 2.0,
+        "largest_spacing": 5.0,
+        "clustering_le2": 2.0
+      },
+      "ensemble_score": 0.0,
+      "sensitivity_rank_range": [
+        6,
+        19
+      ],
+      "sensitivity_top5_fraction": 0.0,
+      "model_agreement_count": 0,
+      "main_support": {
+        "domain": "main",
+        "model": "G_ensemble",
+        "period": "confirmation",
+        "n": 40,
+        "mean": 0.625,
+        "total": 25,
+        "rates": [
+          0.475,
+          0.425,
+          0.1,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "p": 0.808308903143885,
+        "ci": [
+          0.475,
+          0.775
+        ],
+        "older": 0.75,
+        "recent": 0.5,
+        "holm_p": 1.0,
+        "qualifies": false
+      },
+      "SB_support": {
+        "domain": "SB",
+        "model": "S_transition",
+        "period": "confirmation",
+        "n": 40,
+        "mean": 0.05,
+        "total": 2,
+        "rates": [
+          0.95,
+          0.05
+        ],
+        "p": 0.919526303985524,
+        "ci": [
+          0.0,
+          0.125
+        ],
+        "older": 0.05,
+        "recent": 0.05,
+        "holm_p": 1.0,
+        "qualifies": false
+      },
+      "SB_evidence": {
+        "full_count": 22,
+        "recent30_count": 2,
+        "gap": 5,
+        "scores": [
+          1.0851799720202735,
+          -0.43583683504849274,
+          -0.2829325465922898,
+          4.388541835665365e-17,
+          0.0
+        ]
+      },
+      "qualified_models": [],
+      "counterevidence": [
+        "Candidate itself and final Jev policy are not walk-forward validated.",
+        "Main and SB evidence are separate; no unsupported cross-game or joint dependence.",
+        "Agreement among same-data models is not independent replication.",
+        "Flat pair/random objectives do not prove stability."
+      ]
+    },
+    {
+      "id": "SL20",
+      "main": [
+        4,
+        6,
+        13,
+        17,
+        18
+      ],
+      "super_ball": 2,
+      "main_generator": "H_random",
+      "SB_generator": "S_ensemble",
+      "main_ranks": {
+        "A_long": [
+          8,
+          4,
+          24,
+          1,
+          18
+        ],
+        "B_recent": [
+          20,
+          8,
+          30,
+          25,
+          1
+        ],
+        "C_gap": [
+          3,
+          15,
+          7,
+          8,
+          35
+        ],
+        "D_trend": [
+          14,
+          5,
+          27,
+          24,
+          7
+        ],
+        "G_ensemble": [
+          15,
+          9,
+          5,
+          17,
+          34
+        ],
+        "H_random": [
+          27,
+          23,
+          19,
+          18,
+          34
+        ]
+      },
+      "long_mean": 0.1625,
+      "recent30_mean": 0.16,
+      "gap_mean": 7.6,
+      "trend_mean": 0.02,
+      "pair_evidence": 0.0,
+      "structure": {
+        "sum": 58.0,
+        "median": 13.0,
+        "min": 4.0,
+        "max": 18.0,
+        "range": 14.0,
+        "odd": 2.0,
+        "low_1_18": 5.0,
+        "adjacent": 1.0,
+        "largest_spacing": 7.0,
+        "clustering_le2": 2.0
+      },
+      "ensemble_score": 0.0,
+      "sensitivity_rank_range": [
+        12,
+        20
+      ],
+      "sensitivity_top5_fraction": 0.0,
+      "model_agreement_count": 0,
+      "main_support": {
+        "domain": "main",
+        "model": "H_random",
+        "period": "confirmation",
+        "n": 40,
+        "mean": 0.625,
+        "total": 25,
+        "rates": [
+          0.475,
+          0.425,
+          0.1,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "p": 0.808308903143885,
+        "ci": [
+          0.45,
+          0.775
+        ],
+        "older": 0.65,
+        "recent": 0.6,
+        "holm_p": 1.0,
+        "qualifies": false
+      },
+      "SB_support": {
+        "domain": "SB",
+        "model": "S_ensemble",
+        "period": "confirmation",
+        "n": 40,
+        "mean": 0.05,
+        "total": 2,
+        "rates": [
+          0.95,
+          0.05
+        ],
+        "p": 0.919526303985524,
+        "ci": [
+          0.0,
+          0.1
+        ],
+        "older": 0.05,
+        "recent": 0.05,
+        "holm_p": 1.0,
+        "qualifies": false
+      },
+      "SB_evidence": {
+        "full_count": 15,
+        "recent30_count": 1,
+        "gap": 27,
+        "scores": [
+          -0.6412427107392532,
+          -1.250339198053844,
+          2.681122703422175,
+          -2.5298221281027033,
+          0.0
+        ]
+      },
+      "qualified_models": [],
+      "counterevidence": [
+        "Candidate itself and final Jev policy are not walk-forward validated.",
+        "Main and SB evidence are separate; no unsupported cross-game or joint dependence.",
+        "Agreement among same-data models is not independent replication.",
+        "Flat pair/random objectives do not prove stability."
+      ]
+    }
+  ],
+  "interpretation": "Choice is a preference among full tickets, not a winning probability. Only qualified_models pass corrected retrospective confirmation; no prospective validation exists."
+}

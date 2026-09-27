@@ -1,0 +1,8 @@
+{
+  "created": false,
+  "conclusion": "No Lotto V2 is justified.",
+  "unique_methods": 63,
+  "qualified_methods": [],
+  "primary_correction_file": "construction_performance_unique.json",
+  "no_2341_generated": true
+}

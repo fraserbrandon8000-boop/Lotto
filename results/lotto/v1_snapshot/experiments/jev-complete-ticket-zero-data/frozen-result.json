@@ -1,0 +1,49 @@
+{
+  "label": "JEV-ONLY / ZERO-DATA PICK",
+  "combination": [
+    1,
+    7,
+    13,
+    17,
+    19,
+    26
+  ],
+  "final_choice_probability": 0.4,
+  "final_confidence": 0.2,
+  "final_probabilities": {
+    "T_22420f85": 0.4,
+    "T_f94f46ad": 0.1,
+    "T_dae0bfa3": 0.32,
+    "T_5738607e": 0.18
+  },
+  "selected_option": "T_22420f85",
+  "candidate_count": 512,
+  "tournament": {
+    "required": true,
+    "reason": "Choice maximum 255 options",
+    "rounds": [
+      {
+        "groups": 4,
+        "tickets_per_group": 128
+      },
+      {
+        "groups": 1,
+        "tickets_per_group": 4
+      }
+    ]
+  },
+  "seed": "jev-complete-ticket-zero-data-v1-684219",
+  "model": "jev-1.13.0",
+  "usage": {
+    "stage1": {
+      "input_tokens": 22170,
+      "output_tokens": 7639
+    },
+    "final": {
+      "input_tokens": 536,
+      "output_tokens": 85
+    }
+  },
+  "frozen": true,
+  "completed_utc": "2026-09-20T00:01:47.831Z"
+}

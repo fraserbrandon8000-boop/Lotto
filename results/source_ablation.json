@@ -1,0 +1,590 @@
+{
+  "note": "Only gap-independent A/B/D evaluated on original observed rows; rolling windows count observed records; sensitivity only, not a substitute primary dataset.",
+  "rows": [
+    {
+      "draw_id": 2299,
+      "model": "A_long",
+      "matches": 0
+    },
+    {
+      "draw_id": 2299,
+      "model": "B_recent",
+      "matches": 0
+    },
+    {
+      "draw_id": 2299,
+      "model": "D_trend",
+      "matches": 3
+    },
+    {
+      "draw_id": 2300,
+      "model": "A_long",
+      "matches": 2
+    },
+    {
+      "draw_id": 2300,
+      "model": "B_recent",
+      "matches": 0
+    },
+    {
+      "draw_id": 2300,
+      "model": "D_trend",
+      "matches": 0
+    },
+    {
+      "draw_id": 2301,
+      "model": "A_long",
+      "matches": 1
+    },
+    {
+      "draw_id": 2301,
+      "model": "B_recent",
+      "matches": 0
+    },
+    {
+      "draw_id": 2301,
+      "model": "D_trend",
+      "matches": 0
+    },
+    {
+      "draw_id": 2302,
+      "model": "A_long",
+      "matches": 0
+    },
+    {
+      "draw_id": 2302,
+      "model": "B_recent",
+      "matches": 0
+    },
+    {
+      "draw_id": 2302,
+      "model": "D_trend",
+      "matches": 2
+    },
+    {
+      "draw_id": 2303,
+      "model": "A_long",
+      "matches": 1
+    },
+    {
+      "draw_id": 2303,
+      "model": "B_recent",
+      "matches": 2
+    },
+    {
+      "draw_id": 2303,
+      "model": "D_trend",
+      "matches": 0
+    },
+    {
+      "draw_id": 2304,
+      "model": "A_long",
+      "matches": 0
+    },
+    {
+      "draw_id": 2304,
+      "model": "B_recent",
+      "matches": 0
+    },
+    {
+      "draw_id": 2304,
+      "model": "D_trend",
+      "matches": 1
+    },
+    {
+      "draw_id": 2305,
+      "model": "A_long",
+      "matches": 1
+    },
+    {
+      "draw_id": 2305,
+      "model": "B_recent",
+      "matches": 0
+    },
+    {
+      "draw_id": 2305,
+      "model": "D_trend",
+      "matches": 1
+    },
+    {
+      "draw_id": 2306,
+      "model": "A_long",
+      "matches": 0
+    },
+    {
+      "draw_id": 2306,
+      "model": "B_recent",
+      "matches": 0
+    },
+    {
+      "draw_id": 2306,
+      "model": "D_trend",
+      "matches": 1
+    },
+    {
+      "draw_id": 2307,
+      "model": "A_long",
+      "matches": 1
+    },
+    {
+      "draw_id": 2307,
+      "model": "B_recent",
+      "matches": 1
+    },
+    {
+      "draw_id": 2307,
+      "model": "D_trend",
+      "matches": 1
+    },
+    {
+      "draw_id": 2308,
+      "model": "A_long",
+      "matches": 1
+    },
+    {
+      "draw_id": 2308,
+      "model": "B_recent",
+      "matches": 1
+    },
+    {
+      "draw_id": 2308,
+      "model": "D_trend",
+      "matches": 0
+    },
+    {
+      "draw_id": 2309,
+      "model": "A_long",
+      "matches": 0
+    },
+    {
+      "draw_id": 2309,
+      "model": "B_recent",
+      "matches": 1
+    },
+    {
+      "draw_id": 2309,
+      "model": "D_trend",
+      "matches": 1
+    },
+    {
+      "draw_id": 2310,
+      "model": "A_long",
+      "matches": 1
+    },
+    {
+      "draw_id": 2310,
+      "model": "B_recent",
+      "matches": 1
+    },
+    {
+      "draw_id": 2310,
+      "model": "D_trend",
+      "matches": 1
+    },
+    {
+      "draw_id": 2311,
+      "model": "A_long",
+      "matches": 4
+    },
+    {
+      "draw_id": 2311,
+      "model": "B_recent",
+      "matches": 1
+    },
+    {
+      "draw_id": 2311,
+      "model": "D_trend",
+      "matches": 1
+    },
+    {
+      "draw_id": 2312,
+      "model": "A_long",
+      "matches": 1
+    },
+    {
+      "draw_id": 2312,
+      "model": "B_recent",
+      "matches": 1
+    },
+    {
+      "draw_id": 2312,
+      "model": "D_trend",
+      "matches": 0
+    },
+    {
+      "draw_id": 2313,
+      "model": "A_long",
+      "matches": 0
+    },
+    {
+      "draw_id": 2313,
+      "model": "B_recent",
+      "matches": 2
+    },
+    {
+      "draw_id": 2313,
+      "model": "D_trend",
+      "matches": 2
+    },
+    {
+      "draw_id": 2314,
+      "model": "A_long",
+      "matches": 2
+    },
+    {
+      "draw_id": 2314,
+      "model": "B_recent",
+      "matches": 0
+    },
+    {
+      "draw_id": 2314,
+      "model": "D_trend",
+      "matches": 0
+    },
+    {
+      "draw_id": 2315,
+      "model": "A_long",
+      "matches": 0
+    },
+    {
+      "draw_id": 2315,
+      "model": "B_recent",
+      "matches": 1
+    },
+    {
+      "draw_id": 2315,
+      "model": "D_trend",
+      "matches": 1
+    },
+    {
+      "draw_id": 2316,
+      "model": "A_long",
+      "matches": 2
+    },
+    {
+      "draw_id": 2316,
+      "model": "B_recent",
+      "matches": 2
+    },
+    {
+      "draw_id": 2316,
+      "model": "D_trend",
+      "matches": 0
+    },
+    {
+      "draw_id": 2317,
+      "model": "A_long",
+      "matches": 0
+    },
+    {
+      "draw_id": 2317,
+      "model": "B_recent",
+      "matches": 1
+    },
+    {
+      "draw_id": 2317,
+      "model": "D_trend",
+      "matches": 1
+    },
+    {
+      "draw_id": 2318,
+      "model": "A_long",
+      "matches": 1
+    },
+    {
+      "draw_id": 2318,
+      "model": "B_recent",
+      "matches": 1
+    },
+    {
+      "draw_id": 2318,
+      "model": "D_trend",
+      "matches": 2
+    },
+    {
+      "draw_id": 2319,
+      "model": "A_long",
+      "matches": 1
+    },
+    {
+      "draw_id": 2319,
+      "model": "B_recent",
+      "matches": 1
+    },
+    {
+      "draw_id": 2319,
+      "model": "D_trend",
+      "matches": 0
+    },
+    {
+      "draw_id": 2320,
+      "model": "A_long",
+      "matches": 1
+    },
+    {
+      "draw_id": 2320,
+      "model": "B_recent",
+      "matches": 1
+    },
+    {
+      "draw_id": 2320,
+      "model": "D_trend",
+      "matches": 1
+    },
+    {
+      "draw_id": 2321,
+      "model": "A_long",
+      "matches": 1
+    },
+    {
+      "draw_id": 2321,
+      "model": "B_recent",
+      "matches": 1
+    },
+    {
+      "draw_id": 2321,
+      "model": "D_trend",
+      "matches": 0
+    },
+    {
+      "draw_id": 2322,
+      "model": "A_long",
+      "matches": 2
+    },
+    {
+      "draw_id": 2322,
+      "model": "B_recent",
+      "matches": 1
+    },
+    {
+      "draw_id": 2322,
+      "model": "D_trend",
+      "matches": 0
+    },
+    {
+      "draw_id": 2323,
+      "model": "A_long",
+      "matches": 1
+    },
+    {
+      "draw_id": 2323,
+      "model": "B_recent",
+      "matches": 1
+    },
+    {
+      "draw_id": 2323,
+      "model": "D_trend",
+      "matches": 2
+    },
+    {
+      "draw_id": 2324,
+      "model": "A_long",
+      "matches": 0
+    },
+    {
+      "draw_id": 2324,
+      "model": "B_recent",
+      "matches": 1
+    },
+    {
+      "draw_id": 2324,
+      "model": "D_trend",
+      "matches": 0
+    },
+    {
+      "draw_id": 2325,
+      "model": "A_long",
+      "matches": 2
+    },
+    {
+      "draw_id": 2325,
+      "model": "B_recent",
+      "matches": 2
+    },
+    {
+      "draw_id": 2325,
+      "model": "D_trend",
+      "matches": 1
+    },
+    {
+      "draw_id": 2326,
+      "model": "A_long",
+      "matches": 2
+    },
+    {
+      "draw_id": 2326,
+      "model": "B_recent",
+      "matches": 2
+    },
+    {
+      "draw_id": 2326,
+      "model": "D_trend",
+      "matches": 2
+    },
+    {
+      "draw_id": 2327,
+      "model": "A_long",
+      "matches": 1
+    },
+    {
+      "draw_id": 2327,
+      "model": "B_recent",
+      "matches": 1
+    },
+    {
+      "draw_id": 2327,
+      "model": "D_trend",
+      "matches": 1
+    },
+    {
+      "draw_id": 2328,
+      "model": "A_long",
+      "matches": 1
+    },
+    {
+      "draw_id": 2328,
+      "model": "B_recent",
+      "matches": 2
+    },
+    {
+      "draw_id": 2328,
+      "model": "D_trend",
+      "matches": 1
+    },
+    {
+      "draw_id": 2329,
+      "model": "A_long",
+      "matches": 1
+    },
+    {
+      "draw_id": 2329,
+      "model": "B_recent",
+      "matches": 1
+    },
+    {
+      "draw_id": 2329,
+      "model": "D_trend",
+      "matches": 1
+    },
+    {
+      "draw_id": 2330,
+      "model": "A_long",
+      "matches": 1
+    },
+    {
+      "draw_id": 2330,
+      "model": "B_recent",
+      "matches": 1
+    },
+    {
+      "draw_id": 2330,
+      "model": "D_trend",
+      "matches": 1
+    },
+    {
+      "draw_id": 2331,
+      "model": "A_long",
+      "matches": 1
+    },
+    {
+      "draw_id": 2331,
+      "model": "B_recent",
+      "matches": 0
+    },
+    {
+      "draw_id": 2331,
+      "model": "D_trend",
+      "matches": 1
+    },
+    {
+      "draw_id": 2332,
+      "model": "A_long",
+      "matches": 1
+    },
+    {
+      "draw_id": 2332,
+      "model": "B_recent",
+      "matches": 2
+    },
+    {
+      "draw_id": 2332,
+      "model": "D_trend",
+      "matches": 1
+    },
+    {
+      "draw_id": 2333,
+      "model": "A_long",
+      "matches": 1
+    },
+    {
+      "draw_id": 2333,
+      "model": "B_recent",
+      "matches": 1
+    },
+    {
+      "draw_id": 2333,
+      "model": "D_trend",
+      "matches": 1
+    },
+    {
+      "draw_id": 2334,
+      "model": "A_long",
+      "matches": 1
+    },
+    {
+      "draw_id": 2334,
+      "model": "B_recent",
+      "matches": 0
+    },
+    {
+      "draw_id": 2334,
+      "model": "D_trend",
+      "matches": 1
+    },
+    {
+      "draw_id": 2335,
+      "model": "A_long",
+      "matches": 1
+    },
+    {
+      "draw_id": 2335,
+      "model": "B_recent",
+      "matches": 1
+    },
+    {
+      "draw_id": 2335,
+      "model": "D_trend",
+      "matches": 0
+    },
+    {
+      "draw_id": 2336,
+      "model": "A_long",
+      "matches": 2
+    },
+    {
+      "draw_id": 2336,
+      "model": "B_recent",
+      "matches": 2
+    },
+    {
+      "draw_id": 2336,
+      "model": "D_trend",
+      "matches": 1
+    },
+    {
+      "draw_id": 2337,
+      "model": "A_long",
+      "matches": 1
+    },
+    {
+      "draw_id": 2337,
+      "model": "B_recent",
+      "matches": 1
+    },
+    {
+      "draw_id": 2337,
+      "model": "D_trend",
+      "matches": 0
+    }
+  ]
+}

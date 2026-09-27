@@ -1,0 +1,16 @@
+Super Lotto simulations 2500
+Super Lotto simulations 5000
+Super Lotto simulations 7500
+Super Lotto simulations 10000
+V1 sensitivity window20
+V1 sensitivity window40
+V1 sensitivity half10
+V1 sensitivity half40
+V1 sensitivity trend10
+V1 sensitivity trend30
+V1 sensitivity history100
+V1 sensitivity pair001
+V1 sensitivity pair010
+V1 sensitivity equal
+V1 sensitivity seed
+{"qualifiers": [], "candidate_count": 20, "frozen_utc": "2026-09-26T01:02:08.254649+00:00"}

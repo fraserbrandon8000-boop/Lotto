@@ -1,0 +1,41 @@
+{
+  "verified": true,
+  "target": 2340,
+  "cutoff": 2339,
+  "seed": 20260919,
+  "prediction": [
+    5,
+    11,
+    16,
+    24,
+    27,
+    34
+  ],
+  "frozen_sha256": "955c7d8c2c3c6dfb01cf8a819a2ebd5b5c98c5f7301e950b126996d8e4671c64",
+  "embedded_hash_count": 14,
+  "protected_hashes": {
+    "results\\lotto\\draw2340\\candidates.json": "6480a71392111f33bfbbcd51ede86351ea0c5c4bec2ae92f4a8decbe6d7e02d9",
+    "results\\lotto\\draw2340\\candidate_sensitivity.json": "038e0af2d45110c74f09d69a3b39277e90c7b7bbcd7bf8f5e35a73c2262d7107",
+    "results\\lotto\\draw2340\\conditional_statistics.csv": "914cdada7c4b8322600d88c95c00dd1156a4583808aa6b854657256e5b1b6ff3",
+    "results\\lotto\\draw2340\\draws.json": "ddc3f8af8413cf4ac52b6f4547e28fd82482902ad0602823b8cee57cb115dc57",
+    "results\\lotto\\draw2340\\draw_structure.csv": "953753a29dcea5e33e99e1c83f9b2e532590daf98238a4b554ed78dade81dc6e",
+    "results\\lotto\\draw2340\\frozen.json": "955c7d8c2c3c6dfb01cf8a819a2ebd5b5c98c5f7301e950b126996d8e4671c64",
+    "results\\lotto\\draw2340\\jev_receipt.json": "43bd0df2916d3cf62b7a0b24237890efc5f2c42f9ec739fc551746ef48b98ab4",
+    "results\\lotto\\draw2340\\jev_request.json": "a4bbf38ec6e9d8742a8a9f345e6b5ddf77f1bfae05833d94a0690e5d74f95e1a",
+    "results\\lotto\\draw2340\\jev_response.json": "be07a189e7b2c834feac500a698b2fb003294a19fcafddd74e6baad9c37b3e5a",
+    "results\\lotto\\draw2340\\jev_state.json": "c7e98c581a3e5cc9eaccd23d45d155eed6cf91b87aa344762d49be66292d0649",
+    "results\\lotto\\draw2340\\metadata.json": "02644a4f0c157cd1de92eb268f3704a40a56e228bfba8fa4f69a36a3f1aa4796",
+    "results\\lotto\\draw2340\\model_performance.json": "7b892ba3bf6eb4bee8b62a2ca072308fe0641fda3cc60a0c60586ef93d6f6da7",
+    "results\\lotto\\draw2340\\number_statistics.csv": "e1a086e61123b28120566e645bdf5d33b00296d332900fc1002bb6029f7e1032",
+    "results\\lotto\\draw2340\\pair_statistics.csv": "01b64006bd25a0a69bfdcc85f1fce4be1b65f5c86c55c90ec27e41d1593e094e",
+    "results\\lotto\\draw2340\\PROTOCOL.txt": "314c839c823cffacd5c53139d6070003e6d2a69bead0ddfbe7c9436a20aea550",
+    "results\\lotto\\draw2340\\refreshed_rankings.json": "64ecb15ce99e9b4afeb8a4a031465a30297c5b5e348e8d2a91e7d424bd1aa8fd",
+    "results\\lotto\\draw2340\\sensitivity.csv": "262fbd82764828cbe933a9d7ee8c0e43f82b100aa38d0a0a8627037b974b025a",
+    "results\\lotto\\draw2340\\triple_statistics.csv": "5588d4ebc82996c9349f9e48d996f5dda974edfcfb9bb80cb3a7427342c8c842",
+    "results\\lotto\\draw2340\\walk_forward_predictions.json": "584803fa0045005478bd9893adc321ac3d1dee33aaa362daeb6b29d3c2375b4b",
+    "scripts\\analyze.py": "86bdb1312a0b07fd9db97eb8186604fdcb67598764378740b7e417a23d11eca5",
+    "scripts\\research\\lotto_2340.py": "eb3d8e1d4cc564afdac40491b2575f3adee835b970329f036ec6615115125cff",
+    "scripts\\research\\lotto_2340_jev.mjs": "add064704f2db34188789a90856f13aa9e4e3ec72422e1d270d07ce9ba0b56a8",
+    "scripts\\research\\freeze_lotto_2340.py": "61825a3f6fe3a957edd61bb173b1b22184d5bd7331d486e21285492ca0552c90"
+  }
+}

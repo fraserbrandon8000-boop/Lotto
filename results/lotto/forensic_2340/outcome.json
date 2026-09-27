@@ -1,0 +1,29 @@
+{
+  "event": "outcome_appended",
+  "recorded_utc": "2026-09-26T01:15:56.500577+00:00",
+  "draw_id": 2340,
+  "date": "2026-09-23",
+  "outcome": [
+    6,
+    8,
+    12,
+    14,
+    18,
+    31
+  ],
+  "bonus": 28,
+  "bonus_predicted": false,
+  "bonus_score": null,
+  "frozen_prediction": [
+    5,
+    11,
+    16,
+    24,
+    27,
+    34
+  ],
+  "main_matches": 0,
+  "matched": [],
+  "prediction_sha256": "955c7d8c2c3c6dfb01cf8a819a2ebd5b5c98c5f7301e950b126996d8e4671c64",
+  "source": "Official result supplied by user in attached request; no independent result fetch in this forensic task."
+}

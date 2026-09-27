@@ -1,0 +1,174 @@
+{
+  "simulated_tickets": 200000,
+  "features": [
+    {
+      "feature": "sum",
+      "observed_mean": 116.32584269662921,
+      "random_mean": 116.933795,
+      "observed_sd": 26.0199902758011,
+      "random_sd": 24.979876739046873,
+      "observed_ticket_95": [
+        68.0,
+        164.575
+      ],
+      "random_ticket_95": [
+        68.0,
+        165.0
+      ]
+    },
+    {
+      "feature": "median",
+      "observed_mean": 19.02247191011236,
+      "random_mean": 19.4980325,
+      "observed_sd": 5.791756109633814,
+      "random_sd": 5.783461539505882,
+      "observed_ticket_95": [
+        7.7125,
+        29.787499999999994
+      ],
+      "random_ticket_95": [
+        8.5,
+        30.5
+      ]
+    },
+    {
+      "feature": "minimum",
+      "observed_mean": 5.646067415730337,
+      "random_mean": 5.56415,
+      "observed_sd": 4.6944278750564274,
+      "random_sd": 4.366832350514501,
+      "observed_ticket_95": [
+        1.0,
+        18.0
+      ],
+      "random_ticket_95": [
+        1.0,
+        17.0
+      ]
+    },
+    {
+      "feature": "maximum",
+      "observed_mean": 33.735955056179776,
+      "random_mean": 33.402095,
+      "observed_sd": 4.423246740610016,
+      "random_sd": 4.378446597935734,
+      "observed_ticket_95": [
+        22.85,
+        38.0
+      ],
+      "random_ticket_95": [
+        22.0,
+        38.0
+      ]
+    },
+    {
+      "feature": "range",
+      "observed_mean": 28.089887640449437,
+      "random_mean": 27.837945,
+      "observed_sd": 5.787705779462405,
+      "random_sd": 5.644679191679098,
+      "observed_ticket_95": [
+        15.425,
+        36.57499999999999
+      ],
+      "random_ticket_95": [
+        15.0,
+        36.0
+      ]
+    },
+    {
+      "feature": "odd_count",
+      "observed_mean": 2.8876404494382024,
+      "random_mean": 3.003105,
+      "observed_sd": 1.0270302146162154,
+      "random_sd": 1.1393223244433508,
+      "observed_ticket_95": [
+        1.0,
+        5.0
+      ],
+      "random_ticket_95": [
+        1.0,
+        5.0
+      ]
+    },
+    {
+      "feature": "low_count",
+      "observed_mean": 3.0786516853932584,
+      "random_mean": 2.999815,
+      "observed_sd": 1.1681611315391094,
+      "random_sd": 1.1369806356200618,
+      "observed_ticket_95": [
+        1.0,
+        5.0
+      ],
+      "random_ticket_95": [
+        1.0,
+        5.0
+      ]
+    },
+    {
+      "feature": "adjacent_pairs",
+      "observed_mean": 0.6853932584269663,
+      "random_mean": 0.78938,
+      "observed_sd": 0.79458144756122,
+      "random_sd": 0.7688362735979619,
+      "observed_ticket_95": [
+        0.0,
+        2.0
+      ],
+      "random_ticket_95": [
+        0.0,
+        2.0
+      ]
+    },
+    {
+      "feature": "largest_spacing",
+      "observed_mean": 11.910112359550562,
+      "random_mean": 12.043985,
+      "observed_sd": 4.11120816447489,
+      "random_sd": 4.02164398222605,
+      "observed_ticket_95": [
+        5.0,
+        21.0
+      ],
+      "random_ticket_95": [
+        5.0,
+        21.0
+      ]
+    },
+    {
+      "feature": "close_spacings_le2",
+      "observed_mean": 1.3707865168539326,
+      "random_mean": 1.47327,
+      "observed_sd": 0.8397701995979683,
+      "random_sd": 0.9100250035575944,
+      "observed_ticket_95": [
+        0.0,
+        3.0
+      ],
+      "random_ticket_95": [
+        0.0,
+        3.0
+      ]
+    }
+  ],
+  "band_expected_per_draw": [
+    1.5789473684210527,
+    1.5789473684210527,
+    1.5789473684210527,
+    1.263157894736842
+  ],
+  "last_digit_expected_per_draw": [
+    0.47368421052631576,
+    0.631578947368421,
+    0.631578947368421,
+    0.631578947368421,
+    0.631578947368421,
+    0.631578947368421,
+    0.631578947368421,
+    0.631578947368421,
+    0.631578947368421,
+    0.47368421052631576
+  ],
+  "note": "Intervals describe individual tickets, not uncertainty about the mean. Categories have different sizes; last-digit 0 and 9 each have three numbers, other digits have four. These structural properties do not change the probability of any specific ticket."
+}

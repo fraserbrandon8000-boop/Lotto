@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "origins": 126,
+  "mutation_origin": 1662,
+  "future_mutation_invariance": true,
+  "all_predictions_valid": true,
+  "baseline_verified": true,
+  "source_unchanged": true,
+  "lotto_v1_manifest_unchanged": true
+}

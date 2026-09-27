@@ -1,0 +1,44 @@
+Historical target 1 of 129
+Historical target 31 of 129
+Historical target 61 of 129
+Historical target 91 of 129
+Historical target 121 of 129
+{
+  "reachability": {
+    "replay_all20_exact": true,
+    "source_pool_size": 4096,
+    "source_pool_unique": 4095,
+    "source_seed": 20261918,
+    "source_union_contains_all_winners": true,
+    "exact_winning_tuple_in_source": false,
+    "exact_indices": [],
+    "fallback_draw_count": 1,
+    "exact_in_fallback": false,
+    "exact_in_candidates": false,
+    "winning_previous_primary_overlap": [
+      14
+    ],
+    "topN_pools_used_by_active_V1": false,
+    "post_C03_diversity_conflict": [
+      6,
+      8,
+      12,
+      18
+    ],
+    "candidate_union_missing_winners": [],
+    "reason": "Active V1 copies complete tuples from a fixed uniform sample; individual source-pool union coverage does not allow arbitrary assembly. Diagnostic top-N pools were not active V1 constructors. If the exact tuple is absent, it was not scored or displaced by structure/diversity; later hypothetical constraints are not its actual exclusion cause."
+  },
+  "best_candidates": [
+    "C03"
+  ],
+  "distribution": {
+    "0": 4,
+    "1": 12,
+    "2": 3,
+    "3": 0,
+    "4": 1,
+    "5": 0,
+    "6": 0
+  },
+  "qualified": []
+}

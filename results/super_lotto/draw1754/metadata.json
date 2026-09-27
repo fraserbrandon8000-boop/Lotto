@@ -1,0 +1,35 @@
+{
+  "game": "Super Lotto",
+  "seed": 2026092109,
+  "cutoff": {
+    "draw_id": 1753,
+    "date": "2026-09-22",
+    "numbers": [
+      1,
+      5,
+      8,
+      14,
+      18
+    ],
+    "super_ball": 3,
+    "source": "https://supremeventures.com/past-results/",
+    "api_source": "https://test-results.supremeventures.com/public/game/9/from/2026-09-22/to/2026-09-25",
+    "raw_file": "results/super_lotto/draw1754/official-cutoff.json"
+  },
+  "origins": 127,
+  "qualifying_models": [],
+  "conclusion": "No detectable edge in this dataset",
+  "configuration": {
+    "warmup": 50,
+    "confirmation": 40,
+    "search_pool": 512,
+    "window": 30,
+    "half_life": 20,
+    "trend": 20,
+    "pair_alpha": 0.05
+  },
+  "source_sha256": "e7c654a8e7c4ce56738b4bb9ea7032209f52a609e3341e448a3f260f9036a07f",
+  "protocol_sha256": "14c5a02cb58c40d05cd069429d36c0f4135b1eed6616a36963cf2b9a5a093b6c",
+  "normalized_sha256": "b74da0e69b90ee61ecc693cf588aa0fb06fb562e33b1bb7cd65cd372e29ed197",
+  "target": 1754
+}
