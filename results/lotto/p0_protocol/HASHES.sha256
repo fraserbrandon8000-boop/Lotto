@@ -1,0 +1,10 @@
+d8d9c8b2687de54f9a5ba8c75bed1c9bbbe8253add9a7029e07a7d417655208f  DESIGN_PRECOMMIT.json
+56f0f24846359fba7ac07a8f64051d72d280f1a2ecda2ba59cd03632e1ea695f  PROTOCOL.json
+f2d7f03aa201fc055b50b07cab807be76afcb125e874e82a773b79fce827195e  REPORT.md
+69fcbc9ca87c392881234b892a0d538c50474ad9dc2362181bc5487e425d510a  reliability.json
+e1d8c873b71a52cb9cdad758339f6cb8a1b76190790934c58b0c795ec9b99ae2  pool_size_selection.json
+e6bad14c596a8a72d983603237745b990e1cb68c368a9d6d214f7404dc7d4b59  historical_evaluation.json
+a4e617cee858ea2dab66728b238f6abe9e00d5ef4bbcaa5b21358a421a1651f4  historical_origins.json
+a08b2765f5c8450d1adfa002bb2dffc4099c547ef392239187b57179c309afea  ../../../scripts/research/p0.py
+0bd00f53157d0e71695cf74861f9172b78cf267020ea53f66926c34787101850  ../../../scripts/research/p0_design_test.py
+eacb1ee01d0c30417b17d008ed86612f1ff74bf3af8baa025527fb938974873d  ../../../scripts/research/v1_history.py

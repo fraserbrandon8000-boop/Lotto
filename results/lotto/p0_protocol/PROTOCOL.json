@@ -1,0 +1,141 @@
+{
+ "id": "P0-portfolio-research-protocol-v1",
+ "status": "FROZEN before any P0 #2341 shadow evaluation",
+ "frozen_utc": "2026-09-29T02:35:29.294157+00:00",
+ "design_precommit": {
+  "path": "results/lotto/p0_protocol/DESIGN_PRECOMMIT.json",
+  "sha256": "d8d9c8b2687de54f9a5ba8c75bed1c9bbbe8253add9a7029e07a7d417655208f",
+  "commit": "a0b2f39"
+ },
+ "design_dataset": {
+  "path": "results/lotto/draw2341/draws.json",
+  "sha256": "ce4895bf6d8d9d8f764cf2b734031381fa2a1b9e2bce3a7f285818a73a6a2c95",
+  "last_draw": 2340
+ },
+ "frozen_constants": {
+  "weights": {
+   "A_long": 0.0,
+   "B_recent": 0.031430902474235335,
+   "C_gap": 0.0,
+   "D_trend": 0.023770607147600063,
+   "E_pairs": 0.0,
+   "pair": 0.0,
+   "struct": 0.0067497775885707175
+  },
+  "weight_detail": {
+   "A_long": {
+    "n": 130,
+    "dbar": -0.0016936631652460074,
+    "d": -0.000868693284463734,
+    "h": 0.5,
+    "w": 0.0
+   },
+   "B_recent": {
+    "n": 130,
+    "dbar": 0.06127981270617772,
+    "d": 0.031430902474235335,
+    "h": 1.0,
+    "w": 0.031430902474235335
+   },
+   "C_gap": {
+    "n": 130,
+    "dbar": -0.08884033148609155,
+    "d": -0.04556691137596415,
+    "h": 0.0,
+    "w": 0.0
+   },
+   "D_trend": {
+    "n": 130,
+    "dbar": 0.046344782976280086,
+    "d": 0.023770607147600063,
+    "h": 1.0,
+    "w": 0.023770607147600063
+   },
+   "E_pairs": {
+    "n": 0,
+    "dbar": null,
+    "d": 0.0,
+    "h": 0.0,
+    "w": 0.0
+   },
+   "pair": {
+    "n": 0,
+    "dbar": null,
+    "d": 0.0,
+    "h": 0.0,
+    "w": 0.0
+   },
+   "struct": {
+    "n": 130,
+    "dbar": 0.026319645563790475,
+    "d": 0.013499555177141435,
+    "h": 0.5,
+    "w": 0.0067497775885707175
+   }
+  },
+  "discovery_pool_K": 15,
+  "pool_basis": "NO EDGE: predeclared default K=15 (no pool size passed on the development period)",
+  "tau": 0.09,
+  "sigma": 0.11252248645762881,
+  "sd0": 0.8306475148060157,
+  "min_prior": 20,
+  "eta": 1.0,
+  "overlap_limit": 2,
+  "evidence_exception_sd": 2.0,
+  "mass_floor": 0.01
+ },
+ "historical_gate": {
+  "PASS": false,
+  "E1": {
+   "observed": 80,
+   "expected": 75.78947368421052,
+   "p": 0.2944567760768576,
+   "holm_p": 0.32719597867480155,
+   "mean_excess": 0.10526315789473702,
+   "block95": [
+    -0.219736842105263,
+    0.455263157894737
+   ],
+   "half1": 0.305263157894737,
+   "half2": -0.09473684210526302
+  },
+  "E2": {
+   "observed": 74,
+   "p": 0.08647283830063071,
+   "holm_p": 0.25941851490189216
+  },
+  "E3": {
+   "observed": 7,
+   "p": 0.16359798933740077,
+   "holm_p": 0.32719597867480155
+  }
+ },
+ "prospective_rules": {
+  "weights": "frozen constants above (formula output at cutoff #2340); #2341 never updates them",
+  "features": "V1 model_features at the prospective cutoff (#2340 for the shadow, #2341 for #2342)",
+  "pool": "top-K of the P0 ordering (M, then EQ, then number)",
+  "universe": "all C(K,6) combinations enumerated",
+  "ticket_1": "frozen V1 Science ticket of that draw",
+  "tickets_2_3": "greedy portfolio objective J = T + eta*Cov with the <=2 overlap rule"
+ },
+ "seeds": {
+  "V1": 20260919,
+  "pool_bootstrap": 20260930,
+  "comparators_base": 20260931,
+  "null_mc_base": 20260932,
+  "gate_bootstrap": 20260933,
+  "random_control_2342": 20260930
+ },
+ "code_sha256": {
+  "scripts/research/p0.py": "a08b2765f5c8450d1adfa002bb2dffc4099c547ef392239187b57179c309afea",
+  "scripts/research/p0_design_test.py": "0bd00f53157d0e71695cf74861f9172b78cf267020ea53f66926c34787101850",
+  "scripts/research/v1_history.py": "eacb1ee01d0c30417b17d008ed86612f1ff74bf3af8baa025527fb938974873d",
+  "scripts/analyze.py": "86bdb1312a0b07fd9db97eb8186604fdcb67598764378740b7e417a23d11eca5"
+ },
+ "outputs_sha256": {
+  "reliability.json": "69fcbc9ca87c392881234b892a0d538c50474ad9dc2362181bc5487e425d510a",
+  "pool_size_selection.json": "e1d8c873b71a52cb9cdad758339f6cb8a1b76190790934c58b0c795ec9b99ae2",
+  "historical_evaluation.json": "e6bad14c596a8a72d983603237745b990e1cb68c368a9d6d214f7404dc7d4b59",
+  "historical_origins.json": "a4e617cee858ea2dab66728b238f6abe9e00d5ef4bbcaa5b21358a421a1651f4"
+ }
+}

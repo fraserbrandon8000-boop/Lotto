@@ -1,0 +1,1128 @@
+{
+  "families": {
+    "A_long": {
+      "informative_origins": 130,
+      "mean_winner_midrank": 19.507051282051286,
+      "expected_midrank": 19.5,
+      "topN_capture": {
+        "10": {
+          "mean": 1.5692307692307692,
+          "expected": 1.5789473684210527
+        },
+        "12": {
+          "mean": 1.9,
+          "expected": 1.894736842105263
+        },
+        "15": {
+          "mean": 2.3692307692307693,
+          "expected": 2.3684210526315788
+        },
+        "20": {
+          "mean": 3.169230769230769,
+          "expected": 3.1578947368421053
+        }
+      },
+      "mean_excess_pct": -0.00019057519057518008,
+      "z": -0.019310731194091327,
+      "p_one_sided": 0.5077033883646566,
+      "block95_excess": [
+        -0.022938756063756054,
+        0.022921864171864183
+      ],
+      "confirmation_mean_excess": 0.0068130630630630655,
+      "half1": -0.0007969507969507913,
+      "half2": 0.00041580041580043203,
+      "holm_p": 1.0
+    },
+    "B_recent": {
+      "informative_origins": 130,
+      "mean_winner_midrank": 19.24487179487179,
+      "expected_midrank": 19.5,
+      "topN_capture": {
+        "10": {
+          "mean": 1.676923076923077,
+          "expected": 1.5789473684210527
+        },
+        "12": {
+          "mean": 1.9307692307692308,
+          "expected": 1.894736842105263
+        },
+        "15": {
+          "mean": 2.423076923076923,
+          "expected": 2.3684210526315788
+        },
+        "20": {
+          "mean": 3.3153846153846156,
+          "expected": 3.1578947368421053
+        }
+      },
+      "mean_excess_pct": 0.006895356895356912,
+      "z": 0.6986973650226174,
+      "p_one_sided": 0.24237059050746096,
+      "block95_excess": [
+        -0.013133229383229363,
+        0.026612092862092873
+      ],
+      "confirmation_mean_excess": 0.00889639639639641,
+      "half1": 0.004573804573804593,
+      "half2": 0.009216909216909232,
+      "holm_p": 0.9694823620298438
+    },
+    "C_gap": {
+      "informative_origins": 130,
+      "mean_winner_midrank": 19.86987179487179,
+      "expected_midrank": 19.5,
+      "topN_capture": {
+        "10": {
+          "mean": 1.476923076923077,
+          "expected": 1.5789473684210527
+        },
+        "12": {
+          "mean": 1.7615384615384615,
+          "expected": 1.894736842105263
+        },
+        "15": {
+          "mean": 2.292307692307692,
+          "expected": 2.3684210526315788
+        },
+        "20": {
+          "mean": 3.046153846153846,
+          "expected": 3.1578947368421053
+        }
+      },
+      "mean_excess_pct": -0.009996534996534991,
+      "z": -1.0129356271810277,
+      "p_one_sided": 0.8444545451775847,
+      "block95_excess": [
+        -0.027097193347193335,
+        0.006497314622314622
+      ],
+      "confirmation_mean_excess": -0.026520270270270263,
+      "half1": -0.007415107415107413,
+      "half2": -0.012577962577962568,
+      "holm_p": 1.0
+    },
+    "D_trend": {
+      "informative_origins": 130,
+      "mean_winner_midrank": 19.30705128205128,
+      "expected_midrank": 19.5,
+      "topN_capture": {
+        "10": {
+          "mean": 1.676923076923077,
+          "expected": 1.5789473684210527
+        },
+        "12": {
+          "mean": 1.9538461538461538,
+          "expected": 1.894736842105263
+        },
+        "15": {
+          "mean": 2.4307692307692306,
+          "expected": 2.3684210526315788
+        },
+        "20": {
+          "mean": 3.230769230769231,
+          "expected": 3.1578947368421053
+        }
+      },
+      "mean_excess_pct": 0.005214830214830222,
+      "z": 0.5284118263110744,
+      "p_one_sided": 0.2986067654977342,
+      "block95_excess": [
+        -0.011954695079695075,
+        0.021690921690921697
+      ],
+      "confirmation_mean_excess": 0.005180180180180195,
+      "half1": 0.00578655578655579,
+      "half2": 0.0046431046431046575,
+      "holm_p": 0.9694823620298438
+    },
+    "E_pairs": {
+      "informative_origins": 0,
+      "note": "flat at every origin"
+    }
+  },
+  "correlations": {
+    "A_long~B_recent": 0.5767722745728665,
+    "A_long~C_gap": -0.21952126497678212,
+    "A_long~D_trend": -0.0005541071097000545,
+    "A_long~E_pairs": null,
+    "B_recent~C_gap": -0.4795043570983401,
+    "B_recent~D_trend": 0.4828885910092494,
+    "B_recent~E_pairs": null,
+    "C_gap~D_trend": -0.43484889809849514,
+    "C_gap~E_pairs": null,
+    "D_trend~E_pairs": null
+  },
+  "frozen_weights_at_cutoff_2340": {
+    "A_long": {
+      "n": 130,
+      "dbar": -0.0016936631652460074,
+      "d": -0.000868693284463734,
+      "h": 0.5,
+      "w": 0.0
+    },
+    "B_recent": {
+      "n": 130,
+      "dbar": 0.06127981270617772,
+      "d": 0.031430902474235335,
+      "h": 1.0,
+      "w": 0.031430902474235335
+    },
+    "C_gap": {
+      "n": 130,
+      "dbar": -0.08884033148609155,
+      "d": -0.04556691137596415,
+      "h": 0.0,
+      "w": 0.0
+    },
+    "D_trend": {
+      "n": 130,
+      "dbar": 0.046344782976280086,
+      "d": 0.023770607147600063,
+      "h": 1.0,
+      "w": 0.023770607147600063
+    },
+    "E_pairs": {
+      "n": 0,
+      "dbar": null,
+      "d": 0.0,
+      "h": 0.0,
+      "w": 0.0
+    },
+    "pair": {
+      "n": 0,
+      "dbar": null,
+      "d": 0.0,
+      "h": 0.0,
+      "w": 0.0
+    },
+    "struct": {
+      "n": 130,
+      "dbar": 0.026319645563790475,
+      "d": 0.013499555177141435,
+      "h": 0.5,
+      "w": 0.0067497775885707175
+    }
+  },
+  "weight_sensitivity_to_tau_reported_only": {
+    "0.05": {
+      "A_long": 0.0,
+      "B_recent": 0.015030897456232272,
+      "C_gap": 0.0,
+      "D_trend": 0.011367588277200776,
+      "E_pairs": 0.0,
+      "pair": 0.0,
+      "struct": 0.0032278810597101528
+    },
+    "0.18": {
+      "A_long": 0.0,
+      "B_recent": 0.049522365909136716,
+      "C_gap": 0.0,
+      "D_trend": 0.037452844569472704,
+      "E_pairs": 0.0,
+      "pair": 0.0,
+      "struct": 0.010634914343312114
+    }
+  },
+  "v1_ticket_sensitivity_confirmation": [
+    {
+      "variant": "window20",
+      "model": "A_long",
+      "confirmation_n": "40",
+      "confirmation_mean": "1.15",
+      "confirmation_holm_p": "0.6075737753272986",
+      "mean_ticket_overlap": "6.0"
+    },
+    {
+      "variant": "window20",
+      "model": "B_recent",
+      "confirmation_n": "40",
+      "confirmation_mean": "0.8",
+      "confirmation_holm_p": "1.0",
+      "mean_ticket_overlap": "3.776923076923077"
+    },
+    {
+      "variant": "window20",
+      "model": "C_gap",
+      "confirmation_n": "40",
+      "confirmation_mean": "0.725",
+      "confirmation_holm_p": "1.0",
+      "mean_ticket_overlap": "6.0"
+    },
+    {
+      "variant": "window20",
+      "model": "D_trend",
+      "confirmation_n": "40",
+      "confirmation_mean": "0.925",
+      "confirmation_holm_p": "1.0",
+      "mean_ticket_overlap": "6.0"
+    },
+    {
+      "variant": "window20",
+      "model": "E_pairs",
+      "confirmation_n": "40",
+      "confirmation_mean": "0.95",
+      "confirmation_holm_p": "1.0",
+      "mean_ticket_overlap": "6.0"
+    },
+    {
+      "variant": "window20",
+      "model": "F_structure",
+      "confirmation_n": "40",
+      "confirmation_mean": "0.95",
+      "confirmation_holm_p": "1.0",
+      "mean_ticket_overlap": "6.0"
+    },
+    {
+      "variant": "window20",
+      "model": "G_ensemble",
+      "confirmation_n": "40",
+      "confirmation_mean": "0.85",
+      "confirmation_holm_p": "1.0",
+      "mean_ticket_overlap": "5.115384615384615"
+    },
+    {
+      "variant": "window20",
+      "model": "H_random",
+      "confirmation_n": "40",
+      "confirmation_mean": "0.85",
+      "confirmation_holm_p": "1.0",
+      "mean_ticket_overlap": "6.0"
+    },
+    {
+      "variant": "window40",
+      "model": "A_long",
+      "confirmation_n": "40",
+      "confirmation_mean": "1.15",
+      "confirmation_holm_p": "0.6075737753272986",
+      "mean_ticket_overlap": "6.0"
+    },
+    {
+      "variant": "window40",
+      "model": "B_recent",
+      "confirmation_n": "40",
+      "confirmation_mean": "1.05",
+      "confirmation_holm_p": "1.0",
+      "mean_ticket_overlap": "4.184615384615385"
+    },
+    {
+      "variant": "window40",
+      "model": "C_gap",
+      "confirmation_n": "40",
+      "confirmation_mean": "0.725",
+      "confirmation_holm_p": "1.0",
+      "mean_ticket_overlap": "6.0"
+    },
+    {
+      "variant": "window40",
+      "model": "D_trend",
+      "confirmation_n": "40",
+      "confirmation_mean": "0.925",
+      "confirmation_holm_p": "1.0",
+      "mean_ticket_overlap": "6.0"
+    },
+    {
+      "variant": "window40",
+      "model": "E_pairs",
+      "confirmation_n": "40",
+      "confirmation_mean": "0.95",
+      "confirmation_holm_p": "1.0",
+      "mean_ticket_overlap": "6.0"
+    },
+    {
+      "variant": "window40",
+      "model": "F_structure",
+      "confirmation_n": "40",
+      "confirmation_mean": "0.95",
+      "confirmation_holm_p": "1.0",
+      "mean_ticket_overlap": "6.0"
+    },
+    {
+      "variant": "window40",
+      "model": "G_ensemble",
+      "confirmation_n": "40",
+      "confirmation_mean": "0.9",
+      "confirmation_holm_p": "1.0",
+      "mean_ticket_overlap": "5.246153846153846"
+    },
+    {
+      "variant": "window40",
+      "model": "H_random",
+      "confirmation_n": "40",
+      "confirmation_mean": "0.85",
+      "confirmation_holm_p": "1.0",
+      "mean_ticket_overlap": "6.0"
+    },
+    {
+      "variant": "decay10",
+      "model": "A_long",
+      "confirmation_n": "40",
+      "confirmation_mean": "1.15",
+      "confirmation_holm_p": "0.6075737753272986",
+      "mean_ticket_overlap": "6.0"
+    },
+    {
+      "variant": "decay10",
+      "model": "B_recent",
+      "confirmation_n": "40",
+      "confirmation_mean": "1.05",
+      "confirmation_holm_p": "1.0",
+      "mean_ticket_overlap": "4.992307692307692"
+    },
+    {
+      "variant": "decay10",
+      "model": "C_gap",
+      "confirmation_n": "40",
+      "confirmation_mean": "0.725",
+      "confirmation_holm_p": "1.0",
+      "mean_ticket_overlap": "6.0"
+    },
+    {
+      "variant": "decay10",
+      "model": "D_trend",
+      "confirmation_n": "40",
+      "confirmation_mean": "0.925",
+      "confirmation_holm_p": "1.0",
+      "mean_ticket_overlap": "6.0"
+    },
+    {
+      "variant": "decay10",
+      "model": "E_pairs",
+      "confirmation_n": "40",
+      "confirmation_mean": "0.95",
+      "confirmation_holm_p": "1.0",
+      "mean_ticket_overlap": "6.0"
+    },
+    {
+      "variant": "decay10",
+      "model": "F_structure",
+      "confirmation_n": "40",
+      "confirmation_mean": "0.95",
+      "confirmation_holm_p": "1.0",
+      "mean_ticket_overlap": "6.0"
+    },
+    {
+      "variant": "decay10",
+      "model": "G_ensemble",
+      "confirmation_n": "40",
+      "confirmation_mean": "0.875",
+      "confirmation_holm_p": "1.0",
+      "mean_ticket_overlap": "5.176923076923077"
+    },
+    {
+      "variant": "decay10",
+      "model": "H_random",
+      "confirmation_n": "40",
+      "confirmation_mean": "0.85",
+      "confirmation_holm_p": "1.0",
+      "mean_ticket_overlap": "6.0"
+    },
+    {
+      "variant": "decay40",
+      "model": "A_long",
+      "confirmation_n": "40",
+      "confirmation_mean": "1.15",
+      "confirmation_holm_p": "0.6075737753272986",
+      "mean_ticket_overlap": "6.0"
+    },
+    {
+      "variant": "decay40",
+      "model": "B_recent",
+      "confirmation_n": "40",
+      "confirmation_mean": "1.025",
+      "confirmation_holm_p": "1.0",
+      "mean_ticket_overlap": "5.315384615384615"
+    },
+    {
+      "variant": "decay40",
+      "model": "C_gap",
+      "confirmation_n": "40",
+      "confirmation_mean": "0.725",
+      "confirmation_holm_p": "1.0",
+      "mean_ticket_overlap": "6.0"
+    },
+    {
+      "variant": "decay40",
+      "model": "D_trend",
+      "confirmation_n": "40",
+      "confirmation_mean": "0.925",
+      "confirmation_holm_p": "1.0",
+      "mean_ticket_overlap": "6.0"
+    },
+    {
+      "variant": "decay40",
+      "model": "E_pairs",
+      "confirmation_n": "40",
+      "confirmation_mean": "0.95",
+      "confirmation_holm_p": "1.0",
+      "mean_ticket_overlap": "6.0"
+    },
+    {
+      "variant": "decay40",
+      "model": "F_structure",
+      "confirmation_n": "40",
+      "confirmation_mean": "0.95",
+      "confirmation_holm_p": "1.0",
+      "mean_ticket_overlap": "6.0"
+    },
+    {
+      "variant": "decay40",
+      "model": "G_ensemble",
+      "confirmation_n": "40",
+      "confirmation_mean": "0.925",
+      "confirmation_holm_p": "1.0",
+      "mean_ticket_overlap": "4.969230769230769"
+    },
+    {
+      "variant": "decay40",
+      "model": "H_random",
+      "confirmation_n": "40",
+      "confirmation_mean": "0.85",
+      "confirmation_holm_p": "1.0",
+      "mean_ticket_overlap": "6.0"
+    },
+    {
+      "variant": "trend10",
+      "model": "A_long",
+      "confirmation_n": "40",
+      "confirmation_mean": "1.15",
+      "confirmation_holm_p": "0.6075737753272986",
+      "mean_ticket_overlap": "6.0"
+    },
+    {
+      "variant": "trend10",
+      "model": "B_recent",
+      "confirmation_n": "40",
+      "confirmation_mean": "1.025",
+      "confirmation_holm_p": "1.0",
+      "mean_ticket_overlap": "6.0"
+    },
+    {
+      "variant": "trend10",
+      "model": "C_gap",
+      "confirmation_n": "40",
+      "confirmation_mean": "0.725",
+      "confirmation_holm_p": "1.0",
+      "mean_ticket_overlap": "6.0"
+    },
+    {
+      "variant": "trend10",
+      "model": "D_trend",
+      "confirmation_n": "40",
+      "confirmation_mean": "1.075",
+      "confirmation_holm_p": "1.0",
+      "mean_ticket_overlap": "1.5461538461538462"
+    },
+    {
+      "variant": "trend10",
+      "model": "E_pairs",
+      "confirmation_n": "40",
+      "confirmation_mean": "0.95",
+      "confirmation_holm_p": "1.0",
+      "mean_ticket_overlap": "6.0"
+    },
+    {
+      "variant": "trend10",
+      "model": "F_structure",
+      "confirmation_n": "40",
+      "confirmation_mean": "0.95",
+      "confirmation_holm_p": "1.0",
+      "mean_ticket_overlap": "6.0"
+    },
+    {
+      "variant": "trend10",
+      "model": "G_ensemble",
+      "confirmation_n": "40",
+      "confirmation_mean": "1.125",
+      "confirmation_holm_p": "0.7399474794474821",
+      "mean_ticket_overlap": "2.4307692307692306"
+    },
+    {
+      "variant": "trend10",
+      "model": "H_random",
+      "confirmation_n": "40",
+      "confirmation_mean": "0.85",
+      "confirmation_holm_p": "1.0",
+      "mean_ticket_overlap": "6.0"
+    },
+    {
+      "variant": "trend30",
+      "model": "A_long",
+      "confirmation_n": "40",
+      "confirmation_mean": "1.15",
+      "confirmation_holm_p": "0.6075737753272986",
+      "mean_ticket_overlap": "6.0"
+    },
+    {
+      "variant": "trend30",
+      "model": "B_recent",
+      "confirmation_n": "40",
+      "confirmation_mean": "1.025",
+      "confirmation_holm_p": "1.0",
+      "mean_ticket_overlap": "6.0"
+    },
+    {
+      "variant": "trend30",
+      "model": "C_gap",
+      "confirmation_n": "40",
+      "confirmation_mean": "0.725",
+      "confirmation_holm_p": "1.0",
+      "mean_ticket_overlap": "6.0"
+    },
+    {
+      "variant": "trend30",
+      "model": "D_trend",
+      "confirmation_n": "40",
+      "confirmation_mean": "0.9",
+      "confirmation_holm_p": "1.0",
+      "mean_ticket_overlap": "2.0538461538461537"
+    },
+    {
+      "variant": "trend30",
+      "model": "E_pairs",
+      "confirmation_n": "40",
+      "confirmation_mean": "0.95",
+      "confirmation_holm_p": "1.0",
+      "mean_ticket_overlap": "6.0"
+    },
+    {
+      "variant": "trend30",
+      "model": "F_structure",
+      "confirmation_n": "40",
+      "confirmation_mean": "0.95",
+      "confirmation_holm_p": "1.0",
+      "mean_ticket_overlap": "6.0"
+    },
+    {
+      "variant": "trend30",
+      "model": "G_ensemble",
+      "confirmation_n": "40",
+      "confirmation_mean": "1.1",
+      "confirmation_holm_p": "1.0",
+      "mean_ticket_overlap": "2.6769230769230767"
+    },
+    {
+      "variant": "trend30",
+      "model": "H_random",
+      "confirmation_n": "40",
+      "confirmation_mean": "0.85",
+      "confirmation_holm_p": "1.0",
+      "mean_ticket_overlap": "6.0"
+    },
+    {
+      "variant": "pair001",
+      "model": "A_long",
+      "confirmation_n": "40",
+      "confirmation_mean": "1.15",
+      "confirmation_holm_p": "0.6075737753272986",
+      "mean_ticket_overlap": "6.0"
+    },
+    {
+      "variant": "pair001",
+      "model": "B_recent",
+      "confirmation_n": "40",
+      "confirmation_mean": "1.025",
+      "confirmation_holm_p": "1.0",
+      "mean_ticket_overlap": "6.0"
+    },
+    {
+      "variant": "pair001",
+      "model": "C_gap",
+      "confirmation_n": "40",
+      "confirmation_mean": "0.725",
+      "confirmation_holm_p": "1.0",
+      "mean_ticket_overlap": "6.0"
+    },
+    {
+      "variant": "pair001",
+      "model": "D_trend",
+      "confirmation_n": "40",
+      "confirmation_mean": "0.925",
+      "confirmation_holm_p": "1.0",
+      "mean_ticket_overlap": "6.0"
+    },
+    {
+      "variant": "pair001",
+      "model": "E_pairs",
+      "confirmation_n": "40",
+      "confirmation_mean": "0.95",
+      "confirmation_holm_p": "1.0",
+      "mean_ticket_overlap": "6.0"
+    },
+    {
+      "variant": "pair001",
+      "model": "F_structure",
+      "confirmation_n": "40",
+      "confirmation_mean": "0.95",
+      "confirmation_holm_p": "1.0",
+      "mean_ticket_overlap": "6.0"
+    },
+    {
+      "variant": "pair001",
+      "model": "G_ensemble",
+      "confirmation_n": "40",
+      "confirmation_mean": "0.9",
+      "confirmation_holm_p": "1.0",
+      "mean_ticket_overlap": "6.0"
+    },
+    {
+      "variant": "pair001",
+      "model": "H_random",
+      "confirmation_n": "40",
+      "confirmation_mean": "0.85",
+      "confirmation_holm_p": "1.0",
+      "mean_ticket_overlap": "6.0"
+    },
+    {
+      "variant": "pair010",
+      "model": "A_long",
+      "confirmation_n": "40",
+      "confirmation_mean": "1.15",
+      "confirmation_holm_p": "0.6075737753272986",
+      "mean_ticket_overlap": "6.0"
+    },
+    {
+      "variant": "pair010",
+      "model": "B_recent",
+      "confirmation_n": "40",
+      "confirmation_mean": "1.025",
+      "confirmation_holm_p": "1.0",
+      "mean_ticket_overlap": "6.0"
+    },
+    {
+      "variant": "pair010",
+      "model": "C_gap",
+      "confirmation_n": "40",
+      "confirmation_mean": "0.725",
+      "confirmation_holm_p": "1.0",
+      "mean_ticket_overlap": "6.0"
+    },
+    {
+      "variant": "pair010",
+      "model": "D_trend",
+      "confirmation_n": "40",
+      "confirmation_mean": "0.925",
+      "confirmation_holm_p": "1.0",
+      "mean_ticket_overlap": "6.0"
+    },
+    {
+      "variant": "pair010",
+      "model": "E_pairs",
+      "confirmation_n": "40",
+      "confirmation_mean": "0.95",
+      "confirmation_holm_p": "1.0",
+      "mean_ticket_overlap": "6.0"
+    },
+    {
+      "variant": "pair010",
+      "model": "F_structure",
+      "confirmation_n": "40",
+      "confirmation_mean": "0.95",
+      "confirmation_holm_p": "1.0",
+      "mean_ticket_overlap": "6.0"
+    },
+    {
+      "variant": "pair010",
+      "model": "G_ensemble",
+      "confirmation_n": "40",
+      "confirmation_mean": "0.9",
+      "confirmation_holm_p": "1.0",
+      "mean_ticket_overlap": "6.0"
+    },
+    {
+      "variant": "pair010",
+      "model": "H_random",
+      "confirmation_n": "40",
+      "confirmation_mean": "0.85",
+      "confirmation_holm_p": "1.0",
+      "mean_ticket_overlap": "6.0"
+    },
+    {
+      "variant": "warmup40",
+      "model": "A_long",
+      "confirmation_n": "40",
+      "confirmation_mean": "1.15",
+      "confirmation_holm_p": "0.6075737753272986",
+      "mean_ticket_overlap": "6.0"
+    },
+    {
+      "variant": "warmup40",
+      "model": "B_recent",
+      "confirmation_n": "40",
+      "confirmation_mean": "1.025",
+      "confirmation_holm_p": "1.0",
+      "mean_ticket_overlap": "6.0"
+    },
+    {
+      "variant": "warmup40",
+      "model": "C_gap",
+      "confirmation_n": "40",
+      "confirmation_mean": "0.725",
+      "confirmation_holm_p": "1.0",
+      "mean_ticket_overlap": "6.0"
+    },
+    {
+      "variant": "warmup40",
+      "model": "D_trend",
+      "confirmation_n": "40",
+      "confirmation_mean": "0.925",
+      "confirmation_holm_p": "1.0",
+      "mean_ticket_overlap": "6.0"
+    },
+    {
+      "variant": "warmup40",
+      "model": "E_pairs",
+      "confirmation_n": "40",
+      "confirmation_mean": "0.95",
+      "confirmation_holm_p": "1.0",
+      "mean_ticket_overlap": "6.0"
+    },
+    {
+      "variant": "warmup40",
+      "model": "F_structure",
+      "confirmation_n": "40",
+      "confirmation_mean": "0.95",
+      "confirmation_holm_p": "1.0",
+      "mean_ticket_overlap": "6.0"
+    },
+    {
+      "variant": "warmup40",
+      "model": "G_ensemble",
+      "confirmation_n": "40",
+      "confirmation_mean": "0.825",
+      "confirmation_holm_p": "1.0",
+      "mean_ticket_overlap": "3.9846153846153847"
+    },
+    {
+      "variant": "warmup40",
+      "model": "H_random",
+      "confirmation_n": "40",
+      "confirmation_mean": "0.85",
+      "confirmation_holm_p": "1.0",
+      "mean_ticket_overlap": "6.0"
+    },
+    {
+      "variant": "warmup60",
+      "model": "A_long",
+      "confirmation_n": "40",
+      "confirmation_mean": "1.15",
+      "confirmation_holm_p": "0.6075737753272986",
+      "mean_ticket_overlap": "6.0"
+    },
+    {
+      "variant": "warmup60",
+      "model": "B_recent",
+      "confirmation_n": "40",
+      "confirmation_mean": "1.025",
+      "confirmation_holm_p": "1.0",
+      "mean_ticket_overlap": "6.0"
+    },
+    {
+      "variant": "warmup60",
+      "model": "C_gap",
+      "confirmation_n": "40",
+      "confirmation_mean": "0.725",
+      "confirmation_holm_p": "1.0",
+      "mean_ticket_overlap": "6.0"
+    },
+    {
+      "variant": "warmup60",
+      "model": "D_trend",
+      "confirmation_n": "40",
+      "confirmation_mean": "0.925",
+      "confirmation_holm_p": "1.0",
+      "mean_ticket_overlap": "6.0"
+    },
+    {
+      "variant": "warmup60",
+      "model": "E_pairs",
+      "confirmation_n": "40",
+      "confirmation_mean": "0.95",
+      "confirmation_holm_p": "1.0",
+      "mean_ticket_overlap": "6.0"
+    },
+    {
+      "variant": "warmup60",
+      "model": "F_structure",
+      "confirmation_n": "40",
+      "confirmation_mean": "0.95",
+      "confirmation_holm_p": "1.0",
+      "mean_ticket_overlap": "6.0"
+    },
+    {
+      "variant": "warmup60",
+      "model": "G_ensemble",
+      "confirmation_n": "40",
+      "confirmation_mean": "0.9",
+      "confirmation_holm_p": "1.0",
+      "mean_ticket_overlap": "4.683333333333334"
+    },
+    {
+      "variant": "warmup60",
+      "model": "H_random",
+      "confirmation_n": "40",
+      "confirmation_mean": "0.85",
+      "confirmation_holm_p": "1.0",
+      "mean_ticket_overlap": "6.0"
+    },
+    {
+      "variant": "history100",
+      "model": "A_long",
+      "confirmation_n": "40",
+      "confirmation_mean": "1.05",
+      "confirmation_holm_p": "1.0",
+      "mean_ticket_overlap": "4.469230769230769"
+    },
+    {
+      "variant": "history100",
+      "model": "B_recent",
+      "confirmation_n": "40",
+      "confirmation_mean": "1.025",
+      "confirmation_holm_p": "1.0",
+      "mean_ticket_overlap": "5.969230769230769"
+    },
+    {
+      "variant": "history100",
+      "model": "C_gap",
+      "confirmation_n": "40",
+      "confirmation_mean": "0.725",
+      "confirmation_holm_p": "1.0",
+      "mean_ticket_overlap": "6.0"
+    },
+    {
+      "variant": "history100",
+      "model": "D_trend",
+      "confirmation_n": "40",
+      "confirmation_mean": "0.925",
+      "confirmation_holm_p": "1.0",
+      "mean_ticket_overlap": "6.0"
+    },
+    {
+      "variant": "history100",
+      "model": "E_pairs",
+      "confirmation_n": "40",
+      "confirmation_mean": "0.95",
+      "confirmation_holm_p": "1.0",
+      "mean_ticket_overlap": "6.0"
+    },
+    {
+      "variant": "history100",
+      "model": "F_structure",
+      "confirmation_n": "40",
+      "confirmation_mean": "0.85",
+      "confirmation_holm_p": "1.0",
+      "mean_ticket_overlap": "5.3307692307692305"
+    },
+    {
+      "variant": "history100",
+      "model": "G_ensemble",
+      "confirmation_n": "40",
+      "confirmation_mean": "0.85",
+      "confirmation_holm_p": "1.0",
+      "mean_ticket_overlap": "4.815384615384615"
+    },
+    {
+      "variant": "history100",
+      "model": "H_random",
+      "confirmation_n": "40",
+      "confirmation_mean": "0.85",
+      "confirmation_holm_p": "1.0",
+      "mean_ticket_overlap": "6.0"
+    },
+    {
+      "variant": "equal_weights",
+      "model": "A_long",
+      "confirmation_n": "40",
+      "confirmation_mean": "1.15",
+      "confirmation_holm_p": "0.6075737753272986",
+      "mean_ticket_overlap": "6.0"
+    },
+    {
+      "variant": "equal_weights",
+      "model": "B_recent",
+      "confirmation_n": "40",
+      "confirmation_mean": "1.025",
+      "confirmation_holm_p": "1.0",
+      "mean_ticket_overlap": "6.0"
+    },
+    {
+      "variant": "equal_weights",
+      "model": "C_gap",
+      "confirmation_n": "40",
+      "confirmation_mean": "0.725",
+      "confirmation_holm_p": "1.0",
+      "mean_ticket_overlap": "6.0"
+    },
+    {
+      "variant": "equal_weights",
+      "model": "D_trend",
+      "confirmation_n": "40",
+      "confirmation_mean": "0.925",
+      "confirmation_holm_p": "1.0",
+      "mean_ticket_overlap": "6.0"
+    },
+    {
+      "variant": "equal_weights",
+      "model": "E_pairs",
+      "confirmation_n": "40",
+      "confirmation_mean": "0.95",
+      "confirmation_holm_p": "1.0",
+      "mean_ticket_overlap": "6.0"
+    },
+    {
+      "variant": "equal_weights",
+      "model": "F_structure",
+      "confirmation_n": "40",
+      "confirmation_mean": "0.95",
+      "confirmation_holm_p": "1.0",
+      "mean_ticket_overlap": "6.0"
+    },
+    {
+      "variant": "equal_weights",
+      "model": "G_ensemble",
+      "confirmation_n": "40",
+      "confirmation_mean": "0.975",
+      "confirmation_holm_p": "1.0",
+      "mean_ticket_overlap": "3.623076923076923"
+    },
+    {
+      "variant": "equal_weights",
+      "model": "H_random",
+      "confirmation_n": "40",
+      "confirmation_mean": "0.85",
+      "confirmation_holm_p": "1.0",
+      "mean_ticket_overlap": "6.0"
+    },
+    {
+      "variant": "shrunk_weights",
+      "model": "A_long",
+      "confirmation_n": "40",
+      "confirmation_mean": "1.15",
+      "confirmation_holm_p": "0.6075737753272986",
+      "mean_ticket_overlap": "6.0"
+    },
+    {
+      "variant": "shrunk_weights",
+      "model": "B_recent",
+      "confirmation_n": "40",
+      "confirmation_mean": "1.025",
+      "confirmation_holm_p": "1.0",
+      "mean_ticket_overlap": "6.0"
+    },
+    {
+      "variant": "shrunk_weights",
+      "model": "C_gap",
+      "confirmation_n": "40",
+      "confirmation_mean": "0.725",
+      "confirmation_holm_p": "1.0",
+      "mean_ticket_overlap": "6.0"
+    },
+    {
+      "variant": "shrunk_weights",
+      "model": "D_trend",
+      "confirmation_n": "40",
+      "confirmation_mean": "0.925",
+      "confirmation_holm_p": "1.0",
+      "mean_ticket_overlap": "6.0"
+    },
+    {
+      "variant": "shrunk_weights",
+      "model": "E_pairs",
+      "confirmation_n": "40",
+      "confirmation_mean": "0.95",
+      "confirmation_holm_p": "1.0",
+      "mean_ticket_overlap": "6.0"
+    },
+    {
+      "variant": "shrunk_weights",
+      "model": "F_structure",
+      "confirmation_n": "40",
+      "confirmation_mean": "0.95",
+      "confirmation_holm_p": "1.0",
+      "mean_ticket_overlap": "6.0"
+    },
+    {
+      "variant": "shrunk_weights",
+      "model": "G_ensemble",
+      "confirmation_n": "40",
+      "confirmation_mean": "0.9",
+      "confirmation_holm_p": "1.0",
+      "mean_ticket_overlap": "6.0"
+    },
+    {
+      "variant": "shrunk_weights",
+      "model": "H_random",
+      "confirmation_n": "40",
+      "confirmation_mean": "0.85",
+      "confirmation_holm_p": "1.0",
+      "mean_ticket_overlap": "6.0"
+    },
+    {
+      "variant": "pool_seed",
+      "model": "A_long",
+      "confirmation_n": "40",
+      "confirmation_mean": "0.925",
+      "confirmation_holm_p": "1.0",
+      "mean_ticket_overlap": "2.5538461538461537"
+    },
+    {
+      "variant": "pool_seed",
+      "model": "B_recent",
+      "confirmation_n": "40",
+      "confirmation_mean": "0.9",
+      "confirmation_holm_p": "1.0",
+      "mean_ticket_overlap": "2.3923076923076922"
+    },
+    {
+      "variant": "pool_seed",
+      "model": "C_gap",
+      "confirmation_n": "40",
+      "confirmation_mean": "1.0",
+      "confirmation_holm_p": "1.0",
+      "mean_ticket_overlap": "2.6153846153846154"
+    },
+    {
+      "variant": "pool_seed",
+      "model": "D_trend",
+      "confirmation_n": "40",
+      "confirmation_mean": "0.95",
+      "confirmation_holm_p": "1.0",
+      "mean_ticket_overlap": "2.3230769230769233"
+    },
+    {
+      "variant": "pool_seed",
+      "model": "E_pairs",
+      "confirmation_n": "40",
+      "confirmation_mean": "0.9",
+      "confirmation_holm_p": "1.0",
+      "mean_ticket_overlap": "0.9692307692307692"
+    },
+    {
+      "variant": "pool_seed",
+      "model": "F_structure",
+      "confirmation_n": "40",
+      "confirmation_mean": "0.85",
+      "confirmation_holm_p": "1.0",
+      "mean_ticket_overlap": "1.0538461538461539"
+    },
+    {
+      "variant": "pool_seed",
+      "model": "G_ensemble",
+      "confirmation_n": "40",
+      "confirmation_mean": "0.95",
+      "confirmation_holm_p": "1.0",
+      "mean_ticket_overlap": "2.223076923076923"
+    },
+    {
+      "variant": "pool_seed",
+      "model": "H_random",
+      "confirmation_n": "40",
+      "confirmation_mean": "0.85",
+      "confirmation_holm_p": "1.0",
+      "mean_ticket_overlap": "0.9230769230769231"
+    }
+  ],
+  "G_ensemble": "derived from A-E; reported via V1 G proxy only; number-level weight 0",
+  "F_structure": "no number-level representation; ticket-level weight from V1 F walk matches (see pair/struct in frozen weights)",
+  "formula": "w_f = max(0, d_f) * h_f; d_f = dbar_f * n tau^2/(n tau^2 + 1); dbar_f = mean(x_f,u)/sigma; tau = 0.09; sigma = 0.112522; n >= 20"
+}
