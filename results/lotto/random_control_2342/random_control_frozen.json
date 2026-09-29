@@ -1,0 +1,40 @@
+{
+  "status": "PRE-DRAW RANDOM CONTROL PORTFOLIO FROZEN (research only; not a recommendation)",
+  "created_utc": "2026-09-29T02:41:16.423462+00:00",
+  "target_draw": 2342,
+  "seed": 20260930,
+  "method": "p0.random_diverse: uniform 6-of-38 tickets by rejection sampling until pairwise overlap <= 2 (P0 overlap rule); numpy default_rng(20260930)",
+  "tickets": [
+    [
+      12,
+      14,
+      15,
+      17,
+      20,
+      29
+    ],
+    [
+      13,
+      19,
+      25,
+      26,
+      28,
+      29
+    ],
+    [
+      1,
+      8,
+      20,
+      21,
+      33,
+      36
+    ]
+  ],
+  "pairwise_overlap": {
+    "1-2": 1,
+    "1-3": 1,
+    "2-3": 0
+  },
+  "unique_numbers": 16,
+  "code_sha256": "a08b2765f5c8450d1adfa002bb2dffc4099c547ef392239187b57179c309afea"
+}
