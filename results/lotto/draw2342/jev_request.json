@@ -1,0 +1,3450 @@
+{
+  "model": "jev-latest",
+  "state": {
+    "task": "Evaluate the refreshed empirical evidence for one additional Lotto #2342 complete ticket.",
+    "metadata": {
+      "cutoff_draw": 2341,
+      "target_draw": 2342,
+      "target_date": "2026-09-30",
+      "seed": 20260919,
+      "qualifying_models": [],
+      "origins": 131,
+      "data_sha256": "5c5a1c1271bccd777f16422e3971ecaa8750bb864a6b874bff7e31633217f6ba",
+      "v1_code_sha256": "86bdb1312a0b07fd9db97eb8186604fdcb67598764378740b7e417a23d11eca5",
+      "v1_manifest_integrity": {
+        "results\\analysis_metadata.json": "LF_to_CRLF",
+        "results\\audit.json": "LF_to_CRLF",
+        "results\\baseline.json": "LF_to_CRLF",
+        "results\\candidates.json": "LF_to_CRLF",
+        "results\\candidate_sensitivity.json": "LF_to_CRLF",
+        "results\\conditional_statistics.csv": "LF_to_CRLF",
+        "results\\draw_structure.csv": "LF_to_CRLF",
+        "results\\final_decision.json": "LF_to_CRLF",
+        "results\\jev_candidate_summary.csv": "LF_to_CRLF",
+        "results\\jev_receipt.json": "exact",
+        "results\\jev_request.json": "exact",
+        "results\\jev_response.json": "exact",
+        "results\\jev_state.json": "LF_to_CRLF",
+        "results\\model_performance.csv": "LF_to_CRLF",
+        "results\\model_performance.json": "LF_to_CRLF",
+        "results\\number_autocorrelations.csv": "LF_to_CRLF",
+        "results\\number_statistics.csv": "LF_to_CRLF",
+        "results\\pair_statistics.csv": "LF_to_CRLF",
+        "results\\randomness.json": "LF_to_CRLF",
+        "results\\ranked_candidates.json": "LF_to_CRLF",
+        "results\\REPORT.md": "LF_to_CRLF",
+        "results\\sensitivity.csv": "LF_to_CRLF",
+        "results\\source_ablation.json": "LF_to_CRLF",
+        "results\\structure_summary.json": "LF_to_CRLF",
+        "results\\triple_statistics.csv": "LF_to_CRLF",
+        "results\\verification.json": "LF_to_CRLF",
+        "results\\walk_forward_predictions.json": "LF_to_CRLF",
+        "data\\draws.json": "LF_to_CRLF",
+        "data\\external_draws.json": "LF_to_CRLF",
+        "data\\official-2025-11-19.json": "LF_to_CRLF",
+        "data\\official-2025-11-29.json": "LF_to_CRLF",
+        "data\\official-2025-12-09.json": "LF_to_CRLF",
+        "data\\official-2025-12-19.json": "LF_to_CRLF",
+        "data\\official-2026-09-12.json": "LF_to_CRLF",
+        "data\\original_draws.json": "LF_to_CRLF",
+        "scripts\\analyze.py": "exact",
+        "scripts\\audit.py": "exact",
+        "scripts\\finalize.py": "exact",
+        "scripts\\jev.mjs": "exact",
+        "scripts\\refresh-official.ps1": "exact",
+        "scripts\\verify_analysis.py": "exact",
+        "experiments\\jev-complete-ticket-zero-data\\final-request.json": "exact",
+        "experiments\\jev-complete-ticket-zero-data\\final-response.json": "exact",
+        "experiments\\jev-complete-ticket-zero-data\\finalists.json": "exact",
+        "experiments\\jev-complete-ticket-zero-data\\frozen-result.json": "exact",
+        "experiments\\jev-complete-ticket-zero-data\\pool.json": "exact",
+        "experiments\\jev-complete-ticket-zero-data\\stage1-request.json": "exact",
+        "experiments\\jev-complete-ticket-zero-data\\stage1-response.json": "exact",
+        "experiments\\jev-only-zero-data\\frozen-result.json": "exact"
+      },
+      "limitations": [
+        "No candidate-specific or Jev policy predictive validation.",
+        "Reused retrospective confirmation; no new holdout."
+      ]
+    },
+    "baseline": {
+      "expected_matches": 0.947368,
+      "jackpot_probability": 0
+    },
+    "methodology_confirmation": [
+      {
+        "model": "A_long",
+        "period": "confirmation",
+        "n": 40,
+        "total_matches": 48,
+        "mean": 1.2,
+        "median": 1,
+        "sd": 0.911465,
+        "counts": [
+          8,
+          20,
+          9,
+          2,
+          1,
+          0,
+          0
+        ],
+        "percentages": [
+          20,
+          50,
+          22.5,
+          5,
+          2.5,
+          0,
+          0
+        ],
+        "four_plus_pct": 2.5,
+        "best": 4,
+        "older_half_mean": 1.05,
+        "recent_half_mean": 1.35,
+        "delta_random": 0.252632,
+        "block95": [
+          0.95,
+          1.45
+        ],
+        "iid95": [
+          0.925,
+          1.475
+        ],
+        "p_exact_one_sided": 0.036192,
+        "holm_p": 0.289537,
+        "random_control_mc_p": 0.035248,
+        "random_mean_95": [
+          0.7,
+          1.2
+        ],
+        "qualifies": false,
+        "average_precision": 0.236026,
+        "recall_at12": 0.325
+      },
+      {
+        "model": "B_recent",
+        "period": "confirmation",
+        "n": 40,
+        "total_matches": 43,
+        "mean": 1.075,
+        "median": 1,
+        "sd": 0.655842,
+        "counts": [
+          7,
+          23,
+          10,
+          0,
+          0,
+          0,
+          0
+        ],
+        "percentages": [
+          17.5,
+          57.5,
+          25,
+          0,
+          0,
+          0,
+          0
+        ],
+        "four_plus_pct": 0,
+        "best": 2,
+        "older_half_mean": 0.95,
+        "recent_half_mean": 1.2,
+        "delta_random": 0.127632,
+        "block95": [
+          0.875,
+          1.25
+        ],
+        "iid95": [
+          0.875,
+          1.275
+        ],
+        "p_exact_one_sided": 0.189265,
+        "holm_p": 1,
+        "random_control_mc_p": 0.19069,
+        "random_mean_95": [
+          0.7,
+          1.2
+        ],
+        "qualifies": false,
+        "average_precision": 0.240539,
+        "recall_at12": 0.325
+      },
+      {
+        "model": "C_gap",
+        "period": "confirmation",
+        "n": 40,
+        "total_matches": 30,
+        "mean": 0.75,
+        "median": 1,
+        "sd": 0.707107,
+        "counts": [
+          16,
+          18,
+          6,
+          0,
+          0,
+          0,
+          0
+        ],
+        "percentages": [
+          40,
+          45,
+          15,
+          0,
+          0,
+          0,
+          0
+        ],
+        "four_plus_pct": 0,
+        "best": 2,
+        "older_half_mean": 0.7,
+        "recent_half_mean": 0.8,
+        "delta_random": -0.197368,
+        "block95": [
+          0.55,
+          0.975
+        ],
+        "iid95": [
+          0.525,
+          0.975
+        ],
+        "p_exact_one_sided": 0.948059,
+        "holm_p": 1,
+        "random_control_mc_p": 0.945903,
+        "random_mean_95": [
+          0.7,
+          1.2
+        ],
+        "qualifies": false,
+        "average_precision": 0.22121,
+        "recall_at12": 0.270833
+      },
+      {
+        "model": "D_trend",
+        "period": "confirmation",
+        "n": 40,
+        "total_matches": 37,
+        "mean": 0.925,
+        "median": 1,
+        "sd": 0.693837,
+        "counts": [
+          11,
+          21,
+          8,
+          0,
+          0,
+          0,
+          0
+        ],
+        "percentages": [
+          27.5,
+          52.5,
+          20,
+          0,
+          0,
+          0,
+          0
+        ],
+        "four_plus_pct": 0,
+        "best": 2,
+        "older_half_mean": 0.95,
+        "recent_half_mean": 0.9,
+        "delta_random": -0.022368,
+        "block95": [
+          0.775,
+          1.075
+        ],
+        "iid95": [
+          0.7,
+          1.15
+        ],
+        "p_exact_one_sided": 0.599003,
+        "holm_p": 1,
+        "random_control_mc_p": 0.59817,
+        "random_mean_95": [
+          0.7,
+          1.2
+        ],
+        "qualifies": false,
+        "average_precision": 0.252611,
+        "recall_at12": 0.3375
+      },
+      {
+        "model": "E_pairs",
+        "period": "confirmation",
+        "n": 40,
+        "total_matches": 38,
+        "mean": 0.95,
+        "median": 1,
+        "sd": 0.875595,
+        "counts": [
+          14,
+          16,
+          8,
+          2,
+          0,
+          0,
+          0
+        ],
+        "percentages": [
+          35,
+          40,
+          20,
+          5,
+          0,
+          0,
+          0
+        ],
+        "four_plus_pct": 0,
+        "best": 3,
+        "older_half_mean": 1.2,
+        "recent_half_mean": 0.7,
+        "delta_random": 0.002632,
+        "block95": [
+          0.7,
+          1.175
+        ],
+        "iid95": [
+          0.7,
+          1.225
+        ],
+        "p_exact_one_sided": 0.52371,
+        "holm_p": 1,
+        "random_control_mc_p": 0.525124,
+        "random_mean_95": [
+          0.7,
+          1.2
+        ],
+        "qualifies": false,
+        "average_precision": null,
+        "recall_at12": null
+      },
+      {
+        "model": "F_structure",
+        "period": "confirmation",
+        "n": 40,
+        "total_matches": 40,
+        "mean": 1,
+        "median": 1,
+        "sd": 0.877058,
+        "counts": [
+          13,
+          16,
+          9,
+          2,
+          0,
+          0,
+          0
+        ],
+        "percentages": [
+          32.5,
+          40,
+          22.5,
+          5,
+          0,
+          0,
+          0
+        ],
+        "four_plus_pct": 0,
+        "best": 3,
+        "older_half_mean": 1.05,
+        "recent_half_mean": 0.95,
+        "delta_random": 0.052632,
+        "block95": [
+          0.774375,
+          1.25
+        ],
+        "iid95": [
+          0.725,
+          1.275
+        ],
+        "p_exact_one_sided": 0.374589,
+        "holm_p": 1,
+        "random_control_mc_p": 0.378581,
+        "random_mean_95": [
+          0.7,
+          1.2
+        ],
+        "qualifies": false,
+        "average_precision": null,
+        "recall_at12": null
+      },
+      {
+        "model": "G_ensemble",
+        "period": "confirmation",
+        "n": 40,
+        "total_matches": 36,
+        "mean": 0.9,
+        "median": 1,
+        "sd": 0.841244,
+        "counts": [
+          15,
+          15,
+          9,
+          1,
+          0,
+          0,
+          0
+        ],
+        "percentages": [
+          37.5,
+          37.5,
+          22.5,
+          2.5,
+          0,
+          0,
+          0
+        ],
+        "four_plus_pct": 0,
+        "best": 3,
+        "older_half_mean": 0.8,
+        "recent_half_mean": 1,
+        "delta_random": -0.047368,
+        "block95": [
+          0.725,
+          1.1
+        ],
+        "iid95": [
+          0.65,
+          1.175
+        ],
+        "p_exact_one_sided": 0.671212,
+        "holm_p": 1,
+        "random_control_mc_p": 0.671116,
+        "random_mean_95": [
+          0.7,
+          1.2
+        ],
+        "qualifies": false,
+        "average_precision": 0.242563,
+        "recall_at12": 0.329167
+      },
+      {
+        "model": "H_random",
+        "period": "confirmation",
+        "n": 40,
+        "total_matches": 37,
+        "mean": 0.925,
+        "median": 1,
+        "sd": 0.944281,
+        "counts": [
+          15,
+          17,
+          4,
+          4,
+          0,
+          0,
+          0
+        ],
+        "percentages": [
+          37.5,
+          42.5,
+          10,
+          10,
+          0,
+          0,
+          0
+        ],
+        "four_plus_pct": 0,
+        "best": 3,
+        "older_half_mean": 1,
+        "recent_half_mean": 0.85,
+        "delta_random": -0.022368,
+        "block95": [
+          0.625,
+          1.3
+        ],
+        "iid95": [
+          0.65,
+          1.225
+        ],
+        "p_exact_one_sided": 0.599003,
+        "holm_p": 1,
+        "random_control_mc_p": 0.59817,
+        "random_mean_95": [
+          0.7,
+          1.2
+        ],
+        "qualifies": false,
+        "average_precision": 0.226788,
+        "recall_at12": 0.316667
+      }
+    ],
+    "candidates": [
+      {
+        "id": "C01",
+        "numbers": [
+          1,
+          8,
+          15,
+          18,
+          24,
+          25
+        ],
+        "generator": "A_long",
+        "contributing_models": [
+          "A_long",
+          "G_ensemble"
+        ],
+        "validated_models": [],
+        "individual_scores": [
+          {
+            "number": 1,
+            "long_z": 1.148064,
+            "recent_z": 1.345046,
+            "gap_z": -0.988971,
+            "trend_z": 0.653835
+          },
+          {
+            "number": 8,
+            "long_z": 1.99518,
+            "recent_z": 1.212597,
+            "gap_z": -0.811703,
+            "trend_z": -0.43589
+          },
+          {
+            "number": 15,
+            "long_z": 0.724507,
+            "recent_z": 0.518161,
+            "gap_z": 0.074639,
+            "trend_z": -0.87178
+          },
+          {
+            "number": 18,
+            "long_z": 2.206959,
+            "recent_z": 0.377545,
+            "gap_z": -0.811703,
+            "trend_z": 0.87178
+          },
+          {
+            "number": 24,
+            "long_z": 1.148064,
+            "recent_z": 1.648459,
+            "gap_z": -0.102629,
+            "trend_z": 1.30767
+          },
+          {
+            "number": 25,
+            "long_z": 0.724507,
+            "recent_z": -0.045391,
+            "gap_z": -0.279898,
+            "trend_z": -0.217945
+          }
+        ],
+        "ensemble_score": 0.733396,
+        "ensemble_rank": 5,
+        "model_ranks": {
+          "A_long": 1,
+          "B_recent": 6,
+          "C_gap": 14,
+          "D_trend": 10,
+          "E_pairs": 1,
+          "F_structure": 11,
+          "G_ensemble": 5
+        },
+        "long_frequency_mean": 0.192449,
+        "recent30_mean": 0.216667,
+        "ew_frequency_mean": 0.202097,
+        "gap_mean": 2.833333,
+        "trend_mean": 0.025,
+        "pair_lift_mean": 1.588115,
+        "corrected_significant_pairs": 0,
+        "structure": {
+          "sum": 91,
+          "median": 16.5,
+          "minimum": 1,
+          "maximum": 25,
+          "range": 24,
+          "odd_count": 3,
+          "low_count": 4,
+          "adjacent_pairs": 1,
+          "largest_spacing": 7,
+          "close_spacings_le2": 1
+        },
+        "model_agreement_count": 2,
+        "generator_sensitivity_rank_min": 1,
+        "generator_sensitivity_rank_max": 3,
+        "sensitivity_top_quartile_fraction": 1,
+        "sensitivity_mean_rank": 1.142857,
+        "latest_draw_overlap": 1,
+        "walk_forward_support": {
+          "model": "A_long",
+          "n": 40,
+          "mean": 1.2,
+          "block95": [
+            0.95,
+            1.45
+          ],
+          "holm_p": 0.289537,
+          "older_half_mean": 1.05,
+          "recent_half_mean": 1.35,
+          "qualifies": false
+        },
+        "evidence_against": [
+          "Exact ticket and candidate variants have not been backtested.",
+          "Frequency, gaps, pair lift and structure are descriptive, not independent predictive evidence.",
+          "Models share the same small dataset; agreement is correlated.",
+          "No qualifying independent out-of-sample support for this ticket."
+        ],
+        "overlap_previous_primary": [
+          1,
+          24
+        ]
+      },
+      {
+        "id": "C02",
+        "numbers": [
+          2,
+          6,
+          8,
+          12,
+          18,
+          25
+        ],
+        "generator": "A_long",
+        "contributing_models": [
+          "A_long"
+        ],
+        "validated_models": [],
+        "individual_scores": [
+          {
+            "number": 2,
+            "long_z": 0.512728,
+            "recent_z": 0.576256,
+            "gap_z": -0.279898,
+            "trend_z": 1.74356
+          },
+          {
+            "number": 6,
+            "long_z": 0.724507,
+            "recent_z": 1.04366,
+            "gap_z": -0.988971,
+            "trend_z": -0.43589
+          },
+          {
+            "number": 8,
+            "long_z": 1.99518,
+            "recent_z": 1.212597,
+            "gap_z": -0.811703,
+            "trend_z": -0.43589
+          },
+          {
+            "number": 12,
+            "long_z": 0.512728,
+            "recent_z": 0.60187,
+            "gap_z": -0.811703,
+            "trend_z": 0.87178
+          },
+          {
+            "number": 18,
+            "long_z": 2.206959,
+            "recent_z": 0.377545,
+            "gap_z": -0.811703,
+            "trend_z": 0.87178
+          },
+          {
+            "number": 25,
+            "long_z": 0.724507,
+            "recent_z": -0.045391,
+            "gap_z": -0.279898,
+            "trend_z": -0.217945
+          }
+        ],
+        "ensemble_score": 0.487077,
+        "ensemble_rank": 8,
+        "model_ranks": {
+          "A_long": 2,
+          "B_recent": 9,
+          "C_gap": 19,
+          "D_trend": 9,
+          "E_pairs": 2,
+          "F_structure": 19,
+          "G_ensemble": 8
+        },
+        "long_frequency_mean": 0.186924,
+        "recent30_mean": 0.194444,
+        "ew_frequency_mean": 0.198051,
+        "gap_mean": 1.833333,
+        "trend_mean": 0.045833,
+        "pair_lift_mean": 1.415494,
+        "corrected_significant_pairs": 0,
+        "structure": {
+          "sum": 71,
+          "median": 10,
+          "minimum": 2,
+          "maximum": 25,
+          "range": 23,
+          "odd_count": 1,
+          "low_count": 5,
+          "adjacent_pairs": 0,
+          "largest_spacing": 7,
+          "close_spacings_le2": 1
+        },
+        "model_agreement_count": 1,
+        "generator_sensitivity_rank_min": 1,
+        "generator_sensitivity_rank_max": 2,
+        "sensitivity_top_quartile_fraction": 1,
+        "sensitivity_mean_rank": 1.928571,
+        "latest_draw_overlap": 1,
+        "walk_forward_support": {
+          "model": "A_long",
+          "n": 40,
+          "mean": 1.2,
+          "block95": [
+            0.95,
+            1.45
+          ],
+          "holm_p": 0.289537,
+          "older_half_mean": 1.05,
+          "recent_half_mean": 1.35,
+          "qualifies": false
+        },
+        "evidence_against": [
+          "Exact ticket and candidate variants have not been backtested.",
+          "Frequency, gaps, pair lift and structure are descriptive, not independent predictive evidence.",
+          "Models share the same small dataset; agreement is correlated.",
+          "No qualifying independent out-of-sample support for this ticket."
+        ],
+        "overlap_previous_primary": []
+      },
+      {
+        "id": "C03",
+        "numbers": [
+          2,
+          10,
+          13,
+          18,
+          24,
+          33
+        ],
+        "generator": "A_long",
+        "contributing_models": [
+          "A_long",
+          "D_trend",
+          "G_ensemble"
+        ],
+        "validated_models": [],
+        "individual_scores": [
+          {
+            "number": 2,
+            "long_z": 0.512728,
+            "recent_z": 0.576256,
+            "gap_z": -0.279898,
+            "trend_z": 1.74356
+          },
+          {
+            "number": 10,
+            "long_z": 0.724507,
+            "recent_z": 0.722467,
+            "gap_z": -0.457166,
+            "trend_z": 0.87178
+          },
+          {
+            "number": 13,
+            "long_z": 0.724507,
+            "recent_z": 1.603218,
+            "gap_z": -0.634434,
+            "trend_z": 1.525615
+          },
+          {
+            "number": 18,
+            "long_z": 2.206959,
+            "recent_z": 0.377545,
+            "gap_z": -0.811703,
+            "trend_z": 0.87178
+          },
+          {
+            "number": 24,
+            "long_z": 1.148064,
+            "recent_z": 1.648459,
+            "gap_z": -0.102629,
+            "trend_z": 1.30767
+          },
+          {
+            "number": 33,
+            "long_z": 1.359843,
+            "recent_z": -0.285499,
+            "gap_z": -0.988971,
+            "trend_z": 0.217945
+          }
+        ],
+        "ensemble_score": 0.976095,
+        "ensemble_rank": 2,
+        "model_ranks": {
+          "A_long": 3,
+          "B_recent": 7,
+          "C_gap": 16,
+          "D_trend": 5,
+          "E_pairs": 3,
+          "F_structure": 8,
+          "G_ensemble": 2
+        },
+        "long_frequency_mean": 0.186924,
+        "recent30_mean": 0.211111,
+        "ew_frequency_mean": 0.199222,
+        "gap_mean": 2.5,
+        "trend_mean": 0.125,
+        "pair_lift_mean": 1.501805,
+        "corrected_significant_pairs": 0,
+        "structure": {
+          "sum": 100,
+          "median": 15.5,
+          "minimum": 2,
+          "maximum": 33,
+          "range": 31,
+          "odd_count": 2,
+          "low_count": 4,
+          "adjacent_pairs": 0,
+          "largest_spacing": 9,
+          "close_spacings_le2": 0
+        },
+        "model_agreement_count": 3,
+        "generator_sensitivity_rank_min": 3,
+        "generator_sensitivity_rank_max": 7,
+        "sensitivity_top_quartile_fraction": 0.928571,
+        "sensitivity_mean_rank": 3.285714,
+        "latest_draw_overlap": 1,
+        "walk_forward_support": {
+          "model": "A_long",
+          "n": 40,
+          "mean": 1.2,
+          "block95": [
+            0.95,
+            1.45
+          ],
+          "holm_p": 0.289537,
+          "older_half_mean": 1.05,
+          "recent_half_mean": 1.35,
+          "qualifies": false
+        },
+        "evidence_against": [
+          "Exact ticket and candidate variants have not been backtested.",
+          "Frequency, gaps, pair lift and structure are descriptive, not independent predictive evidence.",
+          "Models share the same small dataset; agreement is correlated.",
+          "No qualifying independent out-of-sample support for this ticket."
+        ],
+        "overlap_previous_primary": [
+          13,
+          24
+        ]
+      },
+      {
+        "id": "C07",
+        "numbers": [
+          5,
+          11,
+          16,
+          24,
+          27,
+          34
+        ],
+        "generator": "C_gap",
+        "contributing_models": [
+          "C_gap"
+        ],
+        "validated_models": [],
+        "individual_scores": [
+          {
+            "number": 5,
+            "long_z": -2.028619,
+            "recent_z": -1.85747,
+            "gap_z": 1.315518,
+            "trend_z": -0.217945
+          },
+          {
+            "number": 11,
+            "long_z": -0.334388,
+            "recent_z": -1.795186,
+            "gap_z": 2.379129,
+            "trend_z": -0.43589
+          },
+          {
+            "number": 16,
+            "long_z": -1.181503,
+            "recent_z": -0.596916,
+            "gap_z": 3.088203,
+            "trend_z": -1.961505
+          },
+          {
+            "number": 24,
+            "long_z": 1.148064,
+            "recent_z": 1.648459,
+            "gap_z": -0.102629,
+            "trend_z": 1.30767
+          },
+          {
+            "number": 27,
+            "long_z": -1.181503,
+            "recent_z": -1.293466,
+            "gap_z": 1.492787,
+            "trend_z": -0.87178
+          },
+          {
+            "number": 34,
+            "long_z": -0.546167,
+            "recent_z": -0.98514,
+            "gap_z": 2.20186,
+            "trend_z": -0.653835
+          }
+        ],
+        "ensemble_score": -1.368809,
+        "ensemble_rank": 19,
+        "model_ranks": {
+          "A_long": 19,
+          "B_recent": 20,
+          "C_gap": 1,
+          "D_trend": 18,
+          "E_pairs": 7,
+          "F_structure": 6,
+          "G_ensemble": 19
+        },
+        "long_frequency_mean": 0.139963,
+        "recent30_mean": 0.111111,
+        "ew_frequency_mean": 0.105302,
+        "gap_mean": 15.333333,
+        "trend_mean": -0.054167,
+        "pair_lift_mean": 0.707747,
+        "corrected_significant_pairs": 0,
+        "structure": {
+          "sum": 117,
+          "median": 20,
+          "minimum": 5,
+          "maximum": 34,
+          "range": 29,
+          "odd_count": 3,
+          "low_count": 3,
+          "adjacent_pairs": 0,
+          "largest_spacing": 8,
+          "close_spacings_le2": 0
+        },
+        "model_agreement_count": 1,
+        "generator_sensitivity_rank_min": 1,
+        "generator_sensitivity_rank_max": 1,
+        "sensitivity_top_quartile_fraction": 1,
+        "sensitivity_mean_rank": 1,
+        "latest_draw_overlap": 0,
+        "walk_forward_support": {
+          "model": "C_gap",
+          "n": 40,
+          "mean": 0.75,
+          "block95": [
+            0.55,
+            0.975
+          ],
+          "holm_p": 1,
+          "older_half_mean": 0.7,
+          "recent_half_mean": 0.8,
+          "qualifies": false
+        },
+        "evidence_against": [
+          "Exact ticket and candidate variants have not been backtested.",
+          "Frequency, gaps, pair lift and structure are descriptive, not independent predictive evidence.",
+          "Models share the same small dataset; agreement is correlated.",
+          "No qualifying independent out-of-sample support for this ticket."
+        ],
+        "overlap_previous_primary": [
+          24
+        ]
+      },
+      {
+        "id": "C08",
+        "numbers": [
+          15,
+          16,
+          27,
+          32,
+          34,
+          35
+        ],
+        "generator": "C_gap",
+        "contributing_models": [
+          "C_gap"
+        ],
+        "validated_models": [],
+        "individual_scores": [
+          {
+            "number": 15,
+            "long_z": 0.724507,
+            "recent_z": 0.518161,
+            "gap_z": 0.074639,
+            "trend_z": -0.87178
+          },
+          {
+            "number": 16,
+            "long_z": -1.181503,
+            "recent_z": -0.596916,
+            "gap_z": 3.088203,
+            "trend_z": -1.961505
+          },
+          {
+            "number": 27,
+            "long_z": -1.181503,
+            "recent_z": -1.293466,
+            "gap_z": 1.492787,
+            "trend_z": -0.87178
+          },
+          {
+            "number": 32,
+            "long_z": -0.757945,
+            "recent_z": -1.124444,
+            "gap_z": 0.960981,
+            "trend_z": -1.089725
+          },
+          {
+            "number": 34,
+            "long_z": -0.546167,
+            "recent_z": -0.98514,
+            "gap_z": 2.20186,
+            "trend_z": -0.653835
+          },
+          {
+            "number": 35,
+            "long_z": 0.724507,
+            "recent_z": 0.06329,
+            "gap_z": 0.429176,
+            "trend_z": -1.30767
+          }
+        ],
+        "ensemble_score": -1.499917,
+        "ensemble_rank": 20,
+        "model_ranks": {
+          "A_long": 18,
+          "B_recent": 18,
+          "C_gap": 2,
+          "D_trend": 20,
+          "E_pairs": 8,
+          "F_structure": 18,
+          "G_ensemble": 20
+        },
+        "long_frequency_mean": 0.14825,
+        "recent30_mean": 0.116667,
+        "ew_frequency_mean": 0.129504,
+        "gap_mean": 13.333333,
+        "trend_mean": -0.129167,
+        "pair_lift_mean": 0.725009,
+        "corrected_significant_pairs": 0,
+        "structure": {
+          "sum": 159,
+          "median": 29.5,
+          "minimum": 15,
+          "maximum": 35,
+          "range": 20,
+          "odd_count": 3,
+          "low_count": 2,
+          "adjacent_pairs": 2,
+          "largest_spacing": 11,
+          "close_spacings_le2": 3
+        },
+        "model_agreement_count": 1,
+        "generator_sensitivity_rank_min": 2,
+        "generator_sensitivity_rank_max": 2,
+        "sensitivity_top_quartile_fraction": 1,
+        "sensitivity_mean_rank": 2,
+        "latest_draw_overlap": 0,
+        "walk_forward_support": {
+          "model": "C_gap",
+          "n": 40,
+          "mean": 0.75,
+          "block95": [
+            0.55,
+            0.975
+          ],
+          "holm_p": 1,
+          "older_half_mean": 0.7,
+          "recent_half_mean": 0.8,
+          "qualifies": false
+        },
+        "evidence_against": [
+          "Exact ticket and candidate variants have not been backtested.",
+          "Frequency, gaps, pair lift and structure are descriptive, not independent predictive evidence.",
+          "Models share the same small dataset; agreement is correlated.",
+          "No qualifying independent out-of-sample support for this ticket."
+        ],
+        "overlap_previous_primary": []
+      },
+      {
+        "id": "C09",
+        "numbers": [
+          3,
+          11,
+          16,
+          30,
+          34,
+          35
+        ],
+        "generator": "C_gap",
+        "contributing_models": [
+          "C_gap",
+          "F_structure"
+        ],
+        "validated_models": [],
+        "individual_scores": [
+          {
+            "number": 3,
+            "long_z": -0.546167,
+            "recent_z": -0.788531,
+            "gap_z": -0.457166,
+            "trend_z": 0.653835
+          },
+          {
+            "number": 11,
+            "long_z": -0.334388,
+            "recent_z": -1.795186,
+            "gap_z": 2.379129,
+            "trend_z": -0.43589
+          },
+          {
+            "number": 16,
+            "long_z": -1.181503,
+            "recent_z": -0.596916,
+            "gap_z": 3.088203,
+            "trend_z": -1.961505
+          },
+          {
+            "number": 30,
+            "long_z": -0.122609,
+            "recent_z": -0.105123,
+            "gap_z": 0.251908,
+            "trend_z": -1.525615
+          },
+          {
+            "number": 34,
+            "long_z": -0.546167,
+            "recent_z": -0.98514,
+            "gap_z": 2.20186,
+            "trend_z": -0.653835
+          },
+          {
+            "number": 35,
+            "long_z": 0.724507,
+            "recent_z": 0.06329,
+            "gap_z": 0.429176,
+            "trend_z": -1.30767
+          }
+        ],
+        "ensemble_score": -1.275531,
+        "ensemble_rank": 18,
+        "model_ranks": {
+          "A_long": 17,
+          "B_recent": 19,
+          "C_gap": 3,
+          "D_trend": 19,
+          "E_pairs": 9,
+          "F_structure": 4,
+          "G_ensemble": 18
+        },
+        "long_frequency_mean": 0.149171,
+        "recent30_mean": 0.111111,
+        "ew_frequency_mean": 0.11899,
+        "gap_mean": 13,
+        "trend_mean": -0.1,
+        "pair_lift_mean": 0.914893,
+        "corrected_significant_pairs": 0,
+        "structure": {
+          "sum": 129,
+          "median": 23,
+          "minimum": 3,
+          "maximum": 35,
+          "range": 32,
+          "odd_count": 3,
+          "low_count": 3,
+          "adjacent_pairs": 1,
+          "largest_spacing": 14,
+          "close_spacings_le2": 1
+        },
+        "model_agreement_count": 2,
+        "generator_sensitivity_rank_min": 3,
+        "generator_sensitivity_rank_max": 3,
+        "sensitivity_top_quartile_fraction": 1,
+        "sensitivity_mean_rank": 3,
+        "latest_draw_overlap": 0,
+        "walk_forward_support": {
+          "model": "C_gap",
+          "n": 40,
+          "mean": 0.75,
+          "block95": [
+            0.55,
+            0.975
+          ],
+          "holm_p": 1,
+          "older_half_mean": 0.7,
+          "recent_half_mean": 0.8,
+          "qualifies": false
+        },
+        "evidence_against": [
+          "Exact ticket and candidate variants have not been backtested.",
+          "Frequency, gaps, pair lift and structure are descriptive, not independent predictive evidence.",
+          "Models share the same small dataset; agreement is correlated.",
+          "No qualifying independent out-of-sample support for this ticket."
+        ],
+        "overlap_previous_primary": []
+      },
+      {
+        "id": "C10",
+        "numbers": [
+          4,
+          7,
+          10,
+          22,
+          24,
+          31
+        ],
+        "generator": "D_trend",
+        "contributing_models": [
+          "B_recent",
+          "D_trend",
+          "F_structure",
+          "G_ensemble"
+        ],
+        "validated_models": [],
+        "individual_scores": [
+          {
+            "number": 4,
+            "long_z": 0.936286,
+            "recent_z": 1.621365,
+            "gap_z": -0.988971,
+            "trend_z": 2.833284
+          },
+          {
+            "number": 7,
+            "long_z": -0.334388,
+            "recent_z": 0.20601,
+            "gap_z": -0.279898,
+            "trend_z": 1.30767
+          },
+          {
+            "number": 10,
+            "long_z": 0.724507,
+            "recent_z": 0.722467,
+            "gap_z": -0.457166,
+            "trend_z": 0.87178
+          },
+          {
+            "number": 22,
+            "long_z": 0.08917,
+            "recent_z": 0.952091,
+            "gap_z": -0.988971,
+            "trend_z": 0.87178
+          },
+          {
+            "number": 24,
+            "long_z": 1.148064,
+            "recent_z": 1.648459,
+            "gap_z": -0.102629,
+            "trend_z": 1.30767
+          },
+          {
+            "number": 31,
+            "long_z": -0.334388,
+            "recent_z": 0.351462,
+            "gap_z": -0.811703,
+            "trend_z": 0.217945
+          }
+        ],
+        "ensemble_score": 0.736123,
+        "ensemble_rank": 4,
+        "model_ranks": {
+          "A_long": 10,
+          "B_recent": 5,
+          "C_gap": 18,
+          "D_trend": 1,
+          "E_pairs": 10,
+          "F_structure": 5,
+          "G_ensemble": 4
+        },
+        "long_frequency_mean": 0.167587,
+        "recent30_mean": 0.222222,
+        "ew_frequency_mean": 0.205613,
+        "gap_mean": 2.166667,
+        "trend_mean": 0.141667,
+        "pair_lift_mean": 1.087514,
+        "corrected_significant_pairs": 0,
+        "structure": {
+          "sum": 98,
+          "median": 16,
+          "minimum": 4,
+          "maximum": 31,
+          "range": 27,
+          "odd_count": 2,
+          "low_count": 3,
+          "adjacent_pairs": 0,
+          "largest_spacing": 12,
+          "close_spacings_le2": 1
+        },
+        "model_agreement_count": 4,
+        "generator_sensitivity_rank_min": 1,
+        "generator_sensitivity_rank_max": 9,
+        "sensitivity_top_quartile_fraction": 0.928571,
+        "sensitivity_mean_rank": 1.857143,
+        "latest_draw_overlap": 2,
+        "walk_forward_support": {
+          "model": "D_trend",
+          "n": 40,
+          "mean": 0.925,
+          "block95": [
+            0.775,
+            1.075
+          ],
+          "holm_p": 1,
+          "older_half_mean": 0.95,
+          "recent_half_mean": 0.9,
+          "qualifies": false
+        },
+        "evidence_against": [
+          "Exact ticket and candidate variants have not been backtested.",
+          "Frequency, gaps, pair lift and structure are descriptive, not independent predictive evidence.",
+          "Models share the same small dataset; agreement is correlated.",
+          "No qualifying independent out-of-sample support for this ticket."
+        ],
+        "overlap_previous_primary": [
+          4,
+          24
+        ]
+      },
+      {
+        "id": "C11",
+        "numbers": [
+          1,
+          2,
+          4,
+          7,
+          10,
+          19
+        ],
+        "generator": "D_trend",
+        "contributing_models": [
+          "D_trend"
+        ],
+        "validated_models": [],
+        "individual_scores": [
+          {
+            "number": 1,
+            "long_z": 1.148064,
+            "recent_z": 1.345046,
+            "gap_z": -0.988971,
+            "trend_z": 0.653835
+          },
+          {
+            "number": 2,
+            "long_z": 0.512728,
+            "recent_z": 0.576256,
+            "gap_z": -0.279898,
+            "trend_z": 1.74356
+          },
+          {
+            "number": 4,
+            "long_z": 0.936286,
+            "recent_z": 1.621365,
+            "gap_z": -0.988971,
+            "trend_z": 2.833284
+          },
+          {
+            "number": 7,
+            "long_z": -0.334388,
+            "recent_z": 0.20601,
+            "gap_z": -0.279898,
+            "trend_z": 1.30767
+          },
+          {
+            "number": 10,
+            "long_z": 0.724507,
+            "recent_z": 0.722467,
+            "gap_z": -0.457166,
+            "trend_z": 0.87178
+          },
+          {
+            "number": 19,
+            "long_z": -0.757945,
+            "recent_z": -0.254585,
+            "gap_z": 0.251908,
+            "trend_z": -0.217945
+          }
+        ],
+        "ensemble_score": 0.270929,
+        "ensemble_rank": 10,
+        "model_ranks": {
+          "A_long": 12,
+          "B_recent": 8,
+          "C_gap": 12,
+          "D_trend": 2,
+          "E_pairs": 11,
+          "F_structure": 20,
+          "G_ensemble": 10
+        },
+        "long_frequency_mean": 0.167587,
+        "recent30_mean": 0.205556,
+        "ew_frequency_mean": 0.196105,
+        "gap_mean": 3,
+        "trend_mean": 0.1375,
+        "pair_lift_mean": 1.1393,
+        "corrected_significant_pairs": 0,
+        "structure": {
+          "sum": 43,
+          "median": 5.5,
+          "minimum": 1,
+          "maximum": 19,
+          "range": 18,
+          "odd_count": 3,
+          "low_count": 6,
+          "adjacent_pairs": 1,
+          "largest_spacing": 9,
+          "close_spacings_le2": 2
+        },
+        "model_agreement_count": 1,
+        "generator_sensitivity_rank_min": 1,
+        "generator_sensitivity_rank_max": 6,
+        "sensitivity_top_quartile_fraction": 0.928571,
+        "sensitivity_mean_rank": 2.214286,
+        "latest_draw_overlap": 2,
+        "walk_forward_support": {
+          "model": "D_trend",
+          "n": 40,
+          "mean": 0.925,
+          "block95": [
+            0.775,
+            1.075
+          ],
+          "holm_p": 1,
+          "older_half_mean": 0.95,
+          "recent_half_mean": 0.9,
+          "qualifies": false
+        },
+        "evidence_against": [
+          "Exact ticket and candidate variants have not been backtested.",
+          "Frequency, gaps, pair lift and structure are descriptive, not independent predictive evidence.",
+          "Models share the same small dataset; agreement is correlated.",
+          "No qualifying independent out-of-sample support for this ticket."
+        ],
+        "overlap_previous_primary": [
+          1,
+          4
+        ]
+      },
+      {
+        "id": "C12",
+        "numbers": [
+          2,
+          3,
+          4,
+          17,
+          22,
+          24
+        ],
+        "generator": "D_trend",
+        "contributing_models": [
+          "D_trend"
+        ],
+        "validated_models": [],
+        "individual_scores": [
+          {
+            "number": 2,
+            "long_z": 0.512728,
+            "recent_z": 0.576256,
+            "gap_z": -0.279898,
+            "trend_z": 1.74356
+          },
+          {
+            "number": 3,
+            "long_z": -0.546167,
+            "recent_z": -0.788531,
+            "gap_z": -0.457166,
+            "trend_z": 0.653835
+          },
+          {
+            "number": 4,
+            "long_z": 0.936286,
+            "recent_z": 1.621365,
+            "gap_z": -0.988971,
+            "trend_z": 2.833284
+          },
+          {
+            "number": 17,
+            "long_z": -0.546167,
+            "recent_z": -0.707553,
+            "gap_z": -0.102629,
+            "trend_z": -0.653835
+          },
+          {
+            "number": 22,
+            "long_z": 0.08917,
+            "recent_z": 0.952091,
+            "gap_z": -0.988971,
+            "trend_z": 0.87178
+          },
+          {
+            "number": 24,
+            "long_z": 1.148064,
+            "recent_z": 1.648459,
+            "gap_z": -0.102629,
+            "trend_z": 1.30767
+          }
+        ],
+        "ensemble_score": 0.304115,
+        "ensemble_rank": 9,
+        "model_ranks": {
+          "A_long": 13,
+          "B_recent": 11,
+          "C_gap": 15,
+          "D_trend": 3,
+          "E_pairs": 12,
+          "F_structure": 17,
+          "G_ensemble": 9
+        },
+        "long_frequency_mean": 0.164825,
+        "recent30_mean": 0.2,
+        "ew_frequency_mean": 0.183037,
+        "gap_mean": 2.833333,
+        "trend_mean": 0.129167,
+        "pair_lift_mean": 1.294659,
+        "corrected_significant_pairs": 0,
+        "structure": {
+          "sum": 72,
+          "median": 10.5,
+          "minimum": 2,
+          "maximum": 24,
+          "range": 22,
+          "odd_count": 2,
+          "low_count": 4,
+          "adjacent_pairs": 2,
+          "largest_spacing": 13,
+          "close_spacings_le2": 3
+        },
+        "model_agreement_count": 1,
+        "generator_sensitivity_rank_min": 3,
+        "generator_sensitivity_rank_max": 8,
+        "sensitivity_top_quartile_fraction": 0.857143,
+        "sensitivity_mean_rank": 3.642857,
+        "latest_draw_overlap": 2,
+        "walk_forward_support": {
+          "model": "D_trend",
+          "n": 40,
+          "mean": 0.925,
+          "block95": [
+            0.775,
+            1.075
+          ],
+          "holm_p": 1,
+          "older_half_mean": 0.95,
+          "recent_half_mean": 0.9,
+          "qualifies": false
+        },
+        "evidence_against": [
+          "Exact ticket and candidate variants have not been backtested.",
+          "Frequency, gaps, pair lift and structure are descriptive, not independent predictive evidence.",
+          "Models share the same small dataset; agreement is correlated.",
+          "No qualifying independent out-of-sample support for this ticket."
+        ],
+        "overlap_previous_primary": [
+          4,
+          24
+        ]
+      },
+      {
+        "id": "C13",
+        "numbers": [
+          1,
+          5,
+          8,
+          12,
+          26,
+          34
+        ],
+        "generator": "E_pairs",
+        "contributing_models": [],
+        "validated_models": [],
+        "individual_scores": [
+          {
+            "number": 1,
+            "long_z": 1.148064,
+            "recent_z": 1.345046,
+            "gap_z": -0.988971,
+            "trend_z": 0.653835
+          },
+          {
+            "number": 5,
+            "long_z": -2.028619,
+            "recent_z": -1.85747,
+            "gap_z": 1.315518,
+            "trend_z": -0.217945
+          },
+          {
+            "number": 8,
+            "long_z": 1.99518,
+            "recent_z": 1.212597,
+            "gap_z": -0.811703,
+            "trend_z": -0.43589
+          },
+          {
+            "number": 12,
+            "long_z": 0.512728,
+            "recent_z": 0.60187,
+            "gap_z": -0.811703,
+            "trend_z": 0.87178
+          },
+          {
+            "number": 26,
+            "long_z": -0.757945,
+            "recent_z": -1.233135,
+            "gap_z": 0.960981,
+            "trend_z": 0
+          },
+          {
+            "number": 34,
+            "long_z": -0.546167,
+            "recent_z": -0.98514,
+            "gap_z": 2.20186,
+            "trend_z": -0.653835
+          }
+        ],
+        "ensemble_score": -0.507301,
+        "ensemble_rank": 15,
+        "model_ranks": {
+          "A_long": 14,
+          "B_recent": 14,
+          "C_gap": 6,
+          "D_trend": 13,
+          "E_pairs": 13,
+          "F_structure": 13,
+          "G_ensemble": 15
+        },
+        "long_frequency_mean": 0.1593,
+        "recent30_mean": 0.144444,
+        "ew_frequency_mean": 0.152686,
+        "gap_mean": 7.333333,
+        "trend_mean": 0.004167,
+        "pair_lift_mean": 1.001203,
+        "corrected_significant_pairs": 0,
+        "structure": {
+          "sum": 86,
+          "median": 10,
+          "minimum": 1,
+          "maximum": 34,
+          "range": 33,
+          "odd_count": 2,
+          "low_count": 4,
+          "adjacent_pairs": 0,
+          "largest_spacing": 14,
+          "close_spacings_le2": 0
+        },
+        "model_agreement_count": 0,
+        "generator_sensitivity_rank_min": 10.5,
+        "generator_sensitivity_rank_max": 10.5,
+        "sensitivity_top_quartile_fraction": 0,
+        "sensitivity_mean_rank": 10.5,
+        "latest_draw_overlap": 1,
+        "walk_forward_support": {
+          "model": "E_pairs",
+          "n": 40,
+          "mean": 0.95,
+          "block95": [
+            0.7,
+            1.175
+          ],
+          "holm_p": 1,
+          "older_half_mean": 1.2,
+          "recent_half_mean": 0.7,
+          "qualifies": false
+        },
+        "evidence_against": [
+          "Exact ticket and candidate variants have not been backtested.",
+          "Frequency, gaps, pair lift and structure are descriptive, not independent predictive evidence.",
+          "Models share the same small dataset; agreement is correlated.",
+          "No qualifying independent out-of-sample support for this ticket.",
+          "Uniform fallback has no informative objective rank; sensitivity ranks are marked neutral, not evidence of stability."
+        ],
+        "overlap_previous_primary": [
+          1
+        ]
+      },
+      {
+        "id": "C14",
+        "numbers": [
+          8,
+          10,
+          11,
+          15,
+          21,
+          24
+        ],
+        "generator": "E_pairs",
+        "contributing_models": [],
+        "validated_models": [],
+        "individual_scores": [
+          {
+            "number": 8,
+            "long_z": 1.99518,
+            "recent_z": 1.212597,
+            "gap_z": -0.811703,
+            "trend_z": -0.43589
+          },
+          {
+            "number": 10,
+            "long_z": 0.724507,
+            "recent_z": 0.722467,
+            "gap_z": -0.457166,
+            "trend_z": 0.87178
+          },
+          {
+            "number": 11,
+            "long_z": -0.334388,
+            "recent_z": -1.795186,
+            "gap_z": 2.379129,
+            "trend_z": -0.43589
+          },
+          {
+            "number": 15,
+            "long_z": 0.724507,
+            "recent_z": 0.518161,
+            "gap_z": 0.074639,
+            "trend_z": -0.87178
+          },
+          {
+            "number": 21,
+            "long_z": -0.969724,
+            "recent_z": -1.383436,
+            "gap_z": 0.429176,
+            "trend_z": -0.653835
+          },
+          {
+            "number": 24,
+            "long_z": 1.148064,
+            "recent_z": 1.648459,
+            "gap_z": -0.102629,
+            "trend_z": 1.30767
+          }
+        ],
+        "ensemble_score": -0.182798,
+        "ensemble_rank": 13,
+        "model_ranks": {
+          "A_long": 8,
+          "B_recent": 13,
+          "C_gap": 7,
+          "D_trend": 16,
+          "E_pairs": 14,
+          "F_structure": 16,
+          "G_ensemble": 13
+        },
+        "long_frequency_mean": 0.172192,
+        "recent30_mean": 0.172222,
+        "ew_frequency_mean": 0.162366,
+        "gap_mean": 7,
+        "trend_mean": -0.004167,
+        "pair_lift_mean": 1.1393,
+        "corrected_significant_pairs": 0,
+        "structure": {
+          "sum": 89,
+          "median": 13,
+          "minimum": 8,
+          "maximum": 24,
+          "range": 16,
+          "odd_count": 3,
+          "low_count": 4,
+          "adjacent_pairs": 1,
+          "largest_spacing": 6,
+          "close_spacings_le2": 2
+        },
+        "model_agreement_count": 0,
+        "generator_sensitivity_rank_min": 10.5,
+        "generator_sensitivity_rank_max": 10.5,
+        "sensitivity_top_quartile_fraction": 0,
+        "sensitivity_mean_rank": 10.5,
+        "latest_draw_overlap": 0,
+        "walk_forward_support": {
+          "model": "E_pairs",
+          "n": 40,
+          "mean": 0.95,
+          "block95": [
+            0.7,
+            1.175
+          ],
+          "holm_p": 1,
+          "older_half_mean": 1.2,
+          "recent_half_mean": 0.7,
+          "qualifies": false
+        },
+        "evidence_against": [
+          "Exact ticket and candidate variants have not been backtested.",
+          "Frequency, gaps, pair lift and structure are descriptive, not independent predictive evidence.",
+          "Models share the same small dataset; agreement is correlated.",
+          "No qualifying independent out-of-sample support for this ticket.",
+          "Uniform fallback has no informative objective rank; sensitivity ranks are marked neutral, not evidence of stability."
+        ],
+        "overlap_previous_primary": [
+          24
+        ]
+      },
+      {
+        "id": "C15",
+        "numbers": [
+          6,
+          8,
+          15,
+          17,
+          19,
+          38
+        ],
+        "generator": "E_pairs",
+        "contributing_models": [],
+        "validated_models": [],
+        "individual_scores": [
+          {
+            "number": 6,
+            "long_z": 0.724507,
+            "recent_z": 1.04366,
+            "gap_z": -0.988971,
+            "trend_z": -0.43589
+          },
+          {
+            "number": 8,
+            "long_z": 1.99518,
+            "recent_z": 1.212597,
+            "gap_z": -0.811703,
+            "trend_z": -0.43589
+          },
+          {
+            "number": 15,
+            "long_z": 0.724507,
+            "recent_z": 0.518161,
+            "gap_z": 0.074639,
+            "trend_z": -0.87178
+          },
+          {
+            "number": 17,
+            "long_z": -0.546167,
+            "recent_z": -0.707553,
+            "gap_z": -0.102629,
+            "trend_z": -0.653835
+          },
+          {
+            "number": 19,
+            "long_z": -0.757945,
+            "recent_z": -0.254585,
+            "gap_z": 0.251908,
+            "trend_z": -0.217945
+          },
+          {
+            "number": 38,
+            "long_z": 1.571622,
+            "recent_z": 1.123442,
+            "gap_z": -0.988971,
+            "trend_z": 0
+          }
+        ],
+        "ensemble_score": -0.10578,
+        "ensemble_rank": 12,
+        "model_ranks": {
+          "A_long": 7,
+          "B_recent": 12,
+          "C_gap": 11,
+          "D_trend": 17,
+          "E_pairs": 15,
+          "F_structure": 14,
+          "G_ensemble": 12
+        },
+        "long_frequency_mean": 0.174033,
+        "recent30_mean": 0.188889,
+        "ew_frequency_mean": 0.186687,
+        "gap_mean": 3.166667,
+        "trend_mean": -0.05,
+        "pair_lift_mean": 1.346446,
+        "corrected_significant_pairs": 0,
+        "structure": {
+          "sum": 103,
+          "median": 16,
+          "minimum": 6,
+          "maximum": 38,
+          "range": 32,
+          "odd_count": 3,
+          "low_count": 5,
+          "adjacent_pairs": 0,
+          "largest_spacing": 19,
+          "close_spacings_le2": 3
+        },
+        "model_agreement_count": 0,
+        "generator_sensitivity_rank_min": 10.5,
+        "generator_sensitivity_rank_max": 10.5,
+        "sensitivity_top_quartile_fraction": 0,
+        "sensitivity_mean_rank": 10.5,
+        "latest_draw_overlap": 2,
+        "walk_forward_support": {
+          "model": "E_pairs",
+          "n": 40,
+          "mean": 0.95,
+          "block95": [
+            0.7,
+            1.175
+          ],
+          "holm_p": 1,
+          "older_half_mean": 1.2,
+          "recent_half_mean": 0.7,
+          "qualifies": false
+        },
+        "evidence_against": [
+          "Exact ticket and candidate variants have not been backtested.",
+          "Frequency, gaps, pair lift and structure are descriptive, not independent predictive evidence.",
+          "Models share the same small dataset; agreement is correlated.",
+          "No qualifying independent out-of-sample support for this ticket.",
+          "Uniform fallback has no informative objective rank; sensitivity ranks are marked neutral, not evidence of stability."
+        ],
+        "overlap_previous_primary": [
+          38
+        ]
+      },
+      {
+        "id": "C16",
+        "numbers": [
+          4,
+          16,
+          17,
+          21,
+          26,
+          33
+        ],
+        "generator": "F_structure",
+        "contributing_models": [
+          "C_gap",
+          "F_structure"
+        ],
+        "validated_models": [],
+        "individual_scores": [
+          {
+            "number": 4,
+            "long_z": 0.936286,
+            "recent_z": 1.621365,
+            "gap_z": -0.988971,
+            "trend_z": 2.833284
+          },
+          {
+            "number": 16,
+            "long_z": -1.181503,
+            "recent_z": -0.596916,
+            "gap_z": 3.088203,
+            "trend_z": -1.961505
+          },
+          {
+            "number": 17,
+            "long_z": -0.546167,
+            "recent_z": -0.707553,
+            "gap_z": -0.102629,
+            "trend_z": -0.653835
+          },
+          {
+            "number": 21,
+            "long_z": -0.969724,
+            "recent_z": -1.383436,
+            "gap_z": 0.429176,
+            "trend_z": -0.653835
+          },
+          {
+            "number": 26,
+            "long_z": -0.757945,
+            "recent_z": -1.233135,
+            "gap_z": 0.960981,
+            "trend_z": 0
+          },
+          {
+            "number": 33,
+            "long_z": 1.359843,
+            "recent_z": -0.285499,
+            "gap_z": -0.988971,
+            "trend_z": 0.217945
+          }
+        ],
+        "ensemble_score": -0.709501,
+        "ensemble_rank": 16,
+        "model_ranks": {
+          "A_long": 16,
+          "B_recent": 17,
+          "C_gap": 5,
+          "D_trend": 15,
+          "E_pairs": 16,
+          "F_structure": 1,
+          "G_ensemble": 16
+        },
+        "long_frequency_mean": 0.152855,
+        "recent30_mean": 0.127778,
+        "ew_frequency_mean": 0.135364,
+        "gap_mean": 7.833333,
+        "trend_mean": -0.004167,
+        "pair_lift_mean": 1.035727,
+        "corrected_significant_pairs": 0,
+        "structure": {
+          "sum": 117,
+          "median": 19,
+          "minimum": 4,
+          "maximum": 33,
+          "range": 29,
+          "odd_count": 3,
+          "low_count": 3,
+          "adjacent_pairs": 1,
+          "largest_spacing": 12,
+          "close_spacings_le2": 1
+        },
+        "model_agreement_count": 2,
+        "generator_sensitivity_rank_min": 1,
+        "generator_sensitivity_rank_max": 2,
+        "sensitivity_top_quartile_fraction": 1,
+        "sensitivity_mean_rank": 1.071429,
+        "latest_draw_overlap": 2,
+        "walk_forward_support": {
+          "model": "F_structure",
+          "n": 40,
+          "mean": 1,
+          "block95": [
+            0.774375,
+            1.25
+          ],
+          "holm_p": 1,
+          "older_half_mean": 1.05,
+          "recent_half_mean": 0.95,
+          "qualifies": false
+        },
+        "evidence_against": [
+          "Exact ticket and candidate variants have not been backtested.",
+          "Frequency, gaps, pair lift and structure are descriptive, not independent predictive evidence.",
+          "Models share the same small dataset; agreement is correlated.",
+          "No qualifying independent out-of-sample support for this ticket."
+        ],
+        "overlap_previous_primary": [
+          4
+        ]
+      },
+      {
+        "id": "C17",
+        "numbers": [
+          6,
+          7,
+          13,
+          24,
+          32,
+          35
+        ],
+        "generator": "F_structure",
+        "contributing_models": [
+          "F_structure"
+        ],
+        "validated_models": [],
+        "individual_scores": [
+          {
+            "number": 6,
+            "long_z": 0.724507,
+            "recent_z": 1.04366,
+            "gap_z": -0.988971,
+            "trend_z": -0.43589
+          },
+          {
+            "number": 7,
+            "long_z": -0.334388,
+            "recent_z": 0.20601,
+            "gap_z": -0.279898,
+            "trend_z": 1.30767
+          },
+          {
+            "number": 13,
+            "long_z": 0.724507,
+            "recent_z": 1.603218,
+            "gap_z": -0.634434,
+            "trend_z": 1.525615
+          },
+          {
+            "number": 24,
+            "long_z": 1.148064,
+            "recent_z": 1.648459,
+            "gap_z": -0.102629,
+            "trend_z": 1.30767
+          },
+          {
+            "number": 32,
+            "long_z": -0.757945,
+            "recent_z": -1.124444,
+            "gap_z": 0.960981,
+            "trend_z": -1.089725
+          },
+          {
+            "number": 35,
+            "long_z": 0.724507,
+            "recent_z": 0.06329,
+            "gap_z": 0.429176,
+            "trend_z": -1.30767
+          }
+        ],
+        "ensemble_score": 0.177534,
+        "ensemble_rank": 11,
+        "model_ranks": {
+          "A_long": 11,
+          "B_recent": 10,
+          "C_gap": 9,
+          "D_trend": 11,
+          "E_pairs": 17,
+          "F_structure": 2,
+          "G_ensemble": 11
+        },
+        "long_frequency_mean": 0.167587,
+        "recent30_mean": 0.188889,
+        "ew_frequency_mean": 0.19696,
+        "gap_mean": 5,
+        "trend_mean": 0.025,
+        "pair_lift_mean": 0.914893,
+        "corrected_significant_pairs": 0,
+        "structure": {
+          "sum": 117,
+          "median": 18.5,
+          "minimum": 6,
+          "maximum": 35,
+          "range": 29,
+          "odd_count": 3,
+          "low_count": 3,
+          "adjacent_pairs": 1,
+          "largest_spacing": 11,
+          "close_spacings_le2": 1
+        },
+        "model_agreement_count": 1,
+        "generator_sensitivity_rank_min": 1,
+        "generator_sensitivity_rank_max": 2,
+        "sensitivity_top_quartile_fraction": 1,
+        "sensitivity_mean_rank": 1.928571,
+        "latest_draw_overlap": 1,
+        "walk_forward_support": {
+          "model": "F_structure",
+          "n": 40,
+          "mean": 1,
+          "block95": [
+            0.774375,
+            1.25
+          ],
+          "holm_p": 1,
+          "older_half_mean": 1.05,
+          "recent_half_mean": 0.95,
+          "qualifies": false
+        },
+        "evidence_against": [
+          "Exact ticket and candidate variants have not been backtested.",
+          "Frequency, gaps, pair lift and structure are descriptive, not independent predictive evidence.",
+          "Models share the same small dataset; agreement is correlated.",
+          "No qualifying independent out-of-sample support for this ticket."
+        ],
+        "overlap_previous_primary": [
+          13,
+          24
+        ]
+      },
+      {
+        "id": "C18",
+        "numbers": [
+          5,
+          11,
+          14,
+          22,
+          23,
+          34
+        ],
+        "generator": "F_structure",
+        "contributing_models": [
+          "C_gap",
+          "F_structure"
+        ],
+        "validated_models": [],
+        "individual_scores": [
+          {
+            "number": 5,
+            "long_z": -2.028619,
+            "recent_z": -1.85747,
+            "gap_z": 1.315518,
+            "trend_z": -0.217945
+          },
+          {
+            "number": 11,
+            "long_z": -0.334388,
+            "recent_z": -1.795186,
+            "gap_z": 2.379129,
+            "trend_z": -0.43589
+          },
+          {
+            "number": 14,
+            "long_z": -0.122609,
+            "recent_z": 1.019127,
+            "gap_z": -0.811703,
+            "trend_z": 0.43589
+          },
+          {
+            "number": 22,
+            "long_z": 0.08917,
+            "recent_z": 0.952091,
+            "gap_z": -0.988971,
+            "trend_z": 0.87178
+          },
+          {
+            "number": 23,
+            "long_z": -1.393282,
+            "recent_z": 0.397616,
+            "gap_z": -0.634434,
+            "trend_z": -0.217945
+          },
+          {
+            "number": 34,
+            "long_z": -0.546167,
+            "recent_z": -0.98514,
+            "gap_z": 2.20186,
+            "trend_z": -0.653835
+          }
+        ],
+        "ensemble_score": -0.971406,
+        "ensemble_rank": 17,
+        "model_ranks": {
+          "A_long": 20,
+          "B_recent": 16,
+          "C_gap": 4,
+          "D_trend": 14,
+          "E_pairs": 18,
+          "F_structure": 3,
+          "G_ensemble": 17
+        },
+        "long_frequency_mean": 0.139042,
+        "recent30_mean": 0.144444,
+        "ew_frequency_mean": 0.125137,
+        "gap_mean": 8.833333,
+        "trend_mean": -0.004167,
+        "pair_lift_mean": 0.81132,
+        "corrected_significant_pairs": 0,
+        "structure": {
+          "sum": 109,
+          "median": 18,
+          "minimum": 5,
+          "maximum": 34,
+          "range": 29,
+          "odd_count": 3,
+          "low_count": 3,
+          "adjacent_pairs": 1,
+          "largest_spacing": 11,
+          "close_spacings_le2": 1
+        },
+        "model_agreement_count": 2,
+        "generator_sensitivity_rank_min": 3,
+        "generator_sensitivity_rank_max": 3,
+        "sensitivity_top_quartile_fraction": 1,
+        "sensitivity_mean_rank": 3,
+        "latest_draw_overlap": 1,
+        "walk_forward_support": {
+          "model": "F_structure",
+          "n": 40,
+          "mean": 1,
+          "block95": [
+            0.774375,
+            1.25
+          ],
+          "holm_p": 1,
+          "older_half_mean": 1.05,
+          "recent_half_mean": 0.95,
+          "qualifies": false
+        },
+        "evidence_against": [
+          "Exact ticket and candidate variants have not been backtested.",
+          "Frequency, gaps, pair lift and structure are descriptive, not independent predictive evidence.",
+          "Models share the same small dataset; agreement is correlated.",
+          "No qualifying independent out-of-sample support for this ticket."
+        ],
+        "overlap_previous_primary": [
+          14
+        ]
+      },
+      {
+        "id": "C20",
+        "numbers": [
+          5,
+          7,
+          14,
+          21,
+          33,
+          38
+        ],
+        "generator": "H_random",
+        "contributing_models": [],
+        "validated_models": [],
+        "individual_scores": [
+          {
+            "number": 5,
+            "long_z": -2.028619,
+            "recent_z": -1.85747,
+            "gap_z": 1.315518,
+            "trend_z": -0.217945
+          },
+          {
+            "number": 7,
+            "long_z": -0.334388,
+            "recent_z": 0.20601,
+            "gap_z": -0.279898,
+            "trend_z": 1.30767
+          },
+          {
+            "number": 14,
+            "long_z": -0.122609,
+            "recent_z": 1.019127,
+            "gap_z": -0.811703,
+            "trend_z": 0.43589
+          },
+          {
+            "number": 21,
+            "long_z": -0.969724,
+            "recent_z": -1.383436,
+            "gap_z": 0.429176,
+            "trend_z": -0.653835
+          },
+          {
+            "number": 33,
+            "long_z": 1.359843,
+            "recent_z": -0.285499,
+            "gap_z": -0.988971,
+            "trend_z": 0.217945
+          },
+          {
+            "number": 38,
+            "long_z": 1.571622,
+            "recent_z": 1.123442,
+            "gap_z": -0.988971,
+            "trend_z": 0
+          }
+        ],
+        "ensemble_score": -0.484071,
+        "ensemble_rank": 14,
+        "model_ranks": {
+          "A_long": 15,
+          "B_recent": 15,
+          "C_gap": 10,
+          "D_trend": 12,
+          "E_pairs": 20,
+          "F_structure": 7,
+          "G_ensemble": 14
+        },
+        "long_frequency_mean": 0.155617,
+        "recent30_mean": 0.15,
+        "ew_frequency_mean": 0.141803,
+        "gap_mean": 4.333333,
+        "trend_mean": 0.020833,
+        "pair_lift_mean": 0.828582,
+        "corrected_significant_pairs": 0,
+        "structure": {
+          "sum": 118,
+          "median": 17.5,
+          "minimum": 5,
+          "maximum": 38,
+          "range": 33,
+          "odd_count": 4,
+          "low_count": 3,
+          "adjacent_pairs": 0,
+          "largest_spacing": 12,
+          "close_spacings_le2": 1
+        },
+        "model_agreement_count": 0,
+        "generator_sensitivity_rank_min": 10.5,
+        "generator_sensitivity_rank_max": 10.5,
+        "sensitivity_top_quartile_fraction": 0,
+        "sensitivity_mean_rank": 10.5,
+        "latest_draw_overlap": 2,
+        "walk_forward_support": {
+          "model": "H_random",
+          "n": 40,
+          "mean": 0.925,
+          "block95": [
+            0.625,
+            1.3
+          ],
+          "holm_p": 1,
+          "older_half_mean": 1,
+          "recent_half_mean": 0.85,
+          "qualifies": false
+        },
+        "evidence_against": [
+          "Exact ticket and candidate variants have not been backtested.",
+          "Frequency, gaps, pair lift and structure are descriptive, not independent predictive evidence.",
+          "Models share the same small dataset; agreement is correlated.",
+          "No qualifying independent out-of-sample support for this ticket.",
+          "Uniform fallback has no informative objective rank; sensitivity ranks are marked neutral, not evidence of stability."
+        ],
+        "overlap_previous_primary": [
+          14,
+          38
+        ]
+      }
+    ],
+    "diversification": {
+      "previous_primary": [
+        1,
+        4,
+        13,
+        14,
+        24,
+        38
+      ],
+      "maximum_shared": 2,
+      "do_not_prefer_zero_overlap": true
+    },
+    "interpretation": "No winning advantage without corrected evidence. Model agreement is correlated. Use only supplied Lotto evidence; never infer a signal from a single previous ticket result. Jev is advisory under the no-edge rule."
+  },
+  "questions": {
+    "overall": {
+      "type": "choice",
+      "instructions": "Which candidate has the strongest overall empirical case based ONLY on the supplied evidence? Choose one even if tied, but do not invent an edge. Probability mass should reflect indistinguishable evidence. These are evidence judgments, not winning probabilities.",
+      "criteria": {
+        "C01": "Candidate C01, evidence at candidates entry with id C01.",
+        "C02": "Candidate C02, evidence at candidates entry with id C02.",
+        "C03": "Candidate C03, evidence at candidates entry with id C03.",
+        "C07": "Candidate C07, evidence at candidates entry with id C07.",
+        "C08": "Candidate C08, evidence at candidates entry with id C08.",
+        "C09": "Candidate C09, evidence at candidates entry with id C09.",
+        "C10": "Candidate C10, evidence at candidates entry with id C10.",
+        "C11": "Candidate C11, evidence at candidates entry with id C11.",
+        "C12": "Candidate C12, evidence at candidates entry with id C12.",
+        "C13": "Candidate C13, evidence at candidates entry with id C13.",
+        "C14": "Candidate C14, evidence at candidates entry with id C14.",
+        "C15": "Candidate C15, evidence at candidates entry with id C15.",
+        "C16": "Candidate C16, evidence at candidates entry with id C16.",
+        "C17": "Candidate C17, evidence at candidates entry with id C17.",
+        "C18": "Candidate C18, evidence at candidates entry with id C18.",
+        "C20": "Candidate C20, evidence at candidates entry with id C20."
+      }
+    },
+    "C01_robustness": {
+      "type": "score",
+      "instructions": "For candidate C01 in candidates, use only supplied computed evidence. Do not calculate new statistics or infer winning numbers. How robust is its empirical advantage over uniform selection?",
+      "criteria": [
+        "No empirical support beyond the random baseline; no methodology qualifies after corrected confirmation testing.",
+        "Weak or fragile apparent support, from an unstable configuration or an uncorrected historical result.",
+        "Some repeatable out-of-sample support but substantial uncertainty; convincing corrected confirmation is missing.",
+        "Meaningful support across multiple out-of-sample tests including a corrected confirmation result and sensitivity stability.",
+        "Unusually robust support across independent models and time windows, corrected random-control comparisons and independent prospective replication."
+      ]
+    },
+    "C01_consensus": {
+      "type": "score",
+      "instructions": "For candidate C01 in candidates, use only supplied computed evidence. Do not calculate new statistics or infer winning numbers. How independently validated is its support across approaches?",
+      "criteria": [
+        "No independently validated methodology supports the candidate; agreement of unvalidated correlated heuristics does not count.",
+        "One validated methodology supports the candidate; other approaches lack independent validation.",
+        "Two meaningfully distinct validated approaches support the candidate, with shared-data uncertainty.",
+        "Several distinct validated approaches support the candidate consistently across periods.",
+        "Strong support from independently validated approaches and independent data replications."
+      ]
+    },
+    "C01_quality": {
+      "type": "score",
+      "instructions": "For candidate C01 in candidates, use only supplied computed evidence. Do not calculate new statistics or infer winning numbers. What is the quality of evidence FOR a predictive advantage? A rigorous experiment with a negative result is not positive support.",
+      "criteria": [
+        "Evidence for an advantage is absent: results are compatible with random controls or no corrected validation supports the claim.",
+        "Evidence for an advantage is weak: small samples, uncorrected comparisons, one window, instability or overfitting dominate.",
+        "Evidence for an advantage has some credible validation but material sample-size or stability limitations remain.",
+        "Evidence for an advantage is supported by corrected separated tests and robust sensitivity, with manageable limitations.",
+        "Evidence for an advantage is supported by strong independent replications, adequate sample sizes, correction and stable sensitivity."
+      ]
+    },
+    "C01_overfit": {
+      "type": "noul",
+      "instructions": "For candidate C01 in candidates, use only supplied computed evidence. Do not calculate new statistics or infer winning numbers. Is chance selection or overfitting a better-supported explanation of any apparent advantage than a reproducible predictive signal?",
+      "criteria": {
+        "true": "Random controls and corrected confirmation fail to support an edge; candidate optimization or retrospective selection can create apparent advantages.",
+        "false": "Corrected independent confirmation and stable sensitivity support an advantage beyond chance selection."
+      }
+    },
+    "C01_stable": {
+      "type": "noul",
+      "instructions": "For candidate C01 in candidates, use only supplied computed evidence. Do not calculate new statistics or infer winning numbers. Does this candidate remain competitive in objective rank under reasonable modelling perturbations?",
+      "criteria": {
+        "true": "Generator ranks stay near the top across informative perturbations; top-quartile fraction is high.",
+        "false": "Ranks change substantially or informative perturbation support is absent; a uniform fallback is not evidence of robustness."
+      }
+    },
+    "C01_stronger": {
+      "type": "noul",
+      "instructions": "For candidate C01 in candidates, use only supplied computed evidence. Do not calculate new statistics or infer winning numbers. Is the evidence for an advantage materially stronger than would commonly arise under random variation?",
+      "criteria": {
+        "true": "At least one qualifying corrected confirmation methodology supports this candidate, with consistent windows.",
+        "false": "No qualifying corrected confirmation methodology supports this candidate, or random variation remains sufficient."
+      }
+    },
+    "C01_dependent": {
+      "type": "noul",
+      "instructions": "For candidate C01 in candidates, use only supplied computed evidence. Do not calculate new statistics or infer winning numbers. Is the apparent support overly dependent on one model family?",
+      "criteria": {
+        "true": "Only one family supplies positive evidence or rank support; correlated frequency variants count as one family.",
+        "false": "Several distinct validated model families supply support, or this is explicitly a uniform random fallback without a claimed advantage."
+      }
+    },
+    "C02_robustness": {
+      "type": "score",
+      "instructions": "For candidate C02 in candidates, use only supplied computed evidence. Do not calculate new statistics or infer winning numbers. How robust is its empirical advantage over uniform selection?",
+      "criteria": [
+        "No empirical support beyond the random baseline; no methodology qualifies after corrected confirmation testing.",
+        "Weak or fragile apparent support, from an unstable configuration or an uncorrected historical result.",
+        "Some repeatable out-of-sample support but substantial uncertainty; convincing corrected confirmation is missing.",
+        "Meaningful support across multiple out-of-sample tests including a corrected confirmation result and sensitivity stability.",
+        "Unusually robust support across independent models and time windows, corrected random-control comparisons and independent prospective replication."
+      ]
+    },
+    "C02_consensus": {
+      "type": "score",
+      "instructions": "For candidate C02 in candidates, use only supplied computed evidence. Do not calculate new statistics or infer winning numbers. How independently validated is its support across approaches?",
+      "criteria": [
+        "No independently validated methodology supports the candidate; agreement of unvalidated correlated heuristics does not count.",
+        "One validated methodology supports the candidate; other approaches lack independent validation.",
+        "Two meaningfully distinct validated approaches support the candidate, with shared-data uncertainty.",
+        "Several distinct validated approaches support the candidate consistently across periods.",
+        "Strong support from independently validated approaches and independent data replications."
+      ]
+    },
+    "C02_quality": {
+      "type": "score",
+      "instructions": "For candidate C02 in candidates, use only supplied computed evidence. Do not calculate new statistics or infer winning numbers. What is the quality of evidence FOR a predictive advantage? A rigorous experiment with a negative result is not positive support.",
+      "criteria": [
+        "Evidence for an advantage is absent: results are compatible with random controls or no corrected validation supports the claim.",
+        "Evidence for an advantage is weak: small samples, uncorrected comparisons, one window, instability or overfitting dominate.",
+        "Evidence for an advantage has some credible validation but material sample-size or stability limitations remain.",
+        "Evidence for an advantage is supported by corrected separated tests and robust sensitivity, with manageable limitations.",
+        "Evidence for an advantage is supported by strong independent replications, adequate sample sizes, correction and stable sensitivity."
+      ]
+    },
+    "C02_overfit": {
+      "type": "noul",
+      "instructions": "For candidate C02 in candidates, use only supplied computed evidence. Do not calculate new statistics or infer winning numbers. Is chance selection or overfitting a better-supported explanation of any apparent advantage than a reproducible predictive signal?",
+      "criteria": {
+        "true": "Random controls and corrected confirmation fail to support an edge; candidate optimization or retrospective selection can create apparent advantages.",
+        "false": "Corrected independent confirmation and stable sensitivity support an advantage beyond chance selection."
+      }
+    },
+    "C02_stable": {
+      "type": "noul",
+      "instructions": "For candidate C02 in candidates, use only supplied computed evidence. Do not calculate new statistics or infer winning numbers. Does this candidate remain competitive in objective rank under reasonable modelling perturbations?",
+      "criteria": {
+        "true": "Generator ranks stay near the top across informative perturbations; top-quartile fraction is high.",
+        "false": "Ranks change substantially or informative perturbation support is absent; a uniform fallback is not evidence of robustness."
+      }
+    },
+    "C02_stronger": {
+      "type": "noul",
+      "instructions": "For candidate C02 in candidates, use only supplied computed evidence. Do not calculate new statistics or infer winning numbers. Is the evidence for an advantage materially stronger than would commonly arise under random variation?",
+      "criteria": {
+        "true": "At least one qualifying corrected confirmation methodology supports this candidate, with consistent windows.",
+        "false": "No qualifying corrected confirmation methodology supports this candidate, or random variation remains sufficient."
+      }
+    },
+    "C02_dependent": {
+      "type": "noul",
+      "instructions": "For candidate C02 in candidates, use only supplied computed evidence. Do not calculate new statistics or infer winning numbers. Is the apparent support overly dependent on one model family?",
+      "criteria": {
+        "true": "Only one family supplies positive evidence or rank support; correlated frequency variants count as one family.",
+        "false": "Several distinct validated model families supply support, or this is explicitly a uniform random fallback without a claimed advantage."
+      }
+    },
+    "C03_robustness": {
+      "type": "score",
+      "instructions": "For candidate C03 in candidates, use only supplied computed evidence. Do not calculate new statistics or infer winning numbers. How robust is its empirical advantage over uniform selection?",
+      "criteria": [
+        "No empirical support beyond the random baseline; no methodology qualifies after corrected confirmation testing.",
+        "Weak or fragile apparent support, from an unstable configuration or an uncorrected historical result.",
+        "Some repeatable out-of-sample support but substantial uncertainty; convincing corrected confirmation is missing.",
+        "Meaningful support across multiple out-of-sample tests including a corrected confirmation result and sensitivity stability.",
+        "Unusually robust support across independent models and time windows, corrected random-control comparisons and independent prospective replication."
+      ]
+    },
+    "C03_consensus": {
+      "type": "score",
+      "instructions": "For candidate C03 in candidates, use only supplied computed evidence. Do not calculate new statistics or infer winning numbers. How independently validated is its support across approaches?",
+      "criteria": [
+        "No independently validated methodology supports the candidate; agreement of unvalidated correlated heuristics does not count.",
+        "One validated methodology supports the candidate; other approaches lack independent validation.",
+        "Two meaningfully distinct validated approaches support the candidate, with shared-data uncertainty.",
+        "Several distinct validated approaches support the candidate consistently across periods.",
+        "Strong support from independently validated approaches and independent data replications."
+      ]
+    },
+    "C03_quality": {
+      "type": "score",
+      "instructions": "For candidate C03 in candidates, use only supplied computed evidence. Do not calculate new statistics or infer winning numbers. What is the quality of evidence FOR a predictive advantage? A rigorous experiment with a negative result is not positive support.",
+      "criteria": [
+        "Evidence for an advantage is absent: results are compatible with random controls or no corrected validation supports the claim.",
+        "Evidence for an advantage is weak: small samples, uncorrected comparisons, one window, instability or overfitting dominate.",
+        "Evidence for an advantage has some credible validation but material sample-size or stability limitations remain.",
+        "Evidence for an advantage is supported by corrected separated tests and robust sensitivity, with manageable limitations.",
+        "Evidence for an advantage is supported by strong independent replications, adequate sample sizes, correction and stable sensitivity."
+      ]
+    },
+    "C03_overfit": {
+      "type": "noul",
+      "instructions": "For candidate C03 in candidates, use only supplied computed evidence. Do not calculate new statistics or infer winning numbers. Is chance selection or overfitting a better-supported explanation of any apparent advantage than a reproducible predictive signal?",
+      "criteria": {
+        "true": "Random controls and corrected confirmation fail to support an edge; candidate optimization or retrospective selection can create apparent advantages.",
+        "false": "Corrected independent confirmation and stable sensitivity support an advantage beyond chance selection."
+      }
+    },
+    "C03_stable": {
+      "type": "noul",
+      "instructions": "For candidate C03 in candidates, use only supplied computed evidence. Do not calculate new statistics or infer winning numbers. Does this candidate remain competitive in objective rank under reasonable modelling perturbations?",
+      "criteria": {
+        "true": "Generator ranks stay near the top across informative perturbations; top-quartile fraction is high.",
+        "false": "Ranks change substantially or informative perturbation support is absent; a uniform fallback is not evidence of robustness."
+      }
+    },
+    "C03_stronger": {
+      "type": "noul",
+      "instructions": "For candidate C03 in candidates, use only supplied computed evidence. Do not calculate new statistics or infer winning numbers. Is the evidence for an advantage materially stronger than would commonly arise under random variation?",
+      "criteria": {
+        "true": "At least one qualifying corrected confirmation methodology supports this candidate, with consistent windows.",
+        "false": "No qualifying corrected confirmation methodology supports this candidate, or random variation remains sufficient."
+      }
+    },
+    "C03_dependent": {
+      "type": "noul",
+      "instructions": "For candidate C03 in candidates, use only supplied computed evidence. Do not calculate new statistics or infer winning numbers. Is the apparent support overly dependent on one model family?",
+      "criteria": {
+        "true": "Only one family supplies positive evidence or rank support; correlated frequency variants count as one family.",
+        "false": "Several distinct validated model families supply support, or this is explicitly a uniform random fallback without a claimed advantage."
+      }
+    },
+    "C07_robustness": {
+      "type": "score",
+      "instructions": "For candidate C07 in candidates, use only supplied computed evidence. Do not calculate new statistics or infer winning numbers. How robust is its empirical advantage over uniform selection?",
+      "criteria": [
+        "No empirical support beyond the random baseline; no methodology qualifies after corrected confirmation testing.",
+        "Weak or fragile apparent support, from an unstable configuration or an uncorrected historical result.",
+        "Some repeatable out-of-sample support but substantial uncertainty; convincing corrected confirmation is missing.",
+        "Meaningful support across multiple out-of-sample tests including a corrected confirmation result and sensitivity stability.",
+        "Unusually robust support across independent models and time windows, corrected random-control comparisons and independent prospective replication."
+      ]
+    },
+    "C07_consensus": {
+      "type": "score",
+      "instructions": "For candidate C07 in candidates, use only supplied computed evidence. Do not calculate new statistics or infer winning numbers. How independently validated is its support across approaches?",
+      "criteria": [
+        "No independently validated methodology supports the candidate; agreement of unvalidated correlated heuristics does not count.",
+        "One validated methodology supports the candidate; other approaches lack independent validation.",
+        "Two meaningfully distinct validated approaches support the candidate, with shared-data uncertainty.",
+        "Several distinct validated approaches support the candidate consistently across periods.",
+        "Strong support from independently validated approaches and independent data replications."
+      ]
+    },
+    "C07_quality": {
+      "type": "score",
+      "instructions": "For candidate C07 in candidates, use only supplied computed evidence. Do not calculate new statistics or infer winning numbers. What is the quality of evidence FOR a predictive advantage? A rigorous experiment with a negative result is not positive support.",
+      "criteria": [
+        "Evidence for an advantage is absent: results are compatible with random controls or no corrected validation supports the claim.",
+        "Evidence for an advantage is weak: small samples, uncorrected comparisons, one window, instability or overfitting dominate.",
+        "Evidence for an advantage has some credible validation but material sample-size or stability limitations remain.",
+        "Evidence for an advantage is supported by corrected separated tests and robust sensitivity, with manageable limitations.",
+        "Evidence for an advantage is supported by strong independent replications, adequate sample sizes, correction and stable sensitivity."
+      ]
+    },
+    "C07_overfit": {
+      "type": "noul",
+      "instructions": "For candidate C07 in candidates, use only supplied computed evidence. Do not calculate new statistics or infer winning numbers. Is chance selection or overfitting a better-supported explanation of any apparent advantage than a reproducible predictive signal?",
+      "criteria": {
+        "true": "Random controls and corrected confirmation fail to support an edge; candidate optimization or retrospective selection can create apparent advantages.",
+        "false": "Corrected independent confirmation and stable sensitivity support an advantage beyond chance selection."
+      }
+    },
+    "C07_stable": {
+      "type": "noul",
+      "instructions": "For candidate C07 in candidates, use only supplied computed evidence. Do not calculate new statistics or infer winning numbers. Does this candidate remain competitive in objective rank under reasonable modelling perturbations?",
+      "criteria": {
+        "true": "Generator ranks stay near the top across informative perturbations; top-quartile fraction is high.",
+        "false": "Ranks change substantially or informative perturbation support is absent; a uniform fallback is not evidence of robustness."
+      }
+    },
+    "C07_stronger": {
+      "type": "noul",
+      "instructions": "For candidate C07 in candidates, use only supplied computed evidence. Do not calculate new statistics or infer winning numbers. Is the evidence for an advantage materially stronger than would commonly arise under random variation?",
+      "criteria": {
+        "true": "At least one qualifying corrected confirmation methodology supports this candidate, with consistent windows.",
+        "false": "No qualifying corrected confirmation methodology supports this candidate, or random variation remains sufficient."
+      }
+    },
+    "C07_dependent": {
+      "type": "noul",
+      "instructions": "For candidate C07 in candidates, use only supplied computed evidence. Do not calculate new statistics or infer winning numbers. Is the apparent support overly dependent on one model family?",
+      "criteria": {
+        "true": "Only one family supplies positive evidence or rank support; correlated frequency variants count as one family.",
+        "false": "Several distinct validated model families supply support, or this is explicitly a uniform random fallback without a claimed advantage."
+      }
+    },
+    "C08_robustness": {
+      "type": "score",
+      "instructions": "For candidate C08 in candidates, use only supplied computed evidence. Do not calculate new statistics or infer winning numbers. How robust is its empirical advantage over uniform selection?",
+      "criteria": [
+        "No empirical support beyond the random baseline; no methodology qualifies after corrected confirmation testing.",
+        "Weak or fragile apparent support, from an unstable configuration or an uncorrected historical result.",
+        "Some repeatable out-of-sample support but substantial uncertainty; convincing corrected confirmation is missing.",
+        "Meaningful support across multiple out-of-sample tests including a corrected confirmation result and sensitivity stability.",
+        "Unusually robust support across independent models and time windows, corrected random-control comparisons and independent prospective replication."
+      ]
+    },
+    "C08_consensus": {
+      "type": "score",
+      "instructions": "For candidate C08 in candidates, use only supplied computed evidence. Do not calculate new statistics or infer winning numbers. How independently validated is its support across approaches?",
+      "criteria": [
+        "No independently validated methodology supports the candidate; agreement of unvalidated correlated heuristics does not count.",
+        "One validated methodology supports the candidate; other approaches lack independent validation.",
+        "Two meaningfully distinct validated approaches support the candidate, with shared-data uncertainty.",
+        "Several distinct validated approaches support the candidate consistently across periods.",
+        "Strong support from independently validated approaches and independent data replications."
+      ]
+    },
+    "C08_quality": {
+      "type": "score",
+      "instructions": "For candidate C08 in candidates, use only supplied computed evidence. Do not calculate new statistics or infer winning numbers. What is the quality of evidence FOR a predictive advantage? A rigorous experiment with a negative result is not positive support.",
+      "criteria": [
+        "Evidence for an advantage is absent: results are compatible with random controls or no corrected validation supports the claim.",
+        "Evidence for an advantage is weak: small samples, uncorrected comparisons, one window, instability or overfitting dominate.",
+        "Evidence for an advantage has some credible validation but material sample-size or stability limitations remain.",
+        "Evidence for an advantage is supported by corrected separated tests and robust sensitivity, with manageable limitations.",
+        "Evidence for an advantage is supported by strong independent replications, adequate sample sizes, correction and stable sensitivity."
+      ]
+    },
+    "C08_overfit": {
+      "type": "noul",
+      "instructions": "For candidate C08 in candidates, use only supplied computed evidence. Do not calculate new statistics or infer winning numbers. Is chance selection or overfitting a better-supported explanation of any apparent advantage than a reproducible predictive signal?",
+      "criteria": {
+        "true": "Random controls and corrected confirmation fail to support an edge; candidate optimization or retrospective selection can create apparent advantages.",
+        "false": "Corrected independent confirmation and stable sensitivity support an advantage beyond chance selection."
+      }
+    },
+    "C08_stable": {
+      "type": "noul",
+      "instructions": "For candidate C08 in candidates, use only supplied computed evidence. Do not calculate new statistics or infer winning numbers. Does this candidate remain competitive in objective rank under reasonable modelling perturbations?",
+      "criteria": {
+        "true": "Generator ranks stay near the top across informative perturbations; top-quartile fraction is high.",
+        "false": "Ranks change substantially or informative perturbation support is absent; a uniform fallback is not evidence of robustness."
+      }
+    },
+    "C08_stronger": {
+      "type": "noul",
+      "instructions": "For candidate C08 in candidates, use only supplied computed evidence. Do not calculate new statistics or infer winning numbers. Is the evidence for an advantage materially stronger than would commonly arise under random variation?",
+      "criteria": {
+        "true": "At least one qualifying corrected confirmation methodology supports this candidate, with consistent windows.",
+        "false": "No qualifying corrected confirmation methodology supports this candidate, or random variation remains sufficient."
+      }
+    },
+    "C08_dependent": {
+      "type": "noul",
+      "instructions": "For candidate C08 in candidates, use only supplied computed evidence. Do not calculate new statistics or infer winning numbers. Is the apparent support overly dependent on one model family?",
+      "criteria": {
+        "true": "Only one family supplies positive evidence or rank support; correlated frequency variants count as one family.",
+        "false": "Several distinct validated model families supply support, or this is explicitly a uniform random fallback without a claimed advantage."
+      }
+    },
+    "C09_robustness": {
+      "type": "score",
+      "instructions": "For candidate C09 in candidates, use only supplied computed evidence. Do not calculate new statistics or infer winning numbers. How robust is its empirical advantage over uniform selection?",
+      "criteria": [
+        "No empirical support beyond the random baseline; no methodology qualifies after corrected confirmation testing.",
+        "Weak or fragile apparent support, from an unstable configuration or an uncorrected historical result.",
+        "Some repeatable out-of-sample support but substantial uncertainty; convincing corrected confirmation is missing.",
+        "Meaningful support across multiple out-of-sample tests including a corrected confirmation result and sensitivity stability.",
+        "Unusually robust support across independent models and time windows, corrected random-control comparisons and independent prospective replication."
+      ]
+    },
+    "C09_consensus": {
+      "type": "score",
+      "instructions": "For candidate C09 in candidates, use only supplied computed evidence. Do not calculate new statistics or infer winning numbers. How independently validated is its support across approaches?",
+      "criteria": [
+        "No independently validated methodology supports the candidate; agreement of unvalidated correlated heuristics does not count.",
+        "One validated methodology supports the candidate; other approaches lack independent validation.",
+        "Two meaningfully distinct validated approaches support the candidate, with shared-data uncertainty.",
+        "Several distinct validated approaches support the candidate consistently across periods.",
+        "Strong support from independently validated approaches and independent data replications."
+      ]
+    },
+    "C09_quality": {
+      "type": "score",
+      "instructions": "For candidate C09 in candidates, use only supplied computed evidence. Do not calculate new statistics or infer winning numbers. What is the quality of evidence FOR a predictive advantage? A rigorous experiment with a negative result is not positive support.",
+      "criteria": [
+        "Evidence for an advantage is absent: results are compatible with random controls or no corrected validation supports the claim.",
+        "Evidence for an advantage is weak: small samples, uncorrected comparisons, one window, instability or overfitting dominate.",
+        "Evidence for an advantage has some credible validation but material sample-size or stability limitations remain.",
+        "Evidence for an advantage is supported by corrected separated tests and robust sensitivity, with manageable limitations.",
+        "Evidence for an advantage is supported by strong independent replications, adequate sample sizes, correction and stable sensitivity."
+      ]
+    },
+    "C09_overfit": {
+      "type": "noul",
+      "instructions": "For candidate C09 in candidates, use only supplied computed evidence. Do not calculate new statistics or infer winning numbers. Is chance selection or overfitting a better-supported explanation of any apparent advantage than a reproducible predictive signal?",
+      "criteria": {
+        "true": "Random controls and corrected confirmation fail to support an edge; candidate optimization or retrospective selection can create apparent advantages.",
+        "false": "Corrected independent confirmation and stable sensitivity support an advantage beyond chance selection."
+      }
+    },
+    "C09_stable": {
+      "type": "noul",
+      "instructions": "For candidate C09 in candidates, use only supplied computed evidence. Do not calculate new statistics or infer winning numbers. Does this candidate remain competitive in objective rank under reasonable modelling perturbations?",
+      "criteria": {
+        "true": "Generator ranks stay near the top across informative perturbations; top-quartile fraction is high.",
+        "false": "Ranks change substantially or informative perturbation support is absent; a uniform fallback is not evidence of robustness."
+      }
+    },
+    "C09_stronger": {
+      "type": "noul",
+      "instructions": "For candidate C09 in candidates, use only supplied computed evidence. Do not calculate new statistics or infer winning numbers. Is the evidence for an advantage materially stronger than would commonly arise under random variation?",
+      "criteria": {
+        "true": "At least one qualifying corrected confirmation methodology supports this candidate, with consistent windows.",
+        "false": "No qualifying corrected confirmation methodology supports this candidate, or random variation remains sufficient."
+      }
+    },
+    "C09_dependent": {
+      "type": "noul",
+      "instructions": "For candidate C09 in candidates, use only supplied computed evidence. Do not calculate new statistics or infer winning numbers. Is the apparent support overly dependent on one model family?",
+      "criteria": {
+        "true": "Only one family supplies positive evidence or rank support; correlated frequency variants count as one family.",
+        "false": "Several distinct validated model families supply support, or this is explicitly a uniform random fallback without a claimed advantage."
+      }
+    },
+    "C10_robustness": {
+      "type": "score",
+      "instructions": "For candidate C10 in candidates, use only supplied computed evidence. Do not calculate new statistics or infer winning numbers. How robust is its empirical advantage over uniform selection?",
+      "criteria": [
+        "No empirical support beyond the random baseline; no methodology qualifies after corrected confirmation testing.",
+        "Weak or fragile apparent support, from an unstable configuration or an uncorrected historical result.",
+        "Some repeatable out-of-sample support but substantial uncertainty; convincing corrected confirmation is missing.",
+        "Meaningful support across multiple out-of-sample tests including a corrected confirmation result and sensitivity stability.",
+        "Unusually robust support across independent models and time windows, corrected random-control comparisons and independent prospective replication."
+      ]
+    },
+    "C10_consensus": {
+      "type": "score",
+      "instructions": "For candidate C10 in candidates, use only supplied computed evidence. Do not calculate new statistics or infer winning numbers. How independently validated is its support across approaches?",
+      "criteria": [
+        "No independently validated methodology supports the candidate; agreement of unvalidated correlated heuristics does not count.",
+        "One validated methodology supports the candidate; other approaches lack independent validation.",
+        "Two meaningfully distinct validated approaches support the candidate, with shared-data uncertainty.",
+        "Several distinct validated approaches support the candidate consistently across periods.",
+        "Strong support from independently validated approaches and independent data replications."
+      ]
+    },
+    "C10_quality": {
+      "type": "score",
+      "instructions": "For candidate C10 in candidates, use only supplied computed evidence. Do not calculate new statistics or infer winning numbers. What is the quality of evidence FOR a predictive advantage? A rigorous experiment with a negative result is not positive support.",
+      "criteria": [
+        "Evidence for an advantage is absent: results are compatible with random controls or no corrected validation supports the claim.",
+        "Evidence for an advantage is weak: small samples, uncorrected comparisons, one window, instability or overfitting dominate.",
+        "Evidence for an advantage has some credible validation but material sample-size or stability limitations remain.",
+        "Evidence for an advantage is supported by corrected separated tests and robust sensitivity, with manageable limitations.",
+        "Evidence for an advantage is supported by strong independent replications, adequate sample sizes, correction and stable sensitivity."
+      ]
+    },
+    "C10_overfit": {
+      "type": "noul",
+      "instructions": "For candidate C10 in candidates, use only supplied computed evidence. Do not calculate new statistics or infer winning numbers. Is chance selection or overfitting a better-supported explanation of any apparent advantage than a reproducible predictive signal?",
+      "criteria": {
+        "true": "Random controls and corrected confirmation fail to support an edge; candidate optimization or retrospective selection can create apparent advantages.",
+        "false": "Corrected independent confirmation and stable sensitivity support an advantage beyond chance selection."
+      }
+    },
+    "C10_stable": {
+      "type": "noul",
+      "instructions": "For candidate C10 in candidates, use only supplied computed evidence. Do not calculate new statistics or infer winning numbers. Does this candidate remain competitive in objective rank under reasonable modelling perturbations?",
+      "criteria": {
+        "true": "Generator ranks stay near the top across informative perturbations; top-quartile fraction is high.",
+        "false": "Ranks change substantially or informative perturbation support is absent; a uniform fallback is not evidence of robustness."
+      }
+    },
+    "C10_stronger": {
+      "type": "noul",
+      "instructions": "For candidate C10 in candidates, use only supplied computed evidence. Do not calculate new statistics or infer winning numbers. Is the evidence for an advantage materially stronger than would commonly arise under random variation?",
+      "criteria": {
+        "true": "At least one qualifying corrected confirmation methodology supports this candidate, with consistent windows.",
+        "false": "No qualifying corrected confirmation methodology supports this candidate, or random variation remains sufficient."
+      }
+    },
+    "C10_dependent": {
+      "type": "noul",
+      "instructions": "For candidate C10 in candidates, use only supplied computed evidence. Do not calculate new statistics or infer winning numbers. Is the apparent support overly dependent on one model family?",
+      "criteria": {
+        "true": "Only one family supplies positive evidence or rank support; correlated frequency variants count as one family.",
+        "false": "Several distinct validated model families supply support, or this is explicitly a uniform random fallback without a claimed advantage."
+      }
+    },
+    "C11_robustness": {
+      "type": "score",
+      "instructions": "For candidate C11 in candidates, use only supplied computed evidence. Do not calculate new statistics or infer winning numbers. How robust is its empirical advantage over uniform selection?",
+      "criteria": [
+        "No empirical support beyond the random baseline; no methodology qualifies after corrected confirmation testing.",
+        "Weak or fragile apparent support, from an unstable configuration or an uncorrected historical result.",
+        "Some repeatable out-of-sample support but substantial uncertainty; convincing corrected confirmation is missing.",
+        "Meaningful support across multiple out-of-sample tests including a corrected confirmation result and sensitivity stability.",
+        "Unusually robust support across independent models and time windows, corrected random-control comparisons and independent prospective replication."
+      ]
+    },
+    "C11_consensus": {
+      "type": "score",
+      "instructions": "For candidate C11 in candidates, use only supplied computed evidence. Do not calculate new statistics or infer winning numbers. How independently validated is its support across approaches?",
+      "criteria": [
+        "No independently validated methodology supports the candidate; agreement of unvalidated correlated heuristics does not count.",
+        "One validated methodology supports the candidate; other approaches lack independent validation.",
+        "Two meaningfully distinct validated approaches support the candidate, with shared-data uncertainty.",
+        "Several distinct validated approaches support the candidate consistently across periods.",
+        "Strong support from independently validated approaches and independent data replications."
+      ]
+    },
+    "C11_quality": {
+      "type": "score",
+      "instructions": "For candidate C11 in candidates, use only supplied computed evidence. Do not calculate new statistics or infer winning numbers. What is the quality of evidence FOR a predictive advantage? A rigorous experiment with a negative result is not positive support.",
+      "criteria": [
+        "Evidence for an advantage is absent: results are compatible with random controls or no corrected validation supports the claim.",
+        "Evidence for an advantage is weak: small samples, uncorrected comparisons, one window, instability or overfitting dominate.",
+        "Evidence for an advantage has some credible validation but material sample-size or stability limitations remain.",
+        "Evidence for an advantage is supported by corrected separated tests and robust sensitivity, with manageable limitations.",
+        "Evidence for an advantage is supported by strong independent replications, adequate sample sizes, correction and stable sensitivity."
+      ]
+    },
+    "C11_overfit": {
+      "type": "noul",
+      "instructions": "For candidate C11 in candidates, use only supplied computed evidence. Do not calculate new statistics or infer winning numbers. Is chance selection or overfitting a better-supported explanation of any apparent advantage than a reproducible predictive signal?",
+      "criteria": {
+        "true": "Random controls and corrected confirmation fail to support an edge; candidate optimization or retrospective selection can create apparent advantages.",
+        "false": "Corrected independent confirmation and stable sensitivity support an advantage beyond chance selection."
+      }
+    },
+    "C11_stable": {
+      "type": "noul",
+      "instructions": "For candidate C11 in candidates, use only supplied computed evidence. Do not calculate new statistics or infer winning numbers. Does this candidate remain competitive in objective rank under reasonable modelling perturbations?",
+      "criteria": {
+        "true": "Generator ranks stay near the top across informative perturbations; top-quartile fraction is high.",
+        "false": "Ranks change substantially or informative perturbation support is absent; a uniform fallback is not evidence of robustness."
+      }
+    },
+    "C11_stronger": {
+      "type": "noul",
+      "instructions": "For candidate C11 in candidates, use only supplied computed evidence. Do not calculate new statistics or infer winning numbers. Is the evidence for an advantage materially stronger than would commonly arise under random variation?",
+      "criteria": {
+        "true": "At least one qualifying corrected confirmation methodology supports this candidate, with consistent windows.",
+        "false": "No qualifying corrected confirmation methodology supports this candidate, or random variation remains sufficient."
+      }
+    },
+    "C11_dependent": {
+      "type": "noul",
+      "instructions": "For candidate C11 in candidates, use only supplied computed evidence. Do not calculate new statistics or infer winning numbers. Is the apparent support overly dependent on one model family?",
+      "criteria": {
+        "true": "Only one family supplies positive evidence or rank support; correlated frequency variants count as one family.",
+        "false": "Several distinct validated model families supply support, or this is explicitly a uniform random fallback without a claimed advantage."
+      }
+    },
+    "C12_robustness": {
+      "type": "score",
+      "instructions": "For candidate C12 in candidates, use only supplied computed evidence. Do not calculate new statistics or infer winning numbers. How robust is its empirical advantage over uniform selection?",
+      "criteria": [
+        "No empirical support beyond the random baseline; no methodology qualifies after corrected confirmation testing.",
+        "Weak or fragile apparent support, from an unstable configuration or an uncorrected historical result.",
+        "Some repeatable out-of-sample support but substantial uncertainty; convincing corrected confirmation is missing.",
+        "Meaningful support across multiple out-of-sample tests including a corrected confirmation result and sensitivity stability.",
+        "Unusually robust support across independent models and time windows, corrected random-control comparisons and independent prospective replication."
+      ]
+    },
+    "C12_consensus": {
+      "type": "score",
+      "instructions": "For candidate C12 in candidates, use only supplied computed evidence. Do not calculate new statistics or infer winning numbers. How independently validated is its support across approaches?",
+      "criteria": [
+        "No independently validated methodology supports the candidate; agreement of unvalidated correlated heuristics does not count.",
+        "One validated methodology supports the candidate; other approaches lack independent validation.",
+        "Two meaningfully distinct validated approaches support the candidate, with shared-data uncertainty.",
+        "Several distinct validated approaches support the candidate consistently across periods.",
+        "Strong support from independently validated approaches and independent data replications."
+      ]
+    },
+    "C12_quality": {
+      "type": "score",
+      "instructions": "For candidate C12 in candidates, use only supplied computed evidence. Do not calculate new statistics or infer winning numbers. What is the quality of evidence FOR a predictive advantage? A rigorous experiment with a negative result is not positive support.",
+      "criteria": [
+        "Evidence for an advantage is absent: results are compatible with random controls or no corrected validation supports the claim.",
+        "Evidence for an advantage is weak: small samples, uncorrected comparisons, one window, instability or overfitting dominate.",
+        "Evidence for an advantage has some credible validation but material sample-size or stability limitations remain.",
+        "Evidence for an advantage is supported by corrected separated tests and robust sensitivity, with manageable limitations.",
+        "Evidence for an advantage is supported by strong independent replications, adequate sample sizes, correction and stable sensitivity."
+      ]
+    },
+    "C12_overfit": {
+      "type": "noul",
+      "instructions": "For candidate C12 in candidates, use only supplied computed evidence. Do not calculate new statistics or infer winning numbers. Is chance selection or overfitting a better-supported explanation of any apparent advantage than a reproducible predictive signal?",
+      "criteria": {
+        "true": "Random controls and corrected confirmation fail to support an edge; candidate optimization or retrospective selection can create apparent advantages.",
+        "false": "Corrected independent confirmation and stable sensitivity support an advantage beyond chance selection."
+      }
+    },
+    "C12_stable": {
+      "type": "noul",
+      "instructions": "For candidate C12 in candidates, use only supplied computed evidence. Do not calculate new statistics or infer winning numbers. Does this candidate remain competitive in objective rank under reasonable modelling perturbations?",
+      "criteria": {
+        "true": "Generator ranks stay near the top across informative perturbations; top-quartile fraction is high.",
+        "false": "Ranks change substantially or informative perturbation support is absent; a uniform fallback is not evidence of robustness."
+      }
+    },
+    "C12_stronger": {
+      "type": "noul",
+      "instructions": "For candidate C12 in candidates, use only supplied computed evidence. Do not calculate new statistics or infer winning numbers. Is the evidence for an advantage materially stronger than would commonly arise under random variation?",
+      "criteria": {
+        "true": "At least one qualifying corrected confirmation methodology supports this candidate, with consistent windows.",
+        "false": "No qualifying corrected confirmation methodology supports this candidate, or random variation remains sufficient."
+      }
+    },
+    "C12_dependent": {
+      "type": "noul",
+      "instructions": "For candidate C12 in candidates, use only supplied computed evidence. Do not calculate new statistics or infer winning numbers. Is the apparent support overly dependent on one model family?",
+      "criteria": {
+        "true": "Only one family supplies positive evidence or rank support; correlated frequency variants count as one family.",
+        "false": "Several distinct validated model families supply support, or this is explicitly a uniform random fallback without a claimed advantage."
+      }
+    },
+    "C13_robustness": {
+      "type": "score",
+      "instructions": "For candidate C13 in candidates, use only supplied computed evidence. Do not calculate new statistics or infer winning numbers. How robust is its empirical advantage over uniform selection?",
+      "criteria": [
+        "No empirical support beyond the random baseline; no methodology qualifies after corrected confirmation testing.",
+        "Weak or fragile apparent support, from an unstable configuration or an uncorrected historical result.",
+        "Some repeatable out-of-sample support but substantial uncertainty; convincing corrected confirmation is missing.",
+        "Meaningful support across multiple out-of-sample tests including a corrected confirmation result and sensitivity stability.",
+        "Unusually robust support across independent models and time windows, corrected random-control comparisons and independent prospective replication."
+      ]
+    },
+    "C13_consensus": {
+      "type": "score",
+      "instructions": "For candidate C13 in candidates, use only supplied computed evidence. Do not calculate new statistics or infer winning numbers. How independently validated is its support across approaches?",
+      "criteria": [
+        "No independently validated methodology supports the candidate; agreement of unvalidated correlated heuristics does not count.",
+        "One validated methodology supports the candidate; other approaches lack independent validation.",
+        "Two meaningfully distinct validated approaches support the candidate, with shared-data uncertainty.",
+        "Several distinct validated approaches support the candidate consistently across periods.",
+        "Strong support from independently validated approaches and independent data replications."
+      ]
+    },
+    "C13_quality": {
+      "type": "score",
+      "instructions": "For candidate C13 in candidates, use only supplied computed evidence. Do not calculate new statistics or infer winning numbers. What is the quality of evidence FOR a predictive advantage? A rigorous experiment with a negative result is not positive support.",
+      "criteria": [
+        "Evidence for an advantage is absent: results are compatible with random controls or no corrected validation supports the claim.",
+        "Evidence for an advantage is weak: small samples, uncorrected comparisons, one window, instability or overfitting dominate.",
+        "Evidence for an advantage has some credible validation but material sample-size or stability limitations remain.",
+        "Evidence for an advantage is supported by corrected separated tests and robust sensitivity, with manageable limitations.",
+        "Evidence for an advantage is supported by strong independent replications, adequate sample sizes, correction and stable sensitivity."
+      ]
+    },
+    "C13_overfit": {
+      "type": "noul",
+      "instructions": "For candidate C13 in candidates, use only supplied computed evidence. Do not calculate new statistics or infer winning numbers. Is chance selection or overfitting a better-supported explanation of any apparent advantage than a reproducible predictive signal?",
+      "criteria": {
+        "true": "Random controls and corrected confirmation fail to support an edge; candidate optimization or retrospective selection can create apparent advantages.",
+        "false": "Corrected independent confirmation and stable sensitivity support an advantage beyond chance selection."
+      }
+    },
+    "C13_stable": {
+      "type": "noul",
+      "instructions": "For candidate C13 in candidates, use only supplied computed evidence. Do not calculate new statistics or infer winning numbers. Does this candidate remain competitive in objective rank under reasonable modelling perturbations?",
+      "criteria": {
+        "true": "Generator ranks stay near the top across informative perturbations; top-quartile fraction is high.",
+        "false": "Ranks change substantially or informative perturbation support is absent; a uniform fallback is not evidence of robustness."
+      }
+    },
+    "C13_stronger": {
+      "type": "noul",
+      "instructions": "For candidate C13 in candidates, use only supplied computed evidence. Do not calculate new statistics or infer winning numbers. Is the evidence for an advantage materially stronger than would commonly arise under random variation?",
+      "criteria": {
+        "true": "At least one qualifying corrected confirmation methodology supports this candidate, with consistent windows.",
+        "false": "No qualifying corrected confirmation methodology supports this candidate, or random variation remains sufficient."
+      }
+    },
+    "C13_dependent": {
+      "type": "noul",
+      "instructions": "For candidate C13 in candidates, use only supplied computed evidence. Do not calculate new statistics or infer winning numbers. Is the apparent support overly dependent on one model family?",
+      "criteria": {
+        "true": "Only one family supplies positive evidence or rank support; correlated frequency variants count as one family.",
+        "false": "Several distinct validated model families supply support, or this is explicitly a uniform random fallback without a claimed advantage."
+      }
+    },
+    "C14_robustness": {
+      "type": "score",
+      "instructions": "For candidate C14 in candidates, use only supplied computed evidence. Do not calculate new statistics or infer winning numbers. How robust is its empirical advantage over uniform selection?",
+      "criteria": [
+        "No empirical support beyond the random baseline; no methodology qualifies after corrected confirmation testing.",
+        "Weak or fragile apparent support, from an unstable configuration or an uncorrected historical result.",
+        "Some repeatable out-of-sample support but substantial uncertainty; convincing corrected confirmation is missing.",
+        "Meaningful support across multiple out-of-sample tests including a corrected confirmation result and sensitivity stability.",
+        "Unusually robust support across independent models and time windows, corrected random-control comparisons and independent prospective replication."
+      ]
+    },
+    "C14_consensus": {
+      "type": "score",
+      "instructions": "For candidate C14 in candidates, use only supplied computed evidence. Do not calculate new statistics or infer winning numbers. How independently validated is its support across approaches?",
+      "criteria": [
+        "No independently validated methodology supports the candidate; agreement of unvalidated correlated heuristics does not count.",
+        "One validated methodology supports the candidate; other approaches lack independent validation.",
+        "Two meaningfully distinct validated approaches support the candidate, with shared-data uncertainty.",
+        "Several distinct validated approaches support the candidate consistently across periods.",
+        "Strong support from independently validated approaches and independent data replications."
+      ]
+    },
+    "C14_quality": {
+      "type": "score",
+      "instructions": "For candidate C14 in candidates, use only supplied computed evidence. Do not calculate new statistics or infer winning numbers. What is the quality of evidence FOR a predictive advantage? A rigorous experiment with a negative result is not positive support.",
+      "criteria": [
+        "Evidence for an advantage is absent: results are compatible with random controls or no corrected validation supports the claim.",
+        "Evidence for an advantage is weak: small samples, uncorrected comparisons, one window, instability or overfitting dominate.",
+        "Evidence for an advantage has some credible validation but material sample-size or stability limitations remain.",
+        "Evidence for an advantage is supported by corrected separated tests and robust sensitivity, with manageable limitations.",
+        "Evidence for an advantage is supported by strong independent replications, adequate sample sizes, correction and stable sensitivity."
+      ]
+    },
+    "C14_overfit": {
+      "type": "noul",
+      "instructions": "For candidate C14 in candidates, use only supplied computed evidence. Do not calculate new statistics or infer winning numbers. Is chance selection or overfitting a better-supported explanation of any apparent advantage than a reproducible predictive signal?",
+      "criteria": {
+        "true": "Random controls and corrected confirmation fail to support an edge; candidate optimization or retrospective selection can create apparent advantages.",
+        "false": "Corrected independent confirmation and stable sensitivity support an advantage beyond chance selection."
+      }
+    },
+    "C14_stable": {
+      "type": "noul",
+      "instructions": "For candidate C14 in candidates, use only supplied computed evidence. Do not calculate new statistics or infer winning numbers. Does this candidate remain competitive in objective rank under reasonable modelling perturbations?",
+      "criteria": {
+        "true": "Generator ranks stay near the top across informative perturbations; top-quartile fraction is high.",
+        "false": "Ranks change substantially or informative perturbation support is absent; a uniform fallback is not evidence of robustness."
+      }
+    },
+    "C14_stronger": {
+      "type": "noul",
+      "instructions": "For candidate C14 in candidates, use only supplied computed evidence. Do not calculate new statistics or infer winning numbers. Is the evidence for an advantage materially stronger than would commonly arise under random variation?",
+      "criteria": {
+        "true": "At least one qualifying corrected confirmation methodology supports this candidate, with consistent windows.",
+        "false": "No qualifying corrected confirmation methodology supports this candidate, or random variation remains sufficient."
+      }
+    },
+    "C14_dependent": {
+      "type": "noul",
+      "instructions": "For candidate C14 in candidates, use only supplied computed evidence. Do not calculate new statistics or infer winning numbers. Is the apparent support overly dependent on one model family?",
+      "criteria": {
+        "true": "Only one family supplies positive evidence or rank support; correlated frequency variants count as one family.",
+        "false": "Several distinct validated model families supply support, or this is explicitly a uniform random fallback without a claimed advantage."
+      }
+    },
+    "C15_robustness": {
+      "type": "score",
+      "instructions": "For candidate C15 in candidates, use only supplied computed evidence. Do not calculate new statistics or infer winning numbers. How robust is its empirical advantage over uniform selection?",
+      "criteria": [
+        "No empirical support beyond the random baseline; no methodology qualifies after corrected confirmation testing.",
+        "Weak or fragile apparent support, from an unstable configuration or an uncorrected historical result.",
+        "Some repeatable out-of-sample support but substantial uncertainty; convincing corrected confirmation is missing.",
+        "Meaningful support across multiple out-of-sample tests including a corrected confirmation result and sensitivity stability.",
+        "Unusually robust support across independent models and time windows, corrected random-control comparisons and independent prospective replication."
+      ]
+    },
+    "C15_consensus": {
+      "type": "score",
+      "instructions": "For candidate C15 in candidates, use only supplied computed evidence. Do not calculate new statistics or infer winning numbers. How independently validated is its support across approaches?",
+      "criteria": [
+        "No independently validated methodology supports the candidate; agreement of unvalidated correlated heuristics does not count.",
+        "One validated methodology supports the candidate; other approaches lack independent validation.",
+        "Two meaningfully distinct validated approaches support the candidate, with shared-data uncertainty.",
+        "Several distinct validated approaches support the candidate consistently across periods.",
+        "Strong support from independently validated approaches and independent data replications."
+      ]
+    },
+    "C15_quality": {
+      "type": "score",
+      "instructions": "For candidate C15 in candidates, use only supplied computed evidence. Do not calculate new statistics or infer winning numbers. What is the quality of evidence FOR a predictive advantage? A rigorous experiment with a negative result is not positive support.",
+      "criteria": [
+        "Evidence for an advantage is absent: results are compatible with random controls or no corrected validation supports the claim.",
+        "Evidence for an advantage is weak: small samples, uncorrected comparisons, one window, instability or overfitting dominate.",
+        "Evidence for an advantage has some credible validation but material sample-size or stability limitations remain.",
+        "Evidence for an advantage is supported by corrected separated tests and robust sensitivity, with manageable limitations.",
+        "Evidence for an advantage is supported by strong independent replications, adequate sample sizes, correction and stable sensitivity."
+      ]
+    },
+    "C15_overfit": {
+      "type": "noul",
+      "instructions": "For candidate C15 in candidates, use only supplied computed evidence. Do not calculate new statistics or infer winning numbers. Is chance selection or overfitting a better-supported explanation of any apparent advantage than a reproducible predictive signal?",
+      "criteria": {
+        "true": "Random controls and corrected confirmation fail to support an edge; candidate optimization or retrospective selection can create apparent advantages.",
+        "false": "Corrected independent confirmation and stable sensitivity support an advantage beyond chance selection."
+      }
+    },
+    "C15_stable": {
+      "type": "noul",
+      "instructions": "For candidate C15 in candidates, use only supplied computed evidence. Do not calculate new statistics or infer winning numbers. Does this candidate remain competitive in objective rank under reasonable modelling perturbations?",
+      "criteria": {
+        "true": "Generator ranks stay near the top across informative perturbations; top-quartile fraction is high.",
+        "false": "Ranks change substantially or informative perturbation support is absent; a uniform fallback is not evidence of robustness."
+      }
+    },
+    "C15_stronger": {
+      "type": "noul",
+      "instructions": "For candidate C15 in candidates, use only supplied computed evidence. Do not calculate new statistics or infer winning numbers. Is the evidence for an advantage materially stronger than would commonly arise under random variation?",
+      "criteria": {
+        "true": "At least one qualifying corrected confirmation methodology supports this candidate, with consistent windows.",
+        "false": "No qualifying corrected confirmation methodology supports this candidate, or random variation remains sufficient."
+      }
+    },
+    "C15_dependent": {
+      "type": "noul",
+      "instructions": "For candidate C15 in candidates, use only supplied computed evidence. Do not calculate new statistics or infer winning numbers. Is the apparent support overly dependent on one model family?",
+      "criteria": {
+        "true": "Only one family supplies positive evidence or rank support; correlated frequency variants count as one family.",
+        "false": "Several distinct validated model families supply support, or this is explicitly a uniform random fallback without a claimed advantage."
+      }
+    },
+    "C16_robustness": {
+      "type": "score",
+      "instructions": "For candidate C16 in candidates, use only supplied computed evidence. Do not calculate new statistics or infer winning numbers. How robust is its empirical advantage over uniform selection?",
+      "criteria": [
+        "No empirical support beyond the random baseline; no methodology qualifies after corrected confirmation testing.",
+        "Weak or fragile apparent support, from an unstable configuration or an uncorrected historical result.",
+        "Some repeatable out-of-sample support but substantial uncertainty; convincing corrected confirmation is missing.",
+        "Meaningful support across multiple out-of-sample tests including a corrected confirmation result and sensitivity stability.",
+        "Unusually robust support across independent models and time windows, corrected random-control comparisons and independent prospective replication."
+      ]
+    },
+    "C16_consensus": {
+      "type": "score",
+      "instructions": "For candidate C16 in candidates, use only supplied computed evidence. Do not calculate new statistics or infer winning numbers. How independently validated is its support across approaches?",
+      "criteria": [
+        "No independently validated methodology supports the candidate; agreement of unvalidated correlated heuristics does not count.",
+        "One validated methodology supports the candidate; other approaches lack independent validation.",
+        "Two meaningfully distinct validated approaches support the candidate, with shared-data uncertainty.",
+        "Several distinct validated approaches support the candidate consistently across periods.",
+        "Strong support from independently validated approaches and independent data replications."
+      ]
+    },
+    "C16_quality": {
+      "type": "score",
+      "instructions": "For candidate C16 in candidates, use only supplied computed evidence. Do not calculate new statistics or infer winning numbers. What is the quality of evidence FOR a predictive advantage? A rigorous experiment with a negative result is not positive support.",
+      "criteria": [
+        "Evidence for an advantage is absent: results are compatible with random controls or no corrected validation supports the claim.",
+        "Evidence for an advantage is weak: small samples, uncorrected comparisons, one window, instability or overfitting dominate.",
+        "Evidence for an advantage has some credible validation but material sample-size or stability limitations remain.",
+        "Evidence for an advantage is supported by corrected separated tests and robust sensitivity, with manageable limitations.",
+        "Evidence for an advantage is supported by strong independent replications, adequate sample sizes, correction and stable sensitivity."
+      ]
+    },
+    "C16_overfit": {
+      "type": "noul",
+      "instructions": "For candidate C16 in candidates, use only supplied computed evidence. Do not calculate new statistics or infer winning numbers. Is chance selection or overfitting a better-supported explanation of any apparent advantage than a reproducible predictive signal?",
+      "criteria": {
+        "true": "Random controls and corrected confirmation fail to support an edge; candidate optimization or retrospective selection can create apparent advantages.",
+        "false": "Corrected independent confirmation and stable sensitivity support an advantage beyond chance selection."
+      }
+    },
+    "C16_stable": {
+      "type": "noul",
+      "instructions": "For candidate C16 in candidates, use only supplied computed evidence. Do not calculate new statistics or infer winning numbers. Does this candidate remain competitive in objective rank under reasonable modelling perturbations?",
+      "criteria": {
+        "true": "Generator ranks stay near the top across informative perturbations; top-quartile fraction is high.",
+        "false": "Ranks change substantially or informative perturbation support is absent; a uniform fallback is not evidence of robustness."
+      }
+    },
+    "C16_stronger": {
+      "type": "noul",
+      "instructions": "For candidate C16 in candidates, use only supplied computed evidence. Do not calculate new statistics or infer winning numbers. Is the evidence for an advantage materially stronger than would commonly arise under random variation?",
+      "criteria": {
+        "true": "At least one qualifying corrected confirmation methodology supports this candidate, with consistent windows.",
+        "false": "No qualifying corrected confirmation methodology supports this candidate, or random variation remains sufficient."
+      }
+    },
+    "C16_dependent": {
+      "type": "noul",
+      "instructions": "For candidate C16 in candidates, use only supplied computed evidence. Do not calculate new statistics or infer winning numbers. Is the apparent support overly dependent on one model family?",
+      "criteria": {
+        "true": "Only one family supplies positive evidence or rank support; correlated frequency variants count as one family.",
+        "false": "Several distinct validated model families supply support, or this is explicitly a uniform random fallback without a claimed advantage."
+      }
+    },
+    "C17_robustness": {
+      "type": "score",
+      "instructions": "For candidate C17 in candidates, use only supplied computed evidence. Do not calculate new statistics or infer winning numbers. How robust is its empirical advantage over uniform selection?",
+      "criteria": [
+        "No empirical support beyond the random baseline; no methodology qualifies after corrected confirmation testing.",
+        "Weak or fragile apparent support, from an unstable configuration or an uncorrected historical result.",
+        "Some repeatable out-of-sample support but substantial uncertainty; convincing corrected confirmation is missing.",
+        "Meaningful support across multiple out-of-sample tests including a corrected confirmation result and sensitivity stability.",
+        "Unusually robust support across independent models and time windows, corrected random-control comparisons and independent prospective replication."
+      ]
+    },
+    "C17_consensus": {
+      "type": "score",
+      "instructions": "For candidate C17 in candidates, use only supplied computed evidence. Do not calculate new statistics or infer winning numbers. How independently validated is its support across approaches?",
+      "criteria": [
+        "No independently validated methodology supports the candidate; agreement of unvalidated correlated heuristics does not count.",
+        "One validated methodology supports the candidate; other approaches lack independent validation.",
+        "Two meaningfully distinct validated approaches support the candidate, with shared-data uncertainty.",
+        "Several distinct validated approaches support the candidate consistently across periods.",
+        "Strong support from independently validated approaches and independent data replications."
+      ]
+    },
+    "C17_quality": {
+      "type": "score",
+      "instructions": "For candidate C17 in candidates, use only supplied computed evidence. Do not calculate new statistics or infer winning numbers. What is the quality of evidence FOR a predictive advantage? A rigorous experiment with a negative result is not positive support.",
+      "criteria": [
+        "Evidence for an advantage is absent: results are compatible with random controls or no corrected validation supports the claim.",
+        "Evidence for an advantage is weak: small samples, uncorrected comparisons, one window, instability or overfitting dominate.",
+        "Evidence for an advantage has some credible validation but material sample-size or stability limitations remain.",
+        "Evidence for an advantage is supported by corrected separated tests and robust sensitivity, with manageable limitations.",
+        "Evidence for an advantage is supported by strong independent replications, adequate sample sizes, correction and stable sensitivity."
+      ]
+    },
+    "C17_overfit": {
+      "type": "noul",
+      "instructions": "For candidate C17 in candidates, use only supplied computed evidence. Do not calculate new statistics or infer winning numbers. Is chance selection or overfitting a better-supported explanation of any apparent advantage than a reproducible predictive signal?",
+      "criteria": {
+        "true": "Random controls and corrected confirmation fail to support an edge; candidate optimization or retrospective selection can create apparent advantages.",
+        "false": "Corrected independent confirmation and stable sensitivity support an advantage beyond chance selection."
+      }
+    },
+    "C17_stable": {
+      "type": "noul",
+      "instructions": "For candidate C17 in candidates, use only supplied computed evidence. Do not calculate new statistics or infer winning numbers. Does this candidate remain competitive in objective rank under reasonable modelling perturbations?",
+      "criteria": {
+        "true": "Generator ranks stay near the top across informative perturbations; top-quartile fraction is high.",
+        "false": "Ranks change substantially or informative perturbation support is absent; a uniform fallback is not evidence of robustness."
+      }
+    },
+    "C17_stronger": {
+      "type": "noul",
+      "instructions": "For candidate C17 in candidates, use only supplied computed evidence. Do not calculate new statistics or infer winning numbers. Is the evidence for an advantage materially stronger than would commonly arise under random variation?",
+      "criteria": {
+        "true": "At least one qualifying corrected confirmation methodology supports this candidate, with consistent windows.",
+        "false": "No qualifying corrected confirmation methodology supports this candidate, or random variation remains sufficient."
+      }
+    },
+    "C17_dependent": {
+      "type": "noul",
+      "instructions": "For candidate C17 in candidates, use only supplied computed evidence. Do not calculate new statistics or infer winning numbers. Is the apparent support overly dependent on one model family?",
+      "criteria": {
+        "true": "Only one family supplies positive evidence or rank support; correlated frequency variants count as one family.",
+        "false": "Several distinct validated model families supply support, or this is explicitly a uniform random fallback without a claimed advantage."
+      }
+    },
+    "C18_robustness": {
+      "type": "score",
+      "instructions": "For candidate C18 in candidates, use only supplied computed evidence. Do not calculate new statistics or infer winning numbers. How robust is its empirical advantage over uniform selection?",
+      "criteria": [
+        "No empirical support beyond the random baseline; no methodology qualifies after corrected confirmation testing.",
+        "Weak or fragile apparent support, from an unstable configuration or an uncorrected historical result.",
+        "Some repeatable out-of-sample support but substantial uncertainty; convincing corrected confirmation is missing.",
+        "Meaningful support across multiple out-of-sample tests including a corrected confirmation result and sensitivity stability.",
+        "Unusually robust support across independent models and time windows, corrected random-control comparisons and independent prospective replication."
+      ]
+    },
+    "C18_consensus": {
+      "type": "score",
+      "instructions": "For candidate C18 in candidates, use only supplied computed evidence. Do not calculate new statistics or infer winning numbers. How independently validated is its support across approaches?",
+      "criteria": [
+        "No independently validated methodology supports the candidate; agreement of unvalidated correlated heuristics does not count.",
+        "One validated methodology supports the candidate; other approaches lack independent validation.",
+        "Two meaningfully distinct validated approaches support the candidate, with shared-data uncertainty.",
+        "Several distinct validated approaches support the candidate consistently across periods.",
+        "Strong support from independently validated approaches and independent data replications."
+      ]
+    },
+    "C18_quality": {
+      "type": "score",
+      "instructions": "For candidate C18 in candidates, use only supplied computed evidence. Do not calculate new statistics or infer winning numbers. What is the quality of evidence FOR a predictive advantage? A rigorous experiment with a negative result is not positive support.",
+      "criteria": [
+        "Evidence for an advantage is absent: results are compatible with random controls or no corrected validation supports the claim.",
+        "Evidence for an advantage is weak: small samples, uncorrected comparisons, one window, instability or overfitting dominate.",
+        "Evidence for an advantage has some credible validation but material sample-size or stability limitations remain.",
+        "Evidence for an advantage is supported by corrected separated tests and robust sensitivity, with manageable limitations.",
+        "Evidence for an advantage is supported by strong independent replications, adequate sample sizes, correction and stable sensitivity."
+      ]
+    },
+    "C18_overfit": {
+      "type": "noul",
+      "instructions": "For candidate C18 in candidates, use only supplied computed evidence. Do not calculate new statistics or infer winning numbers. Is chance selection or overfitting a better-supported explanation of any apparent advantage than a reproducible predictive signal?",
+      "criteria": {
+        "true": "Random controls and corrected confirmation fail to support an edge; candidate optimization or retrospective selection can create apparent advantages.",
+        "false": "Corrected independent confirmation and stable sensitivity support an advantage beyond chance selection."
+      }
+    },
+    "C18_stable": {
+      "type": "noul",
+      "instructions": "For candidate C18 in candidates, use only supplied computed evidence. Do not calculate new statistics or infer winning numbers. Does this candidate remain competitive in objective rank under reasonable modelling perturbations?",
+      "criteria": {
+        "true": "Generator ranks stay near the top across informative perturbations; top-quartile fraction is high.",
+        "false": "Ranks change substantially or informative perturbation support is absent; a uniform fallback is not evidence of robustness."
+      }
+    },
+    "C18_stronger": {
+      "type": "noul",
+      "instructions": "For candidate C18 in candidates, use only supplied computed evidence. Do not calculate new statistics or infer winning numbers. Is the evidence for an advantage materially stronger than would commonly arise under random variation?",
+      "criteria": {
+        "true": "At least one qualifying corrected confirmation methodology supports this candidate, with consistent windows.",
+        "false": "No qualifying corrected confirmation methodology supports this candidate, or random variation remains sufficient."
+      }
+    },
+    "C18_dependent": {
+      "type": "noul",
+      "instructions": "For candidate C18 in candidates, use only supplied computed evidence. Do not calculate new statistics or infer winning numbers. Is the apparent support overly dependent on one model family?",
+      "criteria": {
+        "true": "Only one family supplies positive evidence or rank support; correlated frequency variants count as one family.",
+        "false": "Several distinct validated model families supply support, or this is explicitly a uniform random fallback without a claimed advantage."
+      }
+    },
+    "C20_robustness": {
+      "type": "score",
+      "instructions": "For candidate C20 in candidates, use only supplied computed evidence. Do not calculate new statistics or infer winning numbers. How robust is its empirical advantage over uniform selection?",
+      "criteria": [
+        "No empirical support beyond the random baseline; no methodology qualifies after corrected confirmation testing.",
+        "Weak or fragile apparent support, from an unstable configuration or an uncorrected historical result.",
+        "Some repeatable out-of-sample support but substantial uncertainty; convincing corrected confirmation is missing.",
+        "Meaningful support across multiple out-of-sample tests including a corrected confirmation result and sensitivity stability.",
+        "Unusually robust support across independent models and time windows, corrected random-control comparisons and independent prospective replication."
+      ]
+    },
+    "C20_consensus": {
+      "type": "score",
+      "instructions": "For candidate C20 in candidates, use only supplied computed evidence. Do not calculate new statistics or infer winning numbers. How independently validated is its support across approaches?",
+      "criteria": [
+        "No independently validated methodology supports the candidate; agreement of unvalidated correlated heuristics does not count.",
+        "One validated methodology supports the candidate; other approaches lack independent validation.",
+        "Two meaningfully distinct validated approaches support the candidate, with shared-data uncertainty.",
+        "Several distinct validated approaches support the candidate consistently across periods.",
+        "Strong support from independently validated approaches and independent data replications."
+      ]
+    },
+    "C20_quality": {
+      "type": "score",
+      "instructions": "For candidate C20 in candidates, use only supplied computed evidence. Do not calculate new statistics or infer winning numbers. What is the quality of evidence FOR a predictive advantage? A rigorous experiment with a negative result is not positive support.",
+      "criteria": [
+        "Evidence for an advantage is absent: results are compatible with random controls or no corrected validation supports the claim.",
+        "Evidence for an advantage is weak: small samples, uncorrected comparisons, one window, instability or overfitting dominate.",
+        "Evidence for an advantage has some credible validation but material sample-size or stability limitations remain.",
+        "Evidence for an advantage is supported by corrected separated tests and robust sensitivity, with manageable limitations.",
+        "Evidence for an advantage is supported by strong independent replications, adequate sample sizes, correction and stable sensitivity."
+      ]
+    },
+    "C20_overfit": {
+      "type": "noul",
+      "instructions": "For candidate C20 in candidates, use only supplied computed evidence. Do not calculate new statistics or infer winning numbers. Is chance selection or overfitting a better-supported explanation of any apparent advantage than a reproducible predictive signal?",
+      "criteria": {
+        "true": "Random controls and corrected confirmation fail to support an edge; candidate optimization or retrospective selection can create apparent advantages.",
+        "false": "Corrected independent confirmation and stable sensitivity support an advantage beyond chance selection."
+      }
+    },
+    "C20_stable": {
+      "type": "noul",
+      "instructions": "For candidate C20 in candidates, use only supplied computed evidence. Do not calculate new statistics or infer winning numbers. Does this candidate remain competitive in objective rank under reasonable modelling perturbations?",
+      "criteria": {
+        "true": "Generator ranks stay near the top across informative perturbations; top-quartile fraction is high.",
+        "false": "Ranks change substantially or informative perturbation support is absent; a uniform fallback is not evidence of robustness."
+      }
+    },
+    "C20_stronger": {
+      "type": "noul",
+      "instructions": "For candidate C20 in candidates, use only supplied computed evidence. Do not calculate new statistics or infer winning numbers. Is the evidence for an advantage materially stronger than would commonly arise under random variation?",
+      "criteria": {
+        "true": "At least one qualifying corrected confirmation methodology supports this candidate, with consistent windows.",
+        "false": "No qualifying corrected confirmation methodology supports this candidate, or random variation remains sufficient."
+      }
+    },
+    "C20_dependent": {
+      "type": "noul",
+      "instructions": "For candidate C20 in candidates, use only supplied computed evidence. Do not calculate new statistics or infer winning numbers. Is the apparent support overly dependent on one model family?",
+      "criteria": {
+        "true": "Only one family supplies positive evidence or rank support; correlated frequency variants count as one family.",
+        "false": "Several distinct validated model families supply support, or this is explicitly a uniform random fallback without a claimed advantage."
+      }
+    }
+  }
+}
