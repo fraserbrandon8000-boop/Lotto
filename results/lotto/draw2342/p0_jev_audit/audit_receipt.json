@@ -1,0 +1,13 @@
+{
+  "created_utc": "2026-09-29T02:42:30.346Z",
+  "model": "jev-1.13.0",
+  "questions": 20,
+  "state_sha256": "200269355d96a0a73f609b7540ee8f4d3d019092e97f1166e3ca9f8288c5e71f",
+  "request_sha256": "ac03704b91e68f5d957f9d91049e735d1ef320c4304cad843698dbdbc678aa6a",
+  "frozen_portfolio_sha256": "4842bb863024fd26092ab14498e823519426c38aab4ea7acbab80deba80b3acf",
+  "usage": {
+    "input_tokens": 6728,
+    "output_tokens": 392
+  },
+  "note": "Evidence audit only. Cannot modify, reorder or replace any ticket. Probabilities are judgments about the supplied evidence, not winning probabilities."
+}

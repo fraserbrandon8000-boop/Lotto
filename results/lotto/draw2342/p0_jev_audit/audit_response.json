@@ -1,0 +1,164 @@
+{
+  "model": "jev-1.13.0",
+  "answers": {
+    "t1_robustness": {
+      "type": "score",
+      "score": 0.06,
+      "confidence": 0.95,
+      "legend": {
+        "0": "No empirical support beyond random: every relevant methodology fails corrected testing and results match random controls.",
+        "1": "Weak or fragile apparent support: small uncorrected differences, unstable across periods or settings.",
+        "2": "Some repeatable out-of-sample support, but no corrected confirmation and substantial uncertainty.",
+        "3": "Corrected confirmation-period support that is stable across sensitivity settings.",
+        "4": "Strong support replicated across independent models, time periods and prospective outcomes."
+      },
+      "probabilities": {
+        "0": 0.95,
+        "1": 0.05,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "t1_overfit": {
+      "type": "noul",
+      "noul": 0.95
+    },
+    "t1_weak_evidence": {
+      "type": "noul",
+      "noul": 0.97
+    },
+    "t1_concentration": {
+      "type": "noul",
+      "noul": 0.95
+    },
+    "t1_fragility": {
+      "type": "noul",
+      "noul": 0.35
+    },
+    "t2_robustness": {
+      "type": "score",
+      "score": 0.59,
+      "confidence": 0.51,
+      "legend": {
+        "0": "No empirical support beyond random: every relevant methodology fails corrected testing and results match random controls.",
+        "1": "Weak or fragile apparent support: small uncorrected differences, unstable across periods or settings.",
+        "2": "Some repeatable out-of-sample support, but no corrected confirmation and substantial uncertainty.",
+        "3": "Corrected confirmation-period support that is stable across sensitivity settings.",
+        "4": "Strong support replicated across independent models, time periods and prospective outcomes."
+      },
+      "probabilities": {
+        "0": 0.47,
+        "1": 0.47,
+        "2": 0.05,
+        "3": 0.01,
+        "4": 0
+      }
+    },
+    "t2_overfit": {
+      "type": "noul",
+      "noul": 0.92
+    },
+    "t2_weak_evidence": {
+      "type": "noul",
+      "noul": 0.95
+    },
+    "t2_concentration": {
+      "type": "noul",
+      "noul": 0.91
+    },
+    "t2_fragility": {
+      "type": "noul",
+      "noul": 0.22
+    },
+    "t3_robustness": {
+      "type": "score",
+      "score": 0.2,
+      "confidence": 0.83,
+      "legend": {
+        "0": "No empirical support beyond random: every relevant methodology fails corrected testing and results match random controls.",
+        "1": "Weak or fragile apparent support: small uncorrected differences, unstable across periods or settings.",
+        "2": "Some repeatable out-of-sample support, but no corrected confirmation and substantial uncertainty.",
+        "3": "Corrected confirmation-period support that is stable across sensitivity settings.",
+        "4": "Strong support replicated across independent models, time periods and prospective outcomes."
+      },
+      "probabilities": {
+        "0": 0.81,
+        "1": 0.18,
+        "2": 0.01,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "t3_overfit": {
+      "type": "noul",
+      "noul": 0.94
+    },
+    "t3_weak_evidence": {
+      "type": "noul",
+      "noul": 0.96
+    },
+    "t3_concentration": {
+      "type": "noul",
+      "noul": 0.9
+    },
+    "t3_fragility": {
+      "type": "noul",
+      "noul": 0.5
+    },
+    "portfolio_robustness": {
+      "type": "score",
+      "score": 0.92,
+      "confidence": 0.73,
+      "legend": {
+        "0": "No empirical support beyond random: every relevant methodology fails corrected testing and results match random controls.",
+        "1": "Weak or fragile apparent support: small uncorrected differences, unstable across periods or settings.",
+        "2": "Some repeatable out-of-sample support, but no corrected confirmation and substantial uncertainty.",
+        "3": "Corrected confirmation-period support that is stable across sensitivity settings.",
+        "4": "Strong support replicated across independent models, time periods and prospective outcomes."
+      },
+      "probabilities": {
+        "0": 0.2,
+        "1": 0.68,
+        "2": 0.11,
+        "3": 0.01,
+        "4": 0
+      }
+    },
+    "portfolio_edge": {
+      "type": "noul",
+      "noul": 0.1
+    },
+    "portfolio_overfit": {
+      "type": "noul",
+      "noul": 0.91
+    },
+    "portfolio_concentration": {
+      "type": "noul",
+      "noul": 0.89
+    },
+    "portfolio_coverage": {
+      "type": "score",
+      "score": 3.17,
+      "confidence": 0.73,
+      "legend": {
+        "0": "Poor: tickets largely duplicate each other and cover few distinct numbers.",
+        "1": "Limited: substantial overlap; coverage little better than a single ticket plus noise.",
+        "2": "Moderate: some overlap; coverage clearly broader than a single ticket.",
+        "3": "Good: low overlap and broad coverage of the discovery pool.",
+        "4": "Maximal: no overlap and the widest feasible coverage of the discovery pool."
+      },
+      "probabilities": {
+        "0": 0,
+        "1": 0.02,
+        "2": 0.05,
+        "3": 0.6799999999999999,
+        "4": 0.25
+      }
+    }
+  },
+  "usage": {
+    "input_tokens": 6728,
+    "output_tokens": 392
+  }
+}
