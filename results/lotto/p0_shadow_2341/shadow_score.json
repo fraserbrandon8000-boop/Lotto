@@ -1,0 +1,88 @@
+{
+ "status": "SHADOW HOLDOUT ONLY (descriptive; P0 not retuned)",
+ "protocol_commit": "72e1c075c6c09256b78aaa1c70dca2240796e1aa",
+ "constructed_sha256": "9bad19a14a63746d3a3e43e559d5df59d537f272af63c83c2b5e6ddc9a4ee600",
+ "outcome": [
+  1,
+  4,
+  6,
+  22,
+  33,
+  38
+ ],
+ "bonus": 34,
+ "tickets": [
+  {
+   "role": "V1 Science",
+   "numbers": [
+    1,
+    4,
+    13,
+    14,
+    24,
+    38
+   ],
+   "matches": 3,
+   "matched": [
+    1,
+    4,
+    38
+   ]
+  },
+  {
+   "role": "P0 Coverage Challenger",
+   "numbers": [
+    2,
+    8,
+    9,
+    10,
+    12,
+    31
+   ],
+   "matches": 0,
+   "matched": []
+  },
+  {
+   "role": "P0 Coverage Challenger",
+   "numbers": [
+    2,
+    7,
+    13,
+    18,
+    22,
+    24
+   ],
+   "matches": 1,
+   "matched": [
+    22
+   ]
+  }
+ ],
+ "v1_matches": 3,
+ "p0_ticket2_matches": 0,
+ "p0_ticket3_matches": 1,
+ "portfolio_best": 3,
+ "portfolio_total": 4,
+ "unique_winners_captured": [
+  1,
+  4,
+  22,
+  38
+ ],
+ "winners_in_discovery_pool": [
+  1,
+  4,
+  22,
+  38
+ ],
+ "winners_outside_pool": [
+  6,
+  33
+ ],
+ "null_reference": {
+  "expected_challengers_total": 1.894736842105263,
+  "p_challengers_total_ge_observed": 0.8888,
+  "expected_unique_winners_for_15_numbers": 2.3684210526315788
+ },
+ "did_p0_outperform_v1_only": "No on best ticket (3 vs 3: the V1 ticket is the best ticket either way). The two challengers added 1 match (22) and raised unique winners covered from 3 to 4. Descriptive only; no retuning."
+}
