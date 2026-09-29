@@ -1,0 +1,67 @@
+{
+  "status": "PRE-DRAW / P0 PORTFOLIO FROZEN (research challenger; not V2)",
+  "created_utc": "2026-09-29T02:40:45.204605+00:00",
+  "target_draw": 2342,
+  "cutoff_draw": 2341,
+  "protocol_commit": "72e1c075c6c09256b78aaa1c70dca2240796e1aa",
+  "protocol_sha256": "56f0f24846359fba7ac07a8f64051d72d280f1a2ecda2ba59cd03632e1ea695f",
+  "ticket_1_v1": {
+    "numbers": [
+      5,
+      11,
+      16,
+      24,
+      27,
+      34
+    ],
+    "candidate": "C07",
+    "frozen_json_sha256": "9c5d5776fdec2c5c81545c8d6dd225a8f20f917a60af58417cb02b17bef6dfd6"
+  },
+  "ticket_2": [
+    1,
+    2,
+    4,
+    13,
+    22,
+    38
+  ],
+  "ticket_3": [
+    8,
+    9,
+    10,
+    12,
+    14,
+    18
+  ],
+  "K": 15,
+  "pool": [
+    4,
+    13,
+    24,
+    2,
+    1,
+    22,
+    10,
+    14,
+    12,
+    7,
+    38,
+    18,
+    8,
+    9,
+    6
+  ],
+  "universe_size": 5005,
+  "pairwise_overlap": {
+    "1-2": 0,
+    "1-3": 0,
+    "2-3": 0
+  },
+  "unique_numbers": 18,
+  "hashes": {
+    "p0_result.json": "78e93021e6f4f51ac3373c52953f397830d190db1d0a4ad60f58fcb787775d28",
+    "universe_scores.csv": "19740fcf3708dd4b27e2512b8732497a8208d85f596e69c4c696e530fdc37308",
+    "scripts/research/p0_apply.py": "da26d1168e3208923ef040ecaad9bd1096a87df0a19aeaa9e210f83e22b3d4f1",
+    "scripts/research/p0.py": "a08b2765f5c8450d1adfa002bb2dffc4099c547ef392239187b57179c309afea"
+  }
+}
