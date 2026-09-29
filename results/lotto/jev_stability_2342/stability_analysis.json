@@ -1,0 +1,262 @@
+{
+  "runs": [
+    {
+      "run": "production",
+      "model": "jev-1.13.0",
+      "top_choice": "C03",
+      "top_probability": 0.71,
+      "confidence": 0.68,
+      "entropy_bits": 1.2104449822267807,
+      "distribution": {
+        "C03": 0.71,
+        "C13": 0.01,
+        "C01": 0.15000000000000002,
+        "C08": 0,
+        "C17": 0,
+        "C02": 0,
+        "C09": 0,
+        "C07": 0,
+        "C12": 0,
+        "C20": 0,
+        "C16": 0,
+        "C10": 0.13,
+        "C15": 0,
+        "C11": 0,
+        "C18": 0,
+        "C14": 0
+      }
+    },
+    {
+      "run": "replicate_1",
+      "model": "jev-1.13.0",
+      "top_choice": "C03",
+      "top_probability": 0.77,
+      "confidence": 0.75,
+      "entropy_bits": 1.0560422438643757,
+      "distribution": {
+        "C11": 0,
+        "C09": 0,
+        "C16": 0,
+        "C18": 0,
+        "C02": 0,
+        "C10": 0.12,
+        "C13": 0.01,
+        "C01": 0.1,
+        "C14": 0,
+        "C12": 0,
+        "C03": 0.77,
+        "C20": 0,
+        "C07": 0,
+        "C17": 0,
+        "C15": 0,
+        "C08": 0
+      }
+    },
+    {
+      "run": "replicate_2",
+      "model": "jev-1.13.0",
+      "top_choice": "C03",
+      "top_probability": 0.76,
+      "confidence": 0.73,
+      "entropy_bits": 1.0846983014209584,
+      "distribution": {
+        "C02": 0,
+        "C08": 0,
+        "C16": 0,
+        "C10": 0.12,
+        "C07": 0,
+        "C03": 0.76,
+        "C15": 0,
+        "C01": 0.11,
+        "C12": 0,
+        "C14": 0,
+        "C11": 0,
+        "C13": 0.01,
+        "C20": 0,
+        "C09": 0,
+        "C18": 0,
+        "C17": 0
+      }
+    },
+    {
+      "run": "replicate_3",
+      "model": "jev-1.13.0",
+      "top_choice": "C03",
+      "top_probability": 0.68,
+      "confidence": 0.65,
+      "entropy_bits": 1.262017049455847,
+      "distribution": {
+        "C15": 0,
+        "C02": 0,
+        "C01": 0.13,
+        "C18": 0,
+        "C10": 0.17,
+        "C09": 0,
+        "C14": 0,
+        "C17": 0,
+        "C12": 0,
+        "C07": 0,
+        "C13": 0.01,
+        "C16": 0,
+        "C03": 0.68,
+        "C20": 0,
+        "C08": 0,
+        "C11": 0
+      }
+    },
+    {
+      "run": "replicate_4",
+      "model": "jev-1.13.0",
+      "top_choice": "C03",
+      "top_probability": 0.7,
+      "confidence": 0.67,
+      "entropy_bits": 1.2323009145549062,
+      "distribution": {
+        "C15": 0,
+        "C18": 0,
+        "C01": 0.16,
+        "C02": 0,
+        "C10": 0.13,
+        "C17": 0,
+        "C14": 0,
+        "C09": 0,
+        "C12": 0,
+        "C07": 0,
+        "C13": 0.01,
+        "C16": 0,
+        "C03": 0.7,
+        "C20": 0,
+        "C08": 0,
+        "C11": 0
+      }
+    },
+    {
+      "run": "replicate_5",
+      "model": "jev-1.13.0",
+      "top_choice": "C03",
+      "top_probability": 0.77,
+      "confidence": 0.74,
+      "entropy_bits": 1.0560422438643757,
+      "distribution": {
+        "C01": 0.1,
+        "C02": 0,
+        "C03": 0.77,
+        "C07": 0,
+        "C08": 0,
+        "C09": 0,
+        "C10": 0.12,
+        "C11": 0,
+        "C12": 0,
+        "C13": 0.01,
+        "C14": 0,
+        "C15": 0,
+        "C16": 0,
+        "C17": 0,
+        "C18": 0,
+        "C20": 0
+      }
+    }
+  ],
+  "production_top": "C03",
+  "top_choice_agreement_replicates": "5/5",
+  "top1_agreement_all_pairs": 1.0,
+  "mean_pairwise_spearman": 0.9972927241962776,
+  "min_pairwise_spearman": 0.9949238578680205,
+  "mean_top3_overlap": 3.0,
+  "min_top3_overlap": 3,
+  "choice_probability_sd_by_candidate": {
+    "C01": 0.025884358211089573,
+    "C02": 0.0,
+    "C03": 0.039707262140150974,
+    "C07": 0.0,
+    "C08": 0.0,
+    "C09": 0.0,
+    "C10": 0.019407902170679524,
+    "C11": 0.0,
+    "C12": 0.0,
+    "C13": 0.0,
+    "C14": 0.0,
+    "C15": 0.0,
+    "C16": 0.0,
+    "C17": 0.0,
+    "C18": 0.0,
+    "C20": 0.0
+  },
+  "max_abs_prob_range": 0.08999999999999997,
+  "confidence": {
+    "mean": 0.7033333333333333,
+    "sd": 0.04179314138308659,
+    "min": 0.65,
+    "max": 0.75
+  },
+  "entropy_bits": {
+    "mean": 1.1502576225645404,
+    "sd": 0.09475746860151951
+  },
+  "per_candidate_score_noul_variation": {
+    "robustness": {
+      "max_range_across_runs": 0.09000000000000002,
+      "mean_range": 0.031249999999999993
+    },
+    "consensus": {
+      "max_range_across_runs": 0.02,
+      "mean_range": 0.007499999999999999
+    },
+    "quality": {
+      "max_range_across_runs": 0.06000000000000001,
+      "mean_range": 0.01625
+    },
+    "overfit": {
+      "max_range_across_runs": 0.010000000000000009,
+      "mean_range": 0.0037499999999999895
+    },
+    "stable": {
+      "max_range_across_runs": 0.04999999999999999,
+      "mean_range": 0.02625
+    },
+    "stronger": {
+      "max_range_across_runs": 0.010000000000000009,
+      "mean_range": 0.003125
+    },
+    "dependent": {
+      "max_range_across_runs": 0.06999999999999995,
+      "mean_range": 0.02999999999999997
+    }
+  },
+  "aggregated_mean_distribution": {
+    "C01": 0.125,
+    "C02": 0.0,
+    "C03": 0.7316666666666668,
+    "C07": 0.0,
+    "C08": 0.0,
+    "C09": 0.0,
+    "C10": 0.13166666666666668,
+    "C11": 0.0,
+    "C12": 0.0,
+    "C13": 0.01,
+    "C14": 0.0,
+    "C15": 0.0,
+    "C16": 0.0,
+    "C17": 0.0,
+    "C18": 0.0,
+    "C20": 0.0
+  },
+  "aggregated_top": "C03",
+  "v1_policy": {
+    "qualifying_models": [],
+    "branch": "no-edge seeded fallback",
+    "selected": "C07",
+    "jev_influence": "none: the fallback index depends only on the number of eligible candidates",
+    "hypothetical_edge_branch_composite_top_by_run": [
+      "C03",
+      "C03",
+      "C03",
+      "C03",
+      "C03",
+      "C03"
+    ],
+    "note": "The edge branch is not applicable (no qualifying model, so no candidate has validated models)."
+  },
+  "would_aggregation_change_v1_ticket": "NO",
+  "answer": "Using the first valid response or an aggregate of all six responses would not have changed the V1 ticket: under the no-edge rule Jev has no role in selection, and even Jev's own favourite (C03) is identical in every run."
+}

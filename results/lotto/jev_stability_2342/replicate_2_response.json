@@ -1,0 +1,1200 @@
+{
+  "model": "jev-1.13.0",
+  "answers": {
+    "overall": {
+      "type": "choice",
+      "choice": "C03",
+      "confidence": 0.73,
+      "probabilities": {
+        "C02": 0,
+        "C08": 0,
+        "C16": 0,
+        "C10": 0.12,
+        "C07": 0,
+        "C03": 0.76,
+        "C15": 0,
+        "C01": 0.11,
+        "C12": 0,
+        "C14": 0,
+        "C11": 0,
+        "C13": 0.01,
+        "C20": 0,
+        "C09": 0,
+        "C18": 0,
+        "C17": 0
+      }
+    },
+    "C01_robustness": {
+      "type": "score",
+      "score": 0.61,
+      "confidence": 0.6,
+      "legend": {
+        "0": "No empirical support beyond the random baseline; no methodology qualifies after corrected confirmation testing.",
+        "1": "Weak or fragile apparent support, from an unstable configuration or an uncorrected historical result.",
+        "2": "Some repeatable out-of-sample support but substantial uncertainty; convincing corrected confirmation is missing.",
+        "3": "Meaningful support across multiple out-of-sample tests including a corrected confirmation result and sensitivity stability.",
+        "4": "Unusually robust support across independent models and time windows, corrected random-control comparisons and independent prospective replication."
+      },
+      "probabilities": {
+        "0": 0.43,
+        "1": 0.53,
+        "2": 0.04,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "C01_consensus": {
+      "type": "score",
+      "score": 0.02,
+      "confidence": 0.98,
+      "legend": {
+        "0": "No independently validated methodology supports the candidate; agreement of unvalidated correlated heuristics does not count.",
+        "1": "One validated methodology supports the candidate; other approaches lack independent validation.",
+        "2": "Two meaningfully distinct validated approaches support the candidate, with shared-data uncertainty.",
+        "3": "Several distinct validated approaches support the candidate consistently across periods.",
+        "4": "Strong support from independently validated approaches and independent data replications."
+      },
+      "probabilities": {
+        "0": 0.99,
+        "1": 0,
+        "2": 0.01,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "C01_quality": {
+      "type": "score",
+      "score": 0.31,
+      "confidence": 0.74,
+      "legend": {
+        "0": "Evidence for an advantage is absent: results are compatible with random controls or no corrected validation supports the claim.",
+        "1": "Evidence for an advantage is weak: small samples, uncorrected comparisons, one window, instability or overfitting dominate.",
+        "2": "Evidence for an advantage has some credible validation but material sample-size or stability limitations remain.",
+        "3": "Evidence for an advantage is supported by corrected separated tests and robust sensitivity, with manageable limitations.",
+        "4": "Evidence for an advantage is supported by strong independent replications, adequate sample sizes, correction and stable sensitivity."
+      },
+      "probabilities": {
+        "0": 0.69,
+        "1": 0.3,
+        "2": 0.01,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "C01_overfit": {
+      "type": "noul",
+      "noul": 0.93
+    },
+    "C01_stable": {
+      "type": "noul",
+      "noul": 0.53
+    },
+    "C01_stronger": {
+      "type": "noul",
+      "noul": 0.07
+    },
+    "C01_dependent": {
+      "type": "noul",
+      "noul": 0.67
+    },
+    "C02_robustness": {
+      "type": "score",
+      "score": 0.36,
+      "confidence": 0.7,
+      "legend": {
+        "0": "No empirical support beyond the random baseline; no methodology qualifies after corrected confirmation testing.",
+        "1": "Weak or fragile apparent support, from an unstable configuration or an uncorrected historical result.",
+        "2": "Some repeatable out-of-sample support but substantial uncertainty; convincing corrected confirmation is missing.",
+        "3": "Meaningful support across multiple out-of-sample tests including a corrected confirmation result and sensitivity stability.",
+        "4": "Unusually robust support across independent models and time windows, corrected random-control comparisons and independent prospective replication."
+      },
+      "probabilities": {
+        "0": 0.65,
+        "1": 0.34,
+        "2": 0.01,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "C02_consensus": {
+      "type": "score",
+      "score": 0.01,
+      "confidence": 0.99,
+      "legend": {
+        "0": "No independently validated methodology supports the candidate; agreement of unvalidated correlated heuristics does not count.",
+        "1": "One validated methodology supports the candidate; other approaches lack independent validation.",
+        "2": "Two meaningfully distinct validated approaches support the candidate, with shared-data uncertainty.",
+        "3": "Several distinct validated approaches support the candidate consistently across periods.",
+        "4": "Strong support from independently validated approaches and independent data replications."
+      },
+      "probabilities": {
+        "0": 1,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "C02_quality": {
+      "type": "score",
+      "score": 0.12,
+      "confidence": 0.9,
+      "legend": {
+        "0": "Evidence for an advantage is absent: results are compatible with random controls or no corrected validation supports the claim.",
+        "1": "Evidence for an advantage is weak: small samples, uncorrected comparisons, one window, instability or overfitting dominate.",
+        "2": "Evidence for an advantage has some credible validation but material sample-size or stability limitations remain.",
+        "3": "Evidence for an advantage is supported by corrected separated tests and robust sensitivity, with manageable limitations.",
+        "4": "Evidence for an advantage is supported by strong independent replications, adequate sample sizes, correction and stable sensitivity."
+      },
+      "probabilities": {
+        "0": 0.88,
+        "1": 0.12,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "C02_overfit": {
+      "type": "noul",
+      "noul": 0.94
+    },
+    "C02_stable": {
+      "type": "noul",
+      "noul": 0.39
+    },
+    "C02_stronger": {
+      "type": "noul",
+      "noul": 0.06
+    },
+    "C02_dependent": {
+      "type": "noul",
+      "noul": 0.82
+    },
+    "C03_robustness": {
+      "type": "score",
+      "score": 0.34,
+      "confidence": 0.72,
+      "legend": {
+        "0": "No empirical support beyond the random baseline; no methodology qualifies after corrected confirmation testing.",
+        "1": "Weak or fragile apparent support, from an unstable configuration or an uncorrected historical result.",
+        "2": "Some repeatable out-of-sample support but substantial uncertainty; convincing corrected confirmation is missing.",
+        "3": "Meaningful support across multiple out-of-sample tests including a corrected confirmation result and sensitivity stability.",
+        "4": "Unusually robust support across independent models and time windows, corrected random-control comparisons and independent prospective replication."
+      },
+      "probabilities": {
+        "0": 0.68,
+        "1": 0.31,
+        "2": 0.01,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "C03_consensus": {
+      "type": "score",
+      "score": 0.03,
+      "confidence": 0.98,
+      "legend": {
+        "0": "No independently validated methodology supports the candidate; agreement of unvalidated correlated heuristics does not count.",
+        "1": "One validated methodology supports the candidate; other approaches lack independent validation.",
+        "2": "Two meaningfully distinct validated approaches support the candidate, with shared-data uncertainty.",
+        "3": "Several distinct validated approaches support the candidate consistently across periods.",
+        "4": "Strong support from independently validated approaches and independent data replications."
+      },
+      "probabilities": {
+        "0": 0.99,
+        "1": 0,
+        "2": 0.01,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "C03_quality": {
+      "type": "score",
+      "score": 0.17,
+      "confidence": 0.86,
+      "legend": {
+        "0": "Evidence for an advantage is absent: results are compatible with random controls or no corrected validation supports the claim.",
+        "1": "Evidence for an advantage is weak: small samples, uncorrected comparisons, one window, instability or overfitting dominate.",
+        "2": "Evidence for an advantage has some credible validation but material sample-size or stability limitations remain.",
+        "3": "Evidence for an advantage is supported by corrected separated tests and robust sensitivity, with manageable limitations.",
+        "4": "Evidence for an advantage is supported by strong independent replications, adequate sample sizes, correction and stable sensitivity."
+      },
+      "probabilities": {
+        "0": 0.84,
+        "1": 0.16,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "C03_overfit": {
+      "type": "noul",
+      "noul": 0.93
+    },
+    "C03_stable": {
+      "type": "noul",
+      "noul": 0.46
+    },
+    "C03_stronger": {
+      "type": "noul",
+      "noul": 0.07
+    },
+    "C03_dependent": {
+      "type": "noul",
+      "noul": 0.47
+    },
+    "C07_robustness": {
+      "type": "score",
+      "score": 0.01,
+      "confidence": 0.99,
+      "legend": {
+        "0": "No empirical support beyond the random baseline; no methodology qualifies after corrected confirmation testing.",
+        "1": "Weak or fragile apparent support, from an unstable configuration or an uncorrected historical result.",
+        "2": "Some repeatable out-of-sample support but substantial uncertainty; convincing corrected confirmation is missing.",
+        "3": "Meaningful support across multiple out-of-sample tests including a corrected confirmation result and sensitivity stability.",
+        "4": "Unusually robust support across independent models and time windows, corrected random-control comparisons and independent prospective replication."
+      },
+      "probabilities": {
+        "0": 0.99,
+        "1": 0.01,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "C07_consensus": {
+      "type": "score",
+      "score": 0.01,
+      "confidence": 0.99,
+      "legend": {
+        "0": "No independently validated methodology supports the candidate; agreement of unvalidated correlated heuristics does not count.",
+        "1": "One validated methodology supports the candidate; other approaches lack independent validation.",
+        "2": "Two meaningfully distinct validated approaches support the candidate, with shared-data uncertainty.",
+        "3": "Several distinct validated approaches support the candidate consistently across periods.",
+        "4": "Strong support from independently validated approaches and independent data replications."
+      },
+      "probabilities": {
+        "0": 0.99,
+        "1": 0.01,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "C07_quality": {
+      "type": "score",
+      "score": 0,
+      "confidence": 1,
+      "legend": {
+        "0": "Evidence for an advantage is absent: results are compatible with random controls or no corrected validation supports the claim.",
+        "1": "Evidence for an advantage is weak: small samples, uncorrected comparisons, one window, instability or overfitting dominate.",
+        "2": "Evidence for an advantage has some credible validation but material sample-size or stability limitations remain.",
+        "3": "Evidence for an advantage is supported by corrected separated tests and robust sensitivity, with manageable limitations.",
+        "4": "Evidence for an advantage is supported by strong independent replications, adequate sample sizes, correction and stable sensitivity."
+      },
+      "probabilities": {
+        "0": 1,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "C07_overfit": {
+      "type": "noul",
+      "noul": 0.95
+    },
+    "C07_stable": {
+      "type": "noul",
+      "noul": 0.21
+    },
+    "C07_stronger": {
+      "type": "noul",
+      "noul": 0.04
+    },
+    "C07_dependent": {
+      "type": "noul",
+      "noul": 0.88
+    },
+    "C08_robustness": {
+      "type": "score",
+      "score": 0.01,
+      "confidence": 0.99,
+      "legend": {
+        "0": "No empirical support beyond the random baseline; no methodology qualifies after corrected confirmation testing.",
+        "1": "Weak or fragile apparent support, from an unstable configuration or an uncorrected historical result.",
+        "2": "Some repeatable out-of-sample support but substantial uncertainty; convincing corrected confirmation is missing.",
+        "3": "Meaningful support across multiple out-of-sample tests including a corrected confirmation result and sensitivity stability.",
+        "4": "Unusually robust support across independent models and time windows, corrected random-control comparisons and independent prospective replication."
+      },
+      "probabilities": {
+        "0": 0.99,
+        "1": 0.01,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "C08_consensus": {
+      "type": "score",
+      "score": 0.01,
+      "confidence": 0.99,
+      "legend": {
+        "0": "No independently validated methodology supports the candidate; agreement of unvalidated correlated heuristics does not count.",
+        "1": "One validated methodology supports the candidate; other approaches lack independent validation.",
+        "2": "Two meaningfully distinct validated approaches support the candidate, with shared-data uncertainty.",
+        "3": "Several distinct validated approaches support the candidate consistently across periods.",
+        "4": "Strong support from independently validated approaches and independent data replications."
+      },
+      "probabilities": {
+        "0": 1,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "C08_quality": {
+      "type": "score",
+      "score": 0,
+      "confidence": 1,
+      "legend": {
+        "0": "Evidence for an advantage is absent: results are compatible with random controls or no corrected validation supports the claim.",
+        "1": "Evidence for an advantage is weak: small samples, uncorrected comparisons, one window, instability or overfitting dominate.",
+        "2": "Evidence for an advantage has some credible validation but material sample-size or stability limitations remain.",
+        "3": "Evidence for an advantage is supported by corrected separated tests and robust sensitivity, with manageable limitations.",
+        "4": "Evidence for an advantage is supported by strong independent replications, adequate sample sizes, correction and stable sensitivity."
+      },
+      "probabilities": {
+        "0": 1,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "C08_overfit": {
+      "type": "noul",
+      "noul": 0.95
+    },
+    "C08_stable": {
+      "type": "noul",
+      "noul": 0.24
+    },
+    "C08_stronger": {
+      "type": "noul",
+      "noul": 0.03
+    },
+    "C08_dependent": {
+      "type": "noul",
+      "noul": 0.9
+    },
+    "C09_robustness": {
+      "type": "score",
+      "score": 0.02,
+      "confidence": 0.99,
+      "legend": {
+        "0": "No empirical support beyond the random baseline; no methodology qualifies after corrected confirmation testing.",
+        "1": "Weak or fragile apparent support, from an unstable configuration or an uncorrected historical result.",
+        "2": "Some repeatable out-of-sample support but substantial uncertainty; convincing corrected confirmation is missing.",
+        "3": "Meaningful support across multiple out-of-sample tests including a corrected confirmation result and sensitivity stability.",
+        "4": "Unusually robust support across independent models and time windows, corrected random-control comparisons and independent prospective replication."
+      },
+      "probabilities": {
+        "0": 0.99,
+        "1": 0.01,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "C09_consensus": {
+      "type": "score",
+      "score": 0.03,
+      "confidence": 0.98,
+      "legend": {
+        "0": "No independently validated methodology supports the candidate; agreement of unvalidated correlated heuristics does not count.",
+        "1": "One validated methodology supports the candidate; other approaches lack independent validation.",
+        "2": "Two meaningfully distinct validated approaches support the candidate, with shared-data uncertainty.",
+        "3": "Several distinct validated approaches support the candidate consistently across periods.",
+        "4": "Strong support from independently validated approaches and independent data replications."
+      },
+      "probabilities": {
+        "0": 0.99,
+        "1": 0,
+        "2": 0.01,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "C09_quality": {
+      "type": "score",
+      "score": 0.01,
+      "confidence": 1,
+      "legend": {
+        "0": "Evidence for an advantage is absent: results are compatible with random controls or no corrected validation supports the claim.",
+        "1": "Evidence for an advantage is weak: small samples, uncorrected comparisons, one window, instability or overfitting dominate.",
+        "2": "Evidence for an advantage has some credible validation but material sample-size or stability limitations remain.",
+        "3": "Evidence for an advantage is supported by corrected separated tests and robust sensitivity, with manageable limitations.",
+        "4": "Evidence for an advantage is supported by strong independent replications, adequate sample sizes, correction and stable sensitivity."
+      },
+      "probabilities": {
+        "0": 1,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "C09_overfit": {
+      "type": "noul",
+      "noul": 0.95
+    },
+    "C09_stable": {
+      "type": "noul",
+      "noul": 0.28
+    },
+    "C09_stronger": {
+      "type": "noul",
+      "noul": 0.04
+    },
+    "C09_dependent": {
+      "type": "noul",
+      "noul": 0.71
+    },
+    "C10_robustness": {
+      "type": "score",
+      "score": 0.24,
+      "confidence": 0.8,
+      "legend": {
+        "0": "No empirical support beyond the random baseline; no methodology qualifies after corrected confirmation testing.",
+        "1": "Weak or fragile apparent support, from an unstable configuration or an uncorrected historical result.",
+        "2": "Some repeatable out-of-sample support but substantial uncertainty; convincing corrected confirmation is missing.",
+        "3": "Meaningful support across multiple out-of-sample tests including a corrected confirmation result and sensitivity stability.",
+        "4": "Unusually robust support across independent models and time windows, corrected random-control comparisons and independent prospective replication."
+      },
+      "probabilities": {
+        "0": 0.78,
+        "1": 0.21,
+        "2": 0.01,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "C10_consensus": {
+      "type": "score",
+      "score": 0.02,
+      "confidence": 0.98,
+      "legend": {
+        "0": "No independently validated methodology supports the candidate; agreement of unvalidated correlated heuristics does not count.",
+        "1": "One validated methodology supports the candidate; other approaches lack independent validation.",
+        "2": "Two meaningfully distinct validated approaches support the candidate, with shared-data uncertainty.",
+        "3": "Several distinct validated approaches support the candidate consistently across periods.",
+        "4": "Strong support from independently validated approaches and independent data replications."
+      },
+      "probabilities": {
+        "0": 0.99,
+        "1": 0,
+        "2": 0.01,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "C10_quality": {
+      "type": "score",
+      "score": 0.05,
+      "confidence": 0.96,
+      "legend": {
+        "0": "Evidence for an advantage is absent: results are compatible with random controls or no corrected validation supports the claim.",
+        "1": "Evidence for an advantage is weak: small samples, uncorrected comparisons, one window, instability or overfitting dominate.",
+        "2": "Evidence for an advantage has some credible validation but material sample-size or stability limitations remain.",
+        "3": "Evidence for an advantage is supported by corrected separated tests and robust sensitivity, with manageable limitations.",
+        "4": "Evidence for an advantage is supported by strong independent replications, adequate sample sizes, correction and stable sensitivity."
+      },
+      "probabilities": {
+        "0": 0.95,
+        "1": 0.05,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "C10_overfit": {
+      "type": "noul",
+      "noul": 0.94
+    },
+    "C10_stable": {
+      "type": "noul",
+      "noul": 0.44
+    },
+    "C10_stronger": {
+      "type": "noul",
+      "noul": 0.06
+    },
+    "C10_dependent": {
+      "type": "noul",
+      "noul": 0.33
+    },
+    "C11_robustness": {
+      "type": "score",
+      "score": 0.2,
+      "confidence": 0.84,
+      "legend": {
+        "0": "No empirical support beyond the random baseline; no methodology qualifies after corrected confirmation testing.",
+        "1": "Weak or fragile apparent support, from an unstable configuration or an uncorrected historical result.",
+        "2": "Some repeatable out-of-sample support but substantial uncertainty; convincing corrected confirmation is missing.",
+        "3": "Meaningful support across multiple out-of-sample tests including a corrected confirmation result and sensitivity stability.",
+        "4": "Unusually robust support across independent models and time windows, corrected random-control comparisons and independent prospective replication."
+      },
+      "probabilities": {
+        "0": 0.81,
+        "1": 0.18,
+        "2": 0.01,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "C11_consensus": {
+      "type": "score",
+      "score": 0.02,
+      "confidence": 0.99,
+      "legend": {
+        "0": "No independently validated methodology supports the candidate; agreement of unvalidated correlated heuristics does not count.",
+        "1": "One validated methodology supports the candidate; other approaches lack independent validation.",
+        "2": "Two meaningfully distinct validated approaches support the candidate, with shared-data uncertainty.",
+        "3": "Several distinct validated approaches support the candidate consistently across periods.",
+        "4": "Strong support from independently validated approaches and independent data replications."
+      },
+      "probabilities": {
+        "0": 0.99,
+        "1": 0.01,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "C11_quality": {
+      "type": "score",
+      "score": 0.05,
+      "confidence": 0.96,
+      "legend": {
+        "0": "Evidence for an advantage is absent: results are compatible with random controls or no corrected validation supports the claim.",
+        "1": "Evidence for an advantage is weak: small samples, uncorrected comparisons, one window, instability or overfitting dominate.",
+        "2": "Evidence for an advantage has some credible validation but material sample-size or stability limitations remain.",
+        "3": "Evidence for an advantage is supported by corrected separated tests and robust sensitivity, with manageable limitations.",
+        "4": "Evidence for an advantage is supported by strong independent replications, adequate sample sizes, correction and stable sensitivity."
+      },
+      "probabilities": {
+        "0": 0.95,
+        "1": 0.05,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "C11_overfit": {
+      "type": "noul",
+      "noul": 0.94
+    },
+    "C11_stable": {
+      "type": "noul",
+      "noul": 0.36
+    },
+    "C11_stronger": {
+      "type": "noul",
+      "noul": 0.05
+    },
+    "C11_dependent": {
+      "type": "noul",
+      "noul": 0.78
+    },
+    "C12_robustness": {
+      "type": "score",
+      "score": 0.23,
+      "confidence": 0.81,
+      "legend": {
+        "0": "No empirical support beyond the random baseline; no methodology qualifies after corrected confirmation testing.",
+        "1": "Weak or fragile apparent support, from an unstable configuration or an uncorrected historical result.",
+        "2": "Some repeatable out-of-sample support but substantial uncertainty; convincing corrected confirmation is missing.",
+        "3": "Meaningful support across multiple out-of-sample tests including a corrected confirmation result and sensitivity stability.",
+        "4": "Unusually robust support across independent models and time windows, corrected random-control comparisons and independent prospective replication."
+      },
+      "probabilities": {
+        "0": 0.78,
+        "1": 0.21,
+        "2": 0.01,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "C12_consensus": {
+      "type": "score",
+      "score": 0.02,
+      "confidence": 0.99,
+      "legend": {
+        "0": "No independently validated methodology supports the candidate; agreement of unvalidated correlated heuristics does not count.",
+        "1": "One validated methodology supports the candidate; other approaches lack independent validation.",
+        "2": "Two meaningfully distinct validated approaches support the candidate, with shared-data uncertainty.",
+        "3": "Several distinct validated approaches support the candidate consistently across periods.",
+        "4": "Strong support from independently validated approaches and independent data replications."
+      },
+      "probabilities": {
+        "0": 0.99,
+        "1": 0.01,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "C12_quality": {
+      "type": "score",
+      "score": 0.06,
+      "confidence": 0.95,
+      "legend": {
+        "0": "Evidence for an advantage is absent: results are compatible with random controls or no corrected validation supports the claim.",
+        "1": "Evidence for an advantage is weak: small samples, uncorrected comparisons, one window, instability or overfitting dominate.",
+        "2": "Evidence for an advantage has some credible validation but material sample-size or stability limitations remain.",
+        "3": "Evidence for an advantage is supported by corrected separated tests and robust sensitivity, with manageable limitations.",
+        "4": "Evidence for an advantage is supported by strong independent replications, adequate sample sizes, correction and stable sensitivity."
+      },
+      "probabilities": {
+        "0": 0.94,
+        "1": 0.06,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "C12_overfit": {
+      "type": "noul",
+      "noul": 0.94
+    },
+    "C12_stable": {
+      "type": "noul",
+      "noul": 0.36
+    },
+    "C12_stronger": {
+      "type": "noul",
+      "noul": 0.05
+    },
+    "C12_dependent": {
+      "type": "noul",
+      "noul": 0.83
+    },
+    "C13_robustness": {
+      "type": "score",
+      "score": 0.01,
+      "confidence": 0.99,
+      "legend": {
+        "0": "No empirical support beyond the random baseline; no methodology qualifies after corrected confirmation testing.",
+        "1": "Weak or fragile apparent support, from an unstable configuration or an uncorrected historical result.",
+        "2": "Some repeatable out-of-sample support but substantial uncertainty; convincing corrected confirmation is missing.",
+        "3": "Meaningful support across multiple out-of-sample tests including a corrected confirmation result and sensitivity stability.",
+        "4": "Unusually robust support across independent models and time windows, corrected random-control comparisons and independent prospective replication."
+      },
+      "probabilities": {
+        "0": 0.99,
+        "1": 0.01,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "C13_consensus": {
+      "type": "score",
+      "score": 0,
+      "confidence": 1,
+      "legend": {
+        "0": "No independently validated methodology supports the candidate; agreement of unvalidated correlated heuristics does not count.",
+        "1": "One validated methodology supports the candidate; other approaches lack independent validation.",
+        "2": "Two meaningfully distinct validated approaches support the candidate, with shared-data uncertainty.",
+        "3": "Several distinct validated approaches support the candidate consistently across periods.",
+        "4": "Strong support from independently validated approaches and independent data replications."
+      },
+      "probabilities": {
+        "0": 1,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "C13_quality": {
+      "type": "score",
+      "score": 0,
+      "confidence": 1,
+      "legend": {
+        "0": "Evidence for an advantage is absent: results are compatible with random controls or no corrected validation supports the claim.",
+        "1": "Evidence for an advantage is weak: small samples, uncorrected comparisons, one window, instability or overfitting dominate.",
+        "2": "Evidence for an advantage has some credible validation but material sample-size or stability limitations remain.",
+        "3": "Evidence for an advantage is supported by corrected separated tests and robust sensitivity, with manageable limitations.",
+        "4": "Evidence for an advantage is supported by strong independent replications, adequate sample sizes, correction and stable sensitivity."
+      },
+      "probabilities": {
+        "0": 1,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "C13_overfit": {
+      "type": "noul",
+      "noul": 0.95
+    },
+    "C13_stable": {
+      "type": "noul",
+      "noul": 0.07
+    },
+    "C13_stronger": {
+      "type": "noul",
+      "noul": 0.04
+    },
+    "C13_dependent": {
+      "type": "noul",
+      "noul": 0.12
+    },
+    "C14_robustness": {
+      "type": "score",
+      "score": 0.02,
+      "confidence": 0.99,
+      "legend": {
+        "0": "No empirical support beyond the random baseline; no methodology qualifies after corrected confirmation testing.",
+        "1": "Weak or fragile apparent support, from an unstable configuration or an uncorrected historical result.",
+        "2": "Some repeatable out-of-sample support but substantial uncertainty; convincing corrected confirmation is missing.",
+        "3": "Meaningful support across multiple out-of-sample tests including a corrected confirmation result and sensitivity stability.",
+        "4": "Unusually robust support across independent models and time windows, corrected random-control comparisons and independent prospective replication."
+      },
+      "probabilities": {
+        "0": 0.99,
+        "1": 0.01,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "C14_consensus": {
+      "type": "score",
+      "score": 0,
+      "confidence": 1,
+      "legend": {
+        "0": "No independently validated methodology supports the candidate; agreement of unvalidated correlated heuristics does not count.",
+        "1": "One validated methodology supports the candidate; other approaches lack independent validation.",
+        "2": "Two meaningfully distinct validated approaches support the candidate, with shared-data uncertainty.",
+        "3": "Several distinct validated approaches support the candidate consistently across periods.",
+        "4": "Strong support from independently validated approaches and independent data replications."
+      },
+      "probabilities": {
+        "0": 1,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "C14_quality": {
+      "type": "score",
+      "score": 0.01,
+      "confidence": 0.99,
+      "legend": {
+        "0": "Evidence for an advantage is absent: results are compatible with random controls or no corrected validation supports the claim.",
+        "1": "Evidence for an advantage is weak: small samples, uncorrected comparisons, one window, instability or overfitting dominate.",
+        "2": "Evidence for an advantage has some credible validation but material sample-size or stability limitations remain.",
+        "3": "Evidence for an advantage is supported by corrected separated tests and robust sensitivity, with manageable limitations.",
+        "4": "Evidence for an advantage is supported by strong independent replications, adequate sample sizes, correction and stable sensitivity."
+      },
+      "probabilities": {
+        "0": 0.99,
+        "1": 0.01,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "C14_overfit": {
+      "type": "noul",
+      "noul": 0.95
+    },
+    "C14_stable": {
+      "type": "noul",
+      "noul": 0.08
+    },
+    "C14_stronger": {
+      "type": "noul",
+      "noul": 0.04
+    },
+    "C14_dependent": {
+      "type": "noul",
+      "noul": 0.25
+    },
+    "C15_robustness": {
+      "type": "score",
+      "score": 0.03,
+      "confidence": 0.98,
+      "legend": {
+        "0": "No empirical support beyond the random baseline; no methodology qualifies after corrected confirmation testing.",
+        "1": "Weak or fragile apparent support, from an unstable configuration or an uncorrected historical result.",
+        "2": "Some repeatable out-of-sample support but substantial uncertainty; convincing corrected confirmation is missing.",
+        "3": "Meaningful support across multiple out-of-sample tests including a corrected confirmation result and sensitivity stability.",
+        "4": "Unusually robust support across independent models and time windows, corrected random-control comparisons and independent prospective replication."
+      },
+      "probabilities": {
+        "0": 0.97,
+        "1": 0.03,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "C15_consensus": {
+      "type": "score",
+      "score": 0,
+      "confidence": 1,
+      "legend": {
+        "0": "No independently validated methodology supports the candidate; agreement of unvalidated correlated heuristics does not count.",
+        "1": "One validated methodology supports the candidate; other approaches lack independent validation.",
+        "2": "Two meaningfully distinct validated approaches support the candidate, with shared-data uncertainty.",
+        "3": "Several distinct validated approaches support the candidate consistently across periods.",
+        "4": "Strong support from independently validated approaches and independent data replications."
+      },
+      "probabilities": {
+        "0": 1,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "C15_quality": {
+      "type": "score",
+      "score": 0.01,
+      "confidence": 0.99,
+      "legend": {
+        "0": "Evidence for an advantage is absent: results are compatible with random controls or no corrected validation supports the claim.",
+        "1": "Evidence for an advantage is weak: small samples, uncorrected comparisons, one window, instability or overfitting dominate.",
+        "2": "Evidence for an advantage has some credible validation but material sample-size or stability limitations remain.",
+        "3": "Evidence for an advantage is supported by corrected separated tests and robust sensitivity, with manageable limitations.",
+        "4": "Evidence for an advantage is supported by strong independent replications, adequate sample sizes, correction and stable sensitivity."
+      },
+      "probabilities": {
+        "0": 0.99,
+        "1": 0.01,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "C15_overfit": {
+      "type": "noul",
+      "noul": 0.95
+    },
+    "C15_stable": {
+      "type": "noul",
+      "noul": 0.08
+    },
+    "C15_stronger": {
+      "type": "noul",
+      "noul": 0.04
+    },
+    "C15_dependent": {
+      "type": "noul",
+      "noul": 0.2
+    },
+    "C16_robustness": {
+      "type": "score",
+      "score": 0.06,
+      "confidence": 0.95,
+      "legend": {
+        "0": "No empirical support beyond the random baseline; no methodology qualifies after corrected confirmation testing.",
+        "1": "Weak or fragile apparent support, from an unstable configuration or an uncorrected historical result.",
+        "2": "Some repeatable out-of-sample support but substantial uncertainty; convincing corrected confirmation is missing.",
+        "3": "Meaningful support across multiple out-of-sample tests including a corrected confirmation result and sensitivity stability.",
+        "4": "Unusually robust support across independent models and time windows, corrected random-control comparisons and independent prospective replication."
+      },
+      "probabilities": {
+        "0": 0.95,
+        "1": 0.05,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "C16_consensus": {
+      "type": "score",
+      "score": 0.03,
+      "confidence": 0.98,
+      "legend": {
+        "0": "No independently validated methodology supports the candidate; agreement of unvalidated correlated heuristics does not count.",
+        "1": "One validated methodology supports the candidate; other approaches lack independent validation.",
+        "2": "Two meaningfully distinct validated approaches support the candidate, with shared-data uncertainty.",
+        "3": "Several distinct validated approaches support the candidate consistently across periods.",
+        "4": "Strong support from independently validated approaches and independent data replications."
+      },
+      "probabilities": {
+        "0": 0.98,
+        "1": 0.01,
+        "2": 0.01,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "C16_quality": {
+      "type": "score",
+      "score": 0.01,
+      "confidence": 0.99,
+      "legend": {
+        "0": "Evidence for an advantage is absent: results are compatible with random controls or no corrected validation supports the claim.",
+        "1": "Evidence for an advantage is weak: small samples, uncorrected comparisons, one window, instability or overfitting dominate.",
+        "2": "Evidence for an advantage has some credible validation but material sample-size or stability limitations remain.",
+        "3": "Evidence for an advantage is supported by corrected separated tests and robust sensitivity, with manageable limitations.",
+        "4": "Evidence for an advantage is supported by strong independent replications, adequate sample sizes, correction and stable sensitivity."
+      },
+      "probabilities": {
+        "0": 0.99,
+        "1": 0.01,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "C16_overfit": {
+      "type": "noul",
+      "noul": 0.94
+    },
+    "C16_stable": {
+      "type": "noul",
+      "noul": 0.38
+    },
+    "C16_stronger": {
+      "type": "noul",
+      "noul": 0.04
+    },
+    "C16_dependent": {
+      "type": "noul",
+      "noul": 0.69
+    },
+    "C17_robustness": {
+      "type": "score",
+      "score": 0.15,
+      "confidence": 0.88,
+      "legend": {
+        "0": "No empirical support beyond the random baseline; no methodology qualifies after corrected confirmation testing.",
+        "1": "Weak or fragile apparent support, from an unstable configuration or an uncorrected historical result.",
+        "2": "Some repeatable out-of-sample support but substantial uncertainty; convincing corrected confirmation is missing.",
+        "3": "Meaningful support across multiple out-of-sample tests including a corrected confirmation result and sensitivity stability.",
+        "4": "Unusually robust support across independent models and time windows, corrected random-control comparisons and independent prospective replication."
+      },
+      "probabilities": {
+        "0": 0.86,
+        "1": 0.13,
+        "2": 0.01,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "C17_consensus": {
+      "type": "score",
+      "score": 0.02,
+      "confidence": 0.98,
+      "legend": {
+        "0": "No independently validated methodology supports the candidate; agreement of unvalidated correlated heuristics does not count.",
+        "1": "One validated methodology supports the candidate; other approaches lack independent validation.",
+        "2": "Two meaningfully distinct validated approaches support the candidate, with shared-data uncertainty.",
+        "3": "Several distinct validated approaches support the candidate consistently across periods.",
+        "4": "Strong support from independently validated approaches and independent data replications."
+      },
+      "probabilities": {
+        "0": 0.99,
+        "1": 0.01,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "C17_quality": {
+      "type": "score",
+      "score": 0.05,
+      "confidence": 0.96,
+      "legend": {
+        "0": "Evidence for an advantage is absent: results are compatible with random controls or no corrected validation supports the claim.",
+        "1": "Evidence for an advantage is weak: small samples, uncorrected comparisons, one window, instability or overfitting dominate.",
+        "2": "Evidence for an advantage has some credible validation but material sample-size or stability limitations remain.",
+        "3": "Evidence for an advantage is supported by corrected separated tests and robust sensitivity, with manageable limitations.",
+        "4": "Evidence for an advantage is supported by strong independent replications, adequate sample sizes, correction and stable sensitivity."
+      },
+      "probabilities": {
+        "0": 0.95,
+        "1": 0.05,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "C17_overfit": {
+      "type": "noul",
+      "noul": 0.94
+    },
+    "C17_stable": {
+      "type": "noul",
+      "noul": 0.44
+    },
+    "C17_stronger": {
+      "type": "noul",
+      "noul": 0.05
+    },
+    "C17_dependent": {
+      "type": "noul",
+      "noul": 0.74
+    },
+    "C18_robustness": {
+      "type": "score",
+      "score": 0.03,
+      "confidence": 0.98,
+      "legend": {
+        "0": "No empirical support beyond the random baseline; no methodology qualifies after corrected confirmation testing.",
+        "1": "Weak or fragile apparent support, from an unstable configuration or an uncorrected historical result.",
+        "2": "Some repeatable out-of-sample support but substantial uncertainty; convincing corrected confirmation is missing.",
+        "3": "Meaningful support across multiple out-of-sample tests including a corrected confirmation result and sensitivity stability.",
+        "4": "Unusually robust support across independent models and time windows, corrected random-control comparisons and independent prospective replication."
+      },
+      "probabilities": {
+        "0": 0.97,
+        "1": 0.03,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "C18_consensus": {
+      "type": "score",
+      "score": 0.02,
+      "confidence": 0.98,
+      "legend": {
+        "0": "No independently validated methodology supports the candidate; agreement of unvalidated correlated heuristics does not count.",
+        "1": "One validated methodology supports the candidate; other approaches lack independent validation.",
+        "2": "Two meaningfully distinct validated approaches support the candidate, with shared-data uncertainty.",
+        "3": "Several distinct validated approaches support the candidate consistently across periods.",
+        "4": "Strong support from independently validated approaches and independent data replications."
+      },
+      "probabilities": {
+        "0": 0.99,
+        "1": 0,
+        "2": 0.01,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "C18_quality": {
+      "type": "score",
+      "score": 0.02,
+      "confidence": 0.99,
+      "legend": {
+        "0": "Evidence for an advantage is absent: results are compatible with random controls or no corrected validation supports the claim.",
+        "1": "Evidence for an advantage is weak: small samples, uncorrected comparisons, one window, instability or overfitting dominate.",
+        "2": "Evidence for an advantage has some credible validation but material sample-size or stability limitations remain.",
+        "3": "Evidence for an advantage is supported by corrected separated tests and robust sensitivity, with manageable limitations.",
+        "4": "Evidence for an advantage is supported by strong independent replications, adequate sample sizes, correction and stable sensitivity."
+      },
+      "probabilities": {
+        "0": 0.98,
+        "1": 0.02,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "C18_overfit": {
+      "type": "noul",
+      "noul": 0.95
+    },
+    "C18_stable": {
+      "type": "noul",
+      "noul": 0.31
+    },
+    "C18_stronger": {
+      "type": "noul",
+      "noul": 0.04
+    },
+    "C18_dependent": {
+      "type": "noul",
+      "noul": 0.57
+    },
+    "C20_robustness": {
+      "type": "score",
+      "score": 0.01,
+      "confidence": 0.99,
+      "legend": {
+        "0": "No empirical support beyond the random baseline; no methodology qualifies after corrected confirmation testing.",
+        "1": "Weak or fragile apparent support, from an unstable configuration or an uncorrected historical result.",
+        "2": "Some repeatable out-of-sample support but substantial uncertainty; convincing corrected confirmation is missing.",
+        "3": "Meaningful support across multiple out-of-sample tests including a corrected confirmation result and sensitivity stability.",
+        "4": "Unusually robust support across independent models and time windows, corrected random-control comparisons and independent prospective replication."
+      },
+      "probabilities": {
+        "0": 0.99,
+        "1": 0.01,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "C20_consensus": {
+      "type": "score",
+      "score": 0,
+      "confidence": 1,
+      "legend": {
+        "0": "No independently validated methodology supports the candidate; agreement of unvalidated correlated heuristics does not count.",
+        "1": "One validated methodology supports the candidate; other approaches lack independent validation.",
+        "2": "Two meaningfully distinct validated approaches support the candidate, with shared-data uncertainty.",
+        "3": "Several distinct validated approaches support the candidate consistently across periods.",
+        "4": "Strong support from independently validated approaches and independent data replications."
+      },
+      "probabilities": {
+        "0": 1,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "C20_quality": {
+      "type": "score",
+      "score": 0,
+      "confidence": 1,
+      "legend": {
+        "0": "Evidence for an advantage is absent: results are compatible with random controls or no corrected validation supports the claim.",
+        "1": "Evidence for an advantage is weak: small samples, uncorrected comparisons, one window, instability or overfitting dominate.",
+        "2": "Evidence for an advantage has some credible validation but material sample-size or stability limitations remain.",
+        "3": "Evidence for an advantage is supported by corrected separated tests and robust sensitivity, with manageable limitations.",
+        "4": "Evidence for an advantage is supported by strong independent replications, adequate sample sizes, correction and stable sensitivity."
+      },
+      "probabilities": {
+        "0": 1,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "C20_overfit": {
+      "type": "noul",
+      "noul": 0.95
+    },
+    "C20_stable": {
+      "type": "noul",
+      "noul": 0.08
+    },
+    "C20_stronger": {
+      "type": "noul",
+      "noul": 0.04
+    },
+    "C20_dependent": {
+      "type": "noul",
+      "noul": 0.2
+    }
+  },
+  "usage": {
+    "input_tokens": 34824,
+    "output_tokens": 2324
+  }
+}
