@@ -1,0 +1,45 @@
+{
+  "p_exactly_3": 0.035933162868147385,
+  "p_at_least_3": 0.038698060369886995,
+  "p_at_least_4": 0.002764897501739607,
+  "expected_matches": 0.9473684210526315,
+  "sd_matches": 0.8306475148060157,
+  "prospective_v1": {
+    "primary_series": {
+      "2339": 3,
+      "2340": 0,
+      "2341": 3
+    },
+    "secondary_2339": 1,
+    "primary": {
+      "n": 3,
+      "total": 6,
+      "mean": 2.0,
+      "p_total_ge_observed": 0.03883635205958853,
+      "ge3_events": 2,
+      "p_ge3_events_ge2": 0.004376715852088439,
+      "ge3_rate_clopper_pearson95": [
+        0.09429932405024594,
+        0.9915962413403874
+      ]
+    },
+    "including_2339_secondary": {
+      "n": 4,
+      "total": 7,
+      "mean": 1.75,
+      "p_total_ge_observed": 0.057182566019083725,
+      "ge3_events": 2,
+      "p_ge3_events_ge2": 0.008528352027049392,
+      "ge3_rate_clopper_pearson95": [
+        0.06758598648854292,
+        0.9324140135114571
+      ]
+    }
+  },
+  "caveats": [
+    "n = 3 prospective primary tickets; any interval is extremely wide.",
+    "The #2339 and #2341 primary tickets are the SAME combination (01 04 13 14 24 38), chosen both times by the fixed-seed fallback at a B_recent slot; the two 3/6 results are one ticket hitting twice, not two independent method successes.",
+    "Attention is post hoc (the question is asked because 3/6 occurred) and the ledger tracks many tickets per draw (20 candidates, Jev preference, challengers), which inflates the chance that some tracked ticket looks unusual.",
+    "No multiplicity correction is applied to these p-values; they are descriptive."
+  ]
+}

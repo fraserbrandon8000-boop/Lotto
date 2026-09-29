@@ -1,0 +1,1110 @@
+{
+  "summary": {
+    "outcome": [
+      1,
+      4,
+      6,
+      22,
+      33,
+      38
+    ],
+    "bonus": 34,
+    "n_candidates": 20,
+    "n_eligible": 16,
+    "match_distribution": {
+      "0": 2,
+      "1": 12,
+      "2": 5,
+      "3": 1,
+      "4": 0,
+      "5": 0,
+      "6": 0
+    },
+    "eligible_match_distribution": {
+      "0": 1,
+      "1": 9,
+      "2": 5,
+      "3": 1,
+      "4": 0,
+      "5": 0,
+      "6": 0
+    },
+    "best_matches": 3,
+    "best_candidates": [
+      "C04"
+    ],
+    "v1_selected": {
+      "id": "C04",
+      "numbers": [
+        1,
+        4,
+        13,
+        14,
+        24,
+        38
+      ],
+      "matches": 3
+    },
+    "jev_preferred": {
+      "id": "C04",
+      "probability": 0.92,
+      "matches": 3
+    },
+    "any_candidate_above_3": false,
+    "random_reference": {
+      "p_ticket_ge3": 0.038698060369886995,
+      "expected_candidates_ge3_of_20": 0.7739612073977399,
+      "p_at_least_one_ge3_of_20_independent": 0.5458530813518399,
+      "p_at_least_one_ge4_of_20_independent": 0.05386928015383963
+    },
+    "jev_choice_vs_matches_spearman_eligible": 0.055882352941176466,
+    "note": "Descriptive only. No candidate is promoted retrospectively."
+  },
+  "candidates": [
+    {
+      "id": "C01",
+      "numbers": [
+        1,
+        8,
+        15,
+        18,
+        24,
+        25
+      ],
+      "generator": "A_long",
+      "eligible": true,
+      "matches": 1,
+      "matched": [
+        1
+      ],
+      "jev_choice_probability": 0.04,
+      "jev_rank": {
+        "best": 2,
+        "worst": 2
+      },
+      "sensitivity": {
+        "top_quartile_fraction": 1.0,
+        "mean_rank": 1.2142857142857142,
+        "generator_rank_min": 1.0,
+        "generator_rank_max": 4.0
+      },
+      "model_evidence": {
+        "model_ranks": {
+          "A_long": 1,
+          "B_recent": 5,
+          "C_gap": 18,
+          "D_trend": 10,
+          "E_pairs": 1,
+          "F_structure": 12,
+          "G_ensemble": 4
+        },
+        "contributing_models": [
+          "A_long",
+          "B_recent",
+          "G_ensemble"
+        ],
+        "validated_models": [],
+        "model_agreement_count": 3,
+        "ensemble_rank": 4
+      },
+      "jev_scores": {
+        "robustness": 0.37,
+        "consensus": 0.01,
+        "quality": 0.15,
+        "overfit": 0.94,
+        "stable": 0.49,
+        "stronger": 0.06,
+        "dependent": 0.55
+      }
+    },
+    {
+      "id": "C02",
+      "numbers": [
+        2,
+        6,
+        8,
+        12,
+        18,
+        25
+      ],
+      "generator": "A_long",
+      "eligible": true,
+      "matches": 1,
+      "matched": [
+        6
+      ],
+      "jev_choice_probability": 0,
+      "jev_rank": {
+        "best": 6,
+        "worst": 16
+      },
+      "sensitivity": {
+        "top_quartile_fraction": 1.0,
+        "mean_rank": 1.9285714285714286,
+        "generator_rank_min": 1.0,
+        "generator_rank_max": 2.0
+      },
+      "model_evidence": {
+        "model_ranks": {
+          "A_long": 2,
+          "B_recent": 8,
+          "C_gap": 20,
+          "D_trend": 8,
+          "E_pairs": 2,
+          "F_structure": 18,
+          "G_ensemble": 8
+        },
+        "contributing_models": [
+          "A_long"
+        ],
+        "validated_models": [],
+        "model_agreement_count": 1,
+        "ensemble_rank": 8
+      },
+      "jev_scores": {
+        "robustness": 0.19,
+        "consensus": 0.01,
+        "quality": 0.05,
+        "overfit": 0.95,
+        "stable": 0.38,
+        "stronger": 0.04,
+        "dependent": 0.79
+      }
+    },
+    {
+      "id": "C03",
+      "numbers": [
+        2,
+        10,
+        13,
+        18,
+        24,
+        33
+      ],
+      "generator": "A_long",
+      "eligible": true,
+      "matches": 1,
+      "matched": [
+        33
+      ],
+      "jev_choice_probability": 0.02,
+      "jev_rank": {
+        "best": 3,
+        "worst": 3
+      },
+      "sensitivity": {
+        "top_quartile_fraction": 0.9285714285714286,
+        "mean_rank": 3.2142857142857144,
+        "generator_rank_min": 3.0,
+        "generator_rank_max": 6.0
+      },
+      "model_evidence": {
+        "model_ranks": {
+          "A_long": 3,
+          "B_recent": 7,
+          "C_gap": 13,
+          "D_trend": 3,
+          "E_pairs": 3,
+          "F_structure": 8,
+          "G_ensemble": 2
+        },
+        "contributing_models": [
+          "A_long",
+          "D_trend",
+          "G_ensemble"
+        ],
+        "validated_models": [],
+        "model_agreement_count": 3,
+        "ensemble_rank": 2
+      },
+      "jev_scores": {
+        "robustness": 0.25,
+        "consensus": 0.02,
+        "quality": 0.06,
+        "overfit": 0.94,
+        "stable": 0.42,
+        "stronger": 0.05,
+        "dependent": 0.45
+      }
+    },
+    {
+      "id": "C04",
+      "numbers": [
+        1,
+        4,
+        13,
+        14,
+        24,
+        38
+      ],
+      "generator": "B_recent",
+      "eligible": true,
+      "matches": 3,
+      "matched": [
+        1,
+        4,
+        38
+      ],
+      "jev_choice_probability": 0.92,
+      "jev_rank": {
+        "best": 1,
+        "worst": 1
+      },
+      "sensitivity": {
+        "top_quartile_fraction": 1.0,
+        "mean_rank": 1.0,
+        "generator_rank_min": 1.0,
+        "generator_rank_max": 1.0
+      },
+      "model_evidence": {
+        "model_ranks": {
+          "A_long": 4,
+          "B_recent": 1,
+          "C_gap": 12,
+          "D_trend": 5,
+          "E_pairs": 4,
+          "F_structure": 11,
+          "G_ensemble": 1
+        },
+        "contributing_models": [
+          "A_long",
+          "B_recent",
+          "D_trend",
+          "G_ensemble"
+        ],
+        "validated_models": [],
+        "model_agreement_count": 4,
+        "ensemble_rank": 1
+      },
+      "jev_scores": {
+        "robustness": 0.2,
+        "consensus": 0.01,
+        "quality": 0.07,
+        "overfit": 0.95,
+        "stable": 0.48,
+        "stronger": 0.05,
+        "dependent": 0.32
+      }
+    },
+    {
+      "id": "C05",
+      "numbers": [
+        6,
+        8,
+        12,
+        13,
+        24,
+        30
+      ],
+      "generator": "B_recent",
+      "eligible": true,
+      "matches": 1,
+      "matched": [
+        6
+      ],
+      "jev_choice_probability": 0,
+      "jev_rank": {
+        "best": 6,
+        "worst": 16
+      },
+      "sensitivity": {
+        "top_quartile_fraction": 0.9285714285714286,
+        "mean_rank": 2.5,
+        "generator_rank_min": 2.0,
+        "generator_rank_max": 8.0
+      },
+      "model_evidence": {
+        "model_ranks": {
+          "A_long": 5,
+          "B_recent": 2,
+          "C_gap": 19,
+          "D_trend": 11,
+          "E_pairs": 5,
+          "F_structure": 10,
+          "G_ensemble": 7
+        },
+        "contributing_models": [
+          "A_long",
+          "B_recent"
+        ],
+        "validated_models": [],
+        "model_agreement_count": 2,
+        "ensemble_rank": 7
+      },
+      "jev_scores": {
+        "robustness": 0.17,
+        "consensus": 0.03,
+        "quality": 0.05,
+        "overfit": 0.94,
+        "stable": 0.33,
+        "stronger": 0.05,
+        "dependent": 0.68
+      }
+    },
+    {
+      "id": "C06",
+      "numbers": [
+        4,
+        9,
+        12,
+        13,
+        24,
+        25
+      ],
+      "generator": "B_recent",
+      "eligible": true,
+      "matches": 1,
+      "matched": [
+        4
+      ],
+      "jev_choice_probability": 0,
+      "jev_rank": {
+        "best": 6,
+        "worst": 16
+      },
+      "sensitivity": {
+        "top_quartile_fraction": 1.0,
+        "mean_rank": 2.9285714285714284,
+        "generator_rank_min": 2.0,
+        "generator_rank_max": 3.0
+      },
+      "model_evidence": {
+        "model_ranks": {
+          "A_long": 9,
+          "B_recent": 3,
+          "C_gap": 17,
+          "D_trend": 7,
+          "E_pairs": 6,
+          "F_structure": 16,
+          "G_ensemble": 5
+        },
+        "contributing_models": [
+          "B_recent",
+          "G_ensemble"
+        ],
+        "validated_models": [],
+        "model_agreement_count": 2,
+        "ensemble_rank": 5
+      },
+      "jev_scores": {
+        "robustness": 0.14,
+        "consensus": 0.03,
+        "quality": 0.04,
+        "overfit": 0.95,
+        "stable": 0.46,
+        "stronger": 0.04,
+        "dependent": 0.53
+      }
+    },
+    {
+      "id": "C07",
+      "numbers": [
+        5,
+        11,
+        16,
+        24,
+        27,
+        34
+      ],
+      "generator": "C_gap",
+      "eligible": false,
+      "matches": 0,
+      "matched": [],
+      "jev_choice_probability": null,
+      "jev_rank": null,
+      "sensitivity": {
+        "top_quartile_fraction": 1.0,
+        "mean_rank": 1.0,
+        "generator_rank_min": 1.0,
+        "generator_rank_max": 1.0
+      },
+      "model_evidence": {
+        "model_ranks": {
+          "A_long": 19,
+          "B_recent": 20,
+          "C_gap": 1,
+          "D_trend": 18,
+          "E_pairs": 7,
+          "F_structure": 5,
+          "G_ensemble": 20
+        },
+        "contributing_models": [
+          "C_gap",
+          "F_structure"
+        ],
+        "validated_models": [],
+        "model_agreement_count": 2,
+        "ensemble_rank": 20
+      },
+      "jev_scores": null
+    },
+    {
+      "id": "C08",
+      "numbers": [
+        16,
+        26,
+        27,
+        34,
+        35,
+        38
+      ],
+      "generator": "C_gap",
+      "eligible": false,
+      "matches": 1,
+      "matched": [
+        38
+      ],
+      "jev_choice_probability": null,
+      "jev_rank": null,
+      "sensitivity": {
+        "top_quartile_fraction": 1.0,
+        "mean_rank": 2.0,
+        "generator_rank_min": 2.0,
+        "generator_rank_max": 2.0
+      },
+      "model_evidence": {
+        "model_ranks": {
+          "A_long": 17,
+          "B_recent": 16,
+          "C_gap": 2,
+          "D_trend": 20,
+          "E_pairs": 8,
+          "F_structure": 19,
+          "G_ensemble": 19
+        },
+        "contributing_models": [
+          "C_gap"
+        ],
+        "validated_models": [],
+        "model_agreement_count": 1,
+        "ensemble_rank": 19
+      },
+      "jev_scores": null
+    },
+    {
+      "id": "C09",
+      "numbers": [
+        11,
+        16,
+        21,
+        22,
+        25,
+        34
+      ],
+      "generator": "C_gap",
+      "eligible": false,
+      "matches": 1,
+      "matched": [
+        22
+      ],
+      "jev_choice_probability": null,
+      "jev_rank": null,
+      "sensitivity": {
+        "top_quartile_fraction": 1.0,
+        "mean_rank": 3.0,
+        "generator_rank_min": 3.0,
+        "generator_rank_max": 3.0
+      },
+      "model_evidence": {
+        "model_ranks": {
+          "A_long": 18,
+          "B_recent": 19,
+          "C_gap": 3,
+          "D_trend": 19,
+          "E_pairs": 9,
+          "F_structure": 7,
+          "G_ensemble": 18
+        },
+        "contributing_models": [
+          "C_gap"
+        ],
+        "validated_models": [],
+        "model_agreement_count": 1,
+        "ensemble_rank": 18
+      },
+      "jev_scores": null
+    },
+    {
+      "id": "C10",
+      "numbers": [
+        1,
+        2,
+        4,
+        7,
+        10,
+        19
+      ],
+      "generator": "D_trend",
+      "eligible": true,
+      "matches": 2,
+      "matched": [
+        1,
+        4
+      ],
+      "jev_choice_probability": 0,
+      "jev_rank": {
+        "best": 6,
+        "worst": 16
+      },
+      "sensitivity": {
+        "top_quartile_fraction": 0.9285714285714286,
+        "mean_rank": 1.5,
+        "generator_rank_min": 1.0,
+        "generator_rank_max": 7.0
+      },
+      "model_evidence": {
+        "model_ranks": {
+          "A_long": 12,
+          "B_recent": 10,
+          "C_gap": 16,
+          "D_trend": 1,
+          "E_pairs": 10,
+          "F_structure": 20,
+          "G_ensemble": 10
+        },
+        "contributing_models": [
+          "D_trend"
+        ],
+        "validated_models": [],
+        "model_agreement_count": 1,
+        "ensemble_rank": 10
+      },
+      "jev_scores": {
+        "robustness": 0.05,
+        "consensus": 0.01,
+        "quality": 0.02,
+        "overfit": 0.95,
+        "stable": 0.19,
+        "stronger": 0.04,
+        "dependent": 0.89
+      }
+    },
+    {
+      "id": "C11",
+      "numbers": [
+        4,
+        7,
+        10,
+        22,
+        24,
+        31
+      ],
+      "generator": "D_trend",
+      "eligible": true,
+      "matches": 2,
+      "matched": [
+        4,
+        22
+      ],
+      "jev_choice_probability": 0,
+      "jev_rank": {
+        "best": 6,
+        "worst": 16
+      },
+      "sensitivity": {
+        "top_quartile_fraction": 0.9285714285714286,
+        "mean_rank": 2.7142857142857144,
+        "generator_rank_min": 2.0,
+        "generator_rank_max": 10.0
+      },
+      "model_evidence": {
+        "model_ranks": {
+          "A_long": 11,
+          "B_recent": 6,
+          "C_gap": 15,
+          "D_trend": 2,
+          "E_pairs": 11,
+          "F_structure": 4,
+          "G_ensemble": 6
+        },
+        "contributing_models": [
+          "D_trend",
+          "F_structure"
+        ],
+        "validated_models": [],
+        "model_agreement_count": 2,
+        "ensemble_rank": 6
+      },
+      "jev_scores": {
+        "robustness": 0.14,
+        "consensus": 0.06,
+        "quality": 0.04,
+        "overfit": 0.95,
+        "stable": 0.4,
+        "stronger": 0.04,
+        "dependent": 0.56
+      }
+    },
+    {
+      "id": "C12",
+      "numbers": [
+        2,
+        4,
+        7,
+        13,
+        31,
+        32
+      ],
+      "generator": "D_trend",
+      "eligible": true,
+      "matches": 1,
+      "matched": [
+        4
+      ],
+      "jev_choice_probability": 0,
+      "jev_rank": {
+        "best": 6,
+        "worst": 16
+      },
+      "sensitivity": {
+        "top_quartile_fraction": 0.9285714285714286,
+        "mean_rank": 4.428571428571429,
+        "generator_rank_min": 3.0,
+        "generator_rank_max": 11.0
+      },
+      "model_evidence": {
+        "model_ranks": {
+          "A_long": 13,
+          "B_recent": 11,
+          "C_gap": 14,
+          "D_trend": 4,
+          "E_pairs": 12,
+          "F_structure": 9,
+          "G_ensemble": 9
+        },
+        "contributing_models": [
+          "D_trend"
+        ],
+        "validated_models": [],
+        "model_agreement_count": 1,
+        "ensemble_rank": 9
+      },
+      "jev_scores": {
+        "robustness": 0.08,
+        "consensus": 0.01,
+        "quality": 0.03,
+        "overfit": 0.95,
+        "stable": 0.2,
+        "stronger": 0.04,
+        "dependent": 0.83
+      }
+    },
+    {
+      "id": "C13",
+      "numbers": [
+        1,
+        5,
+        8,
+        12,
+        26,
+        34
+      ],
+      "generator": "E_pairs",
+      "eligible": true,
+      "matches": 1,
+      "matched": [
+        1
+      ],
+      "jev_choice_probability": 0.01,
+      "jev_rank": {
+        "best": 4,
+        "worst": 5
+      },
+      "sensitivity": {
+        "top_quartile_fraction": 0.0,
+        "mean_rank": 10.5,
+        "generator_rank_min": 10.5,
+        "generator_rank_max": 10.5
+      },
+      "model_evidence": {
+        "model_ranks": {
+          "A_long": 14,
+          "B_recent": 14,
+          "C_gap": 7,
+          "D_trend": 13,
+          "E_pairs": 13,
+          "F_structure": 14,
+          "G_ensemble": 14
+        },
+        "contributing_models": [],
+        "validated_models": [],
+        "model_agreement_count": 0,
+        "ensemble_rank": 14
+      },
+      "jev_scores": {
+        "robustness": 0.01,
+        "consensus": 0,
+        "quality": 0,
+        "overfit": 0.95,
+        "stable": 0.06,
+        "stronger": 0.04,
+        "dependent": 0.15
+      }
+    },
+    {
+      "id": "C14",
+      "numbers": [
+        8,
+        10,
+        11,
+        15,
+        21,
+        24
+      ],
+      "generator": "E_pairs",
+      "eligible": true,
+      "matches": 0,
+      "matched": [],
+      "jev_choice_probability": 0,
+      "jev_rank": {
+        "best": 6,
+        "worst": 16
+      },
+      "sensitivity": {
+        "top_quartile_fraction": 0.0,
+        "mean_rank": 10.5,
+        "generator_rank_min": 10.5,
+        "generator_rank_max": 10.5
+      },
+      "model_evidence": {
+        "model_ranks": {
+          "A_long": 7,
+          "B_recent": 13,
+          "C_gap": 8,
+          "D_trend": 15,
+          "E_pairs": 14,
+          "F_structure": 17,
+          "G_ensemble": 12
+        },
+        "contributing_models": [],
+        "validated_models": [],
+        "model_agreement_count": 0,
+        "ensemble_rank": 12
+      },
+      "jev_scores": {
+        "robustness": 0.02,
+        "consensus": 0,
+        "quality": 0,
+        "overfit": 0.95,
+        "stable": 0.07,
+        "stronger": 0.04,
+        "dependent": 0.23
+      }
+    },
+    {
+      "id": "C15",
+      "numbers": [
+        6,
+        8,
+        15,
+        17,
+        19,
+        38
+      ],
+      "generator": "E_pairs",
+      "eligible": true,
+      "matches": 2,
+      "matched": [
+        6,
+        38
+      ],
+      "jev_choice_probability": 0,
+      "jev_rank": {
+        "best": 6,
+        "worst": 16
+      },
+      "sensitivity": {
+        "top_quartile_fraction": 0.0,
+        "mean_rank": 10.5,
+        "generator_rank_min": 10.5,
+        "generator_rank_max": 10.5
+      },
+      "model_evidence": {
+        "model_ranks": {
+          "A_long": 8,
+          "B_recent": 12,
+          "C_gap": 9,
+          "D_trend": 17,
+          "E_pairs": 15,
+          "F_structure": 15,
+          "G_ensemble": 13
+        },
+        "contributing_models": [],
+        "validated_models": [],
+        "model_agreement_count": 0,
+        "ensemble_rank": 13
+      },
+      "jev_scores": {
+        "robustness": 0.01,
+        "consensus": 0,
+        "quality": 0,
+        "overfit": 0.95,
+        "stable": 0.07,
+        "stronger": 0.04,
+        "dependent": 0.2
+      }
+    },
+    {
+      "id": "C16",
+      "numbers": [
+        4,
+        16,
+        17,
+        21,
+        26,
+        33
+      ],
+      "generator": "F_structure",
+      "eligible": true,
+      "matches": 2,
+      "matched": [
+        4,
+        33
+      ],
+      "jev_choice_probability": 0,
+      "jev_rank": {
+        "best": 6,
+        "worst": 16
+      },
+      "sensitivity": {
+        "top_quartile_fraction": 1.0,
+        "mean_rank": 1.1428571428571428,
+        "generator_rank_min": 1.0,
+        "generator_rank_max": 3.0
+      },
+      "model_evidence": {
+        "model_ranks": {
+          "A_long": 16,
+          "B_recent": 18,
+          "C_gap": 5,
+          "D_trend": 16,
+          "E_pairs": 16,
+          "F_structure": 1,
+          "G_ensemble": 16
+        },
+        "contributing_models": [
+          "C_gap",
+          "F_structure"
+        ],
+        "validated_models": [],
+        "model_agreement_count": 2,
+        "ensemble_rank": 16
+      },
+      "jev_scores": {
+        "robustness": 0.04,
+        "consensus": 0.03,
+        "quality": 0.01,
+        "overfit": 0.95,
+        "stable": 0.26,
+        "stronger": 0.04,
+        "dependent": 0.8
+      }
+    },
+    {
+      "id": "C17",
+      "numbers": [
+        6,
+        7,
+        13,
+        24,
+        32,
+        35
+      ],
+      "generator": "F_structure",
+      "eligible": true,
+      "matches": 1,
+      "matched": [
+        6
+      ],
+      "jev_choice_probability": 0,
+      "jev_rank": {
+        "best": 6,
+        "worst": 16
+      },
+      "sensitivity": {
+        "top_quartile_fraction": 1.0,
+        "mean_rank": 1.9285714285714286,
+        "generator_rank_min": 1.0,
+        "generator_rank_max": 2.0
+      },
+      "model_evidence": {
+        "model_ranks": {
+          "A_long": 10,
+          "B_recent": 9,
+          "C_gap": 11,
+          "D_trend": 9,
+          "E_pairs": 17,
+          "F_structure": 2,
+          "G_ensemble": 11
+        },
+        "contributing_models": [
+          "F_structure"
+        ],
+        "validated_models": [],
+        "model_agreement_count": 1,
+        "ensemble_rank": 11
+      },
+      "jev_scores": {
+        "robustness": 0.12,
+        "consensus": 0.02,
+        "quality": 0.03,
+        "overfit": 0.94,
+        "stable": 0.37,
+        "stronger": 0.04,
+        "dependent": 0.79
+      }
+    },
+    {
+      "id": "C18",
+      "numbers": [
+        5,
+        11,
+        14,
+        22,
+        23,
+        34
+      ],
+      "generator": "F_structure",
+      "eligible": false,
+      "matches": 1,
+      "matched": [
+        22
+      ],
+      "jev_choice_probability": null,
+      "jev_rank": null,
+      "sensitivity": {
+        "top_quartile_fraction": 1.0,
+        "mean_rank": 2.9285714285714284,
+        "generator_rank_min": 2.0,
+        "generator_rank_max": 3.0
+      },
+      "model_evidence": {
+        "model_ranks": {
+          "A_long": 20,
+          "B_recent": 17,
+          "C_gap": 4,
+          "D_trend": 14,
+          "E_pairs": 18,
+          "F_structure": 3,
+          "G_ensemble": 17
+        },
+        "contributing_models": [
+          "C_gap",
+          "F_structure"
+        ],
+        "validated_models": [],
+        "model_agreement_count": 2,
+        "ensemble_rank": 17
+      },
+      "jev_scores": null
+    },
+    {
+      "id": "C19",
+      "numbers": [
+        2,
+        4,
+        8,
+        13,
+        24,
+        34
+      ],
+      "generator": "G_ensemble",
+      "eligible": true,
+      "matches": 1,
+      "matched": [
+        4
+      ],
+      "jev_choice_probability": 0.01,
+      "jev_rank": {
+        "best": 4,
+        "worst": 5
+      },
+      "sensitivity": {
+        "top_quartile_fraction": 1.0,
+        "mean_rank": 3.2857142857142856,
+        "generator_rank_min": 3.0,
+        "generator_rank_max": 5.0
+      },
+      "model_evidence": {
+        "model_ranks": {
+          "A_long": 6,
+          "B_recent": 4,
+          "C_gap": 10,
+          "D_trend": 6,
+          "E_pairs": 19,
+          "F_structure": 13,
+          "G_ensemble": 3
+        },
+        "contributing_models": [
+          "B_recent",
+          "G_ensemble"
+        ],
+        "validated_models": [],
+        "model_agreement_count": 2,
+        "ensemble_rank": 3
+      },
+      "jev_scores": {
+        "robustness": 0.23,
+        "consensus": 0.05,
+        "quality": 0.03,
+        "overfit": 0.94,
+        "stable": 0.46,
+        "stronger": 0.05,
+        "dependent": 0.52
+      }
+    },
+    {
+      "id": "C20",
+      "numbers": [
+        5,
+        7,
+        14,
+        21,
+        33,
+        38
+      ],
+      "generator": "H_random",
+      "eligible": true,
+      "matches": 2,
+      "matched": [
+        33,
+        38
+      ],
+      "jev_choice_probability": 0,
+      "jev_rank": {
+        "best": 6,
+        "worst": 16
+      },
+      "sensitivity": {
+        "top_quartile_fraction": 0.0,
+        "mean_rank": 10.5,
+        "generator_rank_min": 10.5,
+        "generator_rank_max": 10.5
+      },
+      "model_evidence": {
+        "model_ranks": {
+          "A_long": 15,
+          "B_recent": 15,
+          "C_gap": 6,
+          "D_trend": 12,
+          "E_pairs": 20,
+          "F_structure": 6,
+          "G_ensemble": 15
+        },
+        "contributing_models": [],
+        "validated_models": [],
+        "model_agreement_count": 0,
+        "ensemble_rank": 15
+      },
+      "jev_scores": {
+        "robustness": 0.01,
+        "consensus": 0,
+        "quality": 0,
+        "overfit": 0.95,
+        "stable": 0.06,
+        "stronger": 0.04,
+        "dependent": 0.27
+      }
+    }
+  ]
+}

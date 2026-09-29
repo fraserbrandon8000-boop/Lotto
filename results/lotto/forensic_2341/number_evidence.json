@@ -1,0 +1,1111 @@
+{
+  "cutoff": 2340,
+  "target": 2341,
+  "outcome": [
+    1,
+    4,
+    6,
+    22,
+    33,
+    38
+  ],
+  "numbers": {
+    "1": {
+      "role": "winner",
+      "in_v1_ticket": true,
+      "models": {
+        "A_long": {
+          "score": 0.999669868885321,
+          "rank": 6,
+          "tie_interval": [
+            6,
+            6
+          ],
+          "informative": true
+        },
+        "B_recent": {
+          "score": 0.8950844229864585,
+          "rank": 8,
+          "tie_interval": [
+            8,
+            8
+          ],
+          "informative": true
+        },
+        "C_gap": {
+          "score": -0.8374739682097803,
+          "rank": 29,
+          "tie_interval": [
+            28,
+            32
+          ],
+          "informative": true
+        },
+        "D_trend": {
+          "score": 0.9113731907846726,
+          "rank": 6,
+          "tie_interval": [
+            6,
+            8
+          ],
+          "informative": true
+        },
+        "E_pairs": {
+          "score": 0.0,
+          "rank": 8,
+          "tie_interval": [
+            1,
+            38
+          ],
+          "informative": false
+        },
+        "G_marginal_proxy": {
+          "score": 0.8668252508481875,
+          "rank": 7,
+          "tie_interval": [
+            7,
+            7
+          ],
+          "informative": true
+        },
+        "H_random": {
+          "score": 0.5583319250874552,
+          "rank": 16,
+          "tie_interval": [
+            16,
+            16
+          ],
+          "informative": true
+        },
+        "F_structure": "not applicable: V1 F is a whole-ticket structure objective with no number-level ranking"
+      },
+      "features": {
+        "frequency": "33",
+        "appearance_rate": "0.18333333333333332",
+        "ew_rate": "0.22019490609896755",
+        "last_30_count": "6",
+        "last_20_count": "5",
+        "last_10_count": "4",
+        "current_gap": "1",
+        "current_gap_percentile": "0.40625",
+        "trend_20_vs_previous40": "0.1",
+        "frequency_holm_p": "1.0",
+        "retained_pair_partners": []
+      },
+      "family_top12_support": [
+        "A_long",
+        "B_recent",
+        "D_trend"
+      ]
+    },
+    "4": {
+      "role": "winner",
+      "in_v1_ticket": true,
+      "models": {
+        "A_long": {
+          "score": 0.781351161887378,
+          "rank": 10,
+          "tie_interval": [
+            7,
+            12
+          ],
+          "informative": true
+        },
+        "B_recent": {
+          "score": 1.184675462772492,
+          "rank": 4,
+          "tie_interval": [
+            4,
+            4
+          ],
+          "informative": true
+        },
+        "C_gap": {
+          "score": -0.8374739682097803,
+          "rank": 31,
+          "tie_interval": [
+            28,
+            32
+          ],
+          "informative": true
+        },
+        "D_trend": {
+          "score": 2.278432976961681,
+          "rank": 1,
+          "tie_interval": [
+            1,
+            1
+          ],
+          "informative": true
+        },
+        "E_pairs": {
+          "score": 0.0,
+          "rank": 18,
+          "tie_interval": [
+            1,
+            38
+          ],
+          "informative": false
+        },
+        "G_marginal_proxy": {
+          "score": 1.3068345510127355,
+          "rank": 2,
+          "tie_interval": [
+            2,
+            2
+          ],
+          "informative": true
+        },
+        "H_random": {
+          "score": 0.8036646726922566,
+          "rank": 7,
+          "tie_interval": [
+            7,
+            7
+          ],
+          "informative": true
+        },
+        "F_structure": "not applicable: V1 F is a whole-ticket structure objective with no number-level ranking"
+      },
+      "features": {
+        "frequency": "32",
+        "appearance_rate": "0.17777777777777778",
+        "ew_rate": "0.2206403727937042",
+        "last_30_count": "7",
+        "last_20_count": "7",
+        "last_10_count": "4",
+        "current_gap": "1",
+        "current_gap_percentile": "0.4838709677419355",
+        "trend_20_vs_previous40": "0.24999999999999997",
+        "frequency_holm_p": "1.0",
+        "retained_pair_partners": []
+      },
+      "family_top12_support": [
+        "A_long",
+        "B_recent",
+        "D_trend"
+      ]
+    },
+    "6": {
+      "role": "winner",
+      "in_v1_ticket": false,
+      "models": {
+        "A_long": {
+          "score": 0.5630324548894337,
+          "rank": 13,
+          "tie_interval": [
+            13,
+            15
+          ],
+          "informative": true
+        },
+        "B_recent": {
+          "score": 0.5783067875519298,
+          "rank": 13,
+          "tie_interval": [
+            13,
+            13
+          ],
+          "informative": true
+        },
+        "C_gap": {
+          "score": -1.0193254584496183,
+          "rank": 35,
+          "tie_interval": [
+            33,
+            38
+          ],
+          "informative": true
+        },
+        "D_trend": {
+          "score": -0.22784329769616804,
+          "rank": 18,
+          "tie_interval": [
+            17,
+            24
+          ],
+          "informative": true
+        },
+        "E_pairs": {
+          "score": 0.0,
+          "rank": 19,
+          "tie_interval": [
+            1,
+            38
+          ],
+          "informative": false
+        },
+        "G_marginal_proxy": {
+          "score": 0.2894711450951277,
+          "rank": 14,
+          "tie_interval": [
+            14,
+            14
+          ],
+          "informative": true
+        },
+        "H_random": {
+          "score": 0.7318182667961217,
+          "rank": 9,
+          "tie_interval": [
+            9,
+            9
+          ],
+          "informative": true
+        },
+        "F_structure": "not applicable: V1 F is a whole-ticket structure objective with no number-level ranking"
+      },
+      "features": {
+        "frequency": "31",
+        "appearance_rate": "0.17222222222222222",
+        "ew_rate": "0.21657831028872718",
+        "last_30_count": "5",
+        "last_20_count": "4",
+        "last_10_count": "3",
+        "current_gap": "0",
+        "current_gap_percentile": "0.2",
+        "trend_20_vs_previous40": "-0.024999999999999994",
+        "frequency_holm_p": "1.0",
+        "retained_pair_partners": []
+      },
+      "family_top12_support": []
+    },
+    "22": {
+      "role": "winner",
+      "in_v1_ticket": false,
+      "models": {
+        "A_long": {
+          "score": -0.09192366610439805,
+          "rank": 19,
+          "tie_interval": [
+            17,
+            20
+          ],
+          "informative": true
+        },
+        "B_recent": {
+          "score": 0.4688952302948034,
+          "rank": 14,
+          "tie_interval": [
+            14,
+            14
+          ],
+          "informative": true
+        },
+        "C_gap": {
+          "score": 0.43548646346908565,
+          "rank": 11,
+          "tie_interval": [
+            10,
+            11
+          ],
+          "informative": true
+        },
+        "D_trend": {
+          "score": 0.4556865953923364,
+          "rank": 16,
+          "tie_interval": [
+            12,
+            16
+          ],
+          "informative": true
+        },
+        "E_pairs": {
+          "score": 0.0,
+          "rank": 30,
+          "tie_interval": [
+            1,
+            38
+          ],
+          "informative": false
+        },
+        "G_marginal_proxy": {
+          "score": 0.26237579583117393,
+          "rank": 15,
+          "tie_interval": [
+            15,
+            15
+          ],
+          "informative": true
+        },
+        "H_random": {
+          "score": 0.5598077536467951,
+          "rank": 15,
+          "tie_interval": [
+            15,
+            15
+          ],
+          "informative": true
+        },
+        "F_structure": "not applicable: V1 F is a whole-ticket structure objective with no number-level ranking"
+      },
+      "features": {
+        "frequency": "28",
+        "appearance_rate": "0.15555555555555556",
+        "ew_rate": "0.17048287245078322",
+        "last_30_count": "6",
+        "last_20_count": "4",
+        "last_10_count": "2",
+        "current_gap": "8",
+        "current_gap_percentile": "0.7777777777777778",
+        "trend_20_vs_previous40": "0.05000000000000002",
+        "frequency_holm_p": "1.0",
+        "retained_pair_partners": []
+      },
+      "family_top12_support": [
+        "C_gap"
+      ]
+    },
+    "33": {
+      "role": "winner",
+      "in_v1_ticket": false,
+      "models": {
+        "A_long": {
+          "score": 1.2179885758832654,
+          "rank": 4,
+          "tie_interval": [
+            4,
+            5
+          ],
+          "informative": true
+        },
+        "B_recent": {
+          "score": -0.8430702578334025,
+          "rank": 29,
+          "tie_interval": [
+            29,
+            29
+          ],
+          "informative": true
+        },
+        "C_gap": {
+          "score": 0.6173379537089236,
+          "rank": 9,
+          "tie_interval": [
+            9,
+            9
+          ],
+          "informative": true
+        },
+        "D_trend": {
+          "score": 0.45568659539233614,
+          "rank": 13,
+          "tie_interval": [
+            12,
+            16
+          ],
+          "informative": true
+        },
+        "E_pairs": {
+          "score": 0.0,
+          "rank": 14,
+          "tie_interval": [
+            1,
+            38
+          ],
+          "informative": false
+        },
+        "G_marginal_proxy": {
+          "score": 0.2284328484300272,
+          "rank": 16,
+          "tie_interval": [
+            16,
+            16
+          ],
+          "informative": true
+        },
+        "H_random": {
+          "score": 0.8347304042188688,
+          "rank": 5,
+          "tie_interval": [
+            5,
+            5
+          ],
+          "informative": true
+        },
+        "F_structure": "not applicable: V1 F is a whole-ticket structure objective with no number-level ranking"
+      },
+      "features": {
+        "frequency": "34",
+        "appearance_rate": "0.18888888888888888",
+        "ew_rate": "0.11745113535023105",
+        "last_30_count": "3",
+        "last_20_count": "3",
+        "last_10_count": "1",
+        "current_gap": "9",
+        "current_gap_percentile": "0.8181818181818182",
+        "trend_20_vs_previous40": "0.04999999999999999",
+        "frequency_holm_p": "1.0",
+        "retained_pair_partners": []
+      },
+      "family_top12_support": [
+        "A_long",
+        "C_gap"
+      ]
+    },
+    "38": {
+      "role": "winner",
+      "in_v1_ticket": true,
+      "models": {
+        "A_long": {
+          "score": 1.4363072828812096,
+          "rank": 3,
+          "tie_interval": [
+            3,
+            3
+          ],
+          "informative": true
+        },
+        "B_recent": {
+          "score": 0.9405098666233631,
+          "rank": 7,
+          "tie_interval": [
+            7,
+            7
+          ],
+          "informative": true
+        },
+        "C_gap": {
+          "score": 1.5265954049081139,
+          "rank": 4,
+          "tie_interval": [
+            4,
+            4
+          ],
+          "informative": true
+        },
+        "D_trend": {
+          "score": -0.45568659539233614,
+          "rank": 27,
+          "tie_interval": [
+            25,
+            27
+          ],
+          "informative": true
+        },
+        "E_pairs": {
+          "score": 0.0,
+          "rank": 32,
+          "tie_interval": [
+            1,
+            38
+          ],
+          "informative": false
+        },
+        "G_marginal_proxy": {
+          "score": 0.6017701365522687,
+          "rank": 9,
+          "tie_interval": [
+            9,
+            9
+          ],
+          "informative": true
+        },
+        "H_random": {
+          "score": 0.21240549286264976,
+          "rank": 35,
+          "tie_interval": [
+            35,
+            35
+          ],
+          "informative": true
+        },
+        "F_structure": "not applicable: V1 F is a whole-ticket structure objective with no number-level ranking"
+      },
+      "features": {
+        "frequency": "35",
+        "appearance_rate": "0.19444444444444445",
+        "ew_rate": "0.19216013786602923",
+        "last_30_count": "7",
+        "last_20_count": "4",
+        "last_10_count": "0",
+        "current_gap": "14",
+        "current_gap_percentile": "0.9705882352941176",
+        "trend_20_vs_previous40": "-0.04999999999999999",
+        "frequency_holm_p": "1.0",
+        "retained_pair_partners": []
+      },
+      "family_top12_support": [
+        "A_long",
+        "B_recent",
+        "C_gap"
+      ]
+    },
+    "13": {
+      "role": "selected_loser",
+      "in_v1_ticket": true,
+      "models": {
+        "A_long": {
+          "score": 0.781351161887378,
+          "rank": 7,
+          "tie_interval": [
+            7,
+            12
+          ],
+          "informative": true
+        },
+        "B_recent": {
+          "score": 1.7536894343897051,
+          "rank": 2,
+          "tie_interval": [
+            2,
+            2
+          ],
+          "informative": true
+        },
+        "C_gap": {
+          "score": -0.8374739682097803,
+          "rank": 28,
+          "tie_interval": [
+            28,
+            32
+          ],
+          "informative": true
+        },
+        "D_trend": {
+          "score": 1.5949030838731768,
+          "rank": 3,
+          "tie_interval": [
+            3,
+            3
+          ],
+          "informative": true
+        },
+        "E_pairs": {
+          "score": 0.0,
+          "rank": 3,
+          "tie_interval": [
+            1,
+            38
+          ],
+          "informative": false
+        },
+        "G_marginal_proxy": {
+          "score": 1.2868414803304982,
+          "rank": 3,
+          "tie_interval": [
+            3,
+            3
+          ],
+          "informative": true
+        },
+        "H_random": {
+          "score": 0.9122937842711819,
+          "rank": 1,
+          "tie_interval": [
+            1,
+            1
+          ],
+          "informative": true
+        },
+        "F_structure": "not applicable: V1 F is a whole-ticket structure objective with no number-level ranking"
+      },
+      "features": {
+        "frequency": "32",
+        "appearance_rate": "0.17777777777777778",
+        "ew_rate": "0.25367859976360746",
+        "last_30_count": "8",
+        "last_20_count": "6",
+        "last_10_count": "5",
+        "current_gap": "1",
+        "current_gap_percentile": "0.25806451612903225",
+        "trend_20_vs_previous40": "0.175",
+        "frequency_holm_p": "1.0",
+        "retained_pair_partners": []
+      },
+      "family_top12_support": [
+        "A_long",
+        "B_recent",
+        "D_trend"
+      ]
+    },
+    "14": {
+      "role": "selected_loser",
+      "in_v1_ticket": true,
+      "models": {
+        "A_long": {
+          "score": -0.09192366610439805,
+          "rank": 18,
+          "tie_interval": [
+            17,
+            20
+          ],
+          "informative": true
+        },
+        "B_recent": {
+          "score": 1.1201994484423836,
+          "rank": 5,
+          "tie_interval": [
+            5,
+            5
+          ],
+          "informative": true
+        },
+        "C_gap": {
+          "score": -1.0193254584496183,
+          "rank": 34,
+          "tie_interval": [
+            33,
+            38
+          ],
+          "informative": true
+        },
+        "D_trend": {
+          "score": 0.4556865953923364,
+          "rank": 14,
+          "tie_interval": [
+            12,
+            16
+          ],
+          "informative": true
+        },
+        "E_pairs": {
+          "score": 0.0,
+          "rank": 16,
+          "tie_interval": [
+            1,
+            38
+          ],
+          "informative": false
+        },
+        "G_marginal_proxy": {
+          "score": 0.47483332153706886,
+          "rank": 11,
+          "tie_interval": [
+            11,
+            11
+          ],
+          "informative": true
+        },
+        "H_random": {
+          "score": 0.4418618463997753,
+          "rank": 23,
+          "tie_interval": [
+            23,
+            23
+          ],
+          "informative": true
+        },
+        "F_structure": "not applicable: V1 F is a whole-ticket structure objective with no number-level ranking"
+      },
+      "features": {
+        "frequency": "28",
+        "appearance_rate": "0.15555555555555556",
+        "ew_rate": "0.17978635651288444",
+        "last_30_count": "8",
+        "last_20_count": "4",
+        "last_10_count": "1",
+        "current_gap": "0",
+        "current_gap_percentile": "0.25925925925925924",
+        "trend_20_vs_previous40": "0.05000000000000002",
+        "frequency_holm_p": "1.0",
+        "retained_pair_partners": []
+      },
+      "family_top12_support": [
+        "B_recent"
+      ]
+    },
+    "24": {
+      "role": "selected_loser",
+      "in_v1_ticket": true,
+      "models": {
+        "A_long": {
+          "score": 1.2179885758832654,
+          "rank": 5,
+          "tie_interval": [
+            4,
+            5
+          ],
+          "informative": true
+        },
+        "B_recent": {
+          "score": 1.7926584924145659,
+          "rank": 1,
+          "tie_interval": [
+            1,
+            1
+          ],
+          "informative": true
+        },
+        "C_gap": {
+          "score": -0.2919194974902663,
+          "rank": 20,
+          "tie_interval": [
+            18,
+            21
+          ],
+          "informative": true
+        },
+        "D_trend": {
+          "score": 1.3670597861770086,
+          "rank": 4,
+          "tie_interval": [
+            4,
+            5
+          ],
+          "informative": true
+        },
+        "E_pairs": {
+          "score": 0.0,
+          "rank": 21,
+          "tie_interval": [
+            1,
+            38
+          ],
+          "informative": false
+        },
+        "G_marginal_proxy": {
+          "score": 1.3623590288940046,
+          "rank": 1,
+          "tie_interval": [
+            1,
+            1
+          ],
+          "informative": true
+        },
+        "H_random": {
+          "score": 0.7425827704544316,
+          "rank": 8,
+          "tie_interval": [
+            8,
+            8
+          ],
+          "informative": true
+        },
+        "F_structure": "not applicable: V1 F is a whole-ticket structure objective with no number-level ranking"
+      },
+      "features": {
+        "frequency": "34",
+        "appearance_rate": "0.18888888888888888",
+        "ew_rate": "0.2248907386219435",
+        "last_30_count": "9",
+        "last_20_count": "6",
+        "last_10_count": "3",
+        "current_gap": "4",
+        "current_gap_percentile": "0.6363636363636364",
+        "trend_20_vs_previous40": "0.15",
+        "frequency_holm_p": "1.0",
+        "retained_pair_partners": []
+      },
+      "family_top12_support": [
+        "A_long",
+        "B_recent",
+        "D_trend"
+      ]
+    }
+  },
+  "flat_or_non_informative": [
+    "E_pairs",
+    "F_structure (no number-level ranking)"
+  ],
+  "retained_pairs_at_cutoff": 0,
+  "coverage": {
+    "A_long": {
+      "5": {
+        "point": 2,
+        "min": 2,
+        "max": 2,
+        "random_expected": 0.7894736842105263,
+        "p_ge_point": 0.16895577576692128
+      },
+      "7": {
+        "point": 3,
+        "min": 3,
+        "max": 4,
+        "random_expected": 1.105263157894737,
+        "p_ge_point": 0.06312138200683093
+      },
+      "10": {
+        "point": 4,
+        "min": 3,
+        "max": 4,
+        "random_expected": 1.5789473684210527,
+        "p_ge_point": 0.03138573417211188
+      },
+      "12": {
+        "point": 4,
+        "min": 4,
+        "max": 4,
+        "random_expected": 1.894736842105263,
+        "p_ge_point": 0.06606739424076885
+      },
+      "15": {
+        "point": 5,
+        "min": 5,
+        "max": 5,
+        "random_expected": 2.3684210526315788,
+        "p_ge_point": 0.026831785345717233
+      },
+      "20": {
+        "point": 6,
+        "min": 6,
+        "max": 6,
+        "random_expected": 3.1578947368421053,
+        "p_ge_point": 0.01404001404001404
+      },
+      "25": {
+        "point": 6,
+        "min": 6,
+        "max": 6,
+        "random_expected": 3.9473684210526314,
+        "p_ge_point": 0.0641508381446462
+      }
+    },
+    "B_recent": {
+      "5": {
+        "point": 1,
+        "min": 1,
+        "max": 1,
+        "random_expected": 0.7894736842105263,
+        "p_ge_point": 0.5988062365771344
+      },
+      "7": {
+        "point": 2,
+        "min": 2,
+        "max": 2,
+        "random_expected": 1.105263157894737,
+        "p_ge_point": 0.3024699340488814
+      },
+      "10": {
+        "point": 3,
+        "min": 3,
+        "max": 3,
+        "random_expected": 1.5789473684210527,
+        "p_ge_point": 0.17378538121572176
+      },
+      "12": {
+        "point": 3,
+        "min": 3,
+        "max": 3,
+        "random_expected": 1.894736842105263,
+        "p_ge_point": 0.27326264787565097
+      },
+      "15": {
+        "point": 5,
+        "min": 5,
+        "max": 5,
+        "random_expected": 2.3684210526315788,
+        "p_ge_point": 0.026831785345717233
+      },
+      "20": {
+        "point": 5,
+        "min": 5,
+        "max": 5,
+        "random_expected": 3.1578947368421053,
+        "p_ge_point": 0.11512811512811513
+      },
+      "25": {
+        "point": 5,
+        "min": 5,
+        "max": 5,
+        "random_expected": 3.9473684210526314,
+        "p_ge_point": 0.3143391069087664
+      }
+    },
+    "C_gap": {
+      "5": {
+        "point": 1,
+        "min": 1,
+        "max": 1,
+        "random_expected": 0.7894736842105263,
+        "p_ge_point": 0.5988062365771344
+      },
+      "7": {
+        "point": 1,
+        "min": 1,
+        "max": 1,
+        "random_expected": 1.105263157894737,
+        "p_ge_point": 0.7332973277245723
+      },
+      "10": {
+        "point": 2,
+        "min": 2,
+        "max": 3,
+        "random_expected": 1.5789473684210527,
+        "p_ge_point": 0.5075345539741825
+      },
+      "12": {
+        "point": 3,
+        "min": 3,
+        "max": 3,
+        "random_expected": 1.894736842105263,
+        "p_ge_point": 0.27326264787565097
+      },
+      "15": {
+        "point": 3,
+        "min": 3,
+        "max": 3,
+        "random_expected": 2.3684210526315788,
+        "p_ge_point": 0.4438122332859175
+      },
+      "20": {
+        "point": 3,
+        "min": 3,
+        "max": 3,
+        "random_expected": 3.1578947368421053,
+        "p_ge_point": 0.7206037206037206
+      },
+      "25": {
+        "point": 3,
+        "min": 3,
+        "max": 3,
+        "random_expected": 3.9473684210526314,
+        "p_ge_point": 0.9100254611090525
+      }
+    },
+    "D_trend": {
+      "5": {
+        "point": 1,
+        "min": 1,
+        "max": 1,
+        "random_expected": 0.7894736842105263,
+        "p_ge_point": 0.5988062365771344
+      },
+      "7": {
+        "point": 2,
+        "min": 1,
+        "max": 2,
+        "random_expected": 1.105263157894737,
+        "p_ge_point": 0.3024699340488814
+      },
+      "10": {
+        "point": 2,
+        "min": 2,
+        "max": 2,
+        "random_expected": 1.5789473684210527,
+        "p_ge_point": 0.5075345539741825
+      },
+      "12": {
+        "point": 2,
+        "min": 2,
+        "max": 3,
+        "random_expected": 1.894736842105263,
+        "p_ge_point": 0.6306744603958226
+      },
+      "15": {
+        "point": 3,
+        "min": 3,
+        "max": 4,
+        "random_expected": 2.3684210526315788,
+        "p_ge_point": 0.4438122332859175
+      },
+      "20": {
+        "point": 5,
+        "min": 4,
+        "max": 5,
+        "random_expected": 3.1578947368421053,
+        "p_ge_point": 0.11512811512811513
+      },
+      "25": {
+        "point": 5,
+        "min": 5,
+        "max": 6,
+        "random_expected": 3.9473684210526314,
+        "p_ge_point": 0.3143391069087664
+      }
+    },
+    "G_marginal_proxy": {
+      "5": {
+        "point": 1,
+        "min": 1,
+        "max": 1,
+        "random_expected": 0.7894736842105263,
+        "p_ge_point": 0.5988062365771344
+      },
+      "7": {
+        "point": 2,
+        "min": 2,
+        "max": 2,
+        "random_expected": 1.105263157894737,
+        "p_ge_point": 0.3024699340488814
+      },
+      "10": {
+        "point": 3,
+        "min": 3,
+        "max": 3,
+        "random_expected": 1.5789473684210527,
+        "p_ge_point": 0.17378538121572176
+      },
+      "12": {
+        "point": 3,
+        "min": 3,
+        "max": 3,
+        "random_expected": 1.894736842105263,
+        "p_ge_point": 0.27326264787565097
+      },
+      "15": {
+        "point": 5,
+        "min": 5,
+        "max": 5,
+        "random_expected": 2.3684210526315788,
+        "p_ge_point": 0.026831785345717233
+      },
+      "20": {
+        "point": 6,
+        "min": 6,
+        "max": 6,
+        "random_expected": 3.1578947368421053,
+        "p_ge_point": 0.01404001404001404
+      },
+      "25": {
+        "point": 6,
+        "min": 6,
+        "max": 6,
+        "random_expected": 3.9473684210526314,
+        "p_ge_point": 0.0641508381446462
+      }
+    },
+    "H_random": {
+      "5": {
+        "point": 1,
+        "min": 1,
+        "max": 1,
+        "random_expected": 0.7894736842105263,
+        "p_ge_point": 0.5988062365771344
+      },
+      "7": {
+        "point": 2,
+        "min": 2,
+        "max": 2,
+        "random_expected": 1.105263157894737,
+        "p_ge_point": 0.3024699340488814
+      },
+      "10": {
+        "point": 3,
+        "min": 3,
+        "max": 3,
+        "random_expected": 1.5789473684210527,
+        "p_ge_point": 0.17378538121572176
+      },
+      "12": {
+        "point": 3,
+        "min": 3,
+        "max": 3,
+        "random_expected": 1.894736842105263,
+        "p_ge_point": 0.27326264787565097
+      },
+      "15": {
+        "point": 4,
+        "min": 4,
+        "max": 4,
+        "random_expected": 2.3684210526315788,
+        "p_ge_point": 0.1519259197277773
+      },
+      "20": {
+        "point": 5,
+        "min": 5,
+        "max": 5,
+        "random_expected": 3.1578947368421053,
+        "p_ge_point": 0.11512811512811513
+      },
+      "25": {
+        "point": 5,
+        "min": 5,
+        "max": 5,
+        "random_expected": 3.9473684210526314,
+        "p_ge_point": 0.3143391069087664
+      }
+    }
+  },
+  "note": "Scores/ranks are the exact frozen pre-draw values (refreshed_rankings.json); H uses the V1 walk H definition for target 2341. Tie intervals give the rank range among exactly equal scores."
+}

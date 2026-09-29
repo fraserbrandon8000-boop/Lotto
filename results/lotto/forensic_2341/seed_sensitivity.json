@@ -1,0 +1,202 @@
+{
+  "targets": [
+    2211,
+    2341
+  ],
+  "n_targets": 131,
+  "qualified_targets_flagged": [
+    2249,
+    2250,
+    2251,
+    2252
+  ],
+  "production_seed": {
+    "same_id_consecutive": 0.1,
+    "top_id_share": 0.48091603053435117,
+    "distinct_ids": 5,
+    "generator_shares": {
+      "B_recent": 0.6183206106870229,
+      "C_gap": 0.3816793893129771
+    },
+    "mean_consecutive_overlap": 0.7230769230769231,
+    "exact_ticket_repeat_lag2": 0.12403100775193798,
+    "core_numbers_selection_rate": {
+      "1": 0.183206106870229,
+      "4": 0.3053435114503817,
+      "13": 0.16030534351145037,
+      "24": 0.13740458015267176,
+      "38": 0.25190839694656486
+    },
+    "max_number_selection_rate": 0.3053435114503817,
+    "mean_matches": 0.8549618320610687,
+    "sd_matches": 0.904026356019644,
+    "ge3": 7
+  },
+  "fixed_seed_designs": {
+    "same_id_consecutive": {
+      "mean": 0.08623684008299393,
+      "p05": 0.0,
+      "p95": 0.18461538461538463
+    },
+    "top_id_share": {
+      "mean": 0.41354828377729136,
+      "p05": 0.2824427480916031,
+      "p95": 0.5267175572519084
+    },
+    "distinct_ids": {
+      "mean": 4.78021978021978,
+      "p05": 2.0,
+      "p95": 7.0
+    },
+    "mean_consecutive_overlap": {
+      "mean": 1.000929839391378,
+      "p05": 0.34615384615384615,
+      "p95": 1.623076923076923
+    },
+    "exact_ticket_repeat_lag2": {
+      "mean": 0.3597255457720574,
+      "p05": 0.06976744186046512,
+      "p95": 0.7906976744186046
+    },
+    "max_number_selection_rate": {
+      "mean": 0.5008426687816001,
+      "p05": 0.25190839694656486,
+      "p95": 0.916030534351145
+    },
+    "mean_matches": {
+      "mean": 0.9382525871075489,
+      "p05": 0.8244274809160306,
+      "p95": 1.0534351145038168
+    },
+    "sd_matches": {
+      "mean": 0.8335675415647051,
+      "p05": 0.7520572684681559,
+      "p95": 0.9068150662060578
+    },
+    "ge3": {
+      "mean": 5.27072927072927,
+      "p05": 2.0,
+      "p95": 9.0
+    }
+  },
+  "per_draw_seed_designs": {
+    "same_id_consecutive": {
+      "mean": 0.013140705448397755,
+      "p05": 0.0,
+      "p95": 0.03076923076923077
+    },
+    "top_id_share": {
+      "mean": 0.08926188315501293,
+      "p05": 0.07633587786259542,
+      "p95": 0.11450381679389313
+    },
+    "distinct_ids": {
+      "mean": 19.96803196803197,
+      "p05": 20.0,
+      "p95": 20.0
+    },
+    "mean_consecutive_overlap": {
+      "mean": 0.9065857219703375,
+      "p05": 0.8,
+      "p95": 1.023076923076923
+    },
+    "exact_ticket_repeat_lag2": {
+      "mean": 0.03771422376073539,
+      "p05": 0.015503875968992248,
+      "p95": 0.06976744186046512
+    },
+    "max_number_selection_rate": {
+      "mean": 0.33686923763259646,
+      "p05": 0.2900763358778626,
+      "p95": 0.3893129770992366
+    },
+    "mean_matches": {
+      "mean": 0.943018813247821,
+      "p05": 0.8320610687022901,
+      "p95": 1.0534351145038168
+    },
+    "sd_matches": {
+      "mean": 0.8298123578575418,
+      "p05": 0.7505723007318843,
+      "p95": 0.9117874915953346
+    },
+    "ge3": {
+      "mean": 4.903096903096903,
+      "p05": 2.0,
+      "p95": 9.0
+    }
+  },
+  "fixed_seed_no_overlap_rule": {
+    "same_id_consecutive": {
+      "mean": 1.0,
+      "p05": 1.0,
+      "p95": 1.0
+    },
+    "top_id_share": {
+      "mean": 1.0,
+      "p05": 1.0,
+      "p95": 1.0
+    },
+    "distinct_ids": {
+      "mean": 1.0,
+      "p05": 1.0,
+      "p95": 1.0
+    },
+    "mean_consecutive_overlap": {
+      "mean": 4.326865671641792,
+      "p05": 2.723076923076923,
+      "p95": 6.0
+    },
+    "exact_ticket_repeat_lag2": {
+      "mean": 0.45763430907478114,
+      "p05": 0.015503875968992248,
+      "p95": 1.0
+    },
+    "max_number_selection_rate": {
+      "mean": 0.5846720595495803,
+      "p05": 0.2595419847328244,
+      "p95": 1.0
+    },
+    "mean_matches": {
+      "mean": 0.9469446659830617,
+      "p05": 0.8091603053435115,
+      "p95": 1.0916030534351144
+    },
+    "sd_matches": {
+      "mean": 0.8332118181939684,
+      "p05": 0.7556403684374028,
+      "p95": 0.9319159889454324
+    },
+    "ge3": {
+      "mean": 4.82089552238806,
+      "p05": 1.0,
+      "p95": 8.0
+    }
+  },
+  "production_percentile_among_1000_fixed_seeds": {
+    "same_id_consecutive": 0.387,
+    "top_id_share": 0.268,
+    "distinct_ids": 0.611,
+    "mean_consecutive_overlap": 0.774,
+    "exact_ticket_repeat_lag2": 0.75,
+    "max_number_selection_rate": 0.706,
+    "mean_matches": 0.868,
+    "sd_matches": 0.069,
+    "ge3": 0.261
+  },
+  "b_recent_share": {
+    "production": 0.6183206106870229,
+    "fixed_mean": {
+      "mean": 0.17058514005078892,
+      "p05": 0.0,
+      "p95": 0.6793893129770993
+    },
+    "per_draw_mean": {
+      "mean": 0.13386613386613386,
+      "p05": 0.0916030534351145,
+      "p95": 0.17557251908396945
+    },
+    "uniform_reference": 0.15
+  },
+  "note": "Research only. Production seed unchanged. Fixed-seed designs re-create a fresh generator each run (as V1 does); per-draw designs use seed + target draw_id. Outcomes: reconstructed history through #2340 plus the user-supplied #2341 result."
+}

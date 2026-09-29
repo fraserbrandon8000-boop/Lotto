@@ -1,0 +1,83 @@
+{
+ "frozen_embedded_hashes": {
+  "results/lotto/draw2341/PROTOCOL.txt": "exact",
+  "results/lotto/draw2341/draws.json": "exact",
+  "results/lotto/draw2341/metadata.json": "exact",
+  "results/lotto/draw2341/candidates.json": "exact",
+  "results/lotto/draw2341/refreshed_rankings.json": "exact",
+  "results/lotto/draw2341/model_performance.json": "exact",
+  "results/lotto/draw2341/candidate_sensitivity.json": "exact",
+  "results/lotto/draw2341/jev_state.json": "exact",
+  "results/lotto/draw2341/jev_request.json": "exact",
+  "results/lotto/draw2341/jev_response.json": "exact",
+  "results/lotto/draw2341/jev_receipt.json": "exact",
+  "results/lotto/draw2341/pool_frozen_pre_jev.json": "exact",
+  "scripts/analyze.py": "exact",
+  "scripts/jev.mjs": "exact",
+  "scripts/research/lotto_prospective.py": "exact",
+  "scripts/research/lotto_prospective_jev.mjs": "exact",
+  "scripts/research/freeze_prospective.py": "exact"
+ },
+ "pool_freeze_hashes": {
+  "PROTOCOL.txt": "exact",
+  "draws.json": "exact",
+  "candidates.json": "exact",
+  "model_performance.json": "exact",
+  "candidate_sensitivity.json": "exact",
+  "refreshed_rankings.json": "exact",
+  "metadata.json": "exact",
+  "jev_state.json": "exact"
+ },
+ "ledger_entries_2341": [
+  {
+   "event": "additional_prediction_frozen",
+   "created_utc": "2026-09-27T01:15:46.055596+00:00",
+   "target_draw": 2341,
+   "path": "results/lotto/draw2341/frozen.json",
+   "sha256": "b458d76c6298fa8afac3901b428e89d247e944b3e3ad57c408c74c45db996870",
+   "numbers": [
+    1,
+    4,
+    13,
+    14,
+    24,
+    38
+   ]
+  }
+ ],
+ "ledger_sha_matches_frozen_json": true,
+ "ledger_numbers_match": true,
+ "receipt_state_sha_matches": true,
+ "receipt_request_sha_matches_saved_request": true,
+ "request_model": "jev-latest",
+ "response_model": "jev-1.13.0",
+ "n_questions": 113,
+ "n_answers": 113,
+ "request_state_equals_jev_state_candidates": true,
+ "frozen_fields_match_response": {
+  "choice_prob": true,
+  "confidence": true,
+  "preferred": true,
+  "model": true
+ },
+ "frozen_ticket_matches_pool": true,
+ "commit_chronology": {
+  "results/lotto/draw2341/candidates.json": "c5abf27 2026-09-27T01:15:13+00:00",
+  "results/lotto/draw2341/pool_frozen_pre_jev.json": "c5abf27 2026-09-27T01:15:13+00:00",
+  "results/lotto/draw2341/jev_request.json": "28c78bd 2026-09-27T01:15:53+00:00",
+  "results/lotto/draw2341/jev_response.json": "28c78bd 2026-09-27T01:15:53+00:00",
+  "results/lotto/draw2341/frozen.json": "28c78bd 2026-09-27T01:15:53+00:00"
+ },
+ "pool_files_unchanged_after_pool_commit": true,
+ "v1_code_unchanged_since_snapshot": true,
+ "timestamps_utc": {
+  "pool_frozen": "2026-09-27T01:15:00.259446+00:00",
+  "jev_receipt": "2026-09-27T01:15:14.860Z",
+  "ticket_frozen": "2026-09-27T01:15:46.055596+00:00",
+  "scheduled_draw": "2026-09-27T01:25:00Z (8:25 PM Jamaica, per user)",
+  "freeze_script_deadline_assert": "now < 2026-09-27T01:25:00Z",
+  "push_of_28c78bd_observed": "2026-09-27T01:15:55Z (session transcript)"
+ },
+ "frozen_before_draw": true,
+ "ALL_CHECKS_PASS": true
+}

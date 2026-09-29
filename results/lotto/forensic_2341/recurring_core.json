@@ -1,0 +1,1502 @@
+{
+  "core": [
+    1,
+    4,
+    13,
+    24,
+    38
+  ],
+  "recent_runs": {
+    "2339": {
+      "n_eligible": 20,
+      "eligible_ids": [
+        "C01",
+        "C02",
+        "C03",
+        "C04",
+        "C05",
+        "C06",
+        "C07",
+        "C08",
+        "C09",
+        "C10",
+        "C11",
+        "C12",
+        "C13",
+        "C14",
+        "C15",
+        "C16",
+        "C17",
+        "C18",
+        "C19",
+        "C20"
+      ],
+      "final_id": "C05",
+      "jev_preferred_id": "C02",
+      "jev_preferred_numbers": [
+        2,
+        10,
+        13,
+        18,
+        24,
+        33
+      ],
+      "generators": {
+        "C01": "A_long",
+        "C02": "A_long",
+        "C03": "A_long",
+        "C04": "B_recent",
+        "C05": "B_recent",
+        "C06": "B_recent",
+        "C07": "C_gap",
+        "C08": "C_gap",
+        "C09": "C_gap",
+        "C10": "D_trend",
+        "C11": "D_trend",
+        "C12": "D_trend",
+        "C13": "E_pairs",
+        "C14": "E_pairs",
+        "C15": "E_pairs",
+        "C16": "F_structure",
+        "C17": "F_structure",
+        "C18": "F_structure",
+        "C19": "G_ensemble",
+        "C20": "H_random"
+      },
+      "core": {
+        "1": {
+          "ranks": {
+            "A_long": 6,
+            "B_recent": 10,
+            "C_gap": 34,
+            "D_trend": 8,
+            "G_marginal_proxy": 6
+          },
+          "top": {
+            "5": [],
+            "10": [
+              "A_long",
+              "B_recent",
+              "D_trend",
+              "G_marginal_proxy"
+            ],
+            "15": [
+              "A_long",
+              "B_recent",
+              "D_trend",
+              "G_marginal_proxy"
+            ],
+            "20": [
+              "A_long",
+              "B_recent",
+              "D_trend",
+              "G_marginal_proxy"
+            ]
+          },
+          "in_candidates": [
+            "C01",
+            "C04",
+            "C05",
+            "C06",
+            "C13"
+          ],
+          "in_eligible": [
+            "C01",
+            "C04",
+            "C05",
+            "C06",
+            "C13"
+          ],
+          "in_v1_final": true,
+          "in_jev_preferred": false,
+          "in_outcome": true
+        },
+        "4": {
+          "ranks": {
+            "A_long": 13,
+            "B_recent": 9,
+            "C_gap": 32,
+            "D_trend": 4,
+            "G_marginal_proxy": 5
+          },
+          "top": {
+            "5": [
+              "D_trend",
+              "G_marginal_proxy"
+            ],
+            "10": [
+              "B_recent",
+              "D_trend",
+              "G_marginal_proxy"
+            ],
+            "15": [
+              "A_long",
+              "B_recent",
+              "D_trend",
+              "G_marginal_proxy"
+            ],
+            "20": [
+              "A_long",
+              "B_recent",
+              "D_trend",
+              "G_marginal_proxy"
+            ]
+          },
+          "in_candidates": [
+            "C05",
+            "C06",
+            "C10",
+            "C11",
+            "C12",
+            "C17"
+          ],
+          "in_eligible": [
+            "C05",
+            "C06",
+            "C10",
+            "C11",
+            "C12",
+            "C17"
+          ],
+          "in_v1_final": true,
+          "in_jev_preferred": false,
+          "in_outcome": true
+        },
+        "13": {
+          "ranks": {
+            "A_long": 12,
+            "B_recent": 4,
+            "C_gap": 37,
+            "D_trend": 2,
+            "G_marginal_proxy": 2
+          },
+          "top": {
+            "5": [
+              "B_recent",
+              "D_trend",
+              "G_marginal_proxy"
+            ],
+            "10": [
+              "B_recent",
+              "D_trend",
+              "G_marginal_proxy"
+            ],
+            "15": [
+              "A_long",
+              "B_recent",
+              "D_trend",
+              "G_marginal_proxy"
+            ],
+            "20": [
+              "A_long",
+              "B_recent",
+              "D_trend",
+              "G_marginal_proxy"
+            ]
+          },
+          "in_candidates": [
+            "C02",
+            "C05",
+            "C06",
+            "C10",
+            "C16",
+            "C19"
+          ],
+          "in_eligible": [
+            "C02",
+            "C05",
+            "C06",
+            "C10",
+            "C16",
+            "C19"
+          ],
+          "in_v1_final": true,
+          "in_jev_preferred": true,
+          "in_outcome": true
+        },
+        "24": {
+          "ranks": {
+            "A_long": 4,
+            "B_recent": 1,
+            "C_gap": 26,
+            "D_trend": 1,
+            "G_marginal_proxy": 1
+          },
+          "top": {
+            "5": [
+              "A_long",
+              "B_recent",
+              "D_trend",
+              "G_marginal_proxy"
+            ],
+            "10": [
+              "A_long",
+              "B_recent",
+              "D_trend",
+              "G_marginal_proxy"
+            ],
+            "15": [
+              "A_long",
+              "B_recent",
+              "D_trend",
+              "G_marginal_proxy"
+            ],
+            "20": [
+              "A_long",
+              "B_recent",
+              "D_trend",
+              "G_marginal_proxy"
+            ]
+          },
+          "in_candidates": [
+            "C01",
+            "C02",
+            "C04",
+            "C05",
+            "C08",
+            "C10",
+            "C11",
+            "C14",
+            "C16",
+            "C19"
+          ],
+          "in_eligible": [
+            "C01",
+            "C02",
+            "C04",
+            "C05",
+            "C08",
+            "C10",
+            "C11",
+            "C14",
+            "C16",
+            "C19"
+          ],
+          "in_v1_final": true,
+          "in_jev_preferred": true,
+          "in_outcome": false
+        },
+        "38": {
+          "ranks": {
+            "A_long": 3,
+            "B_recent": 6,
+            "C_gap": 5,
+            "D_trend": 26,
+            "G_marginal_proxy": 11
+          },
+          "top": {
+            "5": [
+              "A_long",
+              "C_gap"
+            ],
+            "10": [
+              "A_long",
+              "B_recent",
+              "C_gap"
+            ],
+            "15": [
+              "A_long",
+              "B_recent",
+              "C_gap",
+              "G_marginal_proxy"
+            ],
+            "20": [
+              "A_long",
+              "B_recent",
+              "C_gap",
+              "G_marginal_proxy"
+            ]
+          },
+          "in_candidates": [
+            "C04",
+            "C05",
+            "C07",
+            "C15",
+            "C20"
+          ],
+          "in_eligible": [
+            "C04",
+            "C05",
+            "C07",
+            "C15",
+            "C20"
+          ],
+          "in_v1_final": true,
+          "in_jev_preferred": false,
+          "in_outcome": false
+        }
+      },
+      "e_pairs_informative": false
+    },
+    "2340": {
+      "n_eligible": 16,
+      "eligible_ids": [
+        "C01",
+        "C02",
+        "C03",
+        "C07",
+        "C08",
+        "C09",
+        "C10",
+        "C11",
+        "C12",
+        "C13",
+        "C14",
+        "C15",
+        "C16",
+        "C17",
+        "C18",
+        "C20"
+      ],
+      "final_id": "C07",
+      "jev_preferred_id": "C02",
+      "jev_preferred_numbers": [
+        2,
+        10,
+        13,
+        18,
+        24,
+        33
+      ],
+      "generators": {
+        "C01": "A_long",
+        "C02": "A_long",
+        "C03": "A_long",
+        "C04": "B_recent",
+        "C05": "B_recent",
+        "C06": "B_recent",
+        "C07": "C_gap",
+        "C08": "C_gap",
+        "C09": "C_gap",
+        "C10": "D_trend",
+        "C11": "D_trend",
+        "C12": "D_trend",
+        "C13": "E_pairs",
+        "C14": "E_pairs",
+        "C15": "E_pairs",
+        "C16": "F_structure",
+        "C17": "F_structure",
+        "C18": "F_structure",
+        "C19": "G_ensemble",
+        "C20": "H_random"
+      },
+      "core": {
+        "1": {
+          "ranks": {
+            "A_long": 6,
+            "B_recent": 8,
+            "C_gap": 33,
+            "D_trend": 3,
+            "G_marginal_proxy": 4
+          },
+          "top": {
+            "5": [
+              "D_trend",
+              "G_marginal_proxy"
+            ],
+            "10": [
+              "A_long",
+              "B_recent",
+              "D_trend",
+              "G_marginal_proxy"
+            ],
+            "15": [
+              "A_long",
+              "B_recent",
+              "D_trend",
+              "G_marginal_proxy"
+            ],
+            "20": [
+              "A_long",
+              "B_recent",
+              "D_trend",
+              "G_marginal_proxy"
+            ]
+          },
+          "in_candidates": [
+            "C01",
+            "C04",
+            "C05",
+            "C13"
+          ],
+          "in_eligible": [
+            "C01",
+            "C13"
+          ],
+          "in_v1_final": false,
+          "in_jev_preferred": false,
+          "in_outcome": false
+        },
+        "4": {
+          "ranks": {
+            "A_long": 9,
+            "B_recent": 4,
+            "C_gap": 35,
+            "D_trend": 1,
+            "G_marginal_proxy": 2
+          },
+          "top": {
+            "5": [
+              "B_recent",
+              "D_trend",
+              "G_marginal_proxy"
+            ],
+            "10": [
+              "A_long",
+              "B_recent",
+              "D_trend",
+              "G_marginal_proxy"
+            ],
+            "15": [
+              "A_long",
+              "B_recent",
+              "D_trend",
+              "G_marginal_proxy"
+            ],
+            "20": [
+              "A_long",
+              "B_recent",
+              "D_trend",
+              "G_marginal_proxy"
+            ]
+          },
+          "in_candidates": [
+            "C04",
+            "C05",
+            "C06",
+            "C10",
+            "C11",
+            "C12",
+            "C16",
+            "C19"
+          ],
+          "in_eligible": [
+            "C10",
+            "C11",
+            "C12",
+            "C16"
+          ],
+          "in_v1_final": false,
+          "in_jev_preferred": false,
+          "in_outcome": false
+        },
+        "13": {
+          "ranks": {
+            "A_long": 12,
+            "B_recent": 2,
+            "C_gap": 38,
+            "D_trend": 2,
+            "G_marginal_proxy": 1
+          },
+          "top": {
+            "5": [
+              "B_recent",
+              "D_trend",
+              "G_marginal_proxy"
+            ],
+            "10": [
+              "B_recent",
+              "D_trend",
+              "G_marginal_proxy"
+            ],
+            "15": [
+              "A_long",
+              "B_recent",
+              "D_trend",
+              "G_marginal_proxy"
+            ],
+            "20": [
+              "A_long",
+              "B_recent",
+              "D_trend",
+              "G_marginal_proxy"
+            ]
+          },
+          "in_candidates": [
+            "C02",
+            "C04",
+            "C05",
+            "C06",
+            "C10",
+            "C11",
+            "C17",
+            "C19"
+          ],
+          "in_eligible": [
+            "C02",
+            "C10",
+            "C11",
+            "C17"
+          ],
+          "in_v1_final": false,
+          "in_jev_preferred": true,
+          "in_outcome": false
+        },
+        "24": {
+          "ranks": {
+            "A_long": 4,
+            "B_recent": 1,
+            "C_gap": 21,
+            "D_trend": 6,
+            "G_marginal_proxy": 3
+          },
+          "top": {
+            "5": [
+              "A_long",
+              "B_recent",
+              "G_marginal_proxy"
+            ],
+            "10": [
+              "A_long",
+              "B_recent",
+              "D_trend",
+              "G_marginal_proxy"
+            ],
+            "15": [
+              "A_long",
+              "B_recent",
+              "D_trend",
+              "G_marginal_proxy"
+            ],
+            "20": [
+              "A_long",
+              "B_recent",
+              "D_trend",
+              "G_marginal_proxy"
+            ]
+          },
+          "in_candidates": [
+            "C01",
+            "C02",
+            "C04",
+            "C06",
+            "C07",
+            "C12",
+            "C14",
+            "C17",
+            "C19"
+          ],
+          "in_eligible": [
+            "C01",
+            "C02",
+            "C07",
+            "C12",
+            "C14",
+            "C17"
+          ],
+          "in_v1_final": true,
+          "in_jev_preferred": true,
+          "in_outcome": false
+        },
+        "38": {
+          "ranks": {
+            "A_long": 3,
+            "B_recent": 7,
+            "C_gap": 4,
+            "D_trend": 27,
+            "G_marginal_proxy": 8
+          },
+          "top": {
+            "5": [
+              "A_long",
+              "C_gap"
+            ],
+            "10": [
+              "A_long",
+              "B_recent",
+              "C_gap",
+              "G_marginal_proxy"
+            ],
+            "15": [
+              "A_long",
+              "B_recent",
+              "C_gap",
+              "G_marginal_proxy"
+            ],
+            "20": [
+              "A_long",
+              "B_recent",
+              "C_gap",
+              "G_marginal_proxy"
+            ]
+          },
+          "in_candidates": [
+            "C04",
+            "C08",
+            "C09",
+            "C15",
+            "C20"
+          ],
+          "in_eligible": [
+            "C08",
+            "C09",
+            "C15",
+            "C20"
+          ],
+          "in_v1_final": false,
+          "in_jev_preferred": false,
+          "in_outcome": false
+        }
+      },
+      "e_pairs_informative": false
+    },
+    "2341": {
+      "n_eligible": 16,
+      "eligible_ids": [
+        "C01",
+        "C02",
+        "C03",
+        "C04",
+        "C05",
+        "C06",
+        "C10",
+        "C11",
+        "C12",
+        "C13",
+        "C14",
+        "C15",
+        "C16",
+        "C17",
+        "C19",
+        "C20"
+      ],
+      "final_id": "C04",
+      "jev_preferred_id": "C04",
+      "jev_preferred_numbers": [
+        1,
+        4,
+        13,
+        14,
+        24,
+        38
+      ],
+      "generators": {
+        "C01": "A_long",
+        "C02": "A_long",
+        "C03": "A_long",
+        "C04": "B_recent",
+        "C05": "B_recent",
+        "C06": "B_recent",
+        "C07": "C_gap",
+        "C08": "C_gap",
+        "C09": "C_gap",
+        "C10": "D_trend",
+        "C11": "D_trend",
+        "C12": "D_trend",
+        "C13": "E_pairs",
+        "C14": "E_pairs",
+        "C15": "E_pairs",
+        "C16": "F_structure",
+        "C17": "F_structure",
+        "C18": "F_structure",
+        "C19": "G_ensemble",
+        "C20": "H_random"
+      },
+      "core": {
+        "1": {
+          "ranks": {
+            "A_long": 6,
+            "B_recent": 8,
+            "C_gap": 29,
+            "D_trend": 6,
+            "G_marginal_proxy": 7
+          },
+          "top": {
+            "5": [],
+            "10": [
+              "A_long",
+              "B_recent",
+              "D_trend",
+              "G_marginal_proxy"
+            ],
+            "15": [
+              "A_long",
+              "B_recent",
+              "D_trend",
+              "G_marginal_proxy"
+            ],
+            "20": [
+              "A_long",
+              "B_recent",
+              "D_trend",
+              "G_marginal_proxy"
+            ]
+          },
+          "in_candidates": [
+            "C01",
+            "C04",
+            "C10",
+            "C13"
+          ],
+          "in_eligible": [
+            "C01",
+            "C04",
+            "C10",
+            "C13"
+          ],
+          "in_v1_final": true,
+          "in_jev_preferred": true,
+          "in_outcome": true
+        },
+        "4": {
+          "ranks": {
+            "A_long": 10,
+            "B_recent": 4,
+            "C_gap": 31,
+            "D_trend": 1,
+            "G_marginal_proxy": 2
+          },
+          "top": {
+            "5": [
+              "B_recent",
+              "D_trend",
+              "G_marginal_proxy"
+            ],
+            "10": [
+              "A_long",
+              "B_recent",
+              "D_trend",
+              "G_marginal_proxy"
+            ],
+            "15": [
+              "A_long",
+              "B_recent",
+              "D_trend",
+              "G_marginal_proxy"
+            ],
+            "20": [
+              "A_long",
+              "B_recent",
+              "D_trend",
+              "G_marginal_proxy"
+            ]
+          },
+          "in_candidates": [
+            "C04",
+            "C06",
+            "C10",
+            "C11",
+            "C12",
+            "C16",
+            "C19"
+          ],
+          "in_eligible": [
+            "C04",
+            "C06",
+            "C10",
+            "C11",
+            "C12",
+            "C16",
+            "C19"
+          ],
+          "in_v1_final": true,
+          "in_jev_preferred": true,
+          "in_outcome": true
+        },
+        "13": {
+          "ranks": {
+            "A_long": 7,
+            "B_recent": 2,
+            "C_gap": 28,
+            "D_trend": 3,
+            "G_marginal_proxy": 3
+          },
+          "top": {
+            "5": [
+              "B_recent",
+              "D_trend",
+              "G_marginal_proxy"
+            ],
+            "10": [
+              "A_long",
+              "B_recent",
+              "D_trend",
+              "G_marginal_proxy"
+            ],
+            "15": [
+              "A_long",
+              "B_recent",
+              "D_trend",
+              "G_marginal_proxy"
+            ],
+            "20": [
+              "A_long",
+              "B_recent",
+              "D_trend",
+              "G_marginal_proxy"
+            ]
+          },
+          "in_candidates": [
+            "C03",
+            "C04",
+            "C05",
+            "C06",
+            "C12",
+            "C17",
+            "C19"
+          ],
+          "in_eligible": [
+            "C03",
+            "C04",
+            "C05",
+            "C06",
+            "C12",
+            "C17",
+            "C19"
+          ],
+          "in_v1_final": true,
+          "in_jev_preferred": true,
+          "in_outcome": false
+        },
+        "24": {
+          "ranks": {
+            "A_long": 5,
+            "B_recent": 1,
+            "C_gap": 20,
+            "D_trend": 4,
+            "G_marginal_proxy": 1
+          },
+          "top": {
+            "5": [
+              "A_long",
+              "B_recent",
+              "D_trend",
+              "G_marginal_proxy"
+            ],
+            "10": [
+              "A_long",
+              "B_recent",
+              "D_trend",
+              "G_marginal_proxy"
+            ],
+            "15": [
+              "A_long",
+              "B_recent",
+              "D_trend",
+              "G_marginal_proxy"
+            ],
+            "20": [
+              "A_long",
+              "B_recent",
+              "C_gap",
+              "D_trend",
+              "G_marginal_proxy"
+            ]
+          },
+          "in_candidates": [
+            "C01",
+            "C03",
+            "C04",
+            "C05",
+            "C06",
+            "C07",
+            "C11",
+            "C14",
+            "C17",
+            "C19"
+          ],
+          "in_eligible": [
+            "C01",
+            "C03",
+            "C04",
+            "C05",
+            "C06",
+            "C11",
+            "C14",
+            "C17",
+            "C19"
+          ],
+          "in_v1_final": true,
+          "in_jev_preferred": true,
+          "in_outcome": false
+        },
+        "38": {
+          "ranks": {
+            "A_long": 3,
+            "B_recent": 7,
+            "C_gap": 4,
+            "D_trend": 27,
+            "G_marginal_proxy": 9
+          },
+          "top": {
+            "5": [
+              "A_long",
+              "C_gap"
+            ],
+            "10": [
+              "A_long",
+              "B_recent",
+              "C_gap",
+              "G_marginal_proxy"
+            ],
+            "15": [
+              "A_long",
+              "B_recent",
+              "C_gap",
+              "G_marginal_proxy"
+            ],
+            "20": [
+              "A_long",
+              "B_recent",
+              "C_gap",
+              "G_marginal_proxy"
+            ]
+          },
+          "in_candidates": [
+            "C04",
+            "C08",
+            "C15",
+            "C20"
+          ],
+          "in_eligible": [
+            "C04",
+            "C15",
+            "C20"
+          ],
+          "in_v1_final": true,
+          "in_jev_preferred": true,
+          "in_outcome": true
+        }
+      },
+      "e_pairs_informative": false
+    }
+  },
+  "long_run": {
+    "1": {
+      "top_rate": {
+        "A_long": {
+          "5": 0.06870229007633588,
+          "10": 0.6870229007633588,
+          "15": 0.8549618320610687,
+          "20": 0.9694656488549618
+        },
+        "B_recent": {
+          "5": 0.19083969465648856,
+          "10": 0.2748091603053435,
+          "15": 0.44274809160305345,
+          "20": 0.648854961832061
+        },
+        "C_gap": {
+          "5": 0.05343511450381679,
+          "10": 0.1984732824427481,
+          "15": 0.37404580152671757,
+          "20": 0.4961832061068702
+        },
+        "D_trend": {
+          "5": 0.16030534351145037,
+          "10": 0.2748091603053435,
+          "15": 0.46564885496183206,
+          "20": 0.5877862595419847
+        },
+        "G_marginal_proxy": {
+          "5": 0.16793893129770993,
+          "10": 0.33587786259541985,
+          "15": 0.5038167938931297,
+          "20": 0.6259541984732825
+        }
+      },
+      "mean_candidates_containing": 3.8091603053435112,
+      "candidate_generators": {
+        "E_pairs": 128,
+        "C_gap": 37,
+        "D_trend": 71,
+        "B_recent": 89,
+        "G_ensemble": 29,
+        "A_long": 145
+      }
+    },
+    "4": {
+      "top_rate": {
+        "A_long": {
+          "5": 0.10687022900763359,
+          "10": 0.5038167938931297,
+          "15": 0.8320610687022901,
+          "20": 0.9694656488549618
+        },
+        "B_recent": {
+          "5": 0.2595419847328244,
+          "10": 0.4351145038167939,
+          "15": 0.5114503816793893,
+          "20": 0.6793893129770993
+        },
+        "C_gap": {
+          "5": 0.19083969465648856,
+          "10": 0.3053435114503817,
+          "15": 0.3893129770992366,
+          "20": 0.46564885496183206
+        },
+        "D_trend": {
+          "5": 0.24427480916030533,
+          "10": 0.44274809160305345,
+          "15": 0.48854961832061067,
+          "20": 0.5114503816793893
+        },
+        "G_marginal_proxy": {
+          "5": 0.2748091603053435,
+          "10": 0.4351145038167939,
+          "15": 0.4961832061068702,
+          "20": 0.5877862595419847
+        }
+      },
+      "mean_candidates_containing": 4.2748091603053435,
+      "candidate_generators": {
+        "D_trend": 82,
+        "G_ensemble": 24,
+        "B_recent": 137,
+        "A_long": 119,
+        "F_structure": 123,
+        "C_gap": 75
+      }
+    },
+    "13": {
+      "top_rate": {
+        "A_long": {
+          "5": 0.0,
+          "10": 0.022900763358778626,
+          "15": 0.2595419847328244,
+          "20": 0.6870229007633588
+        },
+        "B_recent": {
+          "5": 0.22137404580152673,
+          "10": 0.5190839694656488,
+          "15": 0.6335877862595419,
+          "20": 0.6717557251908397
+        },
+        "C_gap": {
+          "5": 0.022900763358778626,
+          "10": 0.09923664122137404,
+          "15": 0.21374045801526717,
+          "20": 0.3893129770992366
+        },
+        "D_trend": {
+          "5": 0.20610687022900764,
+          "10": 0.37404580152671757,
+          "15": 0.4580152671755725,
+          "20": 0.5572519083969466
+        },
+        "G_marginal_proxy": {
+          "5": 0.183206106870229,
+          "10": 0.40458015267175573,
+          "15": 0.5114503816793893,
+          "20": 0.5877862595419847
+        }
+      },
+      "mean_candidates_containing": 2.7709923664122136,
+      "candidate_generators": {
+        "C_gap": 33,
+        "F_structure": 135,
+        "E_pairs": 8,
+        "D_trend": 90,
+        "B_recent": 67,
+        "G_ensemble": 23,
+        "A_long": 7
+      }
+    },
+    "24": {
+      "top_rate": {
+        "A_long": {
+          "5": 0.4122137404580153,
+          "10": 0.8320610687022901,
+          "15": 0.9618320610687023,
+          "20": 1.0
+        },
+        "B_recent": {
+          "5": 0.16793893129770993,
+          "10": 0.33587786259541985,
+          "15": 0.4961832061068702,
+          "20": 0.6412213740458015
+        },
+        "C_gap": {
+          "5": 0.07633587786259542,
+          "10": 0.16793893129770993,
+          "15": 0.2824427480916031,
+          "20": 0.42748091603053434
+        },
+        "D_trend": {
+          "5": 0.12213740458015267,
+          "10": 0.22137404580152673,
+          "15": 0.37404580152671757,
+          "20": 0.5648854961832062
+        },
+        "G_marginal_proxy": {
+          "5": 0.1984732824427481,
+          "10": 0.3282442748091603,
+          "15": 0.5114503816793893,
+          "20": 0.6946564885496184
+        }
+      },
+      "mean_candidates_containing": 4.259541984732825,
+      "candidate_generators": {
+        "A_long": 126,
+        "B_recent": 79,
+        "E_pairs": 129,
+        "G_ensemble": 38,
+        "D_trend": 65,
+        "F_structure": 88,
+        "C_gap": 33
+      }
+    },
+    "38": {
+      "top_rate": {
+        "A_long": {
+          "5": 0.3893129770992366,
+          "10": 0.48091603053435117,
+          "15": 0.5725190839694656,
+          "20": 0.7862595419847328
+        },
+        "B_recent": {
+          "5": 0.4732824427480916,
+          "10": 0.5572519083969466,
+          "15": 0.6717557251908397,
+          "20": 0.7938931297709924
+        },
+        "C_gap": {
+          "5": 0.0916030534351145,
+          "10": 0.17557251908396945,
+          "15": 0.2748091603053435,
+          "20": 0.40458015267175573
+        },
+        "D_trend": {
+          "5": 0.1297709923664122,
+          "10": 0.3893129770992366,
+          "15": 0.5343511450381679,
+          "20": 0.6717557251908397
+        },
+        "G_marginal_proxy": {
+          "5": 0.31297709923664124,
+          "10": 0.5419847328244275,
+          "15": 0.7709923664122137,
+          "20": 0.8396946564885496
+        }
+      },
+      "mean_candidates_containing": 4.374045801526718,
+      "candidate_generators": {
+        "C_gap": 50,
+        "E_pairs": 128,
+        "H_random": 131,
+        "D_trend": 65,
+        "G_ensemble": 37,
+        "B_recent": 118,
+        "A_long": 44
+      }
+    }
+  },
+  "candidate_membership_rank_all_numbers": [
+    {
+      "number": 8,
+      "mean_candidates_containing": 6.458015267175573
+    },
+    {
+      "number": 33,
+      "mean_candidates_containing": 6.061068702290076
+    },
+    {
+      "number": 11,
+      "mean_candidates_containing": 5.114503816793893
+    },
+    {
+      "number": 21,
+      "mean_candidates_containing": 4.404580152671755
+    },
+    {
+      "number": 38,
+      "mean_candidates_containing": 4.374045801526718
+    },
+    {
+      "number": 18,
+      "mean_candidates_containing": 4.366412213740458
+    },
+    {
+      "number": 15,
+      "mean_candidates_containing": 4.290076335877862
+    },
+    {
+      "number": 4,
+      "mean_candidates_containing": 4.2748091603053435
+    },
+    {
+      "number": 24,
+      "mean_candidates_containing": 4.259541984732825
+    },
+    {
+      "number": 5,
+      "mean_candidates_containing": 4.152671755725191
+    },
+    {
+      "number": 12,
+      "mean_candidates_containing": 4.145038167938932
+    },
+    {
+      "number": 34,
+      "mean_candidates_containing": 3.946564885496183
+    },
+    {
+      "number": 14,
+      "mean_candidates_containing": 3.931297709923664
+    },
+    {
+      "number": 1,
+      "mean_candidates_containing": 3.8091603053435112
+    },
+    {
+      "number": 6,
+      "mean_candidates_containing": 3.66412213740458
+    },
+    {
+      "number": 35,
+      "mean_candidates_containing": 3.198473282442748
+    },
+    {
+      "number": 25,
+      "mean_candidates_containing": 3.1755725190839694
+    },
+    {
+      "number": 16,
+      "mean_candidates_containing": 3.16793893129771
+    },
+    {
+      "number": 17,
+      "mean_candidates_containing": 3.030534351145038
+    },
+    {
+      "number": 10,
+      "mean_candidates_containing": 2.885496183206107
+    },
+    {
+      "number": 7,
+      "mean_candidates_containing": 2.7786259541984735
+    },
+    {
+      "number": 13,
+      "mean_candidates_containing": 2.7709923664122136
+    },
+    {
+      "number": 26,
+      "mean_candidates_containing": 2.633587786259542
+    },
+    {
+      "number": 23,
+      "mean_candidates_containing": 2.6259541984732824
+    },
+    {
+      "number": 2,
+      "mean_candidates_containing": 2.3053435114503817
+    },
+    {
+      "number": 20,
+      "mean_candidates_containing": 2.3053435114503817
+    },
+    {
+      "number": 19,
+      "mean_candidates_containing": 2.2900763358778624
+    },
+    {
+      "number": 22,
+      "mean_candidates_containing": 2.282442748091603
+    },
+    {
+      "number": 31,
+      "mean_candidates_containing": 2.1297709923664123
+    },
+    {
+      "number": 36,
+      "mean_candidates_containing": 2.099236641221374
+    },
+    {
+      "number": 32,
+      "mean_candidates_containing": 2.0916030534351147
+    },
+    {
+      "number": 9,
+      "mean_candidates_containing": 1.916030534351145
+    },
+    {
+      "number": 30,
+      "mean_candidates_containing": 1.786259541984733
+    },
+    {
+      "number": 37,
+      "mean_candidates_containing": 1.717557251908397
+    },
+    {
+      "number": 27,
+      "mean_candidates_containing": 1.6106870229007633
+    },
+    {
+      "number": 3,
+      "mean_candidates_containing": 1.6030534351145038
+    },
+    {
+      "number": 29,
+      "mean_candidates_containing": 1.1755725190839694
+    },
+    {
+      "number": 28,
+      "mean_candidates_containing": 1.16793893129771
+    }
+  ],
+  "family_score_correlations": {
+    "A_long~B_recent": {
+      "mean": 0.5773046867690372,
+      "n": 131
+    },
+    "A_long~C_gap": {
+      "mean": -0.22029943731744653,
+      "n": 131
+    },
+    "A_long~D_trend": {
+      "mean": 0.0021380938219071953,
+      "n": 131
+    },
+    "A_long~E_pairs": {
+      "mean": null,
+      "n": 0
+    },
+    "B_recent~C_gap": {
+      "mean": -0.48012070367115267,
+      "n": 131
+    },
+    "B_recent~D_trend": {
+      "mean": 0.48250624544636334,
+      "n": 131
+    },
+    "B_recent~E_pairs": {
+      "mean": null,
+      "n": 0
+    },
+    "C_gap~D_trend": {
+      "mean": -0.4354497393665653,
+      "n": 131
+    },
+    "C_gap~E_pairs": {
+      "mean": null,
+      "n": 0
+    },
+    "D_trend~E_pairs": {
+      "mean": null,
+      "n": 0
+    }
+  },
+  "construction": {
+    "fixed_pool_seed": "SEED+999 (identical 4,096-combination pool at every cutoff)",
+    "share_of_pool_with_3plus_of_1_4_13_24": 0.00732421875,
+    "same_for_random_4sets_mean": 0.00877197265625,
+    "mean_identical_candidate_tickets_between_consecutive_cutoffs": 14.038461538461538,
+    "tickets_reappearing_in_10plus_pools": 36,
+    "most_repeated_tickets": [
+      {
+        "numbers": [
+          5,
+          7,
+          14,
+          21,
+          33,
+          38
+        ],
+        "pools": 131
+      },
+      {
+        "numbers": [
+          8,
+          10,
+          11,
+          15,
+          21,
+          24
+        ],
+        "pools": 130
+      },
+      {
+        "numbers": [
+          1,
+          5,
+          8,
+          12,
+          26,
+          34
+        ],
+        "pools": 128
+      },
+      {
+        "numbers": [
+          6,
+          8,
+          15,
+          17,
+          19,
+          38
+        ],
+        "pools": 128
+      },
+      {
+        "numbers": [
+          4,
+          16,
+          17,
+          21,
+          26,
+          33
+        ],
+        "pools": 123
+      },
+      {
+        "numbers": [
+          5,
+          11,
+          14,
+          22,
+          23,
+          34
+        ],
+        "pools": 121
+      },
+      {
+        "numbers": [
+          6,
+          7,
+          13,
+          24,
+          32,
+          35
+        ],
+        "pools": 88
+      },
+      {
+        "numbers": [
+          11,
+          12,
+          18,
+          25,
+          33,
+          34
+        ],
+        "pools": 60
+      }
+    ]
+  },
+  "fixed_seed_index_map": {
+    "description": "V1 fallback: index = default_rng(20260919).integers(n) with a FRESH generator each run, so the chosen position depends only on the number of eligible candidates n",
+    "map": {
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 1,
+      "6": 1,
+      "7": 1,
+      "8": 1,
+      "9": 2,
+      "10": 2,
+      "11": 2,
+      "12": 2,
+      "13": 3,
+      "14": 3,
+      "15": 3,
+      "16": 3,
+      "17": 4,
+      "18": 4,
+      "19": 4,
+      "20": 4
+    }
+  }
+}
