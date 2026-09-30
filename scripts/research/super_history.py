@@ -88,3 +88,19 @@ def validate(C,ids):
                       generators=[(c['main_generator'],c['SB_generator']) for c in cs]==[(c['main_generator'],c['SB_generator']) for c in f],
                       gate=gate(rows)[0],fallback=v1_fallback(cs)['id'])
     return res
+
+def v1_ticket(fit):
+    """V1 Ticket 1 at a cutoff: the fixed-seed fallback pick. If V1's H fill would raise (V1 could not run),
+    return the SL10 slot anyway (index 9 = D_trend's top ticket, fixed before the H fill) with a flag."""
+    cs=candidates(fit)
+    if cs is not None:return v1_fallback(cs),False
+    global POOL4096
+    pool=POOL4096;vals=sl.objective(pool,fit['scores'],fit['pair_matrix'],fit['mean'],fit['sd']);vals=np.vstack([vals,fit['main_weights']@vals]);selected=[];gens=[]
+    for j in range(7):
+        count=0
+        for i in np.argsort(-vals[j],kind='stable'):
+            t=pool[i]
+            if all(len(set(t)&set(x))<=3 for x in selected):selected.append(t);gens.append(j);count+=1
+            if count==(1 if j==6 else 3):break
+    idx=int(np.random.default_rng(sl.SEED).integers(20));t=selected[idx]
+    return dict(id=f'SL{idx+1:02}',main=(t+1).tolist(),super_ball=fit['sb_predictions'][idx%7]+1,main_generator=sl.MN[gens[idx]],SB_generator=sl.SN[idx%7]),True

@@ -1,0 +1,205 @@
+{
+ "id": "SUPER-LOTTO-P0-protocol-v1",
+ "status": "FROZEN before any Super Lotto P0 shadow evaluation",
+ "frozen_utc": "2026-09-30T00:39:13.108598+00:00",
+ "design_precommit": {
+  "path": "results/super_lotto/p0_protocol/DESIGN_PRECOMMIT.json",
+  "sha256": "3da3580791aa99c69f262ea0a25b06b8fba660f790ed343ee11139889bf05adc",
+  "commit": "c3cbcd6"
+ },
+ "design_dataset": {
+  "path": "results/super_lotto/draw1754/draws.json",
+  "sha256": "03a03dae0d39d9f419a35a9dd13854d3408dc6e95d7991444ea45f2749c9adce",
+  "last_draw": 1753
+ },
+ "frozen_constants": {
+  "main_credibility": {
+   "A_long": 0.0,
+   "B_recent": 0.0,
+   "C_gap": 0.0,
+   "D_trend": 0.0,
+   "E_pairs": 0.0
+  },
+  "sb_credibility": {
+   "S_long": 0.0,
+   "S_recent": 0.0,
+   "S_gap": 0.0,
+   "S_trend": 0.0,
+   "S_transition": 0.0
+  },
+  "ticket_credibility": {
+   "E_ticket": 0.0,
+   "F_ticket": 0.0
+  },
+  "credibility_detail": {
+   "main": {
+    "A_long": {
+     "n": 127,
+     "mean": 0.004188304598509059,
+     "p": 0.3238355700276412,
+     "p_holm": 1.0,
+     "halves": false,
+     "c": 0.0
+    },
+    "B_recent": {
+     "n": 127,
+     "mean": -0.005983594583304288,
+     "p": 0.7430863824916566,
+     "p_holm": 1.0,
+     "halves": false,
+     "c": 0.0
+    },
+    "C_gap": {
+     "n": 127,
+     "mean": 0.004518836883410784,
+     "p": 0.3109832074411536,
+     "p_holm": 1.0,
+     "halves": true,
+     "c": 0.0
+    },
+    "D_trend": {
+     "n": 127,
+     "mean": -0.00399958808232567,
+     "p": 0.6687297702277339,
+     "p_holm": 1.0,
+     "halves": false,
+     "c": 0.0
+    },
+    "E_pairs": {
+     "n": 0,
+     "p": null,
+     "p_holm": null,
+     "halves": null,
+     "c": 0.0
+    }
+   },
+   "sb": {
+    "S_long": {
+     "n": 127,
+     "mean": 0.006561679790026242,
+     "p": 0.4083841906559874,
+     "p_holm": 1.0,
+     "halves": false,
+     "c": 0.0
+    },
+    "S_recent": {
+     "n": 127,
+     "mean": -0.037182852143482076,
+     "p": 0.9054061671067617,
+     "p_holm": 1.0,
+     "halves": false,
+     "c": 0.0
+    },
+    "S_gap": {
+     "n": 127,
+     "mean": 0.03105861767279088,
+     "p": 0.13637983224700895,
+     "p_holm": 0.5455193289880358,
+     "halves": false,
+     "c": 0.0
+    },
+    "S_trend": {
+     "n": 127,
+     "mean": -0.023622047244094488,
+     "p": 0.7978967772355547,
+     "p_holm": 1.0,
+     "halves": false,
+     "c": 0.0
+    },
+    "S_transition": {
+     "n": 0,
+     "p": null,
+     "p_holm": null,
+     "halves": null,
+     "c": 0.0
+    }
+   },
+   "ticket": {
+    "E_ticket": {
+     "n": 0,
+     "p": null,
+     "p_holm": null,
+     "halves": null,
+     "c": 0.0
+    },
+    "F_ticket": {
+     "n": 127,
+     "mean": -0.05286839145106868,
+     "p": 0.8074305281247066,
+     "p_holm": 0.8074305281247066,
+     "halves": false,
+     "c": 0.0
+    }
+   }
+  },
+  "main_pool_K": 12,
+  "pool_basis": "NO EDGE: predeclared default K=12 (no pool size passed on development)",
+  "sb_rule": "C",
+  "sb_rule_basis": "predeclared: C unless an SB model passes the V1 SB gate at the design cutoff (V1 SB gate passing models: [])",
+  "eta": 1.0,
+  "overlap_limit": 1,
+  "evidence_exception_T": 1.0,
+  "min_prior": 25,
+  "AP0": 0.22218776686597141,
+  "AP_null_sd": 0.1032818584629304,
+  "SB_null_sd": 0.3191423692521127
+ },
+ "historical_gate": {
+  "PASS": false,
+  "E1": {
+   "observed": 61,
+   "expected": 57.142857142857146,
+   "p": 0.3055644732874133,
+   "holm_p": 0.91669341986224,
+   "mean_excess": 0.09642857142857138,
+   "block95": [
+    -0.053571428571428645,
+    0.27142857142857135
+   ],
+   "half1": 0.0714285714285714,
+   "half2": 0.12142857142857136
+  },
+  "E2": {
+   "observed": 7,
+   "p": 0.7121529929045309,
+   "holm_p": 0.981939506486953
+  },
+  "E3": {
+   "observed": 54,
+   "p": 0.4909697532434765,
+   "holm_p": 0.981939506486953
+  }
+ },
+ "prospective_rules": {
+  "credibility": "frozen constants above; later draws never update them",
+  "features": "V1 origin quantities at the prospective cutoff",
+  "pool": "top-K of the P0 main ordering",
+  "universe": "all C(K,5) combinations",
+  "ticket_1": "frozen V1 Science ticket of that draw",
+  "tickets_2_3": "greedy J = T + Cov, overlap <= 1 (relax 2, 3 if infeasible)",
+  "super_balls": "frozen SB rule applied to the P0 SB ordering"
+ },
+ "seeds": {
+  "V1": 2026092109,
+  "pool_bootstrap": 2026093011,
+  "comparators_base": 2026093021,
+  "null_mc_base": 2026093031,
+  "gate_bootstrap": 2026093041,
+  "sb_random_base": 2026093051,
+  "random_control": 2026093061,
+  "ap_null_mc": 2026093071
+ },
+ "code_sha256": {
+  "scripts/research/super_p0.py": "9af8b763d3f6a8d794f0db48bf25e4ec2092239275936274d9649ff5dc05df39",
+  "scripts/research/super_p0_design_test.py": "e8ad45963ce100f330fff71168c73d62ba91f03763c0cef65584302993f299e5",
+  "scripts/research/super_history.py": "8beb9a3b9a641f6ed750266f626e54a814e9a372152793a17d840a058135d280",
+  "scripts/research/super_lotto.py": "64d06929573f037e05f07d687a112a2b25210e36a0fc22971c0e2cbe3576261b",
+  "scripts/research/common.py": "84d1ae4be02847947ca94ca6fe13d4031d17f68a663157426526c93fcb239e61"
+ },
+ "outputs_sha256": {
+  "reliability.json": "3dba68aaddafcc8179e70490b4050f6519a526f3fff3388dbcab68d8819b767f",
+  "pool_size_selection.json": "ab4cee211a0f2217181840c81e9461ad01aefa9ea4ac53635ef9068e1287b1e1",
+  "historical_evaluation.json": "2ff309d3606d253234551c607a2f6884b43af6bb128671f4e3a6b7d54081ba00",
+  "historical_origins.json": "a7f62a75677b0e77194a184c9f0251a90a6126373f5afcae107282edd4873eec"
+ }
+}
