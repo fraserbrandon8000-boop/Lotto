@@ -1,0 +1,85 @@
+{
+ "status": "SHADOW HOLDOUT (descriptive; not prospective evidence; P0 not retuned)",
+ "protocol_commit": "5cce8a374ab3f9f3c4cf10780628c0ba0ff581fd",
+ "constructed_sha256": "050df869fb12c8d78e0d3e09cfb8e84896b0f61ebb4cf119042413b87401593e",
+ "outcome": {
+  "main": [
+   3,
+   4,
+   21,
+   23,
+   31
+  ],
+  "sb": 8
+ },
+ "tickets": [
+  {
+   "role": "V1 Science",
+   "mains": [
+    1,
+    2,
+    18,
+    34,
+    35
+   ],
+   "super_ball": 2,
+   "main_matches": 0,
+   "matched": [],
+   "sb_hit": false
+  },
+  {
+   "role": "P0 Coverage Challenger",
+   "mains": [
+    4,
+    6,
+    11,
+    12,
+    22
+   ],
+   "super_ball": 5,
+   "main_matches": 1,
+   "matched": [
+    4
+   ],
+   "sb_hit": false
+  },
+  {
+   "role": "P0 Coverage Challenger",
+   "mains": [
+    6,
+    7,
+    18,
+    23,
+    24
+   ],
+   "super_ball": 3,
+   "main_matches": 1,
+   "matched": [
+    23
+   ],
+   "sb_hit": false
+  }
+ ],
+ "portfolio_best_main": 1,
+ "portfolio_total_main": 2,
+ "any_sb": false,
+ "unique_winners_covered": [
+  4,
+  23
+ ],
+ "winners_in_pool": [
+  4,
+  23
+ ],
+ "winning_sb_rank_in_P0_sb_order": 7,
+ "null": {
+  "expected_challenger_main": 1.4285714285714286,
+  "p_challenger_main_ge_observed": 0.43005000000000004,
+  "expected_unique_winners_13_numbers": 1.8571428571428572
+ },
+ "v1_only": {
+  "main": 0,
+  "sb": false
+ },
+ "p0_vs_v1": "Descriptive: the challengers added 2 main matches (04, 23) and 2 distinct SBs (5, 3); no SB hit; best ticket 1/5 vs V1 0/5. One draw, no retuning."
+}
