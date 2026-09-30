@@ -1,0 +1,124 @@
+{
+  "id": "SUPER-LOTTO-P0-design-v1",
+  "status": "DESIGN PRE-COMMITMENT (rules only; no data-derived constants yet)",
+  "written_before": [
+    "any #1754 number-ranking, Top-N coverage, Super Ball or candidate-pool scoring analysis",
+    "any Super Lotto P0 computation",
+    "any look at Super Lotto V1 walk-forward model-performance values (only the recorded fact 'no qualifying model' is known)"
+  ],
+  "designer_disclosure": "The designer knows the #1753 and #1754 results because the user stated them. No rule references any specific draw's numbers. Every data-driven quantity is computed by code that reads only results/super_lotto/draw1754/draws.json (1577-1753; asserted last draw 1753, #1754 absent).",
+  "isolation": "Super Lotto only. Code imports only scripts/research/super_lotto.py (V1, unchanged) and scripts/research/common.py (game-agnostic). No Lotto file, parameter, weight, seed, formula or result is used. The formulas below are specific to this design and are not the Lotto P0 formulas.",
+  "not_v2": "P0 is a separate portfolio challenger. Ticket 1 is always the frozen V1 Science ticket. P0 never modifies V1.",
+
+  "stage_A_main_discovery": {
+    "families": {
+      "A_long": "V1 features() row 0 at the origin",
+      "B_recent": "row 1",
+      "C_gap": "row 2",
+      "D_trend": "row 3",
+      "E_pairs": "z(pair_matrix.sum(0)); informative only if std > 1e-10 (at least one Holm-retained pair)",
+      "F_structure": "no number-level representation (whole-ticket objective); used only in Stage B if credible",
+      "G_ensemble": "derived from A-E; reported; number-level credibility fixed at 0 (no double counting)",
+      "H_random": "control; reported; credibility 0"
+    },
+    "per_origin_evidence": "AP excess e_m,u = AP_m,u - AP0, where AP_m,u is V1's own average-precision definition for the origin's 5 winners under the model's V1 ranking (V1 jitter tie-break), and AP0 = exact expected AP of 5 relevant items among 35 under a uniformly random order",
+    "null_sd": "SD of AP under a random order, estimated once by 200,000 Monte Carlo permutations (seed 2026093071)",
+    "credibility": "p_m = one-sided normal p of mean(e_m) / (null_sd / sqrt(n_m)) over the n_m prior informative origins; Holm across the informative families A-E; c_m = max(0, 1 - 2 * p_m_Holm) * s_m, where s_m = 1 if the mean excess is > 0 in both chronological halves of the prior origins, else 0",
+    "minimum_prior_origins": 25,
+    "marginal_score": "M_i = sum_m c_m * z_m,i",
+    "ordering": "M descending; ties (including the all-zero case) broken by EQ_i = mean of z over the informative A-E families (declared NON-EVIDENTIAL convention), then by number ascending",
+    "frozen_for_prospective_use": "the credibility weights at the design cutoff #1753 are frozen as constants for the #1754 shadow and all prospective P0 draws; later draws never update them"
+  },
+
+  "main_pool_size": {
+    "options": [8, 10, 12, 15],
+    "evaluation": "P0 development targets only (targets before the V1 confirmation window of the design dataset)",
+    "statistic": "winners inside the top-K; null Hypergeometric(35, 5, K), expectation 5K/35 (removes the mechanical advantage of larger pools)",
+    "test": "exact one-sided p (convolution); Holm across the 4 options; circular 5-block bootstrap 95% lower bound of mean excess (10,000 reps, seed 2026093011); both halves positive",
+    "selection": "passing K with the largest standardized excess; if none passes, the predeclared default",
+    "default_if_none_pass": 12,
+    "default_rationale": "Two challenger tickets hold 10 main numbers; 12 gives them the pool plus slack without forcing low-support fillers; 792 combinations. Chosen before any data. Labelled NO EDGE when used.",
+    "reported": "P(>=2, >=3, >=4, all 5 captured) vs random, variance, confirmation capture, downstream portfolio results per K"
+  },
+
+  "stage_B_main_tickets": {
+    "universe": "all C(K,5) five-number combinations of the pool (exhaustive)",
+    "score": "T(t) = sum_{m in A..E} c_m * Z[ sum_{i in t} z_m,i ] + c_E_ticket * Z[ pair(t) ] + c_F * Z[ structure(t) ]",
+    "Z": "standardize across all combinations of the pool (0 if constant)",
+    "pair(t)": "V1 objective row 5: retained pair lift inside t / 20",
+    "structure(t)": "V1 objective row 6: minus mean squared standardized structure distance",
+    "ticket_level_credibility": "c_E_ticket and c_F from the V1 walk-forward main hits of the E_pairs and F_structure tickets: one-sided exact p of total hits (hypergeometric convolution), Holm across the two, c = max(0, 1 - 2 p_Holm) * s (halves rule), minimum 25 prior origins (E counted only where informative)",
+    "forbidden": "no spacing, consecutive, parity, sum, high/low, recent-repeat, overdue or anti-repeat preference, and no reference to any specific draw's numbers",
+    "tie_breaks": "sum of EQ_i over the ticket, then lexicographic"
+  },
+
+  "stage_C_super_ball": {
+    "models": {
+      "S_long": "V1 SB features row 0",
+      "S_recent": "row 1",
+      "S_gap": "row 2",
+      "S_trend": "row 3",
+      "S_transition": "V1 Holm-gated transition row (flat if no retained transition)",
+      "S_ensemble": "derived; reported; credibility 0",
+      "S_random": "control; credibility 0"
+    },
+    "per_origin_evidence": "q_s,u = (10 - midrank of the actual SB)/9 - 0.5 (midranks for ties; a flat model gives 0)",
+    "null_sd": "sqrt(99/12)/9 = 0.31914 per origin",
+    "credibility": "one-sided normal p of mean(q_s) over prior informative origins; Holm across the informative S_long..S_transition; c_s = max(0, 1 - 2 p_Holm) * halves rule; minimum 25 prior origins",
+    "score": "Q_b = sum_s c_s * z_s,b; ordering by Q, ties by EQ_SB_b (mean of informative SB z, non-evidential), then SB number",
+    "calibration_reported_only": "log loss of the Dirichlet(1)-smoothed long-run SB frequency vs the uniform log(10)"
+  },
+
+  "stage_D_portfolio": {
+    "ticket_1": "the frozen V1 Science ticket (5 mains + V1 SB)",
+    "main_selection": "greedy, ticket 2 then ticket 3: maximize J(t|S) = T(t) + eta * Cov(t|S), eta = 1",
+    "supported_mass": "m_i proportional to exp(M_i) over the pool numbers",
+    "incremental_coverage": "Cov(t|S) = sum of m_i over numbers of t not already in any selected ticket, divided by 5/K",
+    "overlap_rule": "hard: at most 1 shared main number with each already selected ticket (including ticket 1); if infeasible relax to 2, then 3",
+    "evidence_exception": "waived only if the sum of all main credibilities > 0 AND the best unconstrained T exceeds the best feasible T by more than 1.0 (absolute T units)",
+    "tie_breaks": "higher summed EQ, then lexicographic",
+    "super_ball_rules": {
+      "A": "both challengers get the top-Q SB",
+      "B": "challengers get the top-2 SBs by EQ_SB, distinct from ticket 1's SB",
+      "C": "challengers get the top-2 SBs by Q (ties EQ_SB), distinct from ticket 1's SB (reliability-weighted diversification)",
+      "D": "challengers get independent uniform random SBs (seed 2026093051 + target)"
+    },
+    "super_ball_rule_selected": "C, unless a Super Ball model passes the V1 SB gate (confirmation Holm p < 0.05, block lower bound > 0.1, both halves > 0.1) at the design cutoff, in which case A. The historical A-D comparison is reported but cannot override this predeclared rule.",
+    "recorded": "raw T, J, coverage, overlaps, unique mains, distinct SBs, family contributions, fragility (tickets under alternative K)"
+  },
+
+  "historical_test": {
+    "targets": "P0 targets with >= 25 prior V1 origins, through #1753",
+    "development": "P0 targets before the V1 confirmation window (last 40 V1 origins of the design dataset)",
+    "confirmation": "the last 40 targets",
+    "ticket_1_history": "V1-style reconstruction: V1 candidate generator at each cutoff (validated against the frozen #1753 and #1754 pools), V1 gates, and the V1 fixed-seed fallback (index from default_rng(2026092109)); origins where a V1 gate would have passed are flagged",
+    "comparators": {
+      "A": "3 independent uniform tickets, uniform SBs",
+      "B": "3 uniform tickets with the same main-overlap rule, uniform SBs",
+      "C": "V1 ticket + 2 uniform tickets (<=1 overlap), uniform SBs",
+      "D": "3 highest standalone-T tickets of the pool, SBs by the selected P0 rule",
+      "E": "the P0 main tickets with uniform random SBs"
+    },
+    "replicates": "200 per origin for random comparators (seed 2026093021 + target)",
+    "metrics": {
+      "main": "best-ticket matches, total main matches, any ticket >=2, >=3, >=4, 5/5",
+      "super_ball": "any SB hit, SB hits per ticket",
+      "full": "joint outcome of the best-main ticket (mains, SB) and any ticket with >=2 mains + SB"
+    },
+    "null_model": "for each fixed portfolio, per-origin null pmfs from 20,000 uniform draws (mains and SB; seed 2026093031 + target); sums over origins by convolution",
+    "uncertainty": "circular 5-block bootstrap 95% CIs (10,000 reps, seed 2026093041)",
+    "gate": {
+      "period": "confirmation",
+      "endpoints": ["E1 challengers' total main matches (tickets 2+3) vs null", "E2 challengers' SB hits vs null", "E3 portfolio best-ticket main matches vs null"],
+      "correction": "Holm across E1-E3",
+      "PASS": "E1 Holm p < 0.05 AND bootstrap lower bound of the E1 mean excess > 0 AND E1 excess > 0 in both halves of the confirmation period",
+      "otherwise": "FAIL: The Super Lotto P0 portfolio is a coverage experiment, not a demonstrated predictive edge."
+    }
+  },
+
+  "v2_test_plan": "Candidate V1 refinements are limited to existing V1 components (V1's own two-stage construction methods, each main and SB model as the final selector, the fallback seeding design). Each must pass, on V1 walk-forward data through the latest completed draw: confirmation Holm p < 0.05 within its family, a block-bootstrap lower bound above random, and both halves above random. If none passes: NO SUPER LOTTO V2 IS JUSTIFIED.",
+
+  "jev_role": "V1: unchanged V1 rules. P0: one audit call after the full portfolio is frozen (robustness, overfit, weak-model dependence, fragility, family concentration); it cannot change any ticket.",
+  "random_control": "3 uniform tickets with the same main-overlap rule and uniform SBs, seed 2026093061, research only",
+  "seeds": {"V1": 2026092109, "pool_bootstrap": 2026093011, "comparators_base": 2026093021, "null_mc_base": 2026093031, "gate_bootstrap": 2026093041, "sb_random_base": 2026093051, "random_control": 2026093061, "ap_null_mc": 2026093071}
+}
