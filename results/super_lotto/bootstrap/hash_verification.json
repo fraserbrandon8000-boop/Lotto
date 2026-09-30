@@ -1,0 +1,161 @@
+{
+ "prediction_1754_embedded": {
+  "results\\super_lotto\\draw1754\\audit.json": "LF_to_CRLF",
+  "results\\super_lotto\\draw1754\\baseline.json": "LF_to_CRLF",
+  "results\\super_lotto\\draw1754\\candidate-freeze.json": "LF_to_CRLF",
+  "results\\super_lotto\\draw1754\\candidates.json": "LF_to_CRLF",
+  "results\\super_lotto\\draw1754\\combined_performance.json": "LF_to_CRLF",
+  "results\\super_lotto\\draw1754\\complete_rankings.json": "LF_to_CRLF",
+  "results\\super_lotto\\draw1754\\construction_origins.json": "LF_to_CRLF",
+  "results\\super_lotto\\draw1754\\construction_performance.json": "LF_to_CRLF",
+  "results\\super_lotto\\draw1754\\coverage.json": "LF_to_CRLF",
+  "results\\super_lotto\\draw1754\\draws.json": "LF_to_CRLF",
+  "results\\super_lotto\\draw1754\\draw_structure.csv": "LF_to_CRLF",
+  "results\\super_lotto\\draw1754\\external-addition.json": "LF_to_CRLF",
+  "results\\super_lotto\\draw1754\\final-integrity-check.json": "LF_to_CRLF",
+  "results\\super_lotto\\draw1754\\integrity-check.json": "LF_to_CRLF",
+  "results\\super_lotto\\draw1754\\jev-attempt.json": "exact",
+  "results\\super_lotto\\draw1754\\jev_receipt.json": "exact",
+  "results\\super_lotto\\draw1754\\jev_request.json": "exact",
+  "results\\super_lotto\\draw1754\\jev_response.json": "exact",
+  "results\\super_lotto\\draw1754\\jev_state.json": "LF_to_CRLF",
+  "results\\super_lotto\\draw1754\\main_features.csv": "LF_to_CRLF",
+  "results\\super_lotto\\draw1754\\main_transitions.csv": "LF_to_CRLF",
+  "results\\super_lotto\\draw1754\\metadata.json": "LF_to_CRLF",
+  "results\\super_lotto\\draw1754\\official-cutoff.json": "LF_to_CRLF",
+  "results\\super_lotto\\draw1754\\pairs.csv": "LF_to_CRLF",
+  "results\\super_lotto\\draw1754\\performance.json": "LF_to_CRLF",
+  "results\\super_lotto\\draw1754\\predraw_rankings_and_fit.json": "LF_to_CRLF",
+  "results\\super_lotto\\draw1754\\PROTOCOL.md": "exact",
+  "results\\super_lotto\\draw1754\\randomness.json": "LF_to_CRLF",
+  "results\\super_lotto\\draw1754\\sensitivity.json": "LF_to_CRLF",
+  "results\\super_lotto\\draw1754\\super_ball_features.csv": "LF_to_CRLF",
+  "results\\super_lotto\\draw1754\\super_ball_transitions.csv": "LF_to_CRLF",
+  "results\\super_lotto\\draw1754\\triples.csv": "LF_to_CRLF",
+  "results\\super_lotto\\draw1754\\v1-preservation.json": "LF_to_CRLF",
+  "results\\super_lotto\\draw1754\\verification.json": "LF_to_CRLF",
+  "results\\super_lotto\\draw1754\\walk_forward.json": "LF_to_CRLF",
+  "scripts\\research\\common.py": "exact",
+  "scripts\\research\\super_lotto.py": "exact",
+  "scripts\\research\\super_jev.mjs": "DIFFERS",
+  "scripts\\research\\freeze_super.py": "exact",
+  "scripts\\research\\super_1754.py": "exact",
+  "scripts\\research\\super_1754_jev.mjs": "LF_to_CRLF",
+  "scripts\\research\\super_1754_transport.mjs": "exact",
+  "scripts\\research\\prepare_super_1754_jev.py": "exact",
+  "scripts\\research\\freeze_super_1754.py": "exact"
+ },
+ "prediction_1753_embedded": {
+  "scripts\\research\\common.py": "exact",
+  "scripts\\research\\freeze_super.py": "exact",
+  "scripts\\research\\super_lotto.py": "exact",
+  "scripts\\research\\verify_research.py": "exact",
+  "scripts\\research\\super_jev.mjs": "DIFFERS",
+  "results\\super_lotto\\PROTOCOL.md": "exact",
+  "results\\super_lotto\\metadata.json": "LF_to_CRLF",
+  "results\\super_lotto\\candidates.json": "LF_to_CRLF",
+  "results\\super_lotto\\jev_request.json": "exact",
+  "results\\super_lotto\\jev_response.json": "exact",
+  "results\\super_lotto\\predraw_rankings_and_fit.json": "LF_to_CRLF",
+  "results\\super_lotto\\verification.json": "LF_to_CRLF"
+ },
+ "ledger_prediction_hashes": {
+  "prediction_1753.json": "LF_to_CRLF",
+  "prediction_1754.json": "LF_to_CRLF"
+ },
+ "candidate_freeze_1754": {
+  "candidates.json": "LF_to_CRLF",
+  "jev_state.json": "LF_to_CRLF",
+  "complete_rankings.json": "LF_to_CRLF",
+  "predraw_rankings_and_fit.json": "LF_to_CRLF",
+  "metadata.json": "LF_to_CRLF",
+  "PROTOCOL.md": "exact"
+ },
+ "v1_preservation_1754": {
+  "results\\super_lotto\\audit.json": "LF_to_CRLF",
+  "results\\super_lotto\\baseline.json": "LF_to_CRLF",
+  "results\\super_lotto\\candidates.json": "LF_to_CRLF",
+  "results\\super_lotto\\combined_performance.json": "LF_to_CRLF",
+  "results\\super_lotto\\construction_origins.json": "LF_to_CRLF",
+  "results\\super_lotto\\construction_performance.json": "LF_to_CRLF",
+  "results\\super_lotto\\coverage.json": "LF_to_CRLF",
+  "results\\super_lotto\\draws.json": "LF_to_CRLF",
+  "results\\super_lotto\\draw_structure.csv": "LF_to_CRLF",
+  "results\\super_lotto\\external_draws.json": "exact",
+  "results\\super_lotto\\forensic_1753-run.log": "LF_to_CRLF",
+  "results\\super_lotto\\jev_receipt.json": "exact",
+  "results\\super_lotto\\jev_request.json": "exact",
+  "results\\super_lotto\\jev_response.json": "exact",
+  "results\\super_lotto\\jev_state.json": "LF_to_CRLF",
+  "results\\super_lotto\\main_features.csv": "LF_to_CRLF",
+  "results\\super_lotto\\main_transitions.csv": "LF_to_CRLF",
+  "results\\super_lotto\\metadata.json": "LF_to_CRLF",
+  "results\\super_lotto\\official-current.json": "LF_to_CRLF",
+  "results\\super_lotto\\pairs.csv": "LF_to_CRLF",
+  "results\\super_lotto\\performance.json": "LF_to_CRLF",
+  "results\\super_lotto\\predraw_rankings_and_fit.json": "LF_to_CRLF",
+  "results\\super_lotto\\PROTOCOL.md": "exact",
+  "results\\super_lotto\\randomness.json": "LF_to_CRLF",
+  "results\\super_lotto\\random_controls.json": "LF_to_CRLF",
+  "results\\super_lotto\\REPORT.md": "LF_to_CRLF",
+  "results\\super_lotto\\run.log": "LF_to_CRLF",
+  "results\\super_lotto\\sensitivity.json": "LF_to_CRLF",
+  "results\\super_lotto\\super_ball_features.csv": "LF_to_CRLF",
+  "results\\super_lotto\\super_ball_transitions.csv": "LF_to_CRLF",
+  "results\\super_lotto\\triples.csv": "LF_to_CRLF",
+  "results\\super_lotto\\typesafe-sdk-reference.md": "DIFFERS",
+  "results\\super_lotto\\verification.json": "LF_to_CRLF",
+  "results\\super_lotto\\walk_forward.json": "LF_to_CRLF",
+  "results\\super_lotto\\prospective\\prediction_1753.json": "LF_to_CRLF"
+ },
+ "jev_receipt_1754": {
+  "state": {
+   "results/super_lotto/draw1754/jev_state.json": "LF_to_CRLF"
+  },
+  "response": {
+   "results/super_lotto/draw1754/jev_response.json": "exact"
+  },
+  "request": {
+   "file_exact": false,
+   "file_crlf": false,
+   "compact_json": true
+  }
+ },
+ "summary": {
+  "prediction_1754_embedded": {
+   "LF_to_CRLF": 31,
+   "exact": 12,
+   "DIFFERS": 1
+  },
+  "prediction_1753_embedded": {
+   "exact": 7,
+   "DIFFERS": 1,
+   "LF_to_CRLF": 4
+  },
+  "ledger_prediction_hashes": {
+   "LF_to_CRLF": 2
+  },
+  "candidate_freeze_1754": {
+   "LF_to_CRLF": 5,
+   "exact": 1
+  },
+  "v1_preservation_1754": {
+   "LF_to_CRLF": 29,
+   "exact": 5,
+   "DIFFERS": 1
+  }
+ },
+ "differs": {
+  "prediction_1754_embedded": [
+   "scripts\\research\\super_jev.mjs"
+  ],
+  "prediction_1753_embedded": [
+   "scripts\\research\\super_jev.mjs"
+  ],
+  "ledger_prediction_hashes": [],
+  "candidate_freeze_1754": [],
+  "v1_preservation_1754": [
+   "results\\super_lotto\\typesafe-sdk-reference.md"
+  ]
+ }
+}
