@@ -1,0 +1,76 @@
+{
+ "frozen_ticket": {
+  "candidate_id": "SL10",
+  "main": [
+   1,
+   2,
+   18,
+   34,
+   35
+  ],
+  "super_ball": 2,
+  "main_generator": "D_trend",
+  "SB_generator": "S_gap"
+ },
+ "ticket_matches_pool": true,
+ "ledger_entry": [
+  {
+   "event": "prediction_frozen",
+   "created_utc": "2026-09-26T01:05:45.610321+00:00",
+   "target_draw_id": 1754,
+   "path": "prediction_1754.json",
+   "sha256": "f5194aadbb2f4d161603487b76f1be3839e4cd6c0b8eb8309c78c9254784eece",
+   "selection": {
+    "candidate_id": "SL10",
+    "main": [
+     1,
+     2,
+     18,
+     34,
+     35
+    ],
+    "super_ball": 2,
+    "main_generator": "D_trend",
+    "SB_generator": "S_gap"
+   }
+  }
+ ],
+ "ledger_hash_matches": "LF_to_CRLF",
+ "embedded_hashes": {
+  "LF_to_CRLF": 31,
+  "exact": 12,
+  "DIFFERS": 1
+ },
+ "embedded_mismatch": [
+  "scripts\\research\\super_jev.mjs"
+ ],
+ "candidate_freeze_hashes": {
+  "LF_to_CRLF": 5,
+  "exact": 1
+ },
+ "jev_receipt": {
+  "state": {
+   "results/super_lotto/draw1754/jev_state.json": "LF_to_CRLF"
+  },
+  "response": {
+   "results/super_lotto/draw1754/jev_response.json": "exact"
+  },
+  "request": {
+   "file_exact": false,
+   "file_crlf": false,
+   "compact_json": true
+  }
+ },
+ "jev_single_attempt": true,
+ "chronology_utc": {
+  "preflight_unpublished_check": "2026-09-26T00:58:57.6521432Z",
+  "candidate_pool_frozen": "2026-09-26T01:02:08.254649+00:00",
+  "final_unpublished_check": "2026-09-26T01:04:15.3610031Z",
+  "jev_call_started": "2026-09-26T01:04:15.646Z",
+  "jev_receipt": "2026-09-26T01:04:17.180Z",
+  "ticket_frozen": "2026-09-26T01:05:45.610321+00:00",
+  "scheduled_draw": "2026-09-26T01:30:00Z"
+ },
+ "order_ok": true,
+ "note": "The Codex snapshot is a single commit, so there is no git chronology for #1754; ordering rests on the embedded UTC timestamps, the official-API unpublished checks at 00:58:57 and 01:04:15 UTC, and the hash chain."
+}

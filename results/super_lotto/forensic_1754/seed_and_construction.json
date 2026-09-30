@@ -1,0 +1,187 @@
+{
+  "targets": [
+    1627,
+    1754
+  ],
+  "n": 121,
+  "gate_flagged": [],
+  "production": {
+    "distinct_ids": 1,
+    "top_id_share": 1.0,
+    "same_id_consecutive": 1.0,
+    "same_sb_consecutive": 0.8916666666666667,
+    "distinct_sbs": 9,
+    "mean_consecutive_main_overlap": 3.2666666666666666,
+    "max_number_rate": 0.24793388429752067,
+    "mean_main": 0.6363636363636364,
+    "sd_main": 0.6831300510639732,
+    "ge2": 14,
+    "sb_hits": 12,
+    "generator_shares": {
+      "D_trend": 121
+    },
+    "sb_generator_shares": {
+      "S_gap": 121
+    }
+  },
+  "fixed_seed_designs": {
+    "distinct_ids": {
+      "mean": 1.0,
+      "p05": 1.0,
+      "p95": 1.0
+    },
+    "top_id_share": {
+      "mean": 1.0,
+      "p05": 1.0,
+      "p95": 1.0
+    },
+    "same_id_consecutive": {
+      "mean": 1.0,
+      "p05": 1.0,
+      "p95": 1.0
+    },
+    "same_sb_consecutive": {
+      "mean": 0.6483849483849484,
+      "p05": 0.1,
+      "p95": 0.8916666666666667
+    },
+    "distinct_sbs": {
+      "mean": 7.581418581418581,
+      "p05": 3.0,
+      "p95": 10.0
+    },
+    "mean_consecutive_main_overlap": {
+      "mean": 3.6736679986679985,
+      "p05": 2.475,
+      "p95": 5.0
+    },
+    "max_number_rate": {
+      "mean": 0.6618918271810834,
+      "p05": 0.256198347107438,
+      "p95": 1.0
+    },
+    "mean_main": {
+      "mean": 0.725002270456816,
+      "p05": 0.6198347107438017,
+      "p95": 0.8512396694214877
+    },
+    "sd_main": {
+      "mean": 0.730091240241238,
+      "p05": 0.6831300510639732,
+      "p95": 0.8130309242252451
+    },
+    "ge2": {
+      "mean": 18.111888111888113,
+      "p05": 14.0,
+      "p95": 26.0
+    },
+    "sb_hits": {
+      "mean": 12.721278721278722,
+      "p05": 8.0,
+      "p95": 18.0
+    }
+  },
+  "per_draw_seed_designs": {
+    "distinct_ids": {
+      "mean": 19.983388704318937,
+      "p05": 20.0,
+      "p95": 20.0
+    },
+    "top_id_share": {
+      "mean": 0.09321545262348645,
+      "p05": 0.0743801652892562,
+      "p95": 0.11570247933884298
+    },
+    "same_id_consecutive": {
+      "mean": 0.04147286821705426,
+      "p05": 0.016666666666666666,
+      "p95": 0.06666666666666667
+    },
+    "same_sb_consecutive": {
+      "mean": 0.22574750830564785,
+      "p05": 0.16666666666666666,
+      "p95": 0.2833333333333333
+    },
+    "distinct_sbs": {
+      "mean": 9.950166112956811,
+      "p05": 10.0,
+      "p95": 10.0
+    },
+    "mean_consecutive_main_overlap": {
+      "mean": 1.0561461794019933,
+      "p05": 0.9083333333333333,
+      "p95": 1.2166666666666666
+    },
+    "max_number_rate": {
+      "mean": 0.40929683424398017,
+      "p05": 0.35537190082644626,
+      "p95": 0.4628099173553719
+    },
+    "mean_main": {
+      "mean": 0.7295790889871228,
+      "p05": 0.6198347107438017,
+      "p95": 0.8347107438016529
+    },
+    "sd_main": {
+      "mean": 0.7276387728364622,
+      "p05": 0.6553446299635319,
+      "p95": 0.7958224257542215
+    },
+    "ge2": {
+      "mean": 18.146179401993354,
+      "p05": 12.0,
+      "p95": 24.0
+    },
+    "sb_hits": {
+      "mean": 12.817275747508306,
+      "p05": 8.0,
+      "p95": 18.0
+    }
+  },
+  "fallback_index_by_n": {
+    "15": 6,
+    "16": 7,
+    "17": 7,
+    "18": 8,
+    "19": 8,
+    "20": 9
+  },
+  "sb_pool_coverage": {
+    "mean_distinct_sbs": 4.413223140495868,
+    "actual_sb_in_pool_rate": 0.4628099173553719,
+    "expected_if_k_distinct": "k/10",
+    "targets_1753_1754": [
+      {
+        "target": 1753,
+        "distinct_sbs": 4,
+        "actual_sb_in_pool": false
+      },
+      {
+        "target": 1754,
+        "distinct_sbs": 4,
+        "actual_sb_in_pool": false
+      }
+    ]
+  },
+  "compression": {
+    "mean_union_of_20_candidates": 30.520661157024794,
+    "mean_winners_in_union": 4.297520661157025,
+    "expected_winners_in_union": 4.360094451003543,
+    "mean_best_candidate": 2.0578512396694215,
+    "targets_1753_1754": [
+      {
+        "target": 1753,
+        "union": 30,
+        "winners_in_union": 4,
+        "best": 2
+      },
+      {
+        "target": 1754,
+        "union": 30,
+        "winners_in_union": 4,
+        "best": 1
+      }
+    ]
+  },
+  "note": "Research only; production seed unchanged. V1 Super Lotto has no previous-ticket rule, so any fixed seed repeats the same candidate position every draw."
+}

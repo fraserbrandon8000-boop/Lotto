@@ -1,0 +1,1126 @@
+{
+  "cutoff": 1753,
+  "target": 1754,
+  "winners": [
+    3,
+    4,
+    21,
+    23,
+    31
+  ],
+  "winning_sb": 8,
+  "selected": [
+    1,
+    2,
+    18,
+    34,
+    35
+  ],
+  "selected_sb": 2,
+  "main": {
+    "3": {
+      "role": "winner",
+      "models": {
+        "A_long": {
+          "score": 0.15824052610061853,
+          "rank": 16,
+          "tie_interval": [
+            16,
+            18
+          ],
+          "informative": true
+        },
+        "B_recent": {
+          "score": -1.1427457925974303,
+          "rank": 32,
+          "tie_interval": [
+            32,
+            32
+          ],
+          "informative": true
+        },
+        "C_gap": {
+          "score": -0.3058774600406638,
+          "rank": 16,
+          "tie_interval": [
+            16,
+            19
+          ],
+          "informative": true
+        },
+        "D_trend": {
+          "score": -1.4680505487695172,
+          "rank": 32,
+          "tie_interval": [
+            32,
+            33
+          ],
+          "informative": true
+        },
+        "E_pairs": {
+          "score": 0.0,
+          "rank": 2,
+          "tie_interval": [
+            1,
+            35
+          ],
+          "informative": false
+        },
+        "F_structure": null,
+        "G_ensemble": {
+          "score": 0.0,
+          "rank": 2,
+          "tie_interval": [
+            1,
+            35
+          ],
+          "informative": false
+        },
+        "H_random": {
+          "score": 0.08764487068548876,
+          "rank": 34,
+          "tie_interval": [
+            34,
+            34
+          ],
+          "informative": true
+        }
+      }
+    },
+    "4": {
+      "role": "winner",
+      "models": {
+        "A_long": {
+          "score": 0.6013139991823491,
+          "rank": 7,
+          "tie_interval": [
+            7,
+            10
+          ],
+          "informative": true
+        },
+        "B_recent": {
+          "score": -0.2662928338280202,
+          "rank": 20,
+          "tie_interval": [
+            20,
+            20
+          ],
+          "informative": true
+        },
+        "C_gap": {
+          "score": 1.947956456048437,
+          "rank": 3,
+          "tie_interval": [
+            3,
+            3
+          ],
+          "informative": true
+        },
+        "D_trend": {
+          "score": 0.2936101097539034,
+          "rank": 12,
+          "tie_interval": [
+            12,
+            15
+          ],
+          "informative": true
+        },
+        "E_pairs": {
+          "score": 0.0,
+          "rank": 5,
+          "tie_interval": [
+            1,
+            35
+          ],
+          "informative": false
+        },
+        "F_structure": null,
+        "G_ensemble": {
+          "score": 0.0,
+          "rank": 5,
+          "tie_interval": [
+            1,
+            35
+          ],
+          "informative": false
+        },
+        "H_random": {
+          "score": 0.24073639398717694,
+          "rank": 26,
+          "tie_interval": [
+            26,
+            26
+          ],
+          "informative": true
+        }
+      }
+    },
+    "21": {
+      "role": "winner",
+      "models": {
+        "A_long": {
+          "score": -1.1709798931445727,
+          "rank": 30,
+          "tie_interval": [
+            29,
+            31
+          ],
+          "informative": true
+        },
+        "B_recent": {
+          "score": -1.0133809504878337,
+          "rank": 30,
+          "tie_interval": [
+            30,
+            30
+          ],
+          "informative": true
+        },
+        "C_gap": {
+          "score": -0.11805796703323872,
+          "rank": 14,
+          "tie_interval": [
+            14,
+            15
+          ],
+          "informative": true
+        },
+        "D_trend": {
+          "score": -0.587220219507807,
+          "rank": 24,
+          "tie_interval": [
+            22,
+            27
+          ],
+          "informative": true
+        },
+        "E_pairs": {
+          "score": 0.0,
+          "rank": 14,
+          "tie_interval": [
+            1,
+            35
+          ],
+          "informative": false
+        },
+        "F_structure": null,
+        "G_ensemble": {
+          "score": 0.0,
+          "rank": 14,
+          "tie_interval": [
+            1,
+            35
+          ],
+          "informative": false
+        },
+        "H_random": {
+          "score": 0.22888906647246676,
+          "rank": 28,
+          "tie_interval": [
+            28,
+            28
+          ],
+          "informative": true
+        }
+      }
+    },
+    "23": {
+      "role": "winner",
+      "models": {
+        "A_long": {
+          "score": 0.3797772626414838,
+          "rank": 15,
+          "tie_interval": [
+            11,
+            15
+          ],
+          "informative": true
+        },
+        "B_recent": {
+          "score": 0.522731592673125,
+          "rank": 9,
+          "tie_interval": [
+            9,
+            9
+          ],
+          "informative": true
+        },
+        "C_gap": {
+          "score": -0.3058774600406638,
+          "rank": 19,
+          "tie_interval": [
+            16,
+            19
+          ],
+          "informative": true
+        },
+        "D_trend": {
+          "score": 0.5872202195078071,
+          "rank": 11,
+          "tie_interval": [
+            10,
+            11
+          ],
+          "informative": true
+        },
+        "E_pairs": {
+          "score": 0.0,
+          "rank": 34,
+          "tie_interval": [
+            1,
+            35
+          ],
+          "informative": false
+        },
+        "F_structure": null,
+        "G_ensemble": {
+          "score": 0.0,
+          "rank": 34,
+          "tie_interval": [
+            1,
+            35
+          ],
+          "informative": false
+        },
+        "H_random": {
+          "score": 0.7720195149074444,
+          "rank": 11,
+          "tie_interval": [
+            11,
+            11
+          ],
+          "informative": true
+        }
+      }
+    },
+    "31": {
+      "role": "winner",
+      "models": {
+        "A_long": {
+          "score": -1.1709798931445727,
+          "rank": 29,
+          "tie_interval": [
+            29,
+            31
+          ],
+          "informative": true
+        },
+        "B_recent": {
+          "score": -0.24568463765976967,
+          "rank": 19,
+          "tie_interval": [
+            19,
+            19
+          ],
+          "informative": true
+        },
+        "C_gap": {
+          "score": -0.4936969530480889,
+          "rank": 20,
+          "tie_interval": [
+            20,
+            23
+          ],
+          "informative": true
+        },
+        "D_trend": {
+          "score": -0.5872202195078068,
+          "rank": 22,
+          "tie_interval": [
+            22,
+            27
+          ],
+          "informative": true
+        },
+        "E_pairs": {
+          "score": 0.0,
+          "rank": 4,
+          "tie_interval": [
+            1,
+            35
+          ],
+          "informative": false
+        },
+        "F_structure": null,
+        "G_ensemble": {
+          "score": 0.0,
+          "rank": 4,
+          "tie_interval": [
+            1,
+            35
+          ],
+          "informative": false
+        },
+        "H_random": {
+          "score": 0.8401814224320991,
+          "rank": 6,
+          "tie_interval": [
+            6,
+            6
+          ],
+          "informative": true
+        }
+      }
+    },
+    "1": {
+      "role": "selected_loser",
+      "models": {
+        "A_long": {
+          "score": 0.6013139991823491,
+          "rank": 10,
+          "tie_interval": [
+            7,
+            10
+          ],
+          "informative": true
+        },
+        "B_recent": {
+          "score": 1.6967201538384025,
+          "rank": 3,
+          "tie_interval": [
+            3,
+            3
+          ],
+          "informative": true
+        },
+        "C_gap": {
+          "score": -1.0571554320703642,
+          "rank": 34,
+          "tie_interval": [
+            31,
+            35
+          ],
+          "informative": true
+        },
+        "D_trend": {
+          "score": 2.3488808780312276,
+          "rank": 1,
+          "tie_interval": [
+            1,
+            1
+          ],
+          "informative": true
+        },
+        "E_pairs": {
+          "score": 0.0,
+          "rank": 21,
+          "tie_interval": [
+            1,
+            35
+          ],
+          "informative": false
+        },
+        "F_structure": null,
+        "G_ensemble": {
+          "score": 0.0,
+          "rank": 21,
+          "tie_interval": [
+            1,
+            35
+          ],
+          "informative": false
+        },
+        "H_random": {
+          "score": 0.9187517598999932,
+          "rank": 2,
+          "tie_interval": [
+            2,
+            2
+          ],
+          "informative": true
+        }
+      }
+    },
+    "2": {
+      "role": "selected_loser",
+      "models": {
+        "A_long": {
+          "score": 0.6013139991823491,
+          "rank": 8,
+          "tie_interval": [
+            7,
+            10
+          ],
+          "informative": true
+        },
+        "B_recent": {
+          "score": -0.0031602692494148766,
+          "rank": 17,
+          "tie_interval": [
+            17,
+            17
+          ],
+          "informative": true
+        },
+        "C_gap": {
+          "score": -0.3058774600406638,
+          "rank": 18,
+          "tie_interval": [
+            16,
+            19
+          ],
+          "informative": true
+        },
+        "D_trend": {
+          "score": 1.174440439015614,
+          "rank": 4,
+          "tie_interval": [
+            3,
+            7
+          ],
+          "informative": true
+        },
+        "E_pairs": {
+          "score": 0.0,
+          "rank": 10,
+          "tie_interval": [
+            1,
+            35
+          ],
+          "informative": false
+        },
+        "F_structure": null,
+        "G_ensemble": {
+          "score": 0.0,
+          "rank": 10,
+          "tie_interval": [
+            1,
+            35
+          ],
+          "informative": false
+        },
+        "H_random": {
+          "score": 0.5794703849924531,
+          "rank": 19,
+          "tie_interval": [
+            19,
+            19
+          ],
+          "informative": true
+        }
+      }
+    },
+    "18": {
+      "role": "selected_loser",
+      "models": {
+        "A_long": {
+          "score": 0.3797772626414838,
+          "rank": 12,
+          "tie_interval": [
+            11,
+            15
+          ],
+          "informative": true
+        },
+        "B_recent": {
+          "score": 3.3433586377111406,
+          "rank": 1,
+          "tie_interval": [
+            1,
+            1
+          ],
+          "informative": true
+        },
+        "C_gap": {
+          "score": -1.0571554320703642,
+          "rank": 31,
+          "tie_interval": [
+            31,
+            35
+          ],
+          "informative": true
+        },
+        "D_trend": {
+          "score": 1.7616606585234205,
+          "rank": 2,
+          "tie_interval": [
+            2,
+            2
+          ],
+          "informative": true
+        },
+        "E_pairs": {
+          "score": 0.0,
+          "rank": 9,
+          "tie_interval": [
+            1,
+            35
+          ],
+          "informative": false
+        },
+        "F_structure": null,
+        "G_ensemble": {
+          "score": 0.0,
+          "rank": 9,
+          "tie_interval": [
+            1,
+            35
+          ],
+          "informative": false
+        },
+        "H_random": {
+          "score": 0.9158066039651376,
+          "rank": 3,
+          "tie_interval": [
+            3,
+            3
+          ],
+          "informative": true
+        }
+      }
+    },
+    "34": {
+      "role": "selected_loser",
+      "models": {
+        "A_long": {
+          "score": -0.7279064200628421,
+          "rank": 27,
+          "tie_interval": [
+            26,
+            28
+          ],
+          "informative": true
+        },
+        "B_recent": {
+          "score": -0.49814103729614356,
+          "rank": 23,
+          "tie_interval": [
+            23,
+            23
+          ],
+          "informative": true
+        },
+        "C_gap": {
+          "score": 1.384497977026162,
+          "rank": 4,
+          "tie_interval": [
+            4,
+            4
+          ],
+          "informative": true
+        },
+        "D_trend": {
+          "score": 0.8808303292617105,
+          "rank": 9,
+          "tie_interval": [
+            8,
+            9
+          ],
+          "informative": true
+        },
+        "E_pairs": {
+          "score": 0.0,
+          "rank": 32,
+          "tie_interval": [
+            1,
+            35
+          ],
+          "informative": false
+        },
+        "F_structure": null,
+        "G_ensemble": {
+          "score": 0.0,
+          "rank": 32,
+          "tie_interval": [
+            1,
+            35
+          ],
+          "informative": false
+        },
+        "H_random": {
+          "score": 0.7131072625164134,
+          "rank": 15,
+          "tie_interval": [
+            15,
+            15
+          ],
+          "informative": true
+        }
+      }
+    },
+    "35": {
+      "role": "selected_loser",
+      "models": {
+        "A_long": {
+          "score": -1.3925166296854379,
+          "rank": 32,
+          "tie_interval": [
+            32,
+            33
+          ],
+          "informative": true
+        },
+        "B_recent": {
+          "score": -0.34043994669848726,
+          "rank": 22,
+          "tie_interval": [
+            22,
+            22
+          ],
+          "informative": true
+        },
+        "C_gap": {
+          "score": -0.869335939062939,
+          "rank": 28,
+          "tie_interval": [
+            27,
+            30
+          ],
+          "informative": true
+        },
+        "D_trend": {
+          "score": 1.1744404390156138,
+          "rank": 3,
+          "tie_interval": [
+            3,
+            7
+          ],
+          "informative": true
+        },
+        "E_pairs": {
+          "score": 0.0,
+          "rank": 7,
+          "tie_interval": [
+            1,
+            35
+          ],
+          "informative": false
+        },
+        "F_structure": null,
+        "G_ensemble": {
+          "score": 0.0,
+          "rank": 7,
+          "tie_interval": [
+            1,
+            35
+          ],
+          "informative": false
+        },
+        "H_random": {
+          "score": 0.08174872739888517,
+          "rank": 35,
+          "tie_interval": [
+            35,
+            35
+          ],
+          "informative": true
+        }
+      }
+    }
+  },
+  "flat_or_non_informative": [
+    "E_pairs",
+    "F_structure",
+    "G_ensemble"
+  ],
+  "coverage": {
+    "A_long": {
+      "5": {
+        "point": 0,
+        "min": 0,
+        "max": 0,
+        "expected": 0.7142857142857143,
+        "p_ge": 1.0
+      },
+      "7": {
+        "point": 1,
+        "min": 0,
+        "max": 1,
+        "expected": 1.0,
+        "p_ge": 0.6972572020010351
+      },
+      "10": {
+        "point": 1,
+        "min": 1,
+        "max": 1,
+        "expected": 1.4285714285714286,
+        "p_ge": 0.8363377609108158
+      },
+      "12": {
+        "point": 1,
+        "min": 1,
+        "max": 2,
+        "expected": 1.7142857142857142,
+        "p_ge": 0.89634724857685
+      },
+      "15": {
+        "point": 2,
+        "min": 2,
+        "max": 2,
+        "expected": 2.142857142857143,
+        "p_ge": 0.7283724340175953
+      },
+      "20": {
+        "point": 3,
+        "min": 3,
+        "max": 3,
+        "expected": 2.857142857142857,
+        "p_ge": 0.6403527686734518
+      }
+    },
+    "B_recent": {
+      "5": {
+        "point": 0,
+        "min": 0,
+        "max": 0,
+        "expected": 0.7142857142857143,
+        "p_ge": 1.0
+      },
+      "7": {
+        "point": 0,
+        "min": 0,
+        "max": 0,
+        "expected": 1.0,
+        "p_ge": 1.0
+      },
+      "10": {
+        "point": 1,
+        "min": 1,
+        "max": 1,
+        "expected": 1.4285714285714286,
+        "p_ge": 0.8363377609108158
+      },
+      "12": {
+        "point": 1,
+        "min": 1,
+        "max": 1,
+        "expected": 1.7142857142857142,
+        "p_ge": 0.89634724857685
+      },
+      "15": {
+        "point": 1,
+        "min": 1,
+        "max": 1,
+        "expected": 2.142857142857143,
+        "p_ge": 0.9522413070800168
+      },
+      "20": {
+        "point": 3,
+        "min": 3,
+        "max": 3,
+        "expected": 2.857142857142857,
+        "p_ge": 0.6403527686734518
+      }
+    },
+    "C_gap": {
+      "5": {
+        "point": 1,
+        "min": 1,
+        "max": 1,
+        "expected": 0.7142857142857143,
+        "p_ge": 0.5610229429015008
+      },
+      "7": {
+        "point": 1,
+        "min": 1,
+        "max": 1,
+        "expected": 1.0,
+        "p_ge": 0.6972572020010351
+      },
+      "10": {
+        "point": 1,
+        "min": 1,
+        "max": 1,
+        "expected": 1.4285714285714286,
+        "p_ge": 0.8363377609108158
+      },
+      "12": {
+        "point": 1,
+        "min": 1,
+        "max": 1,
+        "expected": 1.7142857142857142,
+        "p_ge": 0.89634724857685
+      },
+      "15": {
+        "point": 2,
+        "min": 2,
+        "max": 2,
+        "expected": 2.142857142857143,
+        "p_ge": 0.7283724340175953
+      },
+      "20": {
+        "point": 5,
+        "min": 4,
+        "max": 5,
+        "expected": 2.857142857142857,
+        "p_ge": 0.04775869291998324
+      }
+    },
+    "D_trend": {
+      "5": {
+        "point": 0,
+        "min": 0,
+        "max": 0,
+        "expected": 0.7142857142857143,
+        "p_ge": 1.0
+      },
+      "7": {
+        "point": 0,
+        "min": 0,
+        "max": 0,
+        "expected": 1.0,
+        "p_ge": 1.0
+      },
+      "10": {
+        "point": 0,
+        "min": 0,
+        "max": 1,
+        "expected": 1.4285714285714286,
+        "p_ge": 0.9999999999999999
+      },
+      "12": {
+        "point": 2,
+        "min": 1,
+        "max": 2,
+        "expected": 1.7142857142857142,
+        "p_ge": 0.5690227703984819
+      },
+      "15": {
+        "point": 2,
+        "min": 2,
+        "max": 2,
+        "expected": 2.142857142857143,
+        "p_ge": 0.7283724340175953
+      },
+      "20": {
+        "point": 2,
+        "min": 2,
+        "max": 2,
+        "expected": 2.857142857142857,
+        "p_ge": 0.9066543039503191
+      }
+    },
+    "G_ensemble": {
+      "5": {
+        "point": 3,
+        "min": 0,
+        "max": 5,
+        "expected": 0.7142857142857143,
+        "p_ge": 0.013864930136277384
+      },
+      "7": {
+        "point": 3,
+        "min": 0,
+        "max": 5,
+        "expected": 1.0,
+        "p_ge": 0.04383732965326893
+      },
+      "10": {
+        "point": 3,
+        "min": 0,
+        "max": 5,
+        "expected": 1.4285714285714286,
+        "p_ge": 0.1278432193991966
+      },
+      "12": {
+        "point": 3,
+        "min": 0,
+        "max": 5,
+        "expected": 1.7142857142857142,
+        "p_ge": 0.20896584440227703
+      },
+      "15": {
+        "point": 4,
+        "min": 0,
+        "max": 5,
+        "expected": 2.142857142857143,
+        "p_ge": 0.09334569604968086
+      },
+      "20": {
+        "point": 4,
+        "min": 0,
+        "max": 5,
+        "expected": 2.857142857142857,
+        "p_ge": 0.2716275659824047
+      }
+    },
+    "H_random": {
+      "5": {
+        "point": 0,
+        "min": 0,
+        "max": 0,
+        "expected": 0.7142857142857143,
+        "p_ge": 1.0
+      },
+      "7": {
+        "point": 1,
+        "min": 1,
+        "max": 1,
+        "expected": 1.0,
+        "p_ge": 0.6972572020010351
+      },
+      "10": {
+        "point": 1,
+        "min": 1,
+        "max": 1,
+        "expected": 1.4285714285714286,
+        "p_ge": 0.8363377609108158
+      },
+      "12": {
+        "point": 2,
+        "min": 2,
+        "max": 2,
+        "expected": 1.7142857142857142,
+        "p_ge": 0.5690227703984819
+      },
+      "15": {
+        "point": 2,
+        "min": 2,
+        "max": 2,
+        "expected": 2.142857142857143,
+        "p_ge": 0.7283724340175953
+      },
+      "20": {
+        "point": 2,
+        "min": 2,
+        "max": 2,
+        "expected": 2.857142857142857,
+        "p_ge": 0.9066543039503191
+      }
+    }
+  },
+  "super_ball": {
+    "S_long": {
+      "informative": true,
+      "selected": 5,
+      "SB8": {
+        "rank": 9,
+        "tie": [
+          8,
+          9
+        ],
+        "score": -0.6665143030961498
+      },
+      "SB2": {
+        "rank": 8,
+        "tie": [
+          8,
+          9
+        ],
+        "score": -0.6665143030961498
+      }
+    },
+    "S_recent": {
+      "informative": true,
+      "selected": 5,
+      "SB8": {
+        "rank": 4,
+        "tie": [
+          4,
+          4
+        ],
+        "score": 0.25357026769804564
+      },
+      "SB2": {
+        "rank": 9,
+        "tie": [
+          9,
+          9
+        ],
+        "score": -1.182576419679616
+      }
+    },
+    "S_gap": {
+      "informative": true,
+      "selected": 2,
+      "SB8": {
+        "rank": 8,
+        "tie": [
+          8,
+          8
+        ],
+        "score": -0.6440125123645626
+      },
+      "SB2": {
+        "rank": 1,
+        "tie": [
+          1,
+          1
+        ],
+        "score": 2.64176561194443
+      }
+    },
+    "S_trend": {
+      "informative": true,
+      "selected": 3,
+      "SB8": {
+        "rank": 5,
+        "tie": [
+          4,
+          6
+        ],
+        "score": 0.35805743701458825
+      },
+      "SB2": {
+        "rank": 10,
+        "tie": [
+          10,
+          10
+        ],
+        "score": -2.5064020591021174
+      }
+    },
+    "S_transition": {
+      "informative": false,
+      "selected": 5,
+      "SB8": {
+        "rank": 8,
+        "tie": [
+          1,
+          10
+        ],
+        "score": 0.0
+      },
+      "SB2": {
+        "rank": 4,
+        "tie": [
+          1,
+          10
+        ],
+        "score": 0.0
+      }
+    },
+    "S_ensemble": {
+      "informative": true,
+      "selected": 2,
+      "SB8": {
+        "rank": 8,
+        "tie": [
+          8,
+          8
+        ],
+        "score": -0.2244286027937112
+      },
+      "SB2": {
+        "rank": 1,
+        "tie": [
+          1,
+          1
+        ],
+        "score": 0.9206152890109378
+      }
+    },
+    "S_random": {
+      "informative": false,
+      "random_control": true,
+      "selected": 9
+    }
+  },
+  "SB8_in_any_candidate": false,
+  "pool_super_balls_1754": [
+    2,
+    3,
+    5,
+    9
+  ],
+  "pool_super_balls_1753": [
+    2,
+    4,
+    5,
+    6
+  ],
+  "SB3_in_any_1753_candidate": false,
+  "sb_omission_repeated": true,
+  "note": "Exact frozen pre-draw values from draw1754/complete_rankings.json. E_pairs flat (no Holm-retained pair); G_ensemble proxy marked non-informative by V1 instrumentation but ranked; F_structure has no number-level ranking; H_random is a control."
+}

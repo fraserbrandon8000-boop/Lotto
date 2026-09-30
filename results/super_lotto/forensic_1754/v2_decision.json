@@ -1,0 +1,468 @@
+{
+  "data_through": 1754,
+  "origins": 128,
+  "selectors": [
+    {
+      "domain": "main",
+      "model": "A_long",
+      "n": 40,
+      "mean": 0.65,
+      "random": 0.7142857142857143,
+      "holm_p": 1.0,
+      "block95": [
+        0.45,
+        0.825
+      ],
+      "halves": [
+        0.6,
+        0.7
+      ],
+      "passes": false
+    },
+    {
+      "domain": "main",
+      "model": "B_recent",
+      "n": 40,
+      "mean": 0.75,
+      "random": 0.7142857142857143,
+      "holm_p": 1.0,
+      "block95": [
+        0.525,
+        1.0
+      ],
+      "halves": [
+        0.8,
+        0.7
+      ],
+      "passes": false
+    },
+    {
+      "domain": "main",
+      "model": "C_gap",
+      "n": 40,
+      "mean": 0.7,
+      "random": 0.7142857142857143,
+      "holm_p": 1.0,
+      "block95": [
+        0.525,
+        0.875
+      ],
+      "halves": [
+        0.65,
+        0.75
+      ],
+      "passes": false
+    },
+    {
+      "domain": "main",
+      "model": "D_trend",
+      "n": 40,
+      "mean": 0.675,
+      "random": 0.7142857142857143,
+      "holm_p": 1.0,
+      "block95": [
+        0.45,
+        0.925
+      ],
+      "halves": [
+        0.8,
+        0.55
+      ],
+      "passes": false
+    },
+    {
+      "domain": "main",
+      "model": "E_pairs",
+      "n": 40,
+      "mean": 0.625,
+      "random": 0.7142857142857143,
+      "holm_p": 1.0,
+      "block95": [
+        0.475,
+        0.775
+      ],
+      "halves": [
+        0.75,
+        0.5
+      ],
+      "passes": false
+    },
+    {
+      "domain": "main",
+      "model": "F_structure",
+      "n": 40,
+      "mean": 0.625,
+      "random": 0.7142857142857143,
+      "holm_p": 1.0,
+      "block95": [
+        0.425,
+        0.875
+      ],
+      "halves": [
+        0.85,
+        0.4
+      ],
+      "passes": false
+    },
+    {
+      "domain": "main",
+      "model": "G_ensemble",
+      "n": 40,
+      "mean": 0.625,
+      "random": 0.7142857142857143,
+      "holm_p": 1.0,
+      "block95": [
+        0.475,
+        0.775
+      ],
+      "halves": [
+        0.75,
+        0.5
+      ],
+      "passes": false
+    },
+    {
+      "domain": "main",
+      "model": "H_random",
+      "n": 40,
+      "mean": 0.625,
+      "random": 0.7142857142857143,
+      "holm_p": 1.0,
+      "block95": [
+        0.45,
+        0.8
+      ],
+      "halves": [
+        0.6,
+        0.65
+      ],
+      "passes": false
+    },
+    {
+      "domain": "SB",
+      "model": "S_long",
+      "n": 40,
+      "mean": 0.0,
+      "random": 0.1,
+      "holm_p": 1.0,
+      "block95": [
+        0.0,
+        0.0
+      ],
+      "halves": [
+        0.0,
+        0.0
+      ],
+      "passes": false
+    },
+    {
+      "domain": "SB",
+      "model": "S_recent",
+      "n": 40,
+      "mean": 0.125,
+      "random": 0.1,
+      "holm_p": 1.0,
+      "block95": [
+        0.05,
+        0.2
+      ],
+      "halves": [
+        0.15,
+        0.1
+      ],
+      "passes": false
+    },
+    {
+      "domain": "SB",
+      "model": "S_gap",
+      "n": 40,
+      "mean": 0.05,
+      "random": 0.1,
+      "holm_p": 1.0,
+      "block95": [
+        0.0,
+        0.125
+      ],
+      "halves": [
+        0.05,
+        0.05
+      ],
+      "passes": false
+    },
+    {
+      "domain": "SB",
+      "model": "S_trend",
+      "n": 40,
+      "mean": 0.15,
+      "random": 0.1,
+      "holm_p": 1.0,
+      "block95": [
+        0.05,
+        0.25
+      ],
+      "halves": [
+        0.25,
+        0.05
+      ],
+      "passes": false
+    },
+    {
+      "domain": "SB",
+      "model": "S_transition",
+      "n": 40,
+      "mean": 0.05,
+      "random": 0.1,
+      "holm_p": 1.0,
+      "block95": [
+        0.0,
+        0.1
+      ],
+      "halves": [
+        0.05,
+        0.05
+      ],
+      "passes": false
+    },
+    {
+      "domain": "SB",
+      "model": "S_ensemble",
+      "n": 40,
+      "mean": 0.05,
+      "random": 0.1,
+      "holm_p": 1.0,
+      "block95": [
+        0.0,
+        0.125
+      ],
+      "halves": [
+        0.05,
+        0.05
+      ],
+      "passes": false
+    },
+    {
+      "domain": "SB",
+      "model": "S_random",
+      "n": 40,
+      "mean": 0.1,
+      "random": 0.1,
+      "holm_p": 1.0,
+      "block95": [
+        0.025,
+        0.175
+      ],
+      "halves": [
+        0.1,
+        0.1
+      ],
+      "passes": false
+    }
+  ],
+  "construction_methods": [
+    {
+      "method": "B_recent:pool15:uniform",
+      "n": 40,
+      "mean": 0.975,
+      "p": 0.01885911335346857,
+      "block95": [
+        0.75,
+        1.225
+      ],
+      "halves": [
+        0.8,
+        1.15
+      ],
+      "holm_p": 0.8298009875526171,
+      "passes": false
+    },
+    {
+      "method": "A_long:pool10:structure",
+      "n": 40,
+      "mean": 0.6,
+      "p": 0.8634367985170691,
+      "block95": [
+        0.35,
+        0.85
+      ],
+      "halves": [
+        0.65,
+        0.55
+      ],
+      "holm_p": 1.0,
+      "passes": false
+    },
+    {
+      "method": "A_long:pool10:uniform",
+      "n": 40,
+      "mean": 0.625,
+      "p": 0.808308903143885,
+      "block95": [
+        0.4,
+        0.9
+      ],
+      "halves": [
+        0.55,
+        0.7
+      ],
+      "holm_p": 1.0,
+      "passes": false
+    },
+    {
+      "method": "A_long:pool12:structure",
+      "n": 40,
+      "mean": 0.6,
+      "p": 0.8634367985170691,
+      "block95": [
+        0.35,
+        0.85
+      ],
+      "halves": [
+        0.65,
+        0.55
+      ],
+      "holm_p": 1.0,
+      "passes": false
+    },
+    {
+      "method": "A_long:pool12:uniform",
+      "n": 40,
+      "mean": 0.65,
+      "p": 0.7420535634817731,
+      "block95": [
+        0.475,
+        0.85
+      ],
+      "halves": [
+        0.85,
+        0.45
+      ],
+      "holm_p": 1.0,
+      "passes": false
+    },
+    {
+      "method": "A_long:pool15:structure",
+      "n": 40,
+      "mean": 0.6,
+      "p": 0.8634367985170691,
+      "block95": [
+        0.35,
+        0.85
+      ],
+      "halves": [
+        0.65,
+        0.55
+      ],
+      "holm_p": 1.0,
+      "passes": false
+    },
+    {
+      "method": "A_long:pool15:uniform",
+      "n": 40,
+      "mean": 0.65,
+      "p": 0.7420535634817731,
+      "block95": [
+        0.425,
+        0.9
+      ],
+      "halves": [
+        0.6,
+        0.7
+      ],
+      "holm_p": 1.0,
+      "passes": false
+    },
+    {
+      "method": "A_long:pool7:structure",
+      "n": 40,
+      "mean": 0.6,
+      "p": 0.8634367985170691,
+      "block95": [
+        0.35,
+        0.85
+      ],
+      "halves": [
+        0.65,
+        0.55
+      ],
+      "holm_p": 1.0,
+      "passes": false
+    },
+    {
+      "method": "A_long:pool7:uniform",
+      "n": 40,
+      "mean": 0.625,
+      "p": 0.808308903143885,
+      "block95": [
+        0.37437500000000024,
+        0.9
+      ],
+      "halves": [
+        0.75,
+        0.5
+      ],
+      "holm_p": 1.0,
+      "passes": false
+    },
+    {
+      "method": "A_long:pool8:structure",
+      "n": 40,
+      "mean": 0.6,
+      "p": 0.8634367985170691,
+      "block95": [
+        0.4,
+        0.825
+      ],
+      "halves": [
+        0.7,
+        0.5
+      ],
+      "holm_p": 1.0,
+      "passes": false
+    },
+    {
+      "method": "A_long:pool8:uniform",
+      "n": 40,
+      "mean": 0.65,
+      "p": 0.7420535634817731,
+      "block95": [
+        0.5,
+        0.825
+      ],
+      "halves": [
+        0.75,
+        0.55
+      ],
+      "holm_p": 1.0,
+      "passes": false
+    },
+    {
+      "method": "A_long:top5",
+      "n": 40,
+      "mean": 0.675,
+      "p": 0.6663279427273494,
+      "block95": [
+        0.4,
+        0.95
+      ],
+      "halves": [
+        0.7,
+        0.65
+      ],
+      "holm_p": 1.0,
+      "passes": false
+    }
+  ],
+  "construction_family_size": 44,
+  "any_selector_passes": false,
+  "any_construction_passes": false,
+  "fallback_design": {
+    "production_mean_main": 0.6363636363636364,
+    "per_draw_seed_mean_main": {
+      "mean": 0.7295790889871228,
+      "p05": 0.6198347107438017,
+      "p95": 0.8347107438016529
+    },
+    "note": "Both are random selections among the same candidates; no expected difference and no gate can be passed."
+  },
+  "conclusion": "NO SUPER LOTTO V2 IS JUSTIFIED"
+}
