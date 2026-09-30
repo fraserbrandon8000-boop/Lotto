@@ -1,0 +1,13 @@
+{
+  "created_utc": "2026-09-30T00:51:36.144Z",
+  "model": "jev-1.13.0",
+  "questions": 20,
+  "state_sha256": "ab3b601bdeb355461739f98260463acd5ef876fc18f4d21c1b8801e271cab2d0",
+  "request_sha256": "0f52434a94befab7aaa598b47b1c68ef8c6ec4ed1b44afb42cc1f97a03ae9913",
+  "frozen_portfolio_sha256": "edee79923686546eaa0160329d252d2b54c052fa65298d1ab218b60f6a0c59a4",
+  "usage": {
+    "input_tokens": 5547,
+    "output_tokens": 386
+  },
+  "note": "Evidence audit only; cannot modify any ticket; not winning probabilities."
+}

@@ -1,0 +1,164 @@
+{
+  "model": "jev-1.13.0",
+  "answers": {
+    "t1_robustness": {
+      "type": "score",
+      "score": 0.09,
+      "confidence": 0.93,
+      "legend": {
+        "0": "No empirical support beyond random: every relevant model fails corrected testing and results match random controls.",
+        "1": "Weak or fragile apparent support: small uncorrected differences, unstable across periods or settings.",
+        "2": "Some repeatable out-of-sample support, but no corrected confirmation and substantial uncertainty.",
+        "3": "Corrected confirmation-period support that is stable across sensitivity settings.",
+        "4": "Strong support replicated across independent models, periods and prospective outcomes."
+      },
+      "probabilities": {
+        "0": 0.92,
+        "1": 0.08,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "t1_overfit": {
+      "type": "noul",
+      "noul": 0.95
+    },
+    "t1_weak_models": {
+      "type": "noul",
+      "noul": 0.98
+    },
+    "t1_concentration": {
+      "type": "noul",
+      "noul": 0.94
+    },
+    "t1_fragility": {
+      "type": "noul",
+      "noul": 0.39
+    },
+    "t2_robustness": {
+      "type": "score",
+      "score": 0.13,
+      "confidence": 0.89,
+      "legend": {
+        "0": "No empirical support beyond random: every relevant model fails corrected testing and results match random controls.",
+        "1": "Weak or fragile apparent support: small uncorrected differences, unstable across periods or settings.",
+        "2": "Some repeatable out-of-sample support, but no corrected confirmation and substantial uncertainty.",
+        "3": "Corrected confirmation-period support that is stable across sensitivity settings.",
+        "4": "Strong support replicated across independent models, periods and prospective outcomes."
+      },
+      "probabilities": {
+        "0": 0.89,
+        "1": 0.1,
+        "2": 0.01,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "t2_overfit": {
+      "type": "noul",
+      "noul": 0.94
+    },
+    "t2_weak_models": {
+      "type": "noul",
+      "noul": 0.97
+    },
+    "t2_concentration": {
+      "type": "noul",
+      "noul": 0.88
+    },
+    "t2_fragility": {
+      "type": "noul",
+      "noul": 0.28
+    },
+    "t3_robustness": {
+      "type": "score",
+      "score": 0.13,
+      "confidence": 0.89,
+      "legend": {
+        "0": "No empirical support beyond random: every relevant model fails corrected testing and results match random controls.",
+        "1": "Weak or fragile apparent support: small uncorrected differences, unstable across periods or settings.",
+        "2": "Some repeatable out-of-sample support, but no corrected confirmation and substantial uncertainty.",
+        "3": "Corrected confirmation-period support that is stable across sensitivity settings.",
+        "4": "Strong support replicated across independent models, periods and prospective outcomes."
+      },
+      "probabilities": {
+        "0": 0.88,
+        "1": 0.11,
+        "2": 0.01,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "t3_overfit": {
+      "type": "noul",
+      "noul": 0.94
+    },
+    "t3_weak_models": {
+      "type": "noul",
+      "noul": 0.97
+    },
+    "t3_concentration": {
+      "type": "noul",
+      "noul": 0.9
+    },
+    "t3_fragility": {
+      "type": "noul",
+      "noul": 0.71
+    },
+    "portfolio_robustness": {
+      "type": "score",
+      "score": 0.39,
+      "confidence": 0.67,
+      "legend": {
+        "0": "No empirical support beyond random: every relevant model fails corrected testing and results match random controls.",
+        "1": "Weak or fragile apparent support: small uncorrected differences, unstable across periods or settings.",
+        "2": "Some repeatable out-of-sample support, but no corrected confirmation and substantial uncertainty.",
+        "3": "Corrected confirmation-period support that is stable across sensitivity settings.",
+        "4": "Strong support replicated across independent models, periods and prospective outcomes."
+      },
+      "probabilities": {
+        "0": 0.65,
+        "1": 0.32,
+        "2": 0.03,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "portfolio_edge": {
+      "type": "noul",
+      "noul": 0.05
+    },
+    "portfolio_overfit": {
+      "type": "noul",
+      "noul": 0.94
+    },
+    "portfolio_concentration": {
+      "type": "noul",
+      "noul": 0.93
+    },
+    "portfolio_coverage": {
+      "type": "score",
+      "score": 2.94,
+      "confidence": 0.95,
+      "legend": {
+        "0": "Poor: tickets largely duplicate each other.",
+        "1": "Limited: substantial overlap in mains or repeated Super Balls.",
+        "2": "Moderate: some overlap; coverage clearly broader than one ticket.",
+        "3": "Good: low main overlap and distinct Super Balls.",
+        "4": "Maximal: no main overlap and three distinct Super Balls."
+      },
+      "probabilities": {
+        "0": 0,
+        "1": 0,
+        "2": 0.06,
+        "3": 0.94,
+        "4": 0
+      }
+    }
+  },
+  "usage": {
+    "input_tokens": 5547,
+    "output_tokens": 386
+  }
+}

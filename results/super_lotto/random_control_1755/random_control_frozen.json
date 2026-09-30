@@ -1,0 +1,47 @@
+{
+  "status": "PRE-DRAW RANDOM CONTROL FROZEN (research only; NOT a recommended playable portfolio)",
+  "created_utc": "2026-09-30T00:51:36.535639+00:00",
+  "target_draw": 1755,
+  "seed": 2026093061,
+  "method": "uniform 5-of-35 by rejection sampling until pairwise main overlap <= 1 (P0 rule); independent uniform SBs; numpy default_rng(2026093061)",
+  "tickets": [
+    {
+      "mains": [
+        3,
+        4,
+        13,
+        22,
+        26
+      ],
+      "super_ball": 4
+    },
+    {
+      "mains": [
+        2,
+        3,
+        20,
+        23,
+        31
+      ],
+      "super_ball": 2
+    },
+    {
+      "mains": [
+        9,
+        10,
+        14,
+        29,
+        30
+      ],
+      "super_ball": 3
+    }
+  ],
+  "pairwise_main_overlap": {
+    "1-2": 1,
+    "1-3": 0,
+    "2-3": 0
+  },
+  "unique_mains": 14,
+  "distinct_sbs": 3,
+  "code_sha256": "9af8b763d3f6a8d794f0db48bf25e4ec2092239275936274d9649ff5dc05df39"
+}
