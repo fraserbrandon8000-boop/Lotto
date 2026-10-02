@@ -1,0 +1,66 @@
+{
+  "candidate_freeze": {
+    "candidates.json": "exact",
+    "jev_state.json": "exact",
+    "complete_rankings.json": "exact",
+    "predraw_rankings_and_fit.json": "exact",
+    "metadata.json": "exact",
+    "PROTOCOL.md": "exact"
+  },
+  "prediction_embedded": {
+    "exact": 41
+  },
+  "prediction_mismatches": [],
+  "p0_frozen_hashes": {
+    "p0_result.json": "exact",
+    "universe_scores.csv": "exact",
+    "scripts/research/super_p0.py": "exact",
+    "scripts/research/super_p0_apply.py": "exact",
+    "scripts/research/super_p0_freeze.py": "exact"
+  },
+  "jev": {
+    "state": true,
+    "request_compact": true,
+    "single_attempt": true
+  },
+  "ledger": {
+    "prediction_frozen": {
+      "sha_ok": "exact"
+    },
+    "P0_coverage_ticket_2": {
+      "sha_ok": "exact"
+    },
+    "P0_coverage_ticket_3": {
+      "sha_ok": "exact"
+    },
+    "random_control_ticket_1": {
+      "sha_ok": "exact"
+    },
+    "random_control_ticket_2": {
+      "sha_ok": "exact"
+    },
+    "random_control_ticket_3": {
+      "sha_ok": "exact"
+    }
+  },
+  "v1_ticket_in_pool": true,
+  "p0_ticket1_equals_v1": true,
+  "chronology_utc": {
+    "pool_frozen": "2026-09-30T00:50:53.648685+00:00",
+    "jev_attempt": "2026-09-30T00:51:03.654Z",
+    "jev_receipt": "2026-09-30T00:51:04.576Z",
+    "v1_frozen": "2026-09-30T00:51:16.291298+00:00",
+    "p0_frozen": "2026-09-30T00:51:17.133866+00:00",
+    "random_control": "2026-09-30T00:51:36.535639+00:00",
+    "scheduled_draw": "2026-09-30T01:30:00Z"
+  },
+  "commits": {
+    "pool": "7edb0dc 2026-09-30T00:50:53+00:00",
+    "tickets": "ef94b7b 2026-09-30T00:51:17+00:00",
+    "p0": "ef94b7b 2026-09-30T00:51:17+00:00",
+    "post_freeze": "aeec3a4 2026-09-30T00:52:07+00:00"
+  },
+  "tickets_unchanged_after_freeze_commit": true,
+  "frozen_before_draw": true,
+  "ALL_PASS": true
+}

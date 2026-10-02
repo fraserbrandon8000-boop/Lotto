@@ -1,0 +1,69 @@
+{
+  "v1": [
+    {
+      "draw": 1753,
+      "main": 1,
+      "sb": 0
+    },
+    {
+      "draw": 1754,
+      "main": 0,
+      "sb": 0
+    },
+    {
+      "draw": 1755,
+      "main": 0,
+      "sb": 0
+    }
+  ],
+  "v1_summary": {
+    "n": 3,
+    "mean_main": 0.3333333333333333,
+    "expected": 0.7142857142857143,
+    "p_total_le_observed": 0.328604490407809,
+    "p_total_ge_observed": 0.9154087450435341,
+    "sb_hits": 0,
+    "sb_rate_ci95": [
+      0.0,
+      0.7075982261787135
+    ],
+    "p_zero_sb_in_3": 0.729,
+    "ge2_rate": 0.0,
+    "ge2_ci95": [
+      0.0,
+      0.7075982261787135
+    ],
+    "p_ticket_ge2": 0.13892961876832843,
+    "p_no_ge2_in_3": 0.638433919050417
+  },
+  "p0_prospective_1755": {
+    "portfolio": {
+      "tickets": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "best_main": 1,
+      "total_main": 1,
+      "any_sb": 0
+    },
+    "expected_total_main": 2.142857142857143,
+    "p_portfolio_best_ge1_random": "~0.92",
+    "note": "one prospective P0 draw; the #1754 shadow is not prospective evidence"
+  },
+  "shadow_1754": {
+    "best_main": 1,
+    "total_main": 2,
+    "any_sb": false
+  },
+  "conclusion": "V1 is below the random mean so far (1 match in 15 main numbers vs 2.14 expected; P(total <= 1) = 0.329), which is not unusual for n = 3 and is no evidence of either edge or defect."
+}

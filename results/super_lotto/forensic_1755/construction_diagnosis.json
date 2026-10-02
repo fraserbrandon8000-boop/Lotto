@@ -1,0 +1,25 @@
+{
+  "winners_in_pool": [
+    11
+  ],
+  "challengers_cover_pool_numbers": 10,
+  "challengers_captured_in_pool_winners": [
+    11
+  ],
+  "historical_efficiency": {
+    "winners_in_pool_total": 167,
+    "captured_by_challengers": 139,
+    "ratio": 0.8323353293413174,
+    "mean_pool_numbers_covered_by_challengers": 9.22549019607843,
+    "expected_ratio_if_blind": 0.7687908496732025
+  },
+  "capability_if_all_winners_in_pool": {
+    "method": "all 792 equally likely 5-subsets of the frozen Top-12 pool as hypothetical winner sets, scored against the frozen challenger tickets (no ticket constructed from the outcome)",
+    "p_best_ge2": 1.0,
+    "p_best_ge3": 0.6212121212121212,
+    "p_best_ge4": 0.09090909090909091,
+    "mean_challenger_total": 4.166666666666667
+  },
+  "p_capture_le1_random_top12": 0.430977229601518,
+  "classification": "D (ordinary random variation) with a discovery shortfall: the Top-12 pool captured 1 winner (random expectation 1.71; P(<=1) = 0.43). Construction captured the only in-pool winner (11). With every credibility 0 the construction is coverage-driven and cannot concentrate winners beyond chance."
+}

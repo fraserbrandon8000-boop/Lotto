@@ -1,0 +1,382 @@
+{
+  "actual": 1,
+  "playable": [
+    2,
+    3,
+    7
+  ],
+  "models": {
+    "S_long": {
+      "informative": true,
+      "selected": 5,
+      "SB1": {
+        "rank": 8,
+        "tie": [
+          7,
+          8
+        ],
+        "score": -0.45056355686950816
+      },
+      "SB2": {
+        "rank": 9,
+        "tie": [
+          9,
+          9
+        ],
+        "score": -0.7008766440192347
+      },
+      "SB3": {
+        "rank": 5,
+        "tie": [
+          5,
+          5
+        ],
+        "score": 0.05006261742994494
+      },
+      "SB7": {
+        "rank": 4,
+        "tie": [
+          4,
+          4
+        ],
+        "score": 0.550688791729398
+      }
+    },
+    "S_recent": {
+      "informative": true,
+      "selected": 3,
+      "SB1": {
+        "rank": 8,
+        "tie": [
+          8,
+          8
+        ],
+        "score": -0.7501552350060353
+      },
+      "SB2": {
+        "rank": 9,
+        "tie": [
+          9,
+          9
+        ],
+        "score": -1.237876102197793
+      },
+      "SB3": {
+        "rank": 1,
+        "tie": [
+          1,
+          1
+        ],
+        "score": 1.562388752869318
+      },
+      "SB7": {
+        "rank": 4,
+        "tie": [
+          4,
+          4
+        ],
+        "score": 0.211482143218787
+      }
+    },
+    "S_gap": {
+      "informative": true,
+      "selected": 2,
+      "SB1": {
+        "rank": 3,
+        "tie": [
+          3,
+          3
+        ],
+        "score": 0.3143473067309262
+      },
+      "SB2": {
+        "rank": 1,
+        "tie": [
+          1,
+          1
+        ],
+        "score": 2.577647915193595
+      },
+      "SB3": {
+        "rank": 9,
+        "tie": [
+          9,
+          9
+        ],
+        "score": -0.9430419201927787
+      },
+      "SB7": {
+        "rank": 4,
+        "tie": [
+          4,
+          4
+        ],
+        "score": 0.06286946134618525
+      }
+    },
+    "S_trend": {
+      "informative": true,
+      "selected": 8,
+      "SB1": {
+        "rank": 3,
+        "tie": [
+          3,
+          4
+        ],
+        "score": 0.6454972243595695
+      },
+      "SB2": {
+        "rank": 10,
+        "tie": [
+          10,
+          10
+        ],
+        "score": -2.259240285258493
+      },
+      "SB3": {
+        "rank": 2,
+        "tie": [
+          2,
+          2
+        ],
+        "score": 0.9682458365393543
+      },
+      "SB7": {
+        "rank": 4,
+        "tie": [
+          3,
+          4
+        ],
+        "score": 0.6454972243595692
+      }
+    },
+    "S_transition": {
+      "informative": false,
+      "selected": 2,
+      "SB1": {
+        "rank": 6,
+        "tie": [
+          1,
+          10
+        ],
+        "score": 0.0
+      },
+      "SB2": {
+        "rank": 1,
+        "tie": [
+          1,
+          10
+        ],
+        "score": 0.0
+      },
+      "SB3": {
+        "rank": 4,
+        "tie": [
+          1,
+          10
+        ],
+        "score": 0.0
+      },
+      "SB7": {
+        "rank": 9,
+        "tie": [
+          1,
+          10
+        ],
+        "score": 0.0
+      }
+    },
+    "S_ensemble": {
+      "informative": true,
+      "selected": 2,
+      "SB1": {
+        "rank": 3,
+        "tie": [
+          3,
+          3
+        ],
+        "score": 0.09112899445971763
+      },
+      "SB2": {
+        "rank": 1,
+        "tie": [
+          1,
+          1
+        ],
+        "score": 0.8379772855487971
+      },
+      "SB3": {
+        "rank": 9,
+        "tie": [
+          9,
+          9
+        ],
+        "score": -0.3128302577178975
+      },
+      "SB7": {
+        "rank": 4,
+        "tie": [
+          4,
+          4
+        ],
+        "score": 0.03764402625871007
+      }
+    },
+    "S_random": {
+      "random_control": true,
+      "selected": 9
+    }
+  },
+  "sb1_features": [
+    {
+      "number": "1",
+      "count": "16",
+      "expected": "17.8",
+      "deviation": "-1.8000000000000007",
+      "ew_rate": "0.07093079254541192",
+      "current_gap": "11",
+      "mean_gap": "10.0",
+      "median_gap": "9.0",
+      "gap_sd": "9.180725150319788",
+      "gap_percentile": "0.7333333333333333",
+      "longest_absence": "31",
+      "trend": "0.05",
+      "short_long_ratio": "1.1125",
+      "volatility": "0.08724939396583133",
+      "complete_gaps": "[10, 18, 14, 2, 9, 5, 27, 1, 5, 10, 0, 5, 10, 31, 3]",
+      "last100": "9",
+      "last50": "3",
+      "last30": "2",
+      "last20": "2",
+      "last10": "0"
+    }
+  ],
+  "sb1_in_v1_pool": false,
+  "v1_pool_super_balls": [
+    2,
+    3,
+    5,
+    8,
+    9
+  ],
+  "sb1_structurally_excluded_by_v1": {
+    "answer": true,
+    "reason": "V1 assigns each candidate the single top pick of one of the 7 SB models (cyclic); SB1 was no model's top pick, so no V1 candidate could carry it"
+  },
+  "p0_sb_order": [
+    3,
+    7,
+    5,
+    4,
+    8,
+    6,
+    1,
+    2,
+    9,
+    10
+  ],
+  "sb1_p0_rank": 7,
+  "excluded_by_p0_rule": {
+    "answer": true,
+    "reason": "rule C gives the challengers the top-2 SBs of the P0 order distinct from V1 SB2 (SB3, SB7); SB1 was 7th, so even 3-ticket distinct coverage reaches only the top 3 SBs. SB1 was not excluded by diversification itself (diversification widened coverage to 3 distinct SBs); it was outside the coverage the 3-ticket budget allows."
+  },
+  "historical_rule_comparison": {
+    "development": {
+      "A": {
+        "any_sb": 0.16129032258064516,
+        "sb_total": 0.3548387096774194,
+        "ch_sb": 0.1935483870967742,
+        "best_ticket_sb": 0.12903225806451613,
+        "any_ge2_sb": 0.06451612903225806,
+        "distinct_sbs": 1.2096774193548387
+      },
+      "B": {
+        "any_sb": 0.3870967741935484,
+        "sb_total": 0.3870967741935484,
+        "ch_sb": 0.22580645161290322,
+        "best_ticket_sb": 0.0967741935483871,
+        "any_ge2_sb": 0.04838709677419355,
+        "distinct_sbs": 3.0
+      },
+      "C": {
+        "any_sb": 0.3709677419354839,
+        "sb_total": 0.3709677419354839,
+        "ch_sb": 0.20967741935483872,
+        "best_ticket_sb": 0.0967741935483871,
+        "any_ge2_sb": 0.03225806451612903,
+        "distinct_sbs": 3.0
+      },
+      "D": {
+        "any_sb": 0.3387096774193548,
+        "sb_total": 0.3548387096774194,
+        "ch_sb": 0.1935483870967742,
+        "best_ticket_sb": 0.06451612903225806,
+        "any_ge2_sb": 0.03225806451612903,
+        "distinct_sbs": 2.661290322580645
+      }
+    },
+    "confirmation": {
+      "A": {
+        "any_sb": 0.125,
+        "sb_total": 0.25,
+        "ch_sb": 0.2,
+        "best_ticket_sb": 0.075,
+        "any_ge2_sb": 0.025,
+        "distinct_sbs": 1.475
+      },
+      "B": {
+        "any_sb": 0.275,
+        "sb_total": 0.275,
+        "ch_sb": 0.225,
+        "best_ticket_sb": 0.15,
+        "any_ge2_sb": 0.075,
+        "distinct_sbs": 3.0
+      },
+      "C": {
+        "any_sb": 0.225,
+        "sb_total": 0.225,
+        "ch_sb": 0.175,
+        "best_ticket_sb": 0.1,
+        "any_ge2_sb": 0.1,
+        "distinct_sbs": 3.0
+      },
+      "D": {
+        "any_sb": 0.1,
+        "sb_total": 0.1,
+        "ch_sb": 0.05,
+        "best_ticket_sb": 0.05,
+        "any_ge2_sb": 0.0,
+        "distinct_sbs": 2.775
+      }
+    },
+    "null_reference": {
+      "ch_sb_expected": 0.2,
+      "any_sb_distinct_three": 0.3,
+      "any_sb_same_on_challengers": "0.1 + 0.1 - overlap (<= 0.2)"
+    }
+  },
+  "p_miss_three_distinct": 0.7,
+  "p_miss_single_sb": 0.9,
+  "sb_history": {
+    "1753": {
+      "actual": 3,
+      "v1_sb": 2,
+      "in_v1_pool": false
+    },
+    "1754": {
+      "actual": 8,
+      "v1_sb": 2,
+      "in_v1_pool": false
+    },
+    "1755": {
+      "actual": 1,
+      "v1_sb": 2,
+      "in_v1_pool": false,
+      "p0_sbs": [
+        3,
+        7
+      ]
+    }
+  },
+  "note": "n = 3 draws: SB misses are expected (V1 single SB misses with probability 0.9 each; P(0/3) = 0.729). No rule is inferred."
+}

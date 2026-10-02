@@ -1,0 +1,2124 @@
+{
+  "winners": {
+    "3": {
+      "models": {
+        "A_long": {
+          "score": 0.34974428875912245,
+          "rank": 15,
+          "tie": [
+            12,
+            16
+          ],
+          "informative": true
+        },
+        "B_recent": {
+          "score": -0.5130338110595886,
+          "rank": 24,
+          "tie": [
+            24,
+            24
+          ],
+          "informative": true
+        },
+        "C_gap": {
+          "score": -1.015955768613046,
+          "rank": 34,
+          "tie": [
+            31,
+            35
+          ],
+          "informative": true
+        },
+        "D_trend": {
+          "score": -0.885201722509475,
+          "rank": 29,
+          "tie": [
+            27,
+            31
+          ],
+          "informative": true
+        },
+        "E_pairs": {
+          "score": 0.0,
+          "rank": 20,
+          "tie": [
+            1,
+            35
+          ],
+          "informative": false
+        },
+        "F_structure": null,
+        "G_ensemble": {
+          "score": 0.0,
+          "rank": 20,
+          "tie": [
+            1,
+            35
+          ],
+          "informative": false
+        },
+        "H_random": {
+          "score": 0.7694591316016096,
+          "rank": 8,
+          "tie": [
+            8,
+            8
+          ],
+          "informative": true
+        }
+      },
+      "features": {
+        "long_run_count": "27",
+        "expected": "25.428571428571427",
+        "ew_rate": "0.13844730704862512",
+        "last30": "3",
+        "last20": "2",
+        "last10": "2",
+        "current_gap": "0",
+        "gap_percentile": "0.15384615384615385",
+        "trend": "-0.07499999999999998"
+      },
+      "pair_partners": "none: E_pairs had no Holm-retained pair (flat)",
+      "ensemble": "G proxy flat (V1 learned main weight 1.0 on flat E_pairs)",
+      "P0_rank": 29,
+      "P0_EQ": -0.5161117533557469,
+      "unshrunk_rank": 28,
+      "answers": {
+        "A_narrowly_outside_top12": false,
+        "B_deeply_ranked": true,
+        "C_supporting_models_top12": [],
+        "D_suppressed_by_shrinkage": false,
+        "E_excluded_because_weights_zero": "ordering is the equal-weight convention; no informative model had it in its Top 12",
+        "F_in_top": {
+          "15": false,
+          "18": false,
+          "20": false
+        }
+      }
+    },
+    "11": {
+      "models": {
+        "A_long": {
+          "score": 1.2400024783277988,
+          "rank": 5,
+          "tie": [
+            4,
+            5
+          ],
+          "informative": true
+        },
+        "B_recent": {
+          "score": 0.647453438939572,
+          "rank": 8,
+          "tie": [
+            8,
+            8
+          ],
+          "informative": true
+        },
+        "C_gap": {
+          "score": -0.6512536978288757,
+          "rank": 24,
+          "tie": [
+            22,
+            25
+          ],
+          "informative": true
+        },
+        "D_trend": {
+          "score": 1.180268963345967,
+          "rank": 5,
+          "tie": [
+            3,
+            7
+          ],
+          "informative": true
+        },
+        "E_pairs": {
+          "score": 0.0,
+          "rank": 16,
+          "tie": [
+            1,
+            35
+          ],
+          "informative": false
+        },
+        "F_structure": null,
+        "G_ensemble": {
+          "score": 0.0,
+          "rank": 16,
+          "tie": [
+            1,
+            35
+          ],
+          "informative": false
+        },
+        "H_random": {
+          "score": 0.10042800657558726,
+          "rank": 30,
+          "tie": [
+            30,
+            30
+          ],
+          "informative": true
+        }
+      },
+      "features": {
+        "long_run_count": "31",
+        "expected": "25.428571428571427",
+        "ew_rate": "0.17869898553779132",
+        "last30": "5",
+        "last20": "4",
+        "last10": "3",
+        "current_gap": "2",
+        "gap_percentile": "0.36666666666666664",
+        "trend": "0.1"
+      },
+      "pair_partners": "none: E_pairs had no Holm-retained pair (flat)",
+      "ensemble": "G proxy flat (V1 learned main weight 1.0 on flat E_pairs)",
+      "P0_rank": 5,
+      "P0_EQ": 0.6041177956961155,
+      "unshrunk_rank": 11,
+      "answers": {
+        "A_narrowly_outside_top12": false,
+        "B_deeply_ranked": false,
+        "C_supporting_models_top12": [
+          "A_long",
+          "B_recent",
+          "D_trend"
+        ],
+        "D_suppressed_by_shrinkage": false,
+        "E_excluded_because_weights_zero": "ordering is the equal-weight convention; inside Top 12",
+        "F_in_top": {
+          "15": true,
+          "18": true,
+          "20": true
+        }
+      }
+    },
+    "15": {
+      "models": {
+        "A_long": {
+          "score": -0.09538480602521572,
+          "rank": 22,
+          "tie": [
+            19,
+            22
+          ],
+          "informative": true
+        },
+        "B_recent": {
+          "score": -0.028446147973168717,
+          "rank": 18,
+          "tie": [
+            18,
+            18
+          ],
+          "informative": true
+        },
+        "C_gap": {
+          "score": -0.2865516270447052,
+          "rank": 18,
+          "tie": [
+            16,
+            18
+          ],
+          "informative": true
+        },
+        "D_trend": {
+          "score": -3.275904445892894e-17,
+          "rank": 22,
+          "tie": [
+            15,
+            22
+          ],
+          "informative": true
+        },
+        "E_pairs": {
+          "score": 0.0,
+          "rank": 32,
+          "tie": [
+            1,
+            35
+          ],
+          "informative": false
+        },
+        "F_structure": null,
+        "G_ensemble": {
+          "score": 0.0,
+          "rank": 32,
+          "tie": [
+            1,
+            35
+          ],
+          "informative": false
+        },
+        "H_random": {
+          "score": 0.9085591772915753,
+          "rank": 3,
+          "tie": [
+            3,
+            3
+          ],
+          "informative": true
+        }
+      },
+      "features": {
+        "long_run_count": "25",
+        "expected": "25.428571428571427",
+        "ew_rate": "0.1497601436927472",
+        "last30": "4",
+        "last20": "3",
+        "last10": "3",
+        "current_gap": "4",
+        "gap_percentile": "0.5416666666666666",
+        "trend": "0.0"
+      },
+      "pair_partners": "none: E_pairs had no Holm-retained pair (flat)",
+      "ensemble": "G proxy flat (V1 learned main weight 1.0 on flat E_pairs)",
+      "P0_rank": 20,
+      "P0_EQ": -0.10259564526077243,
+      "unshrunk_rank": 22,
+      "answers": {
+        "A_narrowly_outside_top12": false,
+        "B_deeply_ranked": false,
+        "C_supporting_models_top12": [],
+        "D_suppressed_by_shrinkage": false,
+        "E_excluded_because_weights_zero": "ordering is the equal-weight convention; no informative model had it in its Top 12",
+        "F_in_top": {
+          "15": false,
+          "18": false,
+          "20": true
+        }
+      }
+    },
+    "21": {
+      "models": {
+        "A_long": {
+          "score": -0.9856429955938927,
+          "rank": 30,
+          "tie": [
+            29,
+            30
+          ],
+          "informative": true
+        },
+        "B_recent": {
+          "score": -0.3688928882794438,
+          "rank": 22,
+          "tie": [
+            22,
+            22
+          ],
+          "informative": true
+        },
+        "C_gap": {
+          "score": -1.015955768613046,
+          "rank": 35,
+          "tie": [
+            31,
+            35
+          ],
+          "informative": true
+        },
+        "D_trend": {
+          "score": -3.275904445892894e-17,
+          "rank": 20,
+          "tie": [
+            15,
+            22
+          ],
+          "informative": true
+        },
+        "E_pairs": {
+          "score": 0.0,
+          "rank": 27,
+          "tie": [
+            1,
+            35
+          ],
+          "informative": false
+        },
+        "F_structure": null,
+        "G_ensemble": {
+          "score": 0.0,
+          "rank": 27,
+          "tie": [
+            1,
+            35
+          ],
+          "informative": false
+        },
+        "H_random": {
+          "score": 0.4565729215659692,
+          "rank": 19,
+          "tie": [
+            19,
+            19
+          ],
+          "informative": true
+        }
+      },
+      "features": {
+        "long_run_count": "21",
+        "expected": "25.428571428571427",
+        "ew_rate": "0.11839400667808299",
+        "last30": "4",
+        "last20": "2",
+        "last10": "2",
+        "current_gap": "0",
+        "gap_percentile": "0.1",
+        "trend": "0.0"
+      },
+      "pair_partners": "none: E_pairs had no Holm-retained pair (flat)",
+      "ensemble": "G proxy flat (V1 learned main weight 1.0 on flat E_pairs)",
+      "P0_rank": 32,
+      "P0_EQ": -0.5926229131215957,
+      "unshrunk_rank": 33,
+      "answers": {
+        "A_narrowly_outside_top12": false,
+        "B_deeply_ranked": true,
+        "C_supporting_models_top12": [],
+        "D_suppressed_by_shrinkage": false,
+        "E_excluded_because_weights_zero": "ordering is the equal-weight convention; no informative model had it in its Top 12",
+        "F_in_top": {
+          "15": false,
+          "18": false,
+          "20": false
+        }
+      }
+    },
+    "33": {
+      "models": {
+        "A_long": {
+          "score": -0.7630784482017235,
+          "rank": 26,
+          "tie": [
+            26,
+            28
+          ],
+          "informative": true
+        },
+        "B_recent": {
+          "score": -1.4843386325497037,
+          "rank": 34,
+          "tie": [
+            34,
+            34
+          ],
+          "informative": true
+        },
+        "C_gap": {
+          "score": 2.995767010012828,
+          "rank": 1,
+          "tie": [
+            1,
+            1
+          ],
+          "informative": true
+        },
+        "D_trend": {
+          "score": -2.065470685855442,
+          "rank": 35,
+          "tie": [
+            35,
+            35
+          ],
+          "informative": true
+        },
+        "E_pairs": {
+          "score": 0.0,
+          "rank": 9,
+          "tie": [
+            1,
+            35
+          ],
+          "informative": false
+        },
+        "F_structure": null,
+        "G_ensemble": {
+          "score": 0.0,
+          "rank": 9,
+          "tie": [
+            1,
+            35
+          ],
+          "informative": false
+        },
+        "H_random": {
+          "score": 0.42588148492338485,
+          "rank": 22,
+          "tie": [
+            22,
+            22
+          ],
+          "informative": true
+        }
+      },
+      "features": {
+        "long_run_count": "22",
+        "expected": "25.428571428571427",
+        "ew_rate": "0.08229210515188176",
+        "last30": "2",
+        "last20": "0",
+        "last10": "0",
+        "current_gap": "22",
+        "gap_percentile": "0.9523809523809523",
+        "trend": "-0.175"
+      },
+      "pair_partners": "none: E_pairs had no Holm-retained pair (flat)",
+      "ensemble": "G proxy flat (V1 learned main weight 1.0 on flat E_pairs)",
+      "P0_rank": 25,
+      "P0_EQ": -0.3292801891485103,
+      "unshrunk_rank": 2,
+      "answers": {
+        "A_narrowly_outside_top12": false,
+        "B_deeply_ranked": true,
+        "C_supporting_models_top12": [
+          "C_gap"
+        ],
+        "D_suppressed_by_shrinkage": true,
+        "E_excluded_because_weights_zero": "ordering is the equal-weight convention; a single model had it in its Top 12 but the average did not",
+        "F_in_top": {
+          "15": false,
+          "18": false,
+          "20": false
+        }
+      }
+    }
+  },
+  "pool_numbers": {
+    "1": {
+      "models": {
+        "A_long": {
+          "score": 0.572308836151291,
+          "rank": 9,
+          "tie": [
+            8,
+            11
+          ],
+          "informative": true
+        },
+        "B_recent": {
+          "score": 1.3473337273309147,
+          "rank": 3,
+          "tie": [
+            3,
+            3
+          ],
+          "informative": true
+        },
+        "C_gap": {
+          "score": -0.8336047332209607,
+          "rank": 28,
+          "tie": [
+            26,
+            30
+          ],
+          "informative": true
+        },
+        "D_trend": {
+          "score": 2.3605379266919337,
+          "rank": 1,
+          "tie": [
+            1,
+            1
+          ],
+          "informative": true
+        },
+        "E_pairs": {
+          "score": 0.0,
+          "rank": 10,
+          "tie": [
+            1,
+            35
+          ],
+          "informative": false
+        },
+        "F_structure": null,
+        "G_ensemble": {
+          "score": 0.0,
+          "rank": 10,
+          "tie": [
+            1,
+            35
+          ],
+          "informative": false
+        },
+        "H_random": {
+          "score": 0.105716836848054,
+          "rank": 29,
+          "tie": [
+            29,
+            29
+          ],
+          "informative": true
+        }
+      },
+      "features": {
+        "long_run_count": "28",
+        "expected": "25.428571428571427",
+        "ew_rate": "0.20984722427002228",
+        "last30": "6",
+        "last20": "6",
+        "last10": "3",
+        "current_gap": "1",
+        "gap_percentile": "0.37037037037037035",
+        "trend": "0.19999999999999998"
+      },
+      "pair_partners": "none: E_pairs had no Holm-retained pair (flat)",
+      "ensemble": "G proxy flat (V1 learned main weight 1.0 on flat E_pairs)",
+      "P0_rank": 2,
+      "P0_EQ": 0.8616439392382947,
+      "unshrunk_rank": 19,
+      "answers": {
+        "A_narrowly_outside_top12": false,
+        "B_deeply_ranked": false,
+        "C_supporting_models_top12": [
+          "A_long",
+          "B_recent",
+          "D_trend"
+        ],
+        "D_suppressed_by_shrinkage": false,
+        "E_excluded_because_weights_zero": "ordering is the equal-weight convention; inside Top 12",
+        "F_in_top": {
+          "15": true,
+          "18": true,
+          "20": true
+        }
+      }
+    },
+    "2": {
+      "models": {
+        "A_long": {
+          "score": 0.572308836151291,
+          "rank": 11,
+          "tie": [
+            8,
+            11
+          ],
+          "informative": true
+        },
+        "B_recent": {
+          "score": -0.05967686635181351,
+          "rank": 19,
+          "tie": [
+            19,
+            19
+          ],
+          "informative": true
+        },
+        "C_gap": {
+          "score": -0.10420059165262006,
+          "rank": 15,
+          "tie": [
+            14,
+            15
+          ],
+          "informative": true
+        },
+        "D_trend": {
+          "score": 1.180268963345967,
+          "rank": 6,
+          "tie": [
+            3,
+            7
+          ],
+          "informative": true
+        },
+        "E_pairs": {
+          "score": 0.0,
+          "rank": 28,
+          "tie": [
+            1,
+            35
+          ],
+          "informative": false
+        },
+        "F_structure": null,
+        "G_ensemble": {
+          "score": 0.0,
+          "rank": 28,
+          "tie": [
+            1,
+            35
+          ],
+          "informative": false
+        },
+        "H_random": {
+          "score": 0.5196918133227771,
+          "rank": 17,
+          "tie": [
+            17,
+            17
+          ],
+          "informative": true
+        }
+      },
+      "features": {
+        "long_run_count": "28",
+        "expected": "25.428571428571427",
+        "ew_rate": "0.14688278616290365",
+        "last30": "4",
+        "last20": "4",
+        "last10": "1",
+        "current_gap": "5",
+        "gap_percentile": "0.6296296296296297",
+        "trend": "0.1"
+      },
+      "pair_partners": "none: E_pairs had no Holm-retained pair (flat)",
+      "ensemble": "G proxy flat (V1 learned main weight 1.0 on flat E_pairs)",
+      "P0_rank": 8,
+      "P0_EQ": 0.3971750853732061,
+      "unshrunk_rank": 13,
+      "answers": {
+        "A_narrowly_outside_top12": false,
+        "B_deeply_ranked": false,
+        "C_supporting_models_top12": [
+          "A_long",
+          "D_trend"
+        ],
+        "D_suppressed_by_shrinkage": false,
+        "E_excluded_because_weights_zero": "ordering is the equal-weight convention; inside Top 12",
+        "F_in_top": {
+          "15": true,
+          "18": true,
+          "20": true
+        }
+      }
+    },
+    "6": {
+      "models": {
+        "A_long": {
+          "score": 1.2400024783277988,
+          "rank": 4,
+          "tie": [
+            4,
+            5
+          ],
+          "informative": true
+        },
+        "B_recent": {
+          "score": 0.703722958930874,
+          "rank": 7,
+          "tie": [
+            7,
+            7
+          ],
+          "informative": true
+        },
+        "C_gap": {
+          "score": 0.2605014791315503,
+          "rank": 12,
+          "tie": [
+            12,
+            12
+          ],
+          "informative": true
+        },
+        "D_trend": {
+          "score": 0.2950672408364916,
+          "rank": 11,
+          "tie": [
+            11,
+            14
+          ],
+          "informative": true
+        },
+        "E_pairs": {
+          "score": 0.0,
+          "rank": 2,
+          "tie": [
+            1,
+            35
+          ],
+          "informative": false
+        },
+        "F_structure": null,
+        "G_ensemble": {
+          "score": 0.0,
+          "rank": 2,
+          "tie": [
+            1,
+            35
+          ],
+          "informative": false
+        },
+        "H_random": {
+          "score": 0.8214786465834252,
+          "rank": 5,
+          "tie": [
+            5,
+            5
+          ],
+          "informative": true
+        }
+      },
+      "features": {
+        "long_run_count": "31",
+        "expected": "25.428571428571427",
+        "ew_rate": "0.1505498918074242",
+        "last30": "6",
+        "last20": "3",
+        "last10": "1",
+        "current_gap": "7",
+        "gap_percentile": "0.8666666666666667",
+        "trend": "0.024999999999999994"
+      },
+      "pair_partners": "none: E_pairs had no Holm-retained pair (flat)",
+      "ensemble": "G proxy flat (V1 learned main weight 1.0 on flat E_pairs)",
+      "P0_rank": 4,
+      "P0_EQ": 0.6248235393066787,
+      "unshrunk_rank": 5,
+      "answers": {
+        "A_narrowly_outside_top12": false,
+        "B_deeply_ranked": false,
+        "C_supporting_models_top12": [
+          "A_long",
+          "B_recent",
+          "C_gap",
+          "D_trend"
+        ],
+        "D_suppressed_by_shrinkage": false,
+        "E_excluded_because_weights_zero": "ordering is the equal-weight convention; inside Top 12",
+        "F_in_top": {
+          "15": true,
+          "18": true,
+          "20": true
+        }
+      }
+    },
+    "7": {
+      "models": {
+        "A_long": {
+          "score": -0.09538480602521572,
+          "rank": 20,
+          "tie": [
+            19,
+            22
+          ],
+          "informative": true
+        },
+        "B_recent": {
+          "score": -1.3062200771298473,
+          "rank": 33,
+          "tie": [
+            33,
+            33
+          ],
+          "informative": true
+        },
+        "C_gap": {
+          "score": 2.2663628684444874,
+          "rank": 2,
+          "tie": [
+            2,
+            2
+          ],
+          "informative": true
+        },
+        "D_trend": {
+          "score": -3.275904445892894e-17,
+          "rank": 19,
+          "tie": [
+            15,
+            22
+          ],
+          "informative": true
+        },
+        "E_pairs": {
+          "score": 0.0,
+          "rank": 23,
+          "tie": [
+            1,
+            35
+          ],
+          "informative": false
+        },
+        "F_structure": null,
+        "G_ensemble": {
+          "score": 0.0,
+          "rank": 23,
+          "tie": [
+            1,
+            35
+          ],
+          "informative": false
+        },
+        "H_random": {
+          "score": 0.790789144757791,
+          "rank": 7,
+          "tie": [
+            7,
+            7
+          ],
+          "informative": true
+        }
+      },
+      "features": {
+        "long_run_count": "25",
+        "expected": "25.428571428571427",
+        "ew_rate": "0.09870257513942561",
+        "last30": "2",
+        "last20": "2",
+        "last10": "0",
+        "current_gap": "18",
+        "gap_percentile": "1.0",
+        "trend": "0.0"
+      },
+      "pair_partners": "none: E_pairs had no Holm-retained pair (flat)",
+      "ensemble": "G proxy flat (V1 learned main weight 1.0 on flat E_pairs)",
+      "P0_rank": 10,
+      "P0_EQ": 0.21618949632235607,
+      "unshrunk_rank": 3,
+      "answers": {
+        "A_narrowly_outside_top12": false,
+        "B_deeply_ranked": false,
+        "C_supporting_models_top12": [
+          "C_gap"
+        ],
+        "D_suppressed_by_shrinkage": false,
+        "E_excluded_because_weights_zero": "ordering is the equal-weight convention; inside Top 12",
+        "F_in_top": {
+          "15": true,
+          "18": true,
+          "20": true
+        }
+      }
+    },
+    "11": {
+      "models": {
+        "A_long": {
+          "score": 1.2400024783277988,
+          "rank": 5,
+          "tie": [
+            4,
+            5
+          ],
+          "informative": true
+        },
+        "B_recent": {
+          "score": 0.647453438939572,
+          "rank": 8,
+          "tie": [
+            8,
+            8
+          ],
+          "informative": true
+        },
+        "C_gap": {
+          "score": -0.6512536978288757,
+          "rank": 24,
+          "tie": [
+            22,
+            25
+          ],
+          "informative": true
+        },
+        "D_trend": {
+          "score": 1.180268963345967,
+          "rank": 5,
+          "tie": [
+            3,
+            7
+          ],
+          "informative": true
+        },
+        "E_pairs": {
+          "score": 0.0,
+          "rank": 16,
+          "tie": [
+            1,
+            35
+          ],
+          "informative": false
+        },
+        "F_structure": null,
+        "G_ensemble": {
+          "score": 0.0,
+          "rank": 16,
+          "tie": [
+            1,
+            35
+          ],
+          "informative": false
+        },
+        "H_random": {
+          "score": 0.10042800657558726,
+          "rank": 30,
+          "tie": [
+            30,
+            30
+          ],
+          "informative": true
+        }
+      },
+      "features": {
+        "long_run_count": "31",
+        "expected": "25.428571428571427",
+        "ew_rate": "0.17869898553779132",
+        "last30": "5",
+        "last20": "4",
+        "last10": "3",
+        "current_gap": "2",
+        "gap_percentile": "0.36666666666666664",
+        "trend": "0.1"
+      },
+      "pair_partners": "none: E_pairs had no Holm-retained pair (flat)",
+      "ensemble": "G proxy flat (V1 learned main weight 1.0 on flat E_pairs)",
+      "P0_rank": 5,
+      "P0_EQ": 0.6041177956961155,
+      "unshrunk_rank": 11,
+      "answers": {
+        "A_narrowly_outside_top12": false,
+        "B_deeply_ranked": false,
+        "C_supporting_models_top12": [
+          "A_long",
+          "B_recent",
+          "D_trend"
+        ],
+        "D_suppressed_by_shrinkage": false,
+        "E_excluded_because_weights_zero": "ordering is the equal-weight convention; inside Top 12",
+        "F_in_top": {
+          "15": true,
+          "18": true,
+          "20": true
+        }
+      }
+    },
+    "12": {
+      "models": {
+        "A_long": {
+          "score": 1.685131573112137,
+          "rank": 3,
+          "tie": [
+            2,
+            3
+          ],
+          "informative": true
+        },
+        "B_recent": {
+          "score": 1.1738393100752007,
+          "rank": 5,
+          "tie": [
+            5,
+            5
+          ],
+          "informative": true
+        },
+        "C_gap": {
+          "score": -0.2865516270447052,
+          "rank": 17,
+          "tie": [
+            16,
+            18
+          ],
+          "informative": true
+        },
+        "D_trend": {
+          "score": -3.275904445892894e-17,
+          "rank": 21,
+          "tie": [
+            15,
+            22
+          ],
+          "informative": true
+        },
+        "E_pairs": {
+          "score": 0.0,
+          "rank": 29,
+          "tie": [
+            1,
+            35
+          ],
+          "informative": false
+        },
+        "F_structure": null,
+        "G_ensemble": {
+          "score": 0.0,
+          "rank": 29,
+          "tie": [
+            1,
+            35
+          ],
+          "informative": false
+        },
+        "H_random": {
+          "score": 0.42011231829393614,
+          "rank": 23,
+          "tie": [
+            23,
+            23
+          ],
+          "informative": true
+        }
+      },
+      "features": {
+        "long_run_count": "33",
+        "expected": "25.428571428571427",
+        "ew_rate": "0.1938627867100491",
+        "last30": "6",
+        "last20": "4",
+        "last10": "2",
+        "current_gap": "4",
+        "gap_percentile": "0.59375",
+        "trend": "0.0"
+      },
+      "pair_partners": "none: E_pairs had no Holm-retained pair (flat)",
+      "ensemble": "G proxy flat (V1 learned main weight 1.0 on flat E_pairs)",
+      "P0_rank": 3,
+      "P0_EQ": 0.6431048140356581,
+      "unshrunk_rank": 6,
+      "answers": {
+        "A_narrowly_outside_top12": false,
+        "B_deeply_ranked": false,
+        "C_supporting_models_top12": [
+          "A_long",
+          "B_recent"
+        ],
+        "D_suppressed_by_shrinkage": false,
+        "E_excluded_because_weights_zero": "ordering is the equal-weight convention; inside Top 12",
+        "F_in_top": {
+          "15": true,
+          "18": true,
+          "20": true
+        }
+      }
+    },
+    "17": {
+      "models": {
+        "A_long": {
+          "score": 2.1302606678964753,
+          "rank": 1,
+          "tie": [
+            1,
+            1
+          ],
+          "informative": true
+        },
+        "B_recent": {
+          "score": -0.7954945995976567,
+          "rank": 28,
+          "tie": [
+            28,
+            28
+          ],
+          "informative": true
+        },
+        "C_gap": {
+          "score": 0.9899056206998911,
+          "rank": 7,
+          "tie": [
+            6,
+            8
+          ],
+          "informative": true
+        },
+        "D_trend": {
+          "score": -1.4753362041824585,
+          "rank": 33,
+          "tie": [
+            32,
+            33
+          ],
+          "informative": true
+        },
+        "E_pairs": {
+          "score": 0.0,
+          "rank": 19,
+          "tie": [
+            1,
+            35
+          ],
+          "informative": false
+        },
+        "F_structure": null,
+        "G_ensemble": {
+          "score": 0.0,
+          "rank": 19,
+          "tie": [
+            1,
+            35
+          ],
+          "informative": false
+        },
+        "H_random": {
+          "score": 0.9404765921268387,
+          "rank": 1,
+          "tie": [
+            1,
+            1
+          ],
+          "informative": true
+        }
+      },
+      "features": {
+        "long_run_count": "35",
+        "expected": "25.428571428571427",
+        "ew_rate": "0.11242354842316521",
+        "last30": "3",
+        "last20": "1",
+        "last10": "0",
+        "current_gap": "11",
+        "gap_percentile": "0.9117647058823529",
+        "trend": "-0.12499999999999999"
+      },
+      "pair_partners": "none: E_pairs had no Holm-retained pair (flat)",
+      "ensemble": "G proxy flat (V1 learned main weight 1.0 on flat E_pairs)",
+      "P0_rank": 11,
+      "P0_EQ": 0.21233387120406289,
+      "unshrunk_rank": 1,
+      "answers": {
+        "A_narrowly_outside_top12": false,
+        "B_deeply_ranked": false,
+        "C_supporting_models_top12": [
+          "A_long",
+          "C_gap"
+        ],
+        "D_suppressed_by_shrinkage": false,
+        "E_excluded_because_weights_zero": "ordering is the equal-weight convention; inside Top 12",
+        "F_in_top": {
+          "15": true,
+          "18": true,
+          "20": true
+        }
+      }
+    },
+    "18": {
+      "models": {
+        "A_long": {
+          "score": 0.34974428875912245,
+          "rank": 12,
+          "tie": [
+            12,
+            16
+          ],
+          "informative": true
+        },
+        "B_recent": {
+          "score": 3.4237011246399893,
+          "rank": 1,
+          "tie": [
+            1,
+            1
+          ],
+          "informative": true
+        },
+        "C_gap": {
+          "score": -0.8336047332209607,
+          "rank": 27,
+          "tie": [
+            26,
+            30
+          ],
+          "informative": true
+        },
+        "D_trend": {
+          "score": 2.065470685855442,
+          "rank": 2,
+          "tie": [
+            2,
+            2
+          ],
+          "informative": true
+        },
+        "E_pairs": {
+          "score": 0.0,
+          "rank": 6,
+          "tie": [
+            1,
+            35
+          ],
+          "informative": false
+        },
+        "F_structure": null,
+        "G_ensemble": {
+          "score": 0.0,
+          "rank": 6,
+          "tie": [
+            1,
+            35
+          ],
+          "informative": false
+        },
+        "H_random": {
+          "score": 0.9185648858204154,
+          "rank": 2,
+          "tie": [
+            2,
+            2
+          ],
+          "informative": true
+        }
+      },
+      "features": {
+        "long_run_count": "27",
+        "expected": "25.428571428571427",
+        "ew_rate": "0.2678143692969384",
+        "last30": "10",
+        "last20": "7",
+        "last10": "3",
+        "current_gap": "1",
+        "gap_percentile": "0.46153846153846156",
+        "trend": "0.175"
+      },
+      "pair_partners": "none: E_pairs had no Holm-retained pair (flat)",
+      "ensemble": "G proxy flat (V1 learned main weight 1.0 on flat E_pairs)",
+      "P0_rank": 1,
+      "P0_EQ": 1.2513278415083984,
+      "unshrunk_rank": 24,
+      "answers": {
+        "A_narrowly_outside_top12": false,
+        "B_deeply_ranked": false,
+        "C_supporting_models_top12": [
+          "A_long",
+          "B_recent",
+          "D_trend"
+        ],
+        "D_suppressed_by_shrinkage": false,
+        "E_excluded_because_weights_zero": "ordering is the equal-weight convention; inside Top 12",
+        "F_in_top": {
+          "15": true,
+          "18": true,
+          "20": true
+        }
+      }
+    },
+    "22": {
+      "models": {
+        "A_long": {
+          "score": 1.0174379309356292,
+          "rank": 6,
+          "tie": [
+            6,
+            6
+          ],
+          "informative": true
+        },
+        "B_recent": {
+          "score": 0.3568075148924531,
+          "rank": 13,
+          "tie": [
+            13,
+            13
+          ],
+          "informative": true
+        },
+        "C_gap": {
+          "score": 0.07815044373946513,
+          "rank": 13,
+          "tie": [
+            13,
+            13
+          ],
+          "informative": true
+        },
+        "D_trend": {
+          "score": 0.5901344816729833,
+          "rank": 10,
+          "tie": [
+            8,
+            10
+          ],
+          "informative": true
+        },
+        "E_pairs": {
+          "score": 0.0,
+          "rank": 25,
+          "tie": [
+            1,
+            35
+          ],
+          "informative": false
+        },
+        "F_structure": null,
+        "G_ensemble": {
+          "score": 0.0,
+          "rank": 25,
+          "tie": [
+            1,
+            35
+          ],
+          "informative": false
+        },
+        "H_random": {
+          "score": 0.4893803016667504,
+          "rank": 18,
+          "tie": [
+            18,
+            18
+          ],
+          "informative": true
+        }
+      },
+      "features": {
+        "long_run_count": "30",
+        "expected": "25.428571428571427",
+        "ew_rate": "0.15192111165298275",
+        "last30": "5",
+        "last20": "3",
+        "last10": "3",
+        "current_gap": "6",
+        "gap_percentile": "0.6896551724137931",
+        "trend": "0.04999999999999999"
+      },
+      "pair_partners": "none: E_pairs had no Holm-retained pair (flat)",
+      "ensemble": "G proxy flat (V1 learned main weight 1.0 on flat E_pairs)",
+      "P0_rank": 6,
+      "P0_EQ": 0.5106325928101326,
+      "unshrunk_rank": 8,
+      "answers": {
+        "A_narrowly_outside_top12": false,
+        "B_deeply_ranked": false,
+        "C_supporting_models_top12": [
+          "A_long",
+          "D_trend"
+        ],
+        "D_suppressed_by_shrinkage": false,
+        "E_excluded_because_weights_zero": "ordering is the equal-weight convention; inside Top 12",
+        "F_in_top": {
+          "15": true,
+          "18": true,
+          "20": true
+        }
+      }
+    },
+    "23": {
+      "models": {
+        "A_long": {
+          "score": 0.572308836151291,
+          "rank": 10,
+          "tie": [
+            8,
+            11
+          ],
+          "informative": true
+        },
+        "B_recent": {
+          "score": 1.2207271754553999,
+          "rank": 4,
+          "tie": [
+            4,
+            4
+          ],
+          "informative": true
+        },
+        "C_gap": {
+          "score": -1.015955768613046,
+          "rank": 33,
+          "tie": [
+            31,
+            35
+          ],
+          "informative": true
+        },
+        "D_trend": {
+          "score": 1.180268963345967,
+          "rank": 4,
+          "tie": [
+            3,
+            7
+          ],
+          "informative": true
+        },
+        "E_pairs": {
+          "score": 0.0,
+          "rank": 15,
+          "tie": [
+            1,
+            35
+          ],
+          "informative": false
+        },
+        "F_structure": null,
+        "G_ensemble": {
+          "score": 0.0,
+          "rank": 15,
+          "tie": [
+            1,
+            35
+          ],
+          "informative": false
+        },
+        "H_random": {
+          "score": 0.28654155056386954,
+          "rank": 24,
+          "tie": [
+            24,
+            24
+          ],
+          "informative": true
+        }
+      },
+      "features": {
+        "long_run_count": "28",
+        "expected": "25.428571428571427",
+        "ew_rate": "0.19818267301155224",
+        "last30": "6",
+        "last20": "5",
+        "last10": "3",
+        "current_gap": "0",
+        "gap_percentile": "0.07407407407407407",
+        "trend": "0.1"
+      },
+      "pair_partners": "none: E_pairs had no Holm-retained pair (flat)",
+      "ensemble": "G proxy flat (V1 learned main weight 1.0 on flat E_pairs)",
+      "P0_rank": 7,
+      "P0_EQ": 0.489337301584903,
+      "unshrunk_rank": 23,
+      "answers": {
+        "A_narrowly_outside_top12": false,
+        "B_deeply_ranked": false,
+        "C_supporting_models_top12": [
+          "A_long",
+          "B_recent",
+          "D_trend"
+        ],
+        "D_suppressed_by_shrinkage": false,
+        "E_excluded_because_weights_zero": "ordering is the equal-weight convention; inside Top 12",
+        "F_in_top": {
+          "15": true,
+          "18": true,
+          "20": true
+        }
+      }
+    },
+    "24": {
+      "models": {
+        "A_long": {
+          "score": 1.685131573112137,
+          "rank": 2,
+          "tie": [
+            2,
+            3
+          ],
+          "informative": true
+        },
+        "B_recent": {
+          "score": 1.3572187240511313,
+          "rank": 2,
+          "tie": [
+            2,
+            2
+          ],
+          "informative": true
+        },
+        "C_gap": {
+          "score": -0.10420059165262006,
+          "rank": 14,
+          "tie": [
+            14,
+            15
+          ],
+          "informative": true
+        },
+        "D_trend": {
+          "score": -1.7704034450189503,
+          "rank": 34,
+          "tie": [
+            34,
+            34
+          ],
+          "informative": true
+        },
+        "E_pairs": {
+          "score": 0.0,
+          "rank": 4,
+          "tie": [
+            1,
+            35
+          ],
+          "informative": false
+        },
+        "F_structure": null,
+        "G_ensemble": {
+          "score": 0.0,
+          "rank": 4,
+          "tie": [
+            1,
+            35
+          ],
+          "informative": false
+        },
+        "H_random": {
+          "score": 0.08447266723705682,
+          "rank": 32,
+          "tie": [
+            32,
+            32
+          ],
+          "informative": true
+        }
+      },
+      "features": {
+        "long_run_count": "33",
+        "expected": "25.428571428571427",
+        "ew_rate": "0.21075795163147942",
+        "last30": "6",
+        "last20": "3",
+        "last10": "1",
+        "current_gap": "5",
+        "gap_percentile": "0.71875",
+        "trend": "-0.15"
+      },
+      "pair_partners": "none: E_pairs had no Holm-retained pair (flat)",
+      "ensemble": "G proxy flat (V1 learned main weight 1.0 on flat E_pairs)",
+      "P0_rank": 9,
+      "P0_EQ": 0.2919365651229245,
+      "unshrunk_rank": 4,
+      "answers": {
+        "A_narrowly_outside_top12": false,
+        "B_deeply_ranked": false,
+        "C_supporting_models_top12": [
+          "A_long",
+          "B_recent"
+        ],
+        "D_suppressed_by_shrinkage": false,
+        "E_excluded_because_weights_zero": "ordering is the equal-weight convention; inside Top 12",
+        "F_in_top": {
+          "15": true,
+          "18": true,
+          "20": true
+        }
+      }
+    },
+    "25": {
+      "models": {
+        "A_long": {
+          "score": 0.12717974136695281,
+          "rank": 18,
+          "tie": [
+            17,
+            18
+          ],
+          "informative": true
+        },
+        "B_recent": {
+          "score": 0.3993034767151861,
+          "rank": 12,
+          "tie": [
+            12,
+            12
+          ],
+          "informative": true
+        },
+        "C_gap": {
+          "score": -0.2865516270447052,
+          "rank": 16,
+          "tie": [
+            16,
+            18
+          ],
+          "informative": true
+        },
+        "D_trend": {
+          "score": 0.5901344816729837,
+          "rank": 9,
+          "tie": [
+            8,
+            10
+          ],
+          "informative": true
+        },
+        "E_pairs": {
+          "score": 0.0,
+          "rank": 22,
+          "tie": [
+            1,
+            35
+          ],
+          "informative": false
+        },
+        "F_structure": null,
+        "G_ensemble": {
+          "score": 0.0,
+          "rank": 22,
+          "tie": [
+            1,
+            35
+          ],
+          "informative": false
+        },
+        "H_random": {
+          "score": 0.6525298885449425,
+          "rank": 15,
+          "tie": [
+            15,
+            15
+          ],
+          "informative": true
+        }
+      },
+      "features": {
+        "long_run_count": "26",
+        "expected": "25.428571428571427",
+        "ew_rate": "0.15583636183250463",
+        "last30": "5",
+        "last20": "4",
+        "last10": "1",
+        "current_gap": "4",
+        "gap_percentile": "0.52",
+        "trend": "0.05000000000000002"
+      },
+      "pair_partners": "none: E_pairs had no Holm-retained pair (flat)",
+      "ensemble": "G proxy flat (V1 learned main weight 1.0 on flat E_pairs)",
+      "P0_rank": 12,
+      "P0_EQ": 0.20751651817760436,
+      "unshrunk_rank": 17,
+      "answers": {
+        "A_narrowly_outside_top12": false,
+        "B_deeply_ranked": false,
+        "C_supporting_models_top12": [
+          "B_recent",
+          "D_trend"
+        ],
+        "D_suppressed_by_shrinkage": false,
+        "E_excluded_because_weights_zero": "ordering is the equal-weight convention; inside Top 12",
+        "F_in_top": {
+          "15": true,
+          "18": true,
+          "20": true
+        }
+      }
+    }
+  },
+  "pool": [
+    1,
+    2,
+    6,
+    7,
+    11,
+    12,
+    17,
+    18,
+    22,
+    23,
+    24,
+    25
+  ],
+  "p0_order": [
+    18,
+    1,
+    12,
+    6,
+    11,
+    22,
+    23,
+    2,
+    24,
+    7,
+    17,
+    25,
+    32,
+    9,
+    30,
+    34,
+    29,
+    4,
+    27,
+    15,
+    16,
+    5,
+    10,
+    35,
+    33,
+    31,
+    13,
+    20,
+    3,
+    26,
+    14,
+    21,
+    8,
+    19,
+    28
+  ],
+  "unshrunk_diagnostic_order": [
+    17,
+    33,
+    7,
+    24,
+    6,
+    12,
+    10,
+    22,
+    27,
+    34,
+    11,
+    13,
+    2,
+    30,
+    32,
+    26,
+    25,
+    4,
+    1,
+    29,
+    16,
+    15,
+    23,
+    18,
+    5,
+    9,
+    20,
+    3,
+    19,
+    8,
+    28,
+    31,
+    21,
+    35,
+    14
+  ],
+  "note": "P0 credibilities were all 0, so the P0 order is the declared equal-weight convention (EQ). The unshrunk order uses the raw positive design-cutoff AP z of each family (diagnostic only, not a protocol).",
+  "topN": {
+    "observed": {
+      "A_long": {
+        "5": {
+          "point": 1,
+          "tie_range": [
+            1,
+            1
+          ]
+        },
+        "8": {
+          "point": 1,
+          "tie_range": [
+            1,
+            1
+          ]
+        },
+        "10": {
+          "point": 1,
+          "tie_range": [
+            1,
+            1
+          ]
+        },
+        "12": {
+          "point": 1,
+          "tie_range": [
+            1,
+            2
+          ]
+        },
+        "15": {
+          "point": 2,
+          "tie_range": [
+            1,
+            2
+          ]
+        },
+        "18": {
+          "point": 2,
+          "tie_range": [
+            2,
+            2
+          ]
+        },
+        "20": {
+          "point": 2,
+          "tie_range": [
+            2,
+            3
+          ]
+        },
+        "25": {
+          "point": 3,
+          "tie_range": [
+            3,
+            3
+          ]
+        }
+      },
+      "B_recent": {
+        "5": {
+          "point": 0,
+          "tie_range": [
+            0,
+            0
+          ]
+        },
+        "8": {
+          "point": 1,
+          "tie_range": [
+            1,
+            1
+          ]
+        },
+        "10": {
+          "point": 1,
+          "tie_range": [
+            1,
+            1
+          ]
+        },
+        "12": {
+          "point": 1,
+          "tie_range": [
+            1,
+            1
+          ]
+        },
+        "15": {
+          "point": 1,
+          "tie_range": [
+            1,
+            1
+          ]
+        },
+        "18": {
+          "point": 2,
+          "tie_range": [
+            2,
+            2
+          ]
+        },
+        "20": {
+          "point": 2,
+          "tie_range": [
+            2,
+            2
+          ]
+        },
+        "25": {
+          "point": 4,
+          "tie_range": [
+            4,
+            4
+          ]
+        }
+      },
+      "C_gap": {
+        "5": {
+          "point": 1,
+          "tie_range": [
+            1,
+            1
+          ]
+        },
+        "8": {
+          "point": 1,
+          "tie_range": [
+            1,
+            1
+          ]
+        },
+        "10": {
+          "point": 1,
+          "tie_range": [
+            1,
+            1
+          ]
+        },
+        "12": {
+          "point": 1,
+          "tie_range": [
+            1,
+            1
+          ]
+        },
+        "15": {
+          "point": 1,
+          "tie_range": [
+            1,
+            1
+          ]
+        },
+        "18": {
+          "point": 2,
+          "tie_range": [
+            2,
+            2
+          ]
+        },
+        "20": {
+          "point": 2,
+          "tie_range": [
+            2,
+            2
+          ]
+        },
+        "25": {
+          "point": 3,
+          "tie_range": [
+            3,
+            3
+          ]
+        }
+      },
+      "D_trend": {
+        "5": {
+          "point": 1,
+          "tie_range": [
+            0,
+            1
+          ]
+        },
+        "8": {
+          "point": 1,
+          "tie_range": [
+            1,
+            1
+          ]
+        },
+        "10": {
+          "point": 1,
+          "tie_range": [
+            1,
+            1
+          ]
+        },
+        "12": {
+          "point": 1,
+          "tie_range": [
+            1,
+            1
+          ]
+        },
+        "15": {
+          "point": 1,
+          "tie_range": [
+            1,
+            2
+          ]
+        },
+        "18": {
+          "point": 1,
+          "tie_range": [
+            1,
+            3
+          ]
+        },
+        "20": {
+          "point": 2,
+          "tie_range": [
+            1,
+            3
+          ]
+        },
+        "25": {
+          "point": 3,
+          "tie_range": [
+            3,
+            3
+          ]
+        }
+      },
+      "H_random": {
+        "5": {
+          "point": 1,
+          "tie_range": [
+            1,
+            1
+          ]
+        },
+        "8": {
+          "point": 2,
+          "tie_range": [
+            2,
+            2
+          ]
+        },
+        "10": {
+          "point": 2,
+          "tie_range": [
+            2,
+            2
+          ]
+        },
+        "12": {
+          "point": 2,
+          "tie_range": [
+            2,
+            2
+          ]
+        },
+        "15": {
+          "point": 2,
+          "tie_range": [
+            2,
+            2
+          ]
+        },
+        "18": {
+          "point": 2,
+          "tie_range": [
+            2,
+            2
+          ]
+        },
+        "20": {
+          "point": 3,
+          "tie_range": [
+            3,
+            3
+          ]
+        },
+        "25": {
+          "point": 4,
+          "tie_range": [
+            4,
+            4
+          ]
+        }
+      },
+      "P0_order": {
+        "5": {
+          "point": 1
+        },
+        "8": {
+          "point": 1
+        },
+        "10": {
+          "point": 1
+        },
+        "12": {
+          "point": 1
+        },
+        "15": {
+          "point": 1
+        },
+        "18": {
+          "point": 1
+        },
+        "20": {
+          "point": 2
+        },
+        "25": {
+          "point": 3
+        }
+      }
+    },
+    "random_expected": {
+      "5": 0.7142857142857143,
+      "8": 1.1428571428571428,
+      "10": 1.4285714285714286,
+      "12": 1.7142857142857142,
+      "15": 2.142857142857143,
+      "18": 2.5714285714285716,
+      "20": 2.857142857142857,
+      "25": 3.5714285714285716
+    },
+    "historical_P0_mean_capture_1652_1753": {
+      "5": 0.6372549019607843,
+      "8": 1.1764705882352942,
+      "10": 1.3725490196078431,
+      "12": 1.6372549019607843,
+      "15": 2.1862745098039214,
+      "18": 2.5980392156862746,
+      "20": 2.9019607843137254,
+      "25": 3.5098039215686274
+    },
+    "p_capture_le_observed_random": {
+      "5": 0.8610703812316716,
+      "8": 0.6811712954976712,
+      "10": 0.5533342369205747,
+      "12": 0.430977229601518,
+      "15": 0.2716275659824047,
+      "18": 0.15102639296187684,
+      "20": 0.3596472313265482,
+      "25": 0.4466657630794253
+    }
+  }
+}
