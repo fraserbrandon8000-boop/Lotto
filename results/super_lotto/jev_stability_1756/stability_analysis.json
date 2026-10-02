@@ -1,0 +1,105 @@
+{
+  "runs": [
+    {
+      "run": "production",
+      "model": "jev-1.13.0",
+      "top_choice": "SL10",
+      "top_probability": 0.5,
+      "confidence": 0.46,
+      "entropy_bits": 1.4896059022986483
+    },
+    {
+      "run": "replicate_1",
+      "model": "jev-1.13.0",
+      "top_choice": "SL19",
+      "top_probability": 0.58,
+      "confidence": 0.55,
+      "entropy_bits": 1.4862272126007328
+    },
+    {
+      "run": "replicate_2",
+      "model": "jev-1.13.0",
+      "top_choice": "SL19",
+      "top_probability": 0.56,
+      "confidence": 0.52,
+      "entropy_bits": 1.3110864164161566
+    },
+    {
+      "run": "replicate_3",
+      "model": "jev-1.13.0",
+      "top_choice": "SL19",
+      "top_probability": 0.64,
+      "confidence": 0.61,
+      "entropy_bits": 1.3902479365769609
+    },
+    {
+      "run": "replicate_4",
+      "model": "jev-1.13.0",
+      "top_choice": "SL19",
+      "top_probability": 0.54,
+      "confidence": 0.5,
+      "entropy_bits": 1.4544556084762545
+    },
+    {
+      "run": "replicate_5",
+      "model": "jev-1.13.0",
+      "top_choice": "SL19",
+      "top_probability": 0.5,
+      "confidence": 0.47,
+      "entropy_bits": 1.525331772993948
+    }
+  ],
+  "production_top": "SL10",
+  "top_choice_agreement_replicates": "0/5",
+  "mean_pairwise_spearman": 0.9548239057384416,
+  "min_pairwise_spearman": 0.923719598235349,
+  "mean_top3_overlap": 2.6666666666666665,
+  "min_top3_overlap": 2,
+  "choice_variance_by_candidate": {
+    "SL01": 2.9999999999999997e-05,
+    "SL02": 0.0,
+    "SL03": 3.0000000000000004e-05,
+    "SL04": 0.0,
+    "SL05": 7.999999999999999e-05,
+    "SL06": 0.0,
+    "SL07": 0.0,
+    "SL08": 0.0,
+    "SL09": 0.0,
+    "SL10": 0.005776666666666667,
+    "SL11": 0.0,
+    "SL12": 0.0,
+    "SL13": 0.0,
+    "SL14": 0.0,
+    "SL15": 0.0,
+    "SL16": 0.00016,
+    "SL17": 0.0,
+    "SL18": 0.0,
+    "SL19": 0.005600000000000002,
+    "SL20": 0.0
+  },
+  "max_abs_prob_range": 0.22000000000000003,
+  "confidence": {
+    "mean": 0.5183333333333334,
+    "sd": 0.05564770136013407,
+    "min": 0.46,
+    "max": 0.61
+  },
+  "per_candidate_answer_max_range": {
+    "robustness": 0.08999999999999997,
+    "stable": 0.050000000000000044,
+    "stability": 0.23999999999999977,
+    "dependent": 0.09000000000000002,
+    "quality": 0.09,
+    "stronger": 0.010000000000000002,
+    "consensus": 0.010000000000000002,
+    "overfit": 0.010000000000000009
+  },
+  "aggregated_top": "SL19",
+  "v1_policy": {
+    "selection_policy": "predeclared seeded uniform candidate no-edge rule",
+    "selected": "SL10",
+    "statistical_edge_detected": false,
+    "jev_influence": "none under the no-edge rule: the seeded index depends only on the number of candidates"
+  },
+  "would_aggregation_change_v1_ticket": "NO"
+}
