@@ -1,0 +1,27 @@
+{
+  "created_utc": "2026-10-02T17:21:58.490Z",
+  "validated_utc": "2026-10-02T17:22:20.821Z",
+  "model": "jev-1.13.0",
+  "questions": 161,
+  "state_file_sha256": "89dc9aa440cccbb64aea4e8b2837ccb3e58133e41fbcea5d295973ab08e29b38",
+  "request_sha256": "2f6faebd6a2b393604744415bc546a3d8c68af0196147ac91bd5bf8a5dcb254e",
+  "response_sha256": "d917ef03775f4cd0b66cec7c5b98bfa6c1570ed138bd3eb30762ff40d27874dc",
+  "usage": {
+    "input_tokens": 39520,
+    "output_tokens": 3260
+  },
+  "http_attempts": 1,
+  "offline_validation_repair": "Inclusive 0.03 rounded-score boundary plus 1e-12 floating-point epsilon; no response modification or network retry.",
+  "boundary": [
+    {
+      "question": "SL08_stability",
+      "score": 1.07,
+      "delta": 0.030000000000000027
+    },
+    {
+      "question": "SL09_stability",
+      "score": 1.12,
+      "delta": 0.030000000000000027
+    }
+  ]
+}
