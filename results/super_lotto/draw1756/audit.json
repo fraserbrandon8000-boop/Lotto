@@ -1,0 +1,11 @@
+{
+  "records": 179,
+  "first": 1577,
+  "last": 1755,
+  "duplicates": 0,
+  "missing": 0,
+  "valid": true,
+  "ordinary_observation": true,
+  "original_workbook_sha256": "e7c654a8e7c4ce56738b4bb9ea7032209f52a609e3341e448a3f260f9036a07f",
+  "normalized_sha256": "fd45456eae8a8379c4a9c775d51b4ce58e3238b51305a37db1c65b8cca37b5e0"
+}
