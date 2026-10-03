@@ -1,0 +1,262 @@
+{
+  "runs": [
+    {
+      "run": "production",
+      "model": "jev-1.13.0",
+      "top_choice": "C04",
+      "top_probability": 0.86,
+      "confidence": 0.84,
+      "entropy_bits": 0.8119752506011122,
+      "distribution": {
+        "C01": 0.02,
+        "C02": 0.09,
+        "C03": 0,
+        "C04": 0.86,
+        "C05": 0,
+        "C06": 0,
+        "C10": 0,
+        "C11": 0.01,
+        "C12": 0,
+        "C13": 0.01,
+        "C14": 0,
+        "C15": 0,
+        "C16": 0,
+        "C17": 0,
+        "C19": 0.01,
+        "C20": 0
+      }
+    },
+    {
+      "run": "replicate_1",
+      "model": "jev-1.13.0",
+      "top_choice": "C04",
+      "top_probability": 0.85,
+      "confidence": 0.83,
+      "entropy_bits": 0.8630317689062352,
+      "distribution": {
+        "C14": 0,
+        "C11": 0.01,
+        "C04": 0.85,
+        "C15": 0,
+        "C02": 0.09,
+        "C19": 0.01,
+        "C06": 0,
+        "C16": 0,
+        "C12": 0,
+        "C10": 0,
+        "C20": 0,
+        "C05": 0,
+        "C17": 0,
+        "C01": 0.03,
+        "C03": 0,
+        "C13": 0.01
+      }
+    },
+    {
+      "run": "replicate_2",
+      "model": "jev-1.13.0",
+      "top_choice": "C04",
+      "top_probability": 0.85,
+      "confidence": 0.83,
+      "entropy_bits": 0.8883250190360434,
+      "distribution": {
+        "C16": 0,
+        "C14": 0,
+        "C06": 0,
+        "C13": 0.01,
+        "C04": 0.85,
+        "C01": 0.02,
+        "C10": 0,
+        "C15": 0,
+        "C11": 0.01,
+        "C17": 0,
+        "C20": 0,
+        "C05": 0,
+        "C03": 0,
+        "C12": 0,
+        "C19": 0.03,
+        "C02": 0.08
+      }
+    },
+    {
+      "run": "replicate_3",
+      "model": "jev-1.13.0",
+      "top_choice": "C04",
+      "top_probability": 0.87,
+      "confidence": 0.85,
+      "entropy_bits": 0.8019805038422987,
+      "distribution": {
+        "C12": 0,
+        "C16": 0,
+        "C01": 0.02,
+        "C17": 0,
+        "C13": 0.01,
+        "C06": 0,
+        "C02": 0.06999999999999999,
+        "C15": 0,
+        "C04": 0.87,
+        "C19": 0.01,
+        "C10": 0,
+        "C05": 0,
+        "C14": 0,
+        "C11": 0.02,
+        "C20": 0,
+        "C03": 0
+      }
+    },
+    {
+      "run": "replicate_4",
+      "model": "jev-1.13.0",
+      "top_choice": "C04",
+      "top_probability": 0.87,
+      "confidence": 0.85,
+      "entropy_bits": 0.7944316288206641,
+      "distribution": {
+        "C14": 0,
+        "C03": 0,
+        "C17": 0,
+        "C12": 0,
+        "C04": 0.87,
+        "C06": 0,
+        "C10": 0,
+        "C19": 0.01,
+        "C20": 0,
+        "C13": 0.01,
+        "C11": 0.01,
+        "C02": 0.07,
+        "C01": 0.03,
+        "C05": 0,
+        "C15": 0,
+        "C16": 0
+      }
+    },
+    {
+      "run": "replicate_5",
+      "model": "jev-1.13.0",
+      "top_choice": "C04",
+      "top_probability": 0.84,
+      "confidence": 0.82,
+      "entropy_bits": 0.9467606796189314,
+      "distribution": {
+        "C12": 0,
+        "C16": 0,
+        "C01": 0.03,
+        "C17": 0,
+        "C13": 0.01,
+        "C05": 0,
+        "C02": 0.08,
+        "C15": 0,
+        "C04": 0.84,
+        "C19": 0.02,
+        "C10": 0,
+        "C06": 0,
+        "C14": 0,
+        "C11": 0.02,
+        "C20": 0,
+        "C03": 0
+      }
+    }
+  ],
+  "production_top": "C04",
+  "top_choice_agreement_replicates": "5/5",
+  "top1_agreement_all_pairs": 1.0,
+  "mean_pairwise_spearman": 0.9938271396017685,
+  "min_pairwise_spearman": 0.9795525578384543,
+  "mean_top3_overlap": 2.6666666666666665,
+  "min_top3_overlap": 2,
+  "choice_probability_sd_by_candidate": {
+    "C01": 0.0054772255750516596,
+    "C02": 0.008944271909999156,
+    "C03": 0.0,
+    "C04": 0.012110601416389978,
+    "C05": 0.0,
+    "C06": 0.0,
+    "C10": 0.0,
+    "C11": 0.0051639777949432225,
+    "C12": 0.0,
+    "C13": 0.0,
+    "C14": 0.0,
+    "C15": 0.0,
+    "C16": 0.0,
+    "C17": 0.0,
+    "C19": 0.008366600265340755,
+    "C20": 0.0
+  },
+  "max_abs_prob_range": 0.030000000000000027,
+  "confidence": {
+    "mean": 0.8366666666666668,
+    "sd": 0.012110601416389978,
+    "min": 0.82,
+    "max": 0.85
+  },
+  "entropy_bits": {
+    "mean": 0.8510841418042142,
+    "sd": 0.059722371818537796
+  },
+  "per_candidate_score_noul_variation": {
+    "robustness": {
+      "max_range_across_runs": 0.12,
+      "mean_range": 0.03874999999999999
+    },
+    "consensus": {
+      "max_range_across_runs": 0.020000000000000004,
+      "mean_range": 0.00875
+    },
+    "quality": {
+      "max_range_across_runs": 0.12000000000000002,
+      "mean_range": 0.023125
+    },
+    "overfit": {
+      "max_range_across_runs": 0.010000000000000009,
+      "mean_range": 0.0037499999999999825
+    },
+    "stable": {
+      "max_range_across_runs": 0.07,
+      "mean_range": 0.031250000000000014
+    },
+    "stronger": {
+      "max_range_across_runs": 0.010000000000000009,
+      "mean_range": 0.006875000000000002
+    },
+    "dependent": {
+      "max_range_across_runs": 0.07000000000000006,
+      "mean_range": 0.03937500000000001
+    }
+  },
+  "aggregated_mean_distribution": {
+    "C01": 0.025000000000000005,
+    "C02": 0.08,
+    "C03": 0.0,
+    "C04": 0.8566666666666666,
+    "C05": 0.0,
+    "C06": 0.0,
+    "C10": 0.0,
+    "C11": 0.013333333333333334,
+    "C12": 0.0,
+    "C13": 0.01,
+    "C14": 0.0,
+    "C15": 0.0,
+    "C16": 0.0,
+    "C17": 0.0,
+    "C19": 0.015000000000000001,
+    "C20": 0.0
+  },
+  "aggregated_top": "C04",
+  "v1_policy": {
+    "qualifying_models": [],
+    "branch": "no-edge seeded fallback",
+    "selected": "C04",
+    "jev_influence": "none: the fallback index depends only on the number of eligible candidates",
+    "hypothetical_edge_branch_composite_top_by_run": [
+      "C04",
+      "C04",
+      "C04",
+      "C04",
+      "C04",
+      "C04"
+    ],
+    "note": "The edge branch is not applicable (no qualifying model, so no candidate has validated models)."
+  },
+  "would_aggregation_change_v1_ticket": "NO",
+  "answer": "Using the first valid response or an aggregate of all six responses would not have changed the V1 ticket: under the no-edge rule Jev has no role in selection. Jev's own favourite (C04) is identical in every run."
+}

@@ -1,0 +1,63 @@
+{
+  "request_sha256": "47fa82f3a772194d76c393ef60904785eaf7b2bf26675e19df762e14f693d9bf",
+  "production_request_sha256": "47fa82f3a772194d76c393ef60904785eaf7b2bf26675e19df762e14f693d9bf",
+  "identical_request_bytes": true,
+  "runs": [
+    {
+      "replicate": 1,
+      "created_utc": "2026-10-03T06:47:11.592Z",
+      "model": "jev-1.13.0",
+      "choice": "C04",
+      "confidence": 0.83,
+      "usage": {
+        "input_tokens": 34882,
+        "output_tokens": 2324
+      }
+    },
+    {
+      "replicate": 2,
+      "created_utc": "2026-10-03T06:47:12.079Z",
+      "model": "jev-1.13.0",
+      "choice": "C04",
+      "confidence": 0.83,
+      "usage": {
+        "input_tokens": 34882,
+        "output_tokens": 2324
+      }
+    },
+    {
+      "replicate": 3,
+      "created_utc": "2026-10-03T06:47:12.636Z",
+      "model": "jev-1.13.0",
+      "choice": "C04",
+      "confidence": 0.85,
+      "usage": {
+        "input_tokens": 34882,
+        "output_tokens": 2324
+      }
+    },
+    {
+      "replicate": 4,
+      "created_utc": "2026-10-03T06:47:13.110Z",
+      "model": "jev-1.13.0",
+      "choice": "C04",
+      "confidence": 0.85,
+      "usage": {
+        "input_tokens": 34882,
+        "output_tokens": 2324
+      }
+    },
+    {
+      "replicate": 5,
+      "created_utc": "2026-10-03T06:47:13.570Z",
+      "model": "jev-1.13.0",
+      "choice": "C04",
+      "confidence": 0.82,
+      "usage": {
+        "input_tokens": 34882,
+        "output_tokens": 2324
+      }
+    }
+  ],
+  "note": "Research-only replicates after all #2343 tickets were frozen. No ticket is changed by these calls."
+}
