@@ -1,0 +1,2374 @@
+{
+  "task": "Evaluate the refreshed empirical evidence for one additional Lotto #2343 complete ticket.",
+  "metadata": {
+    "cutoff_draw": 2342,
+    "target_draw": 2343,
+    "target_date": "2026-10-03",
+    "seed": 20260919,
+    "qualifying_models": [],
+    "origins": 132,
+    "data_sha256": "1a604b3c6674d86fe0ca6aba66c1c1eacde02d2a8457a220e9657c80e08fafb8",
+    "v1_code_sha256": "86bdb1312a0b07fd9db97eb8186604fdcb67598764378740b7e417a23d11eca5",
+    "v1_manifest_integrity": {
+      "results\\analysis_metadata.json": "LF_to_CRLF",
+      "results\\audit.json": "LF_to_CRLF",
+      "results\\baseline.json": "LF_to_CRLF",
+      "results\\candidates.json": "LF_to_CRLF",
+      "results\\candidate_sensitivity.json": "LF_to_CRLF",
+      "results\\conditional_statistics.csv": "LF_to_CRLF",
+      "results\\draw_structure.csv": "LF_to_CRLF",
+      "results\\final_decision.json": "LF_to_CRLF",
+      "results\\jev_candidate_summary.csv": "LF_to_CRLF",
+      "results\\jev_receipt.json": "exact",
+      "results\\jev_request.json": "exact",
+      "results\\jev_response.json": "exact",
+      "results\\jev_state.json": "LF_to_CRLF",
+      "results\\model_performance.csv": "LF_to_CRLF",
+      "results\\model_performance.json": "LF_to_CRLF",
+      "results\\number_autocorrelations.csv": "LF_to_CRLF",
+      "results\\number_statistics.csv": "LF_to_CRLF",
+      "results\\pair_statistics.csv": "LF_to_CRLF",
+      "results\\randomness.json": "LF_to_CRLF",
+      "results\\ranked_candidates.json": "LF_to_CRLF",
+      "results\\REPORT.md": "LF_to_CRLF",
+      "results\\sensitivity.csv": "LF_to_CRLF",
+      "results\\source_ablation.json": "LF_to_CRLF",
+      "results\\structure_summary.json": "LF_to_CRLF",
+      "results\\triple_statistics.csv": "LF_to_CRLF",
+      "results\\verification.json": "LF_to_CRLF",
+      "results\\walk_forward_predictions.json": "LF_to_CRLF",
+      "data\\draws.json": "LF_to_CRLF",
+      "data\\external_draws.json": "LF_to_CRLF",
+      "data\\official-2025-11-19.json": "LF_to_CRLF",
+      "data\\official-2025-11-29.json": "LF_to_CRLF",
+      "data\\official-2025-12-09.json": "LF_to_CRLF",
+      "data\\official-2025-12-19.json": "LF_to_CRLF",
+      "data\\official-2026-09-12.json": "LF_to_CRLF",
+      "data\\original_draws.json": "LF_to_CRLF",
+      "scripts\\analyze.py": "exact",
+      "scripts\\audit.py": "exact",
+      "scripts\\finalize.py": "exact",
+      "scripts\\jev.mjs": "exact",
+      "scripts\\refresh-official.ps1": "exact",
+      "scripts\\verify_analysis.py": "exact",
+      "experiments\\jev-complete-ticket-zero-data\\final-request.json": "exact",
+      "experiments\\jev-complete-ticket-zero-data\\final-response.json": "exact",
+      "experiments\\jev-complete-ticket-zero-data\\finalists.json": "exact",
+      "experiments\\jev-complete-ticket-zero-data\\frozen-result.json": "exact",
+      "experiments\\jev-complete-ticket-zero-data\\pool.json": "exact",
+      "experiments\\jev-complete-ticket-zero-data\\stage1-request.json": "exact",
+      "experiments\\jev-complete-ticket-zero-data\\stage1-response.json": "exact",
+      "experiments\\jev-only-zero-data\\frozen-result.json": "exact"
+    },
+    "limitations": [
+      "No candidate-specific or Jev policy predictive validation.",
+      "Reused retrospective confirmation; no new holdout."
+    ]
+  },
+  "baseline": {
+    "expected_matches": 0.9473684210526315,
+    "jackpot_probability": 3.6222946439664705e-07
+  },
+  "methodology_confirmation": [
+    {
+      "model": "A_long",
+      "period": "confirmation",
+      "n": 40,
+      "total_matches": 50,
+      "mean": 1.25,
+      "median": 1.0,
+      "sd": 0.8987170342729172,
+      "counts": [
+        7,
+        20,
+        10,
+        2,
+        1,
+        0,
+        0
+      ],
+      "percentages": [
+        17.5,
+        50.0,
+        25.0,
+        5.0,
+        2.5,
+        0.0,
+        0.0
+      ],
+      "four_plus_pct": 2.5,
+      "best": 4,
+      "older_half_mean": 1.15,
+      "recent_half_mean": 1.35,
+      "delta_random": 0.3026315789473685,
+      "block95": [
+        0.975,
+        1.525
+      ],
+      "iid95": [
+        0.975,
+        1.525
+      ],
+      "p_exact_one_sided": 0.015491649681301765,
+      "holm_p": 0.12393319745041412,
+      "random_control_mc_p": 0.01574921253937303,
+      "random_mean_95": [
+        0.7,
+        1.2
+      ],
+      "qualifies": false,
+      "average_precision": 0.23838891059794215,
+      "recall_at12": 0.32916666666666666
+    },
+    {
+      "model": "B_recent",
+      "period": "confirmation",
+      "n": 40,
+      "total_matches": 45,
+      "mean": 1.125,
+      "median": 1.0,
+      "sd": 0.6479751498875516,
+      "counts": [
+        6,
+        23,
+        11,
+        0,
+        0,
+        0,
+        0
+      ],
+      "percentages": [
+        15.0,
+        57.49999999999999,
+        27.500000000000004,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "four_plus_pct": 0.0,
+      "best": 2,
+      "older_half_mean": 1.0,
+      "recent_half_mean": 1.25,
+      "delta_random": 0.17763157894736847,
+      "block95": [
+        0.925,
+        1.3
+      ],
+      "iid95": [
+        0.925,
+        1.325
+      ],
+      "p_exact_one_sided": 0.10570678277821173,
+      "holm_p": 0.7399474794474821,
+      "random_control_mc_p": 0.10614469276536173,
+      "random_mean_95": [
+        0.7,
+        1.2
+      ],
+      "qualifies": false,
+      "average_precision": 0.23987645450416567,
+      "recall_at12": 0.3333333333333333
+    },
+    {
+      "model": "C_gap",
+      "period": "confirmation",
+      "n": 40,
+      "total_matches": 30,
+      "mean": 0.75,
+      "median": 1.0,
+      "sd": 0.7071067811865476,
+      "counts": [
+        16,
+        18,
+        6,
+        0,
+        0,
+        0,
+        0
+      ],
+      "percentages": [
+        40.0,
+        45.0,
+        15.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "four_plus_pct": 0.0,
+      "best": 2,
+      "older_half_mean": 0.7,
+      "recent_half_mean": 0.8,
+      "delta_random": -0.19736842105263153,
+      "block95": [
+        0.525,
+        0.95
+      ],
+      "iid95": [
+        0.525,
+        0.975
+      ],
+      "p_exact_one_sided": 0.9480594089108143,
+      "holm_p": 1.0,
+      "random_control_mc_p": 0.9458527073646318,
+      "random_mean_95": [
+        0.7,
+        1.2
+      ],
+      "qualifies": false,
+      "average_precision": 0.2208596248145378,
+      "recall_at12": 0.2708333333333333
+    },
+    {
+      "model": "D_trend",
+      "period": "confirmation",
+      "n": 40,
+      "total_matches": 35,
+      "mean": 0.875,
+      "median": 1.0,
+      "sd": 0.6864064729836441,
+      "counts": [
+        12,
+        21,
+        7,
+        0,
+        0,
+        0,
+        0
+      ],
+      "percentages": [
+        30.0,
+        52.5,
+        17.5,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "four_plus_pct": 0.0,
+      "best": 2,
+      "older_half_mean": 0.85,
+      "recent_half_mean": 0.9,
+      "delta_random": -0.07236842105263153,
+      "block95": [
+        0.75,
+        1.0
+      ],
+      "iid95": [
+        0.675,
+        1.075
+      ],
+      "p_exact_one_sided": 0.7379387429561826,
+      "holm_p": 1.0,
+      "random_control_mc_p": 0.7339133043347833,
+      "random_mean_95": [
+        0.7,
+        1.2
+      ],
+      "qualifies": false,
+      "average_precision": 0.2520079774508821,
+      "recall_at12": 0.3333333333333333
+    },
+    {
+      "model": "E_pairs",
+      "period": "confirmation",
+      "n": 40,
+      "total_matches": 39,
+      "mean": 0.975,
+      "median": 1.0,
+      "sd": 0.9195177108206347,
+      "counts": [
+        14,
+        16,
+        7,
+        3,
+        0,
+        0,
+        0
+      ],
+      "percentages": [
+        35.0,
+        40.0,
+        17.5,
+        7.5,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "four_plus_pct": 0.0,
+      "best": 3,
+      "older_half_mean": 1.1,
+      "recent_half_mean": 0.85,
+      "delta_random": 0.02763157894736845,
+      "block95": [
+        0.725,
+        1.225
+      ],
+      "iid95": [
+        0.7,
+        1.275
+      ],
+      "p_exact_one_sided": 0.4480136219216766,
+      "holm_p": 1.0,
+      "random_control_mc_p": 0.4490275486225689,
+      "random_mean_95": [
+        0.7,
+        1.2
+      ],
+      "qualifies": false,
+      "average_precision": null,
+      "recall_at12": null
+    },
+    {
+      "model": "F_structure",
+      "period": "confirmation",
+      "n": 40,
+      "total_matches": 40,
+      "mean": 1.0,
+      "median": 1.0,
+      "sd": 0.8770580193070292,
+      "counts": [
+        13,
+        16,
+        9,
+        2,
+        0,
+        0,
+        0
+      ],
+      "percentages": [
+        32.5,
+        40.0,
+        22.5,
+        5.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "four_plus_pct": 0.0,
+      "best": 3,
+      "older_half_mean": 1.05,
+      "recent_half_mean": 0.95,
+      "delta_random": 0.052631578947368474,
+      "block95": [
+        0.775,
+        1.25
+      ],
+      "iid95": [
+        0.75,
+        1.275
+      ],
+      "p_exact_one_sided": 0.37458885119586327,
+      "holm_p": 1.0,
+      "random_control_mc_p": 0.3739313034348283,
+      "random_mean_95": [
+        0.7,
+        1.2
+      ],
+      "qualifies": false,
+      "average_precision": null,
+      "recall_at12": null
+    },
+    {
+      "model": "G_ensemble",
+      "period": "confirmation",
+      "n": 40,
+      "total_matches": 36,
+      "mean": 0.9,
+      "median": 1.0,
+      "sd": 0.8101914936669333,
+      "counts": [
+        14,
+        17,
+        8,
+        1,
+        0,
+        0,
+        0
+      ],
+      "percentages": [
+        35.0,
+        42.5,
+        20.0,
+        2.5,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "four_plus_pct": 0.0,
+      "best": 3,
+      "older_half_mean": 0.8,
+      "recent_half_mean": 1.0,
+      "delta_random": -0.047368421052631504,
+      "block95": [
+        0.7,
+        1.1
+      ],
+      "iid95": [
+        0.65,
+        1.15
+      ],
+      "p_exact_one_sided": 0.6712122313790486,
+      "holm_p": 1.0,
+      "random_control_mc_p": 0.6694165291735413,
+      "random_mean_95": [
+        0.7,
+        1.2
+      ],
+      "qualifies": false,
+      "average_precision": 0.24487464385829458,
+      "recall_at12": 0.3625
+    },
+    {
+      "model": "H_random",
+      "period": "confirmation",
+      "n": 40,
+      "total_matches": 36,
+      "mean": 0.9,
+      "median": 1.0,
+      "sd": 0.9001424388708769,
+      "counts": [
+        15,
+        17,
+        5,
+        3,
+        0,
+        0,
+        0
+      ],
+      "percentages": [
+        37.5,
+        42.5,
+        12.5,
+        7.5,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "four_plus_pct": 0.0,
+      "best": 3,
+      "older_half_mean": 0.85,
+      "recent_half_mean": 0.95,
+      "delta_random": -0.047368421052631504,
+      "block95": [
+        0.625,
+        1.225
+      ],
+      "iid95": [
+        0.625,
+        1.175
+      ],
+      "p_exact_one_sided": 0.6712122313790486,
+      "holm_p": 1.0,
+      "random_control_mc_p": 0.6694165291735413,
+      "random_mean_95": [
+        0.7,
+        1.2
+      ],
+      "qualifies": false,
+      "average_precision": 0.22798405192129514,
+      "recall_at12": 0.3208333333333333
+    }
+  ],
+  "candidates": [
+    {
+      "id": "C01",
+      "numbers": [
+        1,
+        8,
+        15,
+        18,
+        24,
+        25
+      ],
+      "generator": "A_long",
+      "contributing_models": [
+        "A_long"
+      ],
+      "validated_models": [],
+      "individual_scores": [
+        {
+          "number": 1,
+          "long_z": 1.0965861582201277,
+          "recent_z": 1.2320596981752274,
+          "gap_z": -0.8292584944344814,
+          "trend_z": 0.6621642835836107
+        },
+        {
+          "number": 8,
+          "long_z": 1.929991638467426,
+          "recent_z": 1.108547623448274,
+          "gap_z": -0.6625292733312523,
+          "trend_z": -0.44144285572240693
+        },
+        {
+          "number": 15,
+          "long_z": 0.8882347881583029,
+          "recent_z": 0.7216199712069108,
+          "gap_z": -0.9959877155377105,
+          "trend_z": -0.44144285572240693
+        },
+        {
+          "number": 18,
+          "long_z": 2.138343008529251,
+          "recent_z": 0.3118613727397757,
+          "gap_z": -0.6625292733312523,
+          "trend_z": 0.8828857114448141
+        },
+        {
+          "number": 24,
+          "long_z": 1.0965861582201277,
+          "recent_z": 1.5329767001661538,
+          "gap_z": 0.004387611081663899,
+          "trend_z": 0.6621642835836107
+        },
+        {
+          "number": 25,
+          "long_z": 0.6798834180964781,
+          "recent_z": -0.08253830683343354,
+          "gap_z": -0.16234161002156516,
+          "trend_z": -0.8828857114448141
+        }
+      ],
+      "ensemble_score": 0.6141587438859438,
+      "ensemble_rank": 6,
+      "model_ranks": {
+        "A_long": 1,
+        "B_recent": 6,
+        "C_gap": 13,
+        "D_trend": 13,
+        "E_pairs": 1,
+        "F_structure": 14,
+        "G_ensemble": 6
+      },
+      "long_frequency_mean": 0.19230769230769232,
+      "recent30_mean": 0.21666666666666667,
+      "ew_frequency_mean": 0.20088815337854982,
+      "gap_mean": 2.6666666666666665,
+      "trend_mean": 0.00833333333333334,
+      "pair_lift_mean": 1.5793894993894997,
+      "corrected_significant_pairs": 0,
+      "structure": {
+        "sum": 91.0,
+        "median": 16.5,
+        "minimum": 1.0,
+        "maximum": 25.0,
+        "range": 24.0,
+        "odd_count": 3.0,
+        "low_count": 4.0,
+        "adjacent_pairs": 1.0,
+        "largest_spacing": 7.0,
+        "close_spacings_le2": 1.0
+      },
+      "model_agreement_count": 1,
+      "generator_sensitivity_rank_min": 1.0,
+      "generator_sensitivity_rank_max": 8.0,
+      "sensitivity_top_quartile_fraction": 0.9285714285714286,
+      "sensitivity_mean_rank": 1.5,
+      "latest_draw_overlap": 1,
+      "walk_forward_support": {
+        "model": "A_long",
+        "n": 40,
+        "mean": 1.25,
+        "block95": [
+          0.975,
+          1.525
+        ],
+        "holm_p": 0.12393319745041412,
+        "older_half_mean": 1.15,
+        "recent_half_mean": 1.35,
+        "qualifies": false
+      },
+      "evidence_against": [
+        "Exact ticket and candidate variants have not been backtested.",
+        "Frequency, gaps, pair lift and structure are descriptive, not independent predictive evidence.",
+        "Models share the same small dataset; agreement is correlated.",
+        "No qualifying independent out-of-sample support for this ticket."
+      ],
+      "overlap_previous_primary": [
+        24
+      ]
+    },
+    {
+      "id": "C02",
+      "numbers": [
+        2,
+        10,
+        13,
+        18,
+        24,
+        33
+      ],
+      "generator": "A_long",
+      "contributing_models": [
+        "A_long",
+        "B_recent",
+        "D_trend",
+        "G_ensemble"
+      ],
+      "validated_models": [],
+      "individual_scores": [
+        {
+          "number": 2,
+          "long_z": 0.4715320480346532,
+          "recent_z": 0.5061528413657802,
+          "gap_z": -0.16234161002156516,
+          "trend_z": 1.765771422889628
+        },
+        {
+          "number": 10,
+          "long_z": 0.6798834180964781,
+          "recent_z": 0.6424995839125397,
+          "gap_z": -0.32907083112479424,
+          "trend_z": 0.22072142786120375
+        },
+        {
+          "number": 13,
+          "long_z": 0.8882347881583029,
+          "recent_z": 2.014822235244548,
+          "gap_z": -0.9959877155377105,
+          "trend_z": 1.9864928507508315
+        },
+        {
+          "number": 18,
+          "long_z": 2.138343008529251,
+          "recent_z": 0.3118613727397757,
+          "gap_z": -0.6625292733312523,
+          "trend_z": 0.8828857114448141
+        },
+        {
+          "number": 24,
+          "long_z": 1.0965861582201277,
+          "recent_z": 1.5329767001661538,
+          "gap_z": 0.004387611081663899,
+          "trend_z": 0.6621642835836107
+        },
+        {
+          "number": 33,
+          "long_z": 1.5132888983437762,
+          "recent_z": 0.21758761038975027,
+          "gap_z": -0.9959877155377105,
+          "trend_z": 0.6621642835836107
+        }
+      ],
+      "ensemble_score": 0.9651559104383824,
+      "ensemble_rank": 2,
+      "model_ranks": {
+        "A_long": 2,
+        "B_recent": 5,
+        "C_gap": 12,
+        "D_trend": 4,
+        "E_pairs": 2,
+        "F_structure": 11,
+        "G_ensemble": 2
+      },
+      "long_frequency_mean": 0.18772893772893773,
+      "recent30_mean": 0.2222222222222222,
+      "ew_frequency_mean": 0.20379889739201004,
+      "gap_mean": 2.8333333333333335,
+      "trend_mean": 0.11666666666666665,
+      "pair_lift_mean": 1.5107203907203912,
+      "corrected_significant_pairs": 0,
+      "structure": {
+        "sum": 100.0,
+        "median": 15.5,
+        "minimum": 2.0,
+        "maximum": 33.0,
+        "range": 31.0,
+        "odd_count": 2.0,
+        "low_count": 4.0,
+        "adjacent_pairs": 0.0,
+        "largest_spacing": 9.0,
+        "close_spacings_le2": 0.0
+      },
+      "model_agreement_count": 4,
+      "generator_sensitivity_rank_min": 2.0,
+      "generator_sensitivity_rank_max": 6.0,
+      "sensitivity_top_quartile_fraction": 0.9285714285714286,
+      "sensitivity_mean_rank": 2.2857142857142856,
+      "latest_draw_overlap": 2,
+      "walk_forward_support": {
+        "model": "A_long",
+        "n": 40,
+        "mean": 1.25,
+        "block95": [
+          0.975,
+          1.525
+        ],
+        "holm_p": 0.12393319745041412,
+        "older_half_mean": 1.15,
+        "recent_half_mean": 1.35,
+        "qualifies": false
+      },
+      "evidence_against": [
+        "Exact ticket and candidate variants have not been backtested.",
+        "Frequency, gaps, pair lift and structure are descriptive, not independent predictive evidence.",
+        "Models share the same small dataset; agreement is correlated.",
+        "No qualifying independent out-of-sample support for this ticket."
+      ],
+      "overlap_previous_primary": [
+        24
+      ]
+    },
+    {
+      "id": "C03",
+      "numbers": [
+        2,
+        6,
+        8,
+        12,
+        18,
+        25
+      ],
+      "generator": "A_long",
+      "contributing_models": [
+        "A_long"
+      ],
+      "validated_models": [],
+      "individual_scores": [
+        {
+          "number": 2,
+          "long_z": 0.4715320480346532,
+          "recent_z": 0.5061528413657802,
+          "gap_z": -0.16234161002156516,
+          "trend_z": 1.765771422889628
+        },
+        {
+          "number": 6,
+          "long_z": 0.6798834180964781,
+          "recent_z": 0.9420209942162526,
+          "gap_z": -0.8292584944344814,
+          "trend_z": -0.22072142786120344
+        },
+        {
+          "number": 8,
+          "long_z": 1.929991638467426,
+          "recent_z": 1.108547623448274,
+          "gap_z": -0.6625292733312523,
+          "trend_z": -0.44144285572240693
+        },
+        {
+          "number": 12,
+          "long_z": 0.6798834180964781,
+          "recent_z": 1.0630606255413426,
+          "gap_z": -0.9959877155377105,
+          "trend_z": 1.5450499950284244
+        },
+        {
+          "number": 18,
+          "long_z": 2.138343008529251,
+          "recent_z": 0.3118613727397757,
+          "gap_z": -0.6625292733312523,
+          "trend_z": 0.8828857114448141
+        },
+        {
+          "number": 25,
+          "long_z": 0.6798834180964781,
+          "recent_z": -0.08253830683343354,
+          "gap_z": -0.16234161002156516,
+          "trend_z": -0.8828857114448141
+        }
+      ],
+      "ensemble_score": 0.3896288959564528,
+      "ensemble_rank": 10,
+      "model_ranks": {
+        "A_long": 3,
+        "B_recent": 9,
+        "C_gap": 14,
+        "D_trend": 9,
+        "E_pairs": 3,
+        "F_structure": 20,
+        "G_ensemble": 10
+      },
+      "long_frequency_mean": 0.18681318681318682,
+      "recent30_mean": 0.20000000000000004,
+      "ew_frequency_mean": 0.19697992282792373,
+      "gap_mean": 2.5,
+      "trend_mean": 0.05000000000000001,
+      "pair_lift_mean": 1.407716727716728,
+      "corrected_significant_pairs": 0,
+      "structure": {
+        "sum": 71.0,
+        "median": 10.0,
+        "minimum": 2.0,
+        "maximum": 25.0,
+        "range": 23.0,
+        "odd_count": 1.0,
+        "low_count": 5.0,
+        "adjacent_pairs": 0.0,
+        "largest_spacing": 7.0,
+        "close_spacings_le2": 1.0
+      },
+      "model_agreement_count": 1,
+      "generator_sensitivity_rank_min": 2.0,
+      "generator_sensitivity_rank_max": 3.0,
+      "sensitivity_top_quartile_fraction": 1.0,
+      "sensitivity_mean_rank": 2.9285714285714284,
+      "latest_draw_overlap": 1,
+      "walk_forward_support": {
+        "model": "A_long",
+        "n": 40,
+        "mean": 1.25,
+        "block95": [
+          0.975,
+          1.525
+        ],
+        "holm_p": 0.12393319745041412,
+        "older_half_mean": 1.15,
+        "recent_half_mean": 1.35,
+        "qualifies": false
+      },
+      "evidence_against": [
+        "Exact ticket and candidate variants have not been backtested.",
+        "Frequency, gaps, pair lift and structure are descriptive, not independent predictive evidence.",
+        "Models share the same small dataset; agreement is correlated.",
+        "No qualifying independent out-of-sample support for this ticket."
+      ],
+      "overlap_previous_primary": []
+    },
+    {
+      "id": "C04",
+      "numbers": [
+        1,
+        4,
+        13,
+        14,
+        24,
+        38
+      ],
+      "generator": "B_recent",
+      "contributing_models": [
+        "A_long",
+        "B_recent",
+        "D_trend",
+        "G_ensemble"
+      ],
+      "validated_models": [],
+      "individual_scores": [
+        {
+          "number": 1,
+          "long_z": 1.0965861582201277,
+          "recent_z": 1.2320596981752274,
+          "gap_z": -0.8292584944344814,
+          "trend_z": 0.6621642835836107
+        },
+        {
+          "number": 4,
+          "long_z": 0.8882347881583029,
+          "recent_z": 1.4987230804801168,
+          "gap_z": -0.8292584944344814,
+          "trend_z": 2.207214278612035
+        },
+        {
+          "number": 13,
+          "long_z": 0.8882347881583029,
+          "recent_z": 2.014822235244548,
+          "gap_z": -0.9959877155377105,
+          "trend_z": 1.9864928507508315
+        },
+        {
+          "number": 14,
+          "long_z": 0.05482930791100353,
+          "recent_z": 1.2067611476055593,
+          "gap_z": -0.9959877155377105,
+          "trend_z": 1.1036071393060176
+        },
+        {
+          "number": 24,
+          "long_z": 1.0965861582201277,
+          "recent_z": 1.5329767001661538,
+          "gap_z": 0.004387611081663899,
+          "trend_z": 0.6621642835836107
+        },
+        {
+          "number": 38,
+          "long_z": 1.5132888983437762,
+          "recent_z": 0.7620274922819114,
+          "gap_z": -0.8292584944344814,
+          "trend_z": -0.44144285572240693
+        }
+      ],
+      "ensemble_score": 1.053427356371416,
+      "ensemble_rank": 1,
+      "model_ranks": {
+        "A_long": 5,
+        "B_recent": 1,
+        "C_gap": 17,
+        "D_trend": 5,
+        "E_pairs": 4,
+        "F_structure": 12,
+        "G_ensemble": 1
+      },
+      "long_frequency_mean": 0.18223443223443225,
+      "recent30_mean": 0.2611111111111111,
+      "ew_frequency_mean": 0.22864287565190602,
+      "gap_mean": 1.5,
+      "trend_mean": 0.11666666666666665,
+      "pair_lift_mean": 1.304713064713065,
+      "corrected_significant_pairs": 0,
+      "structure": {
+        "sum": 94.0,
+        "median": 13.5,
+        "minimum": 1.0,
+        "maximum": 38.0,
+        "range": 37.0,
+        "odd_count": 2.0,
+        "low_count": 4.0,
+        "adjacent_pairs": 1.0,
+        "largest_spacing": 14.0,
+        "close_spacings_le2": 1.0
+      },
+      "model_agreement_count": 4,
+      "generator_sensitivity_rank_min": 1.0,
+      "generator_sensitivity_rank_max": 1.0,
+      "sensitivity_top_quartile_fraction": 1.0,
+      "sensitivity_mean_rank": 1.0,
+      "latest_draw_overlap": 2,
+      "walk_forward_support": {
+        "model": "B_recent",
+        "n": 40,
+        "mean": 1.125,
+        "block95": [
+          0.925,
+          1.3
+        ],
+        "holm_p": 0.7399474794474821,
+        "older_half_mean": 1.0,
+        "recent_half_mean": 1.25,
+        "qualifies": false
+      },
+      "evidence_against": [
+        "Exact ticket and candidate variants have not been backtested.",
+        "Frequency, gaps, pair lift and structure are descriptive, not independent predictive evidence.",
+        "Models share the same small dataset; agreement is correlated.",
+        "No qualifying independent out-of-sample support for this ticket."
+      ],
+      "overlap_previous_primary": [
+        24
+      ]
+    },
+    {
+      "id": "C05",
+      "numbers": [
+        4,
+        9,
+        12,
+        13,
+        24,
+        25
+      ],
+      "generator": "B_recent",
+      "contributing_models": [
+        "B_recent",
+        "G_ensemble"
+      ],
+      "validated_models": [],
+      "individual_scores": [
+        {
+          "number": 4,
+          "long_z": 0.8882347881583029,
+          "recent_z": 1.4987230804801168,
+          "gap_z": -0.8292584944344814,
+          "trend_z": 2.207214278612035
+        },
+        {
+          "number": 9,
+          "long_z": -0.7785761723362935,
+          "recent_z": 0.8971693408671639,
+          "gap_z": 0.004387611081663899,
+          "trend_z": -0.22072142786120344
+        },
+        {
+          "number": 12,
+          "long_z": 0.6798834180964781,
+          "recent_z": 1.0630606255413426,
+          "gap_z": -0.9959877155377105,
+          "trend_z": 1.5450499950284244
+        },
+        {
+          "number": 13,
+          "long_z": 0.8882347881583029,
+          "recent_z": 2.014822235244548,
+          "gap_z": -0.9959877155377105,
+          "trend_z": 1.9864928507508315
+        },
+        {
+          "number": 24,
+          "long_z": 1.0965861582201277,
+          "recent_z": 1.5329767001661538,
+          "gap_z": 0.004387611081663899,
+          "trend_z": 0.6621642835836107
+        },
+        {
+          "number": 25,
+          "long_z": 0.6798834180964781,
+          "recent_z": -0.08253830683343354,
+          "gap_z": -0.16234161002156516,
+          "trend_z": -0.8828857114448141
+        }
+      ],
+      "ensemble_score": 0.6535253530642066,
+      "ensemble_rank": 5,
+      "model_ranks": {
+        "A_long": 8,
+        "B_recent": 2,
+        "C_gap": 10,
+        "D_trend": 7,
+        "E_pairs": 5,
+        "F_structure": 17,
+        "G_ensemble": 5
+      },
+      "long_frequency_mean": 0.1730769230769231,
+      "recent30_mean": 0.25000000000000006,
+      "ew_frequency_mean": 0.21184420492695244,
+      "gap_mean": 3.0,
+      "trend_mean": 0.09999999999999999,
+      "pair_lift_mean": 1.2017094017094017,
+      "corrected_significant_pairs": 0,
+      "structure": {
+        "sum": 87.0,
+        "median": 12.5,
+        "minimum": 4.0,
+        "maximum": 25.0,
+        "range": 21.0,
+        "odd_count": 3.0,
+        "low_count": 4.0,
+        "adjacent_pairs": 2.0,
+        "largest_spacing": 11.0,
+        "close_spacings_le2": 2.0
+      },
+      "model_agreement_count": 2,
+      "generator_sensitivity_rank_min": 2.0,
+      "generator_sensitivity_rank_max": 4.0,
+      "sensitivity_top_quartile_fraction": 1.0,
+      "sensitivity_mean_rank": 2.2857142857142856,
+      "latest_draw_overlap": 2,
+      "walk_forward_support": {
+        "model": "B_recent",
+        "n": 40,
+        "mean": 1.125,
+        "block95": [
+          0.925,
+          1.3
+        ],
+        "holm_p": 0.7399474794474821,
+        "older_half_mean": 1.0,
+        "recent_half_mean": 1.25,
+        "qualifies": false
+      },
+      "evidence_against": [
+        "Exact ticket and candidate variants have not been backtested.",
+        "Frequency, gaps, pair lift and structure are descriptive, not independent predictive evidence.",
+        "Models share the same small dataset; agreement is correlated.",
+        "No qualifying independent out-of-sample support for this ticket."
+      ],
+      "overlap_previous_primary": [
+        24
+      ]
+    },
+    {
+      "id": "C06",
+      "numbers": [
+        1,
+        6,
+        13,
+        14,
+        22,
+        31
+      ],
+      "generator": "B_recent",
+      "contributing_models": [
+        "B_recent"
+      ],
+      "validated_models": [],
+      "individual_scores": [
+        {
+          "number": 1,
+          "long_z": 1.0965861582201277,
+          "recent_z": 1.2320596981752274,
+          "gap_z": -0.8292584944344814,
+          "trend_z": 0.6621642835836107
+        },
+        {
+          "number": 6,
+          "long_z": 0.6798834180964781,
+          "recent_z": 0.9420209942162526,
+          "gap_z": -0.8292584944344814,
+          "trend_z": -0.22072142786120344
+        },
+        {
+          "number": 13,
+          "long_z": 0.8882347881583029,
+          "recent_z": 2.014822235244548,
+          "gap_z": -0.9959877155377105,
+          "trend_z": 1.9864928507508315
+        },
+        {
+          "number": 14,
+          "long_z": 0.05482930791100353,
+          "recent_z": 1.2067611476055593,
+          "gap_z": -0.9959877155377105,
+          "trend_z": 1.1036071393060176
+        },
+        {
+          "number": 22,
+          "long_z": 0.05482930791100353,
+          "recent_z": 0.8656177356188078,
+          "gap_z": -0.8292584944344814,
+          "trend_z": 0.8828857114448141
+        },
+        {
+          "number": 31,
+          "long_z": -0.361873432212645,
+          "recent_z": 0.28753869116274244,
+          "gap_z": -0.6625292733312523,
+          "trend_z": 0.22072142786120375
+        }
+      ],
+      "ensemble_score": 0.5923312643108343,
+      "ensemble_rank": 7,
+      "model_ranks": {
+        "A_long": 11,
+        "B_recent": 3,
+        "C_gap": 20,
+        "D_trend": 8,
+        "E_pairs": 6,
+        "F_structure": 9,
+        "G_ensemble": 7
+      },
+      "long_frequency_mean": 0.16849816849816848,
+      "recent30_mean": 0.23333333333333336,
+      "ew_frequency_mean": 0.22059257911633612,
+      "gap_mean": 0.8333333333333334,
+      "trend_mean": 0.08750000000000001,
+      "pair_lift_mean": 1.0643711843711845,
+      "corrected_significant_pairs": 0,
+      "structure": {
+        "sum": 87.0,
+        "median": 13.5,
+        "minimum": 1.0,
+        "maximum": 31.0,
+        "range": 30.0,
+        "odd_count": 3.0,
+        "low_count": 4.0,
+        "adjacent_pairs": 1.0,
+        "largest_spacing": 9.0,
+        "close_spacings_le2": 1.0
+      },
+      "model_agreement_count": 1,
+      "generator_sensitivity_rank_min": 2.0,
+      "generator_sensitivity_rank_max": 3.0,
+      "sensitivity_top_quartile_fraction": 1.0,
+      "sensitivity_mean_rank": 2.857142857142857,
+      "latest_draw_overlap": 2,
+      "walk_forward_support": {
+        "model": "B_recent",
+        "n": 40,
+        "mean": 1.125,
+        "block95": [
+          0.925,
+          1.3
+        ],
+        "holm_p": 0.7399474794474821,
+        "older_half_mean": 1.0,
+        "recent_half_mean": 1.25,
+        "qualifies": false
+      },
+      "evidence_against": [
+        "Exact ticket and candidate variants have not been backtested.",
+        "Frequency, gaps, pair lift and structure are descriptive, not independent predictive evidence.",
+        "Models share the same small dataset; agreement is correlated.",
+        "No qualifying independent out-of-sample support for this ticket."
+      ],
+      "overlap_previous_primary": []
+    },
+    {
+      "id": "C10",
+      "numbers": [
+        4,
+        7,
+        12,
+        14,
+        22,
+        37
+      ],
+      "generator": "D_trend",
+      "contributing_models": [
+        "D_trend"
+      ],
+      "validated_models": [],
+      "individual_scores": [
+        {
+          "number": 4,
+          "long_z": 0.8882347881583029,
+          "recent_z": 1.4987230804801168,
+          "gap_z": -0.8292584944344814,
+          "trend_z": 2.207214278612035
+        },
+        {
+          "number": 7,
+          "long_z": -0.361873432212645,
+          "recent_z": 0.15190027106763715,
+          "gap_z": -0.16234161002156516,
+          "trend_z": 1.3243285671672211
+        },
+        {
+          "number": 12,
+          "long_z": 0.6798834180964781,
+          "recent_z": 1.0630606255413426,
+          "gap_z": -0.9959877155377105,
+          "trend_z": 1.5450499950284244
+        },
+        {
+          "number": 14,
+          "long_z": 0.05482930791100353,
+          "recent_z": 1.2067611476055593,
+          "gap_z": -0.9959877155377105,
+          "trend_z": 1.1036071393060176
+        },
+        {
+          "number": 22,
+          "long_z": 0.05482930791100353,
+          "recent_z": 0.8656177356188078,
+          "gap_z": -0.8292584944344814,
+          "trend_z": 0.8828857114448141
+        },
+        {
+          "number": 37,
+          "long_z": 0.2631806779728284,
+          "recent_z": -0.8100128239043283,
+          "gap_z": 0.6713044954945802,
+          "trend_z": -0.22072142786120344
+        }
+      ],
+      "ensemble_score": 0.44620653077417155,
+      "ensemble_rank": 9,
+      "model_ranks": {
+        "A_long": 13,
+        "B_recent": 8,
+        "C_gap": 11,
+        "D_trend": 1,
+        "E_pairs": 10,
+        "F_structure": 10,
+        "G_ensemble": 9
+      },
+      "long_frequency_mean": 0.16483516483516483,
+      "recent30_mean": 0.21111111111111114,
+      "ew_frequency_mean": 0.18854650221949143,
+      "gap_mean": 2.8333333333333335,
+      "trend_mean": 0.12916666666666665,
+      "pair_lift_mean": 1.1673748473748478,
+      "corrected_significant_pairs": 0,
+      "structure": {
+        "sum": 96.0,
+        "median": 13.0,
+        "minimum": 4.0,
+        "maximum": 37.0,
+        "range": 33.0,
+        "odd_count": 2.0,
+        "low_count": 4.0,
+        "adjacent_pairs": 0.0,
+        "largest_spacing": 15.0,
+        "close_spacings_le2": 1.0
+      },
+      "model_agreement_count": 1,
+      "generator_sensitivity_rank_min": 1.0,
+      "generator_sensitivity_rank_max": 14.0,
+      "sensitivity_top_quartile_fraction": 0.9285714285714286,
+      "sensitivity_mean_rank": 2.2142857142857144,
+      "latest_draw_overlap": 2,
+      "walk_forward_support": {
+        "model": "D_trend",
+        "n": 40,
+        "mean": 0.875,
+        "block95": [
+          0.75,
+          1.0
+        ],
+        "holm_p": 1.0,
+        "older_half_mean": 0.85,
+        "recent_half_mean": 0.9,
+        "qualifies": false
+      },
+      "evidence_against": [
+        "Exact ticket and candidate variants have not been backtested.",
+        "Frequency, gaps, pair lift and structure are descriptive, not independent predictive evidence.",
+        "Models share the same small dataset; agreement is correlated.",
+        "No qualifying independent out-of-sample support for this ticket."
+      ],
+      "overlap_previous_primary": []
+    },
+    {
+      "id": "C11",
+      "numbers": [
+        4,
+        12,
+        14,
+        24,
+        28,
+        33
+      ],
+      "generator": "D_trend",
+      "contributing_models": [
+        "D_trend"
+      ],
+      "validated_models": [],
+      "individual_scores": [
+        {
+          "number": 4,
+          "long_z": 0.8882347881583029,
+          "recent_z": 1.4987230804801168,
+          "gap_z": -0.8292584944344814,
+          "trend_z": 2.207214278612035
+        },
+        {
+          "number": 12,
+          "long_z": 0.6798834180964781,
+          "recent_z": 1.0630606255413426,
+          "gap_z": -0.9959877155377105,
+          "trend_z": 1.5450499950284244
+        },
+        {
+          "number": 14,
+          "long_z": 0.05482930791100353,
+          "recent_z": 1.2067611476055593,
+          "gap_z": -0.9959877155377105,
+          "trend_z": 1.1036071393060176
+        },
+        {
+          "number": 24,
+          "long_z": 1.0965861582201277,
+          "recent_z": 1.5329767001661538,
+          "gap_z": 0.004387611081663899,
+          "trend_z": 0.6621642835836107
+        },
+        {
+          "number": 28,
+          "long_z": -1.4036302825217681,
+          "recent_z": -1.3177619204950377,
+          "gap_z": -0.49580005222802326,
+          "trend_z": 0.44144285572240705
+        },
+        {
+          "number": 33,
+          "long_z": 1.5132888983437762,
+          "recent_z": 0.21758761038975027,
+          "gap_z": -0.9959877155377105,
+          "trend_z": 0.6621642835836107
+        }
+      ],
+      "ensemble_score": 0.582786083858965,
+      "ensemble_rank": 8,
+      "model_ranks": {
+        "A_long": 10,
+        "B_recent": 7,
+        "C_gap": 16,
+        "D_trend": 2,
+        "E_pairs": 11,
+        "F_structure": 7,
+        "G_ensemble": 8
+      },
+      "long_frequency_mean": 0.1703296703296703,
+      "recent30_mean": 0.21666666666666667,
+      "ew_frequency_mean": 0.1877432152392733,
+      "gap_mean": 1.6666666666666667,
+      "trend_mean": 0.125,
+      "pair_lift_mean": 1.2017094017094019,
+      "corrected_significant_pairs": 0,
+      "structure": {
+        "sum": 115.0,
+        "median": 19.0,
+        "minimum": 4.0,
+        "maximum": 33.0,
+        "range": 29.0,
+        "odd_count": 1.0,
+        "low_count": 3.0,
+        "adjacent_pairs": 0.0,
+        "largest_spacing": 10.0,
+        "close_spacings_le2": 1.0
+      },
+      "model_agreement_count": 1,
+      "generator_sensitivity_rank_min": 2.0,
+      "generator_sensitivity_rank_max": 13.0,
+      "sensitivity_top_quartile_fraction": 0.9285714285714286,
+      "sensitivity_mean_rank": 2.857142857142857,
+      "latest_draw_overlap": 3,
+      "walk_forward_support": {
+        "model": "D_trend",
+        "n": 40,
+        "mean": 0.875,
+        "block95": [
+          0.75,
+          1.0
+        ],
+        "holm_p": 1.0,
+        "older_half_mean": 0.85,
+        "recent_half_mean": 0.9,
+        "qualifies": false
+      },
+      "evidence_against": [
+        "Exact ticket and candidate variants have not been backtested.",
+        "Frequency, gaps, pair lift and structure are descriptive, not independent predictive evidence.",
+        "Models share the same small dataset; agreement is correlated.",
+        "No qualifying independent out-of-sample support for this ticket."
+      ],
+      "overlap_previous_primary": [
+        24
+      ]
+    },
+    {
+      "id": "C12",
+      "numbers": [
+        1,
+        3,
+        4,
+        12,
+        18,
+        33
+      ],
+      "generator": "D_trend",
+      "contributing_models": [
+        "A_long",
+        "D_trend",
+        "G_ensemble"
+      ],
+      "validated_models": [],
+      "individual_scores": [
+        {
+          "number": 1,
+          "long_z": 1.0965861582201277,
+          "recent_z": 1.2320596981752274,
+          "gap_z": -0.8292584944344814,
+          "trend_z": 0.6621642835836107
+        },
+        {
+          "number": 3,
+          "long_z": -0.5702248022744698,
+          "recent_z": -0.7935128965245188,
+          "gap_z": -0.32907083112479424,
+          "trend_z": 0.6621642835836106
+        },
+        {
+          "number": 4,
+          "long_z": 0.8882347881583029,
+          "recent_z": 1.4987230804801168,
+          "gap_z": -0.8292584944344814,
+          "trend_z": 2.207214278612035
+        },
+        {
+          "number": 12,
+          "long_z": 0.6798834180964781,
+          "recent_z": 1.0630606255413426,
+          "gap_z": -0.9959877155377105,
+          "trend_z": 1.5450499950284244
+        },
+        {
+          "number": 18,
+          "long_z": 2.138343008529251,
+          "recent_z": 0.3118613727397757,
+          "gap_z": -0.6625292733312523,
+          "trend_z": 0.8828857114448141
+        },
+        {
+          "number": 33,
+          "long_z": 1.5132888983437762,
+          "recent_z": 0.21758761038975027,
+          "gap_z": -0.9959877155377105,
+          "trend_z": 0.6621642835836107
+        }
+      ],
+      "ensemble_score": 0.6640732556883552,
+      "ensemble_rank": 4,
+      "model_ranks": {
+        "A_long": 4,
+        "B_recent": 11,
+        "C_gap": 18,
+        "D_trend": 3,
+        "E_pairs": 12,
+        "F_structure": 18,
+        "G_ensemble": 4
+      },
+      "long_frequency_mean": 0.18315018315018317,
+      "recent30_mean": 0.1944444444444445,
+      "ew_frequency_mean": 0.19579983653461694,
+      "gap_mean": 1.3333333333333333,
+      "trend_mean": 0.125,
+      "pair_lift_mean": 1.5622222222222226,
+      "corrected_significant_pairs": 0,
+      "structure": {
+        "sum": 71.0,
+        "median": 8.0,
+        "minimum": 1.0,
+        "maximum": 33.0,
+        "range": 32.0,
+        "odd_count": 3.0,
+        "low_count": 5.0,
+        "adjacent_pairs": 1.0,
+        "largest_spacing": 15.0,
+        "close_spacings_le2": 2.0
+      },
+      "model_agreement_count": 3,
+      "generator_sensitivity_rank_min": 1.0,
+      "generator_sensitivity_rank_max": 10.0,
+      "sensitivity_top_quartile_fraction": 0.9285714285714286,
+      "sensitivity_mean_rank": 3.357142857142857,
+      "latest_draw_overlap": 2,
+      "walk_forward_support": {
+        "model": "D_trend",
+        "n": 40,
+        "mean": 0.875,
+        "block95": [
+          0.75,
+          1.0
+        ],
+        "holm_p": 1.0,
+        "older_half_mean": 0.85,
+        "recent_half_mean": 0.9,
+        "qualifies": false
+      },
+      "evidence_against": [
+        "Exact ticket and candidate variants have not been backtested.",
+        "Frequency, gaps, pair lift and structure are descriptive, not independent predictive evidence.",
+        "Models share the same small dataset; agreement is correlated.",
+        "No qualifying independent out-of-sample support for this ticket."
+      ],
+      "overlap_previous_primary": []
+    },
+    {
+      "id": "C13",
+      "numbers": [
+        1,
+        5,
+        8,
+        12,
+        26,
+        34
+      ],
+      "generator": "E_pairs",
+      "contributing_models": [],
+      "validated_models": [],
+      "individual_scores": [
+        {
+          "number": 1,
+          "long_z": 1.0965861582201277,
+          "recent_z": 1.2320596981752274,
+          "gap_z": -0.8292584944344814,
+          "trend_z": 0.6621642835836107
+        },
+        {
+          "number": 5,
+          "long_z": -2.028684392707242,
+          "recent_z": -1.8083048085135316,
+          "gap_z": 1.3382213799074965,
+          "trend_z": -0.22072142786120344
+        },
+        {
+          "number": 8,
+          "long_z": 1.929991638467426,
+          "recent_z": 1.108547623448274,
+          "gap_z": -0.6625292733312523,
+          "trend_z": -0.44144285572240693
+        },
+        {
+          "number": 12,
+          "long_z": 0.6798834180964781,
+          "recent_z": 1.0630606255413426,
+          "gap_z": -0.9959877155377105,
+          "trend_z": 1.5450499950284244
+        },
+        {
+          "number": 26,
+          "long_z": -0.7785761723362935,
+          "recent_z": -1.2171066445295635,
+          "gap_z": 1.0047629377010383,
+          "trend_z": 1.934605351891963e-17
+        },
+        {
+          "number": 34,
+          "long_z": -0.5702248022744698,
+          "recent_z": -0.9768565869987083,
+          "gap_z": 2.171867485423642,
+          "trend_z": -0.6621642835836106
+        }
+      ],
+      "ensemble_score": -0.4635381374105897,
+      "ensemble_rank": 15,
+      "model_ranks": {
+        "A_long": 14,
+        "B_recent": 14,
+        "C_gap": 6,
+        "D_trend": 12,
+        "E_pairs": 13,
+        "F_structure": 15,
+        "G_ensemble": 15
+      },
+      "long_frequency_mean": 0.15934065934065933,
+      "recent30_mean": 0.15,
+      "ew_frequency_mean": 0.15316300376506242,
+      "gap_mean": 8.0,
+      "trend_mean": 0.01666666666666667,
+      "pair_lift_mean": 0.9957020757020758,
+      "corrected_significant_pairs": 0,
+      "structure": {
+        "sum": 86.0,
+        "median": 10.0,
+        "minimum": 1.0,
+        "maximum": 34.0,
+        "range": 33.0,
+        "odd_count": 2.0,
+        "low_count": 4.0,
+        "adjacent_pairs": 0.0,
+        "largest_spacing": 14.0,
+        "close_spacings_le2": 0.0
+      },
+      "model_agreement_count": 0,
+      "generator_sensitivity_rank_min": 10.5,
+      "generator_sensitivity_rank_max": 10.5,
+      "sensitivity_top_quartile_fraction": 0.0,
+      "sensitivity_mean_rank": 10.5,
+      "latest_draw_overlap": 1,
+      "walk_forward_support": {
+        "model": "E_pairs",
+        "n": 40,
+        "mean": 0.975,
+        "block95": [
+          0.725,
+          1.225
+        ],
+        "holm_p": 1.0,
+        "older_half_mean": 1.1,
+        "recent_half_mean": 0.85,
+        "qualifies": false
+      },
+      "evidence_against": [
+        "Exact ticket and candidate variants have not been backtested.",
+        "Frequency, gaps, pair lift and structure are descriptive, not independent predictive evidence.",
+        "Models share the same small dataset; agreement is correlated.",
+        "No qualifying independent out-of-sample support for this ticket.",
+        "Uniform fallback has no informative objective rank; sensitivity ranks are marked neutral, not evidence of stability."
+      ],
+      "overlap_previous_primary": [
+        5,
+        34
+      ]
+    },
+    {
+      "id": "C14",
+      "numbers": [
+        8,
+        10,
+        11,
+        15,
+        21,
+        24
+      ],
+      "generator": "E_pairs",
+      "contributing_models": [],
+      "validated_models": [],
+      "individual_scores": [
+        {
+          "number": 8,
+          "long_z": 1.929991638467426,
+          "recent_z": 1.108547623448274,
+          "gap_z": -0.6625292733312523,
+          "trend_z": -0.44144285572240693
+        },
+        {
+          "number": 10,
+          "long_z": 0.6798834180964781,
+          "recent_z": 0.6424995839125397,
+          "gap_z": -0.32907083112479424,
+          "trend_z": 0.22072142786120375
+        },
+        {
+          "number": 11,
+          "long_z": -0.361873432212645,
+          "recent_z": -1.7502238354087414,
+          "gap_z": 2.3385967065268707,
+          "trend_z": -1.1036071393060176
+        },
+        {
+          "number": 15,
+          "long_z": 0.8882347881583029,
+          "recent_z": 0.7216199712069108,
+          "gap_z": -0.9959877155377105,
+          "trend_z": -0.44144285572240693
+        },
+        {
+          "number": 21,
+          "long_z": -0.9869275423981184,
+          "recent_z": -1.3572665434295679,
+          "gap_z": 0.5045752743913511,
+          "trend_z": -0.6621642835836106
+        },
+        {
+          "number": 24,
+          "long_z": 1.0965861582201277,
+          "recent_z": 1.5329767001661538,
+          "gap_z": 0.004387611081663899,
+          "trend_z": 0.6621642835836107
+        }
+      ],
+      "ensemble_score": -0.34839972135665076,
+      "ensemble_rank": 13,
+      "model_ranks": {
+        "A_long": 9,
+        "B_recent": 13,
+        "C_gap": 7,
+        "D_trend": 16,
+        "E_pairs": 14,
+        "F_structure": 19,
+        "G_ensemble": 13
+      },
+      "long_frequency_mean": 0.17216117216117213,
+      "recent30_mean": 0.17222222222222225,
+      "ew_frequency_mean": 0.16251230055929966,
+      "gap_mean": 6.833333333333333,
+      "trend_mean": -0.033333333333333326,
+      "pair_lift_mean": 1.1330402930402932,
+      "corrected_significant_pairs": 0,
+      "structure": {
+        "sum": 89.0,
+        "median": 13.0,
+        "minimum": 8.0,
+        "maximum": 24.0,
+        "range": 16.0,
+        "odd_count": 3.0,
+        "low_count": 4.0,
+        "adjacent_pairs": 1.0,
+        "largest_spacing": 6.0,
+        "close_spacings_le2": 2.0
+      },
+      "model_agreement_count": 0,
+      "generator_sensitivity_rank_min": 10.5,
+      "generator_sensitivity_rank_max": 10.5,
+      "sensitivity_top_quartile_fraction": 0.0,
+      "sensitivity_mean_rank": 10.5,
+      "latest_draw_overlap": 1,
+      "walk_forward_support": {
+        "model": "E_pairs",
+        "n": 40,
+        "mean": 0.975,
+        "block95": [
+          0.725,
+          1.225
+        ],
+        "holm_p": 1.0,
+        "older_half_mean": 1.1,
+        "recent_half_mean": 0.85,
+        "qualifies": false
+      },
+      "evidence_against": [
+        "Exact ticket and candidate variants have not been backtested.",
+        "Frequency, gaps, pair lift and structure are descriptive, not independent predictive evidence.",
+        "Models share the same small dataset; agreement is correlated.",
+        "No qualifying independent out-of-sample support for this ticket.",
+        "Uniform fallback has no informative objective rank; sensitivity ranks are marked neutral, not evidence of stability."
+      ],
+      "overlap_previous_primary": [
+        11,
+        24
+      ]
+    },
+    {
+      "id": "C15",
+      "numbers": [
+        6,
+        8,
+        15,
+        17,
+        19,
+        38
+      ],
+      "generator": "E_pairs",
+      "contributing_models": [],
+      "validated_models": [],
+      "individual_scores": [
+        {
+          "number": 6,
+          "long_z": 0.6798834180964781,
+          "recent_z": 0.9420209942162526,
+          "gap_z": -0.8292584944344814,
+          "trend_z": -0.22072142786120344
+        },
+        {
+          "number": 8,
+          "long_z": 1.929991638467426,
+          "recent_z": 1.108547623448274,
+          "gap_z": -0.6625292733312523,
+          "trend_z": -0.44144285572240693
+        },
+        {
+          "number": 15,
+          "long_z": 0.8882347881583029,
+          "recent_z": 0.7216199712069108,
+          "gap_z": -0.9959877155377105,
+          "trend_z": -0.44144285572240693
+        },
+        {
+          "number": 17,
+          "long_z": -0.5702248022744698,
+          "recent_z": -0.7179991712206085,
+          "gap_z": 0.004387611081663899,
+          "trend_z": -0.6621642835836103
+        },
+        {
+          "number": 19,
+          "long_z": -0.5702248022744698,
+          "recent_z": -0.007975491617902801,
+          "gap_z": -0.9959877155377105,
+          "trend_z": 0.2207214278612035
+        },
+        {
+          "number": 38,
+          "long_z": 1.5132888983437762,
+          "recent_z": 0.7620274922819114,
+          "gap_z": -0.8292584944344814,
+          "trend_z": -0.44144285572240693
+        }
+      ],
+      "ensemble_score": -0.08447684960839957,
+      "ensemble_rank": 12,
+      "model_ranks": {
+        "A_long": 7,
+        "B_recent": 12,
+        "C_gap": 15,
+        "D_trend": 17,
+        "E_pairs": 15,
+        "F_structure": 16,
+        "G_ensemble": 12
+      },
+      "long_frequency_mean": 0.17490842490842487,
+      "recent30_mean": 0.18333333333333332,
+      "ew_frequency_mean": 0.1916913062253782,
+      "gap_mean": 1.6666666666666667,
+      "trend_mean": -0.03749999999999999,
+      "pair_lift_mean": 1.3562148962148968,
+      "corrected_significant_pairs": 0,
+      "structure": {
+        "sum": 103.0,
+        "median": 16.0,
+        "minimum": 6.0,
+        "maximum": 38.0,
+        "range": 32.0,
+        "odd_count": 3.0,
+        "low_count": 5.0,
+        "adjacent_pairs": 0.0,
+        "largest_spacing": 19.0,
+        "close_spacings_le2": 3.0
+      },
+      "model_agreement_count": 0,
+      "generator_sensitivity_rank_min": 10.5,
+      "generator_sensitivity_rank_max": 10.5,
+      "sensitivity_top_quartile_fraction": 0.0,
+      "sensitivity_mean_rank": 10.5,
+      "latest_draw_overlap": 2,
+      "walk_forward_support": {
+        "model": "E_pairs",
+        "n": 40,
+        "mean": 0.975,
+        "block95": [
+          0.725,
+          1.225
+        ],
+        "holm_p": 1.0,
+        "older_half_mean": 1.1,
+        "recent_half_mean": 0.85,
+        "qualifies": false
+      },
+      "evidence_against": [
+        "Exact ticket and candidate variants have not been backtested.",
+        "Frequency, gaps, pair lift and structure are descriptive, not independent predictive evidence.",
+        "Models share the same small dataset; agreement is correlated.",
+        "No qualifying independent out-of-sample support for this ticket.",
+        "Uniform fallback has no informative objective rank; sensitivity ranks are marked neutral, not evidence of stability."
+      ],
+      "overlap_previous_primary": []
+    },
+    {
+      "id": "C16",
+      "numbers": [
+        4,
+        16,
+        17,
+        21,
+        26,
+        33
+      ],
+      "generator": "F_structure",
+      "contributing_models": [
+        "C_gap",
+        "F_structure"
+      ],
+      "validated_models": [],
+      "individual_scores": [
+        {
+          "number": 4,
+          "long_z": 0.8882347881583029,
+          "recent_z": 1.4987230804801168,
+          "gap_z": -0.8292584944344814,
+          "trend_z": 2.207214278612035
+        },
+        {
+          "number": 16,
+          "long_z": -1.1952789124599432,
+          "recent_z": -0.8692182664078076,
+          "gap_z": 3.005513590939787,
+          "trend_z": -1.7657714228896282
+        },
+        {
+          "number": 17,
+          "long_z": -0.5702248022744698,
+          "recent_z": -0.7179991712206085,
+          "gap_z": 0.004387611081663899,
+          "trend_z": -0.6621642835836103
+        },
+        {
+          "number": 21,
+          "long_z": -0.9869275423981184,
+          "recent_z": -1.3572665434295679,
+          "gap_z": 0.5045752743913511,
+          "trend_z": -0.6621642835836106
+        },
+        {
+          "number": 26,
+          "long_z": -0.7785761723362935,
+          "recent_z": -1.2171066445295635,
+          "gap_z": 1.0047629377010383,
+          "trend_z": 1.934605351891963e-17
+        },
+        {
+          "number": 33,
+          "long_z": 1.5132888983437762,
+          "recent_z": 0.21758761038975027,
+          "gap_z": -0.9959877155377105,
+          "trend_z": 0.6621642835836107
+        }
+      ],
+      "ensemble_score": -0.649678414139788,
+      "ensemble_rank": 16,
+      "model_ranks": {
+        "A_long": 16,
+        "B_recent": 17,
+        "C_gap": 5,
+        "D_trend": 15,
+        "E_pairs": 16,
+        "F_structure": 1,
+        "G_ensemble": 16
+      },
+      "long_frequency_mean": 0.15293040293040294,
+      "recent30_mean": 0.12777777777777777,
+      "ew_frequency_mean": 0.13643259675992506,
+      "gap_mean": 8.666666666666666,
+      "trend_mean": -0.004166666666666668,
+      "pair_lift_mean": 1.0300366300366304,
+      "corrected_significant_pairs": 0,
+      "structure": {
+        "sum": 117.0,
+        "median": 19.0,
+        "minimum": 4.0,
+        "maximum": 33.0,
+        "range": 29.0,
+        "odd_count": 3.0,
+        "low_count": 3.0,
+        "adjacent_pairs": 1.0,
+        "largest_spacing": 12.0,
+        "close_spacings_le2": 1.0
+      },
+      "model_agreement_count": 2,
+      "generator_sensitivity_rank_min": 1.0,
+      "generator_sensitivity_rank_max": 3.0,
+      "sensitivity_top_quartile_fraction": 1.0,
+      "sensitivity_mean_rank": 1.1428571428571428,
+      "latest_draw_overlap": 1,
+      "walk_forward_support": {
+        "model": "F_structure",
+        "n": 40,
+        "mean": 1.0,
+        "block95": [
+          0.775,
+          1.25
+        ],
+        "holm_p": 1.0,
+        "older_half_mean": 1.05,
+        "recent_half_mean": 0.95,
+        "qualifies": false
+      },
+      "evidence_against": [
+        "Exact ticket and candidate variants have not been backtested.",
+        "Frequency, gaps, pair lift and structure are descriptive, not independent predictive evidence.",
+        "Models share the same small dataset; agreement is correlated.",
+        "No qualifying independent out-of-sample support for this ticket."
+      ],
+      "overlap_previous_primary": [
+        16
+      ]
+    },
+    {
+      "id": "C17",
+      "numbers": [
+        6,
+        7,
+        13,
+        24,
+        32,
+        35
+      ],
+      "generator": "F_structure",
+      "contributing_models": [
+        "F_structure"
+      ],
+      "validated_models": [],
+      "individual_scores": [
+        {
+          "number": 6,
+          "long_z": 0.6798834180964781,
+          "recent_z": 0.9420209942162526,
+          "gap_z": -0.8292584944344814,
+          "trend_z": -0.22072142786120344
+        },
+        {
+          "number": 7,
+          "long_z": -0.361873432212645,
+          "recent_z": 0.15190027106763715,
+          "gap_z": -0.16234161002156516,
+          "trend_z": 1.3243285671672211
+        },
+        {
+          "number": 13,
+          "long_z": 0.8882347881583029,
+          "recent_z": 2.014822235244548,
+          "gap_z": -0.9959877155377105,
+          "trend_z": 1.9864928507508315
+        },
+        {
+          "number": 24,
+          "long_z": 1.0965861582201277,
+          "recent_z": 1.5329767001661538,
+          "gap_z": 0.004387611081663899,
+          "trend_z": 0.6621642835836107
+        },
+        {
+          "number": 32,
+          "long_z": -0.7785761723362935,
+          "recent_z": -1.1157491919243987,
+          "gap_z": 1.0047629377010383,
+          "trend_z": -1.1036071393060174
+        },
+        {
+          "number": 35,
+          "long_z": 0.6798834180964781,
+          "recent_z": 0.009821763503357533,
+          "gap_z": 0.5045752743913511,
+          "trend_z": -1.1036071393060178
+        }
+      ],
+      "ensemble_score": 0.22515974657119847,
+      "ensemble_rank": 11,
+      "model_ranks": {
+        "A_long": 12,
+        "B_recent": 10,
+        "C_gap": 8,
+        "D_trend": 11,
+        "E_pairs": 17,
+        "F_structure": 2,
+        "G_ensemble": 11
+      },
+      "long_frequency_mean": 0.16758241758241757,
+      "recent30_mean": 0.19444444444444445,
+      "ew_frequency_mean": 0.1959266766713347,
+      "gap_mean": 5.5,
+      "trend_mean": 0.02916666666666666,
+      "pair_lift_mean": 0.90986568986569,
+      "corrected_significant_pairs": 0,
+      "structure": {
+        "sum": 117.0,
+        "median": 18.5,
+        "minimum": 6.0,
+        "maximum": 35.0,
+        "range": 29.0,
+        "odd_count": 3.0,
+        "low_count": 3.0,
+        "adjacent_pairs": 1.0,
+        "largest_spacing": 11.0,
+        "close_spacings_le2": 1.0
+      },
+      "model_agreement_count": 1,
+      "generator_sensitivity_rank_min": 1.0,
+      "generator_sensitivity_rank_max": 2.0,
+      "sensitivity_top_quartile_fraction": 1.0,
+      "sensitivity_mean_rank": 1.9285714285714286,
+      "latest_draw_overlap": 1,
+      "walk_forward_support": {
+        "model": "F_structure",
+        "n": 40,
+        "mean": 1.0,
+        "block95": [
+          0.775,
+          1.25
+        ],
+        "holm_p": 1.0,
+        "older_half_mean": 1.05,
+        "recent_half_mean": 0.95,
+        "qualifies": false
+      },
+      "evidence_against": [
+        "Exact ticket and candidate variants have not been backtested.",
+        "Frequency, gaps, pair lift and structure are descriptive, not independent predictive evidence.",
+        "Models share the same small dataset; agreement is correlated.",
+        "No qualifying independent out-of-sample support for this ticket."
+      ],
+      "overlap_previous_primary": [
+        24
+      ]
+    },
+    {
+      "id": "C19",
+      "numbers": [
+        4,
+        12,
+        13,
+        18,
+        23,
+        38
+      ],
+      "generator": "G_ensemble",
+      "contributing_models": [
+        "B_recent",
+        "G_ensemble"
+      ],
+      "validated_models": [],
+      "individual_scores": [
+        {
+          "number": 4,
+          "long_z": 0.8882347881583029,
+          "recent_z": 1.4987230804801168,
+          "gap_z": -0.8292584944344814,
+          "trend_z": 2.207214278612035
+        },
+        {
+          "number": 12,
+          "long_z": 0.6798834180964781,
+          "recent_z": 1.0630606255413426,
+          "gap_z": -0.9959877155377105,
+          "trend_z": 1.5450499950284244
+        },
+        {
+          "number": 13,
+          "long_z": 0.8882347881583029,
+          "recent_z": 2.014822235244548,
+          "gap_z": -0.9959877155377105,
+          "trend_z": 1.9864928507508315
+        },
+        {
+          "number": 18,
+          "long_z": 2.138343008529251,
+          "recent_z": 0.3118613727397757,
+          "gap_z": -0.6625292733312523,
+          "trend_z": 0.8828857114448141
+        },
+        {
+          "number": 23,
+          "long_z": -1.4036302825217681,
+          "recent_z": 0.3395668547149066,
+          "gap_z": -0.49580005222802326,
+          "trend_z": -0.22072142786120344
+        },
+        {
+          "number": 38,
+          "long_z": 1.5132888983437762,
+          "recent_z": 0.7620274922819114,
+          "gap_z": -0.8292584944344814,
+          "trend_z": -0.44144285572240693
+        }
+      ],
+      "ensemble_score": 0.8431104049923317,
+      "ensemble_rank": 3,
+      "model_ranks": {
+        "A_long": 6,
+        "B_recent": 4,
+        "C_gap": 19,
+        "D_trend": 6,
+        "E_pairs": 19,
+        "F_structure": 8,
+        "G_ensemble": 3
+      },
+      "long_frequency_mean": 0.17857142857142858,
+      "recent30_mean": 0.22777777777777777,
+      "ew_frequency_mean": 0.21436204946716705,
+      "gap_mean": 1.1666666666666667,
+      "trend_mean": 0.11249999999999998,
+      "pair_lift_mean": 1.4077167277167282,
+      "corrected_significant_pairs": 0,
+      "structure": {
+        "sum": 108.0,
+        "median": 15.5,
+        "minimum": 4.0,
+        "maximum": 38.0,
+        "range": 34.0,
+        "odd_count": 2.0,
+        "low_count": 4.0,
+        "adjacent_pairs": 1.0,
+        "largest_spacing": 15.0,
+        "close_spacings_le2": 1.0
+      },
+      "model_agreement_count": 2,
+      "generator_sensitivity_rank_min": 1.0,
+      "generator_sensitivity_rank_max": 4.0,
+      "sensitivity_top_quartile_fraction": 1.0,
+      "sensitivity_mean_rank": 3.0714285714285716,
+      "latest_draw_overlap": 2,
+      "walk_forward_support": {
+        "model": "G_ensemble",
+        "n": 40,
+        "mean": 0.9,
+        "block95": [
+          0.7,
+          1.1
+        ],
+        "holm_p": 1.0,
+        "older_half_mean": 0.8,
+        "recent_half_mean": 1.0,
+        "qualifies": false
+      },
+      "evidence_against": [
+        "Exact ticket and candidate variants have not been backtested.",
+        "Frequency, gaps, pair lift and structure are descriptive, not independent predictive evidence.",
+        "Models share the same small dataset; agreement is correlated.",
+        "No qualifying independent out-of-sample support for this ticket."
+      ],
+      "overlap_previous_primary": []
+    },
+    {
+      "id": "C20",
+      "numbers": [
+        5,
+        7,
+        14,
+        21,
+        33,
+        38
+      ],
+      "generator": "H_random",
+      "contributing_models": [],
+      "validated_models": [],
+      "individual_scores": [
+        {
+          "number": 5,
+          "long_z": -2.028684392707242,
+          "recent_z": -1.8083048085135316,
+          "gap_z": 1.3382213799074965,
+          "trend_z": -0.22072142786120344
+        },
+        {
+          "number": 7,
+          "long_z": -0.361873432212645,
+          "recent_z": 0.15190027106763715,
+          "gap_z": -0.16234161002156516,
+          "trend_z": 1.3243285671672211
+        },
+        {
+          "number": 14,
+          "long_z": 0.05482930791100353,
+          "recent_z": 1.2067611476055593,
+          "gap_z": -0.9959877155377105,
+          "trend_z": 1.1036071393060176
+        },
+        {
+          "number": 21,
+          "long_z": -0.9869275423981184,
+          "recent_z": -1.3572665434295679,
+          "gap_z": 0.5045752743913511,
+          "trend_z": -0.6621642835836106
+        },
+        {
+          "number": 33,
+          "long_z": 1.5132888983437762,
+          "recent_z": 0.21758761038975027,
+          "gap_z": -0.9959877155377105,
+          "trend_z": 0.6621642835836107
+        },
+        {
+          "number": 38,
+          "long_z": 1.5132888983437762,
+          "recent_z": 0.7620274922819114,
+          "gap_z": -0.8292584944344814,
+          "trend_z": -0.44144285572240693
+        }
+      ],
+      "ensemble_score": -0.3798204940842635,
+      "ensemble_rank": 14,
+      "model_ranks": {
+        "A_long": 15,
+        "B_recent": 15,
+        "C_gap": 9,
+        "D_trend": 10,
+        "E_pairs": 20,
+        "F_structure": 6,
+        "G_ensemble": 14
+      },
+      "long_frequency_mean": 0.15659340659340656,
+      "recent30_mean": 0.15,
+      "ew_frequency_mean": 0.14833906995538493,
+      "gap_mean": 4.833333333333333,
+      "trend_mean": 0.03333333333333333,
+      "pair_lift_mean": 0.8411965811965814,
+      "corrected_significant_pairs": 0,
+      "structure": {
+        "sum": 118.0,
+        "median": 17.5,
+        "minimum": 5.0,
+        "maximum": 38.0,
+        "range": 33.0,
+        "odd_count": 4.0,
+        "low_count": 3.0,
+        "adjacent_pairs": 0.0,
+        "largest_spacing": 12.0,
+        "close_spacings_le2": 1.0
+      },
+      "model_agreement_count": 0,
+      "generator_sensitivity_rank_min": 10.5,
+      "generator_sensitivity_rank_max": 10.5,
+      "sensitivity_top_quartile_fraction": 0.0,
+      "sensitivity_mean_rank": 10.5,
+      "latest_draw_overlap": 2,
+      "walk_forward_support": {
+        "model": "H_random",
+        "n": 40,
+        "mean": 0.9,
+        "block95": [
+          0.625,
+          1.225
+        ],
+        "holm_p": 1.0,
+        "older_half_mean": 0.85,
+        "recent_half_mean": 0.95,
+        "qualifies": false
+      },
+      "evidence_against": [
+        "Exact ticket and candidate variants have not been backtested.",
+        "Frequency, gaps, pair lift and structure are descriptive, not independent predictive evidence.",
+        "Models share the same small dataset; agreement is correlated.",
+        "No qualifying independent out-of-sample support for this ticket.",
+        "Uniform fallback has no informative objective rank; sensitivity ranks are marked neutral, not evidence of stability."
+      ],
+      "overlap_previous_primary": [
+        5
+      ]
+    }
+  ],
+  "diversification": {
+    "previous_primary": [
+      5,
+      11,
+      16,
+      24,
+      27,
+      34
+    ],
+    "maximum_shared": 2,
+    "do_not_prefer_zero_overlap": true
+  },
+  "interpretation": "No winning advantage without corrected evidence. Model agreement is correlated. Use only supplied Lotto evidence; never infer a signal from a single previous ticket result. Jev is advisory under the no-edge rule."
+}
