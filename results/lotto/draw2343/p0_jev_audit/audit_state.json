@@ -1,0 +1,442 @@
+{
+  "task": "Audit the evidence quality of a FROZEN three-ticket research portfolio for Jamaica Lotto draw #2343 (6 main numbers from 1-38). Judge only the supplied evidence. This audit cannot change, reorder or replace any ticket, and its outputs are evidence judgments, not winning probabilities.",
+  "game_facts": {
+    "fair_draw_expected_matches_per_ticket": 0.9473684210526315,
+    "p_ticket_at_least_3": 0.0387,
+    "p_ticket_at_least_4": 0.00186,
+    "jackpot_odds": "1 in 2,760,681",
+    "note": "Under a fair draw every fixed ticket has identical winning probability."
+  },
+  "v1_science_ticket": {
+    "numbers": [
+      1,
+      4,
+      13,
+      14,
+      24,
+      38
+    ],
+    "candidate": "C04",
+    "generator": "B_recent",
+    "selection": "V1 seeded no-edge fallback (no V1 methodology passed the corrected evidence gate)",
+    "v1_models_passing_gate": [],
+    "candidate_evidence": {
+      "contributing_models": [
+        "A_long",
+        "B_recent",
+        "D_trend",
+        "G_ensemble"
+      ],
+      "validated_models": [],
+      "ensemble_rank": 1,
+      "sensitivity_top_quartile_fraction": 1.0,
+      "evidence_against": [
+        "Exact ticket and candidate variants have not been backtested.",
+        "Frequency, gaps, pair lift and structure are descriptive, not independent predictive evidence.",
+        "Models share the same small dataset; agreement is correlated.",
+        "No qualifying independent out-of-sample support for this ticket."
+      ]
+    },
+    "forensic_note": "This exact ticket was also the V1 ticket for draws [2339, 2341]. The fixed-seed fallback with a <=2-overlap rule against the previous ticket mechanically alternates between the same candidate slots."
+  },
+  "p0_protocol": {
+    "status": "frozen before the #2341 shadow; historical data through #2340 only",
+    "historical_gate": "FAIL",
+    "gate_detail": {
+      "PASS": false,
+      "E1": {
+        "observed": 80,
+        "expected": 75.78947368421052,
+        "p": 0.2944567760768576,
+        "holm_p": 0.32719597867480155,
+        "mean_excess": 0.10526315789473702,
+        "block95": [
+          -0.219736842105263,
+          0.455263157894737
+        ],
+        "half1": 0.305263157894737,
+        "half2": -0.09473684210526302
+      },
+      "E2": {
+        "observed": 74,
+        "p": 0.08647283830063071,
+        "holm_p": 0.25941851490189216
+      },
+      "E3": {
+        "observed": 7,
+        "p": 0.16359798933740077,
+        "holm_p": 0.32719597867480155
+      }
+    },
+    "discovery_pool": {
+      "K": 15,
+      "basis": "NO EDGE: predeclared default K=15 (no pool size passed on the development period)"
+    },
+    "frozen_weights": {
+      "A_long": 0.0,
+      "B_recent": 0.031430902474235335,
+      "C_gap": 0.0,
+      "D_trend": 0.023770607147600063,
+      "E_pairs": 0.0,
+      "pair": 0.0,
+      "struct": 0.0067497775885707175
+    },
+    "weight_formula": "w_f = max(0, d_f) * h_f; d_f = dbar_f * n tau^2/(n tau^2 + 1); dbar_f = mean(x_f,u)/sigma; tau = 0.09; sigma = 0.112522; n >= 20",
+    "family_reliability_130_origins": {
+      "A_long": {
+        "mean_excess_pct": -0.00019057519057518008,
+        "z": -0.019310731194091327,
+        "holm_p": 1.0,
+        "confirmation_mean_excess": 0.0068130630630630655,
+        "half1": -0.0007969507969507913,
+        "half2": 0.00041580041580043203
+      },
+      "B_recent": {
+        "mean_excess_pct": 0.006895356895356912,
+        "z": 0.6986973650226174,
+        "holm_p": 0.9694823620298438,
+        "confirmation_mean_excess": 0.00889639639639641,
+        "half1": 0.004573804573804593,
+        "half2": 0.009216909216909232
+      },
+      "C_gap": {
+        "mean_excess_pct": -0.009996534996534991,
+        "z": -1.0129356271810277,
+        "holm_p": 1.0,
+        "confirmation_mean_excess": -0.026520270270270263,
+        "half1": -0.007415107415107413,
+        "half2": -0.012577962577962568
+      },
+      "D_trend": {
+        "mean_excess_pct": 0.005214830214830222,
+        "z": 0.5284118263110744,
+        "holm_p": 0.9694823620298438,
+        "confirmation_mean_excess": 0.005180180180180195,
+        "half1": 0.00578655578655579,
+        "half2": 0.0046431046431046575
+      },
+      "E_pairs": {}
+    },
+    "family_score_correlations": {
+      "A_long~B_recent": 0.5767722745728665,
+      "A_long~C_gap": -0.21952126497678212,
+      "A_long~D_trend": -0.0005541071097000545,
+      "A_long~E_pairs": null,
+      "B_recent~C_gap": -0.4795043570983401,
+      "B_recent~D_trend": 0.4828885910092494,
+      "B_recent~E_pairs": null,
+      "C_gap~D_trend": -0.43484889809849514,
+      "C_gap~E_pairs": null,
+      "D_trend~E_pairs": null
+    },
+    "notes": [
+      "E_pairs had no Holm-significant pair at any historical origin (flat).",
+      "Positive weights for B_recent and D_trend come from statistically null evidence after shrinkage (Holm p about 0.97).",
+      "Ticket score T = sum of weight x standardized component; portfolio objective J = T + incremental coverage of the pool, with pairwise overlap <= 2."
+    ]
+  },
+  "historical_confirmation_40_draws": {
+    "best": {
+      "P0": 1.85,
+      "A_three_random": 1.624375,
+      "B_three_random_overlap2": 1.634375,
+      "C_v1_plus_two_random": 1.702625,
+      "D_top3_standalone": 1.1,
+      "P0_minus_C_ci95": [
+        -0.019506249999999992,
+        0.3335
+      ]
+    },
+    "total": {
+      "P0": 2.975,
+      "A_three_random": 2.835,
+      "B_three_random_overlap2": 2.830125,
+      "C_v1_plus_two_random": 2.8731249999999995,
+      "D_top3_standalone": 2.75,
+      "P0_minus_C_ci95": [
+        -0.22575625000000002,
+        0.4506281249999999
+      ]
+    },
+    "challengers_total": {
+      "P0": 2.0,
+      "A_three_random": 1.9032499999999999,
+      "B_three_random_overlap2": 1.88475,
+      "C_v1_plus_two_random": 1.8981250000000003,
+      "D_top3_standalone": 1.875,
+      "P0_minus_C_ci95": [
+        -0.22575625000000002,
+        0.4506281249999999
+      ]
+    },
+    "ge3": {
+      "P0": 0.175,
+      "A_three_random": 0.109125,
+      "B_three_random_overlap2": 0.10987499999999999,
+      "C_v1_plus_two_random": 0.150875,
+      "D_top3_standalone": 0.025,
+      "P0_minus_C_ci95": [
+        -0.056874999999999995,
+        0.123875
+      ]
+    },
+    "unique": {
+      "P0": 16.775,
+      "A_three_random": 15.280875,
+      "B_three_random_overlap2": 15.528375,
+      "C_v1_plus_two_random": 15.50525,
+      "D_top3_standalone": 7.55,
+      "P0_minus_C_ci95": [
+        1.0439874999999998,
+        1.4931249999999996
+      ]
+    },
+    "mean_overlap": {
+      "P0": 0.4083333333333333,
+      "A_three_random": 0.9565000000000001,
+      "B_three_random_overlap2": 0.8603333333333334,
+      "C_v1_plus_two_random": 0.8692916666666666,
+      "D_top3_standalone": 4.975,
+      "P0_minus_C_ci95": [
+        -0.536125,
+        -0.38512395833333335
+      ]
+    }
+  },
+  "prospective_results_matches_by_track": {
+    "results": {
+      "2342": {
+        "V1": 0,
+        "P0_coverage_ticket_2": 1,
+        "P0_coverage_ticket_3": 2,
+        "random_control_ticket_1": 3,
+        "random_control_ticket_2": 2,
+        "random_control_ticket_3": 1
+      }
+    },
+    "note": "live prospective draws only; one or few draws, descriptive only"
+  },
+  "forensic_2342": {
+    "research_challengers_passing": [],
+    "holm_family_size": 19,
+    "verdict": "NO LOTTO V2/P1 REFINEMENT IS JUSTIFIED.",
+    "topN_any_pool_size_passes": false,
+    "topN_full_sample_holm_p": {
+      "10": 1.0,
+      "12": 1.0,
+      "15": 0.589255597241195,
+      "18": 0.993499132038287,
+      "20": 1.0,
+      "25": 1.0
+    }
+  },
+  "shadow_2341": {
+    "v1": 3,
+    "ticket_2": 0,
+    "ticket_3": 1,
+    "unique_winners_covered": 4,
+    "note": "one draw, descriptive only"
+  },
+  "portfolio": [
+    {
+      "ticket": 1,
+      "role": "V1 Science",
+      "numbers": [
+        1,
+        4,
+        13,
+        14,
+        24,
+        38
+      ]
+    },
+    {
+      "ticket": 2,
+      "role": "P0 Coverage Challenger",
+      "numbers": [
+        2,
+        6,
+        7,
+        8,
+        12,
+        22
+      ],
+      "T_rank_in_5005": 4084,
+      "family_contributions": {
+        "A_long": -0.0,
+        "B_recent": -0.03287617712513669,
+        "C_gap": 0.0,
+        "D_trend": -0.005456557439911661,
+        "E_pairs": 0.0,
+        "pair": 0.0,
+        "struct": -0.0023976760821357666
+      },
+      "incremental_coverage": 0.9934842105830288
+    },
+    {
+      "ticket": 3,
+      "role": "P0 Coverage Challenger",
+      "numbers": [
+        4,
+        9,
+        10,
+        13,
+        18,
+        33
+      ],
+      "T_rank_in_5005": 1957,
+      "family_contributions": {
+        "A_long": 0.0,
+        "B_recent": -0.0029745044164296757,
+        "C_gap": -0.0,
+        "D_trend": 0.008184836159867476,
+        "E_pairs": 0.0,
+        "pair": 0.0,
+        "struct": 0.006299432152612976
+      },
+      "incremental_coverage": 0.6508411844382342
+    }
+  ],
+  "portfolio_facts": {
+    "pairwise_overlap": {
+      "1-2": 0,
+      "1-3": 2,
+      "2-3": 0
+    },
+    "unique_numbers": 16,
+    "discovery_pool": [
+      13,
+      4,
+      12,
+      14,
+      24,
+      2,
+      1,
+      22,
+      7,
+      18,
+      10,
+      6,
+      8,
+      9,
+      33
+    ],
+    "v1_numbers_inside_pool": [
+      1,
+      4,
+      13,
+      14,
+      24
+    ]
+  },
+  "computed_sensitivity_research_only": {
+    "description": "Tickets 2-3 that the same algorithm would produce under alternative settings (NOT used; the frozen portfolio is unchanged).",
+    "alternatives": {
+      "K12": {
+        "ticket_2": [
+          2,
+          6,
+          7,
+          12,
+          18,
+          22
+        ],
+        "ticket_3": [
+          2,
+          4,
+          10,
+          12,
+          13,
+          24
+        ],
+        "max_overlap_with_frozen_ticket_2": 5,
+        "max_overlap_with_frozen_ticket_3": 3,
+        "identical_tickets": 0
+      },
+      "K20": {
+        "ticket_2": [
+          2,
+          7,
+          8,
+          12,
+          22,
+          33
+        ],
+        "ticket_3": [
+          6,
+          9,
+          10,
+          15,
+          18,
+          31
+        ],
+        "max_overlap_with_frozen_ticket_2": 5,
+        "max_overlap_with_frozen_ticket_3": 3,
+        "identical_tickets": 0
+      },
+      "tau0.05": {
+        "ticket_2": [
+          2,
+          6,
+          7,
+          8,
+          12,
+          22
+        ],
+        "ticket_3": [
+          4,
+          9,
+          10,
+          13,
+          18,
+          33
+        ],
+        "max_overlap_with_frozen_ticket_2": 6,
+        "max_overlap_with_frozen_ticket_3": 6,
+        "identical_tickets": 2
+      },
+      "tau0.18": {
+        "ticket_2": [
+          2,
+          6,
+          7,
+          8,
+          12,
+          22
+        ],
+        "ticket_3": [
+          4,
+          9,
+          10,
+          13,
+          18,
+          33
+        ],
+        "max_overlap_with_frozen_ticket_2": 6,
+        "max_overlap_with_frozen_ticket_3": 6,
+        "identical_tickets": 2
+      },
+      "all_weights_zero": {
+        "ticket_2": [
+          2,
+          8,
+          10,
+          12,
+          18,
+          33
+        ],
+        "ticket_3": [
+          4,
+          6,
+          7,
+          13,
+          18,
+          22
+        ],
+        "max_overlap_with_frozen_ticket_2": 3,
+        "max_overlap_with_frozen_ticket_3": 3,
+        "identical_tickets": 0
+      }
+    }
+  }
+}
