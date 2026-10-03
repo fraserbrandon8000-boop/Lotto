@@ -1,0 +1,680 @@
+{
+  "targets": [
+    2231,
+    2342
+  ],
+  "n_targets": 112,
+  "holm_family_size": 19,
+  "gate": "PASS requires: Holm-corrected one-sided exact p < 0.05 (all challengers one family), block-bootstrap 95% lower bound of mean excess over the exact null > 0, both chronological halves > 0, block-bootstrap 95% lower bound of the paired difference vs the baseline (frozen P0 for tickets 2-3; production V1 chain for ticket 1) > 0, and Holm p < 0.05 again with #2342 removed.",
+  "baselines": {
+    "P0_baseline_K15": {
+      "n": 112,
+      "observed": 223,
+      "expected": 212.2105263157895,
+      "mean_excess": 0.09633458646616558,
+      "p_one_sided": 0.19350049182462678,
+      "block95_excess": [
+        -0.11795112781954867,
+        0.3195488721804513
+      ],
+      "half1": 0.06954887218045126,
+      "half2": 0.12312030075187984,
+      "confirmation_last40_excess": 0.180263157894737,
+      "vs_baseline": {
+        "mean_diff": 0.0,
+        "block95": [
+          0.0,
+          0.0
+        ]
+      },
+      "without_2342": {
+        "observed": 220,
+        "p_one_sided": 0.2188171796678689
+      },
+      "ticket_ge3": null,
+      "challenger_best_ge3": 8,
+      "challenger_best_ge4": 1
+    },
+    "V1_production_chain": {
+      "n": 132,
+      "observed": 112,
+      "expected": 125.05263157894737,
+      "mean_excess": -0.09888357256778302,
+      "p_one_sided": 0.9235900465906965,
+      "block95_excess": [
+        -0.26555023923444965,
+        0.0677830940988837
+      ],
+      "half1": -0.06858054226475271,
+      "half2": -0.12918660287081332,
+      "confirmation_last40_excess": 0.052631578947368494,
+      "vs_baseline": {
+        "mean_diff": 0.0,
+        "block95": [
+          0.0,
+          0.0
+        ]
+      },
+      "without_2342": {
+        "observed": 112,
+        "p_one_sided": 0.9087390257814005
+      },
+      "ticket_ge3": 7
+    }
+  },
+  "challengers": {
+    "K18": {
+      "track": "P0 tickets 2-3",
+      "n": 112,
+      "observed": 227,
+      "expected": 212.2105263157895,
+      "mean_excess": 0.13204887218045133,
+      "p_one_sided": 0.10470245195388826,
+      "block95_excess": [
+        -0.06437969924812012,
+        0.3374060150375942
+      ],
+      "half1": 0.05169172932330841,
+      "half2": 0.21240601503759415,
+      "confirmation_last40_excess": 0.20526315789473698,
+      "vs_baseline": {
+        "mean_diff": 0.03571428571428571,
+        "block95": [
+          -0.07142857142857142,
+          0.15178571428571427
+        ]
+      },
+      "without_2342": {
+        "observed": 224,
+        "p_one_sided": 0.12222684131379119,
+        "holm_p": 1.0
+      },
+      "ticket_ge3": null,
+      "challenger_best_ge3": 10,
+      "challenger_best_ge4": 0,
+      "holm_p": 1.0,
+      "PASS": false
+    },
+    "K20": {
+      "track": "P0 tickets 2-3",
+      "n": 112,
+      "observed": 228,
+      "expected": 212.2105263157895,
+      "mean_excess": 0.14097744360902273,
+      "p_one_sided": 0.08905718355599442,
+      "block95_excess": [
+        -0.05545112781954875,
+        0.35526315789473706
+      ],
+      "half1": 0.06954887218045126,
+      "half2": 0.21240601503759413,
+      "confirmation_last40_excess": 0.230263157894737,
+      "vs_baseline": {
+        "mean_diff": 0.044642857142857144,
+        "block95": [
+          -0.08035714285714286,
+          0.16964285714285715
+        ]
+      },
+      "without_2342": {
+        "observed": 225,
+        "p_one_sided": 0.10465383155241073,
+        "holm_p": 1.0
+      },
+      "ticket_ge3": null,
+      "challenger_best_ge3": 10,
+      "challenger_best_ge4": 1,
+      "holm_p": 1.0,
+      "PASS": false
+    },
+    "K25": {
+      "track": "P0 tickets 2-3",
+      "n": 112,
+      "observed": 226,
+      "expected": 212.2105263157895,
+      "mean_excess": 0.12312030075187988,
+      "p_one_sided": 0.1196279804766248,
+      "block95_excess": [
+        -0.08223684210526297,
+        0.3374060150375942
+      ],
+      "half1": 0.015977443609022684,
+      "half2": 0.23026315789473698,
+      "confirmation_last40_excess": 0.230263157894737,
+      "vs_baseline": {
+        "mean_diff": 0.026785714285714284,
+        "block95": [
+          -0.08928571428571429,
+          0.14285714285714285
+        ]
+      },
+      "without_2342": {
+        "observed": 223,
+        "p_one_sided": 0.13907723105049252,
+        "holm_p": 1.0
+      },
+      "ticket_ge3": null,
+      "challenger_best_ge3": 11,
+      "challenger_best_ge4": 2,
+      "holm_p": 1.0,
+      "PASS": false
+    },
+    "dynamic_K": {
+      "track": "P0 tickets 2-3",
+      "n": 112,
+      "observed": 209,
+      "expected": 212.2105263157895,
+      "mean_excess": -0.0286654135338344,
+      "p_one_sided": 0.6146913135060639,
+      "block95_excess": [
+        -0.22509398496240587,
+        0.1766917293233084
+      ],
+      "half1": -0.16259398496240587,
+      "half2": 0.10526315789473698,
+      "confirmation_last40_excess": 0.180263157894737,
+      "vs_baseline": {
+        "mean_diff": -0.125,
+        "block95": [
+          -0.25892857142857145,
+          -0.017857142857142856
+        ]
+      },
+      "without_2342": {
+        "observed": 206,
+        "p_one_sided": 0.6487731049416592,
+        "holm_p": 1.0
+      },
+      "ticket_ge3": null,
+      "challenger_best_ge3": 6,
+      "challenger_best_ge4": 0,
+      "holm_p": 1.0,
+      "PASS": false
+    },
+    "tau_0.05": {
+      "track": "P0 tickets 2-3",
+      "n": 112,
+      "observed": 225,
+      "expected": 212.2105263157895,
+      "mean_excess": 0.11419172932330844,
+      "p_one_sided": 0.14771852769407107,
+      "block95_excess": [
+        -0.09116541353383442,
+        0.3374060150375941
+      ],
+      "half1": 0.10526315789473698,
+      "half2": 0.12312030075187984,
+      "confirmation_last40_excess": 0.180263157894737,
+      "vs_baseline": {
+        "mean_diff": 0.017857142857142856,
+        "block95": [
+          0.0,
+          0.05357142857142857
+        ]
+      },
+      "without_2342": {
+        "observed": 222,
+        "p_one_sided": 0.16929386584926953,
+        "holm_p": 1.0
+      },
+      "ticket_ge3": null,
+      "challenger_best_ge3": 8,
+      "challenger_best_ge4": 1,
+      "holm_p": 1.0,
+      "PASS": false
+    },
+    "tau_0.20": {
+      "track": "P0 tickets 2-3",
+      "n": 112,
+      "observed": 224,
+      "expected": 212.2105263157895,
+      "mean_excess": 0.10526315789473703,
+      "p_one_sided": 0.18344454153754308,
+      "block95_excess": [
+        -0.1268796992481201,
+        0.3463345864661656
+      ],
+      "half1": 0.10526315789473702,
+      "half2": 0.10526315789473698,
+      "confirmation_last40_excess": 0.180263157894737,
+      "vs_baseline": {
+        "mean_diff": 0.008928571428571428,
+        "block95": [
+          -0.05357142857142857,
+          0.08035714285714286
+        ]
+      },
+      "without_2342": {
+        "observed": 221,
+        "p_one_sided": 0.20667797902435683,
+        "holm_p": 1.0
+      },
+      "ticket_ge3": null,
+      "challenger_best_ge3": 8,
+      "challenger_best_ge4": 1,
+      "holm_p": 1.0,
+      "PASS": false
+    },
+    "no_shrinkage": {
+      "track": "P0 tickets 2-3",
+      "n": 112,
+      "observed": 224,
+      "expected": 212.2105263157895,
+      "mean_excess": 0.10526315789473704,
+      "p_one_sided": 0.1882537684536167,
+      "block95_excess": [
+        -0.13580827067669154,
+        0.35526315789473706
+      ],
+      "half1": 0.10526315789473703,
+      "half2": 0.10526315789473698,
+      "confirmation_last40_excess": 0.180263157894737,
+      "vs_baseline": {
+        "mean_diff": 0.008928571428571428,
+        "block95": [
+          -0.07142857142857142,
+          0.10714285714285714
+        ]
+      },
+      "without_2342": {
+        "observed": 221,
+        "p_one_sided": 0.2111823059022372,
+        "holm_p": 1.0
+      },
+      "ticket_ge3": null,
+      "challenger_best_ge3": 7,
+      "challenger_best_ge4": 1,
+      "holm_p": 1.0,
+      "PASS": false
+    },
+    "equal_weights": {
+      "track": "P0 tickets 2-3",
+      "n": 112,
+      "observed": 204,
+      "expected": 212.2105263157895,
+      "mean_excess": -0.07330827067669154,
+      "p_one_sided": 0.7270642086853311,
+      "block95_excess": [
+        -0.31437969924812015,
+        0.1945488721804513
+      ],
+      "half1": -0.0018796992481201638,
+      "half2": -0.14473684210526302,
+      "confirmation_last40_excess": -0.144736842105263,
+      "vs_baseline": {
+        "mean_diff": -0.16964285714285715,
+        "block95": [
+          -0.42857142857142855,
+          0.08928571428571429
+        ]
+      },
+      "without_2342": {
+        "observed": 202,
+        "p_one_sided": 0.7303704269377055,
+        "holm_p": 1.0
+      },
+      "ticket_ge3": null,
+      "challenger_best_ge3": 5,
+      "challenger_best_ge4": 1,
+      "holm_p": 1.0,
+      "PASS": false
+    },
+    "no_stability_factor": {
+      "track": "P0 tickets 2-3",
+      "n": 112,
+      "observed": 224,
+      "expected": 212.2105263157895,
+      "mean_excess": 0.10526315789473702,
+      "p_one_sided": 0.17083396868563416,
+      "block95_excess": [
+        -0.10902255639097724,
+        0.32847744360902276
+      ],
+      "half1": 0.08740601503759411,
+      "half2": 0.12312030075187984,
+      "confirmation_last40_excess": 0.155263157894737,
+      "vs_baseline": {
+        "mean_diff": 0.008928571428571428,
+        "block95": [
+          -0.07142857142857142,
+          0.08928571428571429
+        ]
+      },
+      "without_2342": {
+        "observed": 221,
+        "p_one_sided": 0.1943003094870409,
+        "holm_p": 1.0
+      },
+      "ticket_ge3": null,
+      "challenger_best_ge3": 7,
+      "challenger_best_ge4": 2,
+      "holm_p": 1.0,
+      "PASS": false
+    },
+    "overlap_le1": {
+      "track": "P0 tickets 2-3",
+      "n": 112,
+      "observed": 223,
+      "expected": 212.2105263157895,
+      "mean_excess": 0.09633458646616558,
+      "p_one_sided": 0.19350049182462678,
+      "block95_excess": [
+        -0.11795112781954867,
+        0.3195488721804513
+      ],
+      "half1": 0.06954887218045126,
+      "half2": 0.12312030075187984,
+      "confirmation_last40_excess": 0.180263157894737,
+      "vs_baseline": {
+        "mean_diff": 0.0,
+        "block95": [
+          0.0,
+          0.0
+        ]
+      },
+      "without_2342": {
+        "observed": 220,
+        "p_one_sided": 0.2188171796678689,
+        "holm_p": 1.0
+      },
+      "ticket_ge3": null,
+      "challenger_best_ge3": 8,
+      "challenger_best_ge4": 1,
+      "holm_p": 1.0,
+      "PASS": false
+    },
+    "overlap_le3": {
+      "track": "P0 tickets 2-3",
+      "n": 112,
+      "observed": 224,
+      "expected": 212.2105263157895,
+      "mean_excess": 0.10526315789473702,
+      "p_one_sided": 0.17106424924158276,
+      "block95_excess": [
+        -0.10902255639097726,
+        0.32847744360902276
+      ],
+      "half1": 0.06954887218045126,
+      "half2": 0.1409774436090227,
+      "confirmation_last40_excess": 0.20526315789473698,
+      "vs_baseline": {
+        "mean_diff": 0.008928571428571428,
+        "block95": [
+          0.0,
+          0.026785714285714284
+        ]
+      },
+      "without_2342": {
+        "observed": 221,
+        "p_one_sided": 0.19452721481377855,
+        "holm_p": 1.0
+      },
+      "ticket_ge3": null,
+      "challenger_best_ge3": 8,
+      "challenger_best_ge4": 1,
+      "holm_p": 1.0,
+      "PASS": false
+    },
+    "cluster_neutral_struct0": {
+      "track": "P0 tickets 2-3",
+      "n": 112,
+      "observed": 226,
+      "expected": 212.2105263157895,
+      "mean_excess": 0.12312030075187987,
+      "p_one_sided": 0.13329584403179404,
+      "block95_excess": [
+        -0.08223684210526302,
+        0.3463345864661656
+      ],
+      "half1": 0.06954887218045126,
+      "half2": 0.1766917293233084,
+      "confirmation_last40_excess": 0.25526315789473697,
+      "vs_baseline": {
+        "mean_diff": 0.026785714285714284,
+        "block95": [
+          0.0,
+          0.0625
+        ]
+      },
+      "without_2342": {
+        "observed": 223,
+        "p_one_sided": 0.1530317615641205,
+        "holm_p": 1.0
+      },
+      "ticket_ge3": null,
+      "challenger_best_ge3": 9,
+      "challenger_best_ge4": 1,
+      "holm_p": 1.0,
+      "PASS": false
+    },
+    "exhaustive_top2_standalone_T": {
+      "track": "P0 tickets 2-3",
+      "n": 112,
+      "observed": 197,
+      "expected": 212.2105263157895,
+      "mean_excess": -0.13580827067669152,
+      "p_one_sided": 0.8264207556501192,
+      "block95_excess": [
+        -0.4125939849624059,
+        0.14990601503759415
+      ],
+      "half1": -0.19830827067669152,
+      "half2": -0.07330827067669153,
+      "confirmation_last40_excess": -0.019736842105263008,
+      "vs_baseline": {
+        "mean_diff": -0.23214285714285715,
+        "block95": [
+          -0.5178571428571429,
+          0.044642857142857144
+        ]
+      },
+      "without_2342": {
+        "observed": 195,
+        "p_one_sided": 0.829164238732203,
+        "holm_p": 1.0
+      },
+      "ticket_ge3": null,
+      "challenger_best_ge3": 4,
+      "challenger_best_ge4": 0,
+      "holm_p": 1.0,
+      "PASS": false
+    },
+    "exhaustive_coverage_only": {
+      "track": "P0 tickets 2-3",
+      "n": 112,
+      "observed": 228,
+      "expected": 212.2105263157895,
+      "mean_excess": 0.14097744360902273,
+      "p_one_sided": 0.09679543324657101,
+      "block95_excess": [
+        -0.05545112781954869,
+        0.3463345864661656
+      ],
+      "half1": 0.1409774436090227,
+      "half2": 0.1409774436090227,
+      "confirmation_last40_excess": 0.20526315789473698,
+      "vs_baseline": {
+        "mean_diff": 0.044642857142857144,
+        "block95": [
+          -0.017857142857142856,
+          0.11607142857142858
+        ]
+      },
+      "without_2342": {
+        "observed": 225,
+        "p_one_sided": 0.11278062351249706,
+        "holm_p": 1.0
+      },
+      "ticket_ge3": null,
+      "challenger_best_ge3": 10,
+      "challenger_best_ge4": 1,
+      "holm_p": 1.0,
+      "PASS": false
+    },
+    "exhaustive_evidence_only": {
+      "track": "P0 tickets 2-3",
+      "n": 112,
+      "observed": 196,
+      "expected": 212.2105263157895,
+      "mean_excess": -0.14473684210526297,
+      "p_one_sided": 0.8772832763748586,
+      "block95_excess": [
+        -0.3679511278195487,
+        0.07847744360902276
+      ],
+      "half1": -0.09116541353383438,
+      "half2": -0.1983082706766915,
+      "confirmation_last40_excess": -0.14473684210526297,
+      "vs_baseline": {
+        "mean_diff": -0.24107142857142858,
+        "block95": [
+          -0.42857142857142855,
+          -0.05357142857142857
+        ]
+      },
+      "without_2342": {
+        "observed": 194,
+        "p_one_sided": 0.8797583342551089,
+        "holm_p": 1.0
+      },
+      "ticket_ge3": null,
+      "challenger_best_ge3": 4,
+      "challenger_best_ge4": 0,
+      "holm_p": 1.0,
+      "PASS": false
+    },
+    "per_draw_seed": {
+      "track": "V1 ticket 1",
+      "n": 132,
+      "observed": 133,
+      "expected": 125.05263157894737,
+      "mean_excess": 0.060207336523126105,
+      "p_one_sided": 0.21657878081126639,
+      "block95_excess": [
+        -0.06858054226475271,
+        0.19657097288676245
+      ],
+      "half1": 0.03748006379585338,
+      "half2": 0.08293460925039882,
+      "confirmation_last40_excess": 0.10263157894736849,
+      "vs_baseline": {
+        "mean_diff": 0.1590909090909091,
+        "block95": [
+          -0.045454545454545456,
+          0.3787878787878788
+        ]
+      },
+      "without_2342": {
+        "observed": 131,
+        "p_one_sided": 0.2490815348475353,
+        "holm_p": 1.0
+      },
+      "ticket_ge3": 6,
+      "holm_p": 1.0,
+      "PASS": false
+    },
+    "rotating_index": {
+      "track": "V1 ticket 1",
+      "n": 132,
+      "observed": 118,
+      "expected": 125.05263157894737,
+      "mean_excess": -0.05342902711323754,
+      "p_one_sided": 0.7847159380166869,
+      "block95_excess": [
+        -0.18979266347687393,
+        0.08293460925039883
+      ],
+      "half1": -0.06858054226475273,
+      "half2": -0.03827751196172238,
+      "confirmation_last40_excess": 0.17763157894736853,
+      "vs_baseline": {
+        "mean_diff": 0.045454545454545456,
+        "block95": [
+          -0.17424242424242425,
+          0.2727272727272727
+        ]
+      },
+      "without_2342": {
+        "observed": 118,
+        "p_one_sided": 0.7549944291095111,
+        "holm_p": 1.0
+      },
+      "ticket_ge3": 6,
+      "holm_p": 1.0,
+      "PASS": false
+    },
+    "no_repeat_position": {
+      "track": "V1 ticket 1",
+      "n": 132,
+      "observed": 120,
+      "expected": 125.05263157894737,
+      "mean_excess": -0.03827751196172239,
+      "p_one_sided": 0.7177254960946211,
+      "block95_excess": [
+        -0.18221690590111633,
+        0.11323763955342912
+      ],
+      "half1": -0.11403508771929817,
+      "half2": 0.03748006379585338,
+      "confirmation_last40_excess": 0.1526315789473685,
+      "vs_baseline": {
+        "mean_diff": 0.06060606060606061,
+        "block95": [
+          -0.08333333333333333,
+          0.21212121212121213
+        ]
+      },
+      "without_2342": {
+        "observed": 118,
+        "p_one_sided": 0.7549944291095111,
+        "holm_p": 1.0
+      },
+      "ticket_ge3": 6,
+      "holm_p": 1.0,
+      "PASS": false
+    },
+    "drop_fixed_data_independent_candidates": {
+      "track": "V1 ticket 1",
+      "n": 132,
+      "observed": 124,
+      "expected": 125.05263157894737,
+      "mean_excess": -0.007974481658692089,
+      "p_one_sided": 0.5612982774155507,
+      "block95_excess": [
+        -0.1443381180223285,
+        0.13596491228070184
+      ],
+      "half1": -0.098883572567783,
+      "half2": 0.08293460925039882,
+      "confirmation_last40_excess": 0.10263157894736855,
+      "vs_baseline": {
+        "mean_diff": 0.09090909090909091,
+        "block95": [
+          -0.09848484848484848,
+          0.2803030303030303
+        ]
+      },
+      "without_2342": {
+        "observed": 124,
+        "p_one_sided": 0.5219384784002753,
+        "holm_p": 1.0
+      },
+      "ticket_ge3": 5,
+      "holm_p": 1.0,
+      "PASS": false
+    }
+  },
+  "passing": [],
+  "not_testable": {
+    "jev_aggregation": "Not testable historically: 3-5 Jev calls on each of ~110 reconstructed states (~550 calls). Prospective replicates exist for #2342 (and will for #2343) only.",
+    "cluster_rule": "No cluster rule tested as a promotion candidate beyond struct0: actual draws match the exact run-length null (historical_2342.json), so no cluster rule has a causal basis."
+  },
+  "verdict": "NO LOTTO V2/P1 REFINEMENT IS JUSTIFIED.",
+  "notes": [
+    "V1 ticket 1 inside every P0 portfolio is the reconstructed production fallback chain (seed 20260919, <=2 overlap).",
+    "P0 weights are re-estimated causally at every target (origins strictly before the target), exactly as in p0_protocol/historical_origins.json.",
+    "dynamic_K picks K among {10,12,15,20} by the best prior capture z-score (>=20 prior targets; otherwise 15).",
+    "equal_weights: discovery by the equal mean z over informative families; T uses equal family weights, no pair/struct term."
+  ],
+  "baseline_reproduces_p0_protocol_historical_origins_2231_2340": true
+}

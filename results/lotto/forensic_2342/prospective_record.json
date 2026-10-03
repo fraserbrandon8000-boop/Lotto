@@ -1,0 +1,122 @@
+{
+  "v1": [
+    [
+      "2339",
+      3
+    ],
+    [
+      "2340",
+      0
+    ],
+    [
+      "2341",
+      3
+    ],
+    [
+      "2342",
+      0
+    ]
+  ],
+  "v1_tickets": {
+    "2339": [
+      1,
+      4,
+      13,
+      14,
+      24,
+      38
+    ],
+    "2340": [
+      5,
+      11,
+      16,
+      24,
+      27,
+      34
+    ],
+    "2341": [
+      1,
+      4,
+      13,
+      14,
+      24,
+      38
+    ],
+    "2342": [
+      5,
+      11,
+      16,
+      24,
+      27,
+      34
+    ]
+  },
+  "v1_summary": {
+    "n": 4,
+    "total": 6,
+    "mean": 1.5,
+    "expected": 0.9473684210526315,
+    "p_total_ge": 0.15069791276881103,
+    "p_total_le": 0.9428174339809162,
+    "ge3_events": 2,
+    "p_ge3_ge2_of_4": 0.008528352027049392,
+    "alternation_note": "The 3,0,3,0 sequence is TWO tickets each played twice: 01 04 13 14 24 38 (3 and 3) and 05 11 16 24 27 34 (0 and 0), produced by the fixed-seed fallback plus the <=2-overlap rule. It is two observations of two tickets, not a pattern of skill."
+  },
+  "p0_live_2342": {
+    "per_ticket": [
+      0,
+      1,
+      2
+    ],
+    "best": 2,
+    "total": 3,
+    "unique_winners_covered": 3,
+    "p_best_ge2_null": 0.607095,
+    "p_total_ge3_null": 0.61759,
+    "expected_total": 2.8421052631578947
+  },
+  "p0_shadow_2341": {
+    "best": 3,
+    "total": 4,
+    "note": "shadow, not prospective"
+  },
+  "secondary_2339": 1,
+  "random_control_2342": {
+    "tickets": [
+      [
+        12,
+        14,
+        15,
+        17,
+        20,
+        29
+      ],
+      [
+        13,
+        19,
+        25,
+        26,
+        28,
+        29
+      ],
+      [
+        1,
+        8,
+        20,
+        21,
+        33,
+        36
+      ]
+    ],
+    "per_ticket": [
+      3,
+      2,
+      1
+    ],
+    "best": 3,
+    "total": 6,
+    "seed": 20260930,
+    "frozen_utc": "2026-09-29T02:41:16.423462+00:00",
+    "note": "Fixed-seed random control frozen before the draw. On #2342 it scored best 3 / total 6 vs the P0 portfolio best 2 / total 3: one draw, no inference either way."
+  }
+}
