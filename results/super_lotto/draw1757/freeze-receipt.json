@@ -1,0 +1,23 @@
+{
+  "target": "results/super_lotto/prospective/prediction_1757.json",
+  "sha256": "22bc443c2933067e23a3df76eb59d4cd67a111fb2db8bbb291abe143bd448c75",
+  "created_utc": "2026-10-06T21:36:16.923969+00:00",
+  "selection": {
+    "candidate_id": "SL10",
+    "main": [
+      1,
+      2,
+      11,
+      15,
+      22
+    ],
+    "super_ball": 2,
+    "main_generator": "D_trend",
+    "SB_generator": "S_gap"
+  },
+  "policy": "predeclared seeded uniform candidate no-edge rule",
+  "jev_probability": 0.01,
+  "jev_confidence": 0.78,
+  "jev_model": "jev-1.13.0",
+  "all_frozen_hashes_match": true
+}
