@@ -1,0 +1,992 @@
+[
+  {
+    "variant": "window20",
+    "model": "A_long",
+    "confirmation_mean": 0.65,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "window20",
+    "model": "B_recent",
+    "confirmation_mean": 0.725,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "window20",
+    "model": "C_gap",
+    "confirmation_mean": 0.75,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "window20",
+    "model": "D_trend",
+    "confirmation_mean": 0.65,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "window20",
+    "model": "E_pairs",
+    "confirmation_mean": 0.65,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "window20",
+    "model": "F_structure",
+    "confirmation_mean": 0.65,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "window20",
+    "model": "G_ensemble",
+    "confirmation_mean": 0.875,
+    "holm_p": 0.8230420571668784
+  },
+  {
+    "variant": "window20",
+    "model": "H_random",
+    "confirmation_mean": 0.675,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "window20",
+    "model": "S_long",
+    "confirmation_mean": 0.0,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "window20",
+    "model": "S_recent",
+    "confirmation_mean": 0.125,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "window20",
+    "model": "S_gap",
+    "confirmation_mean": 0.05,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "window20",
+    "model": "S_trend",
+    "confirmation_mean": 0.125,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "window20",
+    "model": "S_transition",
+    "confirmation_mean": 0.025,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "window20",
+    "model": "S_ensemble",
+    "confirmation_mean": 0.05,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "window20",
+    "model": "S_random",
+    "confirmation_mean": 0.125,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "window40",
+    "model": "A_long",
+    "confirmation_mean": 0.65,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "window40",
+    "model": "B_recent",
+    "confirmation_mean": 0.7,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "window40",
+    "model": "C_gap",
+    "confirmation_mean": 0.75,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "window40",
+    "model": "D_trend",
+    "confirmation_mean": 0.65,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "window40",
+    "model": "E_pairs",
+    "confirmation_mean": 0.65,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "window40",
+    "model": "F_structure",
+    "confirmation_mean": 0.65,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "window40",
+    "model": "G_ensemble",
+    "confirmation_mean": 0.875,
+    "holm_p": 0.8230420571668784
+  },
+  {
+    "variant": "window40",
+    "model": "H_random",
+    "confirmation_mean": 0.675,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "window40",
+    "model": "S_long",
+    "confirmation_mean": 0.0,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "window40",
+    "model": "S_recent",
+    "confirmation_mean": 0.075,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "window40",
+    "model": "S_gap",
+    "confirmation_mean": 0.05,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "window40",
+    "model": "S_trend",
+    "confirmation_mean": 0.125,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "window40",
+    "model": "S_transition",
+    "confirmation_mean": 0.025,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "window40",
+    "model": "S_ensemble",
+    "confirmation_mean": 0.075,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "window40",
+    "model": "S_random",
+    "confirmation_mean": 0.125,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "half10",
+    "model": "A_long",
+    "confirmation_mean": 0.65,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "half10",
+    "model": "B_recent",
+    "confirmation_mean": 0.85,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "half10",
+    "model": "C_gap",
+    "confirmation_mean": 0.75,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "half10",
+    "model": "D_trend",
+    "confirmation_mean": 0.65,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "half10",
+    "model": "E_pairs",
+    "confirmation_mean": 0.65,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "half10",
+    "model": "F_structure",
+    "confirmation_mean": 0.65,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "half10",
+    "model": "G_ensemble",
+    "confirmation_mean": 0.9,
+    "holm_p": 0.5658544842251007
+  },
+  {
+    "variant": "half10",
+    "model": "H_random",
+    "confirmation_mean": 0.675,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "half10",
+    "model": "S_long",
+    "confirmation_mean": 0.0,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "half10",
+    "model": "S_recent",
+    "confirmation_mean": 0.125,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "half10",
+    "model": "S_gap",
+    "confirmation_mean": 0.05,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "half10",
+    "model": "S_trend",
+    "confirmation_mean": 0.125,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "half10",
+    "model": "S_transition",
+    "confirmation_mean": 0.025,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "half10",
+    "model": "S_ensemble",
+    "confirmation_mean": 0.05,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "half10",
+    "model": "S_random",
+    "confirmation_mean": 0.125,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "half40",
+    "model": "A_long",
+    "confirmation_mean": 0.65,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "half40",
+    "model": "B_recent",
+    "confirmation_mean": 0.8,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "half40",
+    "model": "C_gap",
+    "confirmation_mean": 0.75,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "half40",
+    "model": "D_trend",
+    "confirmation_mean": 0.65,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "half40",
+    "model": "E_pairs",
+    "confirmation_mean": 0.65,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "half40",
+    "model": "F_structure",
+    "confirmation_mean": 0.65,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "half40",
+    "model": "G_ensemble",
+    "confirmation_mean": 0.9,
+    "holm_p": 0.5658544842251007
+  },
+  {
+    "variant": "half40",
+    "model": "H_random",
+    "confirmation_mean": 0.675,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "half40",
+    "model": "S_long",
+    "confirmation_mean": 0.0,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "half40",
+    "model": "S_recent",
+    "confirmation_mean": 0.125,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "half40",
+    "model": "S_gap",
+    "confirmation_mean": 0.05,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "half40",
+    "model": "S_trend",
+    "confirmation_mean": 0.125,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "half40",
+    "model": "S_transition",
+    "confirmation_mean": 0.025,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "half40",
+    "model": "S_ensemble",
+    "confirmation_mean": 0.075,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "half40",
+    "model": "S_random",
+    "confirmation_mean": 0.125,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "trend10",
+    "model": "A_long",
+    "confirmation_mean": 0.65,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "trend10",
+    "model": "B_recent",
+    "confirmation_mean": 0.775,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "trend10",
+    "model": "C_gap",
+    "confirmation_mean": 0.75,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "trend10",
+    "model": "D_trend",
+    "confirmation_mean": 0.725,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "trend10",
+    "model": "E_pairs",
+    "confirmation_mean": 0.65,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "trend10",
+    "model": "F_structure",
+    "confirmation_mean": 0.65,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "trend10",
+    "model": "G_ensemble",
+    "confirmation_mean": 0.725,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "trend10",
+    "model": "H_random",
+    "confirmation_mean": 0.675,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "trend10",
+    "model": "S_long",
+    "confirmation_mean": 0.0,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "trend10",
+    "model": "S_recent",
+    "confirmation_mean": 0.15,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "trend10",
+    "model": "S_gap",
+    "confirmation_mean": 0.05,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "trend10",
+    "model": "S_trend",
+    "confirmation_mean": 0.1,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "trend10",
+    "model": "S_transition",
+    "confirmation_mean": 0.025,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "trend10",
+    "model": "S_ensemble",
+    "confirmation_mean": 0.05,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "trend10",
+    "model": "S_random",
+    "confirmation_mean": 0.125,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "trend30",
+    "model": "A_long",
+    "confirmation_mean": 0.65,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "trend30",
+    "model": "B_recent",
+    "confirmation_mean": 0.775,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "trend30",
+    "model": "C_gap",
+    "confirmation_mean": 0.75,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "trend30",
+    "model": "D_trend",
+    "confirmation_mean": 0.8,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "trend30",
+    "model": "E_pairs",
+    "confirmation_mean": 0.65,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "trend30",
+    "model": "F_structure",
+    "confirmation_mean": 0.65,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "trend30",
+    "model": "G_ensemble",
+    "confirmation_mean": 0.95,
+    "holm_p": 0.242287435261186
+  },
+  {
+    "variant": "trend30",
+    "model": "H_random",
+    "confirmation_mean": 0.675,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "trend30",
+    "model": "S_long",
+    "confirmation_mean": 0.0,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "trend30",
+    "model": "S_recent",
+    "confirmation_mean": 0.15,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "trend30",
+    "model": "S_gap",
+    "confirmation_mean": 0.05,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "trend30",
+    "model": "S_trend",
+    "confirmation_mean": 0.05,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "trend30",
+    "model": "S_transition",
+    "confirmation_mean": 0.025,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "trend30",
+    "model": "S_ensemble",
+    "confirmation_mean": 0.05,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "trend30",
+    "model": "S_random",
+    "confirmation_mean": 0.125,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "history100",
+    "model": "A_long",
+    "confirmation_mean": 0.775,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "history100",
+    "model": "B_recent",
+    "confirmation_mean": 0.8,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "history100",
+    "model": "C_gap",
+    "confirmation_mean": 0.75,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "history100",
+    "model": "D_trend",
+    "confirmation_mean": 0.65,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "history100",
+    "model": "E_pairs",
+    "confirmation_mean": 0.65,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "history100",
+    "model": "F_structure",
+    "confirmation_mean": 0.675,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "history100",
+    "model": "G_ensemble",
+    "confirmation_mean": 0.9,
+    "holm_p": 0.5658544842251007
+  },
+  {
+    "variant": "history100",
+    "model": "H_random",
+    "confirmation_mean": 0.675,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "history100",
+    "model": "S_long",
+    "confirmation_mean": 0.0,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "history100",
+    "model": "S_recent",
+    "confirmation_mean": 0.15,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "history100",
+    "model": "S_gap",
+    "confirmation_mean": 0.05,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "history100",
+    "model": "S_trend",
+    "confirmation_mean": 0.125,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "history100",
+    "model": "S_transition",
+    "confirmation_mean": 0.025,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "history100",
+    "model": "S_ensemble",
+    "confirmation_mean": 0.05,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "history100",
+    "model": "S_random",
+    "confirmation_mean": 0.125,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "pair001",
+    "model": "A_long",
+    "confirmation_mean": 0.65,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "pair001",
+    "model": "B_recent",
+    "confirmation_mean": 0.775,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "pair001",
+    "model": "C_gap",
+    "confirmation_mean": 0.75,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "pair001",
+    "model": "D_trend",
+    "confirmation_mean": 0.65,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "pair001",
+    "model": "E_pairs",
+    "confirmation_mean": 0.65,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "pair001",
+    "model": "F_structure",
+    "confirmation_mean": 0.65,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "pair001",
+    "model": "G_ensemble",
+    "confirmation_mean": 0.9,
+    "holm_p": 0.5658544842251007
+  },
+  {
+    "variant": "pair001",
+    "model": "H_random",
+    "confirmation_mean": 0.675,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "pair001",
+    "model": "S_long",
+    "confirmation_mean": 0.0,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "pair001",
+    "model": "S_recent",
+    "confirmation_mean": 0.15,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "pair001",
+    "model": "S_gap",
+    "confirmation_mean": 0.05,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "pair001",
+    "model": "S_trend",
+    "confirmation_mean": 0.125,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "pair001",
+    "model": "S_transition",
+    "confirmation_mean": 0.025,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "pair001",
+    "model": "S_ensemble",
+    "confirmation_mean": 0.05,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "pair001",
+    "model": "S_random",
+    "confirmation_mean": 0.125,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "pair010",
+    "model": "A_long",
+    "confirmation_mean": 0.65,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "pair010",
+    "model": "B_recent",
+    "confirmation_mean": 0.775,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "pair010",
+    "model": "C_gap",
+    "confirmation_mean": 0.75,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "pair010",
+    "model": "D_trend",
+    "confirmation_mean": 0.65,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "pair010",
+    "model": "E_pairs",
+    "confirmation_mean": 0.65,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "pair010",
+    "model": "F_structure",
+    "confirmation_mean": 0.65,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "pair010",
+    "model": "G_ensemble",
+    "confirmation_mean": 0.9,
+    "holm_p": 0.5658544842251007
+  },
+  {
+    "variant": "pair010",
+    "model": "H_random",
+    "confirmation_mean": 0.675,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "pair010",
+    "model": "S_long",
+    "confirmation_mean": 0.0,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "pair010",
+    "model": "S_recent",
+    "confirmation_mean": 0.15,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "pair010",
+    "model": "S_gap",
+    "confirmation_mean": 0.05,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "pair010",
+    "model": "S_trend",
+    "confirmation_mean": 0.125,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "pair010",
+    "model": "S_transition",
+    "confirmation_mean": 0.025,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "pair010",
+    "model": "S_ensemble",
+    "confirmation_mean": 0.05,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "pair010",
+    "model": "S_random",
+    "confirmation_mean": 0.125,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "equal",
+    "model": "A_long",
+    "confirmation_mean": 0.65,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "equal",
+    "model": "B_recent",
+    "confirmation_mean": 0.775,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "equal",
+    "model": "C_gap",
+    "confirmation_mean": 0.75,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "equal",
+    "model": "D_trend",
+    "confirmation_mean": 0.65,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "equal",
+    "model": "E_pairs",
+    "confirmation_mean": 0.65,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "equal",
+    "model": "F_structure",
+    "confirmation_mean": 0.65,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "equal",
+    "model": "G_ensemble",
+    "confirmation_mean": 0.9,
+    "holm_p": 0.5658544842251007
+  },
+  {
+    "variant": "equal",
+    "model": "H_random",
+    "confirmation_mean": 0.675,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "equal",
+    "model": "S_long",
+    "confirmation_mean": 0.0,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "equal",
+    "model": "S_recent",
+    "confirmation_mean": 0.15,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "equal",
+    "model": "S_gap",
+    "confirmation_mean": 0.05,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "equal",
+    "model": "S_trend",
+    "confirmation_mean": 0.125,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "equal",
+    "model": "S_transition",
+    "confirmation_mean": 0.025,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "equal",
+    "model": "S_ensemble",
+    "confirmation_mean": 0.125,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "equal",
+    "model": "S_random",
+    "confirmation_mean": 0.125,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "seed",
+    "model": "A_long",
+    "confirmation_mean": 0.575,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "seed",
+    "model": "B_recent",
+    "confirmation_mean": 0.775,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "seed",
+    "model": "C_gap",
+    "confirmation_mean": 0.725,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "seed",
+    "model": "D_trend",
+    "confirmation_mean": 0.7,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "seed",
+    "model": "E_pairs",
+    "confirmation_mean": 0.65,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "seed",
+    "model": "F_structure",
+    "confirmation_mean": 0.8,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "seed",
+    "model": "G_ensemble",
+    "confirmation_mean": 0.85,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "seed",
+    "model": "H_random",
+    "confirmation_mean": 0.625,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "seed",
+    "model": "S_long",
+    "confirmation_mean": 0.0,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "seed",
+    "model": "S_recent",
+    "confirmation_mean": 0.15,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "seed",
+    "model": "S_gap",
+    "confirmation_mean": 0.05,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "seed",
+    "model": "S_trend",
+    "confirmation_mean": 0.15,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "seed",
+    "model": "S_transition",
+    "confirmation_mean": 0.0,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "seed",
+    "model": "S_ensemble",
+    "confirmation_mean": 0.05,
+    "holm_p": 1.0
+  },
+  {
+    "variant": "seed",
+    "model": "S_random",
+    "confirmation_mean": 0.05,
+    "holm_p": 1.0
+  }
+]

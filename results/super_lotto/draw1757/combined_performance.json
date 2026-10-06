@@ -1,0 +1,5378 @@
+[
+  {
+    "period": "all",
+    "main_model": "A_long",
+    "SB_model": "S_long",
+    "n": 130,
+    "counts_main_by_SB": [
+      [
+        56,
+        4
+      ],
+      [
+        50,
+        4
+      ],
+      [
+        14,
+        1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "all",
+    "main_model": "A_long",
+    "SB_model": "S_recent",
+    "n": 130,
+    "counts_main_by_SB": [
+      [
+        53,
+        7
+      ],
+      [
+        50,
+        4
+      ],
+      [
+        13,
+        2
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "all",
+    "main_model": "A_long",
+    "SB_model": "S_gap",
+    "n": 130,
+    "counts_main_by_SB": [
+      [
+        54,
+        6
+      ],
+      [
+        47,
+        7
+      ],
+      [
+        15,
+        0
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "all",
+    "main_model": "A_long",
+    "SB_model": "S_trend",
+    "n": 130,
+    "counts_main_by_SB": [
+      [
+        51,
+        9
+      ],
+      [
+        50,
+        4
+      ],
+      [
+        14,
+        1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "all",
+    "main_model": "A_long",
+    "SB_model": "S_transition",
+    "n": 130,
+    "counts_main_by_SB": [
+      [
+        56,
+        4
+      ],
+      [
+        45,
+        9
+      ],
+      [
+        13,
+        2
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "all",
+    "main_model": "A_long",
+    "SB_model": "S_ensemble",
+    "n": 130,
+    "counts_main_by_SB": [
+      [
+        54,
+        6
+      ],
+      [
+        49,
+        5
+      ],
+      [
+        15,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "all",
+    "main_model": "A_long",
+    "SB_model": "S_random",
+    "n": 130,
+    "counts_main_by_SB": [
+      [
+        51,
+        9
+      ],
+      [
+        54,
+        0
+      ],
+      [
+        13,
+        2
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "all",
+    "main_model": "B_recent",
+    "SB_model": "S_long",
+    "n": 130,
+    "counts_main_by_SB": [
+      [
+        51,
+        3
+      ],
+      [
+        56,
+        5
+      ],
+      [
+        14,
+        1
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "all",
+    "main_model": "B_recent",
+    "SB_model": "S_recent",
+    "n": 130,
+    "counts_main_by_SB": [
+      [
+        50,
+        4
+      ],
+      [
+        55,
+        6
+      ],
+      [
+        11,
+        4
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "all",
+    "main_model": "B_recent",
+    "SB_model": "S_gap",
+    "n": 130,
+    "counts_main_by_SB": [
+      [
+        46,
+        8
+      ],
+      [
+        56,
+        5
+      ],
+      [
+        15,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "all",
+    "main_model": "B_recent",
+    "SB_model": "S_trend",
+    "n": 130,
+    "counts_main_by_SB": [
+      [
+        48,
+        6
+      ],
+      [
+        55,
+        6
+      ],
+      [
+        13,
+        2
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "all",
+    "main_model": "B_recent",
+    "SB_model": "S_transition",
+    "n": 130,
+    "counts_main_by_SB": [
+      [
+        50,
+        4
+      ],
+      [
+        53,
+        8
+      ],
+      [
+        12,
+        3
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "all",
+    "main_model": "B_recent",
+    "SB_model": "S_ensemble",
+    "n": 130,
+    "counts_main_by_SB": [
+      [
+        48,
+        6
+      ],
+      [
+        56,
+        5
+      ],
+      [
+        14,
+        1
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "all",
+    "main_model": "B_recent",
+    "SB_model": "S_random",
+    "n": 130,
+    "counts_main_by_SB": [
+      [
+        50,
+        4
+      ],
+      [
+        56,
+        5
+      ],
+      [
+        13,
+        2
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "all",
+    "main_model": "C_gap",
+    "SB_model": "S_long",
+    "n": 130,
+    "counts_main_by_SB": [
+      [
+        56,
+        3
+      ],
+      [
+        48,
+        3
+      ],
+      [
+        17,
+        3
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "all",
+    "main_model": "C_gap",
+    "SB_model": "S_recent",
+    "n": 130,
+    "counts_main_by_SB": [
+      [
+        54,
+        5
+      ],
+      [
+        45,
+        6
+      ],
+      [
+        17,
+        3
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "all",
+    "main_model": "C_gap",
+    "SB_model": "S_gap",
+    "n": 130,
+    "counts_main_by_SB": [
+      [
+        53,
+        6
+      ],
+      [
+        47,
+        4
+      ],
+      [
+        17,
+        3
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "all",
+    "main_model": "C_gap",
+    "SB_model": "S_trend",
+    "n": 130,
+    "counts_main_by_SB": [
+      [
+        53,
+        6
+      ],
+      [
+        45,
+        6
+      ],
+      [
+        18,
+        2
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "all",
+    "main_model": "C_gap",
+    "SB_model": "S_transition",
+    "n": 130,
+    "counts_main_by_SB": [
+      [
+        51,
+        8
+      ],
+      [
+        45,
+        6
+      ],
+      [
+        19,
+        1
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "all",
+    "main_model": "C_gap",
+    "SB_model": "S_ensemble",
+    "n": 130,
+    "counts_main_by_SB": [
+      [
+        57,
+        2
+      ],
+      [
+        46,
+        5
+      ],
+      [
+        15,
+        5
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "all",
+    "main_model": "C_gap",
+    "SB_model": "S_random",
+    "n": 130,
+    "counts_main_by_SB": [
+      [
+        54,
+        5
+      ],
+      [
+        47,
+        4
+      ],
+      [
+        18,
+        2
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "all",
+    "main_model": "D_trend",
+    "SB_model": "S_long",
+    "n": 130,
+    "counts_main_by_SB": [
+      [
+        50,
+        7
+      ],
+      [
+        56,
+        2
+      ],
+      [
+        15,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "all",
+    "main_model": "D_trend",
+    "SB_model": "S_recent",
+    "n": 130,
+    "counts_main_by_SB": [
+      [
+        52,
+        5
+      ],
+      [
+        49,
+        9
+      ],
+      [
+        15,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "all",
+    "main_model": "D_trend",
+    "SB_model": "S_gap",
+    "n": 130,
+    "counts_main_by_SB": [
+      [
+        53,
+        4
+      ],
+      [
+        51,
+        7
+      ],
+      [
+        13,
+        2
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "all",
+    "main_model": "D_trend",
+    "SB_model": "S_trend",
+    "n": 130,
+    "counts_main_by_SB": [
+      [
+        51,
+        6
+      ],
+      [
+        50,
+        8
+      ],
+      [
+        15,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "all",
+    "main_model": "D_trend",
+    "SB_model": "S_transition",
+    "n": 130,
+    "counts_main_by_SB": [
+      [
+        52,
+        5
+      ],
+      [
+        49,
+        9
+      ],
+      [
+        14,
+        1
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "all",
+    "main_model": "D_trend",
+    "SB_model": "S_ensemble",
+    "n": 130,
+    "counts_main_by_SB": [
+      [
+        53,
+        4
+      ],
+      [
+        52,
+        6
+      ],
+      [
+        13,
+        2
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "all",
+    "main_model": "D_trend",
+    "SB_model": "S_random",
+    "n": 130,
+    "counts_main_by_SB": [
+      [
+        54,
+        3
+      ],
+      [
+        51,
+        7
+      ],
+      [
+        14,
+        1
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "all",
+    "main_model": "E_pairs",
+    "SB_model": "S_long",
+    "n": 130,
+    "counts_main_by_SB": [
+      [
+        57,
+        5
+      ],
+      [
+        45,
+        2
+      ],
+      [
+        19,
+        2
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "all",
+    "main_model": "E_pairs",
+    "SB_model": "S_recent",
+    "n": 130,
+    "counts_main_by_SB": [
+      [
+        58,
+        4
+      ],
+      [
+        40,
+        7
+      ],
+      [
+        18,
+        3
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "all",
+    "main_model": "E_pairs",
+    "SB_model": "S_gap",
+    "n": 130,
+    "counts_main_by_SB": [
+      [
+        56,
+        6
+      ],
+      [
+        43,
+        4
+      ],
+      [
+        18,
+        3
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "all",
+    "main_model": "E_pairs",
+    "SB_model": "S_trend",
+    "n": 130,
+    "counts_main_by_SB": [
+      [
+        60,
+        2
+      ],
+      [
+        39,
+        8
+      ],
+      [
+        17,
+        4
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "all",
+    "main_model": "E_pairs",
+    "SB_model": "S_transition",
+    "n": 130,
+    "counts_main_by_SB": [
+      [
+        55,
+        7
+      ],
+      [
+        42,
+        5
+      ],
+      [
+        18,
+        3
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "all",
+    "main_model": "E_pairs",
+    "SB_model": "S_ensemble",
+    "n": 130,
+    "counts_main_by_SB": [
+      [
+        56,
+        6
+      ],
+      [
+        43,
+        4
+      ],
+      [
+        19,
+        2
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "all",
+    "main_model": "E_pairs",
+    "SB_model": "S_random",
+    "n": 130,
+    "counts_main_by_SB": [
+      [
+        56,
+        6
+      ],
+      [
+        44,
+        3
+      ],
+      [
+        19,
+        2
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "all",
+    "main_model": "F_structure",
+    "SB_model": "S_long",
+    "n": 130,
+    "counts_main_by_SB": [
+      [
+        54,
+        5
+      ],
+      [
+        53,
+        4
+      ],
+      [
+        13,
+        0
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "all",
+    "main_model": "F_structure",
+    "SB_model": "S_recent",
+    "n": 130,
+    "counts_main_by_SB": [
+      [
+        53,
+        6
+      ],
+      [
+        49,
+        8
+      ],
+      [
+        13,
+        0
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "all",
+    "main_model": "F_structure",
+    "SB_model": "S_gap",
+    "n": 130,
+    "counts_main_by_SB": [
+      [
+        55,
+        4
+      ],
+      [
+        50,
+        7
+      ],
+      [
+        12,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "all",
+    "main_model": "F_structure",
+    "SB_model": "S_trend",
+    "n": 130,
+    "counts_main_by_SB": [
+      [
+        51,
+        8
+      ],
+      [
+        51,
+        6
+      ],
+      [
+        13,
+        0
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "all",
+    "main_model": "F_structure",
+    "SB_model": "S_transition",
+    "n": 130,
+    "counts_main_by_SB": [
+      [
+        53,
+        6
+      ],
+      [
+        49,
+        8
+      ],
+      [
+        12,
+        1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "all",
+    "main_model": "F_structure",
+    "SB_model": "S_ensemble",
+    "n": 130,
+    "counts_main_by_SB": [
+      [
+        52,
+        7
+      ],
+      [
+        52,
+        5
+      ],
+      [
+        13,
+        0
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "all",
+    "main_model": "F_structure",
+    "SB_model": "S_random",
+    "n": 130,
+    "counts_main_by_SB": [
+      [
+        56,
+        3
+      ],
+      [
+        51,
+        6
+      ],
+      [
+        11,
+        2
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "all",
+    "main_model": "G_ensemble",
+    "SB_model": "S_long",
+    "n": 130,
+    "counts_main_by_SB": [
+      [
+        53,
+        5
+      ],
+      [
+        52,
+        3
+      ],
+      [
+        15,
+        1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "all",
+    "main_model": "G_ensemble",
+    "SB_model": "S_recent",
+    "n": 130,
+    "counts_main_by_SB": [
+      [
+        51,
+        7
+      ],
+      [
+        49,
+        6
+      ],
+      [
+        16,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "all",
+    "main_model": "G_ensemble",
+    "SB_model": "S_gap",
+    "n": 130,
+    "counts_main_by_SB": [
+      [
+        50,
+        8
+      ],
+      [
+        50,
+        5
+      ],
+      [
+        16,
+        0
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "all",
+    "main_model": "G_ensemble",
+    "SB_model": "S_trend",
+    "n": 130,
+    "counts_main_by_SB": [
+      [
+        50,
+        8
+      ],
+      [
+        51,
+        4
+      ],
+      [
+        15,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "all",
+    "main_model": "G_ensemble",
+    "SB_model": "S_transition",
+    "n": 130,
+    "counts_main_by_SB": [
+      [
+        52,
+        6
+      ],
+      [
+        50,
+        5
+      ],
+      [
+        12,
+        4
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "all",
+    "main_model": "G_ensemble",
+    "SB_model": "S_ensemble",
+    "n": 130,
+    "counts_main_by_SB": [
+      [
+        53,
+        5
+      ],
+      [
+        49,
+        6
+      ],
+      [
+        15,
+        1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "all",
+    "main_model": "G_ensemble",
+    "SB_model": "S_random",
+    "n": 130,
+    "counts_main_by_SB": [
+      [
+        55,
+        3
+      ],
+      [
+        49,
+        6
+      ],
+      [
+        14,
+        2
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "all",
+    "main_model": "H_random",
+    "SB_model": "S_long",
+    "n": 130,
+    "counts_main_by_SB": [
+      [
+        61,
+        4
+      ],
+      [
+        44,
+        4
+      ],
+      [
+        14,
+        0
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "all",
+    "main_model": "H_random",
+    "SB_model": "S_recent",
+    "n": 130,
+    "counts_main_by_SB": [
+      [
+        59,
+        6
+      ],
+      [
+        44,
+        4
+      ],
+      [
+        11,
+        3
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "all",
+    "main_model": "H_random",
+    "SB_model": "S_gap",
+    "n": 130,
+    "counts_main_by_SB": [
+      [
+        59,
+        6
+      ],
+      [
+        43,
+        5
+      ],
+      [
+        12,
+        2
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "all",
+    "main_model": "H_random",
+    "SB_model": "S_trend",
+    "n": 130,
+    "counts_main_by_SB": [
+      [
+        57,
+        8
+      ],
+      [
+        45,
+        3
+      ],
+      [
+        11,
+        3
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "all",
+    "main_model": "H_random",
+    "SB_model": "S_transition",
+    "n": 130,
+    "counts_main_by_SB": [
+      [
+        58,
+        7
+      ],
+      [
+        42,
+        6
+      ],
+      [
+        12,
+        2
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "all",
+    "main_model": "H_random",
+    "SB_model": "S_ensemble",
+    "n": 130,
+    "counts_main_by_SB": [
+      [
+        60,
+        5
+      ],
+      [
+        44,
+        4
+      ],
+      [
+        13,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "all",
+    "main_model": "H_random",
+    "SB_model": "S_random",
+    "n": 130,
+    "counts_main_by_SB": [
+      [
+        59,
+        6
+      ],
+      [
+        44,
+        4
+      ],
+      [
+        13,
+        1
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "development",
+    "main_model": "A_long",
+    "SB_model": "S_long",
+    "n": 90,
+    "counts_main_by_SB": [
+      [
+        35,
+        4
+      ],
+      [
+        38,
+        4
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "development",
+    "main_model": "A_long",
+    "SB_model": "S_recent",
+    "n": 90,
+    "counts_main_by_SB": [
+      [
+        37,
+        2
+      ],
+      [
+        38,
+        4
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "development",
+    "main_model": "A_long",
+    "SB_model": "S_gap",
+    "n": 90,
+    "counts_main_by_SB": [
+      [
+        35,
+        4
+      ],
+      [
+        35,
+        7
+      ],
+      [
+        8,
+        0
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "development",
+    "main_model": "A_long",
+    "SB_model": "S_trend",
+    "n": 90,
+    "counts_main_by_SB": [
+      [
+        33,
+        6
+      ],
+      [
+        39,
+        3
+      ],
+      [
+        8,
+        0
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "development",
+    "main_model": "A_long",
+    "SB_model": "S_transition",
+    "n": 90,
+    "counts_main_by_SB": [
+      [
+        35,
+        4
+      ],
+      [
+        34,
+        8
+      ],
+      [
+        6,
+        2
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "development",
+    "main_model": "A_long",
+    "SB_model": "S_ensemble",
+    "n": 90,
+    "counts_main_by_SB": [
+      [
+        35,
+        4
+      ],
+      [
+        37,
+        5
+      ],
+      [
+        8,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "development",
+    "main_model": "A_long",
+    "SB_model": "S_random",
+    "n": 90,
+    "counts_main_by_SB": [
+      [
+        34,
+        5
+      ],
+      [
+        42,
+        0
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "development",
+    "main_model": "B_recent",
+    "SB_model": "S_long",
+    "n": 90,
+    "counts_main_by_SB": [
+      [
+        34,
+        3
+      ],
+      [
+        41,
+        5
+      ],
+      [
+        6,
+        1
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "development",
+    "main_model": "B_recent",
+    "SB_model": "S_recent",
+    "n": 90,
+    "counts_main_by_SB": [
+      [
+        35,
+        2
+      ],
+      [
+        41,
+        5
+      ],
+      [
+        6,
+        1
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "development",
+    "main_model": "B_recent",
+    "SB_model": "S_gap",
+    "n": 90,
+    "counts_main_by_SB": [
+      [
+        31,
+        6
+      ],
+      [
+        41,
+        5
+      ],
+      [
+        7,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "development",
+    "main_model": "B_recent",
+    "SB_model": "S_trend",
+    "n": 90,
+    "counts_main_by_SB": [
+      [
+        34,
+        3
+      ],
+      [
+        41,
+        5
+      ],
+      [
+        6,
+        1
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "development",
+    "main_model": "B_recent",
+    "SB_model": "S_transition",
+    "n": 90,
+    "counts_main_by_SB": [
+      [
+        33,
+        4
+      ],
+      [
+        38,
+        8
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "development",
+    "main_model": "B_recent",
+    "SB_model": "S_ensemble",
+    "n": 90,
+    "counts_main_by_SB": [
+      [
+        33,
+        4
+      ],
+      [
+        41,
+        5
+      ],
+      [
+        6,
+        1
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "development",
+    "main_model": "B_recent",
+    "SB_model": "S_random",
+    "n": 90,
+    "counts_main_by_SB": [
+      [
+        34,
+        3
+      ],
+      [
+        43,
+        3
+      ],
+      [
+        7,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "development",
+    "main_model": "C_gap",
+    "SB_model": "S_long",
+    "n": 90,
+    "counts_main_by_SB": [
+      [
+        40,
+        3
+      ],
+      [
+        30,
+        3
+      ],
+      [
+        11,
+        3
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "development",
+    "main_model": "C_gap",
+    "SB_model": "S_recent",
+    "n": 90,
+    "counts_main_by_SB": [
+      [
+        41,
+        2
+      ],
+      [
+        28,
+        5
+      ],
+      [
+        13,
+        1
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "development",
+    "main_model": "C_gap",
+    "SB_model": "S_gap",
+    "n": 90,
+    "counts_main_by_SB": [
+      [
+        37,
+        6
+      ],
+      [
+        31,
+        2
+      ],
+      [
+        11,
+        3
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "development",
+    "main_model": "C_gap",
+    "SB_model": "S_trend",
+    "n": 90,
+    "counts_main_by_SB": [
+      [
+        39,
+        4
+      ],
+      [
+        29,
+        4
+      ],
+      [
+        13,
+        1
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "development",
+    "main_model": "C_gap",
+    "SB_model": "S_transition",
+    "n": 90,
+    "counts_main_by_SB": [
+      [
+        35,
+        8
+      ],
+      [
+        28,
+        5
+      ],
+      [
+        13,
+        1
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "development",
+    "main_model": "C_gap",
+    "SB_model": "S_ensemble",
+    "n": 90,
+    "counts_main_by_SB": [
+      [
+        41,
+        2
+      ],
+      [
+        30,
+        3
+      ],
+      [
+        9,
+        5
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "development",
+    "main_model": "C_gap",
+    "SB_model": "S_random",
+    "n": 90,
+    "counts_main_by_SB": [
+      [
+        40,
+        3
+      ],
+      [
+        31,
+        2
+      ],
+      [
+        13,
+        1
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "development",
+    "main_model": "D_trend",
+    "SB_model": "S_long",
+    "n": 90,
+    "counts_main_by_SB": [
+      [
+        30,
+        7
+      ],
+      [
+        42,
+        2
+      ],
+      [
+        9,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "development",
+    "main_model": "D_trend",
+    "SB_model": "S_recent",
+    "n": 90,
+    "counts_main_by_SB": [
+      [
+        35,
+        2
+      ],
+      [
+        38,
+        6
+      ],
+      [
+        9,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "development",
+    "main_model": "D_trend",
+    "SB_model": "S_gap",
+    "n": 90,
+    "counts_main_by_SB": [
+      [
+        33,
+        4
+      ],
+      [
+        37,
+        7
+      ],
+      [
+        9,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "development",
+    "main_model": "D_trend",
+    "SB_model": "S_trend",
+    "n": 90,
+    "counts_main_by_SB": [
+      [
+        34,
+        3
+      ],
+      [
+        38,
+        6
+      ],
+      [
+        9,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "development",
+    "main_model": "D_trend",
+    "SB_model": "S_transition",
+    "n": 90,
+    "counts_main_by_SB": [
+      [
+        33,
+        4
+      ],
+      [
+        35,
+        9
+      ],
+      [
+        8,
+        1
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "development",
+    "main_model": "D_trend",
+    "SB_model": "S_ensemble",
+    "n": 90,
+    "counts_main_by_SB": [
+      [
+        33,
+        4
+      ],
+      [
+        38,
+        6
+      ],
+      [
+        9,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "development",
+    "main_model": "D_trend",
+    "SB_model": "S_random",
+    "n": 90,
+    "counts_main_by_SB": [
+      [
+        36,
+        1
+      ],
+      [
+        40,
+        4
+      ],
+      [
+        8,
+        1
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "development",
+    "main_model": "E_pairs",
+    "SB_model": "S_long",
+    "n": 90,
+    "counts_main_by_SB": [
+      [
+        39,
+        5
+      ],
+      [
+        27,
+        2
+      ],
+      [
+        15,
+        2
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "development",
+    "main_model": "E_pairs",
+    "SB_model": "S_recent",
+    "n": 90,
+    "counts_main_by_SB": [
+      [
+        41,
+        3
+      ],
+      [
+        26,
+        3
+      ],
+      [
+        15,
+        2
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "development",
+    "main_model": "E_pairs",
+    "SB_model": "S_gap",
+    "n": 90,
+    "counts_main_by_SB": [
+      [
+        40,
+        4
+      ],
+      [
+        25,
+        4
+      ],
+      [
+        14,
+        3
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "development",
+    "main_model": "E_pairs",
+    "SB_model": "S_trend",
+    "n": 90,
+    "counts_main_by_SB": [
+      [
+        42,
+        2
+      ],
+      [
+        25,
+        4
+      ],
+      [
+        14,
+        3
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "development",
+    "main_model": "E_pairs",
+    "SB_model": "S_transition",
+    "n": 90,
+    "counts_main_by_SB": [
+      [
+        38,
+        6
+      ],
+      [
+        24,
+        5
+      ],
+      [
+        14,
+        3
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "development",
+    "main_model": "E_pairs",
+    "SB_model": "S_ensemble",
+    "n": 90,
+    "counts_main_by_SB": [
+      [
+        40,
+        4
+      ],
+      [
+        25,
+        4
+      ],
+      [
+        15,
+        2
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "development",
+    "main_model": "E_pairs",
+    "SB_model": "S_random",
+    "n": 90,
+    "counts_main_by_SB": [
+      [
+        40,
+        4
+      ],
+      [
+        28,
+        1
+      ],
+      [
+        16,
+        1
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "development",
+    "main_model": "F_structure",
+    "SB_model": "S_long",
+    "n": 90,
+    "counts_main_by_SB": [
+      [
+        36,
+        5
+      ],
+      [
+        35,
+        4
+      ],
+      [
+        9,
+        0
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "development",
+    "main_model": "F_structure",
+    "SB_model": "S_recent",
+    "n": 90,
+    "counts_main_by_SB": [
+      [
+        38,
+        3
+      ],
+      [
+        34,
+        5
+      ],
+      [
+        9,
+        0
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "development",
+    "main_model": "F_structure",
+    "SB_model": "S_gap",
+    "n": 90,
+    "counts_main_by_SB": [
+      [
+        39,
+        2
+      ],
+      [
+        32,
+        7
+      ],
+      [
+        8,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "development",
+    "main_model": "F_structure",
+    "SB_model": "S_trend",
+    "n": 90,
+    "counts_main_by_SB": [
+      [
+        35,
+        6
+      ],
+      [
+        36,
+        3
+      ],
+      [
+        9,
+        0
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "development",
+    "main_model": "F_structure",
+    "SB_model": "S_transition",
+    "n": 90,
+    "counts_main_by_SB": [
+      [
+        35,
+        6
+      ],
+      [
+        32,
+        7
+      ],
+      [
+        8,
+        1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "development",
+    "main_model": "F_structure",
+    "SB_model": "S_ensemble",
+    "n": 90,
+    "counts_main_by_SB": [
+      [
+        36,
+        5
+      ],
+      [
+        34,
+        5
+      ],
+      [
+        9,
+        0
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "development",
+    "main_model": "F_structure",
+    "SB_model": "S_random",
+    "n": 90,
+    "counts_main_by_SB": [
+      [
+        39,
+        2
+      ],
+      [
+        35,
+        4
+      ],
+      [
+        9,
+        0
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "development",
+    "main_model": "G_ensemble",
+    "SB_model": "S_long",
+    "n": 90,
+    "counts_main_by_SB": [
+      [
+        38,
+        5
+      ],
+      [
+        37,
+        3
+      ],
+      [
+        6,
+        1
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "development",
+    "main_model": "G_ensemble",
+    "SB_model": "S_recent",
+    "n": 90,
+    "counts_main_by_SB": [
+      [
+        39,
+        4
+      ],
+      [
+        36,
+        4
+      ],
+      [
+        7,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "development",
+    "main_model": "G_ensemble",
+    "SB_model": "S_gap",
+    "n": 90,
+    "counts_main_by_SB": [
+      [
+        36,
+        7
+      ],
+      [
+        36,
+        4
+      ],
+      [
+        7,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "development",
+    "main_model": "G_ensemble",
+    "SB_model": "S_trend",
+    "n": 90,
+    "counts_main_by_SB": [
+      [
+        38,
+        5
+      ],
+      [
+        37,
+        3
+      ],
+      [
+        6,
+        1
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "development",
+    "main_model": "G_ensemble",
+    "SB_model": "S_transition",
+    "n": 90,
+    "counts_main_by_SB": [
+      [
+        37,
+        6
+      ],
+      [
+        35,
+        5
+      ],
+      [
+        4,
+        3
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "development",
+    "main_model": "G_ensemble",
+    "SB_model": "S_ensemble",
+    "n": 90,
+    "counts_main_by_SB": [
+      [
+        39,
+        4
+      ],
+      [
+        35,
+        5
+      ],
+      [
+        6,
+        1
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "development",
+    "main_model": "G_ensemble",
+    "SB_model": "S_random",
+    "n": 90,
+    "counts_main_by_SB": [
+      [
+        41,
+        2
+      ],
+      [
+        37,
+        3
+      ],
+      [
+        6,
+        1
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "development",
+    "main_model": "H_random",
+    "SB_model": "S_long",
+    "n": 90,
+    "counts_main_by_SB": [
+      [
+        43,
+        4
+      ],
+      [
+        27,
+        4
+      ],
+      [
+        9,
+        0
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "development",
+    "main_model": "H_random",
+    "SB_model": "S_recent",
+    "n": 90,
+    "counts_main_by_SB": [
+      [
+        43,
+        4
+      ],
+      [
+        30,
+        1
+      ],
+      [
+        7,
+        2
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "development",
+    "main_model": "H_random",
+    "SB_model": "S_gap",
+    "n": 90,
+    "counts_main_by_SB": [
+      [
+        43,
+        4
+      ],
+      [
+        26,
+        5
+      ],
+      [
+        7,
+        2
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "development",
+    "main_model": "H_random",
+    "SB_model": "S_trend",
+    "n": 90,
+    "counts_main_by_SB": [
+      [
+        42,
+        5
+      ],
+      [
+        29,
+        2
+      ],
+      [
+        7,
+        2
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "development",
+    "main_model": "H_random",
+    "SB_model": "S_transition",
+    "n": 90,
+    "counts_main_by_SB": [
+      [
+        40,
+        7
+      ],
+      [
+        26,
+        5
+      ],
+      [
+        7,
+        2
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "development",
+    "main_model": "H_random",
+    "SB_model": "S_ensemble",
+    "n": 90,
+    "counts_main_by_SB": [
+      [
+        44,
+        3
+      ],
+      [
+        27,
+        4
+      ],
+      [
+        8,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "development",
+    "main_model": "H_random",
+    "SB_model": "S_random",
+    "n": 90,
+    "counts_main_by_SB": [
+      [
+        43,
+        4
+      ],
+      [
+        30,
+        1
+      ],
+      [
+        8,
+        1
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "confirmation",
+    "main_model": "A_long",
+    "SB_model": "S_long",
+    "n": 40,
+    "counts_main_by_SB": [
+      [
+        21,
+        0
+      ],
+      [
+        12,
+        0
+      ],
+      [
+        7,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "confirmation",
+    "main_model": "A_long",
+    "SB_model": "S_recent",
+    "n": 40,
+    "counts_main_by_SB": [
+      [
+        16,
+        5
+      ],
+      [
+        12,
+        0
+      ],
+      [
+        6,
+        1
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "confirmation",
+    "main_model": "A_long",
+    "SB_model": "S_gap",
+    "n": 40,
+    "counts_main_by_SB": [
+      [
+        19,
+        2
+      ],
+      [
+        12,
+        0
+      ],
+      [
+        7,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "confirmation",
+    "main_model": "A_long",
+    "SB_model": "S_trend",
+    "n": 40,
+    "counts_main_by_SB": [
+      [
+        18,
+        3
+      ],
+      [
+        11,
+        1
+      ],
+      [
+        6,
+        1
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "confirmation",
+    "main_model": "A_long",
+    "SB_model": "S_transition",
+    "n": 40,
+    "counts_main_by_SB": [
+      [
+        21,
+        0
+      ],
+      [
+        11,
+        1
+      ],
+      [
+        7,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "confirmation",
+    "main_model": "A_long",
+    "SB_model": "S_ensemble",
+    "n": 40,
+    "counts_main_by_SB": [
+      [
+        19,
+        2
+      ],
+      [
+        12,
+        0
+      ],
+      [
+        7,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "confirmation",
+    "main_model": "A_long",
+    "SB_model": "S_random",
+    "n": 40,
+    "counts_main_by_SB": [
+      [
+        17,
+        4
+      ],
+      [
+        12,
+        0
+      ],
+      [
+        6,
+        1
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "confirmation",
+    "main_model": "B_recent",
+    "SB_model": "S_long",
+    "n": 40,
+    "counts_main_by_SB": [
+      [
+        17,
+        0
+      ],
+      [
+        15,
+        0
+      ],
+      [
+        8,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "confirmation",
+    "main_model": "B_recent",
+    "SB_model": "S_recent",
+    "n": 40,
+    "counts_main_by_SB": [
+      [
+        15,
+        2
+      ],
+      [
+        14,
+        1
+      ],
+      [
+        5,
+        3
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "confirmation",
+    "main_model": "B_recent",
+    "SB_model": "S_gap",
+    "n": 40,
+    "counts_main_by_SB": [
+      [
+        15,
+        2
+      ],
+      [
+        15,
+        0
+      ],
+      [
+        8,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "confirmation",
+    "main_model": "B_recent",
+    "SB_model": "S_trend",
+    "n": 40,
+    "counts_main_by_SB": [
+      [
+        14,
+        3
+      ],
+      [
+        14,
+        1
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "confirmation",
+    "main_model": "B_recent",
+    "SB_model": "S_transition",
+    "n": 40,
+    "counts_main_by_SB": [
+      [
+        17,
+        0
+      ],
+      [
+        15,
+        0
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "confirmation",
+    "main_model": "B_recent",
+    "SB_model": "S_ensemble",
+    "n": 40,
+    "counts_main_by_SB": [
+      [
+        15,
+        2
+      ],
+      [
+        15,
+        0
+      ],
+      [
+        8,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "confirmation",
+    "main_model": "B_recent",
+    "SB_model": "S_random",
+    "n": 40,
+    "counts_main_by_SB": [
+      [
+        16,
+        1
+      ],
+      [
+        13,
+        2
+      ],
+      [
+        6,
+        2
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "confirmation",
+    "main_model": "C_gap",
+    "SB_model": "S_long",
+    "n": 40,
+    "counts_main_by_SB": [
+      [
+        16,
+        0
+      ],
+      [
+        18,
+        0
+      ],
+      [
+        6,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "confirmation",
+    "main_model": "C_gap",
+    "SB_model": "S_recent",
+    "n": 40,
+    "counts_main_by_SB": [
+      [
+        13,
+        3
+      ],
+      [
+        17,
+        1
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "confirmation",
+    "main_model": "C_gap",
+    "SB_model": "S_gap",
+    "n": 40,
+    "counts_main_by_SB": [
+      [
+        16,
+        0
+      ],
+      [
+        16,
+        2
+      ],
+      [
+        6,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "confirmation",
+    "main_model": "C_gap",
+    "SB_model": "S_trend",
+    "n": 40,
+    "counts_main_by_SB": [
+      [
+        14,
+        2
+      ],
+      [
+        16,
+        2
+      ],
+      [
+        5,
+        1
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "confirmation",
+    "main_model": "C_gap",
+    "SB_model": "S_transition",
+    "n": 40,
+    "counts_main_by_SB": [
+      [
+        16,
+        0
+      ],
+      [
+        17,
+        1
+      ],
+      [
+        6,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "confirmation",
+    "main_model": "C_gap",
+    "SB_model": "S_ensemble",
+    "n": 40,
+    "counts_main_by_SB": [
+      [
+        16,
+        0
+      ],
+      [
+        16,
+        2
+      ],
+      [
+        6,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "confirmation",
+    "main_model": "C_gap",
+    "SB_model": "S_random",
+    "n": 40,
+    "counts_main_by_SB": [
+      [
+        14,
+        2
+      ],
+      [
+        16,
+        2
+      ],
+      [
+        5,
+        1
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "confirmation",
+    "main_model": "D_trend",
+    "SB_model": "S_long",
+    "n": 40,
+    "counts_main_by_SB": [
+      [
+        20,
+        0
+      ],
+      [
+        14,
+        0
+      ],
+      [
+        6,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "confirmation",
+    "main_model": "D_trend",
+    "SB_model": "S_recent",
+    "n": 40,
+    "counts_main_by_SB": [
+      [
+        17,
+        3
+      ],
+      [
+        11,
+        3
+      ],
+      [
+        6,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "confirmation",
+    "main_model": "D_trend",
+    "SB_model": "S_gap",
+    "n": 40,
+    "counts_main_by_SB": [
+      [
+        20,
+        0
+      ],
+      [
+        14,
+        0
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "confirmation",
+    "main_model": "D_trend",
+    "SB_model": "S_trend",
+    "n": 40,
+    "counts_main_by_SB": [
+      [
+        17,
+        3
+      ],
+      [
+        12,
+        2
+      ],
+      [
+        6,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "confirmation",
+    "main_model": "D_trend",
+    "SB_model": "S_transition",
+    "n": 40,
+    "counts_main_by_SB": [
+      [
+        19,
+        1
+      ],
+      [
+        14,
+        0
+      ],
+      [
+        6,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "confirmation",
+    "main_model": "D_trend",
+    "SB_model": "S_ensemble",
+    "n": 40,
+    "counts_main_by_SB": [
+      [
+        20,
+        0
+      ],
+      [
+        14,
+        0
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "confirmation",
+    "main_model": "D_trend",
+    "SB_model": "S_random",
+    "n": 40,
+    "counts_main_by_SB": [
+      [
+        18,
+        2
+      ],
+      [
+        11,
+        3
+      ],
+      [
+        6,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "confirmation",
+    "main_model": "E_pairs",
+    "SB_model": "S_long",
+    "n": 40,
+    "counts_main_by_SB": [
+      [
+        18,
+        0
+      ],
+      [
+        18,
+        0
+      ],
+      [
+        4,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "confirmation",
+    "main_model": "E_pairs",
+    "SB_model": "S_recent",
+    "n": 40,
+    "counts_main_by_SB": [
+      [
+        17,
+        1
+      ],
+      [
+        14,
+        4
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "confirmation",
+    "main_model": "E_pairs",
+    "SB_model": "S_gap",
+    "n": 40,
+    "counts_main_by_SB": [
+      [
+        16,
+        2
+      ],
+      [
+        18,
+        0
+      ],
+      [
+        4,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "confirmation",
+    "main_model": "E_pairs",
+    "SB_model": "S_trend",
+    "n": 40,
+    "counts_main_by_SB": [
+      [
+        18,
+        0
+      ],
+      [
+        14,
+        4
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "confirmation",
+    "main_model": "E_pairs",
+    "SB_model": "S_transition",
+    "n": 40,
+    "counts_main_by_SB": [
+      [
+        17,
+        1
+      ],
+      [
+        18,
+        0
+      ],
+      [
+        4,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "confirmation",
+    "main_model": "E_pairs",
+    "SB_model": "S_ensemble",
+    "n": 40,
+    "counts_main_by_SB": [
+      [
+        16,
+        2
+      ],
+      [
+        18,
+        0
+      ],
+      [
+        4,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "confirmation",
+    "main_model": "E_pairs",
+    "SB_model": "S_random",
+    "n": 40,
+    "counts_main_by_SB": [
+      [
+        16,
+        2
+      ],
+      [
+        16,
+        2
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "confirmation",
+    "main_model": "F_structure",
+    "SB_model": "S_long",
+    "n": 40,
+    "counts_main_by_SB": [
+      [
+        18,
+        0
+      ],
+      [
+        18,
+        0
+      ],
+      [
+        4,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "confirmation",
+    "main_model": "F_structure",
+    "SB_model": "S_recent",
+    "n": 40,
+    "counts_main_by_SB": [
+      [
+        15,
+        3
+      ],
+      [
+        15,
+        3
+      ],
+      [
+        4,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "confirmation",
+    "main_model": "F_structure",
+    "SB_model": "S_gap",
+    "n": 40,
+    "counts_main_by_SB": [
+      [
+        16,
+        2
+      ],
+      [
+        18,
+        0
+      ],
+      [
+        4,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "confirmation",
+    "main_model": "F_structure",
+    "SB_model": "S_trend",
+    "n": 40,
+    "counts_main_by_SB": [
+      [
+        16,
+        2
+      ],
+      [
+        15,
+        3
+      ],
+      [
+        4,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "confirmation",
+    "main_model": "F_structure",
+    "SB_model": "S_transition",
+    "n": 40,
+    "counts_main_by_SB": [
+      [
+        18,
+        0
+      ],
+      [
+        17,
+        1
+      ],
+      [
+        4,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "confirmation",
+    "main_model": "F_structure",
+    "SB_model": "S_ensemble",
+    "n": 40,
+    "counts_main_by_SB": [
+      [
+        16,
+        2
+      ],
+      [
+        18,
+        0
+      ],
+      [
+        4,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "confirmation",
+    "main_model": "F_structure",
+    "SB_model": "S_random",
+    "n": 40,
+    "counts_main_by_SB": [
+      [
+        17,
+        1
+      ],
+      [
+        16,
+        2
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "confirmation",
+    "main_model": "G_ensemble",
+    "SB_model": "S_long",
+    "n": 40,
+    "counts_main_by_SB": [
+      [
+        15,
+        0
+      ],
+      [
+        15,
+        0
+      ],
+      [
+        9,
+        0
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "confirmation",
+    "main_model": "G_ensemble",
+    "SB_model": "S_recent",
+    "n": 40,
+    "counts_main_by_SB": [
+      [
+        12,
+        3
+      ],
+      [
+        13,
+        2
+      ],
+      [
+        9,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "confirmation",
+    "main_model": "G_ensemble",
+    "SB_model": "S_gap",
+    "n": 40,
+    "counts_main_by_SB": [
+      [
+        14,
+        1
+      ],
+      [
+        14,
+        1
+      ],
+      [
+        9,
+        0
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "confirmation",
+    "main_model": "G_ensemble",
+    "SB_model": "S_trend",
+    "n": 40,
+    "counts_main_by_SB": [
+      [
+        12,
+        3
+      ],
+      [
+        14,
+        1
+      ],
+      [
+        9,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "confirmation",
+    "main_model": "G_ensemble",
+    "SB_model": "S_transition",
+    "n": 40,
+    "counts_main_by_SB": [
+      [
+        15,
+        0
+      ],
+      [
+        15,
+        0
+      ],
+      [
+        8,
+        1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "confirmation",
+    "main_model": "G_ensemble",
+    "SB_model": "S_ensemble",
+    "n": 40,
+    "counts_main_by_SB": [
+      [
+        14,
+        1
+      ],
+      [
+        14,
+        1
+      ],
+      [
+        9,
+        0
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "confirmation",
+    "main_model": "G_ensemble",
+    "SB_model": "S_random",
+    "n": 40,
+    "counts_main_by_SB": [
+      [
+        14,
+        1
+      ],
+      [
+        12,
+        3
+      ],
+      [
+        8,
+        1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "confirmation",
+    "main_model": "H_random",
+    "SB_model": "S_long",
+    "n": 40,
+    "counts_main_by_SB": [
+      [
+        18,
+        0
+      ],
+      [
+        17,
+        0
+      ],
+      [
+        5,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "confirmation",
+    "main_model": "H_random",
+    "SB_model": "S_recent",
+    "n": 40,
+    "counts_main_by_SB": [
+      [
+        16,
+        2
+      ],
+      [
+        14,
+        3
+      ],
+      [
+        4,
+        1
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "confirmation",
+    "main_model": "H_random",
+    "SB_model": "S_gap",
+    "n": 40,
+    "counts_main_by_SB": [
+      [
+        16,
+        2
+      ],
+      [
+        17,
+        0
+      ],
+      [
+        5,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "confirmation",
+    "main_model": "H_random",
+    "SB_model": "S_trend",
+    "n": 40,
+    "counts_main_by_SB": [
+      [
+        15,
+        3
+      ],
+      [
+        16,
+        1
+      ],
+      [
+        4,
+        1
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "confirmation",
+    "main_model": "H_random",
+    "SB_model": "S_transition",
+    "n": 40,
+    "counts_main_by_SB": [
+      [
+        18,
+        0
+      ],
+      [
+        16,
+        1
+      ],
+      [
+        5,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "confirmation",
+    "main_model": "H_random",
+    "SB_model": "S_ensemble",
+    "n": 40,
+    "counts_main_by_SB": [
+      [
+        16,
+        2
+      ],
+      [
+        17,
+        0
+      ],
+      [
+        5,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "period": "confirmation",
+    "main_model": "H_random",
+    "SB_model": "S_random",
+    "n": 40,
+    "counts_main_by_SB": [
+      [
+        16,
+        2
+      ],
+      [
+        14,
+        3
+      ],
+      [
+        5,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  }
+]

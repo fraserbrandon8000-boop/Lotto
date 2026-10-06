@@ -1,0 +1,19 @@
+# Independent Super Lotto experiment
+
+No Lotto input, fitted parameter, ranking, candidate, Jev output or conclusion is used. Shared helpers implement combinatorics, JSON and generic statistical operations only. Seed 2026092109 is specific to this game. This protocol is written before Super Lotto performance is calculated.
+
+Validate the Draws sheet independently, preserve workbook hash, compare derived columns and frequency summaries without using them as model inputs. Main game 5/35, independent Super Ball 1/10. Exact main matches follow Hypergeometric(35,5,5); joint SB outcomes multiply by .1/.9 under the independent uniform null.
+
+Warmup 50, expanding windows, final 40 origins are retrospective confirmation. Main A long frequency, B last30/EW20 mixture, C absence, D recent20-minus-prior40 trend, E training-Holm .05 positive pair lift (uniform if absent), F structure, G earlier-out-of-sample learned mixture, H uniform random. SB long/recent/gap/trend/transition/ensemble/random modeled separately; transition evidence must pass training-only Holm correction, otherwise no conditional signal. Main and SB ensemble weights use prior performance with 20 baseline pseudo-observations; freeze weights at confirmation start.
+
+For each origin compute all ranks, tickets, SB predictions before revealing the outcome. Main A–G search 512 uniform candidate combinations; H is independent. Test two-stage top 7/8/10/12/15 structures for A/B/D/G: additive top5 (same for every pool), structure-penalized exact search, and uniform within ranked pool. Correct these exploratory methods as a family. Ranking top5/7/8/10/12/15/20 coverage gets a separate Holm family; exact random pool-size baselines remain visible. E/F undefined individual rankings remain unavailable. Any proxy G rank is labelled.
+
+Randomness: 10,000 independent histories; marginal dispersion, pair dispersion/max, serial lag behavior, gap CDF distance, repeats, main sum/parity and SB dispersion/repeats. Two-sided dispersion checks can detect unusually regular as well as unusually uneven histories. Holm global correction. Pair and transition enrichment tests corrected separately. Sparse triples descriptive only.
+
+Report exact mean-match random-null tests, 20,000 random simulation means, five-draw block CIs, older/recent halves, all match counts, AP/coverage, SB accuracy and descriptive joint model outcomes. Sensitivity: recent20/40, decay10/40, trend10/30, history100, pair threshold .01/.10, equal ensemble and alternate search seed. Do not replace primary definitions with the best sensitivity setting.
+
+Statistical gate (main and SB separate): Holm confirmation p<.05, block 95% lower bound above own random mean, both halves above random. A main gate plus unvalidated SB does not establish joint jackpot advantage. Reused small retrospective samples require prospective replication.
+
+Generate 20 complete tickets (five main plus SB), at most three shared mains between candidates; profile independent main/SB generator support and sensitivity. Before Jev, candidate evidence is frozen. Jev receives only Super Lotto evidence and evaluates complete tickets via Choice and four Scores/four Nouls per candidate. It cannot establish a statistical edge.
+
+Final policy: if a generator passes its appropriate gate, candidates supported by it are eligible; rank deterministically by validated excess (main and SB each standardized by baseline SD), then Jev evidence quality, robustness, Choice probability, then candidate ID. If no generator qualifies, select one candidate by the fixed seeded uniform no-edge rule (seed 2026092109); Jev preferences are advisory. No post-result rerun or manual number substitution. Freeze exact full ranking arrays, configuration/source/request hashes, data cutoff, model version, seed, UTC timestamp and target draw before the next draw; append outcomes later. This new Super Lotto ledger never loads Lotto records.

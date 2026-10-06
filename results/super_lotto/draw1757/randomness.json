@@ -1,0 +1,125 @@
+{
+  "simulations": 10000,
+  "tests": [
+    {
+      "test": "main_dispersion",
+      "observed": 27.733333333333334,
+      "null_mean": 30.025638888888892,
+      "null95": [
+        17.5425,
+        45.70000000000001
+      ],
+      "p": 0.8091190880911909,
+      "holm_p": 1.0,
+      "classification": "consistent with randomness"
+    },
+    {
+      "test": "pair_dispersion",
+      "observed": 551.5722222222223,
+      "null_mean": 584.8382094444445,
+      "null95": [
+        509.9222222222222,
+        669.9276388888887
+      ],
+      "p": 0.42575742425757424,
+      "holm_p": 1.0,
+      "classification": "consistent with randomness"
+    },
+    {
+      "test": "max_pair",
+      "observed": 10.0,
+      "null_mean": 9.531,
+      "null95": [
+        8.0,
+        12.0
+      ],
+      "p": 0.4624537546245375,
+      "holm_p": 1.0,
+      "classification": "consistent with randomness"
+    },
+    {
+      "test": "serial_max_lag1_3",
+      "observed": 0.22598870056497114,
+      "null_mean": 0.21815149645168203,
+      "null95": [
+        0.1601123595505607,
+        0.31741573033707815
+      ],
+      "p": 0.33906609339066096,
+      "holm_p": 1.0,
+      "classification": "consistent with randomness"
+    },
+    {
+      "test": "gap_CDF",
+      "observed": 0.019690843887203102,
+      "null_mean": 0.026609170516409437,
+      "null95": [
+        0.014995916696361244,
+        0.04336439778223444
+      ],
+      "p": 0.8235176482351765,
+      "holm_p": 1.0,
+      "classification": "consistent with randomness"
+    },
+    {
+      "test": "repeat_mean",
+      "observed": 0.6424581005586593,
+      "null_mean": 0.7134256983240224,
+      "null95": [
+        0.6089385474860335,
+        0.8212290502793296
+      ],
+      "p": 0.2111788821117888,
+      "holm_p": 1.0,
+      "classification": "consistent with randomness"
+    },
+    {
+      "test": "sum_mean",
+      "observed": 86.83888888888889,
+      "null_mean": 90.00150611111111,
+      "null95": [
+        86.96097222222222,
+        93.06125
+      ],
+      "p": 0.0435956404359564,
+      "holm_p": 0.435956404359564,
+      "classification": "suggestive but insufficient evidence"
+    },
+    {
+      "test": "odd_mean",
+      "observed": 2.5722222222222224,
+      "null_mean": 2.5725983333333335,
+      "null95": [
+        2.4166666666666665,
+        2.727777777777778
+      ],
+      "p": 1,
+      "holm_p": 1.0,
+      "classification": "consistent with randomness"
+    },
+    {
+      "test": "SB_dispersion",
+      "observed": 8.777777777777779,
+      "null_mean": 8.967344444444445,
+      "null95": [
+        2.666666666666667,
+        18.669444444444405
+      ],
+      "p": 0.9145085491450855,
+      "holm_p": 1.0,
+      "classification": "consistent with randomness"
+    },
+    {
+      "test": "SB_repeat_rate",
+      "observed": 0.11731843575418995,
+      "null_mean": 0.10000837988826816,
+      "null95": [
+        0.061452513966480445,
+        0.1452513966480447
+      ],
+      "p": 0.5065493450654934,
+      "holm_p": 1.0,
+      "classification": "consistent with randomness"
+    }
+  ]
+}
