@@ -1,0 +1,189 @@
+{
+  "selected_share_of_no_edge_draws": 1.0,
+  "targets": 105,
+  "targets_with_full_pool": 98,
+  "gate_qualified_targets": [],
+  "mean_matches": {
+    "SL10": 0.6020408163265306,
+    "uniform_candidate": 0.7326530612244898,
+    "per_draw_seed": 0.7857142857142857,
+    "rotating_slot": 0.7653061224489796,
+    "random": 0.7142857142857143
+  },
+  "sb_hit_rate": {
+    "SL10": 0.11224489795918367,
+    "per_draw_seed": 0.1836734693877551,
+    "rotating_slot": 0.12244897959183673,
+    "random": 0.1
+  },
+  "per_slot_mean_matches": [
+    0.7551020408163265,
+    0.6428571428571429,
+    0.6938775510204082,
+    0.6836734693877551,
+    0.7755102040816326,
+    0.7551020408163265,
+    0.7959183673469388,
+    0.6938775510204082,
+    0.7448979591836735,
+    0.6020408163265306,
+    0.7142857142857143,
+    0.6836734693877551,
+    0.8469387755102041,
+    0.7551020408163265,
+    0.7551020408163265,
+    0.7959183673469388,
+    0.6428571428571429,
+    0.8061224489795918,
+    0.6938775510204082,
+    0.8163265306122449
+  ],
+  "recurrence": {
+    "SL10": {
+      "mean_consecutive_overlap": 3.1752577319587627,
+      "random_overlap": 0.7142857142857143,
+      "consecutive_identical": 29,
+      "sb_repeat_rate": 0.8762886597938144,
+      "random_sb_repeat": 0.1,
+      "distinct_numbers": 35,
+      "top_numbers": [
+        [
+          18,
+          29
+        ],
+        [
+          24,
+          27
+        ],
+        [
+          27,
+          26
+        ],
+        [
+          26,
+          24
+        ],
+        [
+          15,
+          22
+        ],
+        [
+          13,
+          20
+        ]
+      ],
+      "number_entropy_bits": 4.966629787077853,
+      "max_entropy_bits": 5.129283016944966,
+      "sb_counts": {
+        "1": 10,
+        "2": 33,
+        "3": 8,
+        "4": 4,
+        "5": 2,
+        "7": 1,
+        "8": 17,
+        "9": 5,
+        "10": 18
+      },
+      "sb_entropy_bits": 2.636756316672792
+    },
+    "per_draw_seed": {
+      "mean_consecutive_overlap": 1.288659793814433,
+      "random_overlap": 0.7142857142857143,
+      "consecutive_identical": 5,
+      "sb_repeat_rate": 0.20618556701030927,
+      "random_sb_repeat": 0.1,
+      "distinct_numbers": 35,
+      "top_numbers": [
+        [
+          18,
+          39
+        ],
+        [
+          6,
+          37
+        ],
+        [
+          17,
+          31
+        ],
+        [
+          24,
+          24
+        ],
+        [
+          29,
+          23
+        ],
+        [
+          7,
+          23
+        ]
+      ],
+      "number_entropy_bits": 4.84208366463534,
+      "max_entropy_bits": 5.129283016944966,
+      "sb_counts": {
+        "1": 6,
+        "2": 20,
+        "3": 5,
+        "4": 10,
+        "5": 11,
+        "6": 21,
+        "7": 4,
+        "8": 5,
+        "9": 6,
+        "10": 10
+      },
+      "sb_entropy_bits": 3.0901346559888183
+    },
+    "rotating_slot": {
+      "mean_consecutive_overlap": 1.8144329896907216,
+      "random_overlap": 0.7142857142857143,
+      "consecutive_identical": 5,
+      "sb_repeat_rate": 0.14432989690721648,
+      "random_sb_repeat": 0.1,
+      "distinct_numbers": 35,
+      "top_numbers": [
+        [
+          6,
+          36
+        ],
+        [
+          18,
+          33
+        ],
+        [
+          22,
+          33
+        ],
+        [
+          17,
+          32
+        ],
+        [
+          24,
+          27
+        ],
+        [
+          12,
+          21
+        ]
+      ],
+      "number_entropy_bits": 4.869023489169861,
+      "max_entropy_bits": 5.129283016944966,
+      "sb_counts": {
+        "1": 9,
+        "2": 17,
+        "3": 7,
+        "4": 11,
+        "5": 14,
+        "6": 24,
+        "8": 6,
+        "9": 3,
+        "10": 7
+      },
+      "sb_entropy_bits": 2.9516522781901275
+    }
+  },
+  "note": "Under the no-edge rule every V1 run selects index int(default_rng(2026092109).integers(20)) = 9 = SL10 = D_trend top ticket with the S_gap SB."
+}

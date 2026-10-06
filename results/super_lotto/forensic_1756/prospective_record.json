@@ -1,0 +1,108 @@
+{
+  "v1": [
+    {
+      "draw": 1753,
+      "main": 1,
+      "sb": 0
+    },
+    {
+      "draw": 1754,
+      "main": 0,
+      "sb": 0
+    },
+    {
+      "draw": 1755,
+      "main": 0,
+      "sb": 0
+    },
+    {
+      "draw": 1756,
+      "main": 0,
+      "sb": 0
+    }
+  ],
+  "v1_total": 1,
+  "v1_tickets": 4,
+  "v1_expected": 2.857142857142857,
+  "v1_p_le_obs": 0.17995523614574327,
+  "v1_sb_hits": 0,
+  "p0_portfolio": {
+    "draws": [
+      1755,
+      1756
+    ],
+    "tickets": 6,
+    "total_main": 2,
+    "expected": 4.285714285714286,
+    "p_le_obs": 0.15990781616665195,
+    "sb_hits": 1,
+    "challenger_entries": [
+      {
+        "draw": 1755,
+        "track": "P0_coverage_ticket_2",
+        "main": 1,
+        "sb": 0
+      },
+      {
+        "draw": 1755,
+        "track": "P0_coverage_ticket_3",
+        "main": 0,
+        "sb": 0
+      },
+      {
+        "draw": 1756,
+        "track": "P0_coverage_ticket_2",
+        "main": 0,
+        "sb": 0
+      },
+      {
+        "draw": 1756,
+        "track": "P0_coverage_ticket_3",
+        "main": 1,
+        "sb": 1
+      }
+    ]
+  },
+  "random_control": {
+    "entries": [
+      {
+        "draw": 1755,
+        "track": "random_control_ticket_1",
+        "main": 1,
+        "sb": 0
+      },
+      {
+        "draw": 1755,
+        "track": "random_control_ticket_2",
+        "main": 1,
+        "sb": 0
+      },
+      {
+        "draw": 1755,
+        "track": "random_control_ticket_3",
+        "main": 0,
+        "sb": 0
+      },
+      {
+        "draw": 1756,
+        "track": "random_control_ticket_1",
+        "main": 0,
+        "sb": 0
+      },
+      {
+        "draw": 1756,
+        "track": "random_control_ticket_2",
+        "main": 0,
+        "sb": 0
+      },
+      {
+        "draw": 1756,
+        "track": "random_control_ticket_3",
+        "main": 1,
+        "sb": 1
+      }
+    ],
+    "total_main": 3,
+    "sb_hits": 1
+  }
+}

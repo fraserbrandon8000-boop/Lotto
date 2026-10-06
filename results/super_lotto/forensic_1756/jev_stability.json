@@ -1,0 +1,301 @@
+{
+  "calls_1756": [
+    {
+      "run": "production",
+      "top": "SL10",
+      "top_prob": 0.5,
+      "confidence": 0.46,
+      "entropy_bits": 1.4896059022986483
+    },
+    {
+      "run": "replicate_1",
+      "top": "SL19",
+      "top_prob": 0.58,
+      "confidence": 0.55,
+      "entropy_bits": 1.4862272126007328
+    },
+    {
+      "run": "replicate_2",
+      "top": "SL19",
+      "top_prob": 0.56,
+      "confidence": 0.52,
+      "entropy_bits": 1.3110864164161566
+    },
+    {
+      "run": "replicate_3",
+      "top": "SL19",
+      "top_prob": 0.64,
+      "confidence": 0.61,
+      "entropy_bits": 1.3902479365769609
+    },
+    {
+      "run": "replicate_4",
+      "top": "SL19",
+      "top_prob": 0.54,
+      "confidence": 0.5,
+      "entropy_bits": 1.4544556084762545
+    },
+    {
+      "run": "replicate_5",
+      "top": "SL19",
+      "top_prob": 0.5,
+      "confidence": 0.47,
+      "entropy_bits": 1.525331772993948
+    }
+  ],
+  "SL10_vs_SL19": {
+    "SL10": {
+      "choice": [
+        0.5,
+        0.32,
+        0.38,
+        0.28,
+        0.38,
+        0.41000000000000003
+      ],
+      "midrank": [
+        1.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0,
+        2.0
+      ],
+      "rank_variance": 0.16666666666666666
+    },
+    "SL19": {
+      "choice": [
+        0.42,
+        0.58,
+        0.56,
+        0.64,
+        0.54,
+        0.5
+      ],
+      "midrank": [
+        2.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "rank_variance": 0.16666666666666666
+    }
+  },
+  "production_gap_SL10_minus_SL19": 0.08000000000000002,
+  "top3_sets": [
+    [
+      "SL05",
+      "SL10",
+      "SL19"
+    ],
+    [
+      "SL05",
+      "SL10",
+      "SL19"
+    ],
+    [
+      "SL05",
+      "SL10",
+      "SL19"
+    ],
+    [
+      "SL05",
+      "SL10",
+      "SL19"
+    ],
+    [
+      "SL10",
+      "SL16",
+      "SL19"
+    ],
+    [
+      "SL05",
+      "SL10",
+      "SL19"
+    ]
+  ],
+  "mean_pairwise_top3_overlap": 2.6666666666666665,
+  "rank_variance_all": {
+    "SL01": 0.6666666666666666,
+    "SL02": 0.075,
+    "SL03": 16.875,
+    "SL04": 0.175,
+    "SL05": 0.36666666666666664,
+    "SL06": 0.075,
+    "SL07": 0.075,
+    "SL08": 0.075,
+    "SL09": 0.075,
+    "SL10": 0.16666666666666666,
+    "SL11": 0.075,
+    "SL12": 0.075,
+    "SL13": 0.075,
+    "SL14": 0.075,
+    "SL15": 0.075,
+    "SL16": 1.6416666666666664,
+    "SL17": 0.075,
+    "SL18": 0.075,
+    "SL19": 0.16666666666666666,
+    "SL20": 0.075
+  },
+  "near_tie": true,
+  "aggregators_1756": {
+    "first_valid": "SL10",
+    "mean_choice": "SL19",
+    "median_rank": "SL19",
+    "majority_top1": "SL19"
+  },
+  "aggregator_outcomes": {
+    "1755": {
+      "aggregators": {
+        "first_valid": {
+          "candidate": "SL04",
+          "matches": 0
+        },
+        "mean_choice": {
+          "candidate": "SL04",
+          "matches": 0
+        },
+        "median_rank": {
+          "candidate": "SL04",
+          "matches": 0
+        },
+        "majority_top1": {
+          "candidate": "SL04",
+          "matches": 0
+        }
+      },
+      "v1_selected": "SL10",
+      "v1_matches": 0
+    },
+    "1756": {
+      "aggregators": {
+        "first_valid": {
+          "candidate": "SL10",
+          "matches": 0
+        },
+        "mean_choice": {
+          "candidate": "SL19",
+          "matches": 0
+        },
+        "median_rank": {
+          "candidate": "SL19",
+          "matches": 0
+        },
+        "majority_top1": {
+          "candidate": "SL19",
+          "matches": 0
+        }
+      },
+      "v1_selected": "SL10",
+      "v1_matches": 0
+    }
+  },
+  "stability_1757": {
+    "runs": [
+      {
+        "run": "production",
+        "model": "jev-1.13.0",
+        "top_choice": "SL19",
+        "top_probability": 0.8,
+        "confidence": 0.78,
+        "entropy_bits": 1.166572029354464
+      },
+      {
+        "run": "replicate_1",
+        "model": "jev-1.13.0",
+        "top_choice": "SL19",
+        "top_probability": 0.81,
+        "confidence": 0.79,
+        "entropy_bits": 1.0423974410300603
+      },
+      {
+        "run": "replicate_2",
+        "model": "jev-1.13.0",
+        "top_choice": "SL19",
+        "top_probability": 0.79,
+        "confidence": 0.77,
+        "entropy_bits": 1.175783045643076
+      },
+      {
+        "run": "replicate_3",
+        "model": "jev-1.13.0",
+        "top_choice": "SL19",
+        "top_probability": 0.8200000000000001,
+        "confidence": 0.8,
+        "entropy_bits": 1.0601612645244818
+      },
+      {
+        "run": "replicate_4",
+        "model": "jev-1.13.0",
+        "top_choice": "SL19",
+        "top_probability": 0.8,
+        "confidence": 0.78,
+        "entropy_bits": 1.0876823424783513
+      },
+      {
+        "run": "replicate_5",
+        "model": "jev-1.13.0",
+        "top_choice": "SL19",
+        "top_probability": 0.8,
+        "confidence": 0.78,
+        "entropy_bits": 1.0876823424783513
+      }
+    ],
+    "production_top": "SL19",
+    "top_choice_agreement_replicates": "5/5",
+    "mean_pairwise_spearman": 0.9786371926532453,
+    "min_pairwise_spearman": 0.9442275862757441,
+    "mean_top3_overlap": 3.0,
+    "min_top3_overlap": 3,
+    "choice_variance_by_candidate": {
+      "SL01": 2.6666666666666667e-05,
+      "SL02": 0.0,
+      "SL03": 1.6666666666666667e-05,
+      "SL04": 2.6666666666666667e-05,
+      "SL05": 2.666666666666668e-05,
+      "SL06": 0.00018666666666666655,
+      "SL07": 0.0,
+      "SL08": 0.0,
+      "SL09": 0.0,
+      "SL10": 1.6666666666666664e-05,
+      "SL11": 0.0,
+      "SL12": 0.0,
+      "SL13": 0.0,
+      "SL14": 0.0,
+      "SL15": 0.0,
+      "SL16": 0.0,
+      "SL17": 0.0,
+      "SL18": 0.0,
+      "SL19": 0.00010666666666666688,
+      "SL20": 0.0
+    },
+    "max_abs_prob_range": 0.039999999999999994,
+    "confidence": {
+      "mean": 0.7833333333333333,
+      "sd": 0.010327955589886455,
+      "min": 0.77,
+      "max": 0.8
+    },
+    "per_candidate_answer_max_range": {
+      "robustness": 0.10000000000000003,
+      "consensus": 0.02,
+      "quality": 0.06,
+      "stability": 0.43999999999999995,
+      "overfit": 0.010000000000000009,
+      "stable": 0.04999999999999999,
+      "stronger": 0.010000000000000002,
+      "dependent": 0.06000000000000005
+    },
+    "aggregated_top": "SL19",
+    "v1_policy": {
+      "selection_policy": "predeclared seeded uniform candidate no-edge rule",
+      "selected": "SL10",
+      "statistical_edge_detected": false,
+      "jev_influence": "none under the no-edge rule: the seeded index depends only on the number of candidates"
+    },
+    "would_aggregation_change_v1_ticket": "NO"
+  },
+  "verdict": "The first-response top-1 is not a stable object when two candidates are close (#1756: production SL10 0.50, 5/5 replicates SL19 0.50-0.64); it is stable when one candidate dominates (#1757: SL19 0.80 in all 6 calls). Overall rank order is highly correlated across calls. With 2 outcome draws no aggregator can be evaluated for skill; under the no-edge rule Jev never changes the ticket."
+}

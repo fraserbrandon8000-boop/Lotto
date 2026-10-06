@@ -1,0 +1,312 @@
+{
+  "run_1755": {
+    "models": {
+      "A_long": {
+        "score": -0.09538480602521572,
+        "rank": 22,
+        "tie": [
+          19,
+          22
+        ],
+        "informative": true
+      },
+      "B_recent": {
+        "score": -0.028446147973168717,
+        "rank": 18,
+        "tie": [
+          18,
+          18
+        ],
+        "informative": true
+      },
+      "C_gap": {
+        "score": -0.2865516270447052,
+        "rank": 18,
+        "tie": [
+          16,
+          18
+        ],
+        "informative": true
+      },
+      "D_trend": {
+        "score": -3.275904445892894e-17,
+        "rank": 22,
+        "tie": [
+          15,
+          22
+        ],
+        "informative": true
+      },
+      "E_pairs": {
+        "score": 0.0,
+        "rank": 32,
+        "tie": [
+          1,
+          35
+        ],
+        "informative": false
+      },
+      "F_structure": {
+        "applicable": false,
+        "reason": "Whole-ticket structure objective, no marginal score"
+      },
+      "G_ensemble": {
+        "score": 0.0,
+        "rank": 32,
+        "tie": [
+          1,
+          35
+        ],
+        "informative": false
+      },
+      "H_random": {
+        "score": 0.9085591772915753,
+        "rank": 3,
+        "tie": [
+          3,
+          3
+        ],
+        "informative": true
+      }
+    },
+    "P0_rank": 20,
+    "P0_EQ": -0.10259564526077243,
+    "candidate_frequency": 0,
+    "candidates": [],
+    "features": {
+      "count": "25",
+      "ew_rate": "0.1497601436927472",
+      "last30": "4",
+      "last20": "3",
+      "last10": "3",
+      "current_gap": "4",
+      "gap_percentile": "0.5416666666666666",
+      "trend": "0.0"
+    }
+  },
+  "run_1756": {
+    "models": {
+      "A_long": {
+        "score": 0.09525009524635329,
+        "rank": 17,
+        "tie": [
+          17,
+          19
+        ],
+        "informative": true
+      },
+      "B_recent": {
+        "score": 0.6903394197564741,
+        "rank": 8,
+        "tie": [
+          8,
+          8
+        ],
+        "informative": true
+      },
+      "C_gap": {
+        "score": -1.116080135871761,
+        "rank": 31,
+        "tie": [
+          31,
+          35
+        ],
+        "informative": true
+      },
+      "D_trend": {
+        "score": 0.5872202195078071,
+        "rank": 7,
+        "tie": [
+          7,
+          12
+        ],
+        "informative": true
+      },
+      "E_pairs": {
+        "score": 0.0,
+        "rank": 2,
+        "tie": [
+          1,
+          35
+        ],
+        "informative": false
+      },
+      "F_structure": {
+        "applicable": false,
+        "reason": "Whole-ticket structure objective, no marginal score"
+      },
+      "G_ensemble": {
+        "score": 0.04278826643981225,
+        "rank": 13,
+        "tie": [
+          13,
+          13
+        ],
+        "informative": true
+      },
+      "H_random": {
+        "score": 0.7608884637833369,
+        "rank": 8,
+        "tie": [
+          8,
+          8
+        ],
+        "informative": true
+      }
+    },
+    "P0_rank": 13,
+    "P0_EQ": 0.06418239965971839,
+    "candidate_frequency": 2,
+    "candidates": [
+      "SL11",
+      "SL12"
+    ],
+    "features": {
+      "count": "26",
+      "ew_rate": "0.17878111494922944",
+      "last30": "5",
+      "last20": "4",
+      "last10": "4",
+      "current_gap": "0",
+      "gap_percentile": "0.08",
+      "trend": "0.05000000000000002"
+    }
+  },
+  "post_result_1757_state": {
+    "models": {
+      "A_long": {
+        "score": 0.28483294698092426,
+        "rank": 15,
+        "tie": [
+          15,
+          17
+        ],
+        "informative": true
+      },
+      "B_recent": {
+        "score": 1.025178843931324,
+        "rank": 6,
+        "tie": [
+          6,
+          6
+        ],
+        "informative": true
+      },
+      "C_gap": {
+        "score": -1.1405057820372153,
+        "rank": 34,
+        "tie": [
+          31,
+          35
+        ],
+        "informative": true
+      },
+      "D_trend": {
+        "score": 1.2171612388855542,
+        "rank": 5,
+        "tie": [
+          3,
+          7
+        ],
+        "informative": true
+      },
+      "E_pairs": {
+        "score": 0.0,
+        "rank": 24,
+        "tie": [
+          1,
+          35
+        ],
+        "informative": false
+      },
+      "F_structure": {
+        "applicable": false,
+        "reason": "Whole-ticket structure objective, no marginal score"
+      },
+      "G_ensemble": {
+        "score": 0.23111120796009788,
+        "rank": 12,
+        "tie": [
+          12,
+          12
+        ],
+        "informative": true
+      },
+      "H_random": {
+        "score": 0.6293256001421631,
+        "rank": 14,
+        "tie": [
+          14,
+          14
+        ],
+        "informative": true
+      }
+    },
+    "P0_rank": 12,
+    "P0_EQ": 0.3466668119401468,
+    "candidate_frequency": 2,
+    "candidates": [
+      "SL10",
+      "SL11"
+    ],
+    "features": {
+      "count": "27",
+      "ew_rate": "0.2068095880418129",
+      "last30": "5",
+      "last20": "5",
+      "last10": "5",
+      "current_gap": "0",
+      "gap_percentile": "0.11538461538461539",
+      "trend": "0.1"
+    },
+    "note": "cutoff #1756 state used by the frozen #1757 run; produced by unchanged V1/P0, recorded only to show feature movement"
+  },
+  "movement_1755_to_1756": {
+    "count": [
+      "25",
+      "26"
+    ],
+    "ew_rate": [
+      "0.1497601436927472",
+      "0.17878111494922944"
+    ],
+    "last30": [
+      "4",
+      "5"
+    ],
+    "last20": [
+      "3",
+      "4"
+    ],
+    "last10": [
+      "3",
+      "4"
+    ],
+    "current_gap": [
+      "4",
+      "0"
+    ],
+    "gap_percentile": [
+      "0.5416666666666666",
+      "0.08"
+    ],
+    "trend": [
+      "0.0",
+      "0.05000000000000002"
+    ]
+  },
+  "historical_P0_rank_of_15": {
+    "mean": 19.39047619047619,
+    "median": 21.0,
+    "in_top12_share": 0.3238095238095238
+  },
+  "historical_15_wins": 27,
+  "draws": 180,
+  "random_recurrence": {
+    "p_specific_number_repeats": 0.14285714285714285,
+    "p_any_number_repeats_next_draw": 0.5610229429015008,
+    "historical_any_repeat_rate": 0.5083798882681564,
+    "p_some_number_wins_two_consecutive_draws_in_a_given_pair": 0.5610229429015008
+  },
+  "verdict": "15 was mid-table in both runs (no informative model put it in its Top 12 either time); its repeat is ordinary random recurrence (a repeat of at least one number between consecutive draws happens ~55% of the time). No repeat rule is created."
+}

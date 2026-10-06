@@ -1,0 +1,165 @@
+{
+  "candidate_freeze": {
+    "candidates.json": "exact",
+    "jev_state.json": "exact",
+    "complete_rankings.json": "exact",
+    "predraw_rankings_and_fit.json": "exact",
+    "metadata.json": "exact",
+    "PROTOCOL.md": "exact"
+  },
+  "prediction_embedded": {
+    "exact": 43
+  },
+  "prediction_mismatches": [],
+  "p0_frozen_hashes": {
+    "p0_result.json": "exact",
+    "universe_scores.csv": "exact",
+    "scripts/research/super_p0.py": "exact",
+    "scripts/research/super_p0_apply.py": "exact",
+    "scripts/research/super_p0_freeze.py": "exact"
+  },
+  "HASHES_sha256_file": {
+    "prospective/prediction_1756.json": "exact",
+    "draw1756/candidate-freeze.json": "exact",
+    "draw1756/candidates.json": "exact",
+    "draw1756/jev_state.json": "exact",
+    "draw1756/jev_request.json": "exact",
+    "draw1756/jev_response.json": "exact",
+    "draw1756/jev_receipt.json": "exact",
+    "draw1756/draws.json": "exact",
+    "draw1756/p0/p0_frozen.json": "exact",
+    "draw1756/p0/p0_result.json": "exact",
+    "draw1756/p0/universe_scores.csv": "exact",
+    "draw1756/p0_jev_audit/audit_receipt.json": "exact",
+    "draw1756/p0_jev_audit/audit_request.json": "exact",
+    "draw1756/p0_jev_audit/audit_response.json": "exact",
+    "draw1756/p0_jev_audit/audit_state.json": "exact",
+    "random_control_1756/random_control_frozen.json": "exact",
+    "jev_stability_1756/replicate_1_response.json": "exact",
+    "jev_stability_1756/replicate_2_response.json": "exact",
+    "jev_stability_1756/replicate_3_response.json": "exact",
+    "jev_stability_1756/replicate_4_response.json": "exact",
+    "jev_stability_1756/replicate_5_response.json": "exact",
+    "jev_stability_1756/replicates_receipt.json": "exact",
+    "jev_stability_1756/stability_analysis.json": "exact",
+    "p0_protocol/PROTOCOL.json": "exact"
+  },
+  "ledger_prefix_at_1756_freeze": "exact",
+  "ledger_append_only": true,
+  "jev": {
+    "state": true,
+    "request_compact": true,
+    "response": true,
+    "single_attempt": true,
+    "offline_validation": "Inclusive 0.03 rounded-score boundary plus 1e-12 floating-point epsilon; no response modification or network retry.",
+    "boundary": [
+      {
+        "question": "SL08_stability",
+        "score": 1.07,
+        "delta": 0.030000000000000027
+      },
+      {
+        "question": "SL09_stability",
+        "score": 1.12,
+        "delta": 0.030000000000000027
+      }
+    ]
+  },
+  "post_freeze_replicates": {
+    "identical_request_bytes": true,
+    "request_sha256": "2f6faebd6a2b393604744415bc546a3d8c68af0196147ac91bd5bf8a5dcb254e",
+    "runs": [
+      {
+        "replicate": 1,
+        "created_utc": "2026-10-02T17:22:57.251Z",
+        "after_ticket_freeze": true
+      },
+      {
+        "replicate": 2,
+        "created_utc": "2026-10-02T17:22:57.776Z",
+        "after_ticket_freeze": true
+      },
+      {
+        "replicate": 3,
+        "created_utc": "2026-10-02T17:22:58.293Z",
+        "after_ticket_freeze": true
+      },
+      {
+        "replicate": 4,
+        "created_utc": "2026-10-02T17:22:58.815Z",
+        "after_ticket_freeze": true
+      },
+      {
+        "replicate": 5,
+        "created_utc": "2026-10-02T17:22:59.318Z",
+        "after_ticket_freeze": true
+      }
+    ]
+  },
+  "ledger": {
+    "prediction_frozen": "exact",
+    "P0_coverage_ticket_2": "exact",
+    "P0_coverage_ticket_3": "exact",
+    "random_control_ticket_1": "exact",
+    "random_control_ticket_2": "exact",
+    "random_control_ticket_3": "exact"
+  },
+  "v1_ticket_in_pool": true,
+  "p0_ticket1_equals_v1": true,
+  "chronology_utc": {
+    "pool_frozen": "2026-10-02T17:21:49.221034+00:00",
+    "jev_attempt": "2026-10-02T17:21:57.811Z",
+    "jev_receipt": "2026-10-02T17:21:58.490Z",
+    "v1_frozen": "2026-10-02T17:22:35.426277+00:00",
+    "p0_frozen": "2026-10-02T17:22:36.551891+00:00",
+    "random_control": "2026-10-02T17:23:00.497554+00:00",
+    "scheduled_draw": "2026-10-03T01:30:00Z"
+  },
+  "commits": {
+    "pool": "1bcb011 2026-10-02T17:21:49+00:00",
+    "tickets": "3fc61ca 2026-10-02T17:22:36+00:00",
+    "p0": "3fc61ca 2026-10-02T17:22:36+00:00",
+    "post_freeze": "a811beb 2026-10-02T17:23:36+00:00",
+    "stability": "a811beb 2026-10-02T17:23:36+00:00",
+    "random_control": "a811beb 2026-10-02T17:23:36+00:00"
+  },
+  "tickets_unchanged_after_freeze_commit": true,
+  "random_control": {
+    "seed": 2026093061,
+    "tickets": [
+      {
+        "mains": [
+          3,
+          4,
+          13,
+          22,
+          26
+        ],
+        "super_ball": 4
+      },
+      {
+        "mains": [
+          2,
+          3,
+          20,
+          23,
+          31
+        ],
+        "super_ball": 2
+      },
+      {
+        "mains": [
+          9,
+          10,
+          14,
+          29,
+          30
+        ],
+        "super_ball": 3
+      }
+    ]
+  },
+  "frozen_before_draw": true,
+  "post_freeze_commit_descends_from_freeze": true,
+  "ALL_PASS": true
+}
