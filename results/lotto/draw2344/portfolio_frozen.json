@@ -1,0 +1,83 @@
+{
+  "status": "PRE-DRAW / ALL THREE PLAYABLE TICKETS FROZEN",
+  "created_utc": "2026-10-07T15:37:10.401882+00:00",
+  "target_draw": 2344,
+  "target_date": "2026-10-07",
+  "scheduled_draw_utc": "2026-10-08T01:25:00Z",
+  "cutoff_draw": 2343,
+  "protocol": "Lotto Protocol 2344",
+  "protocol_commit": "d4e55886",
+  "addendum_commit": "84e2226",
+  "audit_commit": "83f3ed1",
+  "tickets": [
+    {
+      "ticket": 1,
+      "track": "V1 SCIENCE",
+      "numbers": [
+        16,
+        21,
+        26,
+        32,
+        34,
+        36
+      ],
+      "candidate_id": "C08",
+      "generator": "C_gap",
+      "rule": "no-edge: original seeded uniform candidate rule, subject to <=2 overlap constraint"
+    },
+    {
+      "ticket": 2,
+      "track": "ALIGNED COVERAGE",
+      "numbers": [
+        4,
+        7,
+        12,
+        13,
+        24,
+        33
+      ],
+      "full_universe_rank": 1,
+      "T": 0.21059093606793228,
+      "rule": "highest-ranked combination disjoint from ticket 1"
+    },
+    {
+      "ticket": 3,
+      "track": "ALIGNED COVERAGE",
+      "numbers": [
+        1,
+        2,
+        14,
+        18,
+        22,
+        31
+      ],
+      "full_universe_rank": 66269,
+      "T": 0.1018170328297096,
+      "rule": "highest-ranked combination disjoint from tickets 1-2"
+    }
+  ],
+  "pairwise_overlap": {
+    "1-2": 0,
+    "1-3": 0,
+    "2-3": 0
+  },
+  "unique_numbers": 18,
+  "jackpot_probability": 1.0866883931899413e-06,
+  "validated_predictive_edge": false,
+  "hashes": {
+    "results/lotto/draw2344/draws.json": "e0f7b12b250f9493fc79faca4e9afc963aab635fe0668a1b0730cdb86fcd3ed4",
+    "results/lotto/draw2344/candidates.json": "85f5ea805f550a0fd205489df01ce31732ad0daba9af6ecbd7484daddadb2e58",
+    "results/lotto/draw2344/pool_frozen_pre_jev.json": "04f5d1cd4c1727aaabf22a531bdaf11a07257b4d46afa867905be12e52fad24f",
+    "results/lotto/draw2344/jev_request.json": "80ba84ef7bd3333795adbc04ed658d5fd87d210215caf27625ddea639fe74a43",
+    "results/lotto/draw2344/jev_response.json": "720fb1213c73755f3f0d115fa110394d21246872a2e1814df9df74fd63f387c4",
+    "results/lotto/draw2344/jev_receipt.json": "77af517b71e5c724af39dd1c2987dc4c2f0395f76a7fe39d3314fbbf88b4a4b5",
+    "results/lotto/draw2344/frozen.json": "f862375754f046178b3b06c4afb7a84df2af1c88e16c2e0bc44d51f646d388c0",
+    "results/lotto/draw2344/aligned/aligned_result.json": "10c5d5be28eca7c353ad780538df28a342f388a42c4b5fe2a18fadcefe87b9d7",
+    "results/lotto/protocol_2344/PROTOCOL.md": "e0e4a71c23c3bdfe617727a6d29b6e911c5832a7b00389f96eedc2bb56a08cb2",
+    "scripts/research/protocol_2344.py": "8263a6cd2e3468f45b53ca8cdf7d98f617a8348729031f4be8e788569e4038c9",
+    "scripts/research/v1_prospective_jev_preserve.mjs": "fc82438a9ede3d9a99e399547a72b9710f9cbb920053640bbdda3d8fbdd27081",
+    "results/lotto/p0_protocol/PROTOCOL.json": "56f0f24846359fba7ac07a8f64051d72d280f1a2ecda2ba59cd03632e1ea695f"
+  },
+  "universe_score_sha256": "fdc8c64d4a91518a6699ab8b8c924ab48777bf782dc5911cec96528a287151ce",
+  "dataset_sha256": "e0f7b12b250f9493fc79faca4e9afc963aab635fe0668a1b0730cdb86fcd3ed4"
+}
