@@ -1,0 +1,12 @@
+{
+ "protocol": "Lotto Protocol 2344",
+ "validated_predictive_edge": false,
+ "promoted_predictive_refinements": [],
+ "adopted_objective_alignment_changes": ["K1 explicit objective and metric classes", "K2 ALIGNED COVERAGE constructor for tickets 2-3 (full universe, pairwise-disjoint, frozen P0 weights as tie-break)", "K3 full-universe component normalisation"],
+ "adopted_reproducibility_changes": ["K4 parameterised entry point scripts/research/protocol_2344.py"],
+ "research_only": ["K5 prospective-only promotion with cumulative alpha budget", "K6 conditional-Bernoulli log-score per draw", "K7 per-draw random control + exact null pmfs"],
+ "p1_shadows": ["P1 SHADOW concentration: top-3 distinct combinations by the same full-universe ranking (jackpot-rational only under a calibrated signal)", "P1 SHADOW V1 per-draw seed (exploration)", "legacy P0 Coverage (frozen protocol 72e1c075) continuity shadow"],
+ "not_promoted_reasons": {"wider/dynamic pools, weighting variants, Bayesian, voting, best-trailing": "no ordering beats random (A6, Holm 1.0)", "concentration": "no calibrated combination model (A9); lowers secondary tiers (A2)", "V1 seed variants": "no predictive difference (A11)", "Jev aggregation": "not testable; no measurable signal (A19)"},
+ "production_tracks_2344": ["TICKET 1 V1 SCIENCE (unchanged)", "TICKET 2 ALIGNED COVERAGE", "TICKET 3 ALIGNED COVERAGE"],
+ "draw_2343_used_to_tune_any_parameter": false
+}
