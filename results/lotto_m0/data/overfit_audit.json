@@ -1,0 +1,69 @@
+{
+ "method": "in-sample: parameters/state fitted on all draws through #2343 and applied to every 3rd training target; OOS: rolling results",
+ "audit": {
+  "M0-A": {
+   "in_sample_mean_u": 0.37598892769171405,
+   "n_in_sample": 45,
+   "oos_mean_u": 0.4882266708775707,
+   "effective_params": 2,
+   "flag": "HISTORICAL FIT, NOT PREDICTION"
+  },
+  "M0-B": {
+   "in_sample_mean_u": 0.4655157710885266,
+   "n_in_sample": 45,
+   "oos_mean_u": 0.5194206658277052,
+   "effective_params": 8,
+   "flag": "no overfit flag"
+  },
+  "M0-C": {
+   "in_sample_mean_u": 0.3767640343491736,
+   "n_in_sample": 45,
+   "oos_mean_u": 0.47558371051701903,
+   "effective_params": 8,
+   "flag": "HISTORICAL FIT, NOT PREDICTION"
+  },
+  "M0-F": {
+   "in_sample_mean_u": 0.39031564635279803,
+   "n_in_sample": 45,
+   "oos_mean_u": 0.5231210359006631,
+   "effective_params": 13,
+   "flag": "HISTORICAL FIT, NOT PREDICTION"
+  },
+  "M0-E (BIC choice K=1)": {
+   "in_sample_mean_u": 0.3769857389052435,
+   "n_in_sample": 45,
+   "oos_mean_u": 0.48810876382514456,
+   "effective_params": 39,
+   "flag": "HISTORICAL FIT, NOT PREDICTION"
+  },
+  "M0-E forced K=3 (smoothed, sees target)": {
+   "in_sample_mean_u": 0.15408910176712032,
+   "n_in_sample": 45,
+   "oos_mean_u": 0.48810876382514456,
+   "effective_params": 39,
+   "flag": "HISTORICAL FIT, NOT PREDICTION"
+  },
+  "M0-G": {
+   "in_sample_mean_u": 0.37598892769171405,
+   "n_in_sample": 45,
+   "oos_mean_u": 0.4892857603814564,
+   "effective_params": 3,
+   "flag": "HISTORICAL FIT, NOT PREDICTION"
+  },
+  "M0-G forced gamma=1 (pairs include target)": {
+   "in_sample_mean_u": 0.17911774908678935,
+   "n_in_sample": 45,
+   "oos_mean_u": 0.4892857603814564,
+   "effective_params": 3,
+   "flag": "HISTORICAL FIT, NOT PREDICTION"
+  },
+  "M0-X": {
+   "in_sample_mean_u": 0.5166551618564003,
+   "n_in_sample": 45,
+   "oos_mean_u": 0.47933122080564994,
+   "effective_params": 1,
+   "flag": "no overfit flag"
+  }
+ },
+ "grid_sensitivity_note": "Hyper-parameters chosen at each target are recorded per target in rolling_results.json (params)."
+}

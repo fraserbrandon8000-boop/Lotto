@@ -1,0 +1,48 @@
+{
+ "method": "draws at and after the target replaced with random draws; all frozen model outputs at the target must be identical",
+ "tests": [
+  {
+   "target": 2241,
+   "identical": {
+    "M0-A": true,
+    "M0-B": true,
+    "M0-C": true,
+    "M0-D": true,
+    "M0-E": true,
+    "M0-F": true,
+    "M0-G": true,
+    "M0-H": true,
+    "M0-X": true
+   }
+  },
+  {
+   "target": 2291,
+   "identical": {
+    "M0-A": true,
+    "M0-B": true,
+    "M0-C": true,
+    "M0-D": true,
+    "M0-E": true,
+    "M0-F": true,
+    "M0-G": true,
+    "M0-H": true,
+    "M0-X": true
+   }
+  },
+  {
+   "target": 2343,
+   "identical": {
+    "M0-A": true,
+    "M0-B": true,
+    "M0-C": true,
+    "M0-D": true,
+    "M0-E": true,
+    "M0-F": true,
+    "M0-G": true,
+    "M0-H": true,
+    "M0-X": true
+   }
+  }
+ ],
+ "PASS": true
+}

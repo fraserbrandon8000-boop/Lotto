@@ -1,0 +1,46 @@
+{
+ "rule": "lowest out-of-sample mean u; ties: fewer effective parameters, then ID (charter)",
+ "ranking": [
+  [
+   "M0-C",
+   0.47558371051701903
+  ],
+  [
+   "M0-X",
+   0.47933122080564994
+  ],
+  [
+   "M0-E",
+   0.48810876382514456
+  ],
+  [
+   "M0-A",
+   0.4882266708775707
+  ],
+  [
+   "M0-G",
+   0.4892857603814564
+  ],
+  [
+   "M0-H",
+   0.49091785604507043
+  ],
+  [
+   "M0-D",
+   0.4997822320036525
+  ],
+  [
+   "M0-B",
+   0.5194206658277052
+  ],
+  [
+   "M0-F",
+   0.5231210359006631
+  ]
+ ],
+ "selected": "M0-C",
+ "verdict": "NO EDGE",
+ "statement": "M0 HAS NOT DEMONSTRATED A PREDICTIVE RECONSTRUCTION EDGE.",
+ "passing": [],
+ "production_influence": "none (no edge; prospective test required: mean u < 0.5 one-sided at alpha 0.05 after 50 post-freeze draws)"
+}

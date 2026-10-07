@@ -1,0 +1,23 @@
+{
+ "charter_commit": "1643ab5",
+ "selected": "M0-C",
+ "dataset_sha256": "099c244b801ae0a52effb3f6ed4f781949738bb0b21f7f0166f86e3be5410e2c",
+ "config_sha256": "d8abe5ed4de4fc04af3d34debcc898bb75095bbc0e4f4441e1ad17f40d41c151",
+ "files": {
+  "results/lotto_m0/RESEARCH_CHARTER.md": "220097e63264144afc7a2371a8c78dd952ebf4e44c723970c2feafd6a8fbfebb",
+  "results/lotto_m0/MODEL_REGISTRY.json": "528948a701056d18aae16c9a9d371b26fdb717b9f48b71b24454b2379e7b8e6b",
+  "results/lotto_m0/VALIDATION_PROTOCOL.md": "126e0c0634978644e392640ff0ae471b0c9659835351334e55323116a9a7d8ee",
+  "results/lotto_m0/NULL_BASELINES.md": "6cea5c15df8bdb744e29427589a659ad3582c7995fc9dc6857b669ec70462ae9",
+  "scripts/m0/m0.py": "d0d55c4a2177cf342400b72c4daab5d5423c159ae193bee264ee1f1d6484f357",
+  "scripts/m0/m0_run.py": "13cbae71e9a2ac1e97712d91fce163391b3963202a3b0bbc7cc4278e527fdfc6",
+  "scripts/m0/m0_stats.py": "e6ea911f1d07ee63a746e64d1daaa6539976b402e7f81d6633d1db2f455c5d6d",
+  "scripts/m0/m0_overfit.py": "650fade6f8b327ab590a5b7eb54ad6320afc325de95297d706c082a4554f2faf",
+  "scripts/m0/m0_representations.py": "ec712da4304d327394def2fee1bdb35512d81b405055df14132a80c655b76385",
+  "results/lotto/draw2343/draws.json": "1a604b3c6674d86fe0ca6aba66c1c1eacde02d2a8457a220e9657c80e08fafb8",
+  "results/lotto_m0/data/rolling_results.json": "d06931c97e2c1b457bcb060f8696925856d1f54597a87bfacaf055b81d78fce9",
+  "results/lotto_m0/data/statistics.json": "f713d6e4168c9f10f7a722435f184c205141ecd4dfc7402d97a49a9e909617ab",
+  "results/lotto_m0/HISTORICAL_REPORT.md": "75531e9ec3b2befefb520c2c57faede02c5d1b9ad41db5de1b921142a5a6850c",
+  "results/lotto_m0/protocol/PROTOCOL.md": "417fc165ba901702695d653ca4fdece19467493a3108f1156ca0161ba46d31bd",
+  "results/lotto_m0/protocol/MODEL_SELECTION.json": "a3fd2cd8d1e9dfc68a419e2a01f2ced54d917c6edfddccda3385fbdd594db640"
+ }
+}

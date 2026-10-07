@@ -1,0 +1,291 @@
+{
+ "best_rankings": [
+  {
+   "rank": 6432.5,
+   "draw_id": 2308,
+   "model": "M0-B",
+   "actual": [
+    6,
+    8,
+    11,
+    13,
+    20,
+    34
+   ],
+   "primary": [
+    4,
+    8,
+    11,
+    12,
+    13,
+    19
+   ],
+   "primary_matches": 3
+  },
+  {
+   "rank": 6845.5,
+   "draw_id": 2212,
+   "model": "M0-A",
+   "actual": [
+    3,
+    11,
+    14,
+    18,
+    21,
+    24
+   ],
+   "primary": [
+    2,
+    11,
+    18,
+    19,
+    24,
+    25
+   ],
+   "primary_matches": 3
+  },
+  {
+   "rank": 6862.5,
+   "draw_id": 2212,
+   "model": "M0-E",
+   "actual": [
+    3,
+    11,
+    14,
+    18,
+    21,
+    24
+   ],
+   "primary": [
+    2,
+    11,
+    18,
+    19,
+    24,
+    25
+   ],
+   "primary_matches": 3
+  },
+  {
+   "rank": 7737.5,
+   "draw_id": 2219,
+   "model": "M0-C",
+   "actual": [
+    7,
+    18,
+    24,
+    26,
+    28,
+    33
+   ],
+   "primary": [
+    4,
+    18,
+    25,
+    28,
+    30,
+    33
+   ],
+   "primary_matches": 3
+  },
+  {
+   "rank": 11423.0,
+   "draw_id": 2219,
+   "model": "M0-X",
+   "actual": [
+    7,
+    18,
+    24,
+    26,
+    28,
+    33
+   ],
+   "primary": [
+    4,
+    18,
+    25,
+    28,
+    30,
+    33
+   ],
+   "primary_matches": 3
+  },
+  {
+   "rank": 19871.0,
+   "draw_id": 2225,
+   "model": "M0-B",
+   "actual": [
+    5,
+    8,
+    11,
+    17,
+    27,
+    30
+   ],
+   "primary": [
+    8,
+    12,
+    19,
+    25,
+    27,
+    38
+   ],
+   "primary_matches": 2
+  },
+  {
+   "rank": 23844.0,
+   "draw_id": 2341,
+   "model": "M0-D",
+   "actual": [
+    1,
+    4,
+    6,
+    22,
+    33,
+    38
+   ],
+   "primary": [
+    8,
+    10,
+    18,
+    33,
+    35,
+    38
+   ],
+   "primary_matches": 2
+  },
+  {
+   "rank": 31186.0,
+   "draw_id": 2327,
+   "model": "M0-F",
+   "actual": [
+    2,
+    12,
+    14,
+    20,
+    24,
+    27
+   ],
+   "primary": [
+    2,
+    4,
+    10,
+    12,
+    26,
+    28
+   ],
+   "primary_matches": 2
+  },
+  {
+   "rank": 33184.0,
+   "draw_id": 2212,
+   "model": "M0-G",
+   "actual": [
+    3,
+    11,
+    14,
+    18,
+    21,
+    24
+   ],
+   "primary": [
+    11,
+    19,
+    25,
+    30,
+    33,
+    34
+   ],
+   "primary_matches": 1
+  },
+  {
+   "rank": 37572.0,
+   "draw_id": 2341,
+   "model": "M0-E",
+   "actual": [
+    1,
+    4,
+    6,
+    22,
+    33,
+    38
+   ],
+   "primary": [
+    1,
+    8,
+    18,
+    24,
+    33,
+    38
+   ],
+   "primary_matches": 3
+  },
+  {
+   "rank": 38210.5,
+   "draw_id": 2341,
+   "model": "M0-A",
+   "actual": [
+    1,
+    4,
+    6,
+    22,
+    33,
+    38
+   ],
+   "primary": [
+    1,
+    8,
+    18,
+    24,
+    33,
+    38
+   ],
+   "primary_matches": 3
+  },
+  {
+   "rank": 38210.5,
+   "draw_id": 2341,
+   "model": "M0-G",
+   "actual": [
+    1,
+    4,
+    6,
+    22,
+    33,
+    38
+   ],
+   "primary": [
+    1,
+    8,
+    18,
+    24,
+    33,
+    38
+   ],
+   "primary_matches": 3
+  }
+ ],
+ "expected_best_rank_null": 2304.408180300501,
+ "n_rankings": 1197,
+ "selected_model": "M0-C",
+ "reconstructable_decile_threshold_u": 0.08345031533886023,
+ "state_comparison_descriptive": {
+  "retained": {
+   "reconstructable": 0.35714285714285715,
+   "others": 1.0672268907563025
+  },
+  "sum": {
+   "reconstructable": 117.5,
+   "others": 115.27731092436974
+  },
+  "odd": {
+   "reconstructable": 2.9285714285714284,
+   "others": 2.857142857142857
+  },
+  "nb1": {
+   "reconstructable": 1.6428571428571428,
+   "others": 1.680672268907563
+  }
+ },
+ "note": "Descriptive only. No rule is built from this comparison; any such rule would need a new nested validation layer."
+}
