@@ -1,0 +1,34 @@
+{
+ "method": "All draws at and after the target index replaced with random draws; every pre-target artifact must be identical.",
+ "tests": [
+  {
+   "target": 2241,
+   "features_identical": true,
+   "weights_identical": true,
+   "p0_order_identical": true,
+   "v1_candidates_identical": true
+  },
+  {
+   "target": 2281,
+   "features_identical": true,
+   "weights_identical": true,
+   "p0_order_identical": true,
+   "v1_candidates_identical": true
+  },
+  {
+   "target": 2321,
+   "features_identical": true,
+   "weights_identical": true,
+   "p0_order_identical": true,
+   "v1_candidates_identical": true
+  },
+  {
+   "target": 2343,
+   "features_identical": true,
+   "weights_identical": true,
+   "p0_order_identical": true,
+   "v1_candidates_identical": true
+  }
+ ],
+ "PASS": true
+}

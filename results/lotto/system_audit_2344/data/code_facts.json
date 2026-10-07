@@ -1,0 +1,67 @@
+{
+ "python_files": 40,
+ "mjs_files": 12,
+ "draw_specific_named": [
+  "scripts/research/audit_2344_core.py",
+  "scripts/research/audit_2344_misc.py",
+  "scripts/research/forensic_2341.py",
+  "scripts/research/forensic_2341_report.py",
+  "scripts/research/forensic_2341_verify.py",
+  "scripts/research/forensic_2342.py",
+  "scripts/research/forensic_2343.py",
+  "scripts/research/freeze_lotto_2340.py",
+  "scripts/research/historical_2342.py",
+  "scripts/research/lotto_2340.py",
+  "scripts/research/lotto_2340_forensic.py",
+  "scripts/research/report_lotto_2340.py",
+  "scripts/research/research_2342.py",
+  "scripts/research/lotto_2340_jev.mjs"
+ ],
+ "files_with_hard_coded_draw_ids": [
+  "scripts/finalize.py",
+  "scripts/research/audit_2344_core.py",
+  "scripts/research/audit_2344_misc.py",
+  "scripts/research/forensic_2341.py",
+  "scripts/research/forensic_2341_report.py",
+  "scripts/research/forensic_2341_verify.py",
+  "scripts/research/forensic_2342.py",
+  "scripts/research/forensic_2343.py",
+  "scripts/research/freeze_lotto_2340.py",
+  "scripts/research/freeze_prospective.py",
+  "scripts/research/historical_2342.py",
+  "scripts/research/jev_stability_analysis.py",
+  "scripts/research/jev_stability_analysis_param.py",
+  "scripts/research/lotto_2340.py",
+  "scripts/research/lotto_2340_forensic.py",
+  "scripts/research/lotto_forensic.py",
+  "scripts/research/lotto_prospective.py",
+  "scripts/research/p0_audit_state.py",
+  "scripts/research/p0_audit_state_param.py",
+  "scripts/research/p0_design_test.py",
+  "scripts/research/report_lotto_2340.py",
+  "scripts/research/reports.py",
+  "scripts/research/research_2342.py",
+  "scripts/research/v1_history.py",
+  "scripts/research/jev_stability.mjs",
+  "scripts/research/jev_stability_param.mjs",
+  "scripts/research/p0_jev_audit.mjs",
+  "scripts/research/p0_jev_audit_param.mjs"
+ ],
+ "crlf_files": [],
+ "production_entry_points": {
+  "V1": "scripts/analyze.py (+ scripts/research/v1_prospective.py, lotto_prospective.py wrappers)",
+  "V1_jev": "scripts/research/v1_prospective_jev.mjs / lotto_prospective_jev.mjs",
+  "P0": "scripts/research/p0_apply.py + p0.py",
+  "freeze": "scripts/research/v1_freeze.py, freeze_prospective.py"
+ },
+ "dependencies": {
+  "package_json": {
+   "@typesafe-ai/sdk": "0.6.0"
+  },
+  "lock_sdk": "0.6.0"
+ },
+ "python": "3.13.16",
+ "numpy": "2.5.3",
+ "ledger_append_only": true,
+ "v1_code_unchanged_since_snapshot": true
+}

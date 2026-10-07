@@ -1,0 +1,277 @@
+{
+ "note": "In-pool winners only (V1 numbers outside the pool excluded). random_* = exact expectation for independent uniformly chosen pool tickets.",
+ "by_strategy": {
+  "A_coverage_P0": {
+   "0": {
+    "n": 5,
+    "E_best": 0.0,
+    "E_second": 0.0,
+    "E_portfolio_inpool_winners": 0.0,
+    "max_possible": 0,
+    "efficiency": null,
+    "random_one_pool_ticket": 0.0,
+    "random_best_of_2": 0.0,
+    "random_best_of_3": 0.0
+   },
+   "1": {
+    "n": 19,
+    "E_best": 0.8947368421052632,
+    "E_second": 0.10526315789473684,
+    "E_portfolio_inpool_winners": 0.8947368421052632,
+    "max_possible": 1,
+    "efficiency": 0.8947368421052632,
+    "random_one_pool_ticket": 0.4,
+    "random_best_of_2": 0.64,
+    "random_best_of_3": 0.784
+   },
+   "2": {
+    "n": 31,
+    "E_best": 1.3225806451612903,
+    "E_second": 0.45161290322580644,
+    "E_portfolio_inpool_winners": 1.7419354838709677,
+    "max_possible": 2,
+    "efficiency": 0.6612903225806451,
+    "random_one_pool_ticket": 0.7999999999999999,
+    "random_best_of_2": 1.1477551020408163,
+    "random_best_of_3": 1.3299591836734694
+   },
+   "3": {
+    "n": 34,
+    "E_best": 1.8235294117647058,
+    "E_second": 0.9411764705882353,
+    "E_portfolio_inpool_winners": 2.8823529411764706,
+    "max_possible": 3,
+    "efficiency": 0.6078431372549019,
+    "random_one_pool_ticket": 1.2,
+    "random_best_of_2": 1.6171670088153598,
+    "random_best_of_3": 1.8332292086611606
+   },
+   "4": {
+    "n": 18,
+    "E_best": 2.3333333333333335,
+    "E_second": 1.3888888888888888,
+    "E_portfolio_inpool_winners": 3.8333333333333335,
+    "max_possible": 4,
+    "efficiency": 0.5833333333333334,
+    "random_one_pool_ticket": 1.5999999999999999,
+    "random_best_of_2": 2.0656249245260234,
+    "random_best_of_3": 2.3037660631844905
+   },
+   "5": {
+    "n": 6,
+    "E_best": 2.8333333333333335,
+    "E_second": 1.6666666666666667,
+    "E_portfolio_inpool_winners": 4.333333333333333,
+    "max_possible": 5,
+    "efficiency": 0.5666666666666667,
+    "random_one_pool_ticket": 2.0,
+    "random_best_of_2": 2.498891717672936,
+    "random_best_of_3": 2.7520164179448945
+   }
+  },
+  "B_top3_standalone": {
+   "0": {
+    "n": 5,
+    "E_best": 0.0,
+    "E_second": 0.0,
+    "E_portfolio_inpool_winners": 0.0,
+    "max_possible": 0,
+    "efficiency": null,
+    "random_one_pool_ticket": 0.0,
+    "random_best_of_2": 0.0,
+    "random_best_of_3": 0.0
+   },
+   "1": {
+    "n": 19,
+    "E_best": 0.42105263157894735,
+    "E_second": 0.3157894736842105,
+    "E_portfolio_inpool_winners": 0.42105263157894735,
+    "max_possible": 1,
+    "efficiency": 0.42105263157894735,
+    "random_one_pool_ticket": 0.4,
+    "random_best_of_2": 0.64,
+    "random_best_of_3": 0.784
+   },
+   "2": {
+    "n": 31,
+    "E_best": 0.9032258064516129,
+    "E_second": 0.6451612903225806,
+    "E_portfolio_inpool_winners": 0.9032258064516129,
+    "max_possible": 2,
+    "efficiency": 0.45161290322580644,
+    "random_one_pool_ticket": 0.7999999999999999,
+    "random_best_of_2": 1.1477551020408163,
+    "random_best_of_3": 1.3299591836734694
+   },
+   "3": {
+    "n": 34,
+    "E_best": 1.2941176470588236,
+    "E_second": 1.1176470588235294,
+    "E_portfolio_inpool_winners": 1.3235294117647058,
+    "max_possible": 3,
+    "efficiency": 0.43137254901960786,
+    "random_one_pool_ticket": 1.2,
+    "random_best_of_2": 1.6171670088153598,
+    "random_best_of_3": 1.8332292086611606
+   },
+   "4": {
+    "n": 18,
+    "E_best": 1.6111111111111112,
+    "E_second": 1.5,
+    "E_portfolio_inpool_winners": 1.8888888888888888,
+    "max_possible": 4,
+    "efficiency": 0.4027777777777778,
+    "random_one_pool_ticket": 1.5999999999999999,
+    "random_best_of_2": 2.0656249245260234,
+    "random_best_of_3": 2.3037660631844905
+   },
+   "5": {
+    "n": 6,
+    "E_best": 2.3333333333333335,
+    "E_second": 2.0,
+    "E_portfolio_inpool_winners": 2.5,
+    "max_possible": 5,
+    "efficiency": 0.4666666666666667,
+    "random_one_pool_ticket": 2.0,
+    "random_best_of_2": 2.498891717672936,
+    "random_best_of_3": 2.7520164179448945
+   }
+  },
+  "D_concentration_top_numbers": {
+   "0": {
+    "n": 5,
+    "E_best": 0.0,
+    "E_second": 0.0,
+    "E_portfolio_inpool_winners": 0.0,
+    "max_possible": 0,
+    "efficiency": null,
+    "random_one_pool_ticket": 0.0,
+    "random_best_of_2": 0.0,
+    "random_best_of_3": 0.0
+   },
+   "1": {
+    "n": 19,
+    "E_best": 0.42105263157894735,
+    "E_second": 0.3157894736842105,
+    "E_portfolio_inpool_winners": 0.42105263157894735,
+    "max_possible": 1,
+    "efficiency": 0.42105263157894735,
+    "random_one_pool_ticket": 0.4,
+    "random_best_of_2": 0.64,
+    "random_best_of_3": 0.784
+   },
+   "2": {
+    "n": 31,
+    "E_best": 0.967741935483871,
+    "E_second": 0.5483870967741935,
+    "E_portfolio_inpool_winners": 0.967741935483871,
+    "max_possible": 2,
+    "efficiency": 0.4838709677419355,
+    "random_one_pool_ticket": 0.7999999999999999,
+    "random_best_of_2": 1.1477551020408163,
+    "random_best_of_3": 1.3299591836734694
+   },
+   "3": {
+    "n": 34,
+    "E_best": 1.3823529411764706,
+    "E_second": 1.0,
+    "E_portfolio_inpool_winners": 1.411764705882353,
+    "max_possible": 3,
+    "efficiency": 0.46078431372549017,
+    "random_one_pool_ticket": 1.2,
+    "random_best_of_2": 1.6171670088153598,
+    "random_best_of_3": 1.8332292086611606
+   },
+   "4": {
+    "n": 18,
+    "E_best": 1.7222222222222223,
+    "E_second": 1.3888888888888888,
+    "E_portfolio_inpool_winners": 1.8888888888888888,
+    "max_possible": 4,
+    "efficiency": 0.4305555555555556,
+    "random_one_pool_ticket": 1.5999999999999999,
+    "random_best_of_2": 2.0656249245260234,
+    "random_best_of_3": 2.3037660631844905
+   },
+   "5": {
+    "n": 6,
+    "E_best": 2.5,
+    "E_second": 1.8333333333333333,
+    "E_portfolio_inpool_winners": 2.5,
+    "max_possible": 5,
+    "efficiency": 0.5,
+    "random_one_pool_ticket": 2.0,
+    "random_best_of_2": 2.498891717672936,
+    "random_best_of_3": 2.7520164179448945
+   }
+  },
+  "C_best_plus_2_diversified": {
+   "0": {
+    "n": 5,
+    "E_best": 0.0,
+    "E_second": 0.0,
+    "E_portfolio_inpool_winners": 0.0,
+    "max_possible": 0,
+    "efficiency": null,
+    "random_one_pool_ticket": 0.0,
+    "random_best_of_2": 0.0,
+    "random_best_of_3": 0.0
+   },
+   "1": {
+    "n": 19,
+    "E_best": 0.7894736842105263,
+    "E_second": 0.2631578947368421,
+    "E_portfolio_inpool_winners": 0.7894736842105263,
+    "max_possible": 1,
+    "efficiency": 0.7894736842105263,
+    "random_one_pool_ticket": 0.4,
+    "random_best_of_2": 0.64,
+    "random_best_of_3": 0.784
+   },
+   "2": {
+    "n": 31,
+    "E_best": 1.4193548387096775,
+    "E_second": 0.6774193548387096,
+    "E_portfolio_inpool_winners": 1.6774193548387097,
+    "max_possible": 2,
+    "efficiency": 0.7096774193548387,
+    "random_one_pool_ticket": 0.7999999999999999,
+    "random_best_of_2": 1.1477551020408163,
+    "random_best_of_3": 1.3299591836734694
+   },
+   "3": {
+    "n": 34,
+    "E_best": 1.8235294117647058,
+    "E_second": 1.0294117647058822,
+    "E_portfolio_inpool_winners": 2.588235294117647,
+    "max_possible": 3,
+    "efficiency": 0.6078431372549019,
+    "random_one_pool_ticket": 1.2,
+    "random_best_of_2": 1.6171670088153598,
+    "random_best_of_3": 1.8332292086611606
+   },
+   "4": {
+    "n": 18,
+    "E_best": 2.5,
+    "E_second": 1.5555555555555556,
+    "E_portfolio_inpool_winners": 3.5,
+    "max_possible": 4,
+    "efficiency": 0.625,
+    "random_one_pool_ticket": 1.5999999999999999,
+    "random_best_of_2": 2.0656249245260234,
+    "random_best_of_3": 2.3037660631844905
+   },
+   "5": {
+    "n": 6,
+    "E_best": 2.8333333333333335,
+    "E_second": 2.0,
+    "E_portfolio_inpool_winners": 3.8333333333333335,
+    "max_possible": 5,
+    "efficiency": 0.5666666666666667,
+    "random_one_pool_ticket": 2.0,
+    "random_best_of_2": 2.498891717672936,
+    "random_best_of_3": 2.7520164179448945
+   }
+  }
+ }
+}

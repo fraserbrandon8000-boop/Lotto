@@ -1,0 +1,289 @@
+{
+ "targets": [
+  2211,
+  2343
+ ],
+ "designs": {
+  "fixed_current_seed": {
+   "n": 133,
+   "total_matches": 114,
+   "expected": 126.0,
+   "p_total_ge": 0.905150021433468,
+   "ge3": 7,
+   "expected_ge3": 5.14684202919497,
+   "distinct_tickets": 101,
+   "distinct_ids": 5,
+   "top_ticket_share": 0.045112781954887216,
+   "mean_consecutive_overlap": 0.7272727272727273,
+   "lag2_exact_repeat": 0.12213740458015267,
+   "last5": [
+    [
+     16,
+     23,
+     28,
+     33,
+     34,
+     38
+    ],
+    [
+     1,
+     2,
+     4,
+     10,
+     13,
+     35
+    ],
+    [
+     4,
+     9,
+     12,
+     13,
+     24,
+     25
+    ],
+    [
+     5,
+     11,
+     16,
+     24,
+     27,
+     34
+    ],
+    [
+     1,
+     4,
+     13,
+     14,
+     24,
+     38
+    ]
+   ]
+  },
+  "per_draw_seed": {
+   "n": 133,
+   "total_matches": 133,
+   "expected": 126.0,
+   "p_total_ge": 0.24724284405473518,
+   "ge3": 6,
+   "expected_ge3": 5.14684202919497,
+   "distinct_tickets": 71,
+   "distinct_ids": 20,
+   "top_ticket_share": 0.08270676691729323,
+   "mean_consecutive_overlap": 0.8939393939393939,
+   "lag2_exact_repeat": 0.04580152671755725,
+   "last5": [
+    [
+     6,
+     8,
+     15,
+     17,
+     19,
+     38
+    ],
+    [
+     6,
+     7,
+     13,
+     24,
+     32,
+     35
+    ],
+    [
+     4,
+     9,
+     12,
+     13,
+     24,
+     25
+    ],
+    [
+     2,
+     10,
+     13,
+     18,
+     24,
+     33
+    ],
+    [
+     1,
+     8,
+     15,
+     18,
+     24,
+     25
+    ]
+   ]
+  },
+  "rotating_index": {
+   "n": 133,
+   "total_matches": 119,
+   "expected": 126.0,
+   "p_total_ge": 0.7821979941787502,
+   "ge3": 6,
+   "expected_ge3": 5.14684202919497,
+   "distinct_tickets": 80,
+   "distinct_ids": 20,
+   "top_ticket_share": 0.06766917293233082,
+   "mean_consecutive_overlap": 0.9090909090909091,
+   "lag2_exact_repeat": 0.015267175572519083,
+   "last5": [
+    [
+     8,
+     10,
+     11,
+     15,
+     21,
+     24
+    ],
+    [
+     2,
+     10,
+     13,
+     18,
+     24,
+     33
+    ],
+    [
+     2,
+     6,
+     8,
+     12,
+     18,
+     25
+    ],
+    [
+     1,
+     2,
+     9,
+     22,
+     24,
+     38
+    ],
+    [
+     3,
+     11,
+     16,
+     30,
+     34,
+     35
+    ]
+   ]
+  },
+  "no_repeated_position": {
+   "n": 133,
+   "total_matches": 120,
+   "expected": 126.0,
+   "p_total_ge": 0.7498112741287869,
+   "ge3": 6,
+   "expected_ge3": 5.14684202919497,
+   "distinct_tickets": 106,
+   "distinct_ids": 5,
+   "top_ticket_share": 0.03007518796992481,
+   "mean_consecutive_overlap": 0.5984848484848485,
+   "lag2_exact_repeat": 0.10687022900763359,
+   "last5": [
+    [
+     16,
+     23,
+     28,
+     33,
+     34,
+     38
+    ],
+    [
+     1,
+     2,
+     4,
+     10,
+     13,
+     35
+    ],
+    [
+     5,
+     11,
+     16,
+     24,
+     27,
+     34
+    ],
+    [
+     1,
+     4,
+     13,
+     14,
+     24,
+     38
+    ],
+    [
+     5,
+     11,
+     16,
+     24,
+     27,
+     34
+    ]
+   ]
+  },
+  "fixed_seed_without_overlap_rule": {
+   "n": 133,
+   "total_matches": 129,
+   "expected": 126.0,
+   "p_total_ge": 0.39397778449303605,
+   "ge3": 6,
+   "expected_ge3": 5.14684202919497,
+   "distinct_tickets": 66,
+   "distinct_ids": 1,
+   "top_ticket_share": 0.05263157894736842,
+   "mean_consecutive_overlap": 3.1666666666666665,
+   "lag2_exact_repeat": 0.15267175572519084,
+   "last5": [
+    [
+     1,
+     4,
+     13,
+     14,
+     24,
+     38
+    ],
+    [
+     1,
+     2,
+     4,
+     10,
+     13,
+     35
+    ],
+    [
+     6,
+     8,
+     12,
+     13,
+     24,
+     30
+    ],
+    [
+     1,
+     2,
+     9,
+     22,
+     24,
+     38
+    ],
+    [
+     4,
+     9,
+     12,
+     13,
+     24,
+     25
+    ]
+   ]
+  },
+  "uniform_candidate_expectation": {
+   "n": 133,
+   "total_matches": 125.94999999999999,
+   "expected": 126.0
+  }
+ },
+ "note": "Repeating a ticket does not change its per-draw jackpot probability (draws are independent); designs differ in exploration only."
+}

@@ -1,0 +1,86 @@
+{
+ "n": 183,
+ "first": 2161,
+ "last": 2343,
+ "first_date": "2025-01-01",
+ "last_date": "2026-10-03",
+ "issues": [],
+ "weekday_counts": {
+  "Wed": 91,
+  "Sat": 92
+ },
+ "day_gap_counts": {
+  "3": 91,
+  "4": 90,
+  "7": 1
+ },
+ "provenance": {
+  "workbook": 167,
+  "official_archive": 12,
+  "official_user_supplied": 4
+ },
+ "recovered_2252_2261": [
+  {
+   "draw_id": 2252,
+   "origin": "official_archive",
+   "source": "https://supremeventures.com/past-results/"
+  },
+  {
+   "draw_id": 2253,
+   "origin": "official_archive",
+   "source": "https://supremeventures.com/past-results/"
+  },
+  {
+   "draw_id": 2254,
+   "origin": "official_archive",
+   "source": "https://supremeventures.com/past-results/"
+  },
+  {
+   "draw_id": 2255,
+   "origin": "official_archive",
+   "source": "https://supremeventures.com/past-results/"
+  },
+  {
+   "draw_id": 2256,
+   "origin": "official_archive",
+   "source": "https://supremeventures.com/past-results/"
+  },
+  {
+   "draw_id": 2257,
+   "origin": "official_archive",
+   "source": "https://supremeventures.com/past-results/"
+  },
+  {
+   "draw_id": 2258,
+   "origin": "official_archive",
+   "source": "https://supremeventures.com/past-results/"
+  },
+  {
+   "draw_id": 2259,
+   "origin": "official_archive",
+   "source": "https://supremeventures.com/past-results/"
+  },
+  {
+   "draw_id": 2260,
+   "origin": "official_archive",
+   "source": "https://supremeventures.com/past-results/"
+  },
+  {
+   "draw_id": 2261,
+   "origin": "official_archive",
+   "source": "https://supremeventures.com/past-results/"
+  }
+ ],
+ "bonus_used_by_models": false,
+ "bonus_check": "grep of scripts/analyze.py and scripts/research/p0.py: model features use r[\"numbers\"] only; bonus appears only in audit/ledger fields",
+ "rule_continuity": "All 183 rows are 6 unique mains in 1-38 plus a separate bonus; Wednesday/Saturday cadence throughout; no format change inside the window.",
+ "deeper_history": "Same-rule Lotto history before 2025-01-01 (#2161) is not in the repository. The official results service is unreachable from this environment (network policy), so it cannot be fetched or provenance-verified here.",
+ "power_draws_needed_per_ticket_mean_uplift": {
+  "0.05": 1708,
+  "0.1": 427,
+  "0.2": 107,
+  "0.3": 48
+ },
+ "draws_for_one_expected_jackpot_3_tickets": 920227.0,
+ "note_power": "Detecting even a +0.1 mean-match uplift per ticket needs ~427 draws; the dataset has 183. A 6/6 rate can never be validated empirically (one expected 3-ticket jackpot per 920227 draws, ~8848 years at 2 draws/week)."
+}

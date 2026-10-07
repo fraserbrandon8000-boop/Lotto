@@ -1,0 +1,10 @@
+# Data audit (A13)
+
+- **Rows:** 183 draws #2161–#2343 (2025-01-01 → 2026-10-03).
+- **Integrity:** issues found: none. Contiguous IDs, strictly increasing dates, six unique mains in 1–38 (sorted), bonus in 1–38 and never equal to a main.
+- **Cadence:** {'Wed': 91, 'Sat': 92} (day gaps {'3': 91, '4': 90, '7': 1}).
+- **Provenance:** {'workbook': 167, 'official_archive': 12, 'official_user_supplied': 4}. #2252–#2261 come from the official Supreme Ventures archive (`official_archive`); #2340–#2343 are official results supplied by the user (`official_user_supplied`). **#2343 (04 07 13 23 33 35, bonus 38)** was supplied by the user in this audit task and is not independently fetched, because the official service is blocked by this environment's network policy.
+- **Bonus:** grep of scripts/analyze.py and scripts/research/p0.py: model features use r["numbers"] only; bonus appears only in audit/ledger fields. **The bonus is not a feature and never a seventh main.** A bonus number on a ticket (e.g. 38 on the #2343 V1 ticket) is not counted as a main match.
+- **Rule continuity:** All 183 rows are 6 unique mains in 1-38 plus a separate bonus; Wednesday/Saturday cadence throughout; no format change inside the window.
+- **Deeper history:** Same-rule Lotto history before 2025-01-01 (#2161) is not in the repository. The official results service is unreachable from this environment (network policy), so it cannot be fetched or provenance-verified here. Even if it were available, it would not be added without first verifying rule continuity and provenance.
+- **Statistical power:** detecting a per-ticket mean-match uplift of +0.1 needs about 427 draws (+0.05: 1708). The dataset has 183. Detecting even a +0.1 mean-match uplift per ticket needs ~427 draws; the dataset has 183. A 6/6 rate can never be validated empirically (one expected 3-ticket jackpot per 920227 draws, ~8848 years at 2 draws/week). More same-rule history would help detect lower-tier effects, but **no amount of history can validate a 6/6 rate directly**; only the A9 log-score can measure combination-level skill.

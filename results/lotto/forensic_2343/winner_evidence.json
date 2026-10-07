@@ -1,0 +1,629 @@
+{
+  "cutoff": 2342,
+  "target": 2343,
+  "winners": [
+    4,
+    7,
+    13,
+    23,
+    33,
+    35
+  ],
+  "bonus": 38,
+  "evidence": {
+    "4": {
+      "models": {
+        "A_long": {
+          "score": 0.8882347881583029,
+          "rank": 7,
+          "tie": [
+            7,
+            9
+          ],
+          "informative": true
+        },
+        "B_recent": {
+          "score": 1.4987230804801168,
+          "rank": 3,
+          "tie": [
+            3,
+            3
+          ],
+          "informative": true
+        },
+        "C_gap": {
+          "score": -0.8292584944344814,
+          "rank": 28,
+          "tie": [
+            28,
+            32
+          ],
+          "informative": true
+        },
+        "D_trend": {
+          "score": 2.207214278612035,
+          "rank": 1,
+          "tie": [
+            1,
+            1
+          ],
+          "informative": true
+        },
+        "E_pairs": {
+          "score": 0.0,
+          "rank": 13,
+          "tie": [
+            1,
+            38
+          ],
+          "informative": false
+        },
+        "G_marginal_proxy": {
+          "score": 1.3276280134439677,
+          "rank": 2,
+          "tie": [
+            2,
+            2
+          ],
+          "informative": true
+        },
+        "H_random": {
+          "score": 0.13657920394572953,
+          "rank": 34,
+          "tie": [
+            34,
+            34
+          ],
+          "informative": true
+        }
+      },
+      "F_structure": "no number-level ranking (whole-ticket objective)",
+      "features": {
+        "frequency": "33",
+        "appearance_rate": "0.1813186813186813",
+        "ew_rate": "0.23880117945346327",
+        "last_30_count": "8",
+        "last_20_count": "7",
+        "last_10_count": "5",
+        "current_gap": "1",
+        "current_gap_percentile": "0.5",
+        "trend_20_vs_previous40": "0.24999999999999997"
+      },
+      "pair_partners": [],
+      "ensemble": {
+        "G_proxy_rank": 2
+      },
+      "family_top12": [
+        "A_long",
+        "B_recent",
+        "D_trend"
+      ],
+      "P0_rank": 2,
+      "P0_M": 0.09957304248591625,
+      "P0_EQ": 0.9412284132039932
+    },
+    "7": {
+      "models": {
+        "A_long": {
+          "score": -0.361873432212645,
+          "rank": 23,
+          "tie": [
+            21,
+            23
+          ],
+          "informative": true
+        },
+        "B_recent": {
+          "score": 0.15190027106763715,
+          "rank": 19,
+          "tie": [
+            19,
+            19
+          ],
+          "informative": true
+        },
+        "C_gap": {
+          "score": -0.16234161002156516,
+          "rank": 18,
+          "tie": [
+            17,
+            19
+          ],
+          "informative": true
+        },
+        "D_trend": {
+          "score": 1.3243285671672211,
+          "rank": 5,
+          "tie": [
+            5,
+            5
+          ],
+          "informative": true
+        },
+        "E_pairs": {
+          "score": 0.0,
+          "rank": 36,
+          "tie": [
+            1,
+            38
+          ],
+          "informative": false
+        },
+        "G_marginal_proxy": {
+          "score": 0.27138536822272213,
+          "rank": 16,
+          "tie": [
+            16,
+            16
+          ],
+          "informative": true
+        },
+        "H_random": {
+          "score": 0.3857680415204435,
+          "rank": 26,
+          "tie": [
+            26,
+            26
+          ],
+          "informative": true
+        }
+      },
+      "F_structure": "no number-level ranking (whole-ticket objective)",
+      "features": {
+        "frequency": "27",
+        "appearance_rate": "0.14835164835164835",
+        "ew_rate": "0.16834730323298516",
+        "last_30_count": "5",
+        "last_20_count": "5",
+        "last_10_count": "2",
+        "current_gap": "5",
+        "current_gap_percentile": "0.5",
+        "trend_20_vs_previous40": "0.15"
+      },
+      "pair_partners": [],
+      "ensemble": {
+        "G_proxy_rank": 16
+      },
+      "family_top12": [
+        "D_trend"
+      ],
+      "P0_rank": 9,
+      "P0_M": 0.03625445671021291,
+      "P0_EQ": 0.23800344900016202
+    },
+    "13": {
+      "models": {
+        "A_long": {
+          "score": 0.8882347881583029,
+          "rank": 9,
+          "tie": [
+            7,
+            9
+          ],
+          "informative": true
+        },
+        "B_recent": {
+          "score": 2.014822235244548,
+          "rank": 1,
+          "tie": [
+            1,
+            1
+          ],
+          "informative": true
+        },
+        "C_gap": {
+          "score": -0.9959877155377105,
+          "rank": 37,
+          "tie": [
+            33,
+            38
+          ],
+          "informative": true
+        },
+        "D_trend": {
+          "score": 1.9864928507508315,
+          "rank": 2,
+          "tie": [
+            2,
+            2
+          ],
+          "informative": true
+        },
+        "E_pairs": {
+          "score": 0.0,
+          "rank": 31,
+          "tie": [
+            1,
+            38
+          ],
+          "informative": false
+        },
+        "G_marginal_proxy": {
+          "score": 1.4362635943320365,
+          "rank": 1,
+          "tie": [
+            1,
+            1
+          ],
+          "informative": true
+        },
+        "H_random": {
+          "score": 0.23212822693166457,
+          "rank": 31,
+          "tie": [
+            31,
+            31
+          ],
+          "informative": true
+        }
+      },
+      "F_structure": "no number-level ranking (whole-ticket objective)",
+      "features": {
+        "frequency": "33",
+        "appearance_rate": "0.1813186813186813",
+        "ew_rate": "0.2707853480431075",
+        "last_30_count": "9",
+        "last_20_count": "7",
+        "last_10_count": "5",
+        "current_gap": "0",
+        "current_gap_percentile": "0.125",
+        "trend_20_vs_previous40": "0.22499999999999998"
+      },
+      "pair_partners": [],
+      "ensemble": {
+        "G_proxy_rank": 1
+      },
+      "family_top12": [
+        "A_long",
+        "B_recent",
+        "D_trend"
+      ],
+      "P0_rank": 1,
+      "P0_M": 0.11054782233560637,
+      "P0_EQ": 0.973390539653993
+    },
+    "23": {
+      "models": {
+        "A_long": {
+          "score": -1.4036302825217681,
+          "rank": 35,
+          "tie": [
+            35,
+            37
+          ],
+          "informative": true
+        },
+        "B_recent": {
+          "score": 0.3395668547149066,
+          "rank": 15,
+          "tie": [
+            15,
+            15
+          ],
+          "informative": true
+        },
+        "C_gap": {
+          "score": -0.49580005222802326,
+          "rank": 23,
+          "tie": [
+            23,
+            24
+          ],
+          "informative": true
+        },
+        "D_trend": {
+          "score": -0.22072142786120344,
+          "rank": 22,
+          "tie": [
+            18,
+            23
+          ],
+          "informative": true
+        },
+        "E_pairs": {
+          "score": 0.0,
+          "rank": 24,
+          "tie": [
+            1,
+            38
+          ],
+          "informative": false
+        },
+        "G_marginal_proxy": {
+          "score": -0.3967317315559029,
+          "rank": 24,
+          "tie": [
+            24,
+            24
+          ],
+          "informative": true
+        },
+        "H_random": {
+          "score": 0.8628043293545934,
+          "rank": 6,
+          "tie": [
+            6,
+            6
+          ],
+          "informative": true
+        }
+      },
+      "F_structure": "no number-level ranking (whole-ticket objective)",
+      "features": {
+        "frequency": "22",
+        "appearance_rate": "0.12087912087912088",
+        "ew_rate": "0.1587650501428546",
+        "last_30_count": "6",
+        "last_20_count": "3",
+        "last_10_count": "1",
+        "current_gap": "3",
+        "current_gap_percentile": "0.38095238095238093",
+        "trend_20_vs_previous40": "-0.024999999999999994"
+      },
+      "pair_partners": [],
+      "ensemble": {
+        "G_proxy_rank": 24
+      },
+      "family_top12": [],
+      "P0_rank": 19,
+      "P0_M": 0.005426210343281054,
+      "P0_EQ": -0.44514622697402206
+    },
+    "33": {
+      "models": {
+        "A_long": {
+          "score": 1.5132888983437762,
+          "rank": 4,
+          "tie": [
+            3,
+            4
+          ],
+          "informative": true
+        },
+        "B_recent": {
+          "score": 0.21758761038975027,
+          "rank": 18,
+          "tie": [
+            18,
+            18
+          ],
+          "informative": true
+        },
+        "C_gap": {
+          "score": -0.9959877155377105,
+          "rank": 38,
+          "tie": [
+            33,
+            38
+          ],
+          "informative": true
+        },
+        "D_trend": {
+          "score": 0.6621642835836107,
+          "rank": 12,
+          "tie": [
+            9,
+            12
+          ],
+          "informative": true
+        },
+        "E_pairs": {
+          "score": 0.0,
+          "rank": 35,
+          "tie": [
+            1,
+            38
+          ],
+          "informative": false
+        },
+        "G_marginal_proxy": {
+          "score": 0.7228380865470733,
+          "rank": 9,
+          "tie": [
+            9,
+            9
+          ],
+          "informative": true
+        },
+        "H_random": {
+          "score": 0.34530722424691107,
+          "rank": 28,
+          "tie": [
+            28,
+            28
+          ],
+          "informative": true
+        }
+      },
+      "F_structure": "no number-level ranking (whole-ticket objective)",
+      "features": {
+        "frequency": "36",
+        "appearance_rate": "0.1978021978021978",
+        "ew_rate": "0.17666069199341777",
+        "last_30_count": "5",
+        "last_20_count": "4",
+        "last_10_count": "2",
+        "current_gap": "0",
+        "current_gap_percentile": "0.17142857142857143",
+        "trend_20_vs_previous40": "0.07500000000000001"
+      },
+      "pair_partners": [],
+      "ensemble": {
+        "G_proxy_rank": 9
+      },
+      "family_top12": [
+        "A_long",
+        "D_trend"
+      ],
+      "P0_rank": 15,
+      "P0_M": 0.022579022014000208,
+      "P0_EQ": 0.3492632691948567
+    },
+    "35": {
+      "models": {
+        "A_long": {
+          "score": 0.6798834180964781,
+          "rank": 11,
+          "tie": [
+            10,
+            14
+          ],
+          "informative": true
+        },
+        "B_recent": {
+          "score": 0.009821763503357533,
+          "rank": 20,
+          "tie": [
+            20,
+            20
+          ],
+          "informative": true
+        },
+        "C_gap": {
+          "score": 0.5045752743913511,
+          "rank": 9,
+          "tie": [
+            9,
+            10
+          ],
+          "informative": true
+        },
+        "D_trend": {
+          "score": -1.1036071393060178,
+          "rank": 33,
+          "tie": [
+            33,
+            35
+          ],
+          "informative": true
+        },
+        "E_pairs": {
+          "score": 0.0,
+          "rank": 12,
+          "tie": [
+            1,
+            38
+          ],
+          "informative": false
+        },
+        "G_marginal_proxy": {
+          "score": -0.06153440208120833,
+          "rank": 20,
+          "tie": [
+            20,
+            20
+          ],
+          "informative": true
+        },
+        "H_random": {
+          "score": 0.9031608135919745,
+          "rank": 3,
+          "tie": [
+            3,
+            3
+          ],
+          "informative": true
+        }
+      },
+      "F_structure": "no number-level ranking (whole-ticket objective)",
+      "features": {
+        "frequency": "32",
+        "appearance_rate": "0.17582417582417584",
+        "ew_rate": "0.18369918260466747",
+        "last_30_count": "4",
+        "last_20_count": "3",
+        "last_10_count": "1",
+        "current_gap": "9",
+        "current_gap_percentile": "0.8709677419354839",
+        "trend_20_vs_previous40": "-0.12500000000000003"
+      },
+      "pair_partners": [],
+      "ensemble": {
+        "G_proxy_rank": 20
+      },
+      "family_top12": [
+        "A_long",
+        "C_gap"
+      ],
+      "P0_rank": 24,
+      "P0_M": -0.025924704862931053,
+      "P0_EQ": 0.02266832917129219
+    }
+  },
+  "pool_audit": {
+    "K": 15,
+    "pool": [
+      13,
+      4,
+      12,
+      14,
+      24,
+      2,
+      1,
+      22,
+      7,
+      18,
+      10,
+      6,
+      8,
+      9,
+      33
+    ],
+    "winners_inside": [
+      4,
+      7,
+      13,
+      33
+    ],
+    "winners_outside": [
+      23,
+      35
+    ],
+    "missed": {
+      "23": {
+        "P0_rank": 19,
+        "highest_support": [
+          "B_recent",
+          15
+        ],
+        "lowest_support": [
+          "A_long",
+          35
+        ],
+        "in_top": {
+          "18": false,
+          "20": true,
+          "25": true
+        },
+        "equal_weight_rank": 30,
+        "no_stability_factor_rank": 19,
+        "suppressed": false
+      },
+      "35": {
+        "P0_rank": 24,
+        "highest_support": [
+          "C_gap",
+          9
+        ],
+        "lowest_support": [
+          "D_trend",
+          33
+        ],
+        "in_top": {
+          "18": false,
+          "20": false,
+          "25": true
+        },
+        "equal_weight_rank": 17,
+        "no_stability_factor_rank": 24,
+        "suppressed": false
+      }
+    },
+    "note": "Frozen weights: B_recent 0.0314, D_trend 0.0238 (A, C, E zero). Shrinkage scales all weights by the same factor (n=130 for every family), so it does not change the ordering; the ordering is driven by which families have positive evidence. equal_weight_rank uses the equal A-D(E) mean; no_stability_factor_rank drops the halves factor h."
+  },
+  "flat": [
+    "E_pairs (no Holm-retained pair)",
+    "F_structure (no number-level ranking)"
+  ],
+  "note": "Exact frozen pre-draw values (refreshed_rankings.json, number_statistics.csv, P0 p0_result.json). H = V1 walk H ranking definition for target 2343."
+}

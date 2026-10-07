@@ -1,0 +1,333 @@
+{
+ "findings": [
+  {
+   "id": "F01",
+   "requirement": "A2 objective function",
+   "status": "FAIL",
+   "severity": "CRITICAL",
+   "current_behaviour": "P0 tickets 2-3 maximise T + coverage of the Top-15 pool (coverage term SD 3.53x the T SD) and P0/forensic reports use winner capture, union coverage and total matches as success measures.",
+   "why_it_matters": "P(>=1 jackpot) = sum of P(ticket) over distinct tickets; coverage, union and total matches do not enter it. Under no edge every distinct 3-ticket portfolio has exactly 3/C(38,6).",
+   "evidence": "data/a2_objective.json: exact enumeration, P6 identical (1.0867e-6) for all distinct structures; E[total] identical (2.842) for all portfolios.",
+   "affected_files": [
+    "scripts/research/p0.py",
+    "results/lotto/p0_protocol/PROTOCOL.json"
+   ],
+   "changes_predictive_logic": false,
+   "proposed_correction": "State the objective explicitly; tickets 2-3 chosen for zero overlap (maximises P(4+), P(3+), E[best] exactly) with evidence score only as tie-break; reclassify metrics.",
+   "validation_test": "exact enumeration (A2) + historical replay of the corrected constructor (strategy H)",
+   "safe_before_2344": true,
+   "correction_class": "OBJECTIVE-ALIGNMENT FIX"
+  },
+  {
+   "id": "F02",
+   "requirement": "A3/A4/A22 concentration vs coverage",
+   "status": "RISK",
+   "severity": "HIGH",
+   "current_behaviour": "Portfolio spreads available winners across tickets (#2343: 4 in-pool winners split 2/1/3).",
+   "why_it_matters": "Spreading is optimal for lower tiers under no edge but would cost jackpot probability if a calibrated signal existed.",
+   "evidence": "A3: no strategy beats its exact null (min p 0.13, Holm 1.0); concentration strategies B/D have the lowest best-ticket means (1.09/1.16 vs null 1.16/1.20). #2343: 55 pool tickets held all 4 available winners (exactly the random count C(11,2)); best rank 159/5005; the standalone top-3 each held 2.",
+   "affected_files": [
+    "scripts/research/p0.py"
+   ],
+   "changes_predictive_logic": false,
+   "proposed_correction": "Codify: concentrate only under a calibrated combination model (policy C); otherwise maximise secondary tiers.",
+   "validation_test": "A3 + A9 gate",
+   "safe_before_2344": true,
+   "correction_class": "OBJECTIVE-ALIGNMENT FIX"
+  },
+  {
+   "id": "F03",
+   "requirement": "A6 discovery skill",
+   "status": "FAIL",
+   "severity": "HIGH",
+   "current_behaviour": "P0 and every family ordering are used as if informative.",
+   "why_it_matters": "No ordering beats random; all downstream construction is noise-driven.",
+   "evidence": "A6: 100 tests, min raw p 0.077 (P0_order:top15), Holm min 1.00. Mean winner rank P0 19.42 vs 19.5.",
+   "affected_files": [
+    "scripts/research/p0.py"
+   ],
+   "changes_predictive_logic": false,
+   "proposed_correction": "Label as NO EDGE everywhere; no predictive promotion.",
+   "validation_test": "A6",
+   "safe_before_2344": true,
+   "correction_class": "RESEARCH-ONLY IMPROVEMENT"
+  },
+  {
+   "id": "F04",
+   "requirement": "A9 combination probability",
+   "status": "FAIL",
+   "severity": "HIGH",
+   "current_behaviour": "No exact-ticket probability is estimated; ticket scores are uncalibrated sums of z-scores.",
+   "why_it_matters": "The 6/6-aligned quantity is sum P(ticket); it cannot be optimised without a calibrated combination model.",
+   "evidence": "A9: conditional-Bernoulli models with causal ML beta give mean log-ratio vs uniform <= 0 for every score (P0_M 0.0000, equal -0.0103); causal beta is mostly negative.",
+   "affected_files": [],
+   "changes_predictive_logic": false,
+   "proposed_correction": "Adopt the CB log-score as the primary prospective skill metric; best estimate of P(exact ticket) = 1/C(38,6).",
+   "validation_test": "prospective A9 metric on every future draw",
+   "safe_before_2344": true,
+   "correction_class": "RESEARCH-ONLY IMPROVEMENT"
+  },
+  {
+   "id": "F05",
+   "requirement": "A7 hard Top-15 cutoff",
+   "status": "RISK",
+   "severity": "MEDIUM",
+   "current_behaviour": "P0 enumerates only the 5,005 combinations of the Top-15 pool.",
+   "why_it_matters": "With V1 holding pool numbers (#2343: 5 of 15), zero-overlap tickets are infeasible inside the pool, forcing overlap; 44%% of the full-universe top-1000 tickets lie outside the pool.",
+   "evidence": "A7: full universe scored in 8.8 s; full-universe top-1 always inside Top-15; share of full top-1000 inside Top-15 = 0.56.",
+   "affected_files": [
+    "scripts/research/p0.py"
+   ],
+   "changes_predictive_logic": false,
+   "proposed_correction": "Score the full 2,760,681 universe.",
+   "validation_test": "A7 timing + reproduction",
+   "safe_before_2344": true,
+   "correction_class": "OBJECTIVE-ALIGNMENT FIX"
+  },
+  {
+   "id": "F06",
+   "requirement": "A8 score calibration",
+   "status": "RISK",
+   "severity": "MEDIUM",
+   "current_behaviour": "Family scores are z-scores (commensurate), but universe components are Z-normalised within the pool (scale depends on K) and the coverage term dominates T by 3.5x.",
+   "why_it_matters": "Relative component weights change with pool size; coverage, not evidence, drives ticket choice.",
+   "evidence": "data/a8_calibration.json",
+   "affected_files": [
+    "scripts/research/p0.py"
+   ],
+   "changes_predictive_logic": false,
+   "proposed_correction": "Normalise over the full universe; document that T is an uncalibrated ordering only.",
+   "validation_test": "A8",
+   "safe_before_2344": true,
+   "correction_class": "CORRECTNESS FIX (design)"
+  },
+  {
+   "id": "F07",
+   "requirement": "A10 V1 source pool",
+   "status": "RISK",
+   "severity": "MEDIUM",
+   "current_behaviour": "V1 candidates come from one fixed 4,096-ticket sample (SEED+999) at every cutoff; H_random is one fixed ticket (05 07 14 21 33 38) in every pool.",
+   "why_it_matters": "Search-space limitation (0.15% of the universe; same tickets every draw) and a mislabelled control; not a predictive limitation (best sampled ticket is at the 99.98-100th percentile of each objective).",
+   "evidence": "data/v1_source_pool.json",
+   "affected_files": [
+    "scripts/analyze.py"
+   ],
+   "changes_predictive_logic": true,
+   "proposed_correction": "Research-only: per-draw source sample and per-draw H; not applied (V1 frozen).",
+   "validation_test": "A10",
+   "safe_before_2344": false,
+   "correction_class": "RESEARCH-ONLY IMPROVEMENT"
+  },
+  {
+   "id": "F08",
+   "requirement": "A11 fixed seed",
+   "status": "RISK",
+   "severity": "MEDIUM",
+   "current_behaviour": "No-edge fallback always takes index 3/4 of the eligible list; with the <=2-overlap rule V1 alternates between two tickets.",
+   "why_it_matters": "Exploration quality only; repeating a ticket does not change its per-draw jackpot probability.",
+   "evidence": "A11: fixed seed 114 matches vs 126 expected (p 0.91); per-draw seed 133 (p 0.25); all within chance.",
+   "affected_files": [
+    "scripts/analyze.py",
+    "scripts/research/v1_freeze.py"
+   ],
+   "changes_predictive_logic": false,
+   "proposed_correction": "P1 shadow (per-draw seed); V1 unchanged.",
+   "validation_test": "A11 prospective shadow",
+   "safe_before_2344": false,
+   "correction_class": "RESEARCH-ONLY IMPROVEMENT"
+  },
+  {
+   "id": "F09",
+   "requirement": "A12 structure",
+   "status": "PASS",
+   "severity": "LOW",
+   "current_behaviour": "F_structure candidates under-represent 3+ runs; final tickets and P0 do not.",
+   "why_it_matters": "A structure penalty cannot change a fixed ticket's expected matches under uniform draws.",
+   "evidence": "data/structure_distributions.json",
+   "affected_files": [
+    "scripts/analyze.py"
+   ],
+   "changes_predictive_logic": false,
+   "proposed_correction": "none",
+   "validation_test": "A12",
+   "safe_before_2344": true,
+   "correction_class": "NOT APPLICABLE"
+  },
+  {
+   "id": "F10",
+   "requirement": "A13 data",
+   "status": "PASS",
+   "severity": "LOW",
+   "current_behaviour": "183 draws 2161-2343, no gaps/duplicates/invalid values; bonus never a feature.",
+   "why_it_matters": "\u2014",
+   "evidence": "data/data_audit.json",
+   "affected_files": [],
+   "changes_predictive_logic": false,
+   "proposed_correction": "Record #2343 provenance (user-supplied official).",
+   "validation_test": "A13",
+   "safe_before_2344": true,
+   "correction_class": "NOT APPLICABLE"
+  },
+  {
+   "id": "F11",
+   "requirement": "A14 leakage",
+   "status": "PASS",
+   "severity": "LOW",
+   "current_behaviour": "Mutation test: future rows replaced at 4 origins; features, weights, P0 order and V1 candidates identical.",
+   "why_it_matters": "\u2014",
+   "evidence": "data/leakage_mutation.json PASS=True",
+   "affected_files": [],
+   "changes_predictive_logic": false,
+   "proposed_correction": "none",
+   "validation_test": "A14",
+   "safe_before_2344": true,
+   "correction_class": "NOT APPLICABLE"
+  },
+  {
+   "id": "F12",
+   "requirement": "A15 holdout contamination",
+   "status": "FAIL",
+   "severity": "CRITICAL",
+   "current_behaviour": "\"Confirmation\" windows 2299-2343 reused by up to 7 studies.",
+   "why_it_matters": "Historical confirmation evidence is not a pristine holdout; any future historical pass would be optimistic.",
+   "evidence": "RESEARCH_REGISTRY.json",
+   "affected_files": [],
+   "changes_predictive_logic": false,
+   "proposed_correction": "Validation hierarchy: development (rolling) -> historical pseudo-holdout (descriptive only) -> prospective live draws as the only promotion evidence.",
+   "validation_test": "registry + prospective ledger",
+   "safe_before_2344": true,
+   "correction_class": "RESEARCH-ONLY IMPROVEMENT"
+  },
+  {
+   "id": "F13",
+   "requirement": "A16 cumulative multiple testing",
+   "status": "FAIL",
+   "severity": "HIGH",
+   "current_behaviour": "Holm applied within each batch only; 385 formal tests across 10 studies (plus ~3802 exploratory comparisons).",
+   "why_it_matters": "Batch-wise correction understates false-discovery risk.",
+   "evidence": "RESEARCH_REGISTRY.json",
+   "affected_files": [],
+   "changes_predictive_logic": false,
+   "proposed_correction": "Cumulative registry; promotion only on prospective evidence with a fixed alpha budget.",
+   "validation_test": "registry",
+   "safe_before_2344": true,
+   "correction_class": "RESEARCH-ONLY IMPROVEMENT"
+  },
+  {
+   "id": "F14",
+   "requirement": "A17 metrics",
+   "status": "FAIL",
+   "severity": "HIGH",
+   "current_behaviour": "Reports headline union coverage, total matches and pool capture.",
+   "why_it_matters": "These do not measure 6/6; total matches is identical in expectation for every portfolio.",
+   "evidence": "METRIC_AUDIT.md",
+   "affected_files": [],
+   "changes_predictive_logic": false,
+   "proposed_correction": "Metric classes PRIMARY/SECONDARY/DIAGNOSTIC/MISLEADING.",
+   "validation_test": "A2",
+   "safe_before_2344": true,
+   "correction_class": "OBJECTIVE-ALIGNMENT FIX"
+  },
+  {
+   "id": "F15",
+   "requirement": "A18 random control",
+   "status": "RISK",
+   "severity": "MEDIUM",
+   "current_behaviour": "One fixed random portfolio (seed 20260930) repeated every draw.",
+   "why_it_matters": "A single portfolio is a very noisy null; the exact null is available analytically.",
+   "evidence": "random_control_2342/2343",
+   "affected_files": [],
+   "changes_predictive_logic": false,
+   "proposed_correction": "Keep fixed control; add per-draw seeded control and exact null pmfs.",
+   "validation_test": "A18",
+   "safe_before_2344": true,
+   "correction_class": "RESEARCH-ONLY IMPROVEMENT"
+  },
+  {
+   "id": "F16",
+   "requirement": "A19 Jev",
+   "status": "RISK",
+   "severity": "MEDIUM",
+   "current_behaviour": "Jev Choice is consulted every run; under the no-edge rule it never affects the ticket.",
+   "why_it_matters": "No measurable predictive value (5 saved draws).",
+   "evidence": "data/jev_audit.json",
+   "affected_files": [
+    "scripts/research/v1_prospective_jev.mjs"
+   ],
+   "changes_predictive_logic": false,
+   "proposed_correction": "Keep V1 call unchanged (protocol continuity); add order/blind tests post-freeze.",
+   "validation_test": "A19",
+   "safe_before_2344": true,
+   "correction_class": "RESEARCH-ONLY IMPROVEMENT"
+  },
+  {
+   "id": "F17",
+   "requirement": "A20 reproducibility",
+   "status": "RISK",
+   "severity": "MEDIUM",
+   "current_behaviour": "14 draw-specific scripts with hard-coded draw IDs; production logic duplicated across wrappers.",
+   "why_it_matters": "Copy-edit errors between draws; harder to audit.",
+   "evidence": "data/code_facts.json",
+   "affected_files": [
+    "scripts/research/*_23xx.py"
+   ],
+   "changes_predictive_logic": false,
+   "proposed_correction": "One parameterised entry point for the corrected protocol with hashed inputs.",
+   "validation_test": "reproduction run",
+   "safe_before_2344": true,
+   "correction_class": "REPRODUCIBILITY FIX"
+  },
+  {
+   "id": "F18",
+   "requirement": "A21 prospective record",
+   "status": "PASS",
+   "severity": "LOW",
+   "current_behaviour": "V1 #2339-#2343: 3,0,3,0,2 (two distinct tickets). P0 best: 2, 3.",
+   "why_it_matters": "Consistent with chance (V1 P(total>=8)=0.073).",
+   "evidence": "data/prospective_rescore.json",
+   "affected_files": [],
+   "changes_predictive_logic": false,
+   "proposed_correction": "none",
+   "validation_test": "A21",
+   "safe_before_2344": true,
+   "correction_class": "NOT APPLICABLE"
+  },
+  {
+   "id": "F19",
+   "requirement": "Implementation correctness",
+   "status": "PASS",
+   "severity": "LOW",
+   "current_behaviour": "Live #2342/#2343 P0 tickets reproduce exactly from the frozen protocol; historical replay reproduces 2231-2340 exactly.",
+   "why_it_matters": "\u2014",
+   "evidence": "core run",
+   "affected_files": [],
+   "changes_predictive_logic": false,
+   "proposed_correction": "none",
+   "validation_test": "reproduction",
+   "safe_before_2344": true,
+   "correction_class": "NOT APPLICABLE"
+  },
+  {
+   "id": "F20",
+   "requirement": "A1 added: P0 weights never updated",
+   "status": "RISK",
+   "severity": "LOW",
+   "current_behaviour": "P0 weights are frozen at the #2340 design and never re-estimated prospectively.",
+   "why_it_matters": "Intended by protocol; the historical replay re-estimates causally, so live and replay differ from #2342 on (not a bug).",
+   "evidence": "core run mismatches [2342, 2343] resolved",
+   "affected_files": [],
+   "changes_predictive_logic": false,
+   "proposed_correction": "Document; no change.",
+   "validation_test": "reproduction with frozen weights (exact)",
+   "safe_before_2344": true,
+   "correction_class": "NOT APPLICABLE"
+  }
+ ],
+ "counts": {
+  "PASS": 5,
+  "FAIL": 6,
+  "RISK": 9,
+  "UNKNOWN": 0,
+  "NOT APPLICABLE": 0
+ }
+}

@@ -1,0 +1,24 @@
+{
+ "origins_with_nonzero_weights": 31,
+ "share_full_top1000_inside": {
+  "15": 0.5610645161290322,
+  "18": 0.7506774193548388,
+  "20": 0.8319354838709678,
+  "25": 0.9502580645161289,
+  "30": 0.9876451612903226
+ },
+ "full_top1_inside": {
+  "15": 1.0,
+  "18": 1.0,
+  "20": 1.0,
+  "25": 1.0,
+  "30": 1.0
+ },
+ "full_rank_of_best_top15_ticket": {
+  "median": 1.0,
+  "max": 1
+ },
+ "full_universe_scoring_seconds": 8.77,
+ "universe": 2760681,
+ "note": "Full-universe T uses the same weights but Z-normalizes each component over all 2.76M combinations (the pool T normalizes within the pool, so the relative component scale depends on K)."
+}

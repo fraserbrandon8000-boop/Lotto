@@ -1,0 +1,868 @@
+{
+  "summary": {
+    "match_distribution": {
+      "0": 6,
+      "1": 4,
+      "2": 8,
+      "3": 2,
+      "4": 0,
+      "5": 0,
+      "6": 0
+    },
+    "best": 3,
+    "best_candidates": [
+      "C17",
+      "C19"
+    ],
+    "v1_selected": "C04",
+    "v1_matches": 2,
+    "jev_preferred": "C04",
+    "jev_preferred_matches": 2,
+    "reached": {
+      "3": true,
+      "4": false,
+      "5": false,
+      "6": false
+    },
+    "random_reference": {
+      "p_any_of_20_ge3": 0.5458530813518399
+    },
+    "jev_vs_matches_spearman": 0.06470588235294117
+  },
+  "candidates": [
+    {
+      "id": "C01",
+      "numbers": [
+        1,
+        8,
+        15,
+        18,
+        24,
+        25
+      ],
+      "generator": "A_long",
+      "eligible": true,
+      "matches": 0,
+      "matched": [],
+      "jev_choice": 0.02,
+      "jev_rank": {
+        "best": 3,
+        "worst": 3
+      },
+      "sensitivity": {
+        "top_quartile": 0.9285714285714286,
+        "mean_rank": 1.5
+      },
+      "evidence": {
+        "model_ranks": {
+          "A_long": 1,
+          "B_recent": 6,
+          "C_gap": 13,
+          "D_trend": 13,
+          "E_pairs": 1,
+          "F_structure": 14,
+          "G_ensemble": 6
+        },
+        "contributing": [
+          "A_long"
+        ],
+        "ensemble_rank": 6,
+        "agreement": 1
+      }
+    },
+    {
+      "id": "C02",
+      "numbers": [
+        2,
+        10,
+        13,
+        18,
+        24,
+        33
+      ],
+      "generator": "A_long",
+      "eligible": true,
+      "matches": 2,
+      "matched": [
+        13,
+        33
+      ],
+      "jev_choice": 0.09,
+      "jev_rank": {
+        "best": 2,
+        "worst": 2
+      },
+      "sensitivity": {
+        "top_quartile": 0.9285714285714286,
+        "mean_rank": 2.2857142857142856
+      },
+      "evidence": {
+        "model_ranks": {
+          "A_long": 2,
+          "B_recent": 5,
+          "C_gap": 12,
+          "D_trend": 4,
+          "E_pairs": 2,
+          "F_structure": 11,
+          "G_ensemble": 2
+        },
+        "contributing": [
+          "A_long",
+          "B_recent",
+          "D_trend",
+          "G_ensemble"
+        ],
+        "ensemble_rank": 2,
+        "agreement": 4
+      }
+    },
+    {
+      "id": "C03",
+      "numbers": [
+        2,
+        6,
+        8,
+        12,
+        18,
+        25
+      ],
+      "generator": "A_long",
+      "eligible": true,
+      "matches": 0,
+      "matched": [],
+      "jev_choice": 0,
+      "jev_rank": {
+        "best": 7,
+        "worst": 16
+      },
+      "sensitivity": {
+        "top_quartile": 1.0,
+        "mean_rank": 2.9285714285714284
+      },
+      "evidence": {
+        "model_ranks": {
+          "A_long": 3,
+          "B_recent": 9,
+          "C_gap": 14,
+          "D_trend": 9,
+          "E_pairs": 3,
+          "F_structure": 20,
+          "G_ensemble": 10
+        },
+        "contributing": [
+          "A_long"
+        ],
+        "ensemble_rank": 10,
+        "agreement": 1
+      }
+    },
+    {
+      "id": "C04",
+      "numbers": [
+        1,
+        4,
+        13,
+        14,
+        24,
+        38
+      ],
+      "generator": "B_recent",
+      "eligible": true,
+      "matches": 2,
+      "matched": [
+        4,
+        13
+      ],
+      "jev_choice": 0.86,
+      "jev_rank": {
+        "best": 1,
+        "worst": 1
+      },
+      "sensitivity": {
+        "top_quartile": 1.0,
+        "mean_rank": 1.0
+      },
+      "evidence": {
+        "model_ranks": {
+          "A_long": 5,
+          "B_recent": 1,
+          "C_gap": 17,
+          "D_trend": 5,
+          "E_pairs": 4,
+          "F_structure": 12,
+          "G_ensemble": 1
+        },
+        "contributing": [
+          "A_long",
+          "B_recent",
+          "D_trend",
+          "G_ensemble"
+        ],
+        "ensemble_rank": 1,
+        "agreement": 4
+      }
+    },
+    {
+      "id": "C05",
+      "numbers": [
+        4,
+        9,
+        12,
+        13,
+        24,
+        25
+      ],
+      "generator": "B_recent",
+      "eligible": true,
+      "matches": 2,
+      "matched": [
+        4,
+        13
+      ],
+      "jev_choice": 0,
+      "jev_rank": {
+        "best": 7,
+        "worst": 16
+      },
+      "sensitivity": {
+        "top_quartile": 1.0,
+        "mean_rank": 2.2857142857142856
+      },
+      "evidence": {
+        "model_ranks": {
+          "A_long": 8,
+          "B_recent": 2,
+          "C_gap": 10,
+          "D_trend": 7,
+          "E_pairs": 5,
+          "F_structure": 17,
+          "G_ensemble": 5
+        },
+        "contributing": [
+          "B_recent",
+          "G_ensemble"
+        ],
+        "ensemble_rank": 5,
+        "agreement": 2
+      }
+    },
+    {
+      "id": "C06",
+      "numbers": [
+        1,
+        6,
+        13,
+        14,
+        22,
+        31
+      ],
+      "generator": "B_recent",
+      "eligible": true,
+      "matches": 1,
+      "matched": [
+        13
+      ],
+      "jev_choice": 0,
+      "jev_rank": {
+        "best": 7,
+        "worst": 16
+      },
+      "sensitivity": {
+        "top_quartile": 1.0,
+        "mean_rank": 2.857142857142857
+      },
+      "evidence": {
+        "model_ranks": {
+          "A_long": 11,
+          "B_recent": 3,
+          "C_gap": 20,
+          "D_trend": 8,
+          "E_pairs": 6,
+          "F_structure": 9,
+          "G_ensemble": 7
+        },
+        "contributing": [
+          "B_recent"
+        ],
+        "ensemble_rank": 7,
+        "agreement": 1
+      }
+    },
+    {
+      "id": "C07",
+      "numbers": [
+        5,
+        11,
+        16,
+        24,
+        27,
+        34
+      ],
+      "generator": "C_gap",
+      "eligible": false,
+      "matches": 0,
+      "matched": [],
+      "jev_choice": null,
+      "jev_rank": null,
+      "sensitivity": {
+        "top_quartile": 1.0,
+        "mean_rank": 1.0
+      },
+      "evidence": {
+        "model_ranks": {
+          "A_long": 19,
+          "B_recent": 19,
+          "C_gap": 1,
+          "D_trend": 18,
+          "E_pairs": 7,
+          "F_structure": 5,
+          "G_ensemble": 19
+        },
+        "contributing": [
+          "C_gap",
+          "F_structure"
+        ],
+        "ensemble_rank": 19,
+        "agreement": 2
+      }
+    },
+    {
+      "id": "C08",
+      "numbers": [
+        3,
+        11,
+        16,
+        30,
+        34,
+        35
+      ],
+      "generator": "C_gap",
+      "eligible": false,
+      "matches": 1,
+      "matched": [
+        35
+      ],
+      "jev_choice": null,
+      "jev_rank": null,
+      "sensitivity": {
+        "top_quartile": 1.0,
+        "mean_rank": 2.0
+      },
+      "evidence": {
+        "model_ranks": {
+          "A_long": 17,
+          "B_recent": 18,
+          "C_gap": 2,
+          "D_trend": 19,
+          "E_pairs": 8,
+          "F_structure": 4,
+          "G_ensemble": 18
+        },
+        "contributing": [
+          "C_gap",
+          "F_structure"
+        ],
+        "ensemble_rank": 18,
+        "agreement": 2
+      }
+    },
+    {
+      "id": "C09",
+      "numbers": [
+        11,
+        16,
+        17,
+        27,
+        35,
+        37
+      ],
+      "generator": "C_gap",
+      "eligible": false,
+      "matches": 1,
+      "matched": [
+        35
+      ],
+      "jev_choice": null,
+      "jev_rank": null,
+      "sensitivity": {
+        "top_quartile": 1.0,
+        "mean_rank": 3.0
+      },
+      "evidence": {
+        "model_ranks": {
+          "A_long": 18,
+          "B_recent": 20,
+          "C_gap": 3,
+          "D_trend": 20,
+          "E_pairs": 9,
+          "F_structure": 13,
+          "G_ensemble": 20
+        },
+        "contributing": [
+          "C_gap"
+        ],
+        "ensemble_rank": 20,
+        "agreement": 1
+      }
+    },
+    {
+      "id": "C10",
+      "numbers": [
+        4,
+        7,
+        12,
+        14,
+        22,
+        37
+      ],
+      "generator": "D_trend",
+      "eligible": true,
+      "matches": 2,
+      "matched": [
+        4,
+        7
+      ],
+      "jev_choice": 0,
+      "jev_rank": {
+        "best": 7,
+        "worst": 16
+      },
+      "sensitivity": {
+        "top_quartile": 0.9285714285714286,
+        "mean_rank": 2.2142857142857144
+      },
+      "evidence": {
+        "model_ranks": {
+          "A_long": 13,
+          "B_recent": 8,
+          "C_gap": 11,
+          "D_trend": 1,
+          "E_pairs": 10,
+          "F_structure": 10,
+          "G_ensemble": 9
+        },
+        "contributing": [
+          "D_trend"
+        ],
+        "ensemble_rank": 9,
+        "agreement": 1
+      }
+    },
+    {
+      "id": "C11",
+      "numbers": [
+        4,
+        12,
+        14,
+        24,
+        28,
+        33
+      ],
+      "generator": "D_trend",
+      "eligible": true,
+      "matches": 2,
+      "matched": [
+        4,
+        33
+      ],
+      "jev_choice": 0.01,
+      "jev_rank": {
+        "best": 4,
+        "worst": 6
+      },
+      "sensitivity": {
+        "top_quartile": 0.9285714285714286,
+        "mean_rank": 2.857142857142857
+      },
+      "evidence": {
+        "model_ranks": {
+          "A_long": 10,
+          "B_recent": 7,
+          "C_gap": 16,
+          "D_trend": 2,
+          "E_pairs": 11,
+          "F_structure": 7,
+          "G_ensemble": 8
+        },
+        "contributing": [
+          "D_trend"
+        ],
+        "ensemble_rank": 8,
+        "agreement": 1
+      }
+    },
+    {
+      "id": "C12",
+      "numbers": [
+        1,
+        3,
+        4,
+        12,
+        18,
+        33
+      ],
+      "generator": "D_trend",
+      "eligible": true,
+      "matches": 2,
+      "matched": [
+        4,
+        33
+      ],
+      "jev_choice": 0,
+      "jev_rank": {
+        "best": 7,
+        "worst": 16
+      },
+      "sensitivity": {
+        "top_quartile": 0.9285714285714286,
+        "mean_rank": 3.357142857142857
+      },
+      "evidence": {
+        "model_ranks": {
+          "A_long": 4,
+          "B_recent": 11,
+          "C_gap": 18,
+          "D_trend": 3,
+          "E_pairs": 12,
+          "F_structure": 18,
+          "G_ensemble": 4
+        },
+        "contributing": [
+          "A_long",
+          "D_trend",
+          "G_ensemble"
+        ],
+        "ensemble_rank": 4,
+        "agreement": 3
+      }
+    },
+    {
+      "id": "C13",
+      "numbers": [
+        1,
+        5,
+        8,
+        12,
+        26,
+        34
+      ],
+      "generator": "E_pairs",
+      "eligible": true,
+      "matches": 0,
+      "matched": [],
+      "jev_choice": 0.01,
+      "jev_rank": {
+        "best": 4,
+        "worst": 6
+      },
+      "sensitivity": {
+        "top_quartile": 0.0,
+        "mean_rank": 10.5
+      },
+      "evidence": {
+        "model_ranks": {
+          "A_long": 14,
+          "B_recent": 14,
+          "C_gap": 6,
+          "D_trend": 12,
+          "E_pairs": 13,
+          "F_structure": 15,
+          "G_ensemble": 15
+        },
+        "contributing": [],
+        "ensemble_rank": 15,
+        "agreement": 0
+      }
+    },
+    {
+      "id": "C14",
+      "numbers": [
+        8,
+        10,
+        11,
+        15,
+        21,
+        24
+      ],
+      "generator": "E_pairs",
+      "eligible": true,
+      "matches": 0,
+      "matched": [],
+      "jev_choice": 0,
+      "jev_rank": {
+        "best": 7,
+        "worst": 16
+      },
+      "sensitivity": {
+        "top_quartile": 0.0,
+        "mean_rank": 10.5
+      },
+      "evidence": {
+        "model_ranks": {
+          "A_long": 9,
+          "B_recent": 13,
+          "C_gap": 7,
+          "D_trend": 16,
+          "E_pairs": 14,
+          "F_structure": 19,
+          "G_ensemble": 13
+        },
+        "contributing": [],
+        "ensemble_rank": 13,
+        "agreement": 0
+      }
+    },
+    {
+      "id": "C15",
+      "numbers": [
+        6,
+        8,
+        15,
+        17,
+        19,
+        38
+      ],
+      "generator": "E_pairs",
+      "eligible": true,
+      "matches": 0,
+      "matched": [],
+      "jev_choice": 0,
+      "jev_rank": {
+        "best": 7,
+        "worst": 16
+      },
+      "sensitivity": {
+        "top_quartile": 0.0,
+        "mean_rank": 10.5
+      },
+      "evidence": {
+        "model_ranks": {
+          "A_long": 7,
+          "B_recent": 12,
+          "C_gap": 15,
+          "D_trend": 17,
+          "E_pairs": 15,
+          "F_structure": 16,
+          "G_ensemble": 12
+        },
+        "contributing": [],
+        "ensemble_rank": 12,
+        "agreement": 0
+      }
+    },
+    {
+      "id": "C16",
+      "numbers": [
+        4,
+        16,
+        17,
+        21,
+        26,
+        33
+      ],
+      "generator": "F_structure",
+      "eligible": true,
+      "matches": 2,
+      "matched": [
+        4,
+        33
+      ],
+      "jev_choice": 0,
+      "jev_rank": {
+        "best": 7,
+        "worst": 16
+      },
+      "sensitivity": {
+        "top_quartile": 1.0,
+        "mean_rank": 1.1428571428571428
+      },
+      "evidence": {
+        "model_ranks": {
+          "A_long": 16,
+          "B_recent": 17,
+          "C_gap": 5,
+          "D_trend": 15,
+          "E_pairs": 16,
+          "F_structure": 1,
+          "G_ensemble": 16
+        },
+        "contributing": [
+          "C_gap",
+          "F_structure"
+        ],
+        "ensemble_rank": 16,
+        "agreement": 2
+      }
+    },
+    {
+      "id": "C17",
+      "numbers": [
+        6,
+        7,
+        13,
+        24,
+        32,
+        35
+      ],
+      "generator": "F_structure",
+      "eligible": true,
+      "matches": 3,
+      "matched": [
+        7,
+        13,
+        35
+      ],
+      "jev_choice": 0,
+      "jev_rank": {
+        "best": 7,
+        "worst": 16
+      },
+      "sensitivity": {
+        "top_quartile": 1.0,
+        "mean_rank": 1.9285714285714286
+      },
+      "evidence": {
+        "model_ranks": {
+          "A_long": 12,
+          "B_recent": 10,
+          "C_gap": 8,
+          "D_trend": 11,
+          "E_pairs": 17,
+          "F_structure": 2,
+          "G_ensemble": 11
+        },
+        "contributing": [
+          "F_structure"
+        ],
+        "ensemble_rank": 11,
+        "agreement": 1
+      }
+    },
+    {
+      "id": "C18",
+      "numbers": [
+        5,
+        11,
+        14,
+        22,
+        23,
+        34
+      ],
+      "generator": "F_structure",
+      "eligible": false,
+      "matches": 1,
+      "matched": [
+        23
+      ],
+      "jev_choice": null,
+      "jev_rank": null,
+      "sensitivity": {
+        "top_quartile": 1.0,
+        "mean_rank": 2.9285714285714284
+      },
+      "evidence": {
+        "model_ranks": {
+          "A_long": 20,
+          "B_recent": 16,
+          "C_gap": 4,
+          "D_trend": 14,
+          "E_pairs": 18,
+          "F_structure": 3,
+          "G_ensemble": 17
+        },
+        "contributing": [
+          "C_gap",
+          "F_structure"
+        ],
+        "ensemble_rank": 17,
+        "agreement": 2
+      }
+    },
+    {
+      "id": "C19",
+      "numbers": [
+        4,
+        12,
+        13,
+        18,
+        23,
+        38
+      ],
+      "generator": "G_ensemble",
+      "eligible": true,
+      "matches": 3,
+      "matched": [
+        4,
+        13,
+        23
+      ],
+      "jev_choice": 0.01,
+      "jev_rank": {
+        "best": 4,
+        "worst": 6
+      },
+      "sensitivity": {
+        "top_quartile": 1.0,
+        "mean_rank": 3.0714285714285716
+      },
+      "evidence": {
+        "model_ranks": {
+          "A_long": 6,
+          "B_recent": 4,
+          "C_gap": 19,
+          "D_trend": 6,
+          "E_pairs": 19,
+          "F_structure": 8,
+          "G_ensemble": 3
+        },
+        "contributing": [
+          "B_recent",
+          "G_ensemble"
+        ],
+        "ensemble_rank": 3,
+        "agreement": 2
+      }
+    },
+    {
+      "id": "C20",
+      "numbers": [
+        5,
+        7,
+        14,
+        21,
+        33,
+        38
+      ],
+      "generator": "H_random",
+      "eligible": true,
+      "matches": 2,
+      "matched": [
+        7,
+        33
+      ],
+      "jev_choice": 0,
+      "jev_rank": {
+        "best": 7,
+        "worst": 16
+      },
+      "sensitivity": {
+        "top_quartile": 0.0,
+        "mean_rank": 10.5
+      },
+      "evidence": {
+        "model_ranks": {
+          "A_long": 15,
+          "B_recent": 15,
+          "C_gap": 9,
+          "D_trend": 10,
+          "E_pairs": 20,
+          "F_structure": 6,
+          "G_ensemble": 14
+        },
+        "contributing": [],
+        "ensemble_rank": 14,
+        "agreement": 0
+      }
+    }
+  ]
+}

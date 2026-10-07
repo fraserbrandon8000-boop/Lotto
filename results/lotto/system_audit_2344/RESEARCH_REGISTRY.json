@@ -1,0 +1,257 @@
+{
+ "program": "Jamaica Lotto (Super Lotto excluded)",
+ "entries": [
+  {
+   "id": "R01",
+   "date": "2026-09-19",
+   "study": "V1 original analysis",
+   "hypothesis": "Any of A_long..H_random beats the hypergeometric match null",
+   "family_tests": 8,
+   "exploratory_tests": 112,
+   "window": [
+    2211,
+    2338
+   ],
+   "confirmation": [
+    2299,
+    2338
+   ],
+   "raw_best_p": "A_long confirmation Holm 0.846",
+   "result": "no model qualifies",
+   "reused_later": true,
+   "source": "results/model_performance.json, results/sensitivity.csv"
+  },
+  {
+   "id": "R02",
+   "date": "2026-09-21..2026-10-03",
+   "study": "V1 refresh runs #2340-#2343 (gate re-evaluated each cutoff)",
+   "hypothesis": "same 8-model gate at each new cutoff",
+   "family_tests": 32,
+   "exploratory_tests": 0,
+   "window": [
+    2211,
+    2342
+   ],
+   "confirmation": [
+    2300,
+    2342
+   ],
+   "result": "no model qualifies at any cutoff",
+   "reused_later": true,
+   "source": "results/lotto/draw23xx/model_performance.json"
+  },
+  {
+   "id": "R03",
+   "date": "2026-09-2x",
+   "study": "forensic #2340 construction family",
+   "hypothesis": "63 discovery-pool x construction rules (direct top6, uniform-in-topN, structure-penalised search, G variants)",
+   "family_tests": 63,
+   "exploratory_tests": 141,
+   "window": [
+    2211,
+    2339
+   ],
+   "confirmation": [
+    2300,
+    2339
+   ],
+   "raw_best_p": 0.024,
+   "corrected": "Holm 1.0",
+   "result": "none passes; no V2",
+   "reused_later": true,
+   "source": "results/lotto/forensic_2340/construction_performance.json"
+  },
+  {
+   "id": "R04",
+   "date": "2026-09-2x",
+   "study": "forensic #2340 historical discovery / minimum pool",
+   "hypothesis": "family rankings capture winners above random",
+   "family_tests": 126,
+   "exploratory_tests": 0,
+   "window": [
+    2211,
+    2339
+   ],
+   "confirmation": null,
+   "result": "descriptive; random level",
+   "reused_later": true,
+   "source": "results/lotto/forensic_2340/historical_discovery.json"
+  },
+  {
+   "id": "R05",
+   "date": "2026-09-27",
+   "study": "forensic #2341 fixed-seed sensitivity",
+   "hypothesis": "seed designs change V1 fallback matches",
+   "family_tests": 0,
+   "exploratory_tests": 1027,
+   "window": [
+    2211,
+    2341
+   ],
+   "confirmation": null,
+   "result": "production seed inside the seed distribution; descriptive",
+   "reused_later": true,
+   "source": "results/lotto/forensic_2341/seed_sensitivity.json"
+  },
+  {
+   "id": "R06",
+   "date": "2026-09-28",
+   "study": "P0 design: reliability weights + pool size K",
+   "hypothesis": "K in {10,12,15,20} captures above 6K/38; family reliability",
+   "family_tests": 4,
+   "exploratory_tests": 5,
+   "window": [
+    2211,
+    2340
+   ],
+   "confirmation": [
+    2231,
+    2300
+   ],
+   "result": "no K passes; default K=15; weights B 0.031, D 0.024, struct 0.007",
+   "reused_later": true,
+   "source": "results/lotto/p0_protocol/pool_size_selection.json, reliability.json"
+  },
+  {
+   "id": "R07",
+   "date": "2026-09-28",
+   "study": "P0 historical gate E1-E3",
+   "hypothesis": "P0 portfolio beats null on challenger totals / best / >=3",
+   "family_tests": 3,
+   "exploratory_tests": 8,
+   "window": [
+    2231,
+    2340
+   ],
+   "confirmation": [
+    2301,
+    2340
+   ],
+   "raw_best_p": 0.086,
+   "corrected": "Holm 0.26",
+   "result": "FAIL",
+   "reused_later": true,
+   "source": "results/lotto/p0_protocol/historical_evaluation.json"
+  },
+  {
+   "id": "R08",
+   "date": "2026-10-03",
+   "study": "forensic #2342 research challengers",
+   "hypothesis": "19 P0/V1 variants (K18/20/25, dynamic K, shrinkage, equal weights, overlap, struct0, exhaustive, seeds)",
+   "family_tests": 19,
+   "exploratory_tests": 0,
+   "window": [
+    2231,
+    2342
+   ],
+   "confirmation": [
+    2303,
+    2342
+   ],
+   "raw_best_p": 0.09,
+   "corrected": "Holm 1.0",
+   "result": "none passes",
+   "reused_later": true,
+   "source": "results/lotto/forensic_2342/research_challengers.json"
+  },
+  {
+   "id": "R09",
+   "date": "2026-10-03",
+   "study": "forensic #2342 Top-N audit + cluster tests + seed follow-up",
+   "hypothesis": "pool sizes 10-25; run-length deviations; seed designs",
+   "family_tests": 16,
+   "exploratory_tests": 2504,
+   "window": [
+    2211,
+    2342
+   ],
+   "confirmation": [
+    2303,
+    2342
+   ],
+   "raw_best_p": 0.012,
+   "corrected": "Holm 0.06 (cluster), 0.11 (Top-N conf.)",
+   "result": "none passes",
+   "reused_later": true,
+   "source": "results/lotto/forensic_2342/historical_2342.json"
+  },
+  {
+   "id": "R10",
+   "date": "2026-10-07",
+   "study": "#2344 system audit (this audit)",
+   "hypothesis": "8 portfolio strategies (best-ticket), 10 discovery orderings x 10 metrics, 6 combination-probability models, 5 seed designs",
+   "family_tests": 114,
+   "exploratory_tests": 5,
+   "window": [
+    2231,
+    2343
+   ],
+   "confirmation": [
+    2304,
+    2343
+   ],
+   "raw_best_p": 0.07733239498189422,
+   "corrected": "Holm min 1.0",
+   "result": "none passes",
+   "reused_later": false,
+   "source": "results/lotto/system_audit_2344/data/"
+  }
+ ],
+ "cumulative_formal_tests": 385,
+ "cumulative_exploratory_comparisons": 3802,
+ "draw_reuse": {
+  "max_studies_using_a_draw": 10,
+  "max_times_used_as_confirmation": 7,
+  "confirmation_uses_by_draw": {
+   "2299": 2,
+   "2300": 4,
+   "2301": 4,
+   "2302": 4,
+   "2303": 6,
+   "2304": 7,
+   "2305": 7,
+   "2306": 7,
+   "2307": 7,
+   "2308": 7,
+   "2309": 7,
+   "2310": 7,
+   "2311": 7,
+   "2312": 7,
+   "2313": 7,
+   "2314": 7,
+   "2315": 7,
+   "2316": 7,
+   "2317": 7,
+   "2318": 7,
+   "2319": 7,
+   "2320": 7,
+   "2321": 7,
+   "2322": 7,
+   "2323": 7,
+   "2324": 7,
+   "2325": 7,
+   "2326": 7,
+   "2327": 7,
+   "2328": 7,
+   "2329": 7,
+   "2330": 7,
+   "2331": 7,
+   "2332": 7,
+   "2333": 7,
+   "2334": 7,
+   "2335": 7,
+   "2336": 7,
+   "2337": 7,
+   "2338": 7,
+   "2339": 6,
+   "2340": 5,
+   "2341": 4,
+   "2342": 4,
+   "2343": 1
+  },
+  "draws_used_as_confirmation_3plus": 43
+ },
+ "bonferroni_alpha_per_test_at_cumulative_family": 0.00012987012987012987,
+ "any_result_survives_cumulative_bonferroni": false,
+ "assessment": "Every promotion-style test has failed, so inflated false discoveries have not entered production. But the last ~40 historical draws (2299-2343) have been used as \"confirmation\" by up to 7 separate studies and inspected in every forensic; they are no longer a pristine holdout. Only prospective draws after a protocol is frozen are clean."
+}

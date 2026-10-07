@@ -1,0 +1,26 @@
+{
+ "source_pool_size": 4096,
+ "universe": 2760681,
+ "fraction_of_universe": 0.0014836918861686663,
+ "same_pool_every_cutoff": true,
+ "seed": "SEED+999 (data-independent, identical at every cutoff)",
+ "best_source_ticket_percentile_in_universe": {
+  "A_long": 0.99988,
+  "B_recent": 1.0,
+  "C_gap": 1.0,
+  "D_trend": 0.99984,
+  "F_structure": 0.99986
+ },
+ "note": "Percentile of the best of the 4,096 fixed source tickets among 50,000 uniform tickets, per V1 objective (cutoff #2342). E_pairs is flat (no retained pair).",
+ "H_random_fixed_ticket": [
+  [
+   5,
+   7,
+   14,
+   21,
+   33,
+   38
+  ]
+ ],
+ "H_random_in_all_pools": true
+}

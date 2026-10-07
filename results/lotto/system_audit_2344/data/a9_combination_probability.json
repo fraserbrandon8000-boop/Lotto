@@ -1,0 +1,126 @@
+{
+ "model": "P(S) = prod_{i in S} exp(beta*s_i) / e6(exp(beta*s)) (conditional Bernoulli / exponential-family on 6-subsets); beta fitted by maximum likelihood on prior origins only (uniform for the first 20 targets)",
+ "metric": "log P_model(realized combination) - log(1/C(38,6)); > 0 means the model assigned the realized jackpot combination more probability than uniform",
+ "models": {
+  "P0_M": {
+   "causal_beta_first_last": [
+    0.10999999999999988,
+    -0.56
+   ],
+   "beta_path_summary": {
+    "mean": -0.5795698924731182,
+    "min": -0.77,
+    "max": 0.16000000000000014
+   },
+   "mean_log_ratio_vs_uniform": 1.3388362942640168e-05,
+   "total_log_ratio": 0.001512885012518339,
+   "implied_mean_multiplier": 1.0000133884525673,
+   "null_expected_total": -0.11647317921217137,
+   "z": 0.2442230239985726,
+   "p_one_sided": 0.4035290481432223,
+   "confirmation_mean_log_ratio": -0.010888556798088667,
+   "insample_ml_beta_all": -0.43000000000000016,
+   "insample_max_mean_log_ratio": 0.0022874993534240566
+  },
+  "equal_weight": {
+   "causal_beta_first_last": [
+    0.14000000000000012,
+    -0.029999999999999805
+   ],
+   "beta_path_summary": {
+    "mean": -0.07559139784946234,
+    "min": -0.18999999999999995,
+    "max": 0.14000000000000012
+   },
+   "mean_log_ratio_vs_uniform": -0.010303743778888189,
+   "total_log_ratio": -1.1643230470143653,
+   "implied_mean_multiplier": 0.9897491579378928,
+   "null_expected_total": -0.4529818317975156,
+   "z": -0.7466687652092773,
+   "p_one_sided": 0.7723682357869719,
+   "confirmation_mean_log_ratio": -0.013486735455432308,
+   "insample_ml_beta_all": -0.009999999999999787,
+   "insample_max_mean_log_ratio": 0.00011960292200568014
+  },
+  "A_long": {
+   "causal_beta_first_last": [
+    0.08999999999999986,
+    -0.009999999999999787
+   ],
+   "beta_path_summary": {
+    "mean": -0.026989247311827873,
+    "min": -0.08000000000000007,
+    "max": 0.08999999999999986
+   },
+   "mean_log_ratio_vs_uniform": -0.011772784003352632,
+   "total_log_ratio": -1.3303245923788474,
+   "implied_mean_multiplier": 0.9882962440685025,
+   "null_expected_total": -0.5085940974235825,
+   "z": -0.8133500017973114,
+   "p_one_sided": 0.7919912917080796,
+   "confirmation_mean_log_ratio": -0.017626439906540402,
+   "insample_ml_beta_all": -0.009999999999999787,
+   "insample_max_mean_log_ratio": 0.00011549732414714306
+  },
+  "B_recent": {
+   "causal_beta_first_last": [
+    0.050000000000000266,
+    0.0
+   ],
+   "beta_path_summary": {
+    "mean": -0.023655913978494515,
+    "min": -0.08999999999999986,
+    "max": 0.050000000000000266
+   },
+   "mean_log_ratio_vs_uniform": -0.007998846774398206,
+   "total_log_ratio": -0.9038696855069972,
+   "implied_mean_multiplier": 0.9920330588743222,
+   "null_expected_total": -0.2832284513315404,
+   "z": -0.8237249346995452,
+   "p_one_sided": 0.7949520659197886,
+   "confirmation_mean_log_ratio": -0.006574838277870265,
+   "insample_ml_beta_all": 0.010000000000000231,
+   "insample_max_mean_log_ratio": 0.0001928849187434224
+  },
+  "C_gap": {
+   "causal_beta_first_last": [
+    0.010000000000000231,
+    -0.020000000000000018
+   ],
+   "beta_path_summary": {
+    "mean": -0.003870967741935368,
+    "min": -0.020000000000000018,
+    "max": 0.020000000000000018
+   },
+   "mean_log_ratio_vs_uniform": -0.0058780572407750725,
+   "total_log_ratio": -0.6642204682075832,
+   "implied_mean_multiplier": 0.9941391847380333,
+   "null_expected_total": -0.04088852304535706,
+   "z": -2.1769130800337066,
+   "p_one_sided": 0.9852564733429773,
+   "confirmation_mean_log_ratio": -0.003935623703455971,
+   "insample_ml_beta_all": -0.020000000000000018,
+   "insample_max_mean_log_ratio": 0.0012790173256220939
+  },
+  "D_trend": {
+   "causal_beta_first_last": [
+    0.010000000000000231,
+    0.0
+   ],
+   "beta_path_summary": {
+    "mean": -0.017096774193548284,
+    "min": -0.06000000000000005,
+    "max": 0.010000000000000231
+   },
+   "mean_log_ratio_vs_uniform": -0.008679421016836967,
+   "total_log_ratio": -0.9807745749025774,
+   "implied_mean_multiplier": 0.9913581364202746,
+   "null_expected_total": -0.12478028314210832,
+   "z": -1.7133598201095057,
+   "p_one_sided": 0.956676818280052,
+   "confirmation_mean_log_ratio": -0.006615816946813968,
+   "insample_ml_beta_all": 0.010000000000000231,
+   "insample_max_mean_log_ratio": 9.604569494772902e-05
+  }
+ }
+}

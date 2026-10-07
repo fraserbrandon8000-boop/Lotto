@@ -1,0 +1,674 @@
+{
+ "entries": [
+  {
+   "draw": 2339,
+   "track": "V1_primary",
+   "ticket": [
+    1,
+    4,
+    13,
+    14,
+    24,
+    38
+   ],
+   "generator": "B_recent",
+   "candidate": "C05",
+   "outcome": [
+    1,
+    4,
+    6,
+    13,
+    23,
+    28
+   ],
+   "bonus": 20,
+   "main_matches": 3,
+   "matched": [
+    1,
+    4,
+    13
+   ],
+   "bonus_on_ticket": false,
+   "jev_favourite": "C02",
+   "jev_favourite_ticket": [
+    2,
+    10,
+    13,
+    18,
+    24,
+    33
+   ],
+   "jev_favourite_matches": 1
+  },
+  {
+   "draw": 2339,
+   "track": "V1_secondary",
+   "ticket": [
+    2,
+    6,
+    8,
+    12,
+    18,
+    25
+   ],
+   "generator": "A_long",
+   "candidate": "C03",
+   "outcome": [
+    1,
+    4,
+    6,
+    13,
+    23,
+    28
+   ],
+   "bonus": 20,
+   "main_matches": 1,
+   "matched": [
+    6
+   ],
+   "bonus_on_ticket": false,
+   "jev_favourite": "C02",
+   "jev_favourite_ticket": [
+    2,
+    10,
+    13,
+    18,
+    24,
+    33
+   ],
+   "jev_favourite_matches": 1
+  },
+  {
+   "draw": 2340,
+   "track": "V1",
+   "ticket": [
+    5,
+    11,
+    16,
+    24,
+    27,
+    34
+   ],
+   "generator": "C_gap",
+   "candidate": "C07",
+   "outcome": [
+    6,
+    8,
+    12,
+    14,
+    18,
+    31
+   ],
+   "bonus": 28,
+   "main_matches": 0,
+   "matched": [],
+   "bonus_on_ticket": false,
+   "jev_favourite": "C02",
+   "jev_favourite_ticket": [
+    2,
+    10,
+    13,
+    18,
+    24,
+    33
+   ],
+   "jev_favourite_matches": 1
+  },
+  {
+   "draw": 2341,
+   "track": "V1",
+   "ticket": [
+    1,
+    4,
+    13,
+    14,
+    24,
+    38
+   ],
+   "generator": "B_recent",
+   "candidate": "C04",
+   "outcome": [
+    1,
+    4,
+    6,
+    22,
+    33,
+    38
+   ],
+   "bonus": 34,
+   "main_matches": 3,
+   "matched": [
+    1,
+    4,
+    38
+   ],
+   "bonus_on_ticket": false,
+   "jev_favourite": "C04",
+   "jev_favourite_ticket": [
+    1,
+    4,
+    13,
+    14,
+    24,
+    38
+   ],
+   "jev_favourite_matches": 3
+  },
+  {
+   "draw": 2342,
+   "track": "V1",
+   "ticket": [
+    5,
+    11,
+    16,
+    24,
+    27,
+    34
+   ],
+   "generator": "C_gap",
+   "candidate": "C07",
+   "outcome": [
+    12,
+    13,
+    14,
+    15,
+    19,
+    33
+   ],
+   "bonus": 21,
+   "main_matches": 0,
+   "matched": [],
+   "bonus_on_ticket": false,
+   "jev_favourite": "C03",
+   "jev_favourite_ticket": [
+    2,
+    10,
+    13,
+    18,
+    24,
+    33
+   ],
+   "jev_favourite_matches": 2
+  },
+  {
+   "draw": 2342,
+   "track": "P0_coverage_1",
+   "ticket": [
+    1,
+    2,
+    4,
+    13,
+    22,
+    38
+   ],
+   "generator": "P0",
+   "candidate": "T2",
+   "outcome": [
+    12,
+    13,
+    14,
+    15,
+    19,
+    33
+   ],
+   "bonus": 21,
+   "main_matches": 1,
+   "matched": [
+    13
+   ],
+   "bonus_on_ticket": false,
+   "jev_favourite": "C03",
+   "jev_favourite_ticket": [
+    2,
+    10,
+    13,
+    18,
+    24,
+    33
+   ],
+   "jev_favourite_matches": 2
+  },
+  {
+   "draw": 2342,
+   "track": "P0_coverage_2",
+   "ticket": [
+    8,
+    9,
+    10,
+    12,
+    14,
+    18
+   ],
+   "generator": "P0",
+   "candidate": "T3",
+   "outcome": [
+    12,
+    13,
+    14,
+    15,
+    19,
+    33
+   ],
+   "bonus": 21,
+   "main_matches": 2,
+   "matched": [
+    12,
+    14
+   ],
+   "bonus_on_ticket": false,
+   "jev_favourite": "C03",
+   "jev_favourite_ticket": [
+    2,
+    10,
+    13,
+    18,
+    24,
+    33
+   ],
+   "jev_favourite_matches": 2
+  },
+  {
+   "draw": 2342,
+   "track": "random_control_1",
+   "ticket": [
+    12,
+    14,
+    15,
+    17,
+    20,
+    29
+   ],
+   "generator": "random",
+   "candidate": "RC",
+   "outcome": [
+    12,
+    13,
+    14,
+    15,
+    19,
+    33
+   ],
+   "bonus": 21,
+   "main_matches": 3,
+   "matched": [
+    12,
+    14,
+    15
+   ],
+   "bonus_on_ticket": false,
+   "jev_favourite": "C03",
+   "jev_favourite_ticket": [
+    2,
+    10,
+    13,
+    18,
+    24,
+    33
+   ],
+   "jev_favourite_matches": 2
+  },
+  {
+   "draw": 2342,
+   "track": "random_control_2",
+   "ticket": [
+    13,
+    19,
+    25,
+    26,
+    28,
+    29
+   ],
+   "generator": "random",
+   "candidate": "RC",
+   "outcome": [
+    12,
+    13,
+    14,
+    15,
+    19,
+    33
+   ],
+   "bonus": 21,
+   "main_matches": 2,
+   "matched": [
+    13,
+    19
+   ],
+   "bonus_on_ticket": false,
+   "jev_favourite": "C03",
+   "jev_favourite_ticket": [
+    2,
+    10,
+    13,
+    18,
+    24,
+    33
+   ],
+   "jev_favourite_matches": 2
+  },
+  {
+   "draw": 2342,
+   "track": "random_control_3",
+   "ticket": [
+    1,
+    8,
+    20,
+    21,
+    33,
+    36
+   ],
+   "generator": "random",
+   "candidate": "RC",
+   "outcome": [
+    12,
+    13,
+    14,
+    15,
+    19,
+    33
+   ],
+   "bonus": 21,
+   "main_matches": 1,
+   "matched": [
+    33
+   ],
+   "bonus_on_ticket": true,
+   "jev_favourite": "C03",
+   "jev_favourite_ticket": [
+    2,
+    10,
+    13,
+    18,
+    24,
+    33
+   ],
+   "jev_favourite_matches": 2
+  },
+  {
+   "draw": 2343,
+   "track": "V1",
+   "ticket": [
+    1,
+    4,
+    13,
+    14,
+    24,
+    38
+   ],
+   "generator": "B_recent",
+   "candidate": "C04",
+   "outcome": [
+    4,
+    7,
+    13,
+    23,
+    33,
+    35
+   ],
+   "bonus": 38,
+   "main_matches": 2,
+   "matched": [
+    4,
+    13
+   ],
+   "bonus_on_ticket": true,
+   "jev_favourite": "C04",
+   "jev_favourite_ticket": [
+    1,
+    4,
+    13,
+    14,
+    24,
+    38
+   ],
+   "jev_favourite_matches": 2
+  },
+  {
+   "draw": 2343,
+   "track": "P0_coverage_1",
+   "ticket": [
+    2,
+    6,
+    7,
+    8,
+    12,
+    22
+   ],
+   "generator": "P0",
+   "candidate": "T2",
+   "outcome": [
+    4,
+    7,
+    13,
+    23,
+    33,
+    35
+   ],
+   "bonus": 38,
+   "main_matches": 1,
+   "matched": [
+    7
+   ],
+   "bonus_on_ticket": false,
+   "jev_favourite": "C04",
+   "jev_favourite_ticket": [
+    1,
+    4,
+    13,
+    14,
+    24,
+    38
+   ],
+   "jev_favourite_matches": 2
+  },
+  {
+   "draw": 2343,
+   "track": "P0_coverage_2",
+   "ticket": [
+    4,
+    9,
+    10,
+    13,
+    18,
+    33
+   ],
+   "generator": "P0",
+   "candidate": "T3",
+   "outcome": [
+    4,
+    7,
+    13,
+    23,
+    33,
+    35
+   ],
+   "bonus": 38,
+   "main_matches": 3,
+   "matched": [
+    4,
+    13,
+    33
+   ],
+   "bonus_on_ticket": false,
+   "jev_favourite": "C04",
+   "jev_favourite_ticket": [
+    1,
+    4,
+    13,
+    14,
+    24,
+    38
+   ],
+   "jev_favourite_matches": 2
+  },
+  {
+   "draw": 2343,
+   "track": "random_control_1",
+   "ticket": [
+    12,
+    14,
+    15,
+    17,
+    20,
+    29
+   ],
+   "generator": "random",
+   "candidate": "RC",
+   "outcome": [
+    4,
+    7,
+    13,
+    23,
+    33,
+    35
+   ],
+   "bonus": 38,
+   "main_matches": 0,
+   "matched": [],
+   "bonus_on_ticket": false,
+   "jev_favourite": "C04",
+   "jev_favourite_ticket": [
+    1,
+    4,
+    13,
+    14,
+    24,
+    38
+   ],
+   "jev_favourite_matches": 2
+  },
+  {
+   "draw": 2343,
+   "track": "random_control_2",
+   "ticket": [
+    13,
+    19,
+    25,
+    26,
+    28,
+    29
+   ],
+   "generator": "random",
+   "candidate": "RC",
+   "outcome": [
+    4,
+    7,
+    13,
+    23,
+    33,
+    35
+   ],
+   "bonus": 38,
+   "main_matches": 1,
+   "matched": [
+    13
+   ],
+   "bonus_on_ticket": false,
+   "jev_favourite": "C04",
+   "jev_favourite_ticket": [
+    1,
+    4,
+    13,
+    14,
+    24,
+    38
+   ],
+   "jev_favourite_matches": 2
+  },
+  {
+   "draw": 2343,
+   "track": "random_control_3",
+   "ticket": [
+    1,
+    8,
+    20,
+    21,
+    33,
+    36
+   ],
+   "generator": "random",
+   "candidate": "RC",
+   "outcome": [
+    4,
+    7,
+    13,
+    23,
+    33,
+    35
+   ],
+   "bonus": 38,
+   "main_matches": 1,
+   "matched": [
+    33
+   ],
+   "bonus_on_ticket": false,
+   "jev_favourite": "C04",
+   "jev_favourite_ticket": [
+    1,
+    4,
+    13,
+    14,
+    24,
+    38
+   ],
+   "jev_favourite_matches": 2
+  }
+ ],
+ "summary": {
+  "v1": [
+   [
+    2339,
+    3
+   ],
+   [
+    2340,
+    0
+   ],
+   [
+    2341,
+    3
+   ],
+   [
+    2342,
+    0
+   ],
+   [
+    2343,
+    2
+   ]
+  ],
+  "p0_portfolio_best": {
+   "2342": 2,
+   "2343": 3
+  },
+  "p0_challenger_best": {
+   "2342": 2,
+   "2343": 3
+  },
+  "random_control_best": {
+   "2342": 3,
+   "2343": 1
+  },
+  "null": {
+   "single_ticket_pmf": [
+    0.32824944280052637,
+    0.4376659237340352,
+    0.19538657309555144,
+    0.035933162868147385,
+    0.0026949872151110542,
+    6.954805716415624e-05,
+    3.6222946439664705e-07
+   ],
+   "p_ge3": 0.038698060369886995,
+   "p_ge4": 0.002764897501739607,
+   "p_ge5": 6.991028662855288e-05,
+   "p6": 3.6222946439664705e-07
+  },
+  "v1_total": 8,
+  "v1_expected": 4.7368421052631575,
+  "v1_p_total_ge": 0.07322090758344997,
+  "v1_ge3": 2,
+  "v1_p_ge3_count_ge_obs": 0.013849653237220736,
+  "v1_distinct_tickets": 2
+ }
+}

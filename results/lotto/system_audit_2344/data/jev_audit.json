@@ -1,0 +1,198 @@
+{
+ "per_draw": {
+  "2339": {
+   "n_options": 20,
+   "favourite": "C02",
+   "fav_prob": 0.9,
+   "confidence": 0.89,
+   "spearman_choice_matches": 0.13684210526315788,
+   "spearman_choice_ensemble_rank": 0.30977443609022554,
+   "spearman_choice_agreement": 0.21052631578947367,
+   "spearman_choice_position": 0.045112781954887216,
+   "choice_by_generator": {
+    "A_long": 0.92,
+    "B_recent": 0.0,
+    "C_gap": 0.0,
+    "D_trend": 0.05,
+    "E_pairs": 0.03,
+    "F_structure": 0.0,
+    "G_ensemble": 0.0,
+    "H_random": 0.0
+   },
+   "fav_matches": 1,
+   "mean_matches": 1.2,
+   "choice_weighted_matches": 1.0
+  },
+  "2340": {
+   "n_options": 16,
+   "favourite": "C02",
+   "fav_prob": 0.89,
+   "confidence": 0.88,
+   "spearman_choice_matches": 0.06470588235294117,
+   "spearman_choice_ensemble_rank": 0.21764705882352942,
+   "spearman_choice_agreement": 0.4794117647058824,
+   "spearman_choice_position": 0.5705882352941177,
+   "choice_by_generator": {
+    "A_long": 0.92,
+    "C_gap": 0.0,
+    "D_trend": 0.06999999999999999,
+    "E_pairs": 0.01,
+    "F_structure": 0.0,
+    "H_random": 0.0
+   },
+   "fav_matches": 1,
+   "mean_matches": 1.1875,
+   "choice_weighted_matches": 1.04
+  },
+  "2341": {
+   "n_options": 16,
+   "favourite": "C04",
+   "fav_prob": 0.92,
+   "confidence": 0.9,
+   "spearman_choice_matches": 0.1764705882352941,
+   "spearman_choice_ensemble_rank": 0.4941176470588235,
+   "spearman_choice_agreement": 0.38235294117647056,
+   "spearman_choice_position": 0.2823529411764706,
+   "choice_by_generator": {
+    "A_long": 0.06,
+    "B_recent": 0.92,
+    "D_trend": 0.0,
+    "E_pairs": 0.01,
+    "F_structure": 0.0,
+    "G_ensemble": 0.01,
+    "H_random": 0.0
+   },
+   "fav_matches": 3,
+   "mean_matches": 1.375,
+   "choice_weighted_matches": 2.8400000000000003
+  },
+  "2342": {
+   "n_options": 16,
+   "favourite": "C03",
+   "fav_prob": 0.71,
+   "confidence": 0.68,
+   "spearman_choice_matches": 0.2588235294117647,
+   "spearman_choice_ensemble_rank": 0.5058823529411764,
+   "spearman_choice_agreement": 0.3323529411764706,
+   "spearman_choice_position": 0.07941176470588236,
+   "choice_by_generator": {
+    "A_long": 0.86,
+    "C_gap": 0.0,
+    "D_trend": 0.13,
+    "E_pairs": 0.01,
+    "F_structure": 0.0,
+    "H_random": 0.0
+   },
+   "fav_matches": 2,
+   "mean_matches": 0.9375,
+   "choice_weighted_matches": 1.58
+  },
+  "2343": {
+   "n_options": 16,
+   "favourite": "C04",
+   "fav_prob": 0.86,
+   "confidence": 0.84,
+   "spearman_choice_matches": 0.09411764705882353,
+   "spearman_choice_ensemble_rank": 0.2735294117647059,
+   "spearman_choice_agreement": 0.25,
+   "spearman_choice_position": 0.0029411764705882353,
+   "choice_by_generator": {
+    "A_long": 0.11,
+    "B_recent": 0.86,
+    "D_trend": 0.01,
+    "E_pairs": 0.01,
+    "F_structure": 0.0,
+    "G_ensemble": 0.01,
+    "H_random": 0.0
+   },
+   "fav_matches": 2,
+   "mean_matches": 1.4375,
+   "choice_weighted_matches": 1.95
+  }
+ },
+ "replicates": {
+  "2342": {
+   "agreement": "5/5",
+   "spearman": 0.9972927241962776,
+   "top3": 3.0,
+   "runs": [
+    [
+     "production",
+     "C03",
+     0.71
+    ],
+    [
+     "replicate_1",
+     "C03",
+     0.77
+    ],
+    [
+     "replicate_2",
+     "C03",
+     0.76
+    ],
+    [
+     "replicate_3",
+     "C03",
+     0.68
+    ],
+    [
+     "replicate_4",
+     "C03",
+     0.7
+    ],
+    [
+     "replicate_5",
+     "C03",
+     0.77
+    ]
+   ]
+  },
+  "2343": {
+   "agreement": "5/5",
+   "spearman": 0.9938271396017685,
+   "top3": 2.6666666666666665,
+   "runs": [
+    [
+     "production",
+     "C04",
+     0.86
+    ],
+    [
+     "replicate_1",
+     "C04",
+     0.85
+    ],
+    [
+     "replicate_2",
+     "C04",
+     0.85
+    ],
+    [
+     "replicate_3",
+     "C04",
+     0.87
+    ],
+    [
+     "replicate_4",
+     "C04",
+     0.87
+    ],
+    [
+     "replicate_5",
+     "C04",
+     0.84
+    ]
+   ]
+  }
+ },
+ "pooled_spearman_choice_matches": 0.17634909385440925,
+ "pooled_n": 84,
+ "favourite_mean_matches": 1.8,
+ "option_mean_matches": 1.2275,
+ "untested": [
+  "candidate-order permutation",
+  "blinded IDs / generator labels"
+ ],
+ "note": "Saved calls only (5 production calls; 10 replicates). No new historical calls."
+}

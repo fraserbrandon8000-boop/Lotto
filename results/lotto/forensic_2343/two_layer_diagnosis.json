@@ -1,0 +1,46 @@
+{
+  "A_winners_in_pool": [
+    4,
+    7,
+    13,
+    33
+  ],
+  "B_reached_portfolio": [
+    4,
+    7,
+    13,
+    33
+  ],
+  "C_lost_before_construction": [
+    23,
+    35
+  ],
+  "D_lost_during_construction": [],
+  "portfolio_captured": [
+    4,
+    7,
+    13,
+    33
+  ],
+  "v1_numbers_in_pool": [
+    1,
+    4,
+    13,
+    14,
+    24
+  ],
+  "challengers_cover_pool": 12,
+  "counterfactual_all_six_in_pool": {
+    "method": "all 5,005 6-subsets of the frozen Top-15 pool as hypothetical winner sets, scored against the frozen portfolio (no ticket built from the outcome)",
+    "mean_best": 3.2515484515484516,
+    "p_best_ge3": 0.9460539460539461,
+    "p_best_ge4": 0.2811188811188811,
+    "p_best_ge5": 0.023976023976023976,
+    "mean_total": 6.8,
+    "mean_unique_winners_covered": 6.0
+  },
+  "random_reference": {
+    "p_capture_le3_top15": 0.8480740802722226,
+    "expected_capture_top15": 2.3684210526315788
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "production_favourite": "C04",
+  "replicate_favourites": [
+    "C04",
+    "C04",
+    "C04",
+    "C04",
+    "C04"
+  ],
+  "top_choice_agreement": "5/5",
+  "mean_spearman": 0.9938271396017685,
+  "mean_top3_overlap": 2.6666666666666665,
+  "max_prob_range": 0.030000000000000027,
+  "confidence": {
+    "mean": 0.8366666666666668,
+    "sd": 0.012110601416389978,
+    "min": 0.82,
+    "max": 0.85
+  },
+  "aggregated_favourite": "C04",
+  "would_aggregation_change_v1": "NO (no-edge rule: Jev has no role in selection)",
+  "jev_preferred_outcome": {
+    "C04": 2
+  },
+  "historical_aggregation_test": {
+    "feasible": false,
+    "reason": "A historical first-valid vs 3/5-call aggregate comparison needs 3-5 Jev calls on each of ~110 reconstructed historical states (~550 calls at ~35k input tokens each). That is not a proportionate research cost, and Jev does not affect V1 selection under the no-edge rule. Prospective replicate data exist for #2342 only (and will for #2343); on #2342 first-valid and aggregate favourites were identical (C03, which scored 2/6 on #2342: 13 and 33)."
+  }
+}
