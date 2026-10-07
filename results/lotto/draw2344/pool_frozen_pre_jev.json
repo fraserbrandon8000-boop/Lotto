@@ -1,0 +1,33 @@
+{
+  "frozen_utc": "2026-10-07T15:35:21.473354+00:00",
+  "note": "Candidate pool frozen before any Jev call",
+  "hashes": {
+    "PROTOCOL.txt": "05cebd31acb893560e7913552e312661b11204fbc1358be82ea70a88d4be4138",
+    "draws.json": "e0f7b12b250f9493fc79faca4e9afc963aab635fe0668a1b0730cdb86fcd3ed4",
+    "candidates.json": "85f5ea805f550a0fd205489df01ce31732ad0daba9af6ecbd7484daddadb2e58",
+    "model_performance.json": "014664735ab026fb4214a3af01b42736bc83469d2c3d0e0ed665168aad69d0ae",
+    "candidate_sensitivity.json": "46fb5391d86cec63baedf6394c1f1aef30523d92c7546223aeb42c2fa1ad1361",
+    "refreshed_rankings.json": "6c4775bf4245b78bfdb171223856385a6c1c513fe21c911716619218e0abdf8a",
+    "metadata.json": "a3868b8808ade15d5c825f01b6d634a943d506d46b64ddef9d6feed5b05fa0b1",
+    "jev_state.json": "e60369e358e52255b8b380f38495dea890fb256395c9e895cf2605275883efb2"
+  },
+  "eligible_ids": [
+    "C01",
+    "C02",
+    "C03",
+    "C07",
+    "C08",
+    "C09",
+    "C10",
+    "C11",
+    "C12",
+    "C13",
+    "C14",
+    "C15",
+    "C16",
+    "C17",
+    "C18",
+    "C19",
+    "C20"
+  ]
+}
