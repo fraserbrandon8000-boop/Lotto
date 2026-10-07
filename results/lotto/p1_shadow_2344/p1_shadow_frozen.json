@@ -1,0 +1,96 @@
+{
+ "status": "P1 SHADOW RESEARCH (not playable)",
+ "created_utc": "2026-10-07T15:38:52.902604+00:00",
+ "target_draw": 2344,
+ "frozen_tickets_commit": "f248e15",
+ "concentration": {
+  "rule": "three highest-ranked distinct combinations of the same full-universe ranking, no diversity rule (jackpot-rational only under a calibrated signal)",
+  "tickets": [
+   [
+    4,
+    7,
+    12,
+    13,
+    24,
+    33
+   ],
+   [
+    2,
+    4,
+    12,
+    13,
+    24,
+    33
+   ],
+   [
+    1,
+    4,
+    12,
+    13,
+    24,
+    33
+   ]
+  ],
+  "best_null_pmf": [
+   0.21508280022211912,
+   0.4442103234672894,
+   0.27102008526157134,
+   0.06366182836771073,
+   0.005844572408039901,
+   0.0001793035848763403,
+   1.0866883931899413e-06
+  ]
+ },
+ "v1_per_draw_seed": {
+  "rule": "V1 eligible candidates sorted by ID; index default_rng(20259019... SEED+2344)",
+  "seed": 20263263,
+  "candidate": "C01",
+  "numbers": [
+   1,
+   8,
+   15,
+   18,
+   24,
+   25
+  ],
+  "generator": "A_long"
+ },
+ "legacy_p0_coverage": {
+  "rule": "frozen P0 protocol 72e1c075 (Top-15 pool, coverage objective) around the frozen V1 ticket",
+  "tickets": [
+   [
+    1,
+    4,
+    7,
+    12,
+    13,
+    24
+   ],
+   [
+    2,
+    6,
+    14,
+    22,
+    23,
+    33
+   ]
+  ],
+  "pool": [
+   13,
+   4,
+   12,
+   24,
+   7,
+   2,
+   1,
+   33,
+   22,
+   14,
+   18,
+   10,
+   6,
+   23,
+   8
+  ]
+ }
+}

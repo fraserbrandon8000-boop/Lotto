@@ -1,0 +1,100 @@
+{
+  "seed": 20261007,
+  "blind_map": {
+    "C01": "K13",
+    "C02": "K05",
+    "C03": "K09",
+    "C07": "K06",
+    "C08": "K08",
+    "C09": "K12",
+    "C10": "K11",
+    "C11": "K02",
+    "C12": "K10",
+    "C13": "K07",
+    "C14": "K16",
+    "C15": "K14",
+    "C16": "K01",
+    "C17": "K17",
+    "C18": "K03",
+    "C19": "K15",
+    "C20": "K04"
+  },
+  "results": {
+    "original_order": {
+      "created_utc": "2026-10-07T15:38:24.575Z",
+      "model": "jev-1.13.0",
+      "choice_original_id": "C02",
+      "confidence": 0.9,
+      "probabilities_original_ids": {
+        "C01": 0.03,
+        "C17": 0,
+        "C19": 0.03,
+        "C03": 0,
+        "C13": 0.01,
+        "C11": 0.02,
+        "C16": 0,
+        "C15": 0,
+        "C09": 0,
+        "C20": 0,
+        "C02": 0.91,
+        "C10": 0,
+        "C08": 0,
+        "C07": 0,
+        "C14": 0,
+        "C18": 0,
+        "C12": 0
+      }
+    },
+    "reversed": {
+      "created_utc": "2026-10-07T15:38:24.954Z",
+      "model": "jev-1.13.0",
+      "choice_original_id": "C02",
+      "confidence": 0.92,
+      "probabilities_original_ids": {
+        "C13": 0,
+        "C10": 0.01,
+        "C20": 0.02,
+        "C02": 0.92,
+        "C16": 0,
+        "C12": 0,
+        "C17": 0,
+        "C08": 0,
+        "C01": 0,
+        "C19": 0.02,
+        "C18": 0,
+        "C14": 0,
+        "C03": 0.02,
+        "C15": 0,
+        "C11": 0.01,
+        "C07": 0,
+        "C09": 0
+      }
+    },
+    "blinded": {
+      "created_utc": "2026-10-07T15:38:25.359Z",
+      "model": "jev-1.13.0",
+      "choice_original_id": "C02",
+      "confidence": 0.96,
+      "probabilities_original_ids": {
+        "C15": 0,
+        "C14": 0,
+        "C09": 0,
+        "C07": 0,
+        "C08": 0,
+        "C17": 0,
+        "C11": 0.03,
+        "C16": 0,
+        "C01": 0,
+        "C12": 0,
+        "C19": 0.01,
+        "C18": 0,
+        "C02": 0.96,
+        "C13": 0,
+        "C10": 0,
+        "C20": 0,
+        "C03": 0
+      }
+    }
+  },
+  "note": "Research only, after the #2344 freeze (f248e15). Choice-only requests on the frozen V1 evidence; cannot change tickets."
+}

@@ -1,0 +1,20 @@
+{
+  "request_sha256": "9c184d99fc6c7730cabf95b0ea2247602fb8036a3427afd4eee338c081f08434",
+  "production_request_sha256": "9c184d99fc6c7730cabf95b0ea2247602fb8036a3427afd4eee338c081f08434",
+  "identical_request_bytes": true,
+  "runs": [
+    {
+      "replicate": 5,
+      "created_utc": "2026-10-07T15:37:47.091Z",
+      "model": "jev-1.13.0",
+      "choice": "C02",
+      "confidence": 0.92,
+      "answer_key_set_matches": true,
+      "usage": {
+        "input_tokens": 36791,
+        "output_tokens": 2468
+      }
+    }
+  ],
+  "note": "Replacement for replicate 5: the original jev_stability_param.mjs consumed one research call whose answers arrived in a different key order; its strict order assertion threw before saving, so that response was lost. Research only; tickets frozen at f248e15."
+}

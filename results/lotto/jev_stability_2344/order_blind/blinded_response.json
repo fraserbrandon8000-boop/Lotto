@@ -1,0 +1,33 @@
+{
+  "model": "jev-1.13.0",
+  "answers": {
+    "overall": {
+      "type": "choice",
+      "choice": "K05",
+      "confidence": 0.96,
+      "probabilities": {
+        "K14": 0,
+        "K16": 0,
+        "K12": 0,
+        "K06": 0,
+        "K08": 0,
+        "K17": 0,
+        "K02": 0.03,
+        "K01": 0,
+        "K13": 0,
+        "K10": 0,
+        "K15": 0.01,
+        "K03": 0,
+        "K05": 0.96,
+        "K07": 0,
+        "K11": 0,
+        "K04": 0,
+        "K09": 0
+      }
+    }
+  },
+  "usage": {
+    "input_tokens": 21111,
+    "output_tokens": 172
+  }
+}

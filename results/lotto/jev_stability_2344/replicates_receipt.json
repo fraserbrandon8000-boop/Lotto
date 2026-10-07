@@ -1,0 +1,54 @@
+{
+  "production_request_sha256": "9c184d99fc6c7730cabf95b0ea2247602fb8036a3427afd4eee338c081f08434",
+  "identical_request_bytes": true,
+  "runs": [
+    {
+      "replicate": 1,
+      "file_mtime_utc": "2026-10-07T15:37:24.575459+00:00",
+      "model": "jev-1.13.0",
+      "choice": "C02",
+      "confidence": 0.89
+    },
+    {
+      "replicate": 2,
+      "file_mtime_utc": "2026-10-07T15:37:25.187460+00:00",
+      "model": "jev-1.13.0",
+      "choice": "C02",
+      "confidence": 0.94
+    },
+    {
+      "replicate": 3,
+      "file_mtime_utc": "2026-10-07T15:37:25.715460+00:00",
+      "model": "jev-1.13.0",
+      "choice": "C02",
+      "confidence": 0.9
+    },
+    {
+      "replicate": 4,
+      "file_mtime_utc": "2026-10-07T15:37:26.311460+00:00",
+      "model": "jev-1.13.0",
+      "choice": "C02",
+      "confidence": 0.93
+    },
+    {
+      "replicate": 5,
+      "created_utc": "2026-10-07T15:37:47.091Z",
+      "model": "jev-1.13.0",
+      "choice": "C02",
+      "confidence": 0.92,
+      "answer_key_set_matches": true,
+      "usage": {
+        "input_tokens": 36791,
+        "output_tokens": 2468
+      }
+    }
+  ],
+  "research_calls_made": 6,
+  "lost_call": {
+    "index": "original replicate 5",
+    "reason": "jev_stability_param.mjs asserted answer-key ORDER before saving; the API returned the same keys in another order; response not saved",
+    "replaced_by": "replicate_5 via jev_stability_preserve.mjs"
+  },
+  "frozen_tickets_commit": "f248e15",
+  "note": "Research-only replicates after all #2344 tickets were frozen. No ticket is changed by these calls."
+}
