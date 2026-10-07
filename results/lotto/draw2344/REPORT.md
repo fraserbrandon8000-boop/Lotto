@@ -39,7 +39,7 @@ These are the maxima over 3-ticket overlap structures (the two P0 Coverage ticke
 - **Order / blinded-ID test** (3 Choice-only calls): C02 under the original order (0.91), reversed order (0.92) and shuffled blinded IDs without generator labels (0.96). Jev's preference follows evidence content, not position, ID or label.
 - **Random controls:**
   - fixed (seed 20260930, unchanged): 12 14 15 17 20 29 / 13 19 25 26 28 29 / 01 08 20 21 33 36;
-  - per-draw, matched to zero overlap (seed 20262274): 10 18 21 29 32 36 / 02 03 14 15 26 35 / 06 08 11 16 19 24.
+  - per-draw, matched to zero overlap (seed 20263274): 10 18 21 29 32 36 / 02 03 14 15 26 35 / 06 08 11 16 19 24.
 - **P1 shadows (not playable):**
   - concentration 04 07 12 13 24 33 / 02 04 12 13 24 33 / 01 04 12 13 24 33;
   - V1 per-draw seed C01 01 08 15 18 24 25;
