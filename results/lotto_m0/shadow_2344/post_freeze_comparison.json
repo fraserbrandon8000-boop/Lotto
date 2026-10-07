@@ -1,0 +1,63 @@
+{
+ "note": "Read only AFTER the M0 shadow was committed (9bc2255). Descriptive overlap; M0 unchanged. Source: origin/claude/lotto-2344-audit results/lotto/draw2344/portfolio_frozen.json (not merged).",
+ "production_freeze": "2026-10-07T15:37:10.401882+00:00",
+ "m0_shadow": [
+  12,
+  14,
+  17,
+  18,
+  19,
+  23
+ ],
+ "comparison": [
+  {
+   "ticket": 1,
+   "track": "V1 SCIENCE",
+   "numbers": [
+    16,
+    21,
+    26,
+    32,
+    34,
+    36
+   ],
+   "overlap_with_m0": []
+  },
+  {
+   "ticket": 2,
+   "track": "ALIGNED COVERAGE",
+   "numbers": [
+    4,
+    7,
+    12,
+    13,
+    24,
+    33
+   ],
+   "overlap_with_m0": [
+    12
+   ]
+  },
+  {
+   "ticket": 3,
+   "track": "ALIGNED COVERAGE",
+   "numbers": [
+    1,
+    2,
+    14,
+    18,
+    22,
+    31
+   ],
+   "overlap_with_m0": [
+    14,
+    18
+   ]
+  }
+ ],
+ "union_overlap": [
+  12,
+  14,
+  18
+ ]
+}
