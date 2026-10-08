@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "V1_unchanged": true,
+  "source_unchanged": true,
+  "origins": 131,
+  "cutoff": 1757,
+  "valid_candidates": true,
+  "no_other_prediction_inspected": true,
+  "no_research_refinement": true
+}

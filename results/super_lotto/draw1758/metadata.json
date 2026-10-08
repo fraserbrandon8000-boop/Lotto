@@ -1,0 +1,33 @@
+{
+  "game": "Super Lotto",
+  "seed": 2026092109,
+  "cutoff": {
+    "draw_id": 1757,
+    "date": "2026-10-06",
+    "numbers": [
+      4,
+      23,
+      29,
+      31,
+      32
+    ],
+    "super_ball": 9,
+    "source": "Official result supplied by user in the #1758 task (2026-10-08); ordinary history; recorded in results/super_lotto/prospective/ledger.jsonl"
+  },
+  "origins": 131,
+  "qualifying_models": [],
+  "conclusion": "No detectable edge in this dataset",
+  "configuration": {
+    "warmup": 50,
+    "confirmation": 40,
+    "search_pool": 512,
+    "window": 30,
+    "half_life": 20,
+    "trend": 20,
+    "pair_alpha": 0.05
+  },
+  "source_sha256": "e7c654a8e7c4ce56738b4bb9ea7032209f52a609e3341e448a3f260f9036a07f",
+  "protocol_sha256": "14c5a02cb58c40d05cd069429d36c0f4135b1eed6616a36963cf2b9a5a093b6c",
+  "normalized_sha256": "83de0ab402175f5fe5f96bf3ab1a92a8362d355d1ed901edcc8b57188c922c54",
+  "target": 1758
+}
