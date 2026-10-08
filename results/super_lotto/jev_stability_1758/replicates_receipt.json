@@ -1,0 +1,43 @@
+{
+  "request_sha256": "5c7dfb113e31fb7ab9774a57a5bad4ccf887f52ff3e16520919c45e5cb2c74fd",
+  "production_request_sha256": "5c7dfb113e31fb7ab9774a57a5bad4ccf887f52ff3e16520919c45e5cb2c74fd",
+  "identical_request_bytes": true,
+  "runs": [
+    {
+      "replicate": 1,
+      "created_utc": "2026-10-08T15:22:47.125Z",
+      "model": "jev-1.13.0",
+      "choice": "SL19",
+      "confidence": 0.8
+    },
+    {
+      "replicate": 2,
+      "created_utc": "2026-10-08T15:22:47.673Z",
+      "model": "jev-1.13.0",
+      "choice": "SL19",
+      "confidence": 0.81
+    },
+    {
+      "replicate": 3,
+      "created_utc": "2026-10-08T15:22:48.229Z",
+      "model": "jev-1.13.0",
+      "choice": "SL19",
+      "confidence": 0.8
+    },
+    {
+      "replicate": 4,
+      "created_utc": "2026-10-08T15:22:48.773Z",
+      "model": "jev-1.13.0",
+      "choice": "SL19",
+      "confidence": 0.82
+    },
+    {
+      "replicate": 5,
+      "created_utc": "2026-10-08T15:22:49.519Z",
+      "model": "jev-1.13.0",
+      "choice": "SL19",
+      "confidence": 0.82
+    }
+  ],
+  "note": "Research-only replicates after all tickets were frozen; no ticket changed."
+}

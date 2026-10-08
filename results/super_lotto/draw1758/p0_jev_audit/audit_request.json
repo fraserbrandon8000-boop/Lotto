@@ -1,0 +1,521 @@
+{
+  "model": "jev-latest",
+  "state": {
+    "task": "Audit the evidence quality of a FROZEN three-ticket Super Lotto research portfolio for draw #1758 (5 mains from 1-35 plus one Super Ball from 1-10). Judge only the supplied evidence. This audit cannot change, reorder or replace any ticket; outputs are evidence judgments, not winning probabilities.",
+    "game_facts": {
+      "expected_main_matches_per_ticket": 0.7142857142857143,
+      "p_sb_hit": 0.1,
+      "jackpot_odds": "1 in 3,246,320",
+      "note": "Under a fair draw every fixed ticket has identical winning probability."
+    },
+    "v1_science_ticket": {
+      "mains": [
+        1,
+        6,
+        23,
+        29,
+        31
+      ],
+      "super_ball": 2,
+      "candidate": "SL10",
+      "generators": [
+        "D_trend",
+        "S_gap"
+      ],
+      "selection": "predeclared seeded uniform candidate no-edge rule",
+      "models_passing_V1_gate": [],
+      "candidate_evidence": {
+        "model_agreement_count": 3,
+        "sensitivity_rank_range": [
+          1,
+          4
+        ],
+        "qualified_models": [],
+        "counterevidence": [
+          "Candidate itself and final Jev policy are not walk-forward validated.",
+          "Main and SB evidence are separate; no unsupported cross-game or joint dependence.",
+          "Agreement among same-data models is not independent replication.",
+          "Flat pair/random objectives do not prove stability."
+        ]
+      },
+      "forensic_note": "V1 always selects SL10 (D_trend top ticket + S_gap SB) because a fresh fixed-seed generator picks index 9 of 20 every run."
+    },
+    "p0_protocol": {
+      "status": "frozen before the #1754 shadow; history through #1753 only",
+      "historical_gate": "FAIL",
+      "gate": {
+        "PASS": false,
+        "E1": {
+          "observed": 61,
+          "expected": 57.142857142857146,
+          "p": 0.3055644732874133,
+          "holm_p": 0.91669341986224,
+          "mean_excess": 0.09642857142857138,
+          "block95": [
+            -0.053571428571428645,
+            0.27142857142857135
+          ],
+          "half1": 0.0714285714285714,
+          "half2": 0.12142857142857136
+        },
+        "E2": {
+          "observed": 7,
+          "p": 0.7121529929045309,
+          "holm_p": 0.981939506486953
+        },
+        "E3": {
+          "observed": 54,
+          "p": 0.4909697532434765,
+          "holm_p": 0.981939506486953
+        }
+      },
+      "main_pool": {
+        "K": 12,
+        "basis": "NO EDGE: predeclared default K=12 (no pool size passed on development)"
+      },
+      "credibility": {
+        "main": {
+          "A_long": 0,
+          "B_recent": 0,
+          "C_gap": 0,
+          "D_trend": 0,
+          "E_pairs": 0
+        },
+        "sb": {
+          "S_long": 0,
+          "S_recent": 0,
+          "S_gap": 0,
+          "S_trend": 0,
+          "S_transition": 0
+        },
+        "ticket": {
+          "E_ticket": 0,
+          "F_ticket": 0
+        }
+      },
+      "formula": "c = max(0, 1 - 2*p_Holm) * [both halves positive]; p from mean AP excess (main), mean SB percentile excess (SB), exact hypergeometric total hits (E/F tickets); minimum 25 prior origins",
+      "notes": [
+        "Every credibility weight is 0: no main, SB or ticket-level component has corrected, stable evidence.",
+        "Main ordering is therefore a declared non-evidential convention (equal-weight mean of model z-scores); tickets are chosen for coverage with <=1 shared main.",
+        "SB rule C: distinct SBs, which mechanically raises P(any SB hit) without raising expected SB hits."
+      ]
+    },
+    "historical_confirmation_40_draws": {
+      "best": {
+        "P0": 1.35,
+        "D_top3_standalone": 1.075,
+        "A_three_random": 1.311125,
+        "B_three_random_overlap1": 1.3348749999999998,
+        "C_v1_plus_two_random": 1.3348749999999998,
+        "P0_minus_C_ci95": [
+          -0.13013124999999998,
+          0.15612812499999998
+        ]
+      },
+      "ch_total": {
+        "P0": 1.525,
+        "D_top3_standalone": 1.7,
+        "A_three_random": 1.425375,
+        "B_three_random_overlap1": 1.4335,
+        "C_v1_plus_two_random": 1.4286249999999998,
+        "P0_minus_C_ci95": [
+          -0.06700624999999999,
+          0.271753125
+        ]
+      },
+      "ge2": {
+        "P0": 0.4,
+        "D_top3_standalone": 0.325,
+        "A_three_random": 0.3555,
+        "B_three_random_overlap1": 0.36475,
+        "C_v1_plus_two_random": 0.382875,
+        "P0_minus_C_ci95": [
+          -0.10400625000000001,
+          0.14325624999999995
+        ]
+      },
+      "any_sb": {
+        "P0": 0.225,
+        "D_top3_standalone": 0.225,
+        "A_three_random": 0.27225,
+        "B_three_random_overlap1": 0.268125,
+        "C_v1_plus_two_random": 0.23074999999999996,
+        "E_p0_mains_random_sb": 0.22887500000000002,
+        "P0_minus_C_ci95": [
+          -0.09788124999999999,
+          0.08674999999999998
+        ]
+      },
+      "ch_sb": {
+        "P0": 0.175,
+        "D_top3_standalone": 0.125,
+        "A_three_random": 0.19637500000000002,
+        "B_three_random_overlap1": 0.199,
+        "C_v1_plus_two_random": 0.20149999999999996,
+        "E_p0_mains_random_sb": 0.19824999999999998,
+        "P0_minus_C_ci95": [
+          -0.12399999999999997,
+          0.0705
+        ]
+      },
+      "unique": {
+        "P0": 13.375,
+        "D_top3_standalone": 6.45,
+        "A_three_random": 12.96275,
+        "B_three_random_overlap1": 13.552749999999998,
+        "C_v1_plus_two_random": 13.54425,
+        "P0_minus_C_ci95": [
+          -0.52675625,
+          0.22350000000000003
+        ]
+      }
+    },
+    "shadow_1754": {
+      "best_main": 1,
+      "total_main": 2,
+      "any_sb": false,
+      "note": "one draw, descriptive only"
+    },
+    "portfolio": [
+      {
+        "ticket": 1,
+        "role": "V1 Science",
+        "mains": [
+          1,
+          6,
+          23,
+          29,
+          31
+        ],
+        "super_ball": 2
+      },
+      {
+        "ticket": 2,
+        "role": "P0 Coverage Challenger",
+        "mains": [
+          2,
+          11,
+          18,
+          22,
+          24
+        ],
+        "super_ball": 7,
+        "T_rank": 1,
+        "raw_T": 0,
+        "incremental_coverage": 0.9999999999999999,
+        "family_contributions": {
+          "A_long": 0,
+          "B_recent": 0,
+          "C_gap": 0,
+          "D_trend": 0,
+          "E_pairs": 0,
+          "pair": 0,
+          "struct": 0
+        }
+      },
+      {
+        "ticket": 3,
+        "role": "P0 Coverage Challenger",
+        "mains": [
+          1,
+          12,
+          15,
+          17,
+          18
+        ],
+        "super_ball": 3,
+        "T_rank": 1,
+        "raw_T": 0,
+        "incremental_coverage": 0.6,
+        "family_contributions": {
+          "A_long": 0,
+          "B_recent": 0,
+          "C_gap": 0,
+          "D_trend": 0,
+          "E_pairs": 0,
+          "pair": 0,
+          "struct": 0
+        }
+      }
+    ],
+    "portfolio_facts": {
+      "pool": [
+        1,
+        2,
+        6,
+        11,
+        12,
+        15,
+        17,
+        18,
+        22,
+        23,
+        24,
+        29
+      ],
+      "pairwise_main_overlap": {
+        "1-2": 0,
+        "1-3": 1,
+        "2-3": 1
+      },
+      "unique_mains": 13,
+      "distinct_sbs": 3,
+      "sb_order": [
+        7,
+        3,
+        5,
+        4,
+        1,
+        8,
+        6,
+        9,
+        2,
+        10
+      ]
+    },
+    "computed_sensitivity_research_only": {
+      "description": "Tickets the same algorithm would produce under alternative settings (NOT used; frozen portfolio unchanged).",
+      "alternatives": {
+        "K8": {
+          "ticket_2": [
+            1,
+            2,
+            11,
+            18,
+            22
+          ],
+          "ticket_3": [
+            1,
+            11,
+            18,
+            23,
+            29
+          ],
+          "max_overlap_with_frozen_ticket_2": 4,
+          "max_overlap_with_frozen_ticket_3": 2
+        },
+        "K10": {
+          "ticket_2": [
+            2,
+            11,
+            18,
+            22,
+            24
+          ],
+          "ticket_3": [
+            1,
+            11,
+            17,
+            18,
+            23
+          ],
+          "max_overlap_with_frozen_ticket_2": 5,
+          "max_overlap_with_frozen_ticket_3": 3
+        },
+        "K15": {
+          "ticket_2": [
+            2,
+            11,
+            18,
+            22,
+            24
+          ],
+          "ticket_3": [
+            12,
+            15,
+            17,
+            27,
+            32
+          ],
+          "max_overlap_with_frozen_ticket_2": 5,
+          "max_overlap_with_frozen_ticket_3": 3
+        },
+        "SB_rule_B": [
+          7,
+          3
+        ],
+        "SB_rule_A": [
+          7,
+          7
+        ]
+      }
+    }
+  },
+  "questions": {
+    "t1_robustness": {
+      "type": "score",
+      "instructions": "Consider ONLY ticket 1 at `portfolio[0]` (five mains plus one Super Ball) using only the supplied evidence. How robust is the empirical evidence that this complete ticket is better than a random Super Lotto ticket?",
+      "criteria": [
+        "No empirical support beyond random: every relevant model fails corrected testing and results match random controls.",
+        "Weak or fragile apparent support: small uncorrected differences, unstable across periods or settings.",
+        "Some repeatable out-of-sample support, but no corrected confirmation and substantial uncertainty.",
+        "Corrected confirmation-period support that is stable across sensitivity settings.",
+        "Strong support replicated across independent models, periods and prospective outcomes."
+      ]
+    },
+    "t1_overfit": {
+      "type": "noul",
+      "instructions": "Consider ONLY ticket 1 at `portfolio[0]` (five mains plus one Super Ball) using only the supplied evidence. Is chance or overfitting a better explanation of any apparent support for this ticket than a reproducible predictive signal?",
+      "criteria": {
+        "true": "Apparent support is compatible with noise: corrected tests fail or gains vanish against random comparators.",
+        "false": "Support survives corrected out-of-sample tests and random-control comparisons."
+      }
+    },
+    "t1_weak_models": {
+      "type": "noul",
+      "instructions": "Consider ONLY ticket 1 at `portfolio[0]` (five mains plus one Super Ball) using only the supplied evidence. Does the selection of this ticket depend mainly on weak or unvalidated models, or on a mechanical rule (seeded fallback, coverage convention) rather than validated evidence?",
+      "criteria": {
+        "true": "Its selection rests on unvalidated models, zero-credibility weights, a coverage convention or a seeded fallback.",
+        "false": "Its selection rests mainly on evidence that passed corrected validation."
+      }
+    },
+    "t1_concentration": {
+      "type": "noul",
+      "instructions": "Consider ONLY ticket 1 at `portfolio[0]` (five mains plus one Super Ball) using only the supplied evidence. Is whatever support this ticket has concentrated in one model family or in correlated families rather than spread across genuinely independent evidence?",
+      "criteria": {
+        "true": "Support comes from one family or from correlated families.",
+        "false": "Support comes from several genuinely independent families."
+      }
+    },
+    "t1_fragility": {
+      "type": "noul",
+      "instructions": "Consider ONLY ticket 1 at `portfolio[0]` (five mains plus one Super Ball) using only the supplied evidence. Would modest, reasonable changes to the construction (main pool size, Super Ball rule, tie-break convention) likely replace most of this ticket? Use `computed_sensitivity_research_only` where it applies.",
+      "criteria": {
+        "true": "Most of the ticket changes under reasonable alternative settings.",
+        "false": "The ticket stays largely the same under reasonable alternative settings."
+      }
+    },
+    "t2_robustness": {
+      "type": "score",
+      "instructions": "Consider ONLY ticket 2 at `portfolio[1]` (five mains plus one Super Ball) using only the supplied evidence. How robust is the empirical evidence that this complete ticket is better than a random Super Lotto ticket?",
+      "criteria": [
+        "No empirical support beyond random: every relevant model fails corrected testing and results match random controls.",
+        "Weak or fragile apparent support: small uncorrected differences, unstable across periods or settings.",
+        "Some repeatable out-of-sample support, but no corrected confirmation and substantial uncertainty.",
+        "Corrected confirmation-period support that is stable across sensitivity settings.",
+        "Strong support replicated across independent models, periods and prospective outcomes."
+      ]
+    },
+    "t2_overfit": {
+      "type": "noul",
+      "instructions": "Consider ONLY ticket 2 at `portfolio[1]` (five mains plus one Super Ball) using only the supplied evidence. Is chance or overfitting a better explanation of any apparent support for this ticket than a reproducible predictive signal?",
+      "criteria": {
+        "true": "Apparent support is compatible with noise: corrected tests fail or gains vanish against random comparators.",
+        "false": "Support survives corrected out-of-sample tests and random-control comparisons."
+      }
+    },
+    "t2_weak_models": {
+      "type": "noul",
+      "instructions": "Consider ONLY ticket 2 at `portfolio[1]` (five mains plus one Super Ball) using only the supplied evidence. Does the selection of this ticket depend mainly on weak or unvalidated models, or on a mechanical rule (seeded fallback, coverage convention) rather than validated evidence?",
+      "criteria": {
+        "true": "Its selection rests on unvalidated models, zero-credibility weights, a coverage convention or a seeded fallback.",
+        "false": "Its selection rests mainly on evidence that passed corrected validation."
+      }
+    },
+    "t2_concentration": {
+      "type": "noul",
+      "instructions": "Consider ONLY ticket 2 at `portfolio[1]` (five mains plus one Super Ball) using only the supplied evidence. Is whatever support this ticket has concentrated in one model family or in correlated families rather than spread across genuinely independent evidence?",
+      "criteria": {
+        "true": "Support comes from one family or from correlated families.",
+        "false": "Support comes from several genuinely independent families."
+      }
+    },
+    "t2_fragility": {
+      "type": "noul",
+      "instructions": "Consider ONLY ticket 2 at `portfolio[1]` (five mains plus one Super Ball) using only the supplied evidence. Would modest, reasonable changes to the construction (main pool size, Super Ball rule, tie-break convention) likely replace most of this ticket? Use `computed_sensitivity_research_only` where it applies.",
+      "criteria": {
+        "true": "Most of the ticket changes under reasonable alternative settings.",
+        "false": "The ticket stays largely the same under reasonable alternative settings."
+      }
+    },
+    "t3_robustness": {
+      "type": "score",
+      "instructions": "Consider ONLY ticket 3 at `portfolio[2]` (five mains plus one Super Ball) using only the supplied evidence. How robust is the empirical evidence that this complete ticket is better than a random Super Lotto ticket?",
+      "criteria": [
+        "No empirical support beyond random: every relevant model fails corrected testing and results match random controls.",
+        "Weak or fragile apparent support: small uncorrected differences, unstable across periods or settings.",
+        "Some repeatable out-of-sample support, but no corrected confirmation and substantial uncertainty.",
+        "Corrected confirmation-period support that is stable across sensitivity settings.",
+        "Strong support replicated across independent models, periods and prospective outcomes."
+      ]
+    },
+    "t3_overfit": {
+      "type": "noul",
+      "instructions": "Consider ONLY ticket 3 at `portfolio[2]` (five mains plus one Super Ball) using only the supplied evidence. Is chance or overfitting a better explanation of any apparent support for this ticket than a reproducible predictive signal?",
+      "criteria": {
+        "true": "Apparent support is compatible with noise: corrected tests fail or gains vanish against random comparators.",
+        "false": "Support survives corrected out-of-sample tests and random-control comparisons."
+      }
+    },
+    "t3_weak_models": {
+      "type": "noul",
+      "instructions": "Consider ONLY ticket 3 at `portfolio[2]` (five mains plus one Super Ball) using only the supplied evidence. Does the selection of this ticket depend mainly on weak or unvalidated models, or on a mechanical rule (seeded fallback, coverage convention) rather than validated evidence?",
+      "criteria": {
+        "true": "Its selection rests on unvalidated models, zero-credibility weights, a coverage convention or a seeded fallback.",
+        "false": "Its selection rests mainly on evidence that passed corrected validation."
+      }
+    },
+    "t3_concentration": {
+      "type": "noul",
+      "instructions": "Consider ONLY ticket 3 at `portfolio[2]` (five mains plus one Super Ball) using only the supplied evidence. Is whatever support this ticket has concentrated in one model family or in correlated families rather than spread across genuinely independent evidence?",
+      "criteria": {
+        "true": "Support comes from one family or from correlated families.",
+        "false": "Support comes from several genuinely independent families."
+      }
+    },
+    "t3_fragility": {
+      "type": "noul",
+      "instructions": "Consider ONLY ticket 3 at `portfolio[2]` (five mains plus one Super Ball) using only the supplied evidence. Would modest, reasonable changes to the construction (main pool size, Super Ball rule, tie-break convention) likely replace most of this ticket? Use `computed_sensitivity_research_only` where it applies.",
+      "criteria": {
+        "true": "Most of the ticket changes under reasonable alternative settings.",
+        "false": "The ticket stays largely the same under reasonable alternative settings."
+      }
+    },
+    "portfolio_robustness": {
+      "type": "score",
+      "instructions": "Consider the WHOLE three-ticket portfolio at `portfolio` with `portfolio_facts`, `p0_protocol` and `historical_confirmation_40_draws`. How robust is the evidence that this portfolio outperforms three diversified random Super Lotto tickets?",
+      "criteria": [
+        "No empirical support beyond random: every relevant model fails corrected testing and results match random controls.",
+        "Weak or fragile apparent support: small uncorrected differences, unstable across periods or settings.",
+        "Some repeatable out-of-sample support, but no corrected confirmation and substantial uncertainty.",
+        "Corrected confirmation-period support that is stable across sensitivity settings.",
+        "Strong support replicated across independent models, periods and prospective outcomes."
+      ]
+    },
+    "portfolio_edge": {
+      "type": "noul",
+      "instructions": "Consider the WHOLE three-ticket portfolio at `portfolio` with `portfolio_facts`, `p0_protocol` and `historical_confirmation_40_draws`. Does the supplied evidence show that this portfolio has a higher expected number of main or Super Ball matches than random diversified tickets?",
+      "criteria": {
+        "true": "A corrected historical gate passed and comparisons with random portfolios exclude zero.",
+        "false": "The historical gate failed or comparison intervals include zero."
+      }
+    },
+    "portfolio_overfit": {
+      "type": "noul",
+      "instructions": "Consider the WHOLE three-ticket portfolio at `portfolio` with `portfolio_facts`, `p0_protocol` and `historical_confirmation_40_draws`. Is chance or overfitting a better explanation of any favourable historical or shadow result than a reproducible signal?",
+      "criteria": {
+        "true": "Favourable results are within random variation or rest on one draw.",
+        "false": "Favourable results are corrected, repeatable and exceed random variation."
+      }
+    },
+    "portfolio_concentration": {
+      "type": "noul",
+      "instructions": "Consider the WHOLE three-ticket portfolio at `portfolio` with `portfolio_facts`, `p0_protocol` and `historical_confirmation_40_draws`. Is the evidence behind the challenger tickets concentrated in one model family or correlated families?",
+      "criteria": {
+        "true": "Challenger support comes mostly from one family or correlated families, or from no validated family at all.",
+        "false": "Challenger support is spread across independent validated families."
+      }
+    },
+    "portfolio_coverage": {
+      "type": "score",
+      "instructions": "Consider the WHOLE three-ticket portfolio at `portfolio` with `portfolio_facts`, `p0_protocol` and `historical_confirmation_40_draws`. How well does the portfolio achieve its stated, non-predictive goal of covering many distinct main numbers and Super Balls with low redundancy?",
+      "criteria": [
+        "Poor: tickets largely duplicate each other.",
+        "Limited: substantial overlap in mains or repeated Super Balls.",
+        "Moderate: some overlap; coverage clearly broader than one ticket.",
+        "Good: low main overlap and distinct Super Balls.",
+        "Maximal: no main overlap and three distinct Super Balls."
+      ]
+    }
+  }
+}
