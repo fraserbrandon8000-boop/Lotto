@@ -1,0 +1,46 @@
+{
+ "status": "SHADOW \u2014 DO NOT PURCHASE (single-ticket protocol v1 research challengers)",
+ "created_utc": "2026-10-08T15:22:32.114672+00:00",
+ "target": 1758,
+ "cutoff": 1757,
+ "data_sha256": "83de0ab402175f5fe5f96bf3ab1a92a8362d355d1ed901edcc8b57188c922c54",
+ "candidates_sha256": "533ce213295f714974645cdce62c18a08511393c1d6e25fe2cc568f6b5313100",
+ "S1_P0_standalone_top": {
+  "main": [
+   1,
+   11,
+   18,
+   23,
+   29
+  ],
+  "super_ball": 7,
+  "pool": [
+   1,
+   2,
+   6,
+   11,
+   12,
+   15,
+   17,
+   18,
+   22,
+   23,
+   24,
+   29
+  ],
+  "note": "all frozen P0 credibilities are 0, so the standalone score is the equal-weight tie-break"
+ },
+ "S2_V1_pool_per_draw_seed": {
+  "candidate": "SL04",
+  "index": 3,
+  "main": [
+   15,
+   18,
+   23,
+   29,
+   32
+  ],
+  "super_ball": 1,
+  "generator": "B_recent"
+ }
+}

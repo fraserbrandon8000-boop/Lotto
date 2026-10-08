@@ -1,0 +1,1876 @@
+{
+  "model": "jev-1.13.0",
+  "answers": {
+    "overall": {
+      "type": "choice",
+      "choice": "SL19",
+      "confidence": 0.83,
+      "probabilities": {
+        "SL01": 0.02,
+        "SL02": 0,
+        "SL03": 0,
+        "SL04": 0.01,
+        "SL05": 0.13,
+        "SL06": 0,
+        "SL07": 0,
+        "SL08": 0,
+        "SL09": 0,
+        "SL10": 0,
+        "SL11": 0,
+        "SL12": 0,
+        "SL13": 0,
+        "SL14": 0,
+        "SL15": 0,
+        "SL16": 0,
+        "SL17": 0,
+        "SL18": 0,
+        "SL19": 0.84,
+        "SL20": 0
+      }
+    },
+    "SL01_robustness": {
+      "type": "score",
+      "score": 0.08,
+      "confidence": 0.93,
+      "legend": {
+        "0": "No empirical support beyond the random baseline; no methodology qualifies after corrected confirmation testing.",
+        "1": "Weak or fragile apparent support, from an unstable configuration or an uncorrected historical result.",
+        "2": "Some repeatable out-of-sample support but substantial uncertainty; convincing corrected confirmation is missing.",
+        "3": "Meaningful support across multiple out-of-sample tests including a corrected confirmation result and sensitivity stability.",
+        "4": "Unusually robust support across independent models and time windows, corrected random-control comparisons and independent prospective replication."
+      },
+      "probabilities": {
+        "0": 0.92,
+        "1": 0.08,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "SL01_consensus": {
+      "type": "score",
+      "score": 0.01,
+      "confidence": 0.99,
+      "legend": {
+        "0": "No independently validated methodology supports the candidate; agreement of unvalidated correlated heuristics does not count.",
+        "1": "One validated methodology supports the candidate; other approaches lack independent validation.",
+        "2": "Two meaningfully distinct validated approaches support the candidate, with shared-data uncertainty.",
+        "3": "Several distinct validated approaches support the candidate consistently across periods.",
+        "4": "Strong support from independently validated approaches and independent data replications."
+      },
+      "probabilities": {
+        "0": 1,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "SL01_quality": {
+      "type": "score",
+      "score": 0.04,
+      "confidence": 0.97,
+      "legend": {
+        "0": "Evidence for an advantage is absent: results are compatible with random controls or no corrected validation supports the claim.",
+        "1": "Evidence for an advantage is weak: small samples, uncorrected comparisons, one window, instability or overfitting dominate.",
+        "2": "Evidence for an advantage has some credible validation but material sample-size or stability limitations remain.",
+        "3": "Evidence for an advantage is supported by corrected separated tests and robust sensitivity, with manageable limitations.",
+        "4": "Evidence for an advantage is supported by strong independent replications, adequate sample sizes, correction and stable sensitivity."
+      },
+      "probabilities": {
+        "0": 0.96,
+        "1": 0.04,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "SL01_stability": {
+      "type": "score",
+      "score": 1.92,
+      "confidence": 0.06,
+      "legend": {
+        "0": "No informative rank stability, or flat/random objective.",
+        "1": "Usually weak rank with large changes.",
+        "2": "Mixed top-five membership and material rank changes.",
+        "3": "Usually top five with limited rank changes.",
+        "4": "Consistently top five across all informative changes."
+      },
+      "probabilities": {
+        "0": 0.26,
+        "1": 0.08,
+        "2": 0.31,
+        "3": 0.18,
+        "4": 0.17
+      }
+    },
+    "SL01_overfit": {
+      "type": "noul",
+      "noul": 0.95
+    },
+    "SL01_stable": {
+      "type": "noul",
+      "noul": 0.35
+    },
+    "SL01_stronger": {
+      "type": "noul",
+      "noul": 0.04
+    },
+    "SL01_dependent": {
+      "type": "noul",
+      "noul": 0.75
+    },
+    "SL02_robustness": {
+      "type": "score",
+      "score": 0.15,
+      "confidence": 0.87,
+      "legend": {
+        "0": "No empirical support beyond the random baseline; no methodology qualifies after corrected confirmation testing.",
+        "1": "Weak or fragile apparent support, from an unstable configuration or an uncorrected historical result.",
+        "2": "Some repeatable out-of-sample support but substantial uncertainty; convincing corrected confirmation is missing.",
+        "3": "Meaningful support across multiple out-of-sample tests including a corrected confirmation result and sensitivity stability.",
+        "4": "Unusually robust support across independent models and time windows, corrected random-control comparisons and independent prospective replication."
+      },
+      "probabilities": {
+        "0": 0.86,
+        "1": 0.14,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "SL02_consensus": {
+      "type": "score",
+      "score": 0.01,
+      "confidence": 0.99,
+      "legend": {
+        "0": "No independently validated methodology supports the candidate; agreement of unvalidated correlated heuristics does not count.",
+        "1": "One validated methodology supports the candidate; other approaches lack independent validation.",
+        "2": "Two meaningfully distinct validated approaches support the candidate, with shared-data uncertainty.",
+        "3": "Several distinct validated approaches support the candidate consistently across periods.",
+        "4": "Strong support from independently validated approaches and independent data replications."
+      },
+      "probabilities": {
+        "0": 0.99,
+        "1": 0,
+        "2": 0.01,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "SL02_quality": {
+      "type": "score",
+      "score": 0.04,
+      "confidence": 0.97,
+      "legend": {
+        "0": "Evidence for an advantage is absent: results are compatible with random controls or no corrected validation supports the claim.",
+        "1": "Evidence for an advantage is weak: small samples, uncorrected comparisons, one window, instability or overfitting dominate.",
+        "2": "Evidence for an advantage has some credible validation but material sample-size or stability limitations remain.",
+        "3": "Evidence for an advantage is supported by corrected separated tests and robust sensitivity, with manageable limitations.",
+        "4": "Evidence for an advantage is supported by strong independent replications, adequate sample sizes, correction and stable sensitivity."
+      },
+      "probabilities": {
+        "0": 0.96,
+        "1": 0.04,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "SL02_stability": {
+      "type": "score",
+      "score": 2.16,
+      "confidence": 0.32,
+      "legend": {
+        "0": "No informative rank stability, or flat/random objective.",
+        "1": "Usually weak rank with large changes.",
+        "2": "Mixed top-five membership and material rank changes.",
+        "3": "Usually top five with limited rank changes.",
+        "4": "Consistently top five across all informative changes."
+      },
+      "probabilities": {
+        "0": 0.12,
+        "1": 0.1,
+        "2": 0.43,
+        "3": 0.22,
+        "4": 0.13
+      }
+    },
+    "SL02_overfit": {
+      "type": "noul",
+      "noul": 0.94
+    },
+    "SL02_stable": {
+      "type": "noul",
+      "noul": 0.32
+    },
+    "SL02_stronger": {
+      "type": "noul",
+      "noul": 0.05
+    },
+    "SL02_dependent": {
+      "type": "noul",
+      "noul": 0.63
+    },
+    "SL03_robustness": {
+      "type": "score",
+      "score": 0.1,
+      "confidence": 0.92,
+      "legend": {
+        "0": "No empirical support beyond the random baseline; no methodology qualifies after corrected confirmation testing.",
+        "1": "Weak or fragile apparent support, from an unstable configuration or an uncorrected historical result.",
+        "2": "Some repeatable out-of-sample support but substantial uncertainty; convincing corrected confirmation is missing.",
+        "3": "Meaningful support across multiple out-of-sample tests including a corrected confirmation result and sensitivity stability.",
+        "4": "Unusually robust support across independent models and time windows, corrected random-control comparisons and independent prospective replication."
+      },
+      "probabilities": {
+        "0": 0.91,
+        "1": 0.09,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "SL03_consensus": {
+      "type": "score",
+      "score": 0.01,
+      "confidence": 0.99,
+      "legend": {
+        "0": "No independently validated methodology supports the candidate; agreement of unvalidated correlated heuristics does not count.",
+        "1": "One validated methodology supports the candidate; other approaches lack independent validation.",
+        "2": "Two meaningfully distinct validated approaches support the candidate, with shared-data uncertainty.",
+        "3": "Several distinct validated approaches support the candidate consistently across periods.",
+        "4": "Strong support from independently validated approaches and independent data replications."
+      },
+      "probabilities": {
+        "0": 1,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "SL03_quality": {
+      "type": "score",
+      "score": 0.04,
+      "confidence": 0.97,
+      "legend": {
+        "0": "Evidence for an advantage is absent: results are compatible with random controls or no corrected validation supports the claim.",
+        "1": "Evidence for an advantage is weak: small samples, uncorrected comparisons, one window, instability or overfitting dominate.",
+        "2": "Evidence for an advantage has some credible validation but material sample-size or stability limitations remain.",
+        "3": "Evidence for an advantage is supported by corrected separated tests and robust sensitivity, with manageable limitations.",
+        "4": "Evidence for an advantage is supported by strong independent replications, adequate sample sizes, correction and stable sensitivity."
+      },
+      "probabilities": {
+        "0": 0.96,
+        "1": 0.04,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "SL03_stability": {
+      "type": "score",
+      "score": 2.3,
+      "confidence": 0.22,
+      "legend": {
+        "0": "No informative rank stability, or flat/random objective.",
+        "1": "Usually weak rank with large changes.",
+        "2": "Mixed top-five membership and material rank changes.",
+        "3": "Usually top five with limited rank changes.",
+        "4": "Consistently top five across all informative changes."
+      },
+      "probabilities": {
+        "0": 0.11,
+        "1": 0.1,
+        "2": 0.32,
+        "3": 0.32,
+        "4": 0.15
+      }
+    },
+    "SL03_overfit": {
+      "type": "noul",
+      "noul": 0.94
+    },
+    "SL03_stable": {
+      "type": "noul",
+      "noul": 0.31
+    },
+    "SL03_stronger": {
+      "type": "noul",
+      "noul": 0.04
+    },
+    "SL03_dependent": {
+      "type": "noul",
+      "noul": 0.66
+    },
+    "SL04_robustness": {
+      "type": "score",
+      "score": 0.26,
+      "confidence": 0.78,
+      "legend": {
+        "0": "No empirical support beyond the random baseline; no methodology qualifies after corrected confirmation testing.",
+        "1": "Weak or fragile apparent support, from an unstable configuration or an uncorrected historical result.",
+        "2": "Some repeatable out-of-sample support but substantial uncertainty; convincing corrected confirmation is missing.",
+        "3": "Meaningful support across multiple out-of-sample tests including a corrected confirmation result and sensitivity stability.",
+        "4": "Unusually robust support across independent models and time windows, corrected random-control comparisons and independent prospective replication."
+      },
+      "probabilities": {
+        "0": 0.75,
+        "1": 0.24,
+        "2": 0.01,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "SL04_consensus": {
+      "type": "score",
+      "score": 0.01,
+      "confidence": 0.99,
+      "legend": {
+        "0": "No independently validated methodology supports the candidate; agreement of unvalidated correlated heuristics does not count.",
+        "1": "One validated methodology supports the candidate; other approaches lack independent validation.",
+        "2": "Two meaningfully distinct validated approaches support the candidate, with shared-data uncertainty.",
+        "3": "Several distinct validated approaches support the candidate consistently across periods.",
+        "4": "Strong support from independently validated approaches and independent data replications."
+      },
+      "probabilities": {
+        "0": 1,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "SL04_quality": {
+      "type": "score",
+      "score": 0.08,
+      "confidence": 0.93,
+      "legend": {
+        "0": "Evidence for an advantage is absent: results are compatible with random controls or no corrected validation supports the claim.",
+        "1": "Evidence for an advantage is weak: small samples, uncorrected comparisons, one window, instability or overfitting dominate.",
+        "2": "Evidence for an advantage has some credible validation but material sample-size or stability limitations remain.",
+        "3": "Evidence for an advantage is supported by corrected separated tests and robust sensitivity, with manageable limitations.",
+        "4": "Evidence for an advantage is supported by strong independent replications, adequate sample sizes, correction and stable sensitivity."
+      },
+      "probabilities": {
+        "0": 0.92,
+        "1": 0.08,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "SL04_stability": {
+      "type": "score",
+      "score": 2.36,
+      "confidence": 0.2,
+      "legend": {
+        "0": "No informative rank stability, or flat/random objective.",
+        "1": "Usually weak rank with large changes.",
+        "2": "Mixed top-five membership and material rank changes.",
+        "3": "Usually top five with limited rank changes.",
+        "4": "Consistently top five across all informative changes."
+      },
+      "probabilities": {
+        "0": 0.12,
+        "1": 0.05,
+        "2": 0.33,
+        "3": 0.35000000000000003,
+        "4": 0.15
+      }
+    },
+    "SL04_overfit": {
+      "type": "noul",
+      "noul": 0.94
+    },
+    "SL04_stable": {
+      "type": "noul",
+      "noul": 0.4
+    },
+    "SL04_stronger": {
+      "type": "noul",
+      "noul": 0.05
+    },
+    "SL04_dependent": {
+      "type": "noul",
+      "noul": 0.57
+    },
+    "SL05_robustness": {
+      "type": "score",
+      "score": 0.38,
+      "confidence": 0.68,
+      "legend": {
+        "0": "No empirical support beyond the random baseline; no methodology qualifies after corrected confirmation testing.",
+        "1": "Weak or fragile apparent support, from an unstable configuration or an uncorrected historical result.",
+        "2": "Some repeatable out-of-sample support but substantial uncertainty; convincing corrected confirmation is missing.",
+        "3": "Meaningful support across multiple out-of-sample tests including a corrected confirmation result and sensitivity stability.",
+        "4": "Unusually robust support across independent models and time windows, corrected random-control comparisons and independent prospective replication."
+      },
+      "probabilities": {
+        "0": 0.65,
+        "1": 0.33,
+        "2": 0.02,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "SL05_consensus": {
+      "type": "score",
+      "score": 0.02,
+      "confidence": 0.98,
+      "legend": {
+        "0": "No independently validated methodology supports the candidate; agreement of unvalidated correlated heuristics does not count.",
+        "1": "One validated methodology supports the candidate; other approaches lack independent validation.",
+        "2": "Two meaningfully distinct validated approaches support the candidate, with shared-data uncertainty.",
+        "3": "Several distinct validated approaches support the candidate consistently across periods.",
+        "4": "Strong support from independently validated approaches and independent data replications."
+      },
+      "probabilities": {
+        "0": 0.98,
+        "1": 0.01,
+        "2": 0.01,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "SL05_quality": {
+      "type": "score",
+      "score": 0.15,
+      "confidence": 0.88,
+      "legend": {
+        "0": "Evidence for an advantage is absent: results are compatible with random controls or no corrected validation supports the claim.",
+        "1": "Evidence for an advantage is weak: small samples, uncorrected comparisons, one window, instability or overfitting dominate.",
+        "2": "Evidence for an advantage has some credible validation but material sample-size or stability limitations remain.",
+        "3": "Evidence for an advantage is supported by corrected separated tests and robust sensitivity, with manageable limitations.",
+        "4": "Evidence for an advantage is supported by strong independent replications, adequate sample sizes, correction and stable sensitivity."
+      },
+      "probabilities": {
+        "0": 0.86,
+        "1": 0.14,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "SL05_stability": {
+      "type": "score",
+      "score": 2.27,
+      "confidence": 0.08,
+      "legend": {
+        "0": "No informative rank stability, or flat/random objective.",
+        "1": "Usually weak rank with large changes.",
+        "2": "Mixed top-five membership and material rank changes.",
+        "3": "Usually top five with limited rank changes.",
+        "4": "Consistently top five across all informative changes."
+      },
+      "probabilities": {
+        "0": 0.17,
+        "1": 0.05,
+        "2": 0.29,
+        "3": 0.3,
+        "4": 0.19
+      }
+    },
+    "SL05_overfit": {
+      "type": "noul",
+      "noul": 0.94
+    },
+    "SL05_stable": {
+      "type": "noul",
+      "noul": 0.45
+    },
+    "SL05_stronger": {
+      "type": "noul",
+      "noul": 0.06
+    },
+    "SL05_dependent": {
+      "type": "noul",
+      "noul": 0.67
+    },
+    "SL06_robustness": {
+      "type": "score",
+      "score": 0.09,
+      "confidence": 0.93,
+      "legend": {
+        "0": "No empirical support beyond the random baseline; no methodology qualifies after corrected confirmation testing.",
+        "1": "Weak or fragile apparent support, from an unstable configuration or an uncorrected historical result.",
+        "2": "Some repeatable out-of-sample support but substantial uncertainty; convincing corrected confirmation is missing.",
+        "3": "Meaningful support across multiple out-of-sample tests including a corrected confirmation result and sensitivity stability.",
+        "4": "Unusually robust support across independent models and time windows, corrected random-control comparisons and independent prospective replication."
+      },
+      "probabilities": {
+        "0": 0.92,
+        "1": 0.08,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "SL06_consensus": {
+      "type": "score",
+      "score": 0.01,
+      "confidence": 0.99,
+      "legend": {
+        "0": "No independently validated methodology supports the candidate; agreement of unvalidated correlated heuristics does not count.",
+        "1": "One validated methodology supports the candidate; other approaches lack independent validation.",
+        "2": "Two meaningfully distinct validated approaches support the candidate, with shared-data uncertainty.",
+        "3": "Several distinct validated approaches support the candidate consistently across periods.",
+        "4": "Strong support from independently validated approaches and independent data replications."
+      },
+      "probabilities": {
+        "0": 0.99,
+        "1": 0.01,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "SL06_quality": {
+      "type": "score",
+      "score": 0.04,
+      "confidence": 0.97,
+      "legend": {
+        "0": "Evidence for an advantage is absent: results are compatible with random controls or no corrected validation supports the claim.",
+        "1": "Evidence for an advantage is weak: small samples, uncorrected comparisons, one window, instability or overfitting dominate.",
+        "2": "Evidence for an advantage has some credible validation but material sample-size or stability limitations remain.",
+        "3": "Evidence for an advantage is supported by corrected separated tests and robust sensitivity, with manageable limitations.",
+        "4": "Evidence for an advantage is supported by strong independent replications, adequate sample sizes, correction and stable sensitivity."
+      },
+      "probabilities": {
+        "0": 0.97,
+        "1": 0.03,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "SL06_stability": {
+      "type": "score",
+      "score": 1.38,
+      "confidence": 0.43,
+      "legend": {
+        "0": "No informative rank stability, or flat/random objective.",
+        "1": "Usually weak rank with large changes.",
+        "2": "Mixed top-five membership and material rank changes.",
+        "3": "Usually top five with limited rank changes.",
+        "4": "Consistently top five across all informative changes."
+      },
+      "probabilities": {
+        "0": 0.17,
+        "1": 0.31,
+        "2": 0.49,
+        "3": 0.02,
+        "4": 0.01
+      }
+    },
+    "SL06_overfit": {
+      "type": "noul",
+      "noul": 0.95
+    },
+    "SL06_stable": {
+      "type": "noul",
+      "noul": 0.24
+    },
+    "SL06_stronger": {
+      "type": "noul",
+      "noul": 0.04
+    },
+    "SL06_dependent": {
+      "type": "noul",
+      "noul": 0.69
+    },
+    "SL07_robustness": {
+      "type": "score",
+      "score": 0.01,
+      "confidence": 0.99,
+      "legend": {
+        "0": "No empirical support beyond the random baseline; no methodology qualifies after corrected confirmation testing.",
+        "1": "Weak or fragile apparent support, from an unstable configuration or an uncorrected historical result.",
+        "2": "Some repeatable out-of-sample support but substantial uncertainty; convincing corrected confirmation is missing.",
+        "3": "Meaningful support across multiple out-of-sample tests including a corrected confirmation result and sensitivity stability.",
+        "4": "Unusually robust support across independent models and time windows, corrected random-control comparisons and independent prospective replication."
+      },
+      "probabilities": {
+        "0": 0.99,
+        "1": 0.01,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "SL07_consensus": {
+      "type": "score",
+      "score": 0.02,
+      "confidence": 0.98,
+      "legend": {
+        "0": "No independently validated methodology supports the candidate; agreement of unvalidated correlated heuristics does not count.",
+        "1": "One validated methodology supports the candidate; other approaches lack independent validation.",
+        "2": "Two meaningfully distinct validated approaches support the candidate, with shared-data uncertainty.",
+        "3": "Several distinct validated approaches support the candidate consistently across periods.",
+        "4": "Strong support from independently validated approaches and independent data replications."
+      },
+      "probabilities": {
+        "0": 0.98,
+        "1": 0.01,
+        "2": 0.01,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "SL07_quality": {
+      "type": "score",
+      "score": 0.02,
+      "confidence": 0.99,
+      "legend": {
+        "0": "Evidence for an advantage is absent: results are compatible with random controls or no corrected validation supports the claim.",
+        "1": "Evidence for an advantage is weak: small samples, uncorrected comparisons, one window, instability or overfitting dominate.",
+        "2": "Evidence for an advantage has some credible validation but material sample-size or stability limitations remain.",
+        "3": "Evidence for an advantage is supported by corrected separated tests and robust sensitivity, with manageable limitations.",
+        "4": "Evidence for an advantage is supported by strong independent replications, adequate sample sizes, correction and stable sensitivity."
+      },
+      "probabilities": {
+        "0": 0.99,
+        "1": 0.01,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "SL07_stability": {
+      "type": "score",
+      "score": 1.63,
+      "confidence": 0,
+      "legend": {
+        "0": "No informative rank stability, or flat/random objective.",
+        "1": "Usually weak rank with large changes.",
+        "2": "Mixed top-five membership and material rank changes.",
+        "3": "Usually top five with limited rank changes.",
+        "4": "Consistently top five across all informative changes."
+      },
+      "probabilities": {
+        "0": 0.31,
+        "1": 0.24,
+        "2": 0.15,
+        "3": 0.13,
+        "4": 0.17
+      }
+    },
+    "SL07_overfit": {
+      "type": "noul",
+      "noul": 0.95
+    },
+    "SL07_stable": {
+      "type": "noul",
+      "noul": 0.21
+    },
+    "SL07_stronger": {
+      "type": "noul",
+      "noul": 0.04
+    },
+    "SL07_dependent": {
+      "type": "noul",
+      "noul": 0.75
+    },
+    "SL08_robustness": {
+      "type": "score",
+      "score": 0.03,
+      "confidence": 0.97,
+      "legend": {
+        "0": "No empirical support beyond the random baseline; no methodology qualifies after corrected confirmation testing.",
+        "1": "Weak or fragile apparent support, from an unstable configuration or an uncorrected historical result.",
+        "2": "Some repeatable out-of-sample support but substantial uncertainty; convincing corrected confirmation is missing.",
+        "3": "Meaningful support across multiple out-of-sample tests including a corrected confirmation result and sensitivity stability.",
+        "4": "Unusually robust support across independent models and time windows, corrected random-control comparisons and independent prospective replication."
+      },
+      "probabilities": {
+        "0": 0.97,
+        "1": 0.03,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "SL08_consensus": {
+      "type": "score",
+      "score": 0.01,
+      "confidence": 0.99,
+      "legend": {
+        "0": "No independently validated methodology supports the candidate; agreement of unvalidated correlated heuristics does not count.",
+        "1": "One validated methodology supports the candidate; other approaches lack independent validation.",
+        "2": "Two meaningfully distinct validated approaches support the candidate, with shared-data uncertainty.",
+        "3": "Several distinct validated approaches support the candidate consistently across periods.",
+        "4": "Strong support from independently validated approaches and independent data replications."
+      },
+      "probabilities": {
+        "0": 0.99,
+        "1": 0.01,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "SL08_quality": {
+      "type": "score",
+      "score": 0.02,
+      "confidence": 0.98,
+      "legend": {
+        "0": "Evidence for an advantage is absent: results are compatible with random controls or no corrected validation supports the claim.",
+        "1": "Evidence for an advantage is weak: small samples, uncorrected comparisons, one window, instability or overfitting dominate.",
+        "2": "Evidence for an advantage has some credible validation but material sample-size or stability limitations remain.",
+        "3": "Evidence for an advantage is supported by corrected separated tests and robust sensitivity, with manageable limitations.",
+        "4": "Evidence for an advantage is supported by strong independent replications, adequate sample sizes, correction and stable sensitivity."
+      },
+      "probabilities": {
+        "0": 0.98,
+        "1": 0.02,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "SL08_stability": {
+      "type": "score",
+      "score": 1.93,
+      "confidence": 0,
+      "legend": {
+        "0": "No informative rank stability, or flat/random objective.",
+        "1": "Usually weak rank with large changes.",
+        "2": "Mixed top-five membership and material rank changes.",
+        "3": "Usually top five with limited rank changes.",
+        "4": "Consistently top five across all informative changes."
+      },
+      "probabilities": {
+        "0": 0.27,
+        "1": 0.18,
+        "2": 0.14,
+        "3": 0.19,
+        "4": 0.22
+      }
+    },
+    "SL08_overfit": {
+      "type": "noul",
+      "noul": 0.95
+    },
+    "SL08_stable": {
+      "type": "noul",
+      "noul": 0.25
+    },
+    "SL08_stronger": {
+      "type": "noul",
+      "noul": 0.04
+    },
+    "SL08_dependent": {
+      "type": "noul",
+      "noul": 0.81
+    },
+    "SL09_robustness": {
+      "type": "score",
+      "score": 0.06,
+      "confidence": 0.95,
+      "legend": {
+        "0": "No empirical support beyond the random baseline; no methodology qualifies after corrected confirmation testing.",
+        "1": "Weak or fragile apparent support, from an unstable configuration or an uncorrected historical result.",
+        "2": "Some repeatable out-of-sample support but substantial uncertainty; convincing corrected confirmation is missing.",
+        "3": "Meaningful support across multiple out-of-sample tests including a corrected confirmation result and sensitivity stability.",
+        "4": "Unusually robust support across independent models and time windows, corrected random-control comparisons and independent prospective replication."
+      },
+      "probabilities": {
+        "0": 0.94,
+        "1": 0.06,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "SL09_consensus": {
+      "type": "score",
+      "score": 0.02,
+      "confidence": 0.99,
+      "legend": {
+        "0": "No independently validated methodology supports the candidate; agreement of unvalidated correlated heuristics does not count.",
+        "1": "One validated methodology supports the candidate; other approaches lack independent validation.",
+        "2": "Two meaningfully distinct validated approaches support the candidate, with shared-data uncertainty.",
+        "3": "Several distinct validated approaches support the candidate consistently across periods.",
+        "4": "Strong support from independently validated approaches and independent data replications."
+      },
+      "probabilities": {
+        "0": 0.99,
+        "1": 0.01,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "SL09_quality": {
+      "type": "score",
+      "score": 0.03,
+      "confidence": 0.97,
+      "legend": {
+        "0": "Evidence for an advantage is absent: results are compatible with random controls or no corrected validation supports the claim.",
+        "1": "Evidence for an advantage is weak: small samples, uncorrected comparisons, one window, instability or overfitting dominate.",
+        "2": "Evidence for an advantage has some credible validation but material sample-size or stability limitations remain.",
+        "3": "Evidence for an advantage is supported by corrected separated tests and robust sensitivity, with manageable limitations.",
+        "4": "Evidence for an advantage is supported by strong independent replications, adequate sample sizes, correction and stable sensitivity."
+      },
+      "probabilities": {
+        "0": 0.97,
+        "1": 0.03,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "SL09_stability": {
+      "type": "score",
+      "score": 1.68,
+      "confidence": 0,
+      "legend": {
+        "0": "No informative rank stability, or flat/random objective.",
+        "1": "Usually weak rank with large changes.",
+        "2": "Mixed top-five membership and material rank changes.",
+        "3": "Usually top five with limited rank changes.",
+        "4": "Consistently top five across all informative changes."
+      },
+      "probabilities": {
+        "0": 0.33,
+        "1": 0.19,
+        "2": 0.11,
+        "3": 0.2,
+        "4": 0.17
+      }
+    },
+    "SL09_overfit": {
+      "type": "noul",
+      "noul": 0.95
+    },
+    "SL09_stable": {
+      "type": "noul",
+      "noul": 0.24
+    },
+    "SL09_stronger": {
+      "type": "noul",
+      "noul": 0.04
+    },
+    "SL09_dependent": {
+      "type": "noul",
+      "noul": 0.75
+    },
+    "SL10_robustness": {
+      "type": "score",
+      "score": 0.39,
+      "confidence": 0.67,
+      "legend": {
+        "0": "No empirical support beyond the random baseline; no methodology qualifies after corrected confirmation testing.",
+        "1": "Weak or fragile apparent support, from an unstable configuration or an uncorrected historical result.",
+        "2": "Some repeatable out-of-sample support but substantial uncertainty; convincing corrected confirmation is missing.",
+        "3": "Meaningful support across multiple out-of-sample tests including a corrected confirmation result and sensitivity stability.",
+        "4": "Unusually robust support across independent models and time windows, corrected random-control comparisons and independent prospective replication."
+      },
+      "probabilities": {
+        "0": 0.64,
+        "1": 0.33,
+        "2": 0.03,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "SL10_consensus": {
+      "type": "score",
+      "score": 0.02,
+      "confidence": 0.98,
+      "legend": {
+        "0": "No independently validated methodology supports the candidate; agreement of unvalidated correlated heuristics does not count.",
+        "1": "One validated methodology supports the candidate; other approaches lack independent validation.",
+        "2": "Two meaningfully distinct validated approaches support the candidate, with shared-data uncertainty.",
+        "3": "Several distinct validated approaches support the candidate consistently across periods.",
+        "4": "Strong support from independently validated approaches and independent data replications."
+      },
+      "probabilities": {
+        "0": 0.98,
+        "1": 0.01,
+        "2": 0.01,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "SL10_quality": {
+      "type": "score",
+      "score": 0.09,
+      "confidence": 0.92,
+      "legend": {
+        "0": "Evidence for an advantage is absent: results are compatible with random controls or no corrected validation supports the claim.",
+        "1": "Evidence for an advantage is weak: small samples, uncorrected comparisons, one window, instability or overfitting dominate.",
+        "2": "Evidence for an advantage has some credible validation but material sample-size or stability limitations remain.",
+        "3": "Evidence for an advantage is supported by corrected separated tests and robust sensitivity, with manageable limitations.",
+        "4": "Evidence for an advantage is supported by strong independent replications, adequate sample sizes, correction and stable sensitivity."
+      },
+      "probabilities": {
+        "0": 0.91,
+        "1": 0.09,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "SL10_stability": {
+      "type": "score",
+      "score": 2.12,
+      "confidence": 0.38,
+      "legend": {
+        "0": "No informative rank stability, or flat/random objective.",
+        "1": "Usually weak rank with large changes.",
+        "2": "Mixed top-five membership and material rank changes.",
+        "3": "Usually top five with limited rank changes.",
+        "4": "Consistently top five across all informative changes."
+      },
+      "probabilities": {
+        "0": 0.11,
+        "1": 0.09,
+        "2": 0.45,
+        "3": 0.26,
+        "4": 0.09
+      }
+    },
+    "SL10_overfit": {
+      "type": "noul",
+      "noul": 0.94
+    },
+    "SL10_stable": {
+      "type": "noul",
+      "noul": 0.4
+    },
+    "SL10_stronger": {
+      "type": "noul",
+      "noul": 0.05
+    },
+    "SL10_dependent": {
+      "type": "noul",
+      "noul": 0.61
+    },
+    "SL11_robustness": {
+      "type": "score",
+      "score": 0.11,
+      "confidence": 0.91,
+      "legend": {
+        "0": "No empirical support beyond the random baseline; no methodology qualifies after corrected confirmation testing.",
+        "1": "Weak or fragile apparent support, from an unstable configuration or an uncorrected historical result.",
+        "2": "Some repeatable out-of-sample support but substantial uncertainty; convincing corrected confirmation is missing.",
+        "3": "Meaningful support across multiple out-of-sample tests including a corrected confirmation result and sensitivity stability.",
+        "4": "Unusually robust support across independent models and time windows, corrected random-control comparisons and independent prospective replication."
+      },
+      "probabilities": {
+        "0": 0.9,
+        "1": 0.1,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "SL11_consensus": {
+      "type": "score",
+      "score": 0.02,
+      "confidence": 0.98,
+      "legend": {
+        "0": "No independently validated methodology supports the candidate; agreement of unvalidated correlated heuristics does not count.",
+        "1": "One validated methodology supports the candidate; other approaches lack independent validation.",
+        "2": "Two meaningfully distinct validated approaches support the candidate, with shared-data uncertainty.",
+        "3": "Several distinct validated approaches support the candidate consistently across periods.",
+        "4": "Strong support from independently validated approaches and independent data replications."
+      },
+      "probabilities": {
+        "0": 0.99,
+        "1": 0,
+        "2": 0.01,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "SL11_quality": {
+      "type": "score",
+      "score": 0.05,
+      "confidence": 0.96,
+      "legend": {
+        "0": "Evidence for an advantage is absent: results are compatible with random controls or no corrected validation supports the claim.",
+        "1": "Evidence for an advantage is weak: small samples, uncorrected comparisons, one window, instability or overfitting dominate.",
+        "2": "Evidence for an advantage has some credible validation but material sample-size or stability limitations remain.",
+        "3": "Evidence for an advantage is supported by corrected separated tests and robust sensitivity, with manageable limitations.",
+        "4": "Evidence for an advantage is supported by strong independent replications, adequate sample sizes, correction and stable sensitivity."
+      },
+      "probabilities": {
+        "0": 0.95,
+        "1": 0.05,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "SL11_stability": {
+      "type": "score",
+      "score": 2.11,
+      "confidence": 0.23,
+      "legend": {
+        "0": "No informative rank stability, or flat/random objective.",
+        "1": "Usually weak rank with large changes.",
+        "2": "Mixed top-five membership and material rank changes.",
+        "3": "Usually top five with limited rank changes.",
+        "4": "Consistently top five across all informative changes."
+      },
+      "probabilities": {
+        "0": 0.14,
+        "1": 0.13,
+        "2": 0.32,
+        "3": 0.3,
+        "4": 0.11
+      }
+    },
+    "SL11_overfit": {
+      "type": "noul",
+      "noul": 0.94
+    },
+    "SL11_stable": {
+      "type": "noul",
+      "noul": 0.32
+    },
+    "SL11_stronger": {
+      "type": "noul",
+      "noul": 0.05
+    },
+    "SL11_dependent": {
+      "type": "noul",
+      "noul": 0.64
+    },
+    "SL12_robustness": {
+      "type": "score",
+      "score": 0.29,
+      "confidence": 0.76,
+      "legend": {
+        "0": "No empirical support beyond the random baseline; no methodology qualifies after corrected confirmation testing.",
+        "1": "Weak or fragile apparent support, from an unstable configuration or an uncorrected historical result.",
+        "2": "Some repeatable out-of-sample support but substantial uncertainty; convincing corrected confirmation is missing.",
+        "3": "Meaningful support across multiple out-of-sample tests including a corrected confirmation result and sensitivity stability.",
+        "4": "Unusually robust support across independent models and time windows, corrected random-control comparisons and independent prospective replication."
+      },
+      "probabilities": {
+        "0": 0.72,
+        "1": 0.26,
+        "2": 0.02,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "SL12_consensus": {
+      "type": "score",
+      "score": 0.02,
+      "confidence": 0.98,
+      "legend": {
+        "0": "No independently validated methodology supports the candidate; agreement of unvalidated correlated heuristics does not count.",
+        "1": "One validated methodology supports the candidate; other approaches lack independent validation.",
+        "2": "Two meaningfully distinct validated approaches support the candidate, with shared-data uncertainty.",
+        "3": "Several distinct validated approaches support the candidate consistently across periods.",
+        "4": "Strong support from independently validated approaches and independent data replications."
+      },
+      "probabilities": {
+        "0": 0.99,
+        "1": 0,
+        "2": 0.01,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "SL12_quality": {
+      "type": "score",
+      "score": 0.1,
+      "confidence": 0.91,
+      "legend": {
+        "0": "Evidence for an advantage is absent: results are compatible with random controls or no corrected validation supports the claim.",
+        "1": "Evidence for an advantage is weak: small samples, uncorrected comparisons, one window, instability or overfitting dominate.",
+        "2": "Evidence for an advantage has some credible validation but material sample-size or stability limitations remain.",
+        "3": "Evidence for an advantage is supported by corrected separated tests and robust sensitivity, with manageable limitations.",
+        "4": "Evidence for an advantage is supported by strong independent replications, adequate sample sizes, correction and stable sensitivity."
+      },
+      "probabilities": {
+        "0": 0.9,
+        "1": 0.1,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "SL12_stability": {
+      "type": "score",
+      "score": 1.53,
+      "confidence": 0.42,
+      "legend": {
+        "0": "No informative rank stability, or flat/random objective.",
+        "1": "Usually weak rank with large changes.",
+        "2": "Mixed top-five membership and material rank changes.",
+        "3": "Usually top five with limited rank changes.",
+        "4": "Consistently top five across all informative changes."
+      },
+      "probabilities": {
+        "0": 0.12,
+        "1": 0.35,
+        "2": 0.44,
+        "3": 0.06,
+        "4": 0.03
+      }
+    },
+    "SL12_overfit": {
+      "type": "noul",
+      "noul": 0.94
+    },
+    "SL12_stable": {
+      "type": "noul",
+      "noul": 0.32
+    },
+    "SL12_stronger": {
+      "type": "noul",
+      "noul": 0.05
+    },
+    "SL12_dependent": {
+      "type": "noul",
+      "noul": 0.6
+    },
+    "SL13_robustness": {
+      "type": "score",
+      "score": 0.04,
+      "confidence": 0.97,
+      "legend": {
+        "0": "No empirical support beyond the random baseline; no methodology qualifies after corrected confirmation testing.",
+        "1": "Weak or fragile apparent support, from an unstable configuration or an uncorrected historical result.",
+        "2": "Some repeatable out-of-sample support but substantial uncertainty; convincing corrected confirmation is missing.",
+        "3": "Meaningful support across multiple out-of-sample tests including a corrected confirmation result and sensitivity stability.",
+        "4": "Unusually robust support across independent models and time windows, corrected random-control comparisons and independent prospective replication."
+      },
+      "probabilities": {
+        "0": 0.97,
+        "1": 0.03,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "SL13_consensus": {
+      "type": "score",
+      "score": 0.01,
+      "confidence": 0.99,
+      "legend": {
+        "0": "No independently validated methodology supports the candidate; agreement of unvalidated correlated heuristics does not count.",
+        "1": "One validated methodology supports the candidate; other approaches lack independent validation.",
+        "2": "Two meaningfully distinct validated approaches support the candidate, with shared-data uncertainty.",
+        "3": "Several distinct validated approaches support the candidate consistently across periods.",
+        "4": "Strong support from independently validated approaches and independent data replications."
+      },
+      "probabilities": {
+        "0": 0.99,
+        "1": 0.01,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "SL13_quality": {
+      "type": "score",
+      "score": 0.03,
+      "confidence": 0.98,
+      "legend": {
+        "0": "Evidence for an advantage is absent: results are compatible with random controls or no corrected validation supports the claim.",
+        "1": "Evidence for an advantage is weak: small samples, uncorrected comparisons, one window, instability or overfitting dominate.",
+        "2": "Evidence for an advantage has some credible validation but material sample-size or stability limitations remain.",
+        "3": "Evidence for an advantage is supported by corrected separated tests and robust sensitivity, with manageable limitations.",
+        "4": "Evidence for an advantage is supported by strong independent replications, adequate sample sizes, correction and stable sensitivity."
+      },
+      "probabilities": {
+        "0": 0.97,
+        "1": 0.03,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "SL13_stability": {
+      "type": "score",
+      "score": 0.63,
+      "confidence": 0.48,
+      "legend": {
+        "0": "No informative rank stability, or flat/random objective.",
+        "1": "Usually weak rank with large changes.",
+        "2": "Mixed top-five membership and material rank changes.",
+        "3": "Usually top five with limited rank changes.",
+        "4": "Consistently top five across all informative changes."
+      },
+      "probabilities": {
+        "0": 0.65,
+        "1": 0.24,
+        "2": 0.03,
+        "3": 0.02,
+        "4": 0.06
+      }
+    },
+    "SL13_overfit": {
+      "type": "noul",
+      "noul": 0.95
+    },
+    "SL13_stable": {
+      "type": "noul",
+      "noul": 0.11
+    },
+    "SL13_stronger": {
+      "type": "noul",
+      "noul": 0.04
+    },
+    "SL13_dependent": {
+      "type": "noul",
+      "noul": 0.76
+    },
+    "SL14_robustness": {
+      "type": "score",
+      "score": 0.01,
+      "confidence": 0.99,
+      "legend": {
+        "0": "No empirical support beyond the random baseline; no methodology qualifies after corrected confirmation testing.",
+        "1": "Weak or fragile apparent support, from an unstable configuration or an uncorrected historical result.",
+        "2": "Some repeatable out-of-sample support but substantial uncertainty; convincing corrected confirmation is missing.",
+        "3": "Meaningful support across multiple out-of-sample tests including a corrected confirmation result and sensitivity stability.",
+        "4": "Unusually robust support across independent models and time windows, corrected random-control comparisons and independent prospective replication."
+      },
+      "probabilities": {
+        "0": 0.99,
+        "1": 0.01,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "SL14_consensus": {
+      "type": "score",
+      "score": 0,
+      "confidence": 1,
+      "legend": {
+        "0": "No independently validated methodology supports the candidate; agreement of unvalidated correlated heuristics does not count.",
+        "1": "One validated methodology supports the candidate; other approaches lack independent validation.",
+        "2": "Two meaningfully distinct validated approaches support the candidate, with shared-data uncertainty.",
+        "3": "Several distinct validated approaches support the candidate consistently across periods.",
+        "4": "Strong support from independently validated approaches and independent data replications."
+      },
+      "probabilities": {
+        "0": 1,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "SL14_quality": {
+      "type": "score",
+      "score": 0.01,
+      "confidence": 0.99,
+      "legend": {
+        "0": "Evidence for an advantage is absent: results are compatible with random controls or no corrected validation supports the claim.",
+        "1": "Evidence for an advantage is weak: small samples, uncorrected comparisons, one window, instability or overfitting dominate.",
+        "2": "Evidence for an advantage has some credible validation but material sample-size or stability limitations remain.",
+        "3": "Evidence for an advantage is supported by corrected separated tests and robust sensitivity, with manageable limitations.",
+        "4": "Evidence for an advantage is supported by strong independent replications, adequate sample sizes, correction and stable sensitivity."
+      },
+      "probabilities": {
+        "0": 0.99,
+        "1": 0.01,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "SL14_stability": {
+      "type": "score",
+      "score": 0.21,
+      "confidence": 0.82,
+      "legend": {
+        "0": "No informative rank stability, or flat/random objective.",
+        "1": "Usually weak rank with large changes.",
+        "2": "Mixed top-five membership and material rank changes.",
+        "3": "Usually top five with limited rank changes.",
+        "4": "Consistently top five across all informative changes."
+      },
+      "probabilities": {
+        "0": 0.85,
+        "1": 0.12,
+        "2": 0.01,
+        "3": 0,
+        "4": 0.02
+      }
+    },
+    "SL14_overfit": {
+      "type": "noul",
+      "noul": 0.95
+    },
+    "SL14_stable": {
+      "type": "noul",
+      "noul": 0.08
+    },
+    "SL14_stronger": {
+      "type": "noul",
+      "noul": 0.04
+    },
+    "SL14_dependent": {
+      "type": "noul",
+      "noul": 0.56
+    },
+    "SL15_robustness": {
+      "type": "score",
+      "score": 0.03,
+      "confidence": 0.97,
+      "legend": {
+        "0": "No empirical support beyond the random baseline; no methodology qualifies after corrected confirmation testing.",
+        "1": "Weak or fragile apparent support, from an unstable configuration or an uncorrected historical result.",
+        "2": "Some repeatable out-of-sample support but substantial uncertainty; convincing corrected confirmation is missing.",
+        "3": "Meaningful support across multiple out-of-sample tests including a corrected confirmation result and sensitivity stability.",
+        "4": "Unusually robust support across independent models and time windows, corrected random-control comparisons and independent prospective replication."
+      },
+      "probabilities": {
+        "0": 0.97,
+        "1": 0.03,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "SL15_consensus": {
+      "type": "score",
+      "score": 0.01,
+      "confidence": 1,
+      "legend": {
+        "0": "No independently validated methodology supports the candidate; agreement of unvalidated correlated heuristics does not count.",
+        "1": "One validated methodology supports the candidate; other approaches lack independent validation.",
+        "2": "Two meaningfully distinct validated approaches support the candidate, with shared-data uncertainty.",
+        "3": "Several distinct validated approaches support the candidate consistently across periods.",
+        "4": "Strong support from independently validated approaches and independent data replications."
+      },
+      "probabilities": {
+        "0": 1,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "SL15_quality": {
+      "type": "score",
+      "score": 0.02,
+      "confidence": 0.99,
+      "legend": {
+        "0": "Evidence for an advantage is absent: results are compatible with random controls or no corrected validation supports the claim.",
+        "1": "Evidence for an advantage is weak: small samples, uncorrected comparisons, one window, instability or overfitting dominate.",
+        "2": "Evidence for an advantage has some credible validation but material sample-size or stability limitations remain.",
+        "3": "Evidence for an advantage is supported by corrected separated tests and robust sensitivity, with manageable limitations.",
+        "4": "Evidence for an advantage is supported by strong independent replications, adequate sample sizes, correction and stable sensitivity."
+      },
+      "probabilities": {
+        "0": 0.99,
+        "1": 0.01,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "SL15_stability": {
+      "type": "score",
+      "score": 0.36,
+      "confidence": 0.7,
+      "legend": {
+        "0": "No informative rank stability, or flat/random objective.",
+        "1": "Usually weak rank with large changes.",
+        "2": "Mixed top-five membership and material rank changes.",
+        "3": "Usually top five with limited rank changes.",
+        "4": "Consistently top five across all informative changes."
+      },
+      "probabilities": {
+        "0": 0.75,
+        "1": 0.19,
+        "2": 0.02,
+        "3": 0.01,
+        "4": 0.03
+      }
+    },
+    "SL15_overfit": {
+      "type": "noul",
+      "noul": 0.95
+    },
+    "SL15_stable": {
+      "type": "noul",
+      "noul": 0.1
+    },
+    "SL15_stronger": {
+      "type": "noul",
+      "noul": 0.04
+    },
+    "SL15_dependent": {
+      "type": "noul",
+      "noul": 0.77
+    },
+    "SL16_robustness": {
+      "type": "score",
+      "score": 0.34,
+      "confidence": 0.72,
+      "legend": {
+        "0": "No empirical support beyond the random baseline; no methodology qualifies after corrected confirmation testing.",
+        "1": "Weak or fragile apparent support, from an unstable configuration or an uncorrected historical result.",
+        "2": "Some repeatable out-of-sample support but substantial uncertainty; convincing corrected confirmation is missing.",
+        "3": "Meaningful support across multiple out-of-sample tests including a corrected confirmation result and sensitivity stability.",
+        "4": "Unusually robust support across independent models and time windows, corrected random-control comparisons and independent prospective replication."
+      },
+      "probabilities": {
+        "0": 0.68,
+        "1": 0.3,
+        "2": 0.02,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "SL16_consensus": {
+      "type": "score",
+      "score": 0.02,
+      "confidence": 0.98,
+      "legend": {
+        "0": "No independently validated methodology supports the candidate; agreement of unvalidated correlated heuristics does not count.",
+        "1": "One validated methodology supports the candidate; other approaches lack independent validation.",
+        "2": "Two meaningfully distinct validated approaches support the candidate, with shared-data uncertainty.",
+        "3": "Several distinct validated approaches support the candidate consistently across periods.",
+        "4": "Strong support from independently validated approaches and independent data replications."
+      },
+      "probabilities": {
+        "0": 0.99,
+        "1": 0.01,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "SL16_quality": {
+      "type": "score",
+      "score": 0.1,
+      "confidence": 0.92,
+      "legend": {
+        "0": "Evidence for an advantage is absent: results are compatible with random controls or no corrected validation supports the claim.",
+        "1": "Evidence for an advantage is weak: small samples, uncorrected comparisons, one window, instability or overfitting dominate.",
+        "2": "Evidence for an advantage has some credible validation but material sample-size or stability limitations remain.",
+        "3": "Evidence for an advantage is supported by corrected separated tests and robust sensitivity, with manageable limitations.",
+        "4": "Evidence for an advantage is supported by strong independent replications, adequate sample sizes, correction and stable sensitivity."
+      },
+      "probabilities": {
+        "0": 0.91,
+        "1": 0.09,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "SL16_stability": {
+      "type": "score",
+      "score": 2.4,
+      "confidence": 0.2,
+      "legend": {
+        "0": "No informative rank stability, or flat/random objective.",
+        "1": "Usually weak rank with large changes.",
+        "2": "Mixed top-five membership and material rank changes.",
+        "3": "Usually top five with limited rank changes.",
+        "4": "Consistently top five across all informative changes."
+      },
+      "probabilities": {
+        "0": 0.11,
+        "1": 0.07,
+        "2": 0.32,
+        "3": 0.32,
+        "4": 0.18
+      }
+    },
+    "SL16_overfit": {
+      "type": "noul",
+      "noul": 0.94
+    },
+    "SL16_stable": {
+      "type": "noul",
+      "noul": 0.43
+    },
+    "SL16_stronger": {
+      "type": "noul",
+      "noul": 0.05
+    },
+    "SL16_dependent": {
+      "type": "noul",
+      "noul": 0.69
+    },
+    "SL17_robustness": {
+      "type": "score",
+      "score": 0.06,
+      "confidence": 0.95,
+      "legend": {
+        "0": "No empirical support beyond the random baseline; no methodology qualifies after corrected confirmation testing.",
+        "1": "Weak or fragile apparent support, from an unstable configuration or an uncorrected historical result.",
+        "2": "Some repeatable out-of-sample support but substantial uncertainty; convincing corrected confirmation is missing.",
+        "3": "Meaningful support across multiple out-of-sample tests including a corrected confirmation result and sensitivity stability.",
+        "4": "Unusually robust support across independent models and time windows, corrected random-control comparisons and independent prospective replication."
+      },
+      "probabilities": {
+        "0": 0.95,
+        "1": 0.05,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "SL17_consensus": {
+      "type": "score",
+      "score": 0.01,
+      "confidence": 0.99,
+      "legend": {
+        "0": "No independently validated methodology supports the candidate; agreement of unvalidated correlated heuristics does not count.",
+        "1": "One validated methodology supports the candidate; other approaches lack independent validation.",
+        "2": "Two meaningfully distinct validated approaches support the candidate, with shared-data uncertainty.",
+        "3": "Several distinct validated approaches support the candidate consistently across periods.",
+        "4": "Strong support from independently validated approaches and independent data replications."
+      },
+      "probabilities": {
+        "0": 1,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "SL17_quality": {
+      "type": "score",
+      "score": 0.02,
+      "confidence": 0.98,
+      "legend": {
+        "0": "Evidence for an advantage is absent: results are compatible with random controls or no corrected validation supports the claim.",
+        "1": "Evidence for an advantage is weak: small samples, uncorrected comparisons, one window, instability or overfitting dominate.",
+        "2": "Evidence for an advantage has some credible validation but material sample-size or stability limitations remain.",
+        "3": "Evidence for an advantage is supported by corrected separated tests and robust sensitivity, with manageable limitations.",
+        "4": "Evidence for an advantage is supported by strong independent replications, adequate sample sizes, correction and stable sensitivity."
+      },
+      "probabilities": {
+        "0": 0.98,
+        "1": 0.02,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "SL17_stability": {
+      "type": "score",
+      "score": 1.82,
+      "confidence": 0.17,
+      "legend": {
+        "0": "No informative rank stability, or flat/random objective.",
+        "1": "Usually weak rank with large changes.",
+        "2": "Mixed top-five membership and material rank changes.",
+        "3": "Usually top five with limited rank changes.",
+        "4": "Consistently top five across all informative changes."
+      },
+      "probabilities": {
+        "0": 0.21,
+        "1": 0.16,
+        "2": 0.33,
+        "3": 0.2,
+        "4": 0.1
+      }
+    },
+    "SL17_overfit": {
+      "type": "noul",
+      "noul": 0.94
+    },
+    "SL17_stable": {
+      "type": "noul",
+      "noul": 0.29
+    },
+    "SL17_stronger": {
+      "type": "noul",
+      "noul": 0.04
+    },
+    "SL17_dependent": {
+      "type": "noul",
+      "noul": 0.66
+    },
+    "SL18_robustness": {
+      "type": "score",
+      "score": 0.04,
+      "confidence": 0.97,
+      "legend": {
+        "0": "No empirical support beyond the random baseline; no methodology qualifies after corrected confirmation testing.",
+        "1": "Weak or fragile apparent support, from an unstable configuration or an uncorrected historical result.",
+        "2": "Some repeatable out-of-sample support but substantial uncertainty; convincing corrected confirmation is missing.",
+        "3": "Meaningful support across multiple out-of-sample tests including a corrected confirmation result and sensitivity stability.",
+        "4": "Unusually robust support across independent models and time windows, corrected random-control comparisons and independent prospective replication."
+      },
+      "probabilities": {
+        "0": 0.96,
+        "1": 0.04,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "SL18_consensus": {
+      "type": "score",
+      "score": 0.01,
+      "confidence": 1,
+      "legend": {
+        "0": "No independently validated methodology supports the candidate; agreement of unvalidated correlated heuristics does not count.",
+        "1": "One validated methodology supports the candidate; other approaches lack independent validation.",
+        "2": "Two meaningfully distinct validated approaches support the candidate, with shared-data uncertainty.",
+        "3": "Several distinct validated approaches support the candidate consistently across periods.",
+        "4": "Strong support from independently validated approaches and independent data replications."
+      },
+      "probabilities": {
+        "0": 1,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "SL18_quality": {
+      "type": "score",
+      "score": 0.02,
+      "confidence": 0.98,
+      "legend": {
+        "0": "Evidence for an advantage is absent: results are compatible with random controls or no corrected validation supports the claim.",
+        "1": "Evidence for an advantage is weak: small samples, uncorrected comparisons, one window, instability or overfitting dominate.",
+        "2": "Evidence for an advantage has some credible validation but material sample-size or stability limitations remain.",
+        "3": "Evidence for an advantage is supported by corrected separated tests and robust sensitivity, with manageable limitations.",
+        "4": "Evidence for an advantage is supported by strong independent replications, adequate sample sizes, correction and stable sensitivity."
+      },
+      "probabilities": {
+        "0": 0.98,
+        "1": 0.02,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "SL18_stability": {
+      "type": "score",
+      "score": 1.94,
+      "confidence": 0.3,
+      "legend": {
+        "0": "No informative rank stability, or flat/random objective.",
+        "1": "Usually weak rank with large changes.",
+        "2": "Mixed top-five membership and material rank changes.",
+        "3": "Usually top five with limited rank changes.",
+        "4": "Consistently top five across all informative changes."
+      },
+      "probabilities": {
+        "0": 0.15,
+        "1": 0.14,
+        "2": 0.39,
+        "3": 0.24,
+        "4": 0.08
+      }
+    },
+    "SL18_overfit": {
+      "type": "noul",
+      "noul": 0.94
+    },
+    "SL18_stable": {
+      "type": "noul",
+      "noul": 0.26
+    },
+    "SL18_stronger": {
+      "type": "noul",
+      "noul": 0.04
+    },
+    "SL18_dependent": {
+      "type": "noul",
+      "noul": 0.64
+    },
+    "SL19_robustness": {
+      "type": "score",
+      "score": 0.62,
+      "confidence": 0.58,
+      "legend": {
+        "0": "No empirical support beyond the random baseline; no methodology qualifies after corrected confirmation testing.",
+        "1": "Weak or fragile apparent support, from an unstable configuration or an uncorrected historical result.",
+        "2": "Some repeatable out-of-sample support but substantial uncertainty; convincing corrected confirmation is missing.",
+        "3": "Meaningful support across multiple out-of-sample tests including a corrected confirmation result and sensitivity stability.",
+        "4": "Unusually robust support across independent models and time windows, corrected random-control comparisons and independent prospective replication."
+      },
+      "probabilities": {
+        "0": 0.44,
+        "1": 0.5,
+        "2": 0.06,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "SL19_consensus": {
+      "type": "score",
+      "score": 0.03,
+      "confidence": 0.97,
+      "legend": {
+        "0": "No independently validated methodology supports the candidate; agreement of unvalidated correlated heuristics does not count.",
+        "1": "One validated methodology supports the candidate; other approaches lack independent validation.",
+        "2": "Two meaningfully distinct validated approaches support the candidate, with shared-data uncertainty.",
+        "3": "Several distinct validated approaches support the candidate consistently across periods.",
+        "4": "Strong support from independently validated approaches and independent data replications."
+      },
+      "probabilities": {
+        "0": 0.98,
+        "1": 0.01,
+        "2": 0.01,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "SL19_quality": {
+      "type": "score",
+      "score": 0.25,
+      "confidence": 0.79,
+      "legend": {
+        "0": "Evidence for an advantage is absent: results are compatible with random controls or no corrected validation supports the claim.",
+        "1": "Evidence for an advantage is weak: small samples, uncorrected comparisons, one window, instability or overfitting dominate.",
+        "2": "Evidence for an advantage has some credible validation but material sample-size or stability limitations remain.",
+        "3": "Evidence for an advantage is supported by corrected separated tests and robust sensitivity, with manageable limitations.",
+        "4": "Evidence for an advantage is supported by strong independent replications, adequate sample sizes, correction and stable sensitivity."
+      },
+      "probabilities": {
+        "0": 0.77,
+        "1": 0.23,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "SL19_stability": {
+      "type": "score",
+      "score": 1.9,
+      "confidence": 0.52,
+      "legend": {
+        "0": "No informative rank stability, or flat/random objective.",
+        "1": "Usually weak rank with large changes.",
+        "2": "Mixed top-five membership and material rank changes.",
+        "3": "Usually top five with limited rank changes.",
+        "4": "Consistently top five across all informative changes."
+      },
+      "probabilities": {
+        "0": 0.1,
+        "1": 0.14,
+        "2": 0.58,
+        "3": 0.12,
+        "4": 0.06
+      }
+    },
+    "SL19_overfit": {
+      "type": "noul",
+      "noul": 0.93
+    },
+    "SL19_stable": {
+      "type": "noul",
+      "noul": 0.37
+    },
+    "SL19_stronger": {
+      "type": "noul",
+      "noul": 0.07
+    },
+    "SL19_dependent": {
+      "type": "noul",
+      "noul": 0.62
+    },
+    "SL20_robustness": {
+      "type": "score",
+      "score": 0.02,
+      "confidence": 0.98,
+      "legend": {
+        "0": "No empirical support beyond the random baseline; no methodology qualifies after corrected confirmation testing.",
+        "1": "Weak or fragile apparent support, from an unstable configuration or an uncorrected historical result.",
+        "2": "Some repeatable out-of-sample support but substantial uncertainty; convincing corrected confirmation is missing.",
+        "3": "Meaningful support across multiple out-of-sample tests including a corrected confirmation result and sensitivity stability.",
+        "4": "Unusually robust support across independent models and time windows, corrected random-control comparisons and independent prospective replication."
+      },
+      "probabilities": {
+        "0": 0.98,
+        "1": 0.02,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "SL20_consensus": {
+      "type": "score",
+      "score": 0.01,
+      "confidence": 0.99,
+      "legend": {
+        "0": "No independently validated methodology supports the candidate; agreement of unvalidated correlated heuristics does not count.",
+        "1": "One validated methodology supports the candidate; other approaches lack independent validation.",
+        "2": "Two meaningfully distinct validated approaches support the candidate, with shared-data uncertainty.",
+        "3": "Several distinct validated approaches support the candidate consistently across periods.",
+        "4": "Strong support from independently validated approaches and independent data replications."
+      },
+      "probabilities": {
+        "0": 0.99,
+        "1": 0.01,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "SL20_quality": {
+      "type": "score",
+      "score": 0.01,
+      "confidence": 0.99,
+      "legend": {
+        "0": "Evidence for an advantage is absent: results are compatible with random controls or no corrected validation supports the claim.",
+        "1": "Evidence for an advantage is weak: small samples, uncorrected comparisons, one window, instability or overfitting dominate.",
+        "2": "Evidence for an advantage has some credible validation but material sample-size or stability limitations remain.",
+        "3": "Evidence for an advantage is supported by corrected separated tests and robust sensitivity, with manageable limitations.",
+        "4": "Evidence for an advantage is supported by strong independent replications, adequate sample sizes, correction and stable sensitivity."
+      },
+      "probabilities": {
+        "0": 0.99,
+        "1": 0.01,
+        "2": 0,
+        "3": 0,
+        "4": 0
+      }
+    },
+    "SL20_stability": {
+      "type": "score",
+      "score": 0.43,
+      "confidence": 0.64,
+      "legend": {
+        "0": "No informative rank stability, or flat/random objective.",
+        "1": "Usually weak rank with large changes.",
+        "2": "Mixed top-five membership and material rank changes.",
+        "3": "Usually top five with limited rank changes.",
+        "4": "Consistently top five across all informative changes."
+      },
+      "probabilities": {
+        "0": 0.63,
+        "1": 0.34,
+        "2": 0.02,
+        "3": 0,
+        "4": 0.01
+      }
+    },
+    "SL20_overfit": {
+      "type": "noul",
+      "noul": 0.95
+    },
+    "SL20_stable": {
+      "type": "noul",
+      "noul": 0.1
+    },
+    "SL20_stronger": {
+      "type": "noul",
+      "noul": 0.04
+    },
+    "SL20_dependent": {
+      "type": "noul",
+      "noul": 0.5
+    }
+  },
+  "usage": {
+    "input_tokens": 39477,
+    "output_tokens": 3260
+  }
+}
