@@ -1,0 +1,584 @@
+{
+  "summary": {
+    "distribution": {
+      "0": 10,
+      "1": 9,
+      "2": 1,
+      "3": 0,
+      "4": 0,
+      "5": 0
+    },
+    "best": 2,
+    "best_ids": [
+      "SL05"
+    ],
+    "v1_selected": "SL10",
+    "v1_matches": 0,
+    "jev_production": "SL19",
+    "jev_replicates": [
+      "SL19",
+      "SL19",
+      "SL19",
+      "SL19",
+      "SL19"
+    ],
+    "jev_favourite_matches": 1,
+    "pool_super_balls": [
+      1,
+      2,
+      3,
+      5,
+      9
+    ],
+    "candidates_with_SB9": [
+      "SL05",
+      "SL12",
+      "SL19"
+    ],
+    "p_any_of_20_ge2": 0.9497919891378637
+  },
+  "candidates": [
+    {
+      "id": "SL01",
+      "main": [
+        3,
+        6,
+        12,
+        17,
+        24
+      ],
+      "super_ball": 5,
+      "generator": "A_long",
+      "sb_generator": "S_long",
+      "matches": 0,
+      "matched": [],
+      "sb_hit": false,
+      "jev_choice": 0.02,
+      "jev_rank": [
+        4,
+        5
+      ],
+      "replicate_mean_choice": 0.016,
+      "sensitivity": [
+        1,
+        6
+      ]
+    },
+    {
+      "id": "SL02",
+      "main": [
+        12,
+        17,
+        22,
+        23,
+        24
+      ],
+      "super_ball": 3,
+      "generator": "A_long",
+      "sb_generator": "S_recent",
+      "matches": 1,
+      "matched": [
+        23
+      ],
+      "sb_hit": false,
+      "jev_choice": 0.01,
+      "jev_rank": [
+        6,
+        8
+      ],
+      "replicate_mean_choice": 0.01,
+      "sensitivity": [
+        2,
+        4
+      ]
+    },
+    {
+      "id": "SL03",
+      "main": [
+        9,
+        11,
+        12,
+        17,
+        24
+      ],
+      "super_ball": 2,
+      "generator": "A_long",
+      "sb_generator": "S_gap",
+      "matches": 0,
+      "matched": [],
+      "sb_hit": false,
+      "jev_choice": 0.02,
+      "jev_rank": [
+        4,
+        5
+      ],
+      "replicate_mean_choice": 0.018,
+      "sensitivity": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": "SL04",
+      "main": [
+        1,
+        5,
+        11,
+        12,
+        18
+      ],
+      "super_ball": 1,
+      "generator": "B_recent",
+      "sb_generator": "S_trend",
+      "matches": 0,
+      "matched": [],
+      "sb_hit": false,
+      "jev_choice": 0.01,
+      "jev_rank": [
+        6,
+        8
+      ],
+      "replicate_mean_choice": 0.014000000000000002,
+      "sensitivity": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "SL05",
+      "main": [
+        5,
+        18,
+        23,
+        24,
+        29
+      ],
+      "super_ball": 9,
+      "generator": "B_recent",
+      "sb_generator": "S_transition",
+      "matches": 2,
+      "matched": [
+        23,
+        29
+      ],
+      "sb_hit": true,
+      "jev_choice": 0.03,
+      "jev_rank": [
+        3,
+        3
+      ],
+      "replicate_mean_choice": 0.034,
+      "sensitivity": [
+        1,
+        5
+      ]
+    },
+    {
+      "id": "SL06",
+      "main": [
+        1,
+        9,
+        11,
+        18,
+        29
+      ],
+      "super_ball": 2,
+      "generator": "B_recent",
+      "sb_generator": "S_ensemble",
+      "matches": 1,
+      "matched": [
+        29
+      ],
+      "sb_hit": false,
+      "jev_choice": 0.09999999999999999,
+      "jev_rank": [
+        2,
+        2
+      ],
+      "replicate_mean_choice": 0.096,
+      "sensitivity": [
+        1,
+        3
+      ]
+    },
+    {
+      "id": "SL07",
+      "main": [
+        13,
+        17,
+        19,
+        30,
+        34
+      ],
+      "super_ball": 1,
+      "generator": "C_gap",
+      "sb_generator": "S_random",
+      "matches": 0,
+      "matched": [],
+      "sb_hit": false,
+      "jev_choice": 0,
+      "jev_rank": [
+        9,
+        20
+      ],
+      "replicate_mean_choice": 0.0,
+      "sensitivity": [
+        1,
+        1
+      ]
+    },
+    {
+      "id": "SL08",
+      "main": [
+        10,
+        19,
+        27,
+        30,
+        34
+      ],
+      "super_ball": 5,
+      "generator": "C_gap",
+      "sb_generator": "S_long",
+      "matches": 0,
+      "matched": [],
+      "sb_hit": false,
+      "jev_choice": 0,
+      "jev_rank": [
+        9,
+        20
+      ],
+      "replicate_mean_choice": 0.0,
+      "sensitivity": [
+        2,
+        2
+      ]
+    },
+    {
+      "id": "SL09",
+      "main": [
+        6,
+        10,
+        13,
+        16,
+        30
+      ],
+      "super_ball": 3,
+      "generator": "C_gap",
+      "sb_generator": "S_recent",
+      "matches": 0,
+      "matched": [],
+      "sb_hit": false,
+      "jev_choice": 0,
+      "jev_rank": [
+        9,
+        20
+      ],
+      "replicate_mean_choice": 0.0,
+      "sensitivity": [
+        3,
+        3
+      ]
+    },
+    {
+      "id": "SL10",
+      "main": [
+        1,
+        2,
+        11,
+        15,
+        22
+      ],
+      "super_ball": 2,
+      "generator": "D_trend",
+      "sb_generator": "S_gap",
+      "matches": 0,
+      "matched": [],
+      "sb_hit": false,
+      "jev_choice": 0.01,
+      "jev_rank": [
+        6,
+        8
+      ],
+      "replicate_mean_choice": 0.0,
+      "sensitivity": [
+        1,
+        9
+      ]
+    },
+    {
+      "id": "SL11",
+      "main": [
+        1,
+        12,
+        15,
+        18,
+        35
+      ],
+      "super_ball": 1,
+      "generator": "D_trend",
+      "sb_generator": "S_trend",
+      "matches": 0,
+      "matched": [],
+      "sb_hit": false,
+      "jev_choice": 0,
+      "jev_rank": [
+        9,
+        20
+      ],
+      "replicate_mean_choice": 0.0,
+      "sensitivity": [
+        1,
+        3
+      ]
+    },
+    {
+      "id": "SL12",
+      "main": [
+        1,
+        2,
+        9,
+        21,
+        35
+      ],
+      "super_ball": 9,
+      "generator": "D_trend",
+      "sb_generator": "S_transition",
+      "matches": 0,
+      "matched": [],
+      "sb_hit": true,
+      "jev_choice": 0,
+      "jev_rank": [
+        9,
+        20
+      ],
+      "replicate_mean_choice": 0.0,
+      "sensitivity": [
+        4,
+        6
+      ]
+    },
+    {
+      "id": "SL13",
+      "main": [
+        18,
+        22,
+        23,
+        24,
+        30
+      ],
+      "super_ball": 2,
+      "generator": "E_pairs",
+      "sb_generator": "S_ensemble",
+      "matches": 1,
+      "matched": [
+        23
+      ],
+      "sb_hit": false,
+      "jev_choice": 0,
+      "jev_rank": [
+        9,
+        20
+      ],
+      "replicate_mean_choice": 0.0,
+      "sensitivity": [
+        13,
+        13
+      ]
+    },
+    {
+      "id": "SL14",
+      "main": [
+        5,
+        10,
+        20,
+        22,
+        32
+      ],
+      "super_ball": 1,
+      "generator": "E_pairs",
+      "sb_generator": "S_random",
+      "matches": 1,
+      "matched": [
+        32
+      ],
+      "sb_hit": false,
+      "jev_choice": 0,
+      "jev_rank": [
+        9,
+        20
+      ],
+      "replicate_mean_choice": 0.0,
+      "sensitivity": [
+        14,
+        14
+      ]
+    },
+    {
+      "id": "SL15",
+      "main": [
+        3,
+        8,
+        12,
+        20,
+        32
+      ],
+      "super_ball": 5,
+      "generator": "E_pairs",
+      "sb_generator": "S_long",
+      "matches": 1,
+      "matched": [
+        32
+      ],
+      "sb_hit": false,
+      "jev_choice": 0,
+      "jev_rank": [
+        9,
+        20
+      ],
+      "replicate_mean_choice": 0.0,
+      "sensitivity": [
+        15,
+        15
+      ]
+    },
+    {
+      "id": "SL16",
+      "main": [
+        6,
+        7,
+        18,
+        22,
+        29
+      ],
+      "super_ball": 3,
+      "generator": "F_structure",
+      "sb_generator": "S_recent",
+      "matches": 1,
+      "matched": [
+        29
+      ],
+      "sb_hit": false,
+      "jev_choice": 0,
+      "jev_rank": [
+        9,
+        20
+      ],
+      "replicate_mean_choice": 0.0,
+      "sensitivity": [
+        1,
+        3
+      ]
+    },
+    {
+      "id": "SL17",
+      "main": [
+        6,
+        7,
+        18,
+        25,
+        28
+      ],
+      "super_ball": 2,
+      "generator": "F_structure",
+      "sb_generator": "S_gap",
+      "matches": 0,
+      "matched": [],
+      "sb_hit": false,
+      "jev_choice": 0,
+      "jev_rank": [
+        9,
+        20
+      ],
+      "replicate_mean_choice": 0.0,
+      "sensitivity": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "SL18",
+      "main": [
+        5,
+        13,
+        18,
+        28,
+        29
+      ],
+      "super_ball": 1,
+      "generator": "F_structure",
+      "sb_generator": "S_trend",
+      "matches": 1,
+      "matched": [
+        29
+      ],
+      "sb_hit": false,
+      "jev_choice": 0,
+      "jev_rank": [
+        9,
+        20
+      ],
+      "replicate_mean_choice": 0.0,
+      "sensitivity": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": "SL19",
+      "main": [
+        1,
+        12,
+        18,
+        23,
+        25
+      ],
+      "super_ball": 9,
+      "generator": "G_ensemble",
+      "sb_generator": "S_transition",
+      "matches": 1,
+      "matched": [
+        23
+      ],
+      "sb_hit": true,
+      "jev_choice": 0.8,
+      "jev_rank": [
+        1,
+        1
+      ],
+      "replicate_mean_choice": 0.8039999999999999,
+      "sensitivity": [
+        1,
+        9
+      ]
+    },
+    {
+      "id": "SL20",
+      "main": [
+        4,
+        6,
+        13,
+        17,
+        18
+      ],
+      "super_ball": 2,
+      "generator": "H_random",
+      "sb_generator": "S_ensemble",
+      "matches": 1,
+      "matched": [
+        4
+      ],
+      "sb_hit": false,
+      "jev_choice": 0,
+      "jev_rank": [
+        9,
+        20
+      ],
+      "replicate_mean_choice": 0.0,
+      "sensitivity": [
+        14,
+        17
+      ]
+    }
+  ],
+  "note": "Scored after the draw; nothing promoted."
+}

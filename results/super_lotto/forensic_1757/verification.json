@@ -1,0 +1,84 @@
+{
+  "manifest": {
+    "draw1757/candidates.json": "exact",
+    "draw1757/candidate-freeze.json": "exact",
+    "draw1757/jev_state.json": "exact",
+    "draw1757/jev_request.json": "exact",
+    "draw1757/jev_response.json": "exact",
+    "draw1757/jev_receipt.json": "exact",
+    "draw1757/jev-attempt.json": "exact",
+    "draw1757/draws.json": "exact",
+    "draw1757/complete_rankings.json": "exact",
+    "draw1757/metadata.json": "exact",
+    "draw1757/freeze-receipt.json": "exact",
+    "draw1757/predraw-check.json": "exact",
+    "draw1757/final-predraw-check.json": "exact",
+    "draw1757/predraw-official-check.json": "exact",
+    "draw1757/REPORT.md": "exact",
+    "draw1757/p0/p0_frozen.json": "exact",
+    "draw1757/p0/p0_result.json": "exact",
+    "draw1757/p0/universe_scores.csv": "exact",
+    "draw1757/p0_jev_audit/audit_receipt.json": "exact",
+    "draw1757/p0_jev_audit/audit_request.json": "exact",
+    "draw1757/p0_jev_audit/audit_response.json": "exact",
+    "draw1757/p0_jev_audit/audit_state.json": "exact",
+    "random_control_1757/random_control_frozen.json": "exact",
+    "jev_stability_1757/replicate_1_response.json": "exact",
+    "jev_stability_1757/replicate_2_response.json": "exact",
+    "jev_stability_1757/replicate_3_response.json": "exact",
+    "jev_stability_1757/replicate_4_response.json": "exact",
+    "jev_stability_1757/replicate_5_response.json": "exact",
+    "jev_stability_1757/replicates_receipt.json": "exact",
+    "jev_stability_1757/stability_analysis.json": "exact",
+    "prospective/prediction_1757.json": "exact",
+    "p0_protocol/PROTOCOL.json": "exact"
+  },
+  "ledger_manifest_prefix": "exact",
+  "ledger_append_only": true,
+  "candidate_freeze": {
+    "candidates.json": "exact",
+    "jev_state.json": "exact",
+    "complete_rankings.json": "exact",
+    "predraw_rankings_and_fit.json": "exact",
+    "metadata.json": "exact",
+    "PROTOCOL.md": "exact"
+  },
+  "jev": {
+    "single_attempt": true,
+    "response": true,
+    "state": true,
+    "boundary": [
+      {
+        "question": "SL09_stability",
+        "score": 1.49,
+        "delta": 0.030000000000000027
+      },
+      {
+        "question": "SL14_stability",
+        "score": 0.21,
+        "delta": 0.03
+      },
+      {
+        "question": "SL20_stability",
+        "score": 0.4,
+        "delta": 0.030000000000000027
+      }
+    ]
+  },
+  "chronology": {
+    "pool_frozen": "2026-10-06T21:35:24.215888+00:00",
+    "jev_attempt": "2026-10-06T21:36:00.553Z",
+    "v1_frozen": "2026-10-06T21:36:16.923969+00:00",
+    "p0_frozen": "2026-10-06T21:36:22.117850+00:00",
+    "first_replicate": "2026-10-06T21:36:46.731Z",
+    "scheduled_draw": "2026-10-07T01:30:00Z"
+  },
+  "commits": {
+    "pool": "c19bada 2026-10-06T21:35:43+00:00",
+    "tickets": "dd2b47e 2026-10-06T21:36:32+00:00",
+    "post_freeze": "8d0d18c 2026-10-06T21:36:59+00:00"
+  },
+  "tickets_unchanged_since_freeze": true,
+  "frozen_before_draw": true,
+  "ALL_PASS": true
+}

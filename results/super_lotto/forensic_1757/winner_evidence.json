@@ -1,0 +1,537 @@
+{
+  "winners": {
+    "4": {
+      "models": {
+        "A_long": {
+          "rank": 7,
+          "tie": [
+            7,
+            7
+          ],
+          "score": 0.7279064200623608,
+          "informative": true
+        },
+        "B_recent": {
+          "rank": 18,
+          "tie": [
+            18,
+            18
+          ],
+          "score": -0.07650671648365116,
+          "informative": true
+        },
+        "C_gap": {
+          "rank": 25,
+          "tie": [
+            24,
+            26
+          ],
+          "score": -0.7289830771784264,
+          "informative": true
+        },
+        "D_trend": {
+          "rank": 26,
+          "tie": [
+            26,
+            30
+          ],
+          "score": -0.9128709291641655,
+          "informative": true
+        },
+        "E_pairs": {
+          "rank": 11,
+          "tie": [
+            1,
+            35
+          ],
+          "score": 0.0,
+          "informative": false
+        },
+        "F_structure": null,
+        "G_ensemble": {
+          "rank": 23,
+          "tie": [
+            23,
+            23
+          ],
+          "score": -0.1650757171273137,
+          "informative": true
+        },
+        "H_random": {
+          "rank": 30,
+          "tie": [
+            30,
+            30
+          ],
+          "score": 0.24648519242201639,
+          "informative": true
+        }
+      },
+      "P0_rank": 23,
+      "in_pool": false,
+      "best": [
+        "A_long",
+        7
+      ],
+      "worst": [
+        "D_trend",
+        26
+      ],
+      "features": {
+        "count": "29",
+        "ew_rate": "0.14583148043307473",
+        "last30": "4",
+        "last10": "1",
+        "current_gap": "2",
+        "gap_percentile": "0.4642857142857143",
+        "trend": "-0.07499999999999998"
+      },
+      "top": {
+        "15": false,
+        "18": false,
+        "20": false,
+        "25": true
+      }
+    },
+    "23": {
+      "models": {
+        "A_long": {
+          "rank": 9,
+          "tie": [
+            8,
+            14
+          ],
+          "score": 0.5063696835216426,
+          "informative": true
+        },
+        "B_recent": {
+          "rank": 5,
+          "tie": [
+            5,
+            5
+          ],
+          "score": 1.1584484674678215,
+          "informative": true
+        },
+        "C_gap": {
+          "rank": 24,
+          "tie": [
+            24,
+            26
+          ],
+          "score": -0.7289830771784264,
+          "informative": true
+        },
+        "D_trend": {
+          "rank": 3,
+          "tie": [
+            3,
+            7
+          ],
+          "score": 1.2171612388855542,
+          "informative": true
+        },
+        "E_pairs": {
+          "rank": 5,
+          "tie": [
+            1,
+            35
+          ],
+          "score": 0.0,
+          "informative": false
+        },
+        "F_structure": null,
+        "G_ensemble": {
+          "rank": 7,
+          "tie": [
+            7,
+            7
+          ],
+          "score": 0.3588327187827653,
+          "informative": true
+        },
+        "H_random": {
+          "rank": 13,
+          "tie": [
+            13,
+            13
+          ],
+          "score": 0.6638922727731622,
+          "informative": true
+        }
+      },
+      "P0_rank": 7,
+      "in_pool": true,
+      "best": [
+        "D_trend",
+        3
+      ],
+      "worst": [
+        "C_gap",
+        24
+      ],
+      "features": {
+        "count": "28",
+        "ew_rate": "0.18488500025362414",
+        "last30": "6",
+        "last10": "3",
+        "current_gap": "2",
+        "gap_percentile": "0.3333333333333333",
+        "trend": "0.1"
+      },
+      "top": {
+        "15": true,
+        "18": true,
+        "20": true,
+        "25": true
+      }
+    },
+    "29": {
+      "models": {
+        "A_long": {
+          "rank": 13,
+          "tie": [
+            8,
+            14
+          ],
+          "score": 0.5063696835216426,
+          "informative": true
+        },
+        "B_recent": {
+          "rank": 8,
+          "tie": [
+            8,
+            8
+          ],
+          "score": 0.8625216972279574,
+          "informative": true
+        },
+        "C_gap": {
+          "rank": 35,
+          "tie": [
+            31,
+            35
+          ],
+          "score": -1.1405057820372153,
+          "informative": true
+        },
+        "D_trend": {
+          "rank": 6,
+          "tie": [
+            3,
+            7
+          ],
+          "score": 1.2171612388855542,
+          "informative": true
+        },
+        "E_pairs": {
+          "rank": 28,
+          "tie": [
+            1,
+            35
+          ],
+          "score": 0.0,
+          "informative": false
+        },
+        "F_structure": null,
+        "G_ensemble": {
+          "rank": 10,
+          "tie": [
+            10,
+            10
+          ],
+          "score": 0.24092447293298977,
+          "informative": true
+        },
+        "H_random": {
+          "rank": 10,
+          "tie": [
+            10,
+            10
+          ],
+          "score": 0.723749177323111,
+          "informative": true
+        }
+      },
+      "P0_rank": 10,
+      "in_pool": true,
+      "best": [
+        "D_trend",
+        6
+      ],
+      "worst": [
+        "C_gap",
+        35
+      ],
+      "features": {
+        "count": "28",
+        "ew_rate": "0.1928850796009996",
+        "last30": "5",
+        "last10": "2",
+        "current_gap": "0",
+        "gap_percentile": "0.14814814814814814",
+        "trend": "0.1"
+      },
+      "top": {
+        "15": true,
+        "18": true,
+        "20": true,
+        "25": true
+      }
+    },
+    "31": {
+      "models": {
+        "A_long": {
+          "rank": 30,
+          "tie": [
+            30,
+            30
+          ],
+          "score": -1.0443874722633832,
+          "informative": true
+        },
+        "B_recent": {
+          "rank": 12,
+          "tie": [
+            12,
+            12
+          ],
+          "score": 0.33395084229895444,
+          "informative": true
+        },
+        "C_gap": {
+          "rank": 26,
+          "tie": [
+            24,
+            26
+          ],
+          "score": -0.7289830771784264,
+          "informative": true
+        },
+        "D_trend": {
+          "rank": 16,
+          "tie": [
+            14,
+            16
+          ],
+          "score": 0.3042903097213885,
+          "informative": true
+        },
+        "E_pairs": {
+          "rank": 25,
+          "tie": [
+            1,
+            35
+          ],
+          "score": 0.0,
+          "informative": false
+        },
+        "F_structure": null,
+        "G_ensemble": {
+          "rank": 26,
+          "tie": [
+            26,
+            26
+          ],
+          "score": -0.18918823290357778,
+          "informative": true
+        },
+        "H_random": {
+          "rank": 9,
+          "tie": [
+            9,
+            9
+          ],
+          "score": 0.7838978805402947,
+          "informative": true
+        }
+      },
+      "P0_rank": 26,
+      "in_pool": false,
+      "best": [
+        "B_recent",
+        12
+      ],
+      "worst": [
+        "A_long",
+        30
+      ],
+      "features": {
+        "count": "21",
+        "ew_rate": "0.1476359806207428",
+        "last30": "5",
+        "last10": "2",
+        "current_gap": "2",
+        "gap_percentile": "0.15",
+        "trend": "0.024999999999999994"
+      },
+      "top": {
+        "15": false,
+        "18": false,
+        "20": false,
+        "25": false
+      }
+    },
+    "32": {
+      "models": {
+        "A_long": {
+          "rank": 23,
+          "tie": [
+            23,
+            24
+          ],
+          "score": -0.3797772626412294,
+          "informative": true
+        },
+        "B_recent": {
+          "rank": 11,
+          "tie": [
+            11,
+            11
+          ],
+          "score": 0.4012228264539216,
+          "informative": true
+        },
+        "C_gap": {
+          "rank": 32,
+          "tie": [
+            31,
+            35
+          ],
+          "score": -1.1405057820372153,
+          "informative": true
+        },
+        "D_trend": {
+          "rank": 8,
+          "tie": [
+            8,
+            9
+          ],
+          "score": 0.9128709291641658,
+          "informative": true
+        },
+        "E_pairs": {
+          "rank": 9,
+          "tie": [
+            1,
+            35
+          ],
+          "score": 0.0,
+          "informative": false
+        },
+        "F_structure": null,
+        "G_ensemble": {
+          "rank": 16,
+          "tie": [
+            16,
+            16
+          ],
+          "score": -0.03436488151005954,
+          "informative": true
+        },
+        "H_random": {
+          "rank": 24,
+          "tie": [
+            24,
+            24
+          ],
+          "score": 0.3389427822853518,
+          "informative": true
+        }
+      },
+      "P0_rank": 16,
+      "in_pool": false,
+      "best": [
+        "D_trend",
+        8
+      ],
+      "worst": [
+        "C_gap",
+        32
+      ],
+      "features": {
+        "count": "24",
+        "ew_rate": "0.15339489948893364",
+        "last30": "5",
+        "last10": "1",
+        "current_gap": "0",
+        "gap_percentile": "0.17391304347826086",
+        "trend": "0.07500000000000001"
+      },
+      "top": {
+        "15": false,
+        "18": true,
+        "20": true,
+        "25": true
+      }
+    }
+  },
+  "layers": {
+    "pool": [
+      1,
+      2,
+      6,
+      11,
+      12,
+      15,
+      17,
+      18,
+      22,
+      23,
+      24,
+      29
+    ],
+    "available": [
+      23,
+      29
+    ],
+    "absent": [
+      4,
+      31,
+      32
+    ],
+    "placed": [
+      23,
+      29
+    ],
+    "available_not_placed": [],
+    "per_ticket": [
+      0,
+      1,
+      1
+    ],
+    "p_capture_le_obs_random_top12": 0.7910341555977229
+  },
+  "super_ball": {
+    "actual": 9,
+    "played": [
+      2,
+      3,
+      7
+    ],
+    "model_ranks_SB9": {
+      "S_long": 6,
+      "S_recent": 7,
+      "S_gap": 6,
+      "S_trend": 9,
+      "S_transition": 1,
+      "S_ensemble": 6,
+      "S_random": null
+    },
+    "P0_sb_order": [
+      3,
+      7,
+      5,
+      4,
+      6,
+      1,
+      8,
+      9,
+      2,
+      10
+    ],
+    "P0_rank_SB9": 8,
+    "in_v1_pool": true,
+    "p_miss_3_distinct": 0.7
+  }
+}

@@ -1,0 +1,10284 @@
+[
+  {
+    "target": 1652,
+    "winners": [
+      2,
+      5,
+      10,
+      11,
+      14
+    ],
+    "sb": 4,
+    "period": "development",
+    "tickets": {
+      "V1_fixed_slot (incumbent)": {
+        "main": [
+          4,
+          8,
+          13,
+          18,
+          27
+        ],
+        "sb": 10,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_coverage_1": {
+        "main": [
+          6,
+          12,
+          15,
+          17,
+          26
+        ],
+        "sb": 6,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_coverage_2": {
+        "main": [
+          2,
+          3,
+          6,
+          20,
+          35
+        ],
+        "sb": 5,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_standalone_top": {
+        "main": [
+          4,
+          6,
+          15,
+          17,
+          26
+        ],
+        "sb": 6,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "V1_pool_per_draw_seed": {
+        "main": [
+          9,
+          10,
+          19,
+          25,
+          34
+        ],
+        "sb": 4,
+        "matches": 1,
+        "sb_hit": 1
+      },
+      "uniform_random_control": {
+        "main": [
+          9,
+          15,
+          19,
+          23,
+          29
+        ],
+        "sb": 2,
+        "matches": 0,
+        "sb_hit": 0
+      }
+    },
+    "standalone_rank_of_coverage": [
+      22,
+      605
+    ],
+    "universe": 792,
+    "T_std": 0.0,
+    "coverage_tickets_logged_T_rank": [
+      1,
+      1
+    ],
+    "weights_nonzero": false
+  },
+  {
+    "target": 1653,
+    "winners": [
+      1,
+      17,
+      18,
+      24,
+      35
+    ],
+    "sb": 2,
+    "period": "development",
+    "tickets": {
+      "V1_fixed_slot (incumbent)": {
+        "main": [
+          5,
+          8,
+          26,
+          27,
+          28
+        ],
+        "sb": 10,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_coverage_1": {
+        "main": [
+          2,
+          4,
+          6,
+          12,
+          15
+        ],
+        "sb": 6,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_coverage_2": {
+        "main": [
+          3,
+          17,
+          20,
+          26,
+          35
+        ],
+        "sb": 5,
+        "matches": 2,
+        "sb_hit": 0
+      },
+      "P0_standalone_top": {
+        "main": [
+          2,
+          4,
+          6,
+          15,
+          26
+        ],
+        "sb": 6,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "V1_pool_per_draw_seed": {
+        "main": [
+          8,
+          9,
+          17,
+          19,
+          25
+        ],
+        "sb": 10,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "uniform_random_control": {
+        "main": [
+          8,
+          18,
+          26,
+          27,
+          29
+        ],
+        "sb": 10,
+        "matches": 1,
+        "sb_hit": 0
+      }
+    },
+    "standalone_rank_of_coverage": [
+      17,
+      571
+    ],
+    "universe": 792,
+    "T_std": 0.0,
+    "coverage_tickets_logged_T_rank": [
+      1,
+      1
+    ],
+    "weights_nonzero": false
+  },
+  {
+    "target": 1654,
+    "winners": [
+      1,
+      18,
+      27,
+      30,
+      34
+    ],
+    "sb": 10,
+    "period": "development",
+    "tickets": {
+      "V1_fixed_slot (incumbent)": {
+        "main": [
+          8,
+          14,
+          18,
+          27,
+          28
+        ],
+        "sb": 10,
+        "matches": 2,
+        "sb_hit": 1
+      },
+      "P0_coverage_1": {
+        "main": [
+          2,
+          4,
+          12,
+          15,
+          35
+        ],
+        "sb": 6,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_coverage_2": {
+        "main": [
+          6,
+          17,
+          20,
+          24,
+          26
+        ],
+        "sb": 5,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_standalone_top": {
+        "main": [
+          2,
+          4,
+          12,
+          15,
+          35
+        ],
+        "sb": 6,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "V1_pool_per_draw_seed": {
+        "main": [
+          6,
+          12,
+          18,
+          19,
+          29
+        ],
+        "sb": 10,
+        "matches": 1,
+        "sb_hit": 1
+      },
+      "uniform_random_control": {
+        "main": [
+          2,
+          13,
+          18,
+          26,
+          33
+        ],
+        "sb": 9,
+        "matches": 1,
+        "sb_hit": 0
+      }
+    },
+    "standalone_rank_of_coverage": [
+      1,
+      742
+    ],
+    "universe": 792,
+    "T_std": 0.0,
+    "coverage_tickets_logged_T_rank": [
+      1,
+      1
+    ],
+    "weights_nonzero": false
+  },
+  {
+    "target": 1655,
+    "winners": [
+      5,
+      18,
+      20,
+      24,
+      33
+    ],
+    "sb": 9,
+    "period": "development",
+    "tickets": {
+      "V1_fixed_slot (incumbent)": {
+        "main": [
+          8,
+          14,
+          18,
+          27,
+          28
+        ],
+        "sb": 3,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_coverage_1": {
+        "main": [
+          2,
+          4,
+          12,
+          15,
+          35
+        ],
+        "sb": 6,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_coverage_2": {
+        "main": [
+          6,
+          17,
+          20,
+          24,
+          26
+        ],
+        "sb": 7,
+        "matches": 2,
+        "sb_hit": 0
+      },
+      "P0_standalone_top": {
+        "main": [
+          2,
+          4,
+          12,
+          15,
+          35
+        ],
+        "sb": 6,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "V1_pool_per_draw_seed": {
+        "main": [
+          2,
+          6,
+          18,
+          20,
+          27
+        ],
+        "sb": 9,
+        "matches": 2,
+        "sb_hit": 1
+      },
+      "uniform_random_control": {
+        "main": [
+          10,
+          12,
+          20,
+          21,
+          31
+        ],
+        "sb": 10,
+        "matches": 1,
+        "sb_hit": 0
+      }
+    },
+    "standalone_rank_of_coverage": [
+      1,
+      629
+    ],
+    "universe": 792,
+    "T_std": 0.0,
+    "coverage_tickets_logged_T_rank": [
+      1,
+      1
+    ],
+    "weights_nonzero": false
+  },
+  {
+    "target": 1656,
+    "winners": [
+      11,
+      12,
+      17,
+      26,
+      33
+    ],
+    "sb": 3,
+    "period": "development",
+    "tickets": {
+      "V1_fixed_slot (incumbent)": {
+        "main": [
+          5,
+          14,
+          18,
+          24,
+          28
+        ],
+        "sb": 3,
+        "matches": 0,
+        "sb_hit": 1
+      },
+      "P0_coverage_1": {
+        "main": [
+          2,
+          4,
+          6,
+          26,
+          35
+        ],
+        "sb": 6,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_coverage_2": {
+        "main": [
+          1,
+          12,
+          15,
+          17,
+          20
+        ],
+        "sb": 7,
+        "matches": 2,
+        "sb_hit": 0
+      },
+      "P0_standalone_top": {
+        "main": [
+          2,
+          4,
+          6,
+          18,
+          24
+        ],
+        "sb": 6,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "V1_pool_per_draw_seed": {
+        "main": [
+          5,
+          14,
+          18,
+          24,
+          28
+        ],
+        "sb": 3,
+        "matches": 0,
+        "sb_hit": 1
+      },
+      "uniform_random_control": {
+        "main": [
+          3,
+          12,
+          15,
+          25,
+          33
+        ],
+        "sb": 3,
+        "matches": 2,
+        "sb_hit": 1
+      }
+    },
+    "standalone_rank_of_coverage": [
+      21,
+      792
+    ],
+    "universe": 792,
+    "T_std": 0.0,
+    "coverage_tickets_logged_T_rank": [
+      1,
+      1
+    ],
+    "weights_nonzero": false
+  },
+  {
+    "target": 1657,
+    "winners": [
+      5,
+      11,
+      14,
+      25,
+      29
+    ],
+    "sb": 4,
+    "period": "development",
+    "tickets": {
+      "V1_fixed_slot (incumbent)": {
+        "main": [
+          5,
+          14,
+          18,
+          24,
+          28
+        ],
+        "sb": 7,
+        "matches": 2,
+        "sb_hit": 0
+      },
+      "P0_coverage_1": {
+        "main": [
+          2,
+          4,
+          6,
+          17,
+          26
+        ],
+        "sb": 6,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_coverage_2": {
+        "main": [
+          11,
+          12,
+          15,
+          33,
+          35
+        ],
+        "sb": 8,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_standalone_top": {
+        "main": [
+          2,
+          4,
+          17,
+          18,
+          26
+        ],
+        "sb": 6,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "V1_pool_per_draw_seed": {
+        "main": [
+          5,
+          14,
+          18,
+          24,
+          28
+        ],
+        "sb": 7,
+        "matches": 2,
+        "sb_hit": 0
+      },
+      "uniform_random_control": {
+        "main": [
+          8,
+          14,
+          20,
+          22,
+          23
+        ],
+        "sb": 5,
+        "matches": 1,
+        "sb_hit": 0
+      }
+    },
+    "standalone_rank_of_coverage": [
+      13,
+      792
+    ],
+    "universe": 792,
+    "T_std": 0.0,
+    "coverage_tickets_logged_T_rank": [
+      1,
+      1
+    ],
+    "weights_nonzero": false
+  },
+  {
+    "target": 1658,
+    "winners": [
+      3,
+      7,
+      19,
+      28,
+      34
+    ],
+    "sb": 7,
+    "period": "development",
+    "tickets": {
+      "V1_fixed_slot (incumbent)": {
+        "main": [
+          5,
+          14,
+          18,
+          24,
+          28
+        ],
+        "sb": 7,
+        "matches": 1,
+        "sb_hit": 1
+      },
+      "P0_coverage_1": {
+        "main": [
+          4,
+          6,
+          11,
+          17,
+          26
+        ],
+        "sb": 6,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_coverage_2": {
+        "main": [
+          2,
+          12,
+          15,
+          33,
+          35
+        ],
+        "sb": 2,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_standalone_top": {
+        "main": [
+          4,
+          11,
+          17,
+          18,
+          26
+        ],
+        "sb": 6,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "V1_pool_per_draw_seed": {
+        "main": [
+          4,
+          6,
+          13,
+          17,
+          18
+        ],
+        "sb": 6,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "uniform_random_control": {
+        "main": [
+          3,
+          5,
+          24,
+          31,
+          34
+        ],
+        "sb": 7,
+        "matches": 2,
+        "sb_hit": 1
+      }
+    },
+    "standalone_rank_of_coverage": [
+      7,
+      792
+    ],
+    "universe": 792,
+    "T_std": 0.0,
+    "coverage_tickets_logged_T_rank": [
+      1,
+      1
+    ],
+    "weights_nonzero": false
+  },
+  {
+    "target": 1659,
+    "winners": [
+      5,
+      22,
+      23,
+      25,
+      33
+    ],
+    "sb": 2,
+    "period": "development",
+    "tickets": {
+      "V1_fixed_slot (incumbent)": {
+        "main": [
+          5,
+          14,
+          18,
+          24,
+          28
+        ],
+        "sb": 1,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_coverage_1": {
+        "main": [
+          4,
+          6,
+          11,
+          17,
+          26
+        ],
+        "sb": 6,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_coverage_2": {
+        "main": [
+          2,
+          3,
+          12,
+          15,
+          35
+        ],
+        "sb": 8,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_standalone_top": {
+        "main": [
+          4,
+          11,
+          17,
+          18,
+          26
+        ],
+        "sb": 1,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "V1_pool_per_draw_seed": {
+        "main": [
+          3,
+          6,
+          12,
+          17,
+          24
+        ],
+        "sb": 4,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "uniform_random_control": {
+        "main": [
+          2,
+          15,
+          16,
+          25,
+          26
+        ],
+        "sb": 4,
+        "matches": 1,
+        "sb_hit": 0
+      }
+    },
+    "standalone_rank_of_coverage": [
+      7,
+      792
+    ],
+    "universe": 792,
+    "T_std": 0.0,
+    "coverage_tickets_logged_T_rank": [
+      1,
+      1
+    ],
+    "weights_nonzero": false
+  },
+  {
+    "target": 1660,
+    "winners": [
+      15,
+      21,
+      25,
+      26,
+      33
+    ],
+    "sb": 5,
+    "period": "development",
+    "tickets": {
+      "V1_fixed_slot (incumbent)": {
+        "main": [
+          5,
+          14,
+          18,
+          26,
+          34
+        ],
+        "sb": 1,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_coverage_1": {
+        "main": [
+          6,
+          11,
+          17,
+          24,
+          33
+        ],
+        "sb": 6,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_coverage_2": {
+        "main": [
+          2,
+          3,
+          4,
+          12,
+          26
+        ],
+        "sb": 8,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_standalone_top": {
+        "main": [
+          11,
+          17,
+          18,
+          26,
+          33
+        ],
+        "sb": 1,
+        "matches": 2,
+        "sb_hit": 0
+      },
+      "V1_pool_per_draw_seed": {
+        "main": [
+          9,
+          13,
+          15,
+          27,
+          32
+        ],
+        "sb": 6,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "uniform_random_control": {
+        "main": [
+          4,
+          8,
+          25,
+          34,
+          35
+        ],
+        "sb": 4,
+        "matches": 1,
+        "sb_hit": 0
+      }
+    },
+    "standalone_rank_of_coverage": [
+      171,
+      729
+    ],
+    "universe": 792,
+    "T_std": 0.0,
+    "coverage_tickets_logged_T_rank": [
+      1,
+      1
+    ],
+    "weights_nonzero": false
+  },
+  {
+    "target": 1661,
+    "winners": [
+      4,
+      5,
+      8,
+      19,
+      20
+    ],
+    "sb": 8,
+    "period": "development",
+    "tickets": {
+      "V1_fixed_slot (incumbent)": {
+        "main": [
+          5,
+          14,
+          18,
+          26,
+          34
+        ],
+        "sb": 1,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_coverage_1": {
+        "main": [
+          6,
+          11,
+          12,
+          17,
+          33
+        ],
+        "sb": 6,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_coverage_2": {
+        "main": [
+          2,
+          4,
+          24,
+          26,
+          35
+        ],
+        "sb": 8,
+        "matches": 1,
+        "sb_hit": 1
+      },
+      "P0_standalone_top": {
+        "main": [
+          11,
+          17,
+          18,
+          26,
+          33
+        ],
+        "sb": 1,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "V1_pool_per_draw_seed": {
+        "main": [
+          18,
+          22,
+          23,
+          24,
+          30
+        ],
+        "sb": 6,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "uniform_random_control": {
+        "main": [
+          1,
+          7,
+          11,
+          19,
+          29
+        ],
+        "sb": 3,
+        "matches": 1,
+        "sb_hit": 0
+      }
+    },
+    "standalone_rank_of_coverage": [
+      269,
+      576
+    ],
+    "universe": 792,
+    "T_std": 0.0,
+    "coverage_tickets_logged_T_rank": [
+      1,
+      1
+    ],
+    "weights_nonzero": false
+  },
+  {
+    "target": 1662,
+    "winners": [
+      4,
+      9,
+      17,
+      32,
+      34
+    ],
+    "sb": 6,
+    "period": "development",
+    "tickets": {
+      "V1_fixed_slot (incumbent)": {
+        "main": [
+          14,
+          18,
+          20,
+          26,
+          33
+        ],
+        "sb": 1,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_coverage_1": {
+        "main": [
+          5,
+          6,
+          11,
+          12,
+          17
+        ],
+        "sb": 6,
+        "matches": 1,
+        "sb_hit": 1
+      },
+      "P0_coverage_2": {
+        "main": [
+          2,
+          4,
+          22,
+          24,
+          26
+        ],
+        "sb": 10,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_standalone_top": {
+        "main": [
+          5,
+          17,
+          18,
+          26,
+          33
+        ],
+        "sb": 1,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "V1_pool_per_draw_seed": {
+        "main": [
+          3,
+          6,
+          12,
+          17,
+          24
+        ],
+        "sb": 5,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "uniform_random_control": {
+        "main": [
+          2,
+          16,
+          19,
+          22,
+          29
+        ],
+        "sb": 2,
+        "matches": 0,
+        "sb_hit": 0
+      }
+    },
+    "standalone_rank_of_coverage": [
+      427,
+      655
+    ],
+    "universe": 792,
+    "T_std": 0.0,
+    "coverage_tickets_logged_T_rank": [
+      1,
+      1
+    ],
+    "weights_nonzero": false
+  },
+  {
+    "target": 1663,
+    "winners": [
+      2,
+      4,
+      6,
+      10,
+      11
+    ],
+    "sb": 6,
+    "period": "development",
+    "tickets": {
+      "V1_fixed_slot (incumbent)": {
+        "main": [
+          5,
+          14,
+          18,
+          26,
+          34
+        ],
+        "sb": 1,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_coverage_1": {
+        "main": [
+          2,
+          4,
+          11,
+          17,
+          33
+        ],
+        "sb": 10,
+        "matches": 3,
+        "sb_hit": 0
+      },
+      "P0_coverage_2": {
+        "main": [
+          6,
+          12,
+          24,
+          26,
+          33
+        ],
+        "sb": 9,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_standalone_top": {
+        "main": [
+          5,
+          17,
+          18,
+          26,
+          33
+        ],
+        "sb": 1,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "V1_pool_per_draw_seed": {
+        "main": [
+          3,
+          6,
+          17,
+          18,
+          26
+        ],
+        "sb": 6,
+        "matches": 1,
+        "sb_hit": 1
+      },
+      "uniform_random_control": {
+        "main": [
+          18,
+          19,
+          22,
+          26,
+          28
+        ],
+        "sb": 4,
+        "matches": 0,
+        "sb_hit": 0
+      }
+    },
+    "standalone_rank_of_coverage": [
+      210,
+      307
+    ],
+    "universe": 792,
+    "T_std": 0.0,
+    "coverage_tickets_logged_T_rank": [
+      1,
+      1
+    ],
+    "weights_nonzero": false
+  },
+  {
+    "target": 1664,
+    "winners": [
+      4,
+      7,
+      10,
+      20,
+      30
+    ],
+    "sb": 4,
+    "period": "development",
+    "tickets": {
+      "V1_fixed_slot (incumbent)": {
+        "main": [
+          5,
+          17,
+          22,
+          26,
+          33
+        ],
+        "sb": 1,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_coverage_1": {
+        "main": [
+          2,
+          4,
+          11,
+          18,
+          24
+        ],
+        "sb": 10,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_coverage_2": {
+        "main": [
+          4,
+          6,
+          12,
+          26,
+          33
+        ],
+        "sb": 9,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_standalone_top": {
+        "main": [
+          4,
+          5,
+          11,
+          26,
+          33
+        ],
+        "sb": 1,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "V1_pool_per_draw_seed": {
+        "main": [
+          5,
+          14,
+          18,
+          26,
+          34
+        ],
+        "sb": 2,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "uniform_random_control": {
+        "main": [
+          1,
+          11,
+          21,
+          25,
+          30
+        ],
+        "sb": 4,
+        "matches": 1,
+        "sb_hit": 1
+      }
+    },
+    "standalone_rank_of_coverage": [
+      279,
+      149
+    ],
+    "universe": 792,
+    "T_std": 0.0,
+    "coverage_tickets_logged_T_rank": [
+      1,
+      1
+    ],
+    "weights_nonzero": false
+  },
+  {
+    "target": 1665,
+    "winners": [
+      1,
+      17,
+      22,
+      25,
+      27
+    ],
+    "sb": 6,
+    "period": "development",
+    "tickets": {
+      "V1_fixed_slot (incumbent)": {
+        "main": [
+          5,
+          10,
+          19,
+          26,
+          33
+        ],
+        "sb": 1,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_coverage_1": {
+        "main": [
+          2,
+          4,
+          11,
+          17,
+          18
+        ],
+        "sb": 10,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_coverage_2": {
+        "main": [
+          4,
+          12,
+          20,
+          24,
+          26
+        ],
+        "sb": 9,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_standalone_top": {
+        "main": [
+          4,
+          5,
+          11,
+          26,
+          33
+        ],
+        "sb": 1,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "V1_pool_per_draw_seed": {
+        "main": [
+          5,
+          13,
+          16,
+          24,
+          31
+        ],
+        "sb": 2,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "uniform_random_control": {
+        "main": [
+          4,
+          10,
+          14,
+          16,
+          20
+        ],
+        "sb": 5,
+        "matches": 0,
+        "sb_hit": 0
+      }
+    },
+    "standalone_rank_of_coverage": [
+      220,
+      372
+    ],
+    "universe": 792,
+    "T_std": 0.0,
+    "coverage_tickets_logged_T_rank": [
+      1,
+      1
+    ],
+    "weights_nonzero": false
+  },
+  {
+    "target": 1666,
+    "winners": [
+      1,
+      6,
+      7,
+      9,
+      34
+    ],
+    "sb": 6,
+    "period": "development",
+    "tickets": {
+      "V1_fixed_slot (incumbent)": {
+        "main": [
+          5,
+          17,
+          22,
+          26,
+          33
+        ],
+        "sb": 1,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_coverage_1": {
+        "main": [
+          2,
+          4,
+          10,
+          11,
+          18
+        ],
+        "sb": 10,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_coverage_2": {
+        "main": [
+          4,
+          17,
+          20,
+          24,
+          26
+        ],
+        "sb": 9,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_standalone_top": {
+        "main": [
+          4,
+          5,
+          11,
+          17,
+          26
+        ],
+        "sb": 1,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "V1_pool_per_draw_seed": {
+        "main": [
+          6,
+          7,
+          18,
+          22,
+          29
+        ],
+        "sb": 6,
+        "matches": 2,
+        "sb_hit": 1
+      },
+      "uniform_random_control": {
+        "main": [
+          8,
+          11,
+          20,
+          28,
+          30
+        ],
+        "sb": 5,
+        "matches": 0,
+        "sb_hit": 0
+      }
+    },
+    "standalone_rank_of_coverage": [
+      202,
+      210
+    ],
+    "universe": 792,
+    "T_std": 0.0,
+    "coverage_tickets_logged_T_rank": [
+      1,
+      1
+    ],
+    "weights_nonzero": false
+  },
+  {
+    "target": 1667,
+    "winners": [
+      4,
+      5,
+      24,
+      25,
+      28
+    ],
+    "sb": 7,
+    "period": "development",
+    "tickets": {
+      "V1_fixed_slot (incumbent)": {
+        "main": [
+          5,
+          7,
+          10,
+          11,
+          22
+        ],
+        "sb": 1,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_coverage_1": {
+        "main": [
+          4,
+          6,
+          17,
+          18,
+          26
+        ],
+        "sb": 6,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_coverage_2": {
+        "main": [
+          2,
+          4,
+          11,
+          24,
+          33
+        ],
+        "sb": 5,
+        "matches": 2,
+        "sb_hit": 0
+      },
+      "P0_standalone_top": {
+        "main": [
+          4,
+          5,
+          11,
+          17,
+          18
+        ],
+        "sb": 6,
+        "matches": 2,
+        "sb_hit": 0
+      },
+      "V1_pool_per_draw_seed": {
+        "main": [
+          3,
+          8,
+          12,
+          20,
+          32
+        ],
+        "sb": 4,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "uniform_random_control": {
+        "main": [
+          1,
+          9,
+          12,
+          14,
+          19
+        ],
+        "sb": 10,
+        "matches": 0,
+        "sb_hit": 0
+      }
+    },
+    "standalone_rank_of_coverage": [
+      65,
+      274
+    ],
+    "universe": 792,
+    "T_std": 0.0,
+    "coverage_tickets_logged_T_rank": [
+      1,
+      1
+    ],
+    "weights_nonzero": false
+  },
+  {
+    "target": 1668,
+    "winners": [
+      11,
+      24,
+      30,
+      31,
+      33
+    ],
+    "sb": 5,
+    "period": "development",
+    "tickets": {
+      "V1_fixed_slot (incumbent)": {
+        "main": [
+          5,
+          7,
+          10,
+          11,
+          22
+        ],
+        "sb": 1,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_coverage_1": {
+        "main": [
+          4,
+          17,
+          18,
+          25,
+          26
+        ],
+        "sb": 6,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_coverage_2": {
+        "main": [
+          2,
+          4,
+          6,
+          11,
+          33
+        ],
+        "sb": 5,
+        "matches": 2,
+        "sb_hit": 1
+      },
+      "P0_standalone_top": {
+        "main": [
+          4,
+          5,
+          11,
+          17,
+          26
+        ],
+        "sb": 6,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "V1_pool_per_draw_seed": {
+        "main": [
+          4,
+          10,
+          11,
+          17,
+          22
+        ],
+        "sb": 6,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "uniform_random_control": {
+        "main": [
+          2,
+          13,
+          25,
+          27,
+          35
+        ],
+        "sb": 1,
+        "matches": 0,
+        "sb_hit": 0
+      }
+    },
+    "standalone_rank_of_coverage": [
+      40,
+      357
+    ],
+    "universe": 792,
+    "T_std": 0.0,
+    "coverage_tickets_logged_T_rank": [
+      1,
+      1
+    ],
+    "weights_nonzero": false
+  },
+  {
+    "target": 1669,
+    "winners": [
+      1,
+      8,
+      17,
+      22,
+      25
+    ],
+    "sb": 10,
+    "period": "development",
+    "tickets": {
+      "V1_fixed_slot (incumbent)": {
+        "main": [
+          5,
+          11,
+          14,
+          18,
+          30
+        ],
+        "sb": 1,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_coverage_1": {
+        "main": [
+          4,
+          17,
+          24,
+          25,
+          26
+        ],
+        "sb": 6,
+        "matches": 2,
+        "sb_hit": 0
+      },
+      "P0_coverage_2": {
+        "main": [
+          4,
+          6,
+          10,
+          33,
+          34
+        ],
+        "sb": 5,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_standalone_top": {
+        "main": [
+          4,
+          5,
+          11,
+          17,
+          24
+        ],
+        "sb": 6,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "V1_pool_per_draw_seed": {
+        "main": [
+          5,
+          11,
+          14,
+          18,
+          30
+        ],
+        "sb": 1,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "uniform_random_control": {
+        "main": [
+          2,
+          14,
+          25,
+          28,
+          33
+        ],
+        "sb": 1,
+        "matches": 1,
+        "sb_hit": 0
+      }
+    },
+    "standalone_rank_of_coverage": [
+      47,
+      717
+    ],
+    "universe": 792,
+    "T_std": 0.0,
+    "coverage_tickets_logged_T_rank": [
+      1,
+      1
+    ],
+    "weights_nonzero": false
+  },
+  {
+    "target": 1670,
+    "winners": [
+      7,
+      10,
+      15,
+      17,
+      27
+    ],
+    "sb": 1,
+    "period": "development",
+    "tickets": {
+      "V1_fixed_slot (incumbent)": {
+        "main": [
+          5,
+          9,
+          11,
+          18,
+          25
+        ],
+        "sb": 1,
+        "matches": 0,
+        "sb_hit": 1
+      },
+      "P0_coverage_1": {
+        "main": [
+          4,
+          17,
+          24,
+          26,
+          33
+        ],
+        "sb": 6,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_coverage_2": {
+        "main": [
+          1,
+          6,
+          17,
+          22,
+          25
+        ],
+        "sb": 5,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_standalone_top": {
+        "main": [
+          4,
+          5,
+          11,
+          17,
+          25
+        ],
+        "sb": 6,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "V1_pool_per_draw_seed": {
+        "main": [
+          5,
+          9,
+          11,
+          18,
+          25
+        ],
+        "sb": 1,
+        "matches": 0,
+        "sb_hit": 1
+      },
+      "uniform_random_control": {
+        "main": [
+          1,
+          4,
+          12,
+          18,
+          29
+        ],
+        "sb": 7,
+        "matches": 0,
+        "sb_hit": 0
+      }
+    },
+    "standalone_rank_of_coverage": [
+      88,
+      513
+    ],
+    "universe": 792,
+    "T_std": 0.0,
+    "coverage_tickets_logged_T_rank": [
+      1,
+      1
+    ],
+    "weights_nonzero": false
+  },
+  {
+    "target": 1671,
+    "winners": [
+      2,
+      6,
+      7,
+      8,
+      29
+    ],
+    "sb": 6,
+    "period": "development",
+    "tickets": {
+      "V1_fixed_slot (incumbent)": {
+        "main": [
+          7,
+          11,
+          24,
+          25,
+          33
+        ],
+        "sb": 9,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_coverage_1": {
+        "main": [
+          4,
+          5,
+          10,
+          17,
+          26
+        ],
+        "sb": 3,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_coverage_2": {
+        "main": [
+          1,
+          6,
+          17,
+          18,
+          25
+        ],
+        "sb": 2,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_standalone_top": {
+        "main": [
+          4,
+          5,
+          11,
+          17,
+          25
+        ],
+        "sb": 9,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "V1_pool_per_draw_seed": {
+        "main": [
+          7,
+          11,
+          24,
+          25,
+          33
+        ],
+        "sb": 9,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "uniform_random_control": {
+        "main": [
+          8,
+          20,
+          21,
+          25,
+          28
+        ],
+        "sb": 3,
+        "matches": 1,
+        "sb_hit": 0
+      }
+    },
+    "standalone_rank_of_coverage": [
+      95,
+      291
+    ],
+    "universe": 792,
+    "T_std": 0.0,
+    "coverage_tickets_logged_T_rank": [
+      1,
+      1
+    ],
+    "weights_nonzero": false
+  },
+  {
+    "target": 1672,
+    "winners": [
+      9,
+      12,
+      22,
+      27,
+      31
+    ],
+    "sb": 1,
+    "period": "development",
+    "tickets": {
+      "V1_fixed_slot (incumbent)": {
+        "main": [
+          5,
+          10,
+          11,
+          25,
+          29
+        ],
+        "sb": 9,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_coverage_1": {
+        "main": [
+          4,
+          6,
+          7,
+          17,
+          33
+        ],
+        "sb": 3,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_coverage_2": {
+        "main": [
+          1,
+          17,
+          24,
+          25,
+          34
+        ],
+        "sb": 2,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_standalone_top": {
+        "main": [
+          4,
+          5,
+          11,
+          17,
+          25
+        ],
+        "sb": 9,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "V1_pool_per_draw_seed": {
+        "main": [
+          5,
+          10,
+          11,
+          25,
+          29
+        ],
+        "sb": 9,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "uniform_random_control": {
+        "main": [
+          8,
+          9,
+          12,
+          20,
+          35
+        ],
+        "sb": 9,
+        "matches": 2,
+        "sb_hit": 0
+      }
+    },
+    "standalone_rank_of_coverage": [
+      135,
+      281
+    ],
+    "universe": 792,
+    "T_std": 0.0,
+    "coverage_tickets_logged_T_rank": [
+      1,
+      1
+    ],
+    "weights_nonzero": false
+  },
+  {
+    "target": 1673,
+    "winners": [
+      5,
+      7,
+      8,
+      11,
+      35
+    ],
+    "sb": 7,
+    "period": "development",
+    "tickets": {
+      "V1_fixed_slot (incumbent)": {
+        "main": [
+          1,
+          4,
+          17,
+          25,
+          30
+        ],
+        "sb": 9,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_coverage_1": {
+        "main": [
+          5,
+          7,
+          11,
+          22,
+          33
+        ],
+        "sb": 6,
+        "matches": 3,
+        "sb_hit": 0
+      },
+      "P0_coverage_2": {
+        "main": [
+          6,
+          10,
+          11,
+          17,
+          24
+        ],
+        "sb": 2,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_standalone_top": {
+        "main": [
+          4,
+          11,
+          17,
+          22,
+          25
+        ],
+        "sb": 6,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "V1_pool_per_draw_seed": {
+        "main": [
+          1,
+          4,
+          17,
+          25,
+          30
+        ],
+        "sb": 9,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "uniform_random_control": {
+        "main": [
+          3,
+          8,
+          17,
+          28,
+          32
+        ],
+        "sb": 4,
+        "matches": 1,
+        "sb_hit": 0
+      }
+    },
+    "standalone_rank_of_coverage": [
+      648,
+      401
+    ],
+    "universe": 792,
+    "T_std": 0.0,
+    "coverage_tickets_logged_T_rank": [
+      1,
+      1
+    ],
+    "weights_nonzero": false
+  },
+  {
+    "target": 1674,
+    "winners": [
+      2,
+      17,
+      23,
+      28,
+      29
+    ],
+    "sb": 3,
+    "period": "development",
+    "tickets": {
+      "V1_fixed_slot (incumbent)": {
+        "main": [
+          7,
+          11,
+          24,
+          25,
+          33
+        ],
+        "sb": 9,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_coverage_1": {
+        "main": [
+          4,
+          5,
+          6,
+          17,
+          22
+        ],
+        "sb": 6,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_coverage_2": {
+        "main": [
+          1,
+          10,
+          17,
+          25,
+          34
+        ],
+        "sb": 5,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_standalone_top": {
+        "main": [
+          4,
+          7,
+          11,
+          17,
+          25
+        ],
+        "sb": 6,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "V1_pool_per_draw_seed": {
+        "main": [
+          7,
+          11,
+          24,
+          25,
+          33
+        ],
+        "sb": 9,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "uniform_random_control": {
+        "main": [
+          5,
+          8,
+          16,
+          23,
+          33
+        ],
+        "sb": 4,
+        "matches": 1,
+        "sb_hit": 0
+      }
+    },
+    "standalone_rank_of_coverage": [
+      152,
+      533
+    ],
+    "universe": 792,
+    "T_std": 0.0,
+    "coverage_tickets_logged_T_rank": [
+      1,
+      1
+    ],
+    "weights_nonzero": false
+  },
+  {
+    "target": 1675,
+    "winners": [
+      6,
+      17,
+      22,
+      27,
+      32
+    ],
+    "sb": 9,
+    "period": "development",
+    "tickets": {
+      "V1_fixed_slot (incumbent)": {
+        "main": [
+          5,
+          17,
+          23,
+          25,
+          29
+        ],
+        "sb": 9,
+        "matches": 1,
+        "sb_hit": 1
+      },
+      "P0_coverage_1": {
+        "main": [
+          4,
+          6,
+          7,
+          11,
+          22
+        ],
+        "sb": 2,
+        "matches": 2,
+        "sb_hit": 0
+      },
+      "P0_coverage_2": {
+        "main": [
+          10,
+          17,
+          24,
+          26,
+          33
+        ],
+        "sb": 8,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_standalone_top": {
+        "main": [
+          4,
+          7,
+          11,
+          17,
+          25
+        ],
+        "sb": 9,
+        "matches": 1,
+        "sb_hit": 1
+      },
+      "V1_pool_per_draw_seed": {
+        "main": [
+          3,
+          10,
+          13,
+          14,
+          16
+        ],
+        "sb": 4,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "uniform_random_control": {
+        "main": [
+          3,
+          10,
+          17,
+          24,
+          33
+        ],
+        "sb": 7,
+        "matches": 1,
+        "sb_hit": 0
+      }
+    },
+    "standalone_rank_of_coverage": [
+      268,
+      647
+    ],
+    "universe": 792,
+    "T_std": 0.0,
+    "coverage_tickets_logged_T_rank": [
+      1,
+      1
+    ],
+    "weights_nonzero": false
+  },
+  {
+    "target": 1676,
+    "winners": [
+      12,
+      13,
+      19,
+      27,
+      29
+    ],
+    "sb": 8,
+    "period": "development",
+    "tickets": {
+      "V1_fixed_slot (incumbent)": {
+        "main": [
+          7,
+          11,
+          22,
+          25,
+          28
+        ],
+        "sb": 2,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_coverage_1": {
+        "main": [
+          4,
+          5,
+          6,
+          10,
+          17
+        ],
+        "sb": 8,
+        "matches": 0,
+        "sb_hit": 1
+      },
+      "P0_coverage_2": {
+        "main": [
+          17,
+          25,
+          26,
+          27,
+          33
+        ],
+        "sb": 4,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_standalone_top": {
+        "main": [
+          4,
+          11,
+          17,
+          22,
+          25
+        ],
+        "sb": 2,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "V1_pool_per_draw_seed": {
+        "main": [
+          13,
+          16,
+          21,
+          26,
+          34
+        ],
+        "sb": 6,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "uniform_random_control": {
+        "main": [
+          2,
+          5,
+          6,
+          13,
+          21
+        ],
+        "sb": 1,
+        "matches": 1,
+        "sb_hit": 0
+      }
+    },
+    "standalone_rank_of_coverage": [
+      152,
+      405
+    ],
+    "universe": 792,
+    "T_std": 0.0,
+    "coverage_tickets_logged_T_rank": [
+      1,
+      1
+    ],
+    "weights_nonzero": false
+  },
+  {
+    "target": 1677,
+    "winners": [
+      2,
+      3,
+      19,
+      21,
+      24
+    ],
+    "sb": 6,
+    "period": "development",
+    "tickets": {
+      "V1_fixed_slot (incumbent)": {
+        "main": [
+          7,
+          10,
+          19,
+          22,
+          25
+        ],
+        "sb": 2,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_coverage_1": {
+        "main": [
+          4,
+          6,
+          11,
+          17,
+          27
+        ],
+        "sb": 4,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_coverage_2": {
+        "main": [
+          1,
+          5,
+          17,
+          25,
+          29
+        ],
+        "sb": 5,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_standalone_top": {
+        "main": [
+          4,
+          7,
+          17,
+          22,
+          25
+        ],
+        "sb": 2,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "V1_pool_per_draw_seed": {
+        "main": [
+          6,
+          12,
+          18,
+          19,
+          29
+        ],
+        "sb": 6,
+        "matches": 1,
+        "sb_hit": 1
+      },
+      "uniform_random_control": {
+        "main": [
+          5,
+          6,
+          23,
+          26,
+          35
+        ],
+        "sb": 9,
+        "matches": 0,
+        "sb_hit": 0
+      }
+    },
+    "standalone_rank_of_coverage": [
+      75,
+      422
+    ],
+    "universe": 792,
+    "T_std": 0.0,
+    "coverage_tickets_logged_T_rank": [
+      1,
+      1
+    ],
+    "weights_nonzero": false
+  },
+  {
+    "target": 1678,
+    "winners": [
+      17,
+      18,
+      19,
+      21,
+      22
+    ],
+    "sb": 1,
+    "period": "development",
+    "tickets": {
+      "V1_fixed_slot (incumbent)": {
+        "main": [
+          7,
+          10,
+          19,
+          22,
+          25
+        ],
+        "sb": 2,
+        "matches": 2,
+        "sb_hit": 0
+      },
+      "P0_coverage_1": {
+        "main": [
+          4,
+          6,
+          11,
+          17,
+          27
+        ],
+        "sb": 4,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_coverage_2": {
+        "main": [
+          1,
+          2,
+          5,
+          7,
+          17
+        ],
+        "sb": 5,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_standalone_top": {
+        "main": [
+          4,
+          7,
+          17,
+          22,
+          25
+        ],
+        "sb": 2,
+        "matches": 2,
+        "sb_hit": 0
+      },
+      "V1_pool_per_draw_seed": {
+        "main": [
+          4,
+          7,
+          17,
+          27,
+          31
+        ],
+        "sb": 1,
+        "matches": 1,
+        "sb_hit": 1
+      },
+      "uniform_random_control": {
+        "main": [
+          2,
+          16,
+          17,
+          18,
+          25
+        ],
+        "sb": 5,
+        "matches": 2,
+        "sb_hit": 0
+      }
+    },
+    "standalone_rank_of_coverage": [
+      115,
+      386
+    ],
+    "universe": 792,
+    "T_std": 0.0,
+    "coverage_tickets_logged_T_rank": [
+      1,
+      1
+    ],
+    "weights_nonzero": false
+  },
+  {
+    "target": 1679,
+    "winners": [
+      6,
+      7,
+      13,
+      15,
+      16
+    ],
+    "sb": 5,
+    "period": "development",
+    "tickets": {
+      "V1_fixed_slot (incumbent)": {
+        "main": [
+          7,
+          10,
+          19,
+          22,
+          25
+        ],
+        "sb": 2,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_coverage_1": {
+        "main": [
+          4,
+          6,
+          11,
+          17,
+          27
+        ],
+        "sb": 4,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_coverage_2": {
+        "main": [
+          1,
+          2,
+          5,
+          17,
+          22
+        ],
+        "sb": 5,
+        "matches": 0,
+        "sb_hit": 1
+      },
+      "P0_standalone_top": {
+        "main": [
+          4,
+          7,
+          17,
+          22,
+          25
+        ],
+        "sb": 2,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "V1_pool_per_draw_seed": {
+        "main": [
+          11,
+          17,
+          19,
+          25,
+          27
+        ],
+        "sb": 7,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "uniform_random_control": {
+        "main": [
+          3,
+          13,
+          15,
+          25,
+          29
+        ],
+        "sb": 3,
+        "matches": 2,
+        "sb_hit": 0
+      }
+    },
+    "standalone_rank_of_coverage": [
+      110,
+      290
+    ],
+    "universe": 792,
+    "T_std": 0.0,
+    "coverage_tickets_logged_T_rank": [
+      1,
+      1
+    ],
+    "weights_nonzero": false
+  },
+  {
+    "target": 1680,
+    "winners": [
+      1,
+      5,
+      7,
+      23,
+      27
+    ],
+    "sb": 5,
+    "period": "development",
+    "tickets": {
+      "V1_fixed_slot (incumbent)": {
+        "main": [
+          4,
+          7,
+          17,
+          27,
+          31
+        ],
+        "sb": 2,
+        "matches": 2,
+        "sb_hit": 0
+      },
+      "P0_coverage_1": {
+        "main": [
+          6,
+          10,
+          11,
+          22,
+          25
+        ],
+        "sb": 4,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_coverage_2": {
+        "main": [
+          1,
+          2,
+          17,
+          22,
+          26
+        ],
+        "sb": 10,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_standalone_top": {
+        "main": [
+          4,
+          6,
+          7,
+          17,
+          22
+        ],
+        "sb": 2,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "V1_pool_per_draw_seed": {
+        "main": [
+          1,
+          3,
+          14,
+          20,
+          26
+        ],
+        "sb": 10,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "uniform_random_control": {
+        "main": [
+          2,
+          12,
+          19,
+          27,
+          33
+        ],
+        "sb": 2,
+        "matches": 1,
+        "sb_hit": 0
+      }
+    },
+    "standalone_rank_of_coverage": [
+      424,
+      415
+    ],
+    "universe": 792,
+    "T_std": 0.0,
+    "coverage_tickets_logged_T_rank": [
+      1,
+      1
+    ],
+    "weights_nonzero": false
+  },
+  {
+    "target": 1681,
+    "winners": [
+      3,
+      13,
+      17,
+      20,
+      28
+    ],
+    "sb": 10,
+    "period": "development",
+    "tickets": {
+      "V1_fixed_slot (incumbent)": {
+        "main": [
+          4,
+          7,
+          17,
+          27,
+          31
+        ],
+        "sb": 2,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_coverage_1": {
+        "main": [
+          6,
+          10,
+          11,
+          22,
+          25
+        ],
+        "sb": 4,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_coverage_2": {
+        "main": [
+          2,
+          5,
+          6,
+          17,
+          24
+        ],
+        "sb": 10,
+        "matches": 1,
+        "sb_hit": 1
+      },
+      "P0_standalone_top": {
+        "main": [
+          4,
+          6,
+          7,
+          17,
+          27
+        ],
+        "sb": 2,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "V1_pool_per_draw_seed": {
+        "main": [
+          1,
+          5,
+          7,
+          17,
+          24
+        ],
+        "sb": 10,
+        "matches": 1,
+        "sb_hit": 1
+      },
+      "uniform_random_control": {
+        "main": [
+          2,
+          10,
+          14,
+          22,
+          23
+        ],
+        "sb": 9,
+        "matches": 0,
+        "sb_hit": 0
+      }
+    },
+    "standalone_rank_of_coverage": [
+      526,
+      482
+    ],
+    "universe": 792,
+    "T_std": 0.0,
+    "coverage_tickets_logged_T_rank": [
+      1,
+      1
+    ],
+    "weights_nonzero": false
+  },
+  {
+    "target": 1682,
+    "winners": [
+      5,
+      12,
+      26,
+      31,
+      32
+    ],
+    "sb": 3,
+    "period": "development",
+    "tickets": {
+      "V1_fixed_slot (incumbent)": {
+        "main": [
+          4,
+          7,
+          17,
+          27,
+          31
+        ],
+        "sb": 2,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_coverage_1": {
+        "main": [
+          6,
+          10,
+          11,
+          22,
+          25
+        ],
+        "sb": 4,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_coverage_2": {
+        "main": [
+          1,
+          2,
+          17,
+          22,
+          24
+        ],
+        "sb": 7,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_standalone_top": {
+        "main": [
+          6,
+          7,
+          17,
+          22,
+          27
+        ],
+        "sb": 2,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "V1_pool_per_draw_seed": {
+        "main": [
+          3,
+          8,
+          12,
+          20,
+          32
+        ],
+        "sb": 6,
+        "matches": 2,
+        "sb_hit": 0
+      },
+      "uniform_random_control": {
+        "main": [
+          1,
+          12,
+          15,
+          20,
+          31
+        ],
+        "sb": 3,
+        "matches": 2,
+        "sb_hit": 1
+      }
+    },
+    "standalone_rank_of_coverage": [
+      473,
+      401
+    ],
+    "universe": 792,
+    "T_std": 0.0,
+    "coverage_tickets_logged_T_rank": [
+      1,
+      1
+    ],
+    "weights_nonzero": false
+  },
+  {
+    "target": 1683,
+    "winners": [
+      6,
+      12,
+      13,
+      17,
+      32
+    ],
+    "sb": 7,
+    "period": "development",
+    "tickets": {
+      "V1_fixed_slot (incumbent)": {
+        "main": [
+          7,
+          17,
+          27,
+          30,
+          31
+        ],
+        "sb": 2,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_coverage_1": {
+        "main": [
+          4,
+          6,
+          11,
+          22,
+          25
+        ],
+        "sb": 4,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_coverage_2": {
+        "main": [
+          2,
+          5,
+          10,
+          17,
+          24
+        ],
+        "sb": 7,
+        "matches": 1,
+        "sb_hit": 1
+      },
+      "P0_standalone_top": {
+        "main": [
+          6,
+          7,
+          17,
+          22,
+          27
+        ],
+        "sb": 2,
+        "matches": 2,
+        "sb_hit": 0
+      },
+      "V1_pool_per_draw_seed": {
+        "main": [
+          6,
+          7,
+          11,
+          17,
+          22
+        ],
+        "sb": 6,
+        "matches": 2,
+        "sb_hit": 0
+      },
+      "uniform_random_control": {
+        "main": [
+          1,
+          4,
+          8,
+          10,
+          26
+        ],
+        "sb": 7,
+        "matches": 0,
+        "sb_hit": 1
+      }
+    },
+    "standalone_rank_of_coverage": [
+      403,
+      566
+    ],
+    "universe": 792,
+    "T_std": 0.0,
+    "coverage_tickets_logged_T_rank": [
+      1,
+      1
+    ],
+    "weights_nonzero": false
+  },
+  {
+    "target": 1684,
+    "winners": [
+      3,
+      4,
+      7,
+      16,
+      20
+    ],
+    "sb": 6,
+    "period": "development",
+    "tickets": {
+      "V1_fixed_slot (incumbent)": {
+        "main": [
+          7,
+          17,
+          27,
+          30,
+          31
+        ],
+        "sb": 2,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_coverage_1": {
+        "main": [
+          4,
+          6,
+          12,
+          22,
+          25
+        ],
+        "sb": 4,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_coverage_2": {
+        "main": [
+          5,
+          10,
+          11,
+          17,
+          24
+        ],
+        "sb": 9,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_standalone_top": {
+        "main": [
+          6,
+          7,
+          17,
+          22,
+          27
+        ],
+        "sb": 2,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "V1_pool_per_draw_seed": {
+        "main": [
+          6,
+          7,
+          11,
+          17,
+          22
+        ],
+        "sb": 2,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "uniform_random_control": {
+        "main": [
+          9,
+          11,
+          12,
+          22,
+          32
+        ],
+        "sb": 1,
+        "matches": 0,
+        "sb_hit": 0
+      }
+    },
+    "standalone_rank_of_coverage": [
+      420,
+      512
+    ],
+    "universe": 792,
+    "T_std": 0.0,
+    "coverage_tickets_logged_T_rank": [
+      1,
+      1
+    ],
+    "weights_nonzero": false
+  },
+  {
+    "target": 1685,
+    "winners": [
+      2,
+      8,
+      17,
+      19,
+      30
+    ],
+    "sb": 5,
+    "period": "development",
+    "tickets": {
+      "V1_fixed_slot (incumbent)": {
+        "main": [
+          7,
+          12,
+          22,
+          27,
+          31
+        ],
+        "sb": 2,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_coverage_1": {
+        "main": [
+          5,
+          6,
+          11,
+          17,
+          25
+        ],
+        "sb": 4,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_coverage_2": {
+        "main": [
+          2,
+          7,
+          17,
+          24,
+          29
+        ],
+        "sb": 9,
+        "matches": 2,
+        "sb_hit": 0
+      },
+      "P0_standalone_top": {
+        "main": [
+          6,
+          7,
+          17,
+          22,
+          27
+        ],
+        "sb": 2,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "V1_pool_per_draw_seed": {
+        "main": [
+          6,
+          7,
+          18,
+          22,
+          29
+        ],
+        "sb": 6,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "uniform_random_control": {
+        "main": [
+          21,
+          23,
+          25,
+          30,
+          31
+        ],
+        "sb": 4,
+        "matches": 1,
+        "sb_hit": 0
+      }
+    },
+    "standalone_rank_of_coverage": [
+      169,
+      309
+    ],
+    "universe": 792,
+    "T_std": 0.0,
+    "coverage_tickets_logged_T_rank": [
+      1,
+      1
+    ],
+    "weights_nonzero": false
+  },
+  {
+    "target": 1686,
+    "winners": [
+      9,
+      10,
+      11,
+      16,
+      26
+    ],
+    "sb": 4,
+    "period": "development",
+    "tickets": {
+      "V1_fixed_slot (incumbent)": {
+        "main": [
+          7,
+          8,
+          17,
+          29,
+          31
+        ],
+        "sb": 2,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_coverage_1": {
+        "main": [
+          6,
+          12,
+          22,
+          25,
+          27
+        ],
+        "sb": 4,
+        "matches": 0,
+        "sb_hit": 1
+      },
+      "P0_coverage_2": {
+        "main": [
+          2,
+          5,
+          10,
+          11,
+          17
+        ],
+        "sb": 9,
+        "matches": 2,
+        "sb_hit": 0
+      },
+      "P0_standalone_top": {
+        "main": [
+          6,
+          7,
+          17,
+          22,
+          27
+        ],
+        "sb": 2,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "V1_pool_per_draw_seed": {
+        "main": [
+          6,
+          7,
+          18,
+          22,
+          29
+        ],
+        "sb": 6,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "uniform_random_control": {
+        "main": [
+          9,
+          15,
+          30,
+          32,
+          34
+        ],
+        "sb": 5,
+        "matches": 1,
+        "sb_hit": 0
+      }
+    },
+    "standalone_rank_of_coverage": [
+      353,
+      410
+    ],
+    "universe": 792,
+    "T_std": 0.0,
+    "coverage_tickets_logged_T_rank": [
+      1,
+      1
+    ],
+    "weights_nonzero": false
+  },
+  {
+    "target": 1687,
+    "winners": [
+      7,
+      8,
+      12,
+      33,
+      34
+    ],
+    "sb": 7,
+    "period": "development",
+    "tickets": {
+      "V1_fixed_slot (incumbent)": {
+        "main": [
+          5,
+          7,
+          16,
+          17,
+          19
+        ],
+        "sb": 2,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_coverage_1": {
+        "main": [
+          6,
+          12,
+          22,
+          25,
+          27
+        ],
+        "sb": 9,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_coverage_2": {
+        "main": [
+          2,
+          17,
+          22,
+          24,
+          29
+        ],
+        "sb": 8,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_standalone_top": {
+        "main": [
+          6,
+          7,
+          17,
+          22,
+          27
+        ],
+        "sb": 2,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "V1_pool_per_draw_seed": {
+        "main": [
+          6,
+          7,
+          18,
+          25,
+          28
+        ],
+        "sb": 5,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "uniform_random_control": {
+        "main": [
+          1,
+          17,
+          18,
+          20,
+          29
+        ],
+        "sb": 9,
+        "matches": 0,
+        "sb_hit": 0
+      }
+    },
+    "standalone_rank_of_coverage": [
+      347,
+      278
+    ],
+    "universe": 792,
+    "T_std": 0.0,
+    "coverage_tickets_logged_T_rank": [
+      1,
+      1
+    ],
+    "weights_nonzero": false
+  },
+  {
+    "target": 1688,
+    "winners": [
+      3,
+      4,
+      23,
+      30,
+      34
+    ],
+    "sb": 4,
+    "period": "development",
+    "tickets": {
+      "V1_fixed_slot (incumbent)": {
+        "main": [
+          7,
+          8,
+          17,
+          29,
+          31
+        ],
+        "sb": 2,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_coverage_1": {
+        "main": [
+          6,
+          12,
+          22,
+          25,
+          27
+        ],
+        "sb": 9,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_coverage_2": {
+        "main": [
+          2,
+          6,
+          13,
+          17,
+          19
+        ],
+        "sb": 8,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_standalone_top": {
+        "main": [
+          6,
+          7,
+          17,
+          22,
+          27
+        ],
+        "sb": 2,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "V1_pool_per_draw_seed": {
+        "main": [
+          6,
+          7,
+          18,
+          25,
+          28
+        ],
+        "sb": 5,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "uniform_random_control": {
+        "main": [
+          3,
+          17,
+          20,
+          21,
+          34
+        ],
+        "sb": 1,
+        "matches": 2,
+        "sb_hit": 0
+      }
+    },
+    "standalone_rank_of_coverage": [
+      324,
+      345
+    ],
+    "universe": 792,
+    "T_std": 0.0,
+    "coverage_tickets_logged_T_rank": [
+      1,
+      1
+    ],
+    "weights_nonzero": false
+  },
+  {
+    "target": 1689,
+    "winners": [
+      13,
+      20,
+      21,
+      28,
+      32
+    ],
+    "sb": 1,
+    "period": "development",
+    "tickets": {
+      "V1_fixed_slot (incumbent)": {
+        "main": [
+          3,
+          7,
+          13,
+          19,
+          23
+        ],
+        "sb": 2,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_coverage_1": {
+        "main": [
+          6,
+          12,
+          17,
+          22,
+          27
+        ],
+        "sb": 9,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_coverage_2": {
+        "main": [
+          2,
+          8,
+          17,
+          25,
+          29
+        ],
+        "sb": 8,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_standalone_top": {
+        "main": [
+          6,
+          7,
+          17,
+          22,
+          27
+        ],
+        "sb": 2,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "V1_pool_per_draw_seed": {
+        "main": [
+          4,
+          7,
+          8,
+          17,
+          20
+        ],
+        "sb": 7,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "uniform_random_control": {
+        "main": [
+          10,
+          19,
+          27,
+          33,
+          35
+        ],
+        "sb": 9,
+        "matches": 0,
+        "sb_hit": 0
+      }
+    },
+    "standalone_rank_of_coverage": [
+      14,
+      385
+    ],
+    "universe": 792,
+    "T_std": 0.0,
+    "coverage_tickets_logged_T_rank": [
+      1,
+      1
+    ],
+    "weights_nonzero": false
+  },
+  {
+    "target": 1690,
+    "winners": [
+      7,
+      8,
+      11,
+      22,
+      23
+    ],
+    "sb": 1,
+    "period": "development",
+    "tickets": {
+      "V1_fixed_slot (incumbent)": {
+        "main": [
+          7,
+          13,
+          16,
+          27,
+          32
+        ],
+        "sb": 2,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_coverage_1": {
+        "main": [
+          2,
+          6,
+          12,
+          17,
+          22
+        ],
+        "sb": 9,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_coverage_2": {
+        "main": [
+          3,
+          8,
+          17,
+          19,
+          29
+        ],
+        "sb": 8,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_standalone_top": {
+        "main": [
+          6,
+          7,
+          12,
+          17,
+          27
+        ],
+        "sb": 2,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "V1_pool_per_draw_seed": {
+        "main": [
+          7,
+          13,
+          16,
+          27,
+          32
+        ],
+        "sb": 2,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "uniform_random_control": {
+        "main": [
+          4,
+          6,
+          8,
+          11,
+          21
+        ],
+        "sb": 1,
+        "matches": 2,
+        "sb_hit": 1
+      }
+    },
+    "standalone_rank_of_coverage": [
+      70,
+      489
+    ],
+    "universe": 792,
+    "T_std": 0.0,
+    "coverage_tickets_logged_T_rank": [
+      1,
+      1
+    ],
+    "weights_nonzero": false
+  },
+  {
+    "target": 1691,
+    "winners": [
+      1,
+      2,
+      9,
+      20,
+      24
+    ],
+    "sb": 10,
+    "period": "development",
+    "tickets": {
+      "V1_fixed_slot (incumbent)": {
+        "main": [
+          3,
+          7,
+          13,
+          19,
+          23
+        ],
+        "sb": 2,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_coverage_1": {
+        "main": [
+          6,
+          12,
+          17,
+          22,
+          27
+        ],
+        "sb": 9,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_coverage_2": {
+        "main": [
+          2,
+          7,
+          8,
+          17,
+          29
+        ],
+        "sb": 8,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_standalone_top": {
+        "main": [
+          6,
+          7,
+          12,
+          17,
+          22
+        ],
+        "sb": 2,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "V1_pool_per_draw_seed": {
+        "main": [
+          14,
+          18,
+          25,
+          29,
+          30
+        ],
+        "sb": 10,
+        "matches": 0,
+        "sb_hit": 1
+      },
+      "uniform_random_control": {
+        "main": [
+          5,
+          7,
+          18,
+          22,
+          26
+        ],
+        "sb": 7,
+        "matches": 0,
+        "sb_hit": 0
+      }
+    },
+    "standalone_rank_of_coverage": [
+      57,
+      114
+    ],
+    "universe": 792,
+    "T_std": 0.0,
+    "coverage_tickets_logged_T_rank": [
+      1,
+      1
+    ],
+    "weights_nonzero": false
+  },
+  {
+    "target": 1692,
+    "winners": [
+      2,
+      11,
+      16,
+      18,
+      22
+    ],
+    "sb": 10,
+    "period": "development",
+    "tickets": {
+      "V1_fixed_slot (incumbent)": {
+        "main": [
+          13,
+          17,
+          19,
+          23,
+          32
+        ],
+        "sb": 2,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_coverage_1": {
+        "main": [
+          6,
+          7,
+          12,
+          22,
+          27
+        ],
+        "sb": 9,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_coverage_2": {
+        "main": [
+          2,
+          3,
+          7,
+          8,
+          17
+        ],
+        "sb": 8,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_standalone_top": {
+        "main": [
+          6,
+          7,
+          12,
+          17,
+          22
+        ],
+        "sb": 2,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "V1_pool_per_draw_seed": {
+        "main": [
+          3,
+          8,
+          12,
+          20,
+          32
+        ],
+        "sb": 4,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "uniform_random_control": {
+        "main": [
+          1,
+          2,
+          17,
+          21,
+          22
+        ],
+        "sb": 6,
+        "matches": 2,
+        "sb_hit": 0
+      }
+    },
+    "standalone_rank_of_coverage": [
+      155,
+      163
+    ],
+    "universe": 792,
+    "T_std": 0.0,
+    "coverage_tickets_logged_T_rank": [
+      1,
+      1
+    ],
+    "weights_nonzero": false
+  },
+  {
+    "target": 1693,
+    "winners": [
+      1,
+      9,
+      11,
+      14,
+      20
+    ],
+    "sb": 2,
+    "period": "development",
+    "tickets": {
+      "V1_fixed_slot (incumbent)": {
+        "main": [
+          7,
+          13,
+          16,
+          23,
+          32
+        ],
+        "sb": 2,
+        "matches": 0,
+        "sb_hit": 1
+      },
+      "P0_coverage_1": {
+        "main": [
+          2,
+          6,
+          12,
+          17,
+          22
+        ],
+        "sb": 9,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_coverage_2": {
+        "main": [
+          3,
+          7,
+          11,
+          17,
+          27
+        ],
+        "sb": 8,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_standalone_top": {
+        "main": [
+          2,
+          6,
+          7,
+          17,
+          22
+        ],
+        "sb": 2,
+        "matches": 0,
+        "sb_hit": 1
+      },
+      "V1_pool_per_draw_seed": {
+        "main": [
+          7,
+          11,
+          12,
+          17,
+          27
+        ],
+        "sb": 9,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "uniform_random_control": {
+        "main": [
+          9,
+          15,
+          20,
+          21,
+          28
+        ],
+        "sb": 4,
+        "matches": 2,
+        "sb_hit": 0
+      }
+    },
+    "standalone_rank_of_coverage": [
+      33,
+      134
+    ],
+    "universe": 792,
+    "T_std": 0.0,
+    "coverage_tickets_logged_T_rank": [
+      1,
+      1
+    ],
+    "weights_nonzero": false
+  },
+  {
+    "target": 1694,
+    "winners": [
+      11,
+      14,
+      18,
+      22,
+      29
+    ],
+    "sb": 8,
+    "period": "development",
+    "tickets": {
+      "V1_fixed_slot (incumbent)": {
+        "main": [
+          13,
+          17,
+          19,
+          23,
+          32
+        ],
+        "sb": 9,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_coverage_1": {
+        "main": [
+          2,
+          6,
+          7,
+          12,
+          22
+        ],
+        "sb": 8,
+        "matches": 1,
+        "sb_hit": 1
+      },
+      "P0_coverage_2": {
+        "main": [
+          3,
+          11,
+          17,
+          20,
+          27
+        ],
+        "sb": 3,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_standalone_top": {
+        "main": [
+          6,
+          7,
+          12,
+          17,
+          22
+        ],
+        "sb": 9,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "V1_pool_per_draw_seed": {
+        "main": [
+          3,
+          8,
+          12,
+          20,
+          32
+        ],
+        "sb": 6,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "uniform_random_control": {
+        "main": [
+          3,
+          4,
+          7,
+          8,
+          10
+        ],
+        "sb": 3,
+        "matches": 0,
+        "sb_hit": 0
+      }
+    },
+    "standalone_rank_of_coverage": [
+      255,
+      329
+    ],
+    "universe": 792,
+    "T_std": 0.0,
+    "coverage_tickets_logged_T_rank": [
+      1,
+      1
+    ],
+    "weights_nonzero": false
+  },
+  {
+    "target": 1695,
+    "winners": [
+      2,
+      9,
+      12,
+      24,
+      29
+    ],
+    "sb": 7,
+    "period": "development",
+    "tickets": {
+      "V1_fixed_slot (incumbent)": {
+        "main": [
+          3,
+          13,
+          16,
+          19,
+          30
+        ],
+        "sb": 9,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_coverage_1": {
+        "main": [
+          6,
+          7,
+          11,
+          17,
+          22
+        ],
+        "sb": 3,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_coverage_2": {
+        "main": [
+          2,
+          12,
+          20,
+          27,
+          32
+        ],
+        "sb": 6,
+        "matches": 2,
+        "sb_hit": 0
+      },
+      "P0_standalone_top": {
+        "main": [
+          6,
+          7,
+          11,
+          17,
+          22
+        ],
+        "sb": 9,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "V1_pool_per_draw_seed": {
+        "main": [
+          6,
+          17,
+          25,
+          26,
+          35
+        ],
+        "sb": 8,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "uniform_random_control": {
+        "main": [
+          3,
+          7,
+          9,
+          15,
+          32
+        ],
+        "sb": 3,
+        "matches": 1,
+        "sb_hit": 0
+      }
+    },
+    "standalone_rank_of_coverage": [
+      1,
+      783
+    ],
+    "universe": 792,
+    "T_std": 0.0,
+    "coverage_tickets_logged_T_rank": [
+      1,
+      1
+    ],
+    "weights_nonzero": false
+  },
+  {
+    "target": 1696,
+    "winners": [
+      5,
+      8,
+      13,
+      17,
+      31
+    ],
+    "sb": 1,
+    "period": "development",
+    "tickets": {
+      "V1_fixed_slot (incumbent)": {
+        "main": [
+          3,
+          13,
+          16,
+          19,
+          30
+        ],
+        "sb": 9,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_coverage_1": {
+        "main": [
+          7,
+          11,
+          12,
+          17,
+          22
+        ],
+        "sb": 3,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_coverage_2": {
+        "main": [
+          2,
+          6,
+          9,
+          20,
+          27
+        ],
+        "sb": 6,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_standalone_top": {
+        "main": [
+          7,
+          11,
+          12,
+          17,
+          22
+        ],
+        "sb": 9,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "V1_pool_per_draw_seed": {
+        "main": [
+          3,
+          13,
+          16,
+          19,
+          30
+        ],
+        "sb": 9,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "uniform_random_control": {
+        "main": [
+          2,
+          19,
+          24,
+          32,
+          34
+        ],
+        "sb": 1,
+        "matches": 0,
+        "sb_hit": 1
+      }
+    },
+    "standalone_rank_of_coverage": [
+      1,
+      779
+    ],
+    "universe": 792,
+    "T_std": 0.0,
+    "coverage_tickets_logged_T_rank": [
+      1,
+      1
+    ],
+    "weights_nonzero": false
+  },
+  {
+    "target": 1697,
+    "winners": [
+      8,
+      9,
+      20,
+      22,
+      23
+    ],
+    "sb": 9,
+    "period": "development",
+    "tickets": {
+      "V1_fixed_slot (incumbent)": {
+        "main": [
+          12,
+          13,
+          16,
+          20,
+          21
+        ],
+        "sb": 9,
+        "matches": 1,
+        "sb_hit": 1
+      },
+      "P0_coverage_1": {
+        "main": [
+          2,
+          7,
+          11,
+          17,
+          22
+        ],
+        "sb": 3,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_coverage_2": {
+        "main": [
+          3,
+          6,
+          8,
+          9,
+          17
+        ],
+        "sb": 6,
+        "matches": 2,
+        "sb_hit": 0
+      },
+      "P0_standalone_top": {
+        "main": [
+          2,
+          7,
+          11,
+          17,
+          22
+        ],
+        "sb": 9,
+        "matches": 1,
+        "sb_hit": 1
+      },
+      "V1_pool_per_draw_seed": {
+        "main": [
+          6,
+          7,
+          18,
+          25,
+          28
+        ],
+        "sb": 9,
+        "matches": 0,
+        "sb_hit": 1
+      },
+      "uniform_random_control": {
+        "main": [
+          9,
+          10,
+          13,
+          25,
+          31
+        ],
+        "sb": 7,
+        "matches": 1,
+        "sb_hit": 0
+      }
+    },
+    "standalone_rank_of_coverage": [
+      1,
+      554
+    ],
+    "universe": 792,
+    "T_std": 0.0,
+    "coverage_tickets_logged_T_rank": [
+      1,
+      1
+    ],
+    "weights_nonzero": false
+  },
+  {
+    "target": 1698,
+    "winners": [
+      1,
+      3,
+      15,
+      26,
+      31
+    ],
+    "sb": 9,
+    "period": "development",
+    "tickets": {
+      "V1_fixed_slot (incumbent)": {
+        "main": [
+          2,
+          9,
+          13,
+          20,
+          23
+        ],
+        "sb": 3,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_coverage_1": {
+        "main": [
+          7,
+          11,
+          12,
+          17,
+          22
+        ],
+        "sb": 6,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_coverage_2": {
+        "main": [
+          3,
+          6,
+          8,
+          17,
+          20
+        ],
+        "sb": 5,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_standalone_top": {
+        "main": [
+          7,
+          11,
+          17,
+          20,
+          22
+        ],
+        "sb": 3,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "V1_pool_per_draw_seed": {
+        "main": [
+          6,
+          7,
+          18,
+          22,
+          29
+        ],
+        "sb": 1,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "uniform_random_control": {
+        "main": [
+          2,
+          6,
+          12,
+          25,
+          30
+        ],
+        "sb": 9,
+        "matches": 0,
+        "sb_hit": 1
+      }
+    },
+    "standalone_rank_of_coverage": [
+      2,
+      458
+    ],
+    "universe": 792,
+    "T_std": 0.0,
+    "coverage_tickets_logged_T_rank": [
+      1,
+      1
+    ],
+    "weights_nonzero": false
+  },
+  {
+    "target": 1699,
+    "winners": [
+      5,
+      21,
+      25,
+      30,
+      33
+    ],
+    "sb": 6,
+    "period": "development",
+    "tickets": {
+      "V1_fixed_slot (incumbent)": {
+        "main": [
+          2,
+          9,
+          13,
+          20,
+          23
+        ],
+        "sb": 3,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_coverage_1": {
+        "main": [
+          7,
+          11,
+          12,
+          17,
+          22
+        ],
+        "sb": 6,
+        "matches": 0,
+        "sb_hit": 1
+      },
+      "P0_coverage_2": {
+        "main": [
+          6,
+          8,
+          11,
+          17,
+          20
+        ],
+        "sb": 5,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_standalone_top": {
+        "main": [
+          7,
+          11,
+          17,
+          20,
+          22
+        ],
+        "sb": 3,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "V1_pool_per_draw_seed": {
+        "main": [
+          6,
+          19,
+          25,
+          27,
+          34
+        ],
+        "sb": 5,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "uniform_random_control": {
+        "main": [
+          1,
+          4,
+          17,
+          20,
+          32
+        ],
+        "sb": 9,
+        "matches": 0,
+        "sb_hit": 0
+      }
+    },
+    "standalone_rank_of_coverage": [
+      2,
+      118
+    ],
+    "universe": 792,
+    "T_std": 0.0,
+    "coverage_tickets_logged_T_rank": [
+      1,
+      1
+    ],
+    "weights_nonzero": false
+  },
+  {
+    "target": 1700,
+    "winners": [
+      9,
+      10,
+      14,
+      17,
+      29
+    ],
+    "sb": 2,
+    "period": "development",
+    "tickets": {
+      "V1_fixed_slot (incumbent)": {
+        "main": [
+          2,
+          9,
+          13,
+          20,
+          23
+        ],
+        "sb": 3,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_coverage_1": {
+        "main": [
+          7,
+          11,
+          12,
+          17,
+          22
+        ],
+        "sb": 5,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_coverage_2": {
+        "main": [
+          6,
+          8,
+          11,
+          17,
+          20
+        ],
+        "sb": 4,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_standalone_top": {
+        "main": [
+          11,
+          12,
+          17,
+          20,
+          22
+        ],
+        "sb": 3,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "V1_pool_per_draw_seed": {
+        "main": [
+          2,
+          7,
+          11,
+          17,
+          21
+        ],
+        "sb": 4,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "uniform_random_control": {
+        "main": [
+          1,
+          4,
+          18,
+          21,
+          29
+        ],
+        "sb": 3,
+        "matches": 1,
+        "sb_hit": 0
+      }
+    },
+    "standalone_rank_of_coverage": [
+      6,
+      108
+    ],
+    "universe": 792,
+    "T_std": 0.0,
+    "coverage_tickets_logged_T_rank": [
+      1,
+      1
+    ],
+    "weights_nonzero": false
+  },
+  {
+    "target": 1701,
+    "winners": [
+      1,
+      14,
+      17,
+      26,
+      28
+    ],
+    "sb": 2,
+    "period": "development",
+    "tickets": {
+      "V1_fixed_slot (incumbent)": {
+        "main": [
+          9,
+          13,
+          20,
+          29,
+          32
+        ],
+        "sb": 3,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_coverage_1": {
+        "main": [
+          2,
+          11,
+          12,
+          17,
+          22
+        ],
+        "sb": 5,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_coverage_2": {
+        "main": [
+          3,
+          6,
+          7,
+          8,
+          17
+        ],
+        "sb": 4,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_standalone_top": {
+        "main": [
+          9,
+          11,
+          17,
+          20,
+          22
+        ],
+        "sb": 3,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "V1_pool_per_draw_seed": {
+        "main": [
+          8,
+          11,
+          17,
+          20,
+          29
+        ],
+        "sb": 2,
+        "matches": 1,
+        "sb_hit": 1
+      },
+      "uniform_random_control": {
+        "main": [
+          9,
+          11,
+          12,
+          14,
+          27
+        ],
+        "sb": 6,
+        "matches": 1,
+        "sb_hit": 0
+      }
+    },
+    "standalone_rank_of_coverage": [
+      12,
+      631
+    ],
+    "universe": 792,
+    "T_std": 0.0,
+    "coverage_tickets_logged_T_rank": [
+      1,
+      1
+    ],
+    "weights_nonzero": false
+  },
+  {
+    "target": 1702,
+    "winners": [
+      10,
+      13,
+      18,
+      24,
+      32
+    ],
+    "sb": 10,
+    "period": "development",
+    "tickets": {
+      "V1_fixed_slot (incumbent)": {
+        "main": [
+          8,
+          9,
+          11,
+          16,
+          26
+        ],
+        "sb": 3,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_coverage_1": {
+        "main": [
+          2,
+          12,
+          17,
+          20,
+          22
+        ],
+        "sb": 5,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_coverage_2": {
+        "main": [
+          1,
+          6,
+          7,
+          17,
+          32
+        ],
+        "sb": 4,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_standalone_top": {
+        "main": [
+          9,
+          11,
+          12,
+          17,
+          22
+        ],
+        "sb": 3,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "V1_pool_per_draw_seed": {
+        "main": [
+          4,
+          6,
+          19,
+          34,
+          35
+        ],
+        "sb": 3,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "uniform_random_control": {
+        "main": [
+          2,
+          3,
+          18,
+          20,
+          35
+        ],
+        "sb": 9,
+        "matches": 1,
+        "sb_hit": 0
+      }
+    },
+    "standalone_rank_of_coverage": [
+      66,
+      714
+    ],
+    "universe": 792,
+    "T_std": 0.0,
+    "coverage_tickets_logged_T_rank": [
+      1,
+      1
+    ],
+    "weights_nonzero": false
+  },
+  {
+    "target": 1703,
+    "winners": [
+      3,
+      7,
+      12,
+      17,
+      20
+    ],
+    "sb": 3,
+    "period": "development",
+    "tickets": {
+      "V1_fixed_slot (incumbent)": {
+        "main": [
+          2,
+          9,
+          13,
+          14,
+          16
+        ],
+        "sb": 3,
+        "matches": 0,
+        "sb_hit": 1
+      },
+      "P0_coverage_1": {
+        "main": [
+          8,
+          11,
+          17,
+          20,
+          22
+        ],
+        "sb": 5,
+        "matches": 2,
+        "sb_hit": 0
+      },
+      "P0_coverage_2": {
+        "main": [
+          1,
+          6,
+          7,
+          12,
+          17
+        ],
+        "sb": 4,
+        "matches": 3,
+        "sb_hit": 0
+      },
+      "P0_standalone_top": {
+        "main": [
+          9,
+          11,
+          17,
+          20,
+          22
+        ],
+        "sb": 3,
+        "matches": 2,
+        "sb_hit": 1
+      },
+      "V1_pool_per_draw_seed": {
+        "main": [
+          6,
+          7,
+          18,
+          22,
+          29
+        ],
+        "sb": 1,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "uniform_random_control": {
+        "main": [
+          10,
+          22,
+          28,
+          33,
+          35
+        ],
+        "sb": 9,
+        "matches": 0,
+        "sb_hit": 0
+      }
+    },
+    "standalone_rank_of_coverage": [
+      13,
+      582
+    ],
+    "universe": 792,
+    "T_std": 0.0,
+    "coverage_tickets_logged_T_rank": [
+      1,
+      1
+    ],
+    "weights_nonzero": false
+  },
+  {
+    "target": 1704,
+    "winners": [
+      5,
+      8,
+      13,
+      26,
+      32
+    ],
+    "sb": 3,
+    "period": "development",
+    "tickets": {
+      "V1_fixed_slot (incumbent)": {
+        "main": [
+          8,
+          9,
+          10,
+          11,
+          20
+        ],
+        "sb": 5,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_coverage_1": {
+        "main": [
+          2,
+          3,
+          12,
+          17,
+          22
+        ],
+        "sb": 4,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_coverage_2": {
+        "main": [
+          1,
+          6,
+          11,
+          17,
+          23
+        ],
+        "sb": 8,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_standalone_top": {
+        "main": [
+          9,
+          11,
+          17,
+          20,
+          22
+        ],
+        "sb": 5,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "V1_pool_per_draw_seed": {
+        "main": [
+          4,
+          10,
+          11,
+          17,
+          22
+        ],
+        "sb": 1,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "uniform_random_control": {
+        "main": [
+          20,
+          21,
+          24,
+          25,
+          26
+        ],
+        "sb": 1,
+        "matches": 1,
+        "sb_hit": 0
+      }
+    },
+    "standalone_rank_of_coverage": [
+      177,
+      387
+    ],
+    "universe": 792,
+    "T_std": 0.0,
+    "coverage_tickets_logged_T_rank": [
+      1,
+      1
+    ],
+    "weights_nonzero": false
+  },
+  {
+    "target": 1705,
+    "winners": [
+      2,
+      23,
+      25,
+      27,
+      29
+    ],
+    "sb": 5,
+    "period": "development",
+    "tickets": {
+      "V1_fixed_slot (incumbent)": {
+        "main": [
+          8,
+          9,
+          10,
+          11,
+          20
+        ],
+        "sb": 5,
+        "matches": 0,
+        "sb_hit": 1
+      },
+      "P0_coverage_1": {
+        "main": [
+          2,
+          12,
+          13,
+          17,
+          22
+        ],
+        "sb": 4,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_coverage_2": {
+        "main": [
+          1,
+          3,
+          11,
+          17,
+          26
+        ],
+        "sb": 8,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_standalone_top": {
+        "main": [
+          8,
+          9,
+          11,
+          17,
+          22
+        ],
+        "sb": 5,
+        "matches": 0,
+        "sb_hit": 1
+      },
+      "V1_pool_per_draw_seed": {
+        "main": [
+          8,
+          12,
+          13,
+          17,
+          26
+        ],
+        "sb": 10,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "uniform_random_control": {
+        "main": [
+          1,
+          10,
+          14,
+          20,
+          30
+        ],
+        "sb": 1,
+        "matches": 0,
+        "sb_hit": 0
+      }
+    },
+    "standalone_rank_of_coverage": [
+      190,
+      354
+    ],
+    "universe": 792,
+    "T_std": 0.0,
+    "coverage_tickets_logged_T_rank": [
+      1,
+      1
+    ],
+    "weights_nonzero": false
+  },
+  {
+    "target": 1706,
+    "winners": [
+      5,
+      8,
+      13,
+      22,
+      31
+    ],
+    "sb": 2,
+    "period": "development",
+    "tickets": {
+      "V1_fixed_slot (incumbent)": {
+        "main": [
+          9,
+          11,
+          13,
+          14,
+          26
+        ],
+        "sb": 4,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_coverage_1": {
+        "main": [
+          8,
+          12,
+          17,
+          20,
+          22
+        ],
+        "sb": 8,
+        "matches": 2,
+        "sb_hit": 0
+      },
+      "P0_coverage_2": {
+        "main": [
+          1,
+          2,
+          3,
+          11,
+          17
+        ],
+        "sb": 7,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_standalone_top": {
+        "main": [
+          9,
+          11,
+          17,
+          20,
+          22
+        ],
+        "sb": 4,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "V1_pool_per_draw_seed": {
+        "main": [
+          9,
+          13,
+          14,
+          17,
+          20
+        ],
+        "sb": 6,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "uniform_random_control": {
+        "main": [
+          2,
+          6,
+          10,
+          16,
+          33
+        ],
+        "sb": 10,
+        "matches": 0,
+        "sb_hit": 0
+      }
+    },
+    "standalone_rank_of_coverage": [
+      173,
+      286
+    ],
+    "universe": 792,
+    "T_std": 0.0,
+    "coverage_tickets_logged_T_rank": [
+      1,
+      1
+    ],
+    "weights_nonzero": false
+  },
+  {
+    "target": 1707,
+    "winners": [
+      3,
+      7,
+      14,
+      18,
+      23
+    ],
+    "sb": 1,
+    "period": "development",
+    "tickets": {
+      "V1_fixed_slot (incumbent)": {
+        "main": [
+          8,
+          9,
+          14,
+          23,
+          31
+        ],
+        "sb": 4,
+        "matches": 2,
+        "sb_hit": 0
+      },
+      "P0_coverage_1": {
+        "main": [
+          11,
+          13,
+          17,
+          20,
+          22
+        ],
+        "sb": 8,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_coverage_2": {
+        "main": [
+          1,
+          2,
+          3,
+          12,
+          17
+        ],
+        "sb": 7,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_standalone_top": {
+        "main": [
+          8,
+          11,
+          13,
+          17,
+          22
+        ],
+        "sb": 4,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "V1_pool_per_draw_seed": {
+        "main": [
+          6,
+          7,
+          18,
+          25,
+          28
+        ],
+        "sb": 4,
+        "matches": 2,
+        "sb_hit": 0
+      },
+      "uniform_random_control": {
+        "main": [
+          11,
+          16,
+          19,
+          32,
+          35
+        ],
+        "sb": 6,
+        "matches": 0,
+        "sb_hit": 0
+      }
+    },
+    "standalone_rank_of_coverage": [
+      12,
+      693
+    ],
+    "universe": 792,
+    "T_std": 0.0,
+    "coverage_tickets_logged_T_rank": [
+      1,
+      1
+    ],
+    "weights_nonzero": false
+  },
+  {
+    "target": 1708,
+    "winners": [
+      3,
+      11,
+      27,
+      29,
+      33
+    ],
+    "sb": 2,
+    "period": "development",
+    "tickets": {
+      "V1_fixed_slot (incumbent)": {
+        "main": [
+          8,
+          9,
+          14,
+          23,
+          31
+        ],
+        "sb": 4,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_coverage_1": {
+        "main": [
+          11,
+          13,
+          17,
+          20,
+          22
+        ],
+        "sb": 8,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_coverage_2": {
+        "main": [
+          1,
+          2,
+          3,
+          12,
+          17
+        ],
+        "sb": 7,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_standalone_top": {
+        "main": [
+          11,
+          13,
+          17,
+          20,
+          22
+        ],
+        "sb": 4,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "V1_pool_per_draw_seed": {
+        "main": [
+          5,
+          13,
+          18,
+          28,
+          29
+        ],
+        "sb": 2,
+        "matches": 1,
+        "sb_hit": 1
+      },
+      "uniform_random_control": {
+        "main": [
+          2,
+          21,
+          25,
+          32,
+          34
+        ],
+        "sb": 5,
+        "matches": 0,
+        "sb_hit": 0
+      }
+    },
+    "standalone_rank_of_coverage": [
+      1,
+      724
+    ],
+    "universe": 792,
+    "T_std": 0.0,
+    "coverage_tickets_logged_T_rank": [
+      1,
+      1
+    ],
+    "weights_nonzero": false
+  },
+  {
+    "target": 1709,
+    "winners": [
+      2,
+      6,
+      25,
+      33,
+      34
+    ],
+    "sb": 4,
+    "period": "development",
+    "tickets": {
+      "V1_fixed_slot (incumbent)": {
+        "main": [
+          1,
+          9,
+          13,
+          14,
+          29
+        ],
+        "sb": 4,
+        "matches": 0,
+        "sb_hit": 1
+      },
+      "P0_coverage_1": {
+        "main": [
+          8,
+          11,
+          17,
+          20,
+          22
+        ],
+        "sb": 8,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_coverage_2": {
+        "main": [
+          2,
+          3,
+          13,
+          17,
+          23
+        ],
+        "sb": 7,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_standalone_top": {
+        "main": [
+          11,
+          13,
+          17,
+          20,
+          22
+        ],
+        "sb": 4,
+        "matches": 0,
+        "sb_hit": 1
+      },
+      "V1_pool_per_draw_seed": {
+        "main": [
+          6,
+          19,
+          20,
+          24,
+          35
+        ],
+        "sb": 2,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "uniform_random_control": {
+        "main": [
+          13,
+          18,
+          21,
+          27,
+          28
+        ],
+        "sb": 3,
+        "matches": 0,
+        "sb_hit": 0
+      }
+    },
+    "standalone_rank_of_coverage": [
+      7,
+      351
+    ],
+    "universe": 792,
+    "T_std": 0.0,
+    "coverage_tickets_logged_T_rank": [
+      1,
+      1
+    ],
+    "weights_nonzero": false
+  },
+  {
+    "target": 1710,
+    "winners": [
+      20,
+      26,
+      27,
+      34,
+      35
+    ],
+    "sb": 9,
+    "period": "development",
+    "tickets": {
+      "V1_fixed_slot (incumbent)": {
+        "main": [
+          2,
+          14,
+          22,
+          23,
+          29
+        ],
+        "sb": 8,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_coverage_1": {
+        "main": [
+          3,
+          8,
+          9,
+          11,
+          17
+        ],
+        "sb": 7,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_coverage_2": {
+        "main": [
+          1,
+          13,
+          17,
+          20,
+          22
+        ],
+        "sb": 9,
+        "matches": 1,
+        "sb_hit": 1
+      },
+      "P0_standalone_top": {
+        "main": [
+          2,
+          8,
+          9,
+          17,
+          22
+        ],
+        "sb": 8,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "V1_pool_per_draw_seed": {
+        "main": [
+          5,
+          10,
+          20,
+          22,
+          32
+        ],
+        "sb": 4,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "uniform_random_control": {
+        "main": [
+          6,
+          7,
+          11,
+          12,
+          22
+        ],
+        "sb": 9,
+        "matches": 0,
+        "sb_hit": 1
+      }
+    },
+    "standalone_rank_of_coverage": [
+      14,
+      390
+    ],
+    "universe": 792,
+    "T_std": 0.0,
+    "coverage_tickets_logged_T_rank": [
+      1,
+      1
+    ],
+    "weights_nonzero": false
+  },
+  {
+    "target": 1711,
+    "winners": [
+      4,
+      6,
+      23,
+      27,
+      30
+    ],
+    "sb": 6,
+    "period": "development",
+    "tickets": {
+      "V1_fixed_slot (incumbent)": {
+        "main": [
+          1,
+          9,
+          13,
+          14,
+          29
+        ],
+        "sb": 8,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_coverage_1": {
+        "main": [
+          2,
+          3,
+          17,
+          20,
+          22
+        ],
+        "sb": 7,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_coverage_2": {
+        "main": [
+          8,
+          9,
+          11,
+          17,
+          26
+        ],
+        "sb": 6,
+        "matches": 0,
+        "sb_hit": 1
+      },
+      "P0_standalone_top": {
+        "main": [
+          2,
+          3,
+          9,
+          17,
+          20
+        ],
+        "sb": 8,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "V1_pool_per_draw_seed": {
+        "main": [
+          8,
+          11,
+          17,
+          20,
+          29
+        ],
+        "sb": 2,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "uniform_random_control": {
+        "main": [
+          11,
+          13,
+          24,
+          28,
+          30
+        ],
+        "sb": 5,
+        "matches": 1,
+        "sb_hit": 0
+      }
+    },
+    "standalone_rank_of_coverage": [
+      10,
+      205
+    ],
+    "universe": 792,
+    "T_std": 0.0,
+    "coverage_tickets_logged_T_rank": [
+      1,
+      1
+    ],
+    "weights_nonzero": false
+  },
+  {
+    "target": 1712,
+    "winners": [
+      11,
+      15,
+      24,
+      29,
+      32
+    ],
+    "sb": 7,
+    "period": "development",
+    "tickets": {
+      "V1_fixed_slot (incumbent)": {
+        "main": [
+          9,
+          14,
+          23,
+          27,
+          29
+        ],
+        "sb": 8,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_coverage_1": {
+        "main": [
+          3,
+          8,
+          17,
+          22,
+          26
+        ],
+        "sb": 7,
+        "matches": 0,
+        "sb_hit": 1
+      },
+      "P0_coverage_2": {
+        "main": [
+          2,
+          11,
+          13,
+          17,
+          20
+        ],
+        "sb": 10,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_standalone_top": {
+        "main": [
+          3,
+          9,
+          17,
+          22,
+          29
+        ],
+        "sb": 8,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "V1_pool_per_draw_seed": {
+        "main": [
+          8,
+          11,
+          17,
+          20,
+          29
+        ],
+        "sb": 4,
+        "matches": 2,
+        "sb_hit": 0
+      },
+      "uniform_random_control": {
+        "main": [
+          1,
+          11,
+          20,
+          29,
+          30
+        ],
+        "sb": 9,
+        "matches": 2,
+        "sb_hit": 0
+      }
+    },
+    "standalone_rank_of_coverage": [
+      11,
+      454
+    ],
+    "universe": 792,
+    "T_std": 0.0,
+    "coverage_tickets_logged_T_rank": [
+      1,
+      1
+    ],
+    "weights_nonzero": false
+  },
+  {
+    "target": 1713,
+    "winners": [
+      3,
+      4,
+      17,
+      21,
+      33
+    ],
+    "sb": 6,
+    "period": "development",
+    "tickets": {
+      "V1_fixed_slot (incumbent)": {
+        "main": [
+          9,
+          14,
+          15,
+          23,
+          29
+        ],
+        "sb": 8,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_coverage_1": {
+        "main": [
+          3,
+          8,
+          11,
+          17,
+          26
+        ],
+        "sb": 10,
+        "matches": 2,
+        "sb_hit": 0
+      },
+      "P0_coverage_2": {
+        "main": [
+          13,
+          17,
+          20,
+          22,
+          29
+        ],
+        "sb": 3,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_standalone_top": {
+        "main": [
+          3,
+          9,
+          11,
+          17,
+          29
+        ],
+        "sb": 8,
+        "matches": 2,
+        "sb_hit": 0
+      },
+      "V1_pool_per_draw_seed": {
+        "main": [
+          3,
+          8,
+          12,
+          20,
+          32
+        ],
+        "sb": 6,
+        "matches": 1,
+        "sb_hit": 1
+      },
+      "uniform_random_control": {
+        "main": [
+          2,
+          13,
+          20,
+          21,
+          31
+        ],
+        "sb": 5,
+        "matches": 1,
+        "sb_hit": 0
+      }
+    },
+    "standalone_rank_of_coverage": [
+      88,
+      187
+    ],
+    "universe": 792,
+    "T_std": 0.0,
+    "coverage_tickets_logged_T_rank": [
+      1,
+      1
+    ],
+    "weights_nonzero": false
+  },
+  {
+    "target": 1714,
+    "winners": [
+      9,
+      12,
+      13,
+      15,
+      27
+    ],
+    "sb": 6,
+    "period": "development",
+    "tickets": {
+      "V1_fixed_slot (incumbent)": {
+        "main": [
+          3,
+          15,
+          23,
+          26,
+          29
+        ],
+        "sb": 8,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_coverage_1": {
+        "main": [
+          8,
+          9,
+          13,
+          17,
+          22
+        ],
+        "sb": 10,
+        "matches": 2,
+        "sb_hit": 0
+      },
+      "P0_coverage_2": {
+        "main": [
+          2,
+          11,
+          14,
+          17,
+          29
+        ],
+        "sb": 3,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_standalone_top": {
+        "main": [
+          3,
+          8,
+          17,
+          26,
+          29
+        ],
+        "sb": 8,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "V1_pool_per_draw_seed": {
+        "main": [
+          3,
+          14,
+          20,
+          29,
+          31
+        ],
+        "sb": 10,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "uniform_random_control": {
+        "main": [
+          9,
+          10,
+          13,
+          29,
+          30
+        ],
+        "sb": 5,
+        "matches": 2,
+        "sb_hit": 0
+      }
+    },
+    "standalone_rank_of_coverage": [
+      350,
+      308
+    ],
+    "universe": 792,
+    "T_std": 0.0,
+    "coverage_tickets_logged_T_rank": [
+      1,
+      1
+    ],
+    "weights_nonzero": false
+  },
+  {
+    "target": 1715,
+    "winners": [
+      8,
+      13,
+      23,
+      24,
+      26
+    ],
+    "sb": 2,
+    "period": "development",
+    "tickets": {
+      "V1_fixed_slot (incumbent)": {
+        "main": [
+          3,
+          9,
+          13,
+          26,
+          27
+        ],
+        "sb": 8,
+        "matches": 2,
+        "sb_hit": 0
+      },
+      "P0_coverage_1": {
+        "main": [
+          2,
+          8,
+          17,
+          23,
+          29
+        ],
+        "sb": 10,
+        "matches": 2,
+        "sb_hit": 0
+      },
+      "P0_coverage_2": {
+        "main": [
+          3,
+          10,
+          17,
+          22,
+          29
+        ],
+        "sb": 3,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_standalone_top": {
+        "main": [
+          3,
+          8,
+          17,
+          27,
+          29
+        ],
+        "sb": 8,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "V1_pool_per_draw_seed": {
+        "main": [
+          2,
+          3,
+          9,
+          27,
+          29
+        ],
+        "sb": 6,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "uniform_random_control": {
+        "main": [
+          6,
+          11,
+          12,
+          27,
+          34
+        ],
+        "sb": 10,
+        "matches": 0,
+        "sb_hit": 0
+      }
+    },
+    "standalone_rank_of_coverage": [
+      68,
+      238
+    ],
+    "universe": 792,
+    "T_std": 0.0,
+    "coverage_tickets_logged_T_rank": [
+      1,
+      1
+    ],
+    "weights_nonzero": false
+  },
+  {
+    "target": 1716,
+    "winners": [
+      16,
+      20,
+      24,
+      25,
+      27
+    ],
+    "sb": 4,
+    "period": "development",
+    "tickets": {
+      "V1_fixed_slot (incumbent)": {
+        "main": [
+          13,
+          15,
+          23,
+          26,
+          33
+        ],
+        "sb": 8,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_coverage_1": {
+        "main": [
+          3,
+          8,
+          17,
+          27,
+          29
+        ],
+        "sb": 10,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_coverage_2": {
+        "main": [
+          5,
+          13,
+          17,
+          20,
+          22
+        ],
+        "sb": 3,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_standalone_top": {
+        "main": [
+          3,
+          13,
+          17,
+          23,
+          26
+        ],
+        "sb": 8,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "V1_pool_per_draw_seed": {
+        "main": [
+          2,
+          11,
+          13,
+          23,
+          26
+        ],
+        "sb": 1,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "uniform_random_control": {
+        "main": [
+          17,
+          21,
+          26,
+          29,
+          31
+        ],
+        "sb": 3,
+        "matches": 0,
+        "sb_hit": 0
+      }
+    },
+    "standalone_rank_of_coverage": [
+      92,
+      572
+    ],
+    "universe": 792,
+    "T_std": 0.0,
+    "coverage_tickets_logged_T_rank": [
+      1,
+      1
+    ],
+    "weights_nonzero": false
+  },
+  {
+    "target": 1717,
+    "winners": [
+      7,
+      9,
+      15,
+      20,
+      24
+    ],
+    "sb": 2,
+    "period": "development",
+    "tickets": {
+      "V1_fixed_slot (incumbent)": {
+        "main": [
+          15,
+          23,
+          26,
+          27,
+          33
+        ],
+        "sb": 8,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_coverage_1": {
+        "main": [
+          3,
+          13,
+          17,
+          24,
+          29
+        ],
+        "sb": 10,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_coverage_2": {
+        "main": [
+          3,
+          8,
+          20,
+          22,
+          27
+        ],
+        "sb": 3,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_standalone_top": {
+        "main": [
+          3,
+          17,
+          23,
+          26,
+          27
+        ],
+        "sb": 8,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "V1_pool_per_draw_seed": {
+        "main": [
+          1,
+          10,
+          19,
+          28,
+          29
+        ],
+        "sb": 9,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "uniform_random_control": {
+        "main": [
+          6,
+          13,
+          17,
+          20,
+          33
+        ],
+        "sb": 4,
+        "matches": 1,
+        "sb_hit": 0
+      }
+    },
+    "standalone_rank_of_coverage": [
+      158,
+      550
+    ],
+    "universe": 792,
+    "T_std": 0.0,
+    "coverage_tickets_logged_T_rank": [
+      1,
+      1
+    ],
+    "weights_nonzero": false
+  },
+  {
+    "target": 1718,
+    "winners": [
+      4,
+      15,
+      18,
+      26,
+      32
+    ],
+    "sb": 7,
+    "period": "confirmation",
+    "tickets": {
+      "V1_fixed_slot (incumbent)": {
+        "main": [
+          15,
+          24,
+          26,
+          27,
+          33
+        ],
+        "sb": 8,
+        "matches": 2,
+        "sb_hit": 0
+      },
+      "P0_coverage_1": {
+        "main": [
+          3,
+          13,
+          17,
+          23,
+          29
+        ],
+        "sb": 10,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_coverage_2": {
+        "main": [
+          1,
+          3,
+          11,
+          20,
+          24
+        ],
+        "sb": 3,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_standalone_top": {
+        "main": [
+          3,
+          17,
+          24,
+          26,
+          27
+        ],
+        "sb": 8,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "V1_pool_per_draw_seed": {
+        "main": [
+          5,
+          13,
+          18,
+          28,
+          29
+        ],
+        "sb": 8,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "uniform_random_control": {
+        "main": [
+          14,
+          18,
+          19,
+          29,
+          31
+        ],
+        "sb": 10,
+        "matches": 1,
+        "sb_hit": 0
+      }
+    },
+    "standalone_rank_of_coverage": [
+      183,
+      532
+    ],
+    "universe": 792,
+    "T_std": 0.0,
+    "coverage_tickets_logged_T_rank": [
+      1,
+      1
+    ],
+    "weights_nonzero": false
+  },
+  {
+    "target": 1719,
+    "winners": [
+      1,
+      2,
+      5,
+      10,
+      18
+    ],
+    "sb": 3,
+    "period": "confirmation",
+    "tickets": {
+      "V1_fixed_slot (incumbent)": {
+        "main": [
+          15,
+          24,
+          26,
+          27,
+          33
+        ],
+        "sb": 8,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_coverage_1": {
+        "main": [
+          3,
+          13,
+          17,
+          20,
+          29
+        ],
+        "sb": 10,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_coverage_2": {
+        "main": [
+          11,
+          17,
+          23,
+          24,
+          27
+        ],
+        "sb": 3,
+        "matches": 0,
+        "sb_hit": 1
+      },
+      "P0_standalone_top": {
+        "main": [
+          13,
+          17,
+          24,
+          26,
+          27
+        ],
+        "sb": 8,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "V1_pool_per_draw_seed": {
+        "main": [
+          6,
+          7,
+          18,
+          22,
+          29
+        ],
+        "sb": 2,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "uniform_random_control": {
+        "main": [
+          5,
+          9,
+          22,
+          31,
+          35
+        ],
+        "sb": 7,
+        "matches": 1,
+        "sb_hit": 0
+      }
+    },
+    "standalone_rank_of_coverage": [
+      316,
+      129
+    ],
+    "universe": 792,
+    "T_std": 0.0,
+    "coverage_tickets_logged_T_rank": [
+      1,
+      1
+    ],
+    "weights_nonzero": false
+  },
+  {
+    "target": 1720,
+    "winners": [
+      4,
+      5,
+      12,
+      13,
+      24
+    ],
+    "sb": 3,
+    "period": "confirmation",
+    "tickets": {
+      "V1_fixed_slot (incumbent)": {
+        "main": [
+          15,
+          24,
+          26,
+          27,
+          33
+        ],
+        "sb": 8,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_coverage_1": {
+        "main": [
+          3,
+          13,
+          17,
+          23,
+          29
+        ],
+        "sb": 10,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_coverage_2": {
+        "main": [
+          11,
+          17,
+          18,
+          20,
+          24
+        ],
+        "sb": 5,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_standalone_top": {
+        "main": [
+          3,
+          17,
+          24,
+          26,
+          27
+        ],
+        "sb": 8,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "V1_pool_per_draw_seed": {
+        "main": [
+          8,
+          20,
+          23,
+          24,
+          26
+        ],
+        "sb": 2,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "uniform_random_control": {
+        "main": [
+          11,
+          14,
+          21,
+          22,
+          28
+        ],
+        "sb": 1,
+        "matches": 0,
+        "sb_hit": 0
+      }
+    },
+    "standalone_rank_of_coverage": [
+      301,
+      600
+    ],
+    "universe": 792,
+    "T_std": 0.0,
+    "coverage_tickets_logged_T_rank": [
+      1,
+      1
+    ],
+    "weights_nonzero": false
+  },
+  {
+    "target": 1721,
+    "winners": [
+      5,
+      10,
+      12,
+      24,
+      26
+    ],
+    "sb": 5,
+    "period": "confirmation",
+    "tickets": {
+      "V1_fixed_slot (incumbent)": {
+        "main": [
+          15,
+          24,
+          26,
+          27,
+          33
+        ],
+        "sb": 8,
+        "matches": 2,
+        "sb_hit": 0
+      },
+      "P0_coverage_1": {
+        "main": [
+          3,
+          13,
+          17,
+          20,
+          23
+        ],
+        "sb": 10,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_coverage_2": {
+        "main": [
+          5,
+          11,
+          13,
+          24,
+          29
+        ],
+        "sb": 5,
+        "matches": 2,
+        "sb_hit": 1
+      },
+      "P0_standalone_top": {
+        "main": [
+          3,
+          13,
+          24,
+          26,
+          27
+        ],
+        "sb": 8,
+        "matches": 2,
+        "sb_hit": 0
+      },
+      "V1_pool_per_draw_seed": {
+        "main": [
+          5,
+          13,
+          18,
+          28,
+          29
+        ],
+        "sb": 2,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "uniform_random_control": {
+        "main": [
+          3,
+          5,
+          6,
+          7,
+          12
+        ],
+        "sb": 5,
+        "matches": 2,
+        "sb_hit": 1
+      }
+    },
+    "standalone_rank_of_coverage": [
+      456,
+      526
+    ],
+    "universe": 792,
+    "T_std": 0.0,
+    "coverage_tickets_logged_T_rank": [
+      1,
+      1
+    ],
+    "weights_nonzero": false
+  },
+  {
+    "target": 1722,
+    "winners": [
+      3,
+      29,
+      30,
+      31,
+      33
+    ],
+    "sb": 7,
+    "period": "confirmation",
+    "tickets": {
+      "V1_fixed_slot (incumbent)": {
+        "main": [
+          15,
+          24,
+          26,
+          27,
+          33
+        ],
+        "sb": 8,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_coverage_1": {
+        "main": [
+          3,
+          5,
+          12,
+          13,
+          23
+        ],
+        "sb": 10,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_coverage_2": {
+        "main": [
+          13,
+          17,
+          20,
+          24,
+          29
+        ],
+        "sb": 1,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_standalone_top": {
+        "main": [
+          5,
+          13,
+          24,
+          26,
+          27
+        ],
+        "sb": 8,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "V1_pool_per_draw_seed": {
+        "main": [
+          14,
+          19,
+          22,
+          28,
+          29
+        ],
+        "sb": 7,
+        "matches": 1,
+        "sb_hit": 1
+      },
+      "uniform_random_control": {
+        "main": [
+          14,
+          20,
+          28,
+          32,
+          33
+        ],
+        "sb": 10,
+        "matches": 1,
+        "sb_hit": 0
+      }
+    },
+    "standalone_rank_of_coverage": [
+      557,
+      324
+    ],
+    "universe": 792,
+    "T_std": 0.0,
+    "coverage_tickets_logged_T_rank": [
+      1,
+      1
+    ],
+    "weights_nonzero": false
+  },
+  {
+    "target": 1723,
+    "winners": [
+      11,
+      12,
+      25,
+      28,
+      29
+    ],
+    "sb": 4,
+    "period": "confirmation",
+    "tickets": {
+      "V1_fixed_slot (incumbent)": {
+        "main": [
+          15,
+          24,
+          26,
+          27,
+          33
+        ],
+        "sb": 8,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_coverage_1": {
+        "main": [
+          3,
+          5,
+          12,
+          13,
+          23
+        ],
+        "sb": 10,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_coverage_2": {
+        "main": [
+          3,
+          4,
+          17,
+          20,
+          24
+        ],
+        "sb": 1,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_standalone_top": {
+        "main": [
+          3,
+          5,
+          24,
+          26,
+          27
+        ],
+        "sb": 8,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "V1_pool_per_draw_seed": {
+        "main": [
+          12,
+          17,
+          22,
+          23,
+          24
+        ],
+        "sb": 8,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "uniform_random_control": {
+        "main": [
+          1,
+          2,
+          22,
+          26,
+          33
+        ],
+        "sb": 7,
+        "matches": 0,
+        "sb_hit": 0
+      }
+    },
+    "standalone_rank_of_coverage": [
+      621,
+      401
+    ],
+    "universe": 792,
+    "T_std": 0.0,
+    "coverage_tickets_logged_T_rank": [
+      1,
+      1
+    ],
+    "weights_nonzero": false
+  },
+  {
+    "target": 1724,
+    "winners": [
+      1,
+      5,
+      7,
+      16,
+      24
+    ],
+    "sb": 5,
+    "period": "confirmation",
+    "tickets": {
+      "V1_fixed_slot (incumbent)": {
+        "main": [
+          15,
+          24,
+          26,
+          27,
+          33
+        ],
+        "sb": 8,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_coverage_1": {
+        "main": [
+          5,
+          12,
+          13,
+          23,
+          29
+        ],
+        "sb": 10,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_coverage_2": {
+        "main": [
+          3,
+          4,
+          17,
+          24,
+          29
+        ],
+        "sb": 1,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_standalone_top": {
+        "main": [
+          5,
+          24,
+          26,
+          27,
+          29
+        ],
+        "sb": 8,
+        "matches": 2,
+        "sb_hit": 0
+      },
+      "V1_pool_per_draw_seed": {
+        "main": [
+          5,
+          13,
+          18,
+          28,
+          29
+        ],
+        "sb": 2,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "uniform_random_control": {
+        "main": [
+          1,
+          16,
+          23,
+          27,
+          31
+        ],
+        "sb": 9,
+        "matches": 2,
+        "sb_hit": 0
+      }
+    },
+    "standalone_rank_of_coverage": [
+      541,
+      443
+    ],
+    "universe": 792,
+    "T_std": 0.0,
+    "coverage_tickets_logged_T_rank": [
+      1,
+      1
+    ],
+    "weights_nonzero": false
+  },
+  {
+    "target": 1725,
+    "winners": [
+      6,
+      12,
+      14,
+      18,
+      21
+    ],
+    "sb": 2,
+    "period": "confirmation",
+    "tickets": {
+      "V1_fixed_slot (incumbent)": {
+        "main": [
+          15,
+          24,
+          26,
+          27,
+          33
+        ],
+        "sb": 8,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_coverage_1": {
+        "main": [
+          4,
+          5,
+          12,
+          23,
+          29
+        ],
+        "sb": 10,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_coverage_2": {
+        "main": [
+          3,
+          5,
+          13,
+          17,
+          24
+        ],
+        "sb": 1,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_standalone_top": {
+        "main": [
+          5,
+          24,
+          26,
+          27,
+          29
+        ],
+        "sb": 8,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "V1_pool_per_draw_seed": {
+        "main": [
+          4,
+          15,
+          18,
+          24,
+          25
+        ],
+        "sb": 1,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "uniform_random_control": {
+        "main": [
+          2,
+          7,
+          14,
+          28,
+          31
+        ],
+        "sb": 1,
+        "matches": 1,
+        "sb_hit": 0
+      }
+    },
+    "standalone_rank_of_coverage": [
+      466,
+      357
+    ],
+    "universe": 792,
+    "T_std": 0.0,
+    "coverage_tickets_logged_T_rank": [
+      1,
+      1
+    ],
+    "weights_nonzero": false
+  },
+  {
+    "target": 1726,
+    "winners": [
+      4,
+      9,
+      15,
+      16,
+      30
+    ],
+    "sb": 8,
+    "period": "confirmation",
+    "tickets": {
+      "V1_fixed_slot (incumbent)": {
+        "main": [
+          15,
+          24,
+          26,
+          27,
+          33
+        ],
+        "sb": 8,
+        "matches": 1,
+        "sb_hit": 1
+      },
+      "P0_coverage_1": {
+        "main": [
+          3,
+          4,
+          5,
+          12,
+          29
+        ],
+        "sb": 10,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_coverage_2": {
+        "main": [
+          12,
+          13,
+          17,
+          24,
+          27
+        ],
+        "sb": 1,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_standalone_top": {
+        "main": [
+          5,
+          12,
+          24,
+          26,
+          27
+        ],
+        "sb": 8,
+        "matches": 0,
+        "sb_hit": 1
+      },
+      "V1_pool_per_draw_seed": {
+        "main": [
+          12,
+          17,
+          22,
+          23,
+          24
+        ],
+        "sb": 8,
+        "matches": 0,
+        "sb_hit": 1
+      },
+      "uniform_random_control": {
+        "main": [
+          5,
+          12,
+          15,
+          23,
+          34
+        ],
+        "sb": 1,
+        "matches": 1,
+        "sb_hit": 0
+      }
+    },
+    "standalone_rank_of_coverage": [
+      424,
+      130
+    ],
+    "universe": 792,
+    "T_std": 0.0,
+    "coverage_tickets_logged_T_rank": [
+      1,
+      1
+    ],
+    "weights_nonzero": false
+  },
+  {
+    "target": 1727,
+    "winners": [
+      5,
+      9,
+      12,
+      23,
+      28
+    ],
+    "sb": 3,
+    "period": "confirmation",
+    "tickets": {
+      "V1_fixed_slot (incumbent)": {
+        "main": [
+          4,
+          15,
+          18,
+          24,
+          25
+        ],
+        "sb": 10,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_coverage_1": {
+        "main": [
+          3,
+          5,
+          12,
+          26,
+          27
+        ],
+        "sb": 1,
+        "matches": 2,
+        "sb_hit": 0
+      },
+      "P0_coverage_2": {
+        "main": [
+          17,
+          23,
+          24,
+          29,
+          33
+        ],
+        "sb": 9,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_standalone_top": {
+        "main": [
+          4,
+          12,
+          24,
+          26,
+          27
+        ],
+        "sb": 10,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "V1_pool_per_draw_seed": {
+        "main": [
+          6,
+          7,
+          18,
+          25,
+          28
+        ],
+        "sb": 10,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "uniform_random_control": {
+        "main": [
+          5,
+          10,
+          15,
+          17,
+          33
+        ],
+        "sb": 1,
+        "matches": 1,
+        "sb_hit": 0
+      }
+    },
+    "standalone_rank_of_coverage": [
+      241,
+      565
+    ],
+    "universe": 792,
+    "T_std": 0.0,
+    "coverage_tickets_logged_T_rank": [
+      1,
+      1
+    ],
+    "weights_nonzero": false
+  },
+  {
+    "target": 1728,
+    "winners": [
+      10,
+      19,
+      24,
+      25,
+      27
+    ],
+    "sb": 8,
+    "period": "confirmation",
+    "tickets": {
+      "V1_fixed_slot (incumbent)": {
+        "main": [
+          15,
+          24,
+          26,
+          27,
+          33
+        ],
+        "sb": 10,
+        "matches": 2,
+        "sb_hit": 0
+      },
+      "P0_coverage_1": {
+        "main": [
+          4,
+          5,
+          12,
+          17,
+          29
+        ],
+        "sb": 1,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_coverage_2": {
+        "main": [
+          3,
+          5,
+          12,
+          20,
+          24
+        ],
+        "sb": 9,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_standalone_top": {
+        "main": [
+          5,
+          12,
+          24,
+          26,
+          27
+        ],
+        "sb": 10,
+        "matches": 2,
+        "sb_hit": 0
+      },
+      "V1_pool_per_draw_seed": {
+        "main": [
+          3,
+          6,
+          12,
+          17,
+          24
+        ],
+        "sb": 6,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "uniform_random_control": {
+        "main": [
+          15,
+          23,
+          26,
+          28,
+          32
+        ],
+        "sb": 1,
+        "matches": 0,
+        "sb_hit": 0
+      }
+    },
+    "standalone_rank_of_coverage": [
+      301,
+      138
+    ],
+    "universe": 792,
+    "T_std": 0.0,
+    "coverage_tickets_logged_T_rank": [
+      1,
+      1
+    ],
+    "weights_nonzero": false
+  },
+  {
+    "target": 1729,
+    "winners": [
+      3,
+      11,
+      28,
+      33,
+      34
+    ],
+    "sb": 4,
+    "period": "confirmation",
+    "tickets": {
+      "V1_fixed_slot (incumbent)": {
+        "main": [
+          4,
+          15,
+          18,
+          24,
+          25
+        ],
+        "sb": 10,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_coverage_1": {
+        "main": [
+          5,
+          12,
+          17,
+          26,
+          27
+        ],
+        "sb": 1,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_coverage_2": {
+        "main": [
+          12,
+          20,
+          24,
+          29,
+          33
+        ],
+        "sb": 9,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_standalone_top": {
+        "main": [
+          4,
+          5,
+          12,
+          24,
+          26
+        ],
+        "sb": 10,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "V1_pool_per_draw_seed": {
+        "main": [
+          5,
+          6,
+          15,
+          24,
+          25
+        ],
+        "sb": 6,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "uniform_random_control": {
+        "main": [
+          1,
+          3,
+          4,
+          5,
+          22
+        ],
+        "sb": 5,
+        "matches": 1,
+        "sb_hit": 0
+      }
+    },
+    "standalone_rank_of_coverage": [
+      194,
+      255
+    ],
+    "universe": 792,
+    "T_std": 0.0,
+    "coverage_tickets_logged_T_rank": [
+      1,
+      1
+    ],
+    "weights_nonzero": false
+  },
+  {
+    "target": 1730,
+    "winners": [
+      6,
+      8,
+      27,
+      30,
+      35
+    ],
+    "sb": 5,
+    "period": "confirmation",
+    "tickets": {
+      "V1_fixed_slot (incumbent)": {
+        "main": [
+          4,
+          15,
+          18,
+          24,
+          25
+        ],
+        "sb": 10,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_coverage_1": {
+        "main": [
+          5,
+          12,
+          17,
+          26,
+          27
+        ],
+        "sb": 1,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_coverage_2": {
+        "main": [
+          13,
+          20,
+          22,
+          24,
+          29
+        ],
+        "sb": 9,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_standalone_top": {
+        "main": [
+          4,
+          5,
+          12,
+          24,
+          26
+        ],
+        "sb": 10,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "V1_pool_per_draw_seed": {
+        "main": [
+          6,
+          7,
+          18,
+          25,
+          28
+        ],
+        "sb": 10,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "uniform_random_control": {
+        "main": [
+          3,
+          4,
+          10,
+          29,
+          34
+        ],
+        "sb": 3,
+        "matches": 0,
+        "sb_hit": 0
+      }
+    },
+    "standalone_rank_of_coverage": [
+      198,
+      573
+    ],
+    "universe": 792,
+    "T_std": 0.0,
+    "coverage_tickets_logged_T_rank": [
+      1,
+      1
+    ],
+    "weights_nonzero": false
+  },
+  {
+    "target": 1731,
+    "winners": [
+      16,
+      17,
+      18,
+      20,
+      24
+    ],
+    "sb": 9,
+    "period": "confirmation",
+    "tickets": {
+      "V1_fixed_slot (incumbent)": {
+        "main": [
+          4,
+          15,
+          18,
+          24,
+          25
+        ],
+        "sb": 10,
+        "matches": 2,
+        "sb_hit": 0
+      },
+      "P0_coverage_1": {
+        "main": [
+          5,
+          12,
+          17,
+          26,
+          27
+        ],
+        "sb": 1,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_coverage_2": {
+        "main": [
+          13,
+          20,
+          22,
+          24,
+          29
+        ],
+        "sb": 9,
+        "matches": 2,
+        "sb_hit": 1
+      },
+      "P0_standalone_top": {
+        "main": [
+          4,
+          5,
+          12,
+          24,
+          27
+        ],
+        "sb": 10,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "V1_pool_per_draw_seed": {
+        "main": [
+          3,
+          6,
+          12,
+          17,
+          24
+        ],
+        "sb": 4,
+        "matches": 2,
+        "sb_hit": 0
+      },
+      "uniform_random_control": {
+        "main": [
+          10,
+          18,
+          21,
+          33,
+          34
+        ],
+        "sb": 8,
+        "matches": 1,
+        "sb_hit": 0
+      }
+    },
+    "standalone_rank_of_coverage": [
+      206,
+      589
+    ],
+    "universe": 792,
+    "T_std": 0.0,
+    "coverage_tickets_logged_T_rank": [
+      1,
+      1
+    ],
+    "weights_nonzero": false
+  },
+  {
+    "target": 1732,
+    "winners": [
+      16,
+      18,
+      24,
+      31,
+      33
+    ],
+    "sb": 9,
+    "period": "confirmation",
+    "tickets": {
+      "V1_fixed_slot (incumbent)": {
+        "main": [
+          4,
+          15,
+          18,
+          24,
+          25
+        ],
+        "sb": 10,
+        "matches": 2,
+        "sb_hit": 0
+      },
+      "P0_coverage_1": {
+        "main": [
+          5,
+          12,
+          22,
+          26,
+          27
+        ],
+        "sb": 1,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_coverage_2": {
+        "main": [
+          10,
+          12,
+          13,
+          24,
+          29
+        ],
+        "sb": 6,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_standalone_top": {
+        "main": [
+          4,
+          5,
+          12,
+          15,
+          24
+        ],
+        "sb": 10,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "V1_pool_per_draw_seed": {
+        "main": [
+          6,
+          11,
+          17,
+          24,
+          26
+        ],
+        "sb": 2,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "uniform_random_control": {
+        "main": [
+          9,
+          10,
+          19,
+          22,
+          30
+        ],
+        "sb": 7,
+        "matches": 0,
+        "sb_hit": 0
+      }
+    },
+    "standalone_rank_of_coverage": [
+      320,
+      173
+    ],
+    "universe": 792,
+    "T_std": 0.0,
+    "coverage_tickets_logged_T_rank": [
+      1,
+      1
+    ],
+    "weights_nonzero": false
+  },
+  {
+    "target": 1733,
+    "winners": [
+      17,
+      19,
+      21,
+      22,
+      31
+    ],
+    "sb": 5,
+    "period": "confirmation",
+    "tickets": {
+      "V1_fixed_slot (incumbent)": {
+        "main": [
+          4,
+          15,
+          18,
+          24,
+          25
+        ],
+        "sb": 10,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_coverage_1": {
+        "main": [
+          5,
+          12,
+          22,
+          26,
+          27
+        ],
+        "sb": 4,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_coverage_2": {
+        "main": [
+          5,
+          12,
+          13,
+          24,
+          33
+        ],
+        "sb": 6,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_standalone_top": {
+        "main": [
+          4,
+          5,
+          12,
+          24,
+          26
+        ],
+        "sb": 4,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "V1_pool_per_draw_seed": {
+        "main": [
+          5,
+          10,
+          20,
+          22,
+          32
+        ],
+        "sb": 3,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "uniform_random_control": {
+        "main": [
+          4,
+          9,
+          16,
+          18,
+          27
+        ],
+        "sb": 5,
+        "matches": 0,
+        "sb_hit": 1
+      }
+    },
+    "standalone_rank_of_coverage": [
+      259,
+      83
+    ],
+    "universe": 792,
+    "T_std": 0.0,
+    "coverage_tickets_logged_T_rank": [
+      1,
+      1
+    ],
+    "weights_nonzero": false
+  },
+  {
+    "target": 1734,
+    "winners": [
+      4,
+      6,
+      22,
+      27,
+      34
+    ],
+    "sb": 5,
+    "period": "confirmation",
+    "tickets": {
+      "V1_fixed_slot (incumbent)": {
+        "main": [
+          5,
+          12,
+          15,
+          24,
+          35
+        ],
+        "sb": 10,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_coverage_1": {
+        "main": [
+          4,
+          13,
+          18,
+          26,
+          27
+        ],
+        "sb": 5,
+        "matches": 2,
+        "sb_hit": 1
+      },
+      "P0_coverage_2": {
+        "main": [
+          9,
+          24,
+          25,
+          26,
+          29
+        ],
+        "sb": 4,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_standalone_top": {
+        "main": [
+          5,
+          12,
+          24,
+          26,
+          27
+        ],
+        "sb": 5,
+        "matches": 1,
+        "sb_hit": 1
+      },
+      "V1_pool_per_draw_seed": {
+        "main": [
+          6,
+          7,
+          18,
+          22,
+          29
+        ],
+        "sb": 5,
+        "matches": 2,
+        "sb_hit": 1
+      },
+      "uniform_random_control": {
+        "main": [
+          8,
+          22,
+          25,
+          26,
+          32
+        ],
+        "sb": 10,
+        "matches": 1,
+        "sb_hit": 0
+      }
+    },
+    "standalone_rank_of_coverage": [
+      614,
+      329
+    ],
+    "universe": 792,
+    "T_std": 0.0,
+    "coverage_tickets_logged_T_rank": [
+      1,
+      1
+    ],
+    "weights_nonzero": false
+  },
+  {
+    "target": 1735,
+    "winners": [
+      7,
+      25,
+      30,
+      32,
+      34
+    ],
+    "sb": 8,
+    "period": "confirmation",
+    "tickets": {
+      "V1_fixed_slot (incumbent)": {
+        "main": [
+          4,
+          15,
+          18,
+          24,
+          25
+        ],
+        "sb": 10,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_coverage_1": {
+        "main": [
+          5,
+          12,
+          26,
+          27,
+          29
+        ],
+        "sb": 5,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_coverage_2": {
+        "main": [
+          5,
+          6,
+          10,
+          12,
+          24
+        ],
+        "sb": 4,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_standalone_top": {
+        "main": [
+          5,
+          12,
+          24,
+          26,
+          27
+        ],
+        "sb": 5,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "V1_pool_per_draw_seed": {
+        "main": [
+          6,
+          7,
+          18,
+          25,
+          28
+        ],
+        "sb": 10,
+        "matches": 2,
+        "sb_hit": 0
+      },
+      "uniform_random_control": {
+        "main": [
+          9,
+          14,
+          20,
+          25,
+          27
+        ],
+        "sb": 3,
+        "matches": 1,
+        "sb_hit": 0
+      }
+    },
+    "standalone_rank_of_coverage": [
+      317,
+      58
+    ],
+    "universe": 792,
+    "T_std": 0.0,
+    "coverage_tickets_logged_T_rank": [
+      1,
+      1
+    ],
+    "weights_nonzero": false
+  },
+  {
+    "target": 1736,
+    "winners": [
+      4,
+      5,
+      7,
+      11,
+      18
+    ],
+    "sb": 3,
+    "period": "confirmation",
+    "tickets": {
+      "V1_fixed_slot (incumbent)": {
+        "main": [
+          18,
+          24,
+          25,
+          28,
+          30
+        ],
+        "sb": 10,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_coverage_1": {
+        "main": [
+          4,
+          5,
+          12,
+          26,
+          27
+        ],
+        "sb": 5,
+        "matches": 2,
+        "sb_hit": 0
+      },
+      "P0_coverage_2": {
+        "main": [
+          6,
+          10,
+          15,
+          17,
+          29
+        ],
+        "sb": 4,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_standalone_top": {
+        "main": [
+          4,
+          5,
+          12,
+          24,
+          27
+        ],
+        "sb": 5,
+        "matches": 2,
+        "sb_hit": 0
+      },
+      "V1_pool_per_draw_seed": {
+        "main": [
+          2,
+          5,
+          12,
+          13,
+          29
+        ],
+        "sb": 9,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "uniform_random_control": {
+        "main": [
+          12,
+          14,
+          18,
+          30,
+          33
+        ],
+        "sb": 1,
+        "matches": 1,
+        "sb_hit": 0
+      }
+    },
+    "standalone_rank_of_coverage": [
+      242,
+      790
+    ],
+    "universe": 792,
+    "T_std": 0.0,
+    "coverage_tickets_logged_T_rank": [
+      1,
+      1
+    ],
+    "weights_nonzero": false
+  },
+  {
+    "target": 1737,
+    "winners": [
+      4,
+      9,
+      12,
+      14,
+      32
+    ],
+    "sb": 6,
+    "period": "confirmation",
+    "tickets": {
+      "V1_fixed_slot (incumbent)": {
+        "main": [
+          5,
+          10,
+          18,
+          24,
+          30
+        ],
+        "sb": 10,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_coverage_1": {
+        "main": [
+          4,
+          6,
+          12,
+          26,
+          27
+        ],
+        "sb": 5,
+        "matches": 2,
+        "sb_hit": 0
+      },
+      "P0_coverage_2": {
+        "main": [
+          12,
+          15,
+          17,
+          24,
+          29
+        ],
+        "sb": 4,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_standalone_top": {
+        "main": [
+          4,
+          5,
+          12,
+          18,
+          24
+        ],
+        "sb": 5,
+        "matches": 2,
+        "sb_hit": 0
+      },
+      "V1_pool_per_draw_seed": {
+        "main": [
+          12,
+          18,
+          24,
+          27,
+          30
+        ],
+        "sb": 5,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "uniform_random_control": {
+        "main": [
+          3,
+          5,
+          10,
+          14,
+          21
+        ],
+        "sb": 9,
+        "matches": 1,
+        "sb_hit": 0
+      }
+    },
+    "standalone_rank_of_coverage": [
+      308,
+      155
+    ],
+    "universe": 792,
+    "T_std": 0.0,
+    "coverage_tickets_logged_T_rank": [
+      1,
+      1
+    ],
+    "weights_nonzero": false
+  },
+  {
+    "target": 1738,
+    "winners": [
+      2,
+      18,
+      20,
+      24,
+      32
+    ],
+    "sb": 5,
+    "period": "confirmation",
+    "tickets": {
+      "V1_fixed_slot (incumbent)": {
+        "main": [
+          4,
+          10,
+          12,
+          16,
+          18
+        ],
+        "sb": 10,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_coverage_1": {
+        "main": [
+          5,
+          6,
+          24,
+          26,
+          27
+        ],
+        "sb": 5,
+        "matches": 1,
+        "sb_hit": 1
+      },
+      "P0_coverage_2": {
+        "main": [
+          4,
+          15,
+          17,
+          24,
+          29
+        ],
+        "sb": 4,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_standalone_top": {
+        "main": [
+          4,
+          5,
+          12,
+          24,
+          27
+        ],
+        "sb": 5,
+        "matches": 1,
+        "sb_hit": 1
+      },
+      "V1_pool_per_draw_seed": {
+        "main": [
+          2,
+          15,
+          20,
+          26,
+          29
+        ],
+        "sb": 6,
+        "matches": 2,
+        "sb_hit": 0
+      },
+      "uniform_random_control": {
+        "main": [
+          1,
+          7,
+          8,
+          17,
+          29
+        ],
+        "sb": 3,
+        "matches": 0,
+        "sb_hit": 0
+      }
+    },
+    "standalone_rank_of_coverage": [
+      185,
+      230
+    ],
+    "universe": 792,
+    "T_std": 0.0,
+    "coverage_tickets_logged_T_rank": [
+      1,
+      1
+    ],
+    "weights_nonzero": false
+  },
+  {
+    "target": 1739,
+    "winners": [
+      9,
+      18,
+      25,
+      26,
+      29
+    ],
+    "sb": 1,
+    "period": "confirmation",
+    "tickets": {
+      "V1_fixed_slot (incumbent)": {
+        "main": [
+          5,
+          10,
+          18,
+          24,
+          30
+        ],
+        "sb": 10,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_coverage_1": {
+        "main": [
+          4,
+          6,
+          12,
+          17,
+          27
+        ],
+        "sb": 5,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_coverage_2": {
+        "main": [
+          12,
+          24,
+          26,
+          29,
+          33
+        ],
+        "sb": 4,
+        "matches": 2,
+        "sb_hit": 0
+      },
+      "P0_standalone_top": {
+        "main": [
+          4,
+          5,
+          12,
+          18,
+          24
+        ],
+        "sb": 5,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "V1_pool_per_draw_seed": {
+        "main": [
+          1,
+          3,
+          13,
+          23,
+          26
+        ],
+        "sb": 6,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "uniform_random_control": {
+        "main": [
+          3,
+          10,
+          19,
+          27,
+          32
+        ],
+        "sb": 1,
+        "matches": 0,
+        "sb_hit": 1
+      }
+    },
+    "standalone_rank_of_coverage": [
+      302,
+      260
+    ],
+    "universe": 792,
+    "T_std": 0.0,
+    "coverage_tickets_logged_T_rank": [
+      1,
+      1
+    ],
+    "weights_nonzero": false
+  },
+  {
+    "target": 1740,
+    "winners": [
+      12,
+      13,
+      18,
+      23,
+      34
+    ],
+    "sb": 7,
+    "period": "confirmation",
+    "tickets": {
+      "V1_fixed_slot (incumbent)": {
+        "main": [
+          18,
+          24,
+          25,
+          28,
+          30
+        ],
+        "sb": 10,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_coverage_1": {
+        "main": [
+          4,
+          5,
+          6,
+          12,
+          27
+        ],
+        "sb": 5,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_coverage_2": {
+        "main": [
+          10,
+          11,
+          15,
+          17,
+          24
+        ],
+        "sb": 4,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_standalone_top": {
+        "main": [
+          4,
+          5,
+          12,
+          18,
+          24
+        ],
+        "sb": 5,
+        "matches": 2,
+        "sb_hit": 0
+      },
+      "V1_pool_per_draw_seed": {
+        "main": [
+          12,
+          18,
+          19,
+          24,
+          34
+        ],
+        "sb": 5,
+        "matches": 3,
+        "sb_hit": 0
+      },
+      "uniform_random_control": {
+        "main": [
+          6,
+          11,
+          14,
+          23,
+          35
+        ],
+        "sb": 9,
+        "matches": 1,
+        "sb_hit": 0
+      }
+    },
+    "standalone_rank_of_coverage": [
+      196,
+      513
+    ],
+    "universe": 792,
+    "T_std": 0.0,
+    "coverage_tickets_logged_T_rank": [
+      1,
+      1
+    ],
+    "weights_nonzero": false
+  },
+  {
+    "target": 1741,
+    "winners": [
+      1,
+      2,
+      10,
+      27,
+      30
+    ],
+    "sb": 10,
+    "period": "confirmation",
+    "tickets": {
+      "V1_fixed_slot (incumbent)": {
+        "main": [
+          12,
+          18,
+          19,
+          24,
+          34
+        ],
+        "sb": 10,
+        "matches": 0,
+        "sb_hit": 1
+      },
+      "P0_coverage_1": {
+        "main": [
+          4,
+          5,
+          6,
+          17,
+          27
+        ],
+        "sb": 5,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_coverage_2": {
+        "main": [
+          10,
+          11,
+          15,
+          24,
+          25
+        ],
+        "sb": 4,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_standalone_top": {
+        "main": [
+          4,
+          6,
+          12,
+          18,
+          24
+        ],
+        "sb": 5,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "V1_pool_per_draw_seed": {
+        "main": [
+          18,
+          22,
+          23,
+          24,
+          30
+        ],
+        "sb": 5,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "uniform_random_control": {
+        "main": [
+          4,
+          9,
+          13,
+          20,
+          27
+        ],
+        "sb": 10,
+        "matches": 1,
+        "sb_hit": 1
+      }
+    },
+    "standalone_rank_of_coverage": [
+      539,
+      628
+    ],
+    "universe": 792,
+    "T_std": 0.0,
+    "coverage_tickets_logged_T_rank": [
+      1,
+      1
+    ],
+    "weights_nonzero": false
+  },
+  {
+    "target": 1742,
+    "winners": [
+      6,
+      16,
+      19,
+      23,
+      24
+    ],
+    "sb": 4,
+    "period": "confirmation",
+    "tickets": {
+      "V1_fixed_slot (incumbent)": {
+        "main": [
+          18,
+          24,
+          25,
+          28,
+          30
+        ],
+        "sb": 2,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_coverage_1": {
+        "main": [
+          4,
+          6,
+          12,
+          17,
+          27
+        ],
+        "sb": 5,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_coverage_2": {
+        "main": [
+          12,
+          15,
+          16,
+          24,
+          33
+        ],
+        "sb": 4,
+        "matches": 2,
+        "sb_hit": 1
+      },
+      "P0_standalone_top": {
+        "main": [
+          4,
+          12,
+          17,
+          18,
+          24
+        ],
+        "sb": 5,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "V1_pool_per_draw_seed": {
+        "main": [
+          12,
+          17,
+          22,
+          23,
+          24
+        ],
+        "sb": 2,
+        "matches": 2,
+        "sb_hit": 0
+      },
+      "uniform_random_control": {
+        "main": [
+          10,
+          22,
+          26,
+          32,
+          34
+        ],
+        "sb": 8,
+        "matches": 0,
+        "sb_hit": 0
+      }
+    },
+    "standalone_rank_of_coverage": [
+      287,
+      366
+    ],
+    "universe": 792,
+    "T_std": 0.0,
+    "coverage_tickets_logged_T_rank": [
+      1,
+      1
+    ],
+    "weights_nonzero": false
+  },
+  {
+    "target": 1743,
+    "winners": [
+      1,
+      6,
+      13,
+      16,
+      17
+    ],
+    "sb": 1,
+    "period": "confirmation",
+    "tickets": {
+      "V1_fixed_slot (incumbent)": {
+        "main": [
+          16,
+          18,
+          25,
+          34,
+          35
+        ],
+        "sb": 2,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_coverage_1": {
+        "main": [
+          4,
+          6,
+          12,
+          17,
+          24
+        ],
+        "sb": 5,
+        "matches": 2,
+        "sb_hit": 0
+      },
+      "P0_coverage_2": {
+        "main": [
+          5,
+          11,
+          15,
+          27,
+          28
+        ],
+        "sb": 4,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_standalone_top": {
+        "main": [
+          4,
+          12,
+          17,
+          18,
+          24
+        ],
+        "sb": 5,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "V1_pool_per_draw_seed": {
+        "main": [
+          6,
+          18,
+          19,
+          31,
+          34
+        ],
+        "sb": 2,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "uniform_random_control": {
+        "main": [
+          3,
+          17,
+          20,
+          27,
+          31
+        ],
+        "sb": 10,
+        "matches": 1,
+        "sb_hit": 0
+      }
+    },
+    "standalone_rank_of_coverage": [
+      30,
+      790
+    ],
+    "universe": 792,
+    "T_std": 0.0,
+    "coverage_tickets_logged_T_rank": [
+      1,
+      1
+    ],
+    "weights_nonzero": false
+  },
+  {
+    "target": 1744,
+    "winners": [
+      1,
+      2,
+      25,
+      29,
+      30
+    ],
+    "sb": 7,
+    "period": "confirmation",
+    "tickets": {
+      "V1_fixed_slot (incumbent)": {
+        "main": [
+          6,
+          16,
+          19,
+          31,
+          34
+        ],
+        "sb": 2,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_coverage_1": {
+        "main": [
+          4,
+          12,
+          18,
+          24,
+          27
+        ],
+        "sb": 5,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_coverage_2": {
+        "main": [
+          5,
+          7,
+          9,
+          15,
+          17
+        ],
+        "sb": 8,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_standalone_top": {
+        "main": [
+          4,
+          6,
+          12,
+          18,
+          24
+        ],
+        "sb": 5,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "V1_pool_per_draw_seed": {
+        "main": [
+          6,
+          16,
+          19,
+          31,
+          34
+        ],
+        "sb": 2,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "uniform_random_control": {
+        "main": [
+          2,
+          7,
+          17,
+          25,
+          31
+        ],
+        "sb": 9,
+        "matches": 2,
+        "sb_hit": 0
+      }
+    },
+    "standalone_rank_of_coverage": [
+      6,
+      790
+    ],
+    "universe": 792,
+    "T_std": 0.0,
+    "coverage_tickets_logged_T_rank": [
+      1,
+      1
+    ],
+    "weights_nonzero": false
+  },
+  {
+    "target": 1745,
+    "winners": [
+      8,
+      14,
+      22,
+      29,
+      31
+    ],
+    "sb": 7,
+    "period": "confirmation",
+    "tickets": {
+      "V1_fixed_slot (incumbent)": {
+        "main": [
+          6,
+          18,
+          19,
+          31,
+          34
+        ],
+        "sb": 2,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_coverage_1": {
+        "main": [
+          4,
+          12,
+          17,
+          24,
+          27
+        ],
+        "sb": 5,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_coverage_2": {
+        "main": [
+          9,
+          15,
+          16,
+          25,
+          30
+        ],
+        "sb": 8,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_standalone_top": {
+        "main": [
+          4,
+          6,
+          12,
+          18,
+          24
+        ],
+        "sb": 5,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "V1_pool_per_draw_seed": {
+        "main": [
+          6,
+          14,
+          18,
+          19,
+          25
+        ],
+        "sb": 3,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "uniform_random_control": {
+        "main": [
+          1,
+          2,
+          5,
+          17,
+          31
+        ],
+        "sb": 1,
+        "matches": 1,
+        "sb_hit": 0
+      }
+    },
+    "standalone_rank_of_coverage": [
+      90,
+      792
+    ],
+    "universe": 792,
+    "T_std": 0.0,
+    "coverage_tickets_logged_T_rank": [
+      1,
+      1
+    ],
+    "weights_nonzero": false
+  },
+  {
+    "target": 1746,
+    "winners": [
+      1,
+      9,
+      27,
+      32,
+      35
+    ],
+    "sb": 4,
+    "period": "confirmation",
+    "tickets": {
+      "V1_fixed_slot (incumbent)": {
+        "main": [
+          6,
+          16,
+          19,
+          31,
+          34
+        ],
+        "sb": 2,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_coverage_1": {
+        "main": [
+          4,
+          12,
+          17,
+          18,
+          24
+        ],
+        "sb": 5,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_coverage_2": {
+        "main": [
+          9,
+          24,
+          25,
+          27,
+          30
+        ],
+        "sb": 7,
+        "matches": 2,
+        "sb_hit": 0
+      },
+      "P0_standalone_top": {
+        "main": [
+          4,
+          6,
+          12,
+          18,
+          24
+        ],
+        "sb": 5,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "V1_pool_per_draw_seed": {
+        "main": [
+          12,
+          18,
+          24,
+          27,
+          30
+        ],
+        "sb": 8,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "uniform_random_control": {
+        "main": [
+          3,
+          18,
+          20,
+          25,
+          32
+        ],
+        "sb": 4,
+        "matches": 1,
+        "sb_hit": 1
+      }
+    },
+    "standalone_rank_of_coverage": [
+      5,
+      572
+    ],
+    "universe": 792,
+    "T_std": 0.0,
+    "coverage_tickets_logged_T_rank": [
+      1,
+      1
+    ],
+    "weights_nonzero": false
+  },
+  {
+    "target": 1747,
+    "winners": [
+      6,
+      11,
+      12,
+      15,
+      22
+    ],
+    "sb": 6,
+    "period": "confirmation",
+    "tickets": {
+      "V1_fixed_slot (incumbent)": {
+        "main": [
+          6,
+          19,
+          25,
+          27,
+          34
+        ],
+        "sb": 2,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_coverage_1": {
+        "main": [
+          4,
+          12,
+          17,
+          18,
+          24
+        ],
+        "sb": 5,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_coverage_2": {
+        "main": [
+          1,
+          5,
+          6,
+          24,
+          30
+        ],
+        "sb": 4,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_standalone_top": {
+        "main": [
+          4,
+          6,
+          12,
+          18,
+          24
+        ],
+        "sb": 5,
+        "matches": 2,
+        "sb_hit": 0
+      },
+      "V1_pool_per_draw_seed": {
+        "main": [
+          3,
+          11,
+          15,
+          19,
+          33
+        ],
+        "sb": 5,
+        "matches": 2,
+        "sb_hit": 0
+      },
+      "uniform_random_control": {
+        "main": [
+          3,
+          11,
+          16,
+          29,
+          33
+        ],
+        "sb": 8,
+        "matches": 1,
+        "sb_hit": 0
+      }
+    },
+    "standalone_rank_of_coverage": [
+      8,
+      467
+    ],
+    "universe": 792,
+    "T_std": 0.0,
+    "coverage_tickets_logged_T_rank": [
+      1,
+      1
+    ],
+    "weights_nonzero": false
+  },
+  {
+    "target": 1748,
+    "winners": [
+      1,
+      21,
+      22,
+      23,
+      35
+    ],
+    "sb": 3,
+    "period": "confirmation",
+    "tickets": {
+      "V1_fixed_slot (incumbent)": {
+        "main": [
+          6,
+          19,
+          25,
+          27,
+          34
+        ],
+        "sb": 2,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_coverage_1": {
+        "main": [
+          4,
+          12,
+          17,
+          18,
+          24
+        ],
+        "sb": 5,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_coverage_2": {
+        "main": [
+          1,
+          6,
+          18,
+          22,
+          30
+        ],
+        "sb": 7,
+        "matches": 2,
+        "sb_hit": 0
+      },
+      "P0_standalone_top": {
+        "main": [
+          4,
+          6,
+          12,
+          18,
+          24
+        ],
+        "sb": 5,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "V1_pool_per_draw_seed": {
+        "main": [
+          4,
+          6,
+          13,
+          17,
+          18
+        ],
+        "sb": 2,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "uniform_random_control": {
+        "main": [
+          10,
+          14,
+          20,
+          31,
+          34
+        ],
+        "sb": 7,
+        "matches": 0,
+        "sb_hit": 0
+      }
+    },
+    "standalone_rank_of_coverage": [
+      22,
+      360
+    ],
+    "universe": 792,
+    "T_std": 0.0,
+    "coverage_tickets_logged_T_rank": [
+      1,
+      1
+    ],
+    "weights_nonzero": false
+  },
+  {
+    "target": 1749,
+    "winners": [
+      2,
+      3,
+      15,
+      23,
+      24
+    ],
+    "sb": 9,
+    "period": "confirmation",
+    "tickets": {
+      "V1_fixed_slot (incumbent)": {
+        "main": [
+          1,
+          22,
+          32,
+          34,
+          35
+        ],
+        "sb": 2,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_coverage_1": {
+        "main": [
+          4,
+          6,
+          12,
+          18,
+          24
+        ],
+        "sb": 5,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_coverage_2": {
+        "main": [
+          16,
+          17,
+          18,
+          27,
+          30
+        ],
+        "sb": 4,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_standalone_top": {
+        "main": [
+          1,
+          4,
+          6,
+          18,
+          24
+        ],
+        "sb": 5,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "V1_pool_per_draw_seed": {
+        "main": [
+          4,
+          6,
+          13,
+          17,
+          18
+        ],
+        "sb": 2,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "uniform_random_control": {
+        "main": [
+          7,
+          15,
+          16,
+          22,
+          31
+        ],
+        "sb": 6,
+        "matches": 1,
+        "sb_hit": 0
+      }
+    },
+    "standalone_rank_of_coverage": [
+      4,
+      706
+    ],
+    "universe": 792,
+    "T_std": 0.0,
+    "coverage_tickets_logged_T_rank": [
+      1,
+      1
+    ],
+    "weights_nonzero": false
+  },
+  {
+    "target": 1750,
+    "winners": [
+      11,
+      12,
+      15,
+      25,
+      31
+    ],
+    "sb": 8,
+    "period": "confirmation",
+    "tickets": {
+      "V1_fixed_slot (incumbent)": {
+        "main": [
+          2,
+          6,
+          22,
+          30,
+          35
+        ],
+        "sb": 2,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_coverage_1": {
+        "main": [
+          1,
+          4,
+          12,
+          18,
+          24
+        ],
+        "sb": 5,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_coverage_2": {
+        "main": [
+          6,
+          16,
+          17,
+          27,
+          34
+        ],
+        "sb": 7,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_standalone_top": {
+        "main": [
+          4,
+          6,
+          18,
+          22,
+          24
+        ],
+        "sb": 5,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "V1_pool_per_draw_seed": {
+        "main": [
+          1,
+          6,
+          18,
+          19,
+          27
+        ],
+        "sb": 6,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "uniform_random_control": {
+        "main": [
+          4,
+          7,
+          8,
+          20,
+          28
+        ],
+        "sb": 5,
+        "matches": 0,
+        "sb_hit": 0
+      }
+    },
+    "standalone_rank_of_coverage": [
+      39,
+      720
+    ],
+    "universe": 792,
+    "T_std": 0.0,
+    "coverage_tickets_logged_T_rank": [
+      1,
+      1
+    ],
+    "weights_nonzero": false
+  },
+  {
+    "target": 1751,
+    "winners": [
+      5,
+      18,
+      20,
+      26,
+      28
+    ],
+    "sb": 3,
+    "period": "confirmation",
+    "tickets": {
+      "V1_fixed_slot (incumbent)": {
+        "main": [
+          1,
+          16,
+          22,
+          31,
+          32
+        ],
+        "sb": 2,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_coverage_1": {
+        "main": [
+          4,
+          6,
+          12,
+          18,
+          24
+        ],
+        "sb": 5,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_coverage_2": {
+        "main": [
+          7,
+          17,
+          18,
+          23,
+          25
+        ],
+        "sb": 10,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_standalone_top": {
+        "main": [
+          6,
+          12,
+          18,
+          22,
+          24
+        ],
+        "sb": 2,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "V1_pool_per_draw_seed": {
+        "main": [
+          9,
+          11,
+          12,
+          17,
+          24
+        ],
+        "sb": 2,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "uniform_random_control": {
+        "main": [
+          3,
+          6,
+          11,
+          21,
+          22
+        ],
+        "sb": 4,
+        "matches": 0,
+        "sb_hit": 0
+      }
+    },
+    "standalone_rank_of_coverage": [
+      4,
+      710
+    ],
+    "universe": 792,
+    "T_std": 0.0,
+    "coverage_tickets_logged_T_rank": [
+      1,
+      1
+    ],
+    "weights_nonzero": false
+  },
+  {
+    "target": 1752,
+    "winners": [
+      9,
+      11,
+      18,
+      29,
+      35
+    ],
+    "sb": 5,
+    "period": "confirmation",
+    "tickets": {
+      "V1_fixed_slot (incumbent)": {
+        "main": [
+          1,
+          19,
+          22,
+          31,
+          32
+        ],
+        "sb": 2,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_coverage_1": {
+        "main": [
+          4,
+          6,
+          12,
+          18,
+          24
+        ],
+        "sb": 5,
+        "matches": 1,
+        "sb_hit": 1
+      },
+      "P0_coverage_2": {
+        "main": [
+          2,
+          7,
+          17,
+          23,
+          34
+        ],
+        "sb": 7,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_standalone_top": {
+        "main": [
+          1,
+          4,
+          6,
+          12,
+          22
+        ],
+        "sb": 5,
+        "matches": 0,
+        "sb_hit": 1
+      },
+      "V1_pool_per_draw_seed": {
+        "main": [
+          10,
+          11,
+          16,
+          21,
+          22
+        ],
+        "sb": 7,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "uniform_random_control": {
+        "main": [
+          6,
+          8,
+          9,
+          15,
+          23
+        ],
+        "sb": 7,
+        "matches": 1,
+        "sb_hit": 0
+      }
+    },
+    "standalone_rank_of_coverage": [
+      21,
+      792
+    ],
+    "universe": 792,
+    "T_std": 0.0,
+    "coverage_tickets_logged_T_rank": [
+      1,
+      1
+    ],
+    "weights_nonzero": false
+  },
+  {
+    "target": 1753,
+    "winners": [
+      1,
+      5,
+      8,
+      14,
+      18
+    ],
+    "sb": 3,
+    "period": "confirmation",
+    "tickets": {
+      "V1_fixed_slot (incumbent)": {
+        "main": [
+          1,
+          22,
+          32,
+          34,
+          35
+        ],
+        "sb": 2,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_coverage_1": {
+        "main": [
+          4,
+          6,
+          11,
+          12,
+          18
+        ],
+        "sb": 10,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_coverage_2": {
+        "main": [
+          2,
+          7,
+          17,
+          23,
+          24
+        ],
+        "sb": 1,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_standalone_top": {
+        "main": [
+          1,
+          6,
+          12,
+          18,
+          22
+        ],
+        "sb": 2,
+        "matches": 2,
+        "sb_hit": 0
+      },
+      "V1_pool_per_draw_seed": {
+        "main": [
+          9,
+          11,
+          12,
+          17,
+          24
+        ],
+        "sb": 5,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "uniform_random_control": {
+        "main": [
+          9,
+          11,
+          12,
+          20,
+          35
+        ],
+        "sb": 5,
+        "matches": 0,
+        "sb_hit": 0
+      }
+    },
+    "standalone_rank_of_coverage": [
+      30,
+      792
+    ],
+    "universe": 792,
+    "T_std": 0.0,
+    "coverage_tickets_logged_T_rank": [
+      1,
+      1
+    ],
+    "weights_nonzero": false
+  },
+  {
+    "target": 1754,
+    "winners": [
+      3,
+      4,
+      21,
+      23,
+      31
+    ],
+    "sb": 8,
+    "period": "confirmation",
+    "tickets": {
+      "V1_fixed_slot (incumbent)": {
+        "main": [
+          1,
+          2,
+          18,
+          34,
+          35
+        ],
+        "sb": 2,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_coverage_1": {
+        "main": [
+          4,
+          6,
+          11,
+          12,
+          22
+        ],
+        "sb": 5,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_coverage_2": {
+        "main": [
+          6,
+          7,
+          18,
+          23,
+          24
+        ],
+        "sb": 3,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_standalone_top": {
+        "main": [
+          1,
+          4,
+          6,
+          18,
+          22
+        ],
+        "sb": 5,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "V1_pool_per_draw_seed": {
+        "main": [
+          1,
+          9,
+          18,
+          24,
+          35
+        ],
+        "sb": 5,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "uniform_random_control": {
+        "main": [
+          1,
+          11,
+          23,
+          25,
+          32
+        ],
+        "sb": 9,
+        "matches": 1,
+        "sb_hit": 0
+      }
+    },
+    "standalone_rank_of_coverage": [
+      185,
+      367
+    ],
+    "universe": 792,
+    "T_std": 0.0,
+    "coverage_tickets_logged_T_rank": [
+      1,
+      1
+    ],
+    "weights_nonzero": false
+  },
+  {
+    "target": 1755,
+    "winners": [
+      3,
+      11,
+      15,
+      21,
+      33
+    ],
+    "sb": 1,
+    "period": "confirmation",
+    "tickets": {
+      "V1_fixed_slot (incumbent)": {
+        "main": [
+          1,
+          2,
+          18,
+          34,
+          35
+        ],
+        "sb": 2,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_coverage_1": {
+        "main": [
+          6,
+          11,
+          12,
+          22,
+          23
+        ],
+        "sb": 3,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_coverage_2": {
+        "main": [
+          7,
+          17,
+          18,
+          24,
+          25
+        ],
+        "sb": 7,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_standalone_top": {
+        "main": [
+          1,
+          6,
+          11,
+          12,
+          18
+        ],
+        "sb": 3,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "V1_pool_per_draw_seed": {
+        "main": [
+          9,
+          11,
+          18,
+          24,
+          25
+        ],
+        "sb": 2,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "uniform_random_control": {
+        "main": [
+          1,
+          3,
+          4,
+          5,
+          6
+        ],
+        "sb": 8,
+        "matches": 1,
+        "sb_hit": 0
+      }
+    },
+    "standalone_rank_of_coverage": [
+      261,
+      617
+    ],
+    "universe": 792,
+    "T_std": 0.0,
+    "coverage_tickets_logged_T_rank": [
+      1,
+      1
+    ],
+    "weights_nonzero": false
+  },
+  {
+    "target": 1756,
+    "winners": [
+      5,
+      7,
+      15,
+      29,
+      32
+    ],
+    "sb": 3,
+    "period": "confirmation",
+    "tickets": {
+      "V1_fixed_slot (incumbent)": {
+        "main": [
+          1,
+          6,
+          11,
+          18,
+          22
+        ],
+        "sb": 2,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_coverage_1": {
+        "main": [
+          2,
+          9,
+          12,
+          23,
+          24
+        ],
+        "sb": 7,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_coverage_2": {
+        "main": [
+          1,
+          12,
+          17,
+          18,
+          29
+        ],
+        "sb": 3,
+        "matches": 1,
+        "sb_hit": 1
+      },
+      "P0_standalone_top": {
+        "main": [
+          1,
+          6,
+          11,
+          12,
+          18
+        ],
+        "sb": 7,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "V1_pool_per_draw_seed": {
+        "main": [
+          7,
+          16,
+          19,
+          27,
+          34
+        ],
+        "sb": 3,
+        "matches": 1,
+        "sb_hit": 1
+      },
+      "uniform_random_control": {
+        "main": [
+          4,
+          5,
+          6,
+          13,
+          24
+        ],
+        "sb": 2,
+        "matches": 1,
+        "sb_hit": 0
+      }
+    },
+    "standalone_rank_of_coverage": [
+      647,
+      232
+    ],
+    "universe": 792,
+    "T_std": 0.0,
+    "coverage_tickets_logged_T_rank": [
+      1,
+      1
+    ],
+    "weights_nonzero": false
+  },
+  {
+    "target": 1757,
+    "winners": [
+      4,
+      23,
+      29,
+      31,
+      32
+    ],
+    "sb": 9,
+    "period": "confirmation",
+    "tickets": {
+      "V1_fixed_slot (incumbent)": {
+        "main": [
+          1,
+          2,
+          11,
+          15,
+          22
+        ],
+        "sb": 2,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "P0_coverage_1": {
+        "main": [
+          6,
+          12,
+          18,
+          23,
+          24
+        ],
+        "sb": 3,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_coverage_2": {
+        "main": [
+          1,
+          12,
+          17,
+          18,
+          29
+        ],
+        "sb": 7,
+        "matches": 1,
+        "sb_hit": 0
+      },
+      "P0_standalone_top": {
+        "main": [
+          1,
+          6,
+          11,
+          12,
+          18
+        ],
+        "sb": 3,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "V1_pool_per_draw_seed": {
+        "main": [
+          1,
+          12,
+          15,
+          18,
+          35
+        ],
+        "sb": 1,
+        "matches": 0,
+        "sb_hit": 0
+      },
+      "uniform_random_control": {
+        "main": [
+          5,
+          21,
+          23,
+          27,
+          35
+        ],
+        "sb": 3,
+        "matches": 1,
+        "sb_hit": 0
+      }
+    },
+    "standalone_rank_of_coverage": [
+      145,
+      110
+    ],
+    "universe": 792,
+    "T_std": 0.0,
+    "coverage_tickets_logged_T_rank": [
+      1,
+      1
+    ],
+    "weights_nonzero": false
+  }
+]

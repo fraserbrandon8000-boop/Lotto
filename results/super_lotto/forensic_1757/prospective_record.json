@@ -1,0 +1,150 @@
+{
+  "v1": [
+    [
+      1753,
+      1,
+      0
+    ],
+    [
+      1754,
+      0,
+      0
+    ],
+    [
+      1755,
+      0,
+      0
+    ],
+    [
+      1756,
+      0,
+      0
+    ],
+    [
+      1757,
+      0,
+      0
+    ]
+  ],
+  "v1_total_main": 1,
+  "v1_tickets": 5,
+  "v1_expected": 3.5714285714285716,
+  "v1_p_le": 0.09467007314191511,
+  "v1_sb_hits": 0,
+  "v1_p_sb0": 0.5904900000000001,
+  "v1_distinct_super_balls": [
+    2
+  ],
+  "p0": [
+    [
+      1755,
+      "P0_coverage_ticket_2",
+      1,
+      0
+    ],
+    [
+      1755,
+      "P0_coverage_ticket_3",
+      0,
+      0
+    ],
+    [
+      1756,
+      "P0_coverage_ticket_2",
+      0,
+      0
+    ],
+    [
+      1756,
+      "P0_coverage_ticket_3",
+      1,
+      1
+    ],
+    [
+      1757,
+      "P0_coverage_ticket_2",
+      1,
+      0
+    ],
+    [
+      1757,
+      "P0_coverage_ticket_3",
+      1,
+      0
+    ]
+  ],
+  "p0_total_main": 4,
+  "p0_tickets": 6,
+  "p0_sb_hits": 1,
+  "random_control": [
+    [
+      1755,
+      "random_control_ticket_1",
+      1,
+      0
+    ],
+    [
+      1755,
+      "random_control_ticket_2",
+      1,
+      0
+    ],
+    [
+      1755,
+      "random_control_ticket_3",
+      0,
+      0
+    ],
+    [
+      1756,
+      "random_control_ticket_1",
+      0,
+      0
+    ],
+    [
+      1756,
+      "random_control_ticket_2",
+      0,
+      0
+    ],
+    [
+      1756,
+      "random_control_ticket_3",
+      1,
+      1
+    ],
+    [
+      1757,
+      "random_control_ticket_1",
+      1,
+      0
+    ],
+    [
+      1757,
+      "random_control_ticket_2",
+      2,
+      0
+    ],
+    [
+      1757,
+      "random_control_ticket_3",
+      1,
+      0
+    ]
+  ],
+  "rc_total_main": 7,
+  "rc_sb_hits": 1,
+  "single_ticket_null": {
+    "main_pmf": [
+      0.4389770570984992,
+      0.42209332413317235,
+      0.12506468863205106,
+      0.013399788067719756,
+      0.00046206165750757784,
+      3.0804110500505186e-06
+    ],
+    "mean": 0.7142857142857143,
+    "p_sb": 0.1,
+    "p_jackpot": 3.080411050050519e-07
+  }
+}
