@@ -1,0 +1,7 @@
+{"version": "single-ticket-v1", "effective_from_draw": 1758, "purchase_tickets_per_draw": 1, "incumbent_purchase_track": "V1 Science (unchanged)", "incumbent_reason": "continuity; no validated predictive edge",
+ "shadow_tracks": ["P0 Coverage 1 (frozen 5cce8a37)", "P0 Coverage 2 (frozen 5cce8a37)", "S1 P0_standalone_top", "S2 V1_pool_per_draw_seed (seed 2026092109 + target)", "fixed random control (seed 2026093061)"],
+ "shadow_code": "scripts/research/super_single_shadows.py",
+ "promotion": {"min_prospective_draws": 50, "alpha": "0.05 / number of live challengers", "tests": ["mean main matches vs 5/7 (exact)", "SB hits vs 0.1 (exact binomial)"], "paired_vs_incumbent_lower95_gt_0": true, "robust_to_dropping_best_draw": true, "historical_evidence": "exploratory only"},
+ "ledgers": {"financial": "results/super_lotto/single_ticket_protocol/purchase_ledger.jsonl", "research": "results/super_lotto/prospective/ledger.jsonl"},
+ "default_ticket_cost_JMD": 300, "cost_note": "unverified 2026 price; replace with the actual amount paid",
+ "jackpot_probability_one_ticket": "1/3246320"}
